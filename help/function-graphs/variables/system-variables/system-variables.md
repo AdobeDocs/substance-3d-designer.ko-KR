@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 고급 워크플로우를 위해 Substance 3D Designer 함수 그래프에서 사용할 수 있는 내장 시스템 변수에 대해 알아봅니다.
 helpx_creative_field: ""

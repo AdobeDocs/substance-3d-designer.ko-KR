@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
 breadcrumb-title: ''
 description: 사용자 정의 함수 빌드를 위해 Substance 3D Designer 함수 그래프에서 사용할 수 있는 함수 노드에 대해 알아봅니다.
 helpx_creative_field: ""

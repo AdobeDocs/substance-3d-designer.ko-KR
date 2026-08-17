@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 메시 기반의 생성기 노드에 액세스하여 3D 메시 형상과 속성을 기반으로 텍스처를 생성합니다.
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ ht-degree: 4%
   하나 이상의 베이킹된 맵을 기반으로 하는 흑백 마스크 생성기.
 * [풍화](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   베이킹된 맵 기반의 완전 재료 풍화 효과.
-* [유틸리티](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [유틸리티](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   베이크를 사용할 수 있는 추가 유틸리티 및 도구.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
 breadcrumb-title: ''
 description: Fiber 2 노드를 사용하여 패브릭 및 재질 효과에 대해 사용자 정의 가능한 속성을 가진 고급 섬유 텍스처를 만들 수 있습니다.
 helpx_creative_field: ""

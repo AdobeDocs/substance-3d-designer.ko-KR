@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 튜토리얼 및 학습 리소스에 액세스하여 절차 자료 제작 기술을 익힐 수 있습니다.
 helpx_creative_field: ""

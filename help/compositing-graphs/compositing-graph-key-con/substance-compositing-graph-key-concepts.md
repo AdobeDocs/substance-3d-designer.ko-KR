@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: 노드, 연결 및 작업 과정 기초를 포함하여 Substance 합성 그래프의 주요 개념에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 하위 그래프/게시
 
-[그래프 게시](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 또는 하위 그래프 만들기 작업은 두 가지 매우 유사하고 추상적인 개념입니다. 즉, 모든 그래프 또는 노드 네트워크를 함께 &quot;패키지화&quot;하여 재사용 가능한 독립형 리소스로 변환할 수 있습니다. [하위 그래프](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 만드는 작업은 대부분 응용 프로그램 내에서 이루어지며, 특정 콘텐츠를 효율적이고 스마트한 작업 과정에서 재사용할 수 있도록 합니다. 이렇게 하면 노드 집합이 반복해서 중복되지 않습니다. 게시에는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 형식으로 내보내는 추가 단계가 포함되어 있어 언리얼 엔진용 재질을 만드는 경우처럼 응용 프로그램 외부에서 노드 네트워크 그래프를 사용할 수 있습니다.
+[그래프 게시](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 또는 하위 그래프 만들기 작업은 두 가지 매우 유사하고 추상적인 개념입니다. 즉, 모든 그래프 또는 노드 네트워크를 함께 &quot;패키지화&quot;하여 재사용 가능한 독립형 리소스로 변환할 수 있습니다. [하위 그래프](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 만드는 작업은 대부분 응용 프로그램 내에서 이루어지며, 특정 콘텐츠를 효율적이고 스마트한 작업 과정에서 재사용할 수 있도록 합니다. 이렇게 하면 노드 집합이 반복해서 중복되지 않습니다. 게시에는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 형식으로 내보내는 추가 단계가 포함되어 있어 언리얼 엔진용 재질을 만드는 경우처럼 응용 프로그램 외부에서 노드 네트워크 그래프를 사용할 수 있습니다.
 
 입력, 출력 및 노출 매개 변수는 그래프가 하위 그래프 또는 게시된 Substance 3D 에셋으로 사용되면 그래프와 계속 상호 작용할 수 있는 유일한 방법이므로 이 개념에 매우 중요합니다. 그 이유는 다음과 같습니다.
 

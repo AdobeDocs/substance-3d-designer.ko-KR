@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에 대한 개요를 보고 절차 자료 및 텍스처를 만들기 위한 기능에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -155,7 +155,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 
 * [비트맵](../../resources/bitmap-resource/bitmap-resource.md)
 * [벡터 그래픽 (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 메시 및 장면](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D 메시 및 장면](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [글꼴](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

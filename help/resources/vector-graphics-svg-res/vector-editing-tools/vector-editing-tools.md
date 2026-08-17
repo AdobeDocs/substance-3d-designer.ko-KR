@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 벡터 편집 툴을 사용하여 SVG 그래픽을 만들어 단계적인 텍스처에 적용할 수 있습니다.
 helpx_creative_field: ""

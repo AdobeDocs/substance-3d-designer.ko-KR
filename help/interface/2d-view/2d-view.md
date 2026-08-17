@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 2D 보기를 사용하여 재질 그래프에서 텍스처 출력을 미리 보고 검사할 수 있습니다.
 helpx_creative_field: ""
@@ -343,7 +343,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 설명서의 [비트맵 페인팅 편집기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) 페이지에서 자세히 알아볼 수 있습니다.
+> 설명서의 [비트맵 페인팅 편집기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) 페이지에서 자세히 알아볼 수 있습니다.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 설명서의 [벡터 그래픽 편집기(더 이상 사용되지 않음)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) 페이지에서 자세히 알아볼 수 있습니다.
+> 설명서의 [벡터 그래픽 편집기(더 이상 사용되지 않음)](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) 페이지에서 자세히 알아볼 수 있습니다.
 
 ![2D 보기 색상 관리](../../assets/2d-view-color-management-ocio.png "2D 보기 색상 관리"){width="360px"}
 

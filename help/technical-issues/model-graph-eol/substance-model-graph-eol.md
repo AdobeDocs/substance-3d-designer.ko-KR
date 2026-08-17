@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
 breadcrumb-title: ''
 description: Substance 모델 그래프 기능의 서비스 종료 상태에 대해 알아보고 다른 해결 방법을 찾아보십시오.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer용 릴리스 정보에 액세스하여 각 버전의 새로운 기능, 개선 사항 및 버그 수정 사항을 알아봅니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 흐림 효과 필터 노드에 액세스하여 텍스처를 매끄럽게 하고 부드럽게 하는 다양한 흐림 효과를 적용합니다.
 helpx_creative_field: ""

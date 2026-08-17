@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 사용자 환경 설정을 자동화하여 워크플로우 구성을 간소화하는 방법을 알아봅니다.
 helpx_creative_field: ""

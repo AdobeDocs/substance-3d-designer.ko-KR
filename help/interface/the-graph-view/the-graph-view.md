@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 그래프 보기를 사용하여 노드 기반의 재질 그래프를 만들고 편집하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -387,7 +387,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 </b>*- 정리:* [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드에 연결되지 않은 스트림의 일부인 모든 노드를 제거합니다.\
 *- 출력 내보내기:* [비트맵 내보내기 인터페이스](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)를 엽니다.\
 *- 출력 다시 내보내기:* 이전 내보내기 작업을 다시 수행합니다.\
-*- PSD 내보내기 도구:* [PSD 내보내기 인터페이스 열기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSD 내보내기 도구:* [PSD 내보내기 인터페이스 열기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png) <b>노드 이미지 캐시\
 </b>노드 이미지 캐시 표시를 토글합니다(아래 참조).

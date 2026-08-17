@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 비트맵 페인팅 도구를 사용하여 텍스처 편집을 위해 비트맵 리소스에 직접 페인팅할 수 있습니다.
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 *새* 비트맵은 다음과 같은 방법으로 만들 수 있습니다.
 
-* [탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 *SBS 패키지*&#x200B;의 RMB 또는 패키지 내의 *폴더*&#x200B;를 클릭하여 상황별 메뉴를 연 다음 <b>새로 만들기</b> 하위 메뉴를 열고 <b>비트맵</b> 옵션을 선택합니다
+* [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 *SBS 패키지*&#x200B;의 RMB 또는 패키지 내의 *폴더*&#x200B;를 클릭하여 상황별 메뉴를 연 다음 <b>새로 만들기</b> 하위 메뉴를 열고 <b>비트맵</b> 옵션을 선택합니다
 * [그래프](../../../interface/the-graph-view/the-graph-view.md)에서 [비트맵 노드](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)를 만들고 상황에 맞는 메뉴에서 <b>새 리소스에서...</b> 옵션을 선택합니다.
 
 새 비트맵 리소스의 *이름*, *해상도* 및 *배경색*&#x200B;을 설정할 수 있는 <b>새 비트맵</b> 창이 열립니다.

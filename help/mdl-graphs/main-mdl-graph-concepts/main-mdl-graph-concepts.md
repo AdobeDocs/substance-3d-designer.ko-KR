@@ -54,7 +54,7 @@ MDL 그래프의 결과는 <b>루트</b> 노드로 정의됩니다. 그래프의
 
 ![MDL 그래프의 루트 노드](../../assets/mdl-root-hl.png "MDL 그래프의 루트 노드")
 
-*MDL 그래프의 루트 노드 및 해당 속성이 [속성](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *패널*&#x200B;에 표시됨
+*MDL 그래프의 루트 노드 및 해당 속성이 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *패널*&#x200B;에 표시됨
 
 ## 커넥터 및 유형
 

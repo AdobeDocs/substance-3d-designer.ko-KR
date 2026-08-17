@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 튜토리얼
 
-[Substance 3D Tutorials](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) 웹사이트에서는 MDL 그래프와 관련된 다음 콘텐츠를 제공합니다.
+[Substance 3D Tutorials](https://helpx.adobe.com/kr/substance-3d/unlisted/tutorials.html) 웹사이트에서는 MDL 그래프와 관련된 다음 콘텐츠를 제공합니다.
 
 <table>
 <tr style="border: 0;">
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### Substance 3D Designer에서 MDL 만들기
 
-[이 시리즈](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/creating-an-mdl-in-substance-3d-designer/youtube-2-0-nyuri6w.html)은(는) Designer에서 MDL 그래프를 발견하고 MDL 재질을 사용하기 위한 *좋은 출발점*&#x200B;입니다.
+[이 시리즈](https://helpx.adobe.com/kr/substance-3d/unlisted/tutorials/courses/creating-an-mdl-in-substance-3d-designer/youtube-2-0-nyuri6w.html)은(는) Designer에서 MDL 그래프를 발견하고 MDL 재질을 사용하기 위한 *좋은 출발점*&#x200B;입니다.
 
 이 자습서에서 다루는 금속성 클리어코트 재질은 텍스처를 통해서만 정의할 수 없습니다. 다르게 작동하는 *두 개의 개별 Specular 밝은 영역*&#x200B;이 특징입니다. 즉, 반점이 있는 더 거친 금속성 코트 하나와 매우 부드러운 클리어코트입니다.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### MDL 말라카이트 재료 분해
 
-[이 문서](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/mdl-malachite-material-breakdown.html)는 텍스처로만 구현할 수 없는 *더 정교한* 재질 제작을 안내합니다. 여기서는 MDL 그래프와 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md) 간의 시너지 효과를 활용하여 매우 효율적으로 좋은 결과를 얻을 수 있습니다.
+[이 문서](https://helpx.adobe.com/kr/substance-3d/unlisted/tutorials/courses/mdl-malachite-material-breakdown.html)는 텍스처로만 구현할 수 없는 *더 정교한* 재질 제작을 안내합니다. 여기서는 MDL 그래프와 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md) 간의 시너지 효과를 활용하여 매우 효율적으로 좋은 결과를 얻을 수 있습니다.
 
 &quot;이 서사 튜토리얼에서는 CD PROJECT RED의 선임 환경 아티스트인 [Mark Foreman](https://www.artstation.com/oggyart)이(가) Materialize Contest의 MDL 자료를 분해합니다! [Substance share](https://share-legacy.substance3d.com/libraries/4043)에서 마크의 자료를 다운로드할 수 있습니다.&quot;
 

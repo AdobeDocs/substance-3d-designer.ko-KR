@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: '[파랑 노이즈 빠르게] 노드를 사용하면 고품질 텍스처 디더링과 변형을 만들 수 있는 빠른 파랑 노이즈 패턴을 생성할 수 있습니다.'
 helpx_creative_field: ""

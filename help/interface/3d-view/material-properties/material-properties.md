@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: 3D 보기에서 재질 속성을 구성하여 Substance 재질이 3D 오브젝트에 표시되는 방식을 미리 보고 조정합니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/user-interface-issues.html"
 breadcrumb-title: ''
 description: 디스플레이 문제 및 UI 결함을 포함한 Substance 3D Designer의 사용자 인터페이스 문제를 해결합니다.
 helpx_creative_field: ""
