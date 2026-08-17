@@ -45,7 +45,7 @@ ht-degree: 1%
 
 * **텍스처**: *색상/회색 음영 입력*\
   모양에 매핑할 텍스처.
-* **UV**: *색상 입력* PBR 렌더링 노드에서 필수 UV 데이터 입력](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)[
+* **UV**: *색상 입력* PBR 렌더링 노드에서 필수 UV 데이터 입력[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
 
 ## 매개변수
 

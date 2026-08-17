@@ -57,7 +57,7 @@ MDL 그래프에서 매개변수를 그래프 레벨에 노출하는 것, 즉 MD
 
 노출할 수 있는 노드의 컨텍스트 메뉴에는 <b>노출</b> 옵션이 있습니다. 대부분의 경우 부동 소수점, 색상 또는 텍스처 좌표와 같은 값이나 데이터를 생성하는 노드입니다.
 
-노드의 컨텍스트 메뉴에서 ![&quot;노출&quot; 옵션](../../assets/mdl-expose-float-menu-hl.png "&amp;quot;노출&amp;quot; 노드의 컨텍스트 메뉴에서 옵션")
+노드의 컨텍스트 메뉴에서 ![&quot;노출&quot; 옵션](../../assets/mdl-expose-float-menu-hl.png "&quot;노출&quot; 노드의 컨텍스트 메뉴에서 옵션")
 
 노드의 컨텍스트 메뉴에서 *&quot;노출&quot; 옵션*
 

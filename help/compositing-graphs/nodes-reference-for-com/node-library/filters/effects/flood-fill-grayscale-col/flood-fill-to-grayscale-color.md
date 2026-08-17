@@ -32,7 +32,7 @@ ht-degree: 2%
 
 **내부:** *필터/효과*
 
-****단순****
+**&#x200B;**&#x200B;단순&#x200B;**&#x200B;**
 
 </td>
 <td style="border: 0;" valign="top">
