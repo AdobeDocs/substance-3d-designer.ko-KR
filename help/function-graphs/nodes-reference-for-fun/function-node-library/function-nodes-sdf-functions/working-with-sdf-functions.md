@@ -272,7 +272,7 @@ SDF 함수를 사용하여 만든 모양에 기본 재질 관리를 사용할 �
 3D 뷰어 노드에서 사용하던 [테두리 프레임](#the-bounding-frame)과 일치하도록 **SDF 테두리 프레임 크기** 매개 변수를 조정하고 모양이 제대로 그려졌는지 확인하십시오.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-**모양 유형**&#x200B;이 `SDF function`(으)로 설정된 *모양 튄 v2.**SDF 경계 프레임 크기**가 모양에 맞게 조정되었습니다.*
+**모양 유형**&#x200B;이 `SDF function`(으)로 설정된 *모양 튄 v2.**SDF 경계 프레임 크기**&#x200B;가 모양에 맞게 조정되었습니다.*
 
 >[!TIP]
 > 
