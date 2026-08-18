@@ -465,15 +465,15 @@ vec2 회전(라디안)
 
 정규 분포
 
-무작위 균일 [-1, 1[
+무작위 균일 &lbrack;-1, 1&lbrack;
 
-무작위 균일 [a, b[
+무작위 균일 &lbrack;a, b&lbrack;
 
-무작위 균일 부동 소수점2 [a, b[
+무작위 균일 부동 소수점2 &lbrack;a, b&lbrack;
 
-무작위 균일 부동 소수점3 [a, b[
+무작위 균일 부동 소수점3 &lbrack;a, b&lbrack;
 
-무작위 균일 플로트4 [a, b[
+무작위 균일 플로트4 &lbrack;a, b&lbrack;
 
 </td>
 </tr>
