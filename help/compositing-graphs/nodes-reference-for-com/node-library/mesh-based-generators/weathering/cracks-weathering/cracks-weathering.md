@@ -1,0 +1,76 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+breadcrumb-title: ''
+description: 균열 풍화 노드를 사용하여 메쉬 곡률과 응력점을 기반으로 재료에 균열 패턴을 추가합니다.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 균열 웨더링
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 1%
+
+---
+
+
+# 균열 웨더링
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/cracks-weathering.png){width="128px"}
+
+## 균열 웨더링
+
+**내부:** *메쉬 기반 생성기**/풍화*
+
+**복합**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## 설명
+
+여러 채널에서 한 번에 작동하는 전체 재질 효과입니다. 스프레드와 깊이를 제어하는 무작위 크랙 패턴을 추가합니다.
+
+전체 재질을 사용하여 작업할 때는 [링크 만들기 모드](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)를 올바르게 이해해야 합니다.
+
+## 매개변수
+
+### 입력
+
+* **곡률**: *회색 음영 입력*\
+  내부 효과 및 마스크에 사용되는 구워지거나 생성된 맵
+* **Height** : *회색 음영 입력*\
+  내부 효과 및 마스크에 사용되는 구워지거나 생성된 맵
+* **마스크** : *회색 음영 입력*\
+  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크&quot; 매개 변수로 전환할 수 있습니다.
+
+### 매개변수
+
+* **채널**
+  * 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다.
+* **고급**
+  * **표준 형식**: *DirectX, OpenGL*\
+    서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다).
+  * **마스크**: *False/True*\
+    마스크 맵 사용을 설정하거나 해제합니다.
+* **효과**
+  * **균열 전파**: *0.0 - 1.0*&#x200B;균열의 확산 정도. 이 효과의 기본 컨트롤입니다.
+  * **균열 깊이**: 균열 효과의 *0.0 - 1.0*&#x200B;깊이. 이는 대부분 Height에 영향을 미치고, 시각적 Thickness에 약간 영향을 미친다.
+* **혼합**
+  * 각 결과 채널에 효과가 얼마나 강하게 혼합되는지 제어합니다.
+
+## 예제 이미지
+
+![](../../../../../../assets/cracks-ex.gif)
+
+</td>
+</tr>
+</table>
