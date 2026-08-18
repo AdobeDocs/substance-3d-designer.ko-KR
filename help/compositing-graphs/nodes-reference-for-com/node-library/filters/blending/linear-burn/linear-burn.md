@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
 breadcrumb-title: ''
 description: '[선형 번] 노드를 사용하면 어둡게 하기 및 대비 효과를 만들기 위해 선형 번 모드를 사용하여 텍스처를 혼합할 수 있습니다.'
 helpx_creative_field: ""

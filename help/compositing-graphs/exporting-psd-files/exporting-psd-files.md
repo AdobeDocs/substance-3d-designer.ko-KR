@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: Adobe Photoshop 및 기타 이미지 편집 작업 과정에서 사용할 Substance 합성 그래프를 PSD 파일로 내보내는 방법을 알아봅니다.
 helpx_creative_field: ""

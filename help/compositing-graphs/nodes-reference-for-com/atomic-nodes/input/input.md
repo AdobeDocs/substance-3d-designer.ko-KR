@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 입력 노드를 사용하여 사용자가 표시하고 조정할 수 있는 Substance 그래프에 대한 입력 매개변수를 생성합니다.
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 입력 노드에 대한 *입력 기준* 상속 메서드는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)에서 *지원되지 않음*&#x200B;입니다. 패키지를 게시하기 전에 모든 입력 노드의 상속 메서드를 *부모에 대한 상대*(으)로 설정하십시오.
+> 입력 노드에 대한 *입력 기준* 상속 메서드는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/kr/substance-3d-assets.html)에서 *지원되지 않음*&#x200B;입니다. 패키지를 게시하기 전에 모든 입력 노드의 상속 메서드를 *부모에 대한 상대*(으)로 설정하십시오.
 
 ## 통합 특성
 

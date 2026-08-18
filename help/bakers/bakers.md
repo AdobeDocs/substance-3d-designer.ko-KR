@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 베이커를 사용하여 메시 기반 정보를 텍스처 파일로 계산하는 방법을 알아봅니다.
 helpx_creative_field: ""

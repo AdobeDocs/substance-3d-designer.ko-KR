@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: 3D 텍스처 볼륨 렌더링 노드를 사용하여 3D 데이터에서 흐림 및 안개 효과를 만들기 위한 볼륨 텍스처를 렌더링합니다.
 helpx_creative_field: ""

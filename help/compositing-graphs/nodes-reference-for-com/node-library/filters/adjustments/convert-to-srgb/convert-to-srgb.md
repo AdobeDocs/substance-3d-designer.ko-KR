@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
 breadcrumb-title: ''
 description: sRGB로 변환 노드를 사용하여 디스플레이 및 출력 워크플로우에 사용할 텍스처를 선형 색상 공간에서 sRGB 색상 공간으로 변환합니다.
 helpx_creative_field: ""

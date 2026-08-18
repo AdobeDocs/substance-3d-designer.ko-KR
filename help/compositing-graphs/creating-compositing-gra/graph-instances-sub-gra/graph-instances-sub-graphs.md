@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: 그래프 인스턴스 및 하위 그래프를 사용하여 재사용 가능한 그래프 구성 요소 및 모듈식 재질 워크플로우를 생성합니다.
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ Designer에서 노드 체인을 복제할 때마다 해당 체인을 하위 그�
 
 ### 내 그래프 인스턴스를 노드 라이브러리에 추가할 수 있습니까?
 
-<b>예, </b>할 수 있지만 특정 설정이 필요합니다. 이 설명서의 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 페이지에서 자세히 알아보십시오.
+<b>예, </b>할 수 있지만 특정 설정이 필요합니다. 이 설명서의 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 페이지에서 자세히 알아보십시오.
 
 ### 그래프 인스턴스의 소스 그래프를 검사할 수 있습니까?
 

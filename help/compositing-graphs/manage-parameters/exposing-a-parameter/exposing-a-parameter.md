@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 합성 그래프에서 매개 변수를 노출하여 재사용할 수 있고 사용자 정의할 수 있는 재질로 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### 단일 노출 방법
 
-1. 특정 매개 변수 탭 아래의 [속성 창](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)에서 표시할 매개 변수를 찾습니다
+1. 특정 매개 변수 탭 아래의 [속성 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)에서 표시할 매개 변수를 찾습니다
 1. ![](../../../assets/image2020-9-17-15-35-59.png) 드롭다운 옵션 단추를 클릭합니다.
 1. 첫 번째 옵션인 드롭다운 목록에서 ![](../../../assets/image2020-9-17-15-37-7.png) <b>새 그래프 입력으로 표시</b>를 선택합니다.
 1. <b>매개 변수 노출</b> 대화 상자가 나타나면 매개 변수 속성을 원하는 대로 설정합니다.
@@ -79,7 +79,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 대부분의 숫자 필드는 *기본 수식*&#x200B;을 입력으로 지원합니다(예: `17+3.5`, `7/3`, `(4+2)*3`). 수식을 확인하려면 *Enter*&#x200B;을(를) 누르면 결과가 필드에 입력됩니다. 공식이 유효하지 않으면 필드가 이전 값으로 되돌아갑니다.\
-> [속성](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 도크와 같은 응용 프로그램의 다른 부분에 있는 일부 숫자 필드도 이 기능을 지원합니다.
+> [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 도크와 같은 응용 프로그램의 다른 부분에 있는 일부 숫자 필드도 이 기능을 지원합니다.
 
 ![일괄 노출 메서드 연습](../../../assets/batch-expose-2.gif "일괄 노출 메서드 연습"){width="512px"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | --- | --- |
 | [그레이디언트 경사](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [곡선 편집기](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [글꼴](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [레벨 막대 그래프](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 사용자가 만든 매개 변수에 사용할 수 없는 위젯이 필요합니다. |
 
-다른 중요한 제한 사항은 [정적 매개 변수](../../../glossary/glossary.md)와 관련이 있습니다. [게시된 Substance 3D 에셋](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)에서 변경할 수 없습니다.
+다른 중요한 제한 사항은 [정적 매개 변수](../../../glossary/glossary.md)와 관련이 있습니다. [게시된 Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)에서 변경할 수 없습니다.
 
 정적 매개 변수 - 동적 매개 변수와는 반대로 - *그래프를*&#x200B;조리&#x200B;*한 후에는 즉시 편집할 수 없습니다*. 즉, 알고리즘을 빠르고 효율적으로 실행하기 위해 처리됩니다. 그래프가 *편집* 또는 *게시*&#x200B;될 때마다 Designer에서 요리가 수행됩니다.
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 미리 보기 모드는 [게시된 Substance 3D 에셋](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)의 경험을 최대한 정확하게 표현하기 위한 것입니다. 따라서 *정적 매개 변수가 목록에 없는 경우*&#x200B;와 같이 이 페이지에 나열된 제한 사항이 이 모드에 적용됩니다.
+> 미리 보기 모드는 [게시된 Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)의 경험을 최대한 정확하게 표현하기 위한 것입니다. 따라서 *정적 매개 변수가 목록에 없는 경우*&#x200B;와 같이 이 페이지에 나열된 제한 사항이 이 모드에 적용됩니다.
 
 ![입력 매개 변수 복사 및 붙여넣기](../../../assets/copy-paste-params-2.gif "입력 매개 변수 복사 및 붙여넣기"){width="512px"}
 
