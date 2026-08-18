@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 SBSPRJ 프로젝트 구성 파일을 사용하여 프로젝트 설정을 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 <b>일반: </b>그래프 템플릿, 접선 공간 플러그인, 표준 및 이미지 형식 기본값.
 
-<b>라이브러리: </b>라이브러리에 표시할 경로와 [라이브러리 보기에 대한 필터 및 범주](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)가 표시되었습니다.
+<b>라이브러리: </b>라이브러리에 표시할 경로와 [라이브러리 보기에 대한 필터 및 범주](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)가 표시되었습니다.
 
 <b>MDL: </b>MDL 감시 경로.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 프로젝트 파일 관리 및 프로젝트 설정 변경에 대해 자세히 알아보려면 [프로젝트 설정](../../interface/preferences-window/project-settings/project-settings.md) 페이지를 참고하십시오.
 
-프로젝트 파일에는 [라이브러리](../../interface/the-library/the-library.md)에 대한 사용자 지정 <b>범주</b> 및 <b>필터</b>도 포함되어 있습니다. 자세한 내용은 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 페이지를 참조하세요.
+프로젝트 파일에는 [라이브러리](../../interface/the-library/the-library.md)에 대한 사용자 지정 <b>범주</b> 및 <b>필터</b>도 포함되어 있습니다. 자세한 내용은 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 페이지를 참조하세요.
 
 ## 외부에서 XML 편집
 

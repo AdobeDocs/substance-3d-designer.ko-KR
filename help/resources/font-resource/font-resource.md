@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 글꼴 리소스를 가져와서 사용하여 텍스트에 텍스트와 타이포그래피를 추가할 수 있습니다.
 helpx_creative_field: ""

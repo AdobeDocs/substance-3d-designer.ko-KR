@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 다양한 미리 보기 품질과 성능을 위해 3D 보기에서 래스터라이저와 패스파트레서 렌더러 중 하나를 선택합니다.
 helpx_creative_field: ""

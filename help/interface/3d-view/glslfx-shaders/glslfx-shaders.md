@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 3D 보기에서 GLSLFX 셰이더를 사용하여 재질 렌더링 및 미리 보기 효과를 사용자 정의할 수 있습니다.
 helpx_creative_field: ""

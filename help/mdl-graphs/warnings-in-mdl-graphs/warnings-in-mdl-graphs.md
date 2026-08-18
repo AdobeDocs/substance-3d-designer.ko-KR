@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 [Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)의 MDL 그래프로 트리거될 수 있는 경고 및 오류 메시지를 나열하고 각각에 대한 일반적인 문제 해결 단계를 제공합니다.
 
-[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 그래프 리소스에 대한 경고 아이콘의 도구 설명뿐만 아니라 그래프가 로드된 경우 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)의 왼쪽 아래 모서리에 경고가 표시됩니다.
+[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 그래프 리소스에 대한 경고 아이콘의 도구 설명뿐만 아니라 그래프가 로드된 경우 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)의 왼쪽 아래 모서리에 경고가 표시됩니다.
 
 >[!NOTE]
 >

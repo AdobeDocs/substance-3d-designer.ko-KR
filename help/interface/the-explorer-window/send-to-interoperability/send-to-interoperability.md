@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 상호 운용성으로 보내기 기능을 사용하여 자료를 다른 애플리케이션으로 내보냅니다.
 helpx_creative_field: ""
@@ -22,12 +22,12 @@ ht-degree: 1%
 
 ![Designer에서 Substance 3D 앱으로 보내기](../../../assets/explorer-interop.png "Designer에서 Substance 3D 앱으로 보내기"){width="512px"}
 
-Adobe Substance 3D Designer은 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 및 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)와 상호 운용성을 갖습니다. 이를 통해 신속하게 작업하여 Substance 3D 에코시스템에 대한 반복을 용이하게 하고 *보내기* 및 *재전송*&#x200B;할 수 있습니다.
+Adobe Substance 3D Designer은 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 및 [Substance 3D Stager](https://www.adobe.com/kr/products/substance3d-stager.html)와 상호 운용성을 갖습니다. 이를 통해 신속하게 작업하여 Substance 3D 에코시스템에 대한 반복을 용이하게 하고 *보내기* 및 *재전송*&#x200B;할 수 있습니다.
 
 일반적으로 워크플로우는 다음과 같습니다.
 
 1. [Substance 그래프의 속성](../../../compositing-graphs/graph-parameters/graph-parameters.md)에서 <b>Type</b> 특성 설정
-1. [탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 보낼 패키지를 선택합니다
+1. [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 보낼 패키지를 선택합니다
 1. 탐색기의 <b>Publish/보내기</b> 드롭다운에서 대상 응용 프로그램을 선택합니다
 1. 그래프를 변경합니다.
 1. 3단계를 반복하여 패키지를 다시 전송하고 변경 사항으로 기존 전송 에셋을 업데이트합니다
@@ -55,12 +55,12 @@ Substance 그래프에는 다양한 기능이 있을 수 있습니다. 그래프
 </tr>
 </table>
 
-* 설정하지 않은 경우 **지정되지 않음**&#x200B;이 기본 형식입니다. 전송하는 응용 프로그램에 따라 다르게 해석될 수 있습니다. [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)은(는) 기본적으로 재질로 설정됩니다.
+* 설정하지 않은 경우 **지정되지 않음**&#x200B;이 기본 형식입니다. 전송하는 응용 프로그램에 따라 다르게 해석될 수 있습니다. [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html)은(는) 기본적으로 재질로 설정됩니다.
 * **표준 재질**&#x200B;은 다중 채널 PBR 재질에 대한 것으로 [출력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 레이블이 올바르게 지정되어 있습니다.
-* **데칼 재질**&#x200B;은 알파 채널이 있는 다중 채널 PBR 재질을 위한 것으로, [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)에서 데칼로 적용됩니다.
-* **Atlas 재질**&#x200B;은 Designer 또는 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)에서 [Atlas Scatter 노드](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)와 함께 사용할 수 있도록 여러 개의 아틀라스 이미지로 구성된 다중 채널 PBR 재질입니다.
-* **필터**&#x200B;는 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)에서 사용되는 범용 필터입니다.
-* **메시 기반 생성기**&#x200B;는 다중 입력 마스크 생성기용입니다. [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)에서만 사용됩니다.
+* **데칼 재질**&#x200B;은 알파 채널이 있는 다중 채널 PBR 재질을 위한 것으로, [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html)에서 데칼로 적용됩니다.
+* **Atlas 재질**&#x200B;은 Designer 또는 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html)에서 [Atlas Scatter 노드](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)와 함께 사용할 수 있도록 여러 개의 아틀라스 이미지로 구성된 다중 채널 PBR 재질입니다.
+* **필터**&#x200B;는 [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html)에서 사용되는 범용 필터입니다.
+* **메시 기반 생성기**&#x200B;는 다중 입력 마스크 생성기용입니다. [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html)에서만 사용됩니다.
 * **텍스처 생성기**&#x200B;는 2D 절차 및 노이즈와 같은 단일 채널 맵용입니다.
 * **환경 조명**&#x200B;은 장면 및 개체를 조명하는 데 사용되는 단일 채널 조명 환경용입니다.
 * **조명 텍스처**&#x200B;는 실제 조명에 적용된 단일 채널 텍스처에 대한 것입니다.
@@ -76,7 +76,7 @@ Substance 그래프에는 다양한 기능이 있을 수 있습니다. 그래프
 콘텐츠를 보내는 것은 다음과 같은 방법으로 수행할 수 있습니다.
 
 * 패키지를 마우스 오른쪽 단추로 클릭하고 <b>보내기...컨텍스트 메뉴의 </b> 하위 메뉴를 선택한 다음 <b>보내기...대상 응용 프로그램에 대한 </b> 옵션;
-* [탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널 위쪽의 ![](../../../assets/sendto-icon.jpg) <b>Publish/보내기</b> 단추를 클릭한 다음 <b>보내기...를 선택합니다.대상 응용 프로그램에 대한 </b> 옵션입니다.
+* [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널 위쪽의 ![](../../../assets/sendto-icon.jpg) <b>Publish/보내기</b> 단추를 클릭한 다음 <b>보내기...를 선택합니다.대상 응용 프로그램에 대한 </b> 옵션입니다.
 
 </td>
 <td style="border: 0;" valign="top">

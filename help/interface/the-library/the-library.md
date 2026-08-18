@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 라이브러리를 사용하여 노드 사전 설정, 재질, 사용자 정의 콘텐츠에 액세스하고 관리할 수 있습니다.
 helpx_creative_field: ""
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * [SBS](../../getting-started/overview/overview.md) 및 [SBSAR](../../getting-started/overview/overview.md) 파일의 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)은 *첫 번째 출력*&#x200B;으로 표시되거나 그래프 작성자가 설정한 경우 *사용자 지정 아이콘*&#x200B;으로 표시됩니다
 * [비트맵](../../resources/bitmap-resource/bitmap-resource.md) 및 [벡터 그래픽(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)은 비트맵 자체의 *미니어처 렌더링*&#x200B;으로 표시됩니다
-* [3D 메시](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [함수 그래프](../../function-graphs/the-function-graph/the-function-graph.md), [글꼴](../../resources/font-resource/font-resource.md) 및 [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 파일은 각 유형에 대해 *일반 아이콘*&#x200B;으로 표시됩니다
+* [3D 메시](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [함수 그래프](../../function-graphs/the-function-graph/the-function-graph.md), [글꼴](../../resources/font-resource/font-resource.md) 및 [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 파일은 각 유형에 대해 *일반 아이콘*&#x200B;으로 표시됩니다
 
 >[!WARNING]
 >

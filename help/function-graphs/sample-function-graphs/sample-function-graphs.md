@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 샘플 함수 그래프를 탐색하여 고급 기법 및 모범 사례를 알아보십시오.
 helpx_creative_field: ""

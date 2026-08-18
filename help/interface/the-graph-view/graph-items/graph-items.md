@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: 그래프 구성을 위한 프레임, 주석, 핀 및 포털 노드를 포함한 Substance 3D Designer의 그래프 항목에 대해 알아봅니다.
 helpx_creative_field: ""

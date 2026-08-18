@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/nodes-and-properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 플러그인의 노드 및 속성을 만들고 조작하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

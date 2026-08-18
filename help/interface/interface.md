@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 보기, 패널, 사용자 정의 옵션 등 Substance 3D Designer 작업 영역 인터페이스에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ Designer의 기본 도킹 레이아웃은 다음과 같습니다.
 
 ## 속성
 
-[속성 도킹](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)이 가장 기술적인 창입니다. 이 옵션은 항상 문맥에 따라 달라지며 선택된 자원 또는 노드의 동작을 변경하는 슬라이더, 드롭다운 및 기타 요소를 표시합니다.
+[속성 도킹](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)이 가장 기술적인 창입니다. 이 옵션은 항상 문맥에 따라 달라지며 선택된 자원 또는 노드의 동작을 변경하는 슬라이더, 드롭다운 및 기타 요소를 표시합니다.
 
 ![속성](../assets/properties-15.jpg "속성")
 

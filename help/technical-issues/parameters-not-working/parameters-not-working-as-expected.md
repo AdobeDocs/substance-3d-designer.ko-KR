@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Substance 그래프 매개 변수가 예상대로 작동하지 않는 문제를 해결하고 해결 방법을 찾으십시오.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 <b>![(오류)](../../assets/error.svg) 문제</b>
 
-Designer에서 [미리 보기 모드](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)를 사용하거나 해당 그래프에서 게시된 [Substance 3D 에셋](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)의 매개 변수 목록에 그래프에 대해 노출된 매개 변수가 *나열되지 않음*&#x200B;입니다.
+Designer에서 [미리 보기 모드](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)를 사용하거나 해당 그래프에서 게시된 [Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)의 매개 변수 목록에 그래프에 대해 노출된 매개 변수가 *나열되지 않음*&#x200B;입니다.
 
 <b>![(틱)](../../assets/check.svg)권장 단계</b>
 

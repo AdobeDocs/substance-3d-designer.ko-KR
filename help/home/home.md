@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: Substance 3D Designer을 사용하여 절차 재질, 텍스처, 3D 에셋을 노드 기반 워크플로우로 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Designer에서 사용되는 단어나 개념이 익숙하지 않습니까? [용�
 
 * [활성화 및 라이선스](../getting-started/activation-and-licenses/activation-and-licenses.md) — 이 페이지에는 Designer를 사용할 수 있도록 라이선스를 활성화하고 관리하는 방법에 대한 정보가 있습니다.
 * [시스템 요구 사항](../getting-started/system-requirements/system-requirements.md) — 이 페이지에는 시스템 요구 사항 및 하드웨어 호환성 정보가 나열되어 있습니다.
-* [개요](../getting-started/overview/overview.md) — 이 페이지에서는 Substance 3D Designer 개요, https://www.adobe.com/products/substance3d-designer.html, 다른 Substance 에코시스템 애플리케이션과의 차이점, 작업할 파일 유형 및 리소스의 종류를 소개합니다.
+* [개요](../getting-started/overview/overview.md) — 이 페이지에서는 Substance 3D Designer 개요, https://www.adobe.com/kr/products/substance3d-designer.html, 다른 Substance 에코시스템 애플리케이션과의 차이점, 작업할 파일 유형 및 리소스의 종류를 소개합니다.
 * [워크플로우 개요](../getting-started/workflow-overview/workflow-overview.md) — 이 페이지에서는 노드 기반 워크플로우의 개념을 설명하고 Designer에서 만들 수 있는 3가지 기본 그래프 유형에 대한 요약을 제공합니다.
 * [단축키](../getting-started/shortcuts/shortcuts.md) — 이 페이지에서는 Substance 3D Designer의 모든 단축키에 대한 개요를 볼 수 있습니다.
 * [튜토리얼 및 학습](../getting-started/tutorials-learning/tutorials-learning.md) — 비디오와 기타 집중 학습 자료를 이용하려는 경우 다음 튜토리얼이 시작하는 데 적합합니다.
@@ -47,7 +47,7 @@ Designer에서 사용되는 단어나 개념이 익숙하지 않습니까? [용�
 ## 인터페이스
 
 * [홈 화면](../interface/home-screen/home-screen.md) — Substance 3D Designer를 시작하면 홈 화면으로 시작합니다. 이 화면에서 이 소프트웨어를 사용하여 작업을 시작하고 가장 유용한 링크에 액세스할 수 있습니다.
-* [작업 영역 사용자 지정](../interface/customizing-your-wor/customizing-your-workspace.md) — 이 페이지에서는 Adobe Substance 3D Designer의 https://www.adobe.com/products/substance3d-designer.html, 사용자 인터페이스에서 패널을 배열하고 그 기능을 활용하여 워크플로우를 개선하는 방법을 설명합니다.
+* [작업 영역 사용자 지정](../interface/customizing-your-wor/customizing-your-workspace.md) — 이 페이지에서는 Adobe Substance 3D Designer의 https://www.adobe.com/kr/products/substance3d-designer.html, 사용자 인터페이스에서 패널을 배열하고 그 기능을 활용하여 워크플로우를 개선하는 방법을 설명합니다.
 * [기본 도구 모음](../interface/the-main-toolbar/the-main-toolbar.md) — 이 페이지에서는 기본 창의 왼쪽 상단에 나타나는 Adobe Substance 3D Designer의 기본 도구 모음과 메뉴에 대해 설명합니다.
 * [환경 설정](../interface/preferences-window/preferences-window.md) — 이 페이지에서는 환경 설정 창과 모든 설정을 설명합니다.
 * [탐색기](../interface/the-explorer-window/the-explorer-window.md) — 이 페이지에서는 Adobe Substance 3D Designer의 탐색기 도크에 대해 설명합니다. 이 도크를 사용하여 패키지 및 리소스를 관리할 수 있습니다.

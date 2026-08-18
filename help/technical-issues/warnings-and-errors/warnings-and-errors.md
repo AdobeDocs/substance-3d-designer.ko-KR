@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 일반적인 경고 및 오류에 대한 해결 방법을 찾아 문제를 빠르게 해결하십시오.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 
 ### 탐색기
 
-경고가 있는 [탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](../../assets/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
+경고가 있는 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](../../assets/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
 
 다음과 같은 규칙을 따릅니다.
 
@@ -83,7 +83,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 
 ### 속성
 
-경고가 있는 [속성](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](../../assets/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
+경고가 있는 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](../../assets/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
 
 다음과 같은 규칙을 따릅니다.
 
@@ -106,7 +106,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 
 ### 콘솔
 
-경고 및 오류는 모두 [기본 메뉴](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)의 **Windows** 메뉴를 통해 액세스할 수 있는 **콘솔** 패널에 보고됩니다. **채널** 설정을 `ErrorMgr`(으)로 설정하여 나머지 콘솔 항목에서 경고 및 오류를 격리할 수 있습니다.
+경고 및 오류는 모두 [기본 메뉴](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)의 **Windows** 메뉴를 통해 액세스할 수 있는 **콘솔** 패널에 보고됩니다. **채널** 설정을 `ErrorMgr`(으)로 설정하여 나머지 콘솔 항목에서 경고 및 오류를 격리할 수 있습니다.
 
 >[!NOTE]
 >

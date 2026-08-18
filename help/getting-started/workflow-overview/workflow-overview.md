@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: 처음부터 끝까지 Substance 3D Designer에서 절차 자료를 만드는 필수 작업 과정에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Substance 3D Designer은 노드 기반의 편집기입니다. 즉, 거의 모든
 
 ## 노드 기반 워크플로우
 
-Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편집 소프트웨어와 다릅니다. 메뉴 옵션으로 이동하고 슬라이더를 변경하여 채도를 조정하는 등의 작업을 수동으로 수행하는 대신 <b>이미지를 편집하거나 만드는 논리적 단계를 구성</b>합니다. 이 문제는 &quot;[노드](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)&quot;이라고 하는 작은 빌딩 블록의 네트워크를 빌드할 때 발생합니다. 이미지 데이터는 정보의 경로를 결정하는 링크로 연결된 빌딩 블록을 통해 <b>에서 왼쪽</b>으로 이동합니다. 모든 노드가 연결된 경우 최종 결과에 기여합니다.
+Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편집 소프트웨어와 다릅니다. 메뉴 옵션으로 이동하고 슬라이더를 변경하여 채도를 조정하는 등의 작업을 수동으로 수행하는 대신 <b>이미지를 편집하거나 만드는 논리적 단계를 구성</b>합니다. 이 문제는 &quot;[노드](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)&quot;이라고 하는 작은 빌딩 블록의 네트워크를 빌드할 때 발생합니다. 이미지 데이터는 정보의 경로를 결정하는 링크로 연결된 빌딩 블록을 통해 <b>에서 왼쪽</b>으로 이동합니다. 모든 노드가 연결된 경우 최종 결과에 기여합니다.
 
 주요 이점은 작업 과정이 <b>비선형</b>이 된다는 것입니다. 기록 스택으로 이동하는 수동으로 수행되는 작업과 달리, 언제든지 노드를 교체하거나 수정할 수 있습니다. 이미지의 결과에 영향을 주는 첫 번째 [대비] 조정이 끝까지 너무 많았다고 판단되면 나중에 수행한 모든 작업을 잃지 않고 뒤로 돌아가 조정하거나 완전히 잘라낼 수 있습니다.
 
@@ -129,7 +129,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 
 함수 <b>이미지 데이터(전체 픽셀 집합) 대신 단일 값 </b>(정수, 부동 소수점, 벡터)을 처리합니다. 함수도 노드 네트워크가 있는 그래프이지만 [사용된 노드](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)와 인터페이스는 [일반 Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)와 다릅니다. 작업 과정은 완전히 <b>수학적 작업</b>을 기반으로 하며 이미지 미리 보기 축소판을 표시하지 않으므로 Substance 3D Designer에서 <b>훨씬 더 고급 작업 방법</b>이 됩니다.
 
-함수는 다양한 컨텍스트에서 사용할 수 있습니다. 주로 [노출된 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하고, [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작을 작성하고, [그래프의 값을 사용합니다.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+함수는 다양한 컨텍스트에서 사용할 수 있습니다. 주로 [노출된 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하고, [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작을 작성하고, [그래프의 값을 사용합니다.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: 노드 그래프 개선 및 AxF 내보내기 지원에 대해 알아보려면 Substance 3D Designer 버전 13.1의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ''
 description: 재료 가져오기를 위해 Substance 3D Designer에서 AxF 모양 교환 형식 리소스를 가져오고 사용하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 +++탐색기
 
-[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 패키지의 RMB를 클릭하고 패키지의 상황별 메뉴에서 <b>가져오기 > AxF</b>로 이동합니다.
+[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 패키지의 RMB를 클릭하고 패키지의 상황별 메뉴에서 <b>가져오기 > AxF</b>로 이동합니다.
 
 ![AxF: Explorer에서 가져오기 시작](../../assets/axf_explorer.png "AxF: Explorer에서 가져오기 시작"){width="600px"}
 
@@ -144,7 +144,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 두 가지 유형의 Substance 그래프 템플릿을 사용할 수 있습니다.
 
 <b>금속 거칠기에 대한 AxF</b> 및 Specular 광도에 대한 <b>AxF</b>은(는) AxF 재질을 표준 PBR 모델에 매핑할 수 있는 *변환* 템플릿입니다.\
-그런 다음 기본 3D 보기 셰이더와 함께 사용하거나 Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html)에서 제작되거나 [3D 에셋](https://substance3d.adobe.com/assets/) 라이브러리에서 얻은 다른 PBR 자료와 결합할 수 있습니다.
+그런 다음 기본 3D 보기 셰이더와 함께 사용하거나 Designer, [Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html)에서 제작되거나 [3D 에셋](https://substance3d.adobe.com/assets/) 라이브러리에서 얻은 다른 PBR 자료와 결합할 수 있습니다.
 
 <b>AxF to AxF</b>은(는) AxF 재질을 제자리에서 편집하고 이러한 변경 내용을 기존 AxF 파일의 새 레이어로 내보낼 수 있는 *통과* 템플릿입니다. 자세한 내용은 아래의 AxF 파일 내보내기 를 참조하십시오.
 

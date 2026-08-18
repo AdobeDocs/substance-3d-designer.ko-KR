@@ -64,7 +64,7 @@ Ray 렌더러 *로 전환하면 일부 3D 보기 메뉴에서 사용 가능한 �
 
 ![Iray에서 렌더링된 중세 성벽 재질](../../../assets/iray-overview.png "Iray에서 렌더링된 중세 성벽 재질")
 
-*재질: [중세 성벽](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *제공 [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3D 에셋](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *라이브러리*&#x200B;에서 사용 가능
+*재질: [중세 성벽](https://helpx.adobe.com/kr/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *제공 [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/assets.html)* *라이브러리*&#x200B;에서 사용 가능
 
 </td>
 </tr>

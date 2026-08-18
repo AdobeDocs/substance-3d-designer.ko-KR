@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 비트맵, 글꼴 및 3D 장면을 포함한 리소스를 가져오고 만들고 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 * [비트맵](../resources/bitmap-resource/bitmap-resource.md)
 * [벡터 그래픽 (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 장면 리소스](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D 장면 리소스](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [글꼴](../resources/font-resource/font-resource.md)
 
 </td>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 경고를 이해하고 일반적인 문제를 해결하는 방법을 알아보십시오.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에는 Substance 3D Designer에서 [함수 그래프](../../function-graphs/function-graphs.md)로 트리거될 수 있는 경고 및 오류 메시지가 나열되어 있으며 각각에 대한 일반적인 문제 해결 단계를 제공합니다.
 
-[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 그래프 리소스에 대한 경고 아이콘의 도구 설명뿐만 아니라 그래프가 로드된 경우 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)의 왼쪽 아래 모서리에 경고가 표시됩니다.\
+[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 그래프 리소스에 대한 경고 아이콘의 도구 설명뿐만 아니라 그래프가 로드된 경우 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)의 왼쪽 아래 모서리에 경고가 표시됩니다.\
 함수가 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)의 *매개 변수*&#x200B;에 적용되면 모든 경고로 인해 &quot;*해당 매개 변수에 대해 [x] 매개 변수의 함수에 일부 오류*&quot;가 발생합니다.
 
 ## ![(오류)](../../assets/error.svg) 출력 노드가 정의되지 않았습니다.

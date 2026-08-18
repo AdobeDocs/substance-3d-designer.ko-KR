@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: 플러그인 개발을 위해 전체 Substance 3D Designer Python 스크립팅 API 참조에 액세스합니다.
 helpx_creative_field: ""

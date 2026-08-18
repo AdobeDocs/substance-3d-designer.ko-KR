@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 절차 재질 제작을 위해 Substance 3D Designer에서 SVG 벡터 그래픽을 가져와 리소스로 사용합니다.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/products/illustrator.html)에서는 다음 옵션에 유의할 경우 SVG 내보내기를 가장 많이 제어할 수 있습니다.
+[Illustrator](https://www.adobe.com/kr/products/illustrator.html)에서는 다음 옵션에 유의할 경우 SVG 내보내기를 가장 많이 제어할 수 있습니다.
 
 * <b>다른 이름으로 저장</b>만 사용하고 *다른 이름으로 내보내기* 사용!
 * <b>SVG 프로필</b>은(는) 아주 작은 프로필은 기본적으로 올바른 설정으로 설정되지만 크게 중요하지 않습니다.
