@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Designer에서 Substance 함수 그래프를 만들고 사용하여 사용자 정의 함수와 재사용 가능한 노드 네트워크를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [Substance 함수 그래프](https://substance3d.adobe.com/) <b>이미지 데이터(전체 픽셀 집합) 대신 단일 값 처리</b>(정수, 부동 소수점, 벡터). 함수도 노드 네트워크가 있는 그래프이지만 [사용된 노드](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)와 인터페이스는 [일반 Substance 그래프](../compositing-graphs/substance-compositing-graphs.md)와 다릅니다. 작업 과정은 완전히 <b>수학적 작업</b>을 기반으로 하며 이미지 미리 보기 축소판을 표시하지 않으므로 Substance 3D Designer에서 <b>훨씬 더 고급 작업 방법</b>이 됩니다.
 
-함수는 다양한 컨텍스트에서 사용할 수 있습니다. 주로 [노출된 매개 변수](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하고, [픽셀 프로세서](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-맵](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작을 작성하고, [그래프의 값을 사용합니다.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+함수는 다양한 컨텍스트에서 사용할 수 있습니다. 주로 [노출된 매개 변수](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하고, [픽셀 프로세서](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-맵](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작을 작성하고, [그래프의 값을 사용합니다.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 
 </td>
 </tr>

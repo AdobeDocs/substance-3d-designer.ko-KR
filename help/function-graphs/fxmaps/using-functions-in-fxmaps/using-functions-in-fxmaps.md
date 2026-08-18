@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
 breadcrumb-title: ''
 description: FXMaps 내에서 함수 그래프를 사용하여 고급 절차 재질 패턴 및 효과를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

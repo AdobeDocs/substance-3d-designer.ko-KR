@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: Perlin Noise 노드를 사용하면 유기적인 질감과 변형을 생성하기 위해 매끄럽고 자연스러워 보이는 노이즈 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""

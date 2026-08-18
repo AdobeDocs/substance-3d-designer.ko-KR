@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: 미리 만들어진 Substance 함수 그래프를 인스턴스 노드로 액세스하여 워크플로우 속도를 높이고 기능을 향상할 수 있습니다.
 helpx_creative_field: ""

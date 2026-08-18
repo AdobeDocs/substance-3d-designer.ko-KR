@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-011.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-011.html"
 breadcrumb-title: ''
 description: 그런지 맵 011 노드를 사용하면 표면에 디테일과 마모 효과를 더하는 절차 그런지 텍스처를 만들 수 있습니다.
 helpx_creative_field: ""

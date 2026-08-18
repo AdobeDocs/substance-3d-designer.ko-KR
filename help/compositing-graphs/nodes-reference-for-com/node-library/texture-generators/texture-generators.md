@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 텍스처 생성기 노드에 액세스하여 패턴, 노이즈 및 모양에서 절차 텍스처를 만듭니다.
 helpx_creative_field: ""

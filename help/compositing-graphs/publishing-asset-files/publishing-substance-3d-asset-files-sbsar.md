@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: Designer에서 Substance 3D 에셋 파일(SBSAR)을 게시하여 다른 애플리케이션 및 엔진에 사용하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 이 페이지에서는 Substance 3D Designer이 Substance 에코시스템 및 이를 지원하는 다른 응용 프로그램에서 사용되는 <b>SBSAR</b> 확장명을 가진 특수 파일 형식인 <b>Substance 3D asset</b> 파일로 패키지를 게시하는 방법에 대해 설명합니다.
 
-일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [보내기 기능](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)을 사용하는 것이 더 빠릅니다.
+일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/kr/substance-3d-sampler.html) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [보내기 기능](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)을 사용하는 것이 더 빠릅니다.
 
 ![SBSAR 파일 단순화](../../assets/exportflow.png "SBSAR 파일 단순화")
 
@@ -49,13 +49,13 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 
 ## 게시 방법
 
-게시할 준비가 되면 게시 대화 상자에 액세스하는 방법은 두 가지가 있으며, 둘 다 [탐색기 창](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)을 거칩니다.
+게시할 준비가 되면 게시 대화 상자에 액세스하는 방법은 두 가지가 있으며, 둘 다 [탐색기 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)을 거칩니다.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[탐색기 창](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 패키지를 마우스 오른쪽 단추로 클릭하고 ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar 파일...**, 대체 핫키 Ctrl+P를 선택합니다.
+[탐색기 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 패키지를 마우스 오른쪽 단추로 클릭하고 ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar 파일...**, 대체 핫키 Ctrl+P를 선택합니다.
 
 대화 상자로 한 번 게시한 후 ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar 파일을 이전 버전으로**&#x200B;을 사용하여 대화 상자를 보지 않고 게시 프로세스를 반복하고 동일한 설정으로 즉시 게시할 수도 있습니다.
 
@@ -72,7 +72,7 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[탐색기 창](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 상단 도구 모음의 Publish 단추 ![](../../assets/image2020-9-23-9-39-58.png)을(를) 클릭합니다.
+[탐색기 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 상단 도구 모음의 Publish 단추 ![](../../assets/image2020-9-23-9-39-58.png)을(를) 클릭합니다.
 
 대화 상자를 사용하여 게시한 후 Publish을 이전 버튼으로 사용 ![](../../assets/image2020-9-23-11-15-35.png)하여 대화 상자를 보지 않고 게시 프로세스를 반복할 수 있으며, 동일한 설정으로 즉시 게시할 수 있습니다.
 
