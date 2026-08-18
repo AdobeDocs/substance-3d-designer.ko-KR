@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: '[3D 가장자리 노이즈 프랙탈 노드]를 사용하여 산과 같은 텍스처를 만들기 위해 3D 공간에 가장자리 거칠게 표시된 프랙탈 노이즈 패턴을 생성합니다.'
 helpx_creative_field: ""

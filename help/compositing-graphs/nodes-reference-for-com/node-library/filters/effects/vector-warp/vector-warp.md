@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: 벡터 뒤틀기 노드를 사용하면 유동적이고 유기적인 왜곡 효과를 만들기 위해 벡터 필드를 사용하여 텍스처를 뒤틀 수 있습니다.
 helpx_creative_field: ""

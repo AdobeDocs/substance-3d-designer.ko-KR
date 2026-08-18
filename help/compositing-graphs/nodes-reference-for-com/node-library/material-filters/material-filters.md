@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 재질 필터 노드에 액세스하여 다양한 워크플로우를 위해 재질을 처리, 혼합 및 변환합니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 마스크 생성기 노드에 액세스하여 메시 형상과 속성을 기반으로 마스크를 생성합니다.
 helpx_creative_field: ""

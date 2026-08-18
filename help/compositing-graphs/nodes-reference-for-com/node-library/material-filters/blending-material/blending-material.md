@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 재질 혼합 노드에 액세스하여 합성 재질 효과를 만들기 위해 재질을 결합하고 혼합합니다.
 helpx_creative_field: ""

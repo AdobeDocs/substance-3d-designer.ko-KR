@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 재질 효과 노드에 액세스하여 재질에 환경 및 혼합 효과를 적용합니다.
 helpx_creative_field: ""
