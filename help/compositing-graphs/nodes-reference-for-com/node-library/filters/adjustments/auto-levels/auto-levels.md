@@ -1,0 +1,50 @@
+---
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
+breadcrumb-title: ''
+description: '[자동 레벨] 노드를 사용하면 최적의 명도 및 대비 분포를 위해 텍스처 레벨을 자동으로 조정할 수 있습니다.'
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Auto Levels
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 자동 레벨
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 1%
+
+---
+
+
+# 자동 레벨
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/auto-levels.png){width="128px"}
+
+## 자동 레벨
+
+**내부:** *필터/조정*
+
+**단순**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## 설명
+
+검정에서 흰색까지의 전체 범위를 사용하도록 입력 레벨을 자동으로 조정합니다. 즉, 이미지에서 가장 어두운 값은 완전 검정으로 조정되고 가장 밝은 값은 완전 흰색으로 조정되어 대비가 극대화됩니다.
+
+## 예제 이미지
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/auto-levels-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
+</table>
