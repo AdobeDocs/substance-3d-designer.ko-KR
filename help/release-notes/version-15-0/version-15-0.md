@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 15.0의 릴리스 노트를 통해 새로운 3D 렌더러 및 기본 USD 지원에 대해 알아보십시오.
 helpx_creative_field: ""
