@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 12.4의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### 매개 변수 필드에 수식 입력
 
-특정 매개 변수 값을 입력하려는 경우 더 이상 계산기를 사용하거나 머릿속에서 계산할 필요가 없습니다. 이제 응용 프로그램의 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 및 기타 위치에 있는 매개 변수에 대한 숫자 값을 설정할 때 추가, 구분, 곱하기 또는 빼기와 같은 기본 수식을 직접 입력할 수 있습니다.
+특정 매개 변수 값을 입력하려는 경우 더 이상 계산기를 사용하거나 머릿속에서 계산할 필요가 없습니다. 이제 응용 프로그램의 [속성](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 및 기타 위치에 있는 매개 변수에 대한 숫자 값을 설정할 때 추가, 구분, 곱하기 또는 빼기와 같은 기본 수식을 직접 입력할 수 있습니다.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

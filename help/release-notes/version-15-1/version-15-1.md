@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 15.1의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -68,7 +68,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 아래의 [릴리스 정보](#release-notes)에서 업데이트된 노이즈의 전체 목록을 확인하세요.
 
-예: [셀 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [구름 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; 방향 스크래치](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; 습기 노이즈 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+예: [셀 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [구름 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [ 방향 스크래치](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [ 습기 노이즈 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![방향 장애 노이즈](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -82,7 +82,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![범주 &#x200B;](../../assets/search1-2.png){zoomable="yes"}을(를) 사용하여 노드 검색
+![범주 ](../../assets/search1-2.png){zoomable="yes"}을(를) 사용하여 노드 검색
 
 </td>
 <td style="border: 0;" valign="top">
