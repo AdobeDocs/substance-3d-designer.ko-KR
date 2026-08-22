@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer은 Scalable Vector 그래픽 형식을 통해 제한된 형식의 Vector 그래픽을 지원합니다. SVG 파일을 다양한 방법으로 리소스로 가져와 그래프의 리소스로 사용할 수 있습니다.
 
-SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
+SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
 
 >[!NOTE]
 >
