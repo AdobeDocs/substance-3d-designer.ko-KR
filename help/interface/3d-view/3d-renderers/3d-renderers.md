@@ -178,7 +178,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 <b>테셀레이션 + 변위</b> - 형상을 세분화하고 정점을 표준을 따라 배치합니다.
 
-Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
+Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
 
 +++
 

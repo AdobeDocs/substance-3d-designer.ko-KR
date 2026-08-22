@@ -22,7 +22,7 @@ ht-degree: 1%
 
 이 페이지에서는 Substance 3D Designer이 Substance 에코시스템 및 이를 지원하는 다른 응용 프로그램에서 사용되는 <b>SBSAR</b> 확장명을 가진 특수 파일 형식인 <b>Substance 3D asset</b> 파일로 패키지를 게시하는 방법에 대해 설명합니다.
 
-일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/kr/substance-3d-sampler.html) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [보내기 기능](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)을 사용하는 것이 더 빠릅니다.
+일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/kr/substance-3d-sampler.html) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [보내기 기능](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)을 사용하는 것이 더 빠릅니다.
 
 ![SBSAR 파일 단순화](../../assets/exportflow.png "SBSAR 파일 단순화")
 
@@ -33,7 +33,7 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 * 개별 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)가 아닌 모든 콘텐츠가 포함된 <b> 패키지를 게시</b>합니다. 그런 다음 Substance 3D 에셋을 사용하면 이 패키지 내의 모든 Substance 그래프에서 콘텐츠를 생성할 수 있습니다.
 * 게시된 패키지는 <b>완전히 독립 실행형</b>입니다. 필요한 모든 리소스가 파일에 포함됩니다. 즉, SBS 파일보다 공유하기가 훨씬 쉽습니다.
 * Substance 3D 에셋의 출력은 <b>완전 동적</b>일 수 있습니다. [해상도가 설정되지 않았습니다. 노출된 매개 변수를 수정할 수 있습니다.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) 그러나 그래프 편집은 더 이상 불가능합니다.
-* Substance 3D 에셋은 Designer 외부, 모든 Adobe Substance 3D 제품, Adobe Dimension 및 [Substance 통합](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)이 포함된 다른 모든 애플리케이션에서 사용할 수 있습니다.
+* Substance 3D 에셋은 Designer 외부, 모든 Adobe Substance 3D 제품, Adobe Dimension 및 [Substance 통합](https://experienceleague.adobe.com/ko/docs/substance-3d/ecosystem/home)이 포함된 다른 모든 애플리케이션에서 사용할 수 있습니다.
 * 게시가 [내보내기](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)와 다릅니다. 차이점을 잘 이해했는지 확인하세요.
 
 ## 게시 준비 중

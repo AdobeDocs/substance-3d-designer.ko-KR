@@ -202,7 +202,7 @@ Adobe ASM(Standard Material) 모델은 Designer 11.2에 도입되어 Designer의
 Designer이 새로운 기본 모델로 OpenPBR으로 이동했지만 ASM은 여전히 포함되어 있으며 해당 속성도 공유됩니다
 래스터라이저에서 GPU 패스트레이서, OpenGL [3D 렌더러](../3d-renderers/3d-renderers.md)를 건너뜁니다.
 
-모델은 [여기](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 문서화되어 있습니다.
+모델은 [여기](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 문서화되어 있습니다.
 
 <a name="usdpreviewsurface"></a>
 

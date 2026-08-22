@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 풍화
 
-풍화 노드는 [마스크 생성기](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)를 한 단계 더 발전시킵니다. 매개 변수와 베이킹된 맵을 기반으로 완전 재료 풍화 효과를 수행합니다. 개념은 Substance Painter의 [스마트 재질](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)과(와) 매우 유사합니다.
+풍화 노드는 [마스크 생성기](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)를 한 단계 더 발전시킵니다. 매개 변수와 베이킹된 맵을 기반으로 완전 재료 풍화 효과를 수행합니다. 개념은 Substance Painter의 [스마트 재질](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/features/smart-materials-and-masks)과(와) 매우 유사합니다.
 
 이러한 베이킹된 맵에서 전체 결과를 얻으려면 노드가 하나 이상 있어야 합니다.
 

@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 설명
 
-베이킹된 맵 및 사용자 설정을 기반으로 흑백 마스크를 생성합니다. [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)의 [스마트 마스크](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)와 비슷합니다.
+베이킹된 맵 및 사용자 설정을 기반으로 흑백 마스크를 생성합니다. [Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home)의 [스마트 마스크](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/features/smart-materials-and-masks)와 비슷합니다.
 
 그러면 모델의 아래쪽에서 위쪽으로 흰색에서 검정으로 전환되어 형상 기반 밝기 감소 및 선택 영역을 만드는 데 유용합니다.
 

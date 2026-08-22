@@ -77,7 +77,7 @@ Substance 파일은 Designer의 **기본 소스 파일**&#x200B;입니다. Subst
 
 *(\*.SBSAR)*
 
-Substance 아카이브는 <b>개 컴파일되고 </b>개의 Substance 파일이 최적화되었습니다. 계산 속도가 훨씬 빠르며 참조 문제 없이 쉽게 공유할 수 있습니다. 매개 변수를 계속 변경할 수 있지만 그래프를 편집하면 <b>잠김</b>됩니다. Substance 아카이브는 모든 Substance 3D 응용 프로그램과 Autodesk 3DS Max &amp; Maya, Unreal Engine 또는 Unity Engine과 같은 [Substance 3D 통합](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)이 있는 모든 응용 프로그램(일부는 외부 플러그인과 함께)에서 사용할 수 있습니다.
+Substance 아카이브는 <b>개 컴파일되고 </b>개의 Substance 파일이 최적화되었습니다. 계산 속도가 훨씬 빠르며 참조 문제 없이 쉽게 공유할 수 있습니다. 매개 변수를 계속 변경할 수 있지만 그래프를 편집하면 <b>잠김</b>됩니다. Substance 아카이브는 모든 Substance 3D 응용 프로그램과 Autodesk 3DS Max &amp; Maya, Unreal Engine 또는 Unity Engine과 같은 [Substance 3D 통합](https://experienceleague.adobe.com/ko/docs/substance-3d/ecosystem/home)이 있는 모든 응용 프로그램(일부는 외부 플러그인과 함께)에서 사용할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">

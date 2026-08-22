@@ -62,5 +62,5 @@ ht-degree: 3%
 
 | 이름 | 유형 | 용도 |
 | --- | --- | --- |
-| $time | 부동 | 이 변수는 Substance 엔진 시작 이후 시간을 초 단위로 반환합니다. 이것은 경과시간에 따라 결과가 변해야 하는 그래프에 사용될 수 있다.  **참고:** 현재 Designer에서 이 값을 변경할 수 있는 방법은 없지만, Substance 엔진을 통합하는 애플리케이션은 이를 활용할 수 있습니다(예: 애니메이션의 경우 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html), [역동적인 획](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)의 경우 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)). |
+| $time | 부동 | 이 변수는 Substance 엔진 시작 이후 시간을 초 단위로 반환합니다. 이것은 경과시간에 따라 결과가 변해야 하는 그래프에 사용될 수 있다.  **참고:** 현재 Designer에서 이 값을 변경할 수 있는 방법은 없지만, Substance 엔진을 통합하는 애플리케이션은 이를 활용할 수 있습니다(예: 애니메이션의 경우 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html), [역동적인 획](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)의 경우 [Substance 3D Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home)). |
 | $normalformat | 정수 | 현재 환경에서 사용되는 일반 형식(예: DirectX 또는 OpenGL)입니다.  **참고:** 이 변수는 Designer에서 영향을 주지 않으며 Substance 엔진을 통합하는 다른 응용 프로그램에서 사용될 수 있습니다. |
