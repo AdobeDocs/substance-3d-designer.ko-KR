@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 3D 보기를 사용하여 3D 개체에서 재질을 미리 보고 조명 조건을 테스트합니다.
 helpx_creative_field: ""
@@ -128,9 +128,9 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 
 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 빈 영역 *RMB*&#x200B;을(를) 클릭하고 컨텍스트 메뉴에서 **3D 보기에서 출력 보기** 옵션을 선택하여 그래프의 모든 출력을 볼 수 있습니다.
 
-[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스에 RMB를 클릭하고 컨텍스트 메뉴에서 **3D 보기에서 출력 보기** 옵션을 선택하여 그래프를 열지 않고도 그래프의 출력을 볼 수도 있습니다.
+[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스에 RMB를 클릭하고 컨텍스트 메뉴에서 **3D 보기에서 출력 보기** 옵션을 선택하여 그래프를 열지 않고도 그래프의 출력을 볼 수도 있습니다.
 
-그래프의 상황별 메뉴에 대한 대안으로, [탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 [3D 보기](https://substance3d.adobe.com/)&#x200B;(으)로 그래프를 드래그해도 동일한 결과를 얻을 수 있습니다.
+그래프의 상황별 메뉴에 대한 대안으로, [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 [3D 보기](https://substance3d.adobe.com/)&#x200B;(으)로 그래프를 드래그해도 동일한 결과를 얻을 수 있습니다.
 
 *그래프 불러오기*&#x200B;를 수행하면 기본적으로 해당 출력이 3D 보기에 자동으로 적용됩니다. [환경 설정](../../interface/preferences-window/preferences-window.md)에서 이 동작을 사용하지 않도록 설정할 수 있습니다. **편집 > 환경 설정 > 그래프 > 일반**&#x200B;으로 이동하고 그래프를 열 때 **3D 보기에서 출력 보기** 옵션을 선택 해제합니다.
 
@@ -150,7 +150,7 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 
 *RMB*&#x200B;을 사용하여 그래프 보기에서 3D 보기로 노드를 끌어 놓을 수도 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
-[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스를 확장하고 *LMB*&#x200B;를 사용하여 해당 출력을 3D 보기로 드래그하여 개별 그래프 출력을 볼 수 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
+[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스를 확장하고 *LMB*&#x200B;를 사용하여 해당 출력을 3D 보기로 드래그하여 개별 그래프 출력을 볼 수 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
 ![사용자 지정 3D 메시 보기](../../assets/3d-mesh.gif "사용자 지정 3D 메시 보기")
 
@@ -221,7 +221,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 >
 > **TDR(Windows만 해당)**
 > 
-> 이 기능을 사용하려면 Designer의 [기술 요구 사항](../../getting-started/system-requirements/system-requirements.md)에 명시된 대로 <b>TDR(Timeout Detection and Recovery)</b>이 설명서의 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 값과 일치해야 합니다.
+> 이 기능을 사용하려면 Designer의 [기술 요구 사항](../../getting-started/system-requirements/system-requirements.md)에 명시된 대로 <b>TDR(Timeout Detection and Recovery)</b>이 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 값과 일치해야 합니다.
 
 ## 메뉴 막대
 
@@ -266,7 +266,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 * 토러스
 
-<b>2D 보기에서 UV 표시:</b> 현재 선택한 메시에 대한 UV를 [2D 보기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)에서 오버레이로 표시할 수 있습니다.
+<b>2D 보기에서 UV 표시:</b> 현재 선택한 메시에 대한 UV를 [2D 보기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)에서 오버레이로 표시할 수 있습니다.
 
 <b>현재 장면에서 3D 리소스 만들기...:</b> 현재 장면에서 패키지에 새 [3D 장면 리소스](../../resources/3d-scene-resource/3d-scene-resource.md)를 만듭니다.
 
@@ -305,7 +305,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 <b>정의 로드...: </b>(OpenGL 렌더러만 해당) 사용자 지정 [GLSLFX 셰이더](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)를 로드할 수 있습니다. 셰이더가 위의 목록에 추가됩니다.
 
-<b>공통 매개 변수 다시 설정:</b> 셰이더에서 공통적인 모든 매개 변수를 다시 설정합니다. 예를 들어 [래스터라이저/GPU 패스트레이서]와 OpenGL 렌더러 사이를 전환할 때 [Adobe 표준 재질](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)의 여러 매개 변수 값이 전달됩니다.
+<b>공통 매개 변수 다시 설정:</b> 셰이더에서 공통적인 모든 매개 변수를 다시 설정합니다. 예를 들어 [래스터라이저/GPU 패스트레이서]와 OpenGL 렌더러 사이를 전환할 때 [Adobe 표준 재질](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)의 여러 매개 변수 값이 전달됩니다.
 
 <b>이름 바꾸기:</b> 이 재질의 레이블을 변경합니다.
 
