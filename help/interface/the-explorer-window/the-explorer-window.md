@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 탐색기 창을 사용하여 프로젝트 파일 및 리소스를 검색, 구성 및 관리할 수 있습니다.
 helpx_creative_field: ""
@@ -61,7 +61,7 @@ Explorer 도크를 통해 몇 가지 중요한 작업을 수행할 수 있습니
 선택한 ![](../../assets/sendto-icon.jpg) <b>Publish 또는 [보내기](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>:
 
 * [Substance 3D 에셋(SBSAR)으로 선택한 모든 패키지 Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
-* 선택한 패키지를 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)로 보냅니다.
+* 선택한 패키지를 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Substance 3D Stager](https://www.adobe.com/kr/products/substance3d-stager.html)로 보냅니다.
 
 ![](../../assets/republish.png) <b>Publish 또는 이전으로 보내기:</b> Publish 또는 이전과 동일한 설정으로 선택한 요소를 보냅니다. 이 옵션은 *현재* 세션에서 *적어도 한 번* 게시된 패키지에서만 사용할 수 있습니다.
 
@@ -120,7 +120,7 @@ Explorer 도크를 통해 몇 가지 중요한 작업을 수행할 수 있습니
 
 <b>종속성이 있는 내보내기</b>는 저장 및 게시와 다릅니다. SBS 파일을 가져와 참조된 모든 리소스와 종속성을 수집하고 독립형 패키지를 만듭니다. 대화 상자에서 수집할 라이브러리 및 파일이 압축 아카이브(7-zip)여야 하는지 여부를 선택할 수 있습니다. 종속성 누락에 대한 걱정 없이 다른 사용자와 SBS 파일을 공유할 때 적합한 선택입니다.
 
-<b>보내기..</b>에서 하위 메뉴를 열어 패키지를 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) 또는 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)에게 직접 [보내기](send-to-interoperability/send-to-interoperability.md)할 수 있습니다.
+<b>보내기..</b>에서 하위 메뉴를 열어 패키지를 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/kr/products/substance3d-stager.html) 또는 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)에게 직접 [보내기](send-to-interoperability/send-to-interoperability.md)할 수 있습니다.
 
 <b>복사</b>는 선택한 패키지를 복사합니다.
 

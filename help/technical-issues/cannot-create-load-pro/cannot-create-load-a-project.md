@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 프로젝트를 만들거나 로드하는 데 발생하는 문제를 해결하고 해결 방법을 찾아보십시오.
 helpx_creative_field: ""

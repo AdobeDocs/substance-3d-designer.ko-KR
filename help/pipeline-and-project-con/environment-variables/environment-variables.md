@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 환경 변수를 사용하여 경로 및 시스템 설정을 구성하는 방법을 알아봅니다.
 helpx_creative_field: ""

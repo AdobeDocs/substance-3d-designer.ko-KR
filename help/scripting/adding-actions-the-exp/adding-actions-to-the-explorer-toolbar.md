@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 Python 스크립팅을 사용하여 탐색기 도구 모음에 사용자 정의 동작을 추가하는 방법을 알아봅니다.
 helpx_creative_field: ""

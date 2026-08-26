@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: 2D 보기에서 색상 Sampler 도구를 사용하여 정밀한 색상 일치를 위해 텍스처의 색상을 샘플링합니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 리소스 종속성에서 경고가 발생한 경우 이를 해결하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

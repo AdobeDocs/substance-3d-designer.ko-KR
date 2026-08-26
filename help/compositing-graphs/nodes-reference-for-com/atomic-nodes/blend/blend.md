@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: 혼합 노드 를 사용하여 합성 효과를 만드는 다양한 혼합 모드를 사용하여 두 텍스처를 혼합합니다.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-이 기능은 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
+이 기능은 [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
 
 >[!TIP]
 >

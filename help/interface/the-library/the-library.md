@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 라이브러리를 사용하여 노드 사전 설정, 재질, 사용자 정의 콘텐츠에 액세스하고 관리할 수 있습니다.
 helpx_creative_field: ""

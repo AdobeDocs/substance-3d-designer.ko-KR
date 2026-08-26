@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 외부 응용 프로그램 및 작업 과정에 사용할 Substance 합성 그래프의 텍스처 및 비트맵을 내보내는 방법을 알아봅니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 14.0의 릴리스 노트를 통해 새로운 노드, 그래프 탐색 및 성능 향상에 대해 알아보십시오.
 helpx_creative_field: ""

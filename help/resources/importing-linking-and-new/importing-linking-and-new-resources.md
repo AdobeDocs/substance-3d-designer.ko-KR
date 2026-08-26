@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 재질 프로젝트를 위한 리소스를 가져오고, 연결하고, 새 리소스를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

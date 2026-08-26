@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: 성능 및 스토리지 요구 사항을 최적화하기 위해 Substance 그래프 파일 크기를 줄이기 위한 지침을 알아봅니다.
 helpx_creative_field: ""
