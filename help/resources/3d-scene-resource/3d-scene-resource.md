@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 장면 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 * 패키지에서 *RMB*&#x200B;을 클릭하고 상황에 맞는 메뉴에서 <b>링크 > 3D 메시</b> 옵션을 선택합니다.
 * 지원되는 모든 3D 장면 파일 선택
 * <b>Udim mesh로 연결</b> 대화 상자 프롬프트가 나타나면 UV 타일을 구우지 않으려면 *아니요*&#x200B;를 클릭합니다
-* 리소스를 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에 로드한 상태에서 *RMB*&#x200B;을(를) 클릭하고 상황에 맞는 메뉴에서 <b>모델 정보 굽기</b> 옵션을 선택합니다
+* 리소스를 [탐색기](../../interface/the-explorer-window/the-explorer-window.md)에 로드한 상태에서 *RMB*&#x200B;을(를) 클릭하고 상황에 맞는 메뉴에서 <b>모델 정보 굽기</b> 옵션을 선택합니다
 * 메시 맵 베이크를 설정하고 실행할 수 있는 [베이크 모델 정보](../../bakers/bakers.md) 대화 상자가 나타납니다
 
 ![메시 맵 굽기](../../assets/bake-model-information.gif "메시 맵 굽기"){width="512px"}

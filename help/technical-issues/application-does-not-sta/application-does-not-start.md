@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 애플리케이션이 시작되지 않음
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Designer 버전 15.0 이상이 통합 GPU(iGPU) 및 개별 GPU(dGPU)가 모두 �
 
 <b>![(틱)](../../assets/check.svg) 권장 단계</b>
 
-iGPU의 그래픽 드라이버를 업데이트합니다. 다음 위치에서 최신 드라이버를 찾을 수 있습니다. [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+iGPU의 그래픽 드라이버를 업데이트합니다. 다음 위치에서 최신 드라이버를 찾을 수 있습니다. [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## 윈도우 /
 

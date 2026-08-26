@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ MDL은 [재질 정의 언어](http://www.nvidia.com/object/material-definition-l
 MDL 그래프는 [Substance 그래프](../compositing-graphs/substance-compositing-graphs.md)와 보완되는데, 후자의 출력 *텍스처*&#x200B;는 MDL 재질에 의해 *표본*&#x200B;될 수 있으므로 그 비헤이비어와 모양에 영향을 줄 수 있습니다.
 
 아래 MDL 그래프 리소스의 속성부터 시작하여 안내 학습 경로를 위해 이 문서의 섹션을 *순서대로* 살펴보는 것이 좋습니다.\
-뛰어들고 싶으신가요? [MDL 학습 리소스](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html) 섹션에서 MDL 그래프를 시작합니다!
+뛰어들고 싶으신가요? MDL 학습 리소스 섹션에서 MDL 그래프를 시작합니다!
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ MDL 그래프는 [Substance 그래프](../compositing-graphs/substance-compositi
 
 ![MDL 그래프 속성](../assets/mdl-main.png "MDL 그래프 속성")
 
-[속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 패널의 *MDL 그래프 속성*
+*속성 패널의 MDL 그래프 속성*
 
 ## MDL 그래프 속성
 
@@ -89,7 +89,7 @@ MDL 그래프는 [Substance 그래프](../compositing-graphs/substance-compositi
 
 ### 그래프 입력
 
-이 섹션에서는 MDL 그래프의 [표시된 매개 변수](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)에 연결된 대화형 매개 변수를 나열하고 해당 *기본값*&#x200B;을 정의합니다. 언제든지 *수정* 및 *순서 변경*&#x200B;될 수 있습니다.
+이 섹션에서는 MDL 그래프의 노출된 매개 변수에 연결된 대화형 매개 변수를 나열하고 해당 *기본값*&#x200B;을 정의합니다. 언제든지 *수정* 및 *순서 변경*&#x200B;될 수 있습니다.
 
 이러한 입력의 인터페이스 및 동작은 연결된 노출된 매개 변수의 *값 형식* 및 *범위*&#x200B;에 의해 정의됩니다. 예를 들면 다음과 같습니다.
 

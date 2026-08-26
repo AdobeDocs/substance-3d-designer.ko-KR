@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 성능 최적화 지침
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 +++
 
 +++16비트가 필요하지 않은 경우 8비트 사용
-Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8비트 회색 음영을 지원하지 않습니다*. GPU 엔진은 8/16비트 및 회색조/색상의 4가지 조합을 모두 지원합니다. *현재 Unity 및 Unreal 엔진 플러그인에서는 CPU 엔진만 사용됩니다*.
+Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8비트 회색 음영을 지원하지 않습니다*. GPU 엔진은 8/16비트 및 회색조/색상의 4가지 조합을 모두 지원합니다. *현재 Unity 및 Unreal 엔진 플러그인에서는 CPU 엔진만 사용됩니다*.
 
 +++
 
@@ -141,7 +141,7 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 
 >[!WARNING]
 >
-> [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드를 &quot;부모에 상대적으로&quot;로 설정하고 그래프를 Substance 3D 에셋(SBSAR)에 [게시](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)하면 원본 크기 대신 **256x256**&#x200B;의 해상도로 비트맵이 저장됩니다. 대신 비트맵 노드의 [상속 메서드](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)&#39; [출력 크기](../../compositing-graphs/output-size/output-size.md)&#39;을(를) &#39;절대&#39;로 유지하고 비트맵 노드 바로 뒤에 &#39;부모 대비&#39;로 설정된 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드를 사용하는 것이 좋습니다.
+> [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드를 &quot;부모에 상대적으로&quot;로 설정하고 그래프를 Substance 3D 에셋(SBSAR)에 [게시](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)하면 원본 크기 대신 **256x256**&#x200B;의 해상도로 비트맵이 저장됩니다. 대신 비트맵 노드의 [상속 메서드](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)&#39; [출력 크기](../../compositing-graphs/output-size/output-size.md)&#39;을(를) &#39;절대&#39;로 유지하고 비트맵 노드 바로 뒤에 &#39;부모 대비&#39;로 설정된 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드를 사용하는 것이 좋습니다.
 
 ![포함된 비트맵 최적화 1](../../assets/input-1.jpg "포함된 비트맵 최적화 1")
 
@@ -151,7 +151,7 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-또한 SBSAR(Substance 3D 에셋) [게시](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)의 크기를 최소화하려면 비트맵 리소스의 형식을 Jpeg로 설정하는 것이 좋습니다.
+또한 게시된 Substance 3D 에셋(SBSAR)의 크기를 최소화하려면 비트맵 리소스의 형식을 Jpeg로 설정하는 것이 좋습니다.
 
 </td>
 <td style="border: 0;" valign="top">

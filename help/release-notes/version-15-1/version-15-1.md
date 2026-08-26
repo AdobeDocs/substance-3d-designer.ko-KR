@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 ## 그래프 생성 개선
 
-이 릴리스에서는 Substance 3D Designer의 초기 사용자 경험을 향상시키기 위해 [그래프 만들기 창](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)을 <b>전반적으로 다시 디자인했습니다</b>. 이번 업데이트의 기본 목표는 사용자가 요구 사항에 가장 적합한 템플릿을 효율적으로 식별할 수 있도록 템플릿 선택 프로세스를 간소화하는 것입니다.
+이 릴리스에서는 Substance 3D Designer의 초기 사용자 경험을 향상시키기 위해 [그래프 만들기 창](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)을 <b>전반적으로 다시 디자인했습니다</b>. 이번 업데이트의 기본 목표는 사용자가 요구 사항에 가장 적합한 템플릿을 효율적으로 식별할 수 있도록 템플릿 선택 프로세스를 간소화하는 것입니다.
 
-축소판은 의도한 재질 유형에 대한 즉각적인 <b>시각적 참조</b>를 제공하는 반면, 자세한 도구 설명은 모든 관련 정보를 제공합니다. 개선된 조직의 경우 이제 템플릿은 재질, 필터 및 스캔 처리와 같은 특정 <b>범주</b>로 분류됩니다.
+축소판은 의도한 재질 유형에 대한 즉각적인 <b>시각적 참조</b>를 제공하는 반면, 자세한 도구 설명은 모든 관련 정보를 제공합니다. 개선된 조직의 경우 이제 템플릿은 재질, 필터 및 스캔 처리와 같은 특정 <b>범주</b>로 분류됩니다.
 
 기본 인터페이스가 업그레이드되었지만, 사용자는 목록, 패키지 및 디렉터리 옵션을 포함한 이전 보기에 계속 액세스할 수 있습니다.
 
@@ -44,7 +44,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 ![샘플에 대한 새 그래프 만들기 창](../../assets/GraphSample.png){zoomable="yes"}
 
-이러한 요구를 충족하기 위해 직물(가죽 및 새틴 포함), 목재, 금속, 플라스틱, 세라믹 등과 같은 재료 샘플을 포함했습니다. 이러한 예는 프로젝트를 간편하게 시작하고 Substance 3D Designer에서 사용할 수 있는 기본 패밀리 노드를 익히는 데 도움이 되도록 고안되었습니다
+이러한 요구를 충족하기 위해 직물(가죽 및 새틴 포함), 목재, 금속, 플라스틱, 세라믹 등과 같은 재료 샘플을 포함했습니다. 이러한 예는 프로젝트를 간편하게 시작하고 Substance 3D Designer에서 사용할 수 있는 기본 패밀리 노드를 익히는 데 도움이 되도록 고안되었습니다
 
 각 그래프는 <b>주석 달기</b>되며 신중하게 구성되어 있고 가능한 한 쉽게 이해할 수 있도록 최소한의 노드가 포함되어 있습니다.
 
@@ -68,7 +68,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 아래의 [릴리스 정보](#release-notes)에서 업데이트된 노이즈의 전체 목록을 확인하세요.
 
-예: [셀 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [구름 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [&#x200B; 방향 스크래치](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; 습기 노이즈 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+예: [셀 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [구름 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [방향 스크래치](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [습기 노이즈 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![방향 장애 노이즈](../../assets/directionaldisorder.gif){zoomable="yes"}
 

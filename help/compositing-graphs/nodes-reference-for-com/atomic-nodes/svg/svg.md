@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 1%
@@ -99,8 +99,8 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>색상 모드</b> *부울* | 노드의 출력 유형을 결정하며 컬러 또는 회색 음영으로 돌아갑니다. |
-| <b>배경색</b> *색상/회색 음영* | 벡터 모양으로 가려지지 않은 영역에서 사용할 출력 이미지의 배경색을 설정합니다.   *해당 입력이 연결되면 &#39;[배경](#inputs)&#39; 입력에 의해 재정의됩니다.* |
-| <b>패키지 리소스 경로</b> *문자열* | 노드에서 참조하고 있는 [SVG 리소스](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)에 대한 경로입니다.   수동으로 입력하지 않고 탐색기에서 리소스를 복사하여 매개 변수 텍스트 필드에 붙여넣거나, [탐색기](../../../../interface/the-explorer-window/the-explorer-window.md)에서 직접 그래프의 SVG 노드로 비트맵 리소스를 끌어서 놓는 것이 좋습니다. |
+| <b>배경색</b> *색상/회색 음영* | 벡터 모양으로 가려지지 않은 영역에서 사용할 출력 이미지의 배경색을 설정합니다.   *해당 입력이 연결되면 &#39;[배경](#inputs)&#39; 입력에 의해 재정의됩니다.* |
+| <b>패키지 리소스 경로</b> *문자열* | 노드에서 참조하고 있는 [SVG 리소스](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)에 대한 경로입니다.   수동으로 입력하지 않고 탐색기에서 리소스를 복사하여 매개 변수 텍스트 필드에 붙여넣거나, [탐색기](../../../../interface/the-explorer-window/the-explorer-window.md)에서 직접 그래프의 SVG 노드로 비트맵 리소스를 끌어서 놓는 것이 좋습니다. |
 
 ## 벡터 편집 도구
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>배경</b> 기본 *회색 음영/색상* | 벡터 모양으로 가려지지 않은 영역에서 사용할 출력 이미지의 배경색을 설정합니다.   *연결할 때 &#39;[배경색](#parameters)&#39; 매개 변수를 재정의합니다.* |
+| <b>배경</b> 기본 *회색 음영/색상* | 벡터 모양으로 가려지지 않은 영역에서 사용할 출력 이미지의 배경색을 설정합니다.   *연결할 때 &#39;[배경색](#parameters)&#39; 매개 변수를 재정의합니다.* |
 
 ## 출력 커넥터
 

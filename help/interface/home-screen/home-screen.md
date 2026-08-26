@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 홈 화면
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![홈 화면](../../assets/home-screen-home.jpg "홈 화면")
 
-<b>홈 화면<b> </b></b>Substance 3D Designer을 실행하면 환영합니다. 프로젝트를 시작하고 유용한 링크에 액세스하는 데 도움이 됩니다.
+<b>홈 화면<b> </b></b>Substance 3D Designer을 실행하면 환영합니다. 프로젝트를 시작하고 유용한 링크에 액세스하는 데 도움이 됩니다.
 
 <table>
 <tr style="border: 0;">

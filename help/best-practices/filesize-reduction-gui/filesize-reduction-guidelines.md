@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 파일 크기 축소 지침
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ## 파일 크기 계수
 
-[SBSAR](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)의 총 파일 크기에 영향을 주는 몇 가지 다른 요소가 있습니다. 아래에 간단한 설명과 함께 나열됩니다.
+SBSAR의 총 파일 크기에 영향을 주는 몇 가지 다른 요소가 있습니다. 아래에 간단한 설명과 함께 나열됩니다.
 
 +++해결 방법
 분명히 큰 효과가 있다. Substance 파일이 큰 해상도에서 작동하도록 할 수도 있다는 점을 염두에 두고 가능한 가장 작은 해상도를 사용합니다. 표준 해상도 마스크 요령을 사용하여 더 작은 비트맵이 더 커 보이게 할 수 있습니다.
@@ -63,14 +63,14 @@ ht-degree: 1%
 +++패키지의 비트맵 형식
 리소스 속성에서 &quot;Raw&quot; 및 &quot;Jpeg&quot; 압축 중에서 선택할 수 있습니다. 이는 최종 결과에 상당한 영향을 미칠 수 있다.
 
-*다음 위치에서 발견: 비트맵 리소스 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), [탐색기 창.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*탐색기 창에서 비트맵 리소스 속성을 찾았습니다.*
 
 +++
 
 +++패키지의 비트맵 압축 품질
 &quot;Jpeg&quot; 비트맵 형식을 사용하는 경우 아래 슬라이더가 품질과 파일 크기에 영향을 줄 수 있습니다. 이 슬라이더는 매우 예측 가능한 동작을 하지 않지만 1은 최고 품질의 JPG 압축에 해당하는 경향이 있고 0.5는 가장 작은 크기를 제공하는 경향이 있습니다.
 
-*다음 위치에서 발견: 비트맵 리소스 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), [탐색기 창.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*탐색기 창에서 비트맵 리소스 속성을 찾았습니다.*
 
 +++
 

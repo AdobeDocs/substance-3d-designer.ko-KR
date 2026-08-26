@@ -10,9 +10,9 @@ helpx_tags: ""
 title: AxF(Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 +++탐색기
 
-[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 패키지의 RMB를 클릭하고 패키지의 상황별 메뉴에서 <b>가져오기 > AxF</b>로 이동합니다.
+[탐색기](../../interface/the-explorer-window/the-explorer-window.md)에서 패키지의 RMB를 클릭하고 패키지의 상황별 메뉴에서 <b>가져오기 > AxF</b>로 이동합니다.
 
 ![AxF: Explorer에서 가져오기 시작](../../assets/axf_explorer.png "AxF: Explorer에서 가져오기 시작"){width="600px"}
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 비트맵 내보내기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 비트맵 내보내기
 
-이 페이지에서는 Substance 3D Designer에서 다양한 비트맵 파일 포맷으로 내보내는 방법과 여러 UV 타일을 일괄적으로 내보내는 방법에 대해 설명합니다.[PSD 파일로 내보내려는 경우](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [이에 대한 별도의 전용 페이지가 있습니다.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+이 페이지에서는 Substance 3D Designer에서 다양한 비트맵 파일 포맷으로 내보내는 방법과 여러 UV 타일을 일괄적으로 내보내는 방법에 대해 설명합니다.[PSD 파일로 내보내기](../exporting-psd-files/exporting-psd-files.md)하려면 이에 대한 별도의 전용 페이지가 있습니다.
 
 ![단순하게 내보내기](../../assets/exportflow.png "단순하게 내보내기")
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 사용자<b>은(는) 패키지가 아닌 그래프</b>에서 내보냅니다. 패키지는 이미지 콘텐츠를 스스로 생성하지 않습니다.
 * 내보낸 비트맵의 수(및 해상도)는 그래프의 <b>출력</b>에 의해 결정됩니다.
 * 모든 출력/비트맵에 대해 파일 유형이 설정됩니다.
-* 내보내기가 [게시](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)와 다릅니다. 차이점을 잘 이해하세요!
+* 내보내기가 [게시](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)와 다릅니다. 차이점을 잘 이해하세요!
 
 ## 내보내기 방법
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[탐색기 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 그래프를 마우스 오른쪽 단추로 클릭하여 내보내고 **&quot;출력을 비트맵으로 내보내기&quot;**&#x200B;를 선택합니다.
+[탐색기](../../interface/the-explorer-window/the-explorer-window.md) 창에서 그래프를 마우스 오른쪽 단추로 클릭하여 내보내고 **&quot;출력을 비트맵으로 내보내기&quot;**&#x200B;를 선택합니다.
 
 ![](../../assets/export-explorer.gif)
 

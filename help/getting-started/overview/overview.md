@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 개요
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -46,11 +46,11 @@ Substance 3D Designer은 노드 기반의 편집기로 다양한 복잡성으로
 
 <b>[비선형](../../compositing-graphs/substance-compositing-graphs.md) </b>: 한 번에 많은 텍스처 출력을 만들 수 있습니다. 하나의 마스크 또는 슬라이더를 편집하면 연결된 출력이 자동으로 다시 계산됩니다. 이제 [기본 색상], [거칠음], [표준] 등의 지도를 별도로 작성할 필요가 없습니다.
 
-<b> [비파괴](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: 작업을 손실하지 않고 *작업을 되돌릴 수 있습니다*. 반복과 실험이 훨씬 빨라져 작업 과정이 훨씬 더 효율적이 됩니다.
+<b>[비파괴](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: 작업 손실 없이&#x200B;*모든 동작을 되돌릴 수 있습니다*. 반복과 실험이 훨씬 빨라져 작업 과정이 훨씬 더 효율적이 됩니다.
 
-<b> [Integrated Baking](../../bakers/bakers.md) </b>: 소프트웨어 내부에서 바로 매우 빠른 고급 메시 베이킹 도구에 액세스합니다. 더 이상 별도의 소프트웨어에서 베이크를 수행하지 않아도 되며 긴 가져오기 및 내보내기 프로세스를 수행할 필요가 없습니다.
+<b>[통합 제빵](../../bakers/bakers.md) </b>: 소프트웨어 내부에서 바로 매우 빠른 고급 메시 제빵 도구에 액세스합니다. 더 이상 별도의 소프트웨어에서 베이크를 수행하지 않아도 되며 긴 가져오기 및 내보내기 프로세스를 수행할 필요가 없습니다.
 
-<b> [파라메트릭](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 단일 슬라이더 또는 드롭다운을 통해 텍스처의 거의 모든 측면을 제어하도록 설정할 수 있습니다. 이를 통해 하나의 에셋에 무한한 컨트롤과 변형을 추가할 수 있습니다.
+<b>[파라메트릭](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: 단일 슬라이더 또는 드롭다운을 통해 텍스처의 거의 모든 측면을 제어하도록 설정할 수 있습니다. 이를 통해 하나의 에셋에 무한한 컨트롤과 변형을 추가할 수 있습니다.
 
 ## 파일 유형
 
@@ -155,9 +155,9 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 
 * [비트맵](../../resources/bitmap-resource/bitmap-resource.md)
 * [벡터 그래픽 (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 메시 및 장면](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D 장면](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [글꼴](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [AxF 파일](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

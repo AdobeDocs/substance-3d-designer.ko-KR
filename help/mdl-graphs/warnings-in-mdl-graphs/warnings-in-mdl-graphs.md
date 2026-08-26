@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL 그래프의 경고
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 [Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)의 MDL 그래프로 트리거될 수 있는 경고 및 오류 메시지를 나열하고 각각에 대한 일반적인 문제 해결 단계를 제공합니다.
 
-[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 그래프 리소스에 대한 경고 아이콘의 도구 설명뿐만 아니라 그래프가 로드된 경우 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)의 왼쪽 아래 모서리에 경고가 표시됩니다.
+[탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 그래프 리소스에 대한 경고 아이콘의 도구 설명뿐만 아니라 그래프가 로드된 경우 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)의 왼쪽 아래 모서리에 경고가 표시됩니다.
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 장면 리소스 노드의 경우
 
 참조된 리소스는 [탐색기](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) 패널에서 찾은 다음 해당 <b>파일 경로</b> 특성에 저장된 위치에 있는지 확인하세요.\
-그렇지 않으면 탐색기의 리소스 항목에서 *RMB*&#x200B;을 클릭하고 <b>재배치...를 선택합니다.컨텍스트 메뉴의 </b> 옵션을 사용하여 해당 리소스에 대해 유효한 새 대상 파일을 설정합니다.
+그렇지 않은 경우 탐색기의 리소스 항목에서 *RMB*&#x200B;을 클릭하고 컨텍스트 메뉴에서 <b>재배치...</b> 옵션을 선택하여 해당 리소스에 대해 유효한 새 대상 파일을 설정합니다.
 
 ![&#39;참조된 리소스를 찾을 수 없음&#39; 솔루션](../../assets/warnings-model-referenced-resource.gif "&#39;참조된 리소스를 찾을 수 없음&#39; 솔루션")
 

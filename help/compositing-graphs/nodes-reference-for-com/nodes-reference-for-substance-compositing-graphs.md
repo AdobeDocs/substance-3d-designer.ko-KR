@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Substance 그래프의 노드 참조
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '121'
+ht-degree: 16%
 
 ---
 
@@ -35,11 +35,11 @@ SD 내에서 &quot;노드&quot;라고 부르는 것은 두 개의 주요 그룹�
 
 [노드 라이브러리](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [텍스처 생성기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [필터](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
-* [재질 필터](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [메시 기반 생성기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [스플라인 및 패스 도구](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+* [텍스처 생성기](node-library/texture-generators/texture-generators.md)
+* [필터](node-library/filters/filters.md)
+* [재질 필터](node-library/material-filters/material-filters.md)
+* [메시 기반 생성기](node-library/mesh-based-generators/mesh-based-generators.md)
+* [스플라인 및 패스 도구](node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 흰색 노이즈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
@@ -38,26 +38,6 @@ ht-degree: 7%
 ## 설명
 
 다양한 히스토그램 모양을 대상으로 하는 세 가지 방법(균일, 가우시안, 삼각형) 중 하나를 사용하여 흰색 노이즈를 생성합니다.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 출력
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 보기 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Height 맵에 따른 3D 개체의 변형 효과는 **테셀레이션 변위**&#x
 
 새 3D 렌더러는 버전 15.1에서 업그레이드되었으며 최신 GPU 드라이버가 필요합니다. 시스템의 GPU 드라이버를 최신 버전으로 업데이트하십시오.
 
-다음 위치에서 드라이버를 찾을 수 있습니다. [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) [AMD](https://www.amd.com/en/support) [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+다음 위치에서 드라이버를 찾을 수 있습니다. [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 버전 15.0 이상
 
@@ -243,7 +243,7 @@ Designer은 3D 메시로 지정되지 않는 한 일반 비율 및 편향을 적
 
 먼저 시스템이 Designer [시스템 요구 사항](../../getting-started/system-requirements/system-requirements.md)을 충족하는지 확인하십시오.
 
-그런 다음 그래픽 드라이버를 업데이트합니다. 다음 링크를 통해 GPU용 최신 드라이버를 찾을 수 있습니다. [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+그런 다음 그래픽 드라이버를 업데이트합니다. 다음 링크를 통해 GPU용 최신 드라이버를 찾을 수 있습니다. [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  | [AMD](https://www.amd.com/en/support)  | [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 시스템에 통합 GPU(iGPU)와 개별 GPU(dGPU)가 모두 포함된 경우 *둘 다 드라이버를 업데이트*&#x200B;해야 합니다!
 

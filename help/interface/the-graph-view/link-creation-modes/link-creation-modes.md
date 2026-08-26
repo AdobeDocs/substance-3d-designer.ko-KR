@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 링크 생성 모드
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -70,12 +70,12 @@ ht-degree: 0%
 
 ## 모드
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 표준 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> 압축 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> 컴팩트 재질 |
+|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 표준 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> 압축 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> 컴팩트 재질 |
 | --- | --- | --- | --- |
 | <b>입력</b> | 모든 입력이 표시됩니다. | 모든 입력이 표시됩니다. | 그룹당 입력 1개만 |
 | <b>출력</b> | 모든 출력이 표시됩니다 | 모든 출력이 표시됩니다 | 그룹당 1개의 출력만 |
 | <b>링크</b> | 모든 링크가 표시됩니다. | 모든 링크가 표시됩니다. | 그룹당 링크 1개(녹색) |
-| <b>연결</b> | 링크를 하나씩 연결합니다. | 일치하는 사용을 기반으로 여러 링크를 다중 링크 재질 그룹으로 연결합니다.   한쪽 끝에 용도가 있으면 연결은 표준 연결입니다. | 단일 링크 재질 그룹으로 링크를 함께 연결합니다. |
+| <b>연결</b> | 링크를 하나씩 연결합니다. | 일치하는 사용을 기반으로 여러 링크를 다중 링크 재질 그룹으로 연결합니다.   한쪽 끝에 용도가 있으면 연결은 표준 연결입니다. | 단일 링크 재질 그룹으로 링크를 함께 연결합니다. |
 
 ## 그룹 할당
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프로젝트를 만들 수 없습니다.
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Substance 3D Designer이 발전함에 따라 Substance 3D 파일 형식(SBS)도 
 
 특히 시스템이 노트북인 경우 시스템의 *전원 플랜*&#x200B;을 관리하는 소프트웨어(예: ASUS Armory Crate)를 찾습니다.
 
-일부 전원 관리 애플리케이션은 시스템 GPU에 대한 다른 애플리케이션의 액세스를 제한하거나 GPU의 성능을 방해하여 충돌이 발생할 수 있습니다. 전원 관리 애플리케이션이 있고 활성 상태이면 최상의 성능을 제공하는 플랜으로 전환하십시오.
+일부 전원 관리 애플리케이션은 시스템 GPU에 대한 다른 애플리케이션의 액세스를 제한하거나 GPU의 성능을 방해하여 충돌이 발생할 수 있습니다. 전원 관리 애플리케이션이 있고 활성 상태이면 최상의 성능을 제공하는 플랜으로 전환하십시오.
 
 개별 GPU를 사용하여 강제 실행
 

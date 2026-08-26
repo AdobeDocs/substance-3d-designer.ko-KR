@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 버전 14.0
 
-<b>Substance 3D Designer 14.0 </b>은(는) 삶의 질 개선을 제공합니다(그래프 탐색, 성능 등). 그러나 무엇보다도 그것은 많은 새로운 노드를 포함합니다 (색상 조작, Kuwahara 필터, 히스토그램 도구, 베벨 매끄럽게, 방향 거리, ...). 이러한 모든 변경 사항에 대한 자세한 내용은 아래를 참조하십시오. 
+<b>Substance 3D Designer 14.0 </b>은(는) 삶의 질 개선을 제공합니다(그래프 탐색, 성능 등). 그러나 무엇보다도 그것은 많은 새로운 노드를 포함합니다 (색상 조작, Kuwahara 필터, 히스토그램 도구, 베벨 매끄럽게, 방향 거리, ...). 이러한 모든 변경 사항에 대한 자세한 내용은 아래를 참조하십시오.
 
 *출시일: 2024년 7월 30일*
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 이 14.0 버전에서는 아래에 나열된 새 노드로 많은 새 컨텐츠를 제공합니다.
 
-* <b>색상 조정 전용 노드: </b>한 노드 <b>(</b>[색상 정량화](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>대<b> </b>이미지에서 색상 수를 줄이고 팔레트를 추출합니다. 고유한 색상 팔레트를 만들기 위한 도구 노드 패밀리입니다([보기](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [만들기](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [수정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>색상 팔레트). ID 맵을 사용하여 다른 이미지에 적용하려면 [색상 팔레트 적용](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). 또한 ID 맵을 회색 음영 마스크로 변환하기 위한 [회색 음영을 마스킹하는 ID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 노드를 찾을 수 있습니다. 이 전체 노드 세트를 사용하면 색상을 사용하여 스타일화 효과를 만드는 데 필요한 모든 것을 얻을 수 있습니다.
+* <b>색상 조정 전용 노드: </b>노드 <b>(</b>[색상 정량화](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>대<b> </b>이미지의 색상 수를 줄이고 팔레트에서 팔레트를 추출해 내 색상 팔레트를 만들기 위한 도구 노드 모음([보기](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [만들기](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [수정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>색상 팔레트)와 ID 맵을 사용하여 다른 이미지에 적용할 색상 팔레트([색상 팔레트 적용](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). 또한 ID 맵을 회색 음영 마스크로 변환하기 위한 [회색 음영을 마스킹하는 ID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 노드를 찾을 수 있습니다. 이 전체 노드 세트를 사용하면 색상을 사용하여 스타일화 효과를 만드는 데 필요한 모든 것을 얻을 수 있습니다.
 
 ![](../../assets/GIF2_2.gif){zoomable="yes"}
 
@@ -43,8 +43,8 @@ ht-degree: 0%
 다른 유력한 노드들이 그 당에 합류한다:
 
 * [<b>곡률 매끄럽게</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): 이 새로운 버전은 이제 모든 타일링 모드를 올바르게 지원하고 두 개의 새로운 출력(볼록함 및 오목함)을 추가하며 정확도와 성능을 모두 향상합니다.
-* <b>[막대 그래프 균일화](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> 이 노드는 동일한 분포를 갖도록 값을 조정하여 회색 음영 이미지의 막대 그래프를 균일화합니다. 이 노드에는 이미지의 막대 그래프를 출력하는 [막대 그래프 렌더링](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)과 막대 그래프를 픽셀 행으로 인코딩하는 [막대 그래프 계산](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>의 두 개의 보조 노드가 있습니다.
-* <b>[베벨 매끄럽게](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> 덕분에 마스크 테두리(바깥쪽, 안쪽 또는 둘 다)에서 그레이디언트나 플랫 색상을 그릴 수 있습니다. [방향 거리](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b> 노드도 특정 방향으로 그레이디언트를 그립니다.
+* <b>[막대 그래프 균일화](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> 이 노드는 동일한 분포를 갖도록 값을 조정하여 회색 음영 이미지의 막대 그래프를 균일화합니다. 이 노드에는 이미지의 히스토그램을 출력하는 [히스토그램 렌더링](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)과 [히스토그램 계산](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b>이라는 두 개의 보조 노드가 있습니다. </b>히스토그램을 픽셀 행으로 인코딩합니다.
+* <b>[베벨 매끄럽게](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> 덕분에 마스크 테두리(바깥쪽, 안쪽 또는 둘 다)에서 그레이디언트나 플랫 색상을 그릴 수 있습니다. [방향 거리](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> 노드 </b>그래디언트도 특정 방향으로 그립니다.
 * <b>[표준 결합 해제](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> 이 노드는 [표준 결합](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) 노드의 반대이며, Height 맵에서 설명하는 표면 세부 정보를 표준 맵에서 제거합니다.
 
 <table>

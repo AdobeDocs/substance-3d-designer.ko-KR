@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 제어
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-이 노드는 [개의 논리 노드](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 및 [비교 노드](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md)와 함께 사용되므로 확인할 조건을 작성할 수 있습니다.
+이 노드는 확인할 조건을 작성하는 데 도움이 되는 [논리 노드](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 및 [비교 노드](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md)와 함께 사용합니다.
 
 +++입력 커넥터
 <b>조건</b> *부울*\
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 <b>If</b> *변수 형식*&#x200B;노드에서 <b>조건</b>이(가) *True*&#x200B;인 경우 출력하는 값입니다.
 
-<b>Else</b> *가변 유형*&#x200B;노드에서 출력하는 값(<b>조건</b>이 *거짓*&#x200B;인 경우).
+<b>Else</b> *변수 형식*&#x200B;노드에서 <b>조건</b>이(가) *False*&#x200B;인 경우 출력하는 값입니다.
 
 +++
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 <b>초기화.</b> *변수 형식*\
 첫 번째 반복 전에 계산되는 그래프의 부분(즉, 루프의 시작 부분)입니다.
 
-<b>콘드를 종료합니다.</b> *부울*\
+<b>종료 코드.</b> *부울*\
 루프가 중지되려면 true여야 하는 조건입니다. 각 반복에 대해 다시 계산됩니다.\
 *참고:* 최대 반복 횟수는 여전히 <b>최대 반복 횟수</b> 매개 변수로 제한됩니다.
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 +++
 
 +++매개변수
-<b>최대. 반복</b> *정수*\
+<b>최대. 반복 </b> *정수*\
 노드에서 수행한 최대 반복 수입니다.\
 다음 조건 중 하나가 먼저 충족되면 노드가 반복을 중지합니다. 이 최대 수에 도달하거나 종료 조건이 true 가 됩니다.\
 이 최대값은 값을 *-1*(으)로 설정하여 사용하지 않도록 설정할 수 있습니다. 이 시점에서 종료 조건만 이터레이션을 중지할 수 있습니다.

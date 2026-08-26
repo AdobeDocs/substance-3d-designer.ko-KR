@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -83,7 +83,7 @@ ht-degree: 9%
 |  |  |
 | --- | --- |
 | <b>불투명도</b> *부동* | 배경에 혼합되는 전경 레이어의 불투명도입니다. 불투명도 입력에 대해 독립적으로 작동하고 이에 대한 추가 승수 역할을 합니다. |
-| <b>혼합 모드</b> *정수* [정적](../../../../glossary/glossary.md) | 사용할 혼합 작업을 설정합니다.   혼합 모드에 대한 [전용 페이지](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)를 참조하십시오. |
+| <b>혼합 모드</b> *정수* [정적](../../../../glossary/glossary.md) | 사용할 혼합 작업을 설정합니다.   혼합 모드에 대한 [전용 페이지](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)를 참조하십시오. |
 | <b>Alpha 혼합</b> *정수* [정적](../../../../glossary/glossary.md) | 색상 입력에 Alpha 채널이 있는 경우 혼합 동작을 결정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">소스 알파 사용</li> <li data-preserve-html="true">알파 무시</li> <li data-preserve-html="true">직선 알파 혼합</li> <li data-preserve-html="true">미리 곱하기 알파 혼합</li> </ul> |
 | <b>자르기 영역</b> *Float4* [Static](../../../../glossary/glossary.md) | 추가 불투명도 마스크처럼 작동하는 사용자 정의 자르기 영역을 설정할 수 있습니다. 자른 모든 영역에는 배경만 표시됩니다. |
 

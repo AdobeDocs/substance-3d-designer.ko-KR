@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 노드 찾기 도구
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![노드 찾기 도구 모음](../../../assets/node-finder-toolbar.png "노드 찾기 도구 모음"){zoomable="yes"}
 
-노드 찾기 도구 를 사용하면 텍스트 쿼리를 사용하여 <b>노드 및 변수 검색</b>을 수행할 수 있습니다. 쿼리와 일치하지 않는 모든 노드는 결과가 눈에 띄도록 흐리게 표시됩니다.
+노드 찾기 도구 를 사용하면 텍스트 쿼리를 사용하여 <b>노드 및 변수 검색</b>을 수행할 수 있습니다. 쿼리와 일치하지 않는 모든 노드는 결과가 눈에 띄도록 흐리게 표시됩니다.
 
 쿼리는 다음 조건 중 하나와 일치할 수 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 노드의 <b>UID</b>(고유 식별자)
 * 노드의 <b>레이블</b>
 
-[하위 그래프](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에서 노드와 변수를 찾을 수 있도록 재귀적으로 [그래프 인스턴스](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 검색할 수 있습니다. 검색해야 할 정확한 용어가 확실하지 않은 경우 퍼지 검색 옵션을 사용하여 질의에 허용치를 적용할 수 있습니다.
+[하위 그래프](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에서 노드와 변수를 찾을 수 있도록 재귀적으로 [그래프 인스턴스](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 검색할 수 있습니다. 검색해야 할 정확한 용어가 확실하지 않은 경우 퍼지 검색 옵션을 사용하여 질의에 허용치를 적용할 수 있습니다.
 
 ## 인터페이스
 

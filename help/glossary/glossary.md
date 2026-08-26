@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 용어집
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 264bcb3675b4cc1d6819c06b881ea616a817dd4b
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4489'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 | <b><span id="alpha"></span>Alpha 채널</b> | 불투명도를 설명하는 데 주로 사용되는 색상 이미지의 네 번째 채널입니다. |
 | <b><span id="ambient-occlusion"></span>주변 오클루전</b> | 노출이 적기 때문에 도달하기 어려운 표면에서의 주변 광의 감쇠입니다. |
 | <b><span id="anisotropy"></span>비등방성</b> | 방향에 종속되는 속성입니다. 다른 말로, 다른 축에서 측정되거나 관찰될 때 다른 결과를 제공하는 것이다.   이방성 물질은 어디를 바라보느냐에 따라 외관이 다르고, 이방성 필터가 모든 방향으로 균일하게 적용되지 않는다. |
+| <b><span id="aov" ></span>AOV</b> | AOV(임의 출력 변수)는 [렌더링](#rendering)에서 깊이, 표준 또는 사용자 지정 데이터와 같이 렌더링에서 출력할 수 있는 추가 데이터 채널을 설명하는 데 사용되는 용어입니다. |
 | <b><span id="api"></span>API</b> | API(응용 프로그래밍 인터페이스)는 사용자가 다른 프로그램 응용 프로그램의 함수 및 절차에 액세스할 수 있도록 하는 함수 및 절차의 모음입니다.   API는 사용자와 프로그램 간에 제어되고 안전한 계층을 제공합니다. 그것은 또한 그 프로그램을 더 쉽게 상호 작용하고 더 널리 접근할 수 있게 하기 위해 다른 프로그래밍 언어를 사용할 수 있다.   Designer은 데이터를 조작하고 사용자 정의 도구를 빌드하고 작업 과정을 가속화하기 위한 다양한 기능에 쉽게 액세스할 수 있는 [Python API](../scripting/scripting.md)를 제공합니다. |
 | <b><span id="atomic-node"></span>Atomic node</b> | 그래프의 기본 구성 요소입니다. 모든 [인스턴스 노드](#instance-node)를 원자 노드의 그래프로 나눌 수 있습니다. 각 그래프 유형에는 고유한 원자 노드 세트가 있습니다. |
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 관리 사용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -154,6 +154,6 @@ for res in resources:
 
 ## 색상 공간 변환을 사용하여 SDTextures 작성
 
-**SDTexture** 클래스의 **save** 메서드가 이제 선택적 **outputColorSpace** 매개 변수를 허용합니다. 지정된 경우 이미지를 저장하기 전에 *색상 공간 변환이 적용됩니다*.
+**SDTexture** 클래스의 **save** 메서드가 이제 선택적 **outputColorSpace** 매개 변수를 허용합니다. 지정된 경우 이미지를 저장하기 전에 *색상 공간 변환이 적용됩니다*.
 
 색상 관리 모드에서 포함된 ICC 프로필 *및*&#x200B;을(를) 지원하는 경우 대상 파일 형식에서도 이를 지원하므로 색상 공간 ICC 프로필이 *결과 이미지 파일에 포함됩니다*.

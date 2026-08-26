@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 작업 영역
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Designer의 기본 도킹 레이아웃은 다음과 같습니다.
 
 ## 속성
 
-[속성 도킹](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)이 가장 기술적인 창입니다. 이 옵션은 항상 문맥에 따라 달라지며 선택된 자원 또는 노드의 동작을 변경하는 슬라이더, 드롭다운 및 기타 요소를 표시합니다.
+[속성 도킹](properties/properties.md)이 가장 기술적인 창입니다. 이 옵션은 항상 문맥에 따라 달라지며 선택된 자원 또는 노드의 동작을 변경하는 슬라이더, 드롭다운 및 기타 요소를 표시합니다.
 
 ![속성](../assets/properties-15.jpg "속성")
 

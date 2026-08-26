@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 적용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,8 +69,8 @@ ID 맵을 사용하여 정렬된 팔레트의 색상을 이미지에 적용합�
 
 |  |  |
 | --- | --- |
-| <b>ID</b> *회색 음영* 기본 | 입력 팔레트의 색상을 분배하는 데 사용되는 입력 ID 맵입니다.   ID 맵은 전체(예를 들어, 모양)의 일부인 픽셀들이 모두 동일한 고유 식별 값을 갖는 이미지이다. 이 경우 값은 정수입니다.   [색상 정량화](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 노드를 사용하여 ID 맵을 생성할 수 있습니다. |
-| <b>팔레트</b> *색상* | 픽셀 행으로 인코딩된 RGB 색상의 순서가 지정된 목록입니다. 팔레트에는 최대 256개의 색상을 사용할 수 있습니다. 노드가 ID 맵의 인덱스에 매핑되는 팔레트입니다.   팔레트는 [색상 정량화](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 노드로 만들어지고 [색상 팔레트 수정](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) 노드로 수정될 수 있습니다. |
+| <b>ID</b> *회색 음영* 기본 | 입력 팔레트의 색상을 분배하는 데 사용되는 입력 ID 맵입니다.   ID 맵은 전체(예를 들어, 모양)의 일부인 픽셀들이 모두 동일한 고유 식별 값을 갖는 이미지이다. 이 경우 값은 정수입니다.   [색상 정량화](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 노드를 사용하여 ID 맵을 생성할 수 있습니다. |
+| <b>팔레트</b> *색상* | 픽셀 행으로 인코딩된 RGB 색상의 순서가 지정된 목록입니다. 팔레트에는 최대 256개의 색상을 사용할 수 있습니다. 노드가 ID 맵의 인덱스에 매핑되는 팔레트입니다.   팔레트는 [색상 정량화](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 노드로 만들어지고 [색상 팔레트 수정](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) 노드로 수정될 수 있습니다. |
 
 ## 출력 커넥터
 

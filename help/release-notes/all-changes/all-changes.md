@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 모든 변경 사항
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # 모든 변경 사항
 
 ## 버전 16
+
+### 16.0.5
+
+*(2026년 8월 26일 릴리스)*
+
+**추가됨:**
+
+* [3D 보기] 현재 AOV를 선택할 수 있는 단추가 추가되었습니다.
+* [Content] Perlin/Gaussian noise: unclamp scale parameter
+* [콘텐츠] 라이브러리에서 불필요한 비트맵 리소스 숨기기
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**고정:**
+
+* [3D 보기] OpenGL에서 변경한 환경 가시성은 Eclair 렌더러에게 전달되지 않습니다.
+* [베이커] 삭제된 UDIM 비트맵 리소스의 베이크를 새로 고친 후 베이킹 컨텍스트가 삭제되지 않았습니다
+* [베이커] 베이크를 새로 고치는 동안 UDIM 비트맵 리소스를 삭제할 때 충돌이 발생하는 문제를 해결했습니다.
+* [Content] 모양 스플래터 v2: 원통 모양 Height이 올바르지 않음
+* [Content] 모양 스플래터 v2: 밀도 맵 크기가 4096을 초과하면 노드가 제대로 작동하지 않습니다.
+* [Content] 모양 스플래터 v2: If/Else 뒤에 &#39;록&#39; SDF를 사용하면 무한 루프가 발생할 수 있습니다
+* [보안] AXF 파일 구문 분석에서 NULL 포인터 참조 해제 취약성을 수정했습니다.
+* [보안] GLB 파일 구문 분석에서 NULL 포인터 참조 해제 취약성을 수정했습니다.
+* [보안] SBSAR 파일 구문 분석의 범위를 벗어난 쓰기 취약점이 수정되었습니다.
+* [보안] DDS 파일 구문 분석에서 힙 손상 취약점을 수정했습니다.
+* [보안] GLB 파일 구문 분석의 힙 손상 취약점을 수정했습니다.
+* [보안] TGA 파일 구문 분석에서 힙 손상 취약점을 수정했습니다.
+* [보안] TIFF 파일 구문 분석의 힙 손상 취약점을 수정했습니다.
+* [보안] USDA 파일 구문 분석의 힙 손상 취약점을 수정했습니다.
+* [보안] WEBP 파일 구문 분석의 힙 손상 취약점을 수정했습니다.
+* [UI] 영구 확인란 메뉴의 항목 히트박스는 항목 텍스트에만 적용됩니다.
+
 
 ### 16.0.4
 

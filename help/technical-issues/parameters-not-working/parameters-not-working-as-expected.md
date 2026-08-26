@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 매개변수가 예상대로 작동하지 않음
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '303'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 <b>![(오류)](../../assets/error.svg) 문제</b>
 
-Designer에서 [미리 보기 모드](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)를 사용하거나 해당 그래프에서 게시된 [Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)의 매개 변수 목록에 그래프에 대해 노출된 매개 변수가 *나열되지 않음*&#x200B;입니다.
+Designer에서 [미리 보기 모드](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)를 사용하거나 해당 그래프 중 [게시](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)된 Substance 3D 에셋(SBSAR)의 매개 변수 목록에 있는 그래프의 일부 노출 매개 변수가 *나열되지 않음*&#x200B;입니다.
 
 <b>![(틱)](../../assets/check.svg)권장 단계</b>
 

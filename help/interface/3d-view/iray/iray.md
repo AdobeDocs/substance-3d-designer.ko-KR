@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2151'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Ray 렌더러 *로 전환하면 일부 3D 보기 메뉴에서 사용 가능한 �
 
 ![Iray에서 렌더링된 중세 성벽 재질](../../../assets/iray-overview.png "Iray에서 렌더링된 중세 성벽 재질")
 
-*재질: [중세 성벽](https://helpx.adobe.com/kr/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *제공 [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/assets.html)* *라이브러리*&#x200B;에서 사용 가능
+*재질: [중세 성벽](https://oggyart.artstation.com/projects/Xnzx0a)* *제공 [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3D 에셋](https://substance3d.adobe.com/assets)* *라이브러리*&#x200B;에서 사용 가능
 
 </td>
 </tr>

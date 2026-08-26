@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 버전 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 ### 매개 변수 필드에 수식 입력
 
-특정 매개 변수 값을 입력하려는 경우 더 이상 계산기를 사용하거나 머릿속에서 계산할 필요가 없습니다. 이제 응용 프로그램의 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 및 기타 위치에 있는 매개 변수에 대한 숫자 값을 설정할 때 추가, 구분, 곱하기 또는 빼기와 같은 기본 수식을 직접 입력할 수 있습니다.
+특정 매개 변수 값을 입력하려는 경우 더 이상 계산기를 사용하거나 머릿속에서 계산할 필요가 없습니다. 이제 등록 정보 및 응용 프로그램의 다른 위치에서 매개 변수의 숫자 값을 설정할 때 추가, 구분, 복제 또는 빼기와 같은 기본 공식을 직접 입력할 수 있습니다.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

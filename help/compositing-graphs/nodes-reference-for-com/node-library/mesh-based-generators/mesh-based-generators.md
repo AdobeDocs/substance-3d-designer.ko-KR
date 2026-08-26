@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 메시 기반 생성기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 4%
 
 세 가지 주요 범주가 있습니다.
 
-* [마스크 생성기](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [마스크 생성기](mask-generators/mask-generators.md)\
   하나 이상의 베이킹된 맵을 기반으로 하는 흑백 마스크 생성기.
-* [풍화](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  베이킹된 맵 기반의 완전 재료 풍화 효과.
-* [유틸리티](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [풍화](weathering/weathering.md)
+베이킹된 맵 기반의 완전 재료 풍화 효과.
+* [유틸리티](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   베이크를 사용할 수 있는 추가 유틸리티 및 도구.

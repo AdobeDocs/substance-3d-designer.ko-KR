@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 색상 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,7 @@ Designer은 이미지 파일을 저장하기 전에 이미지를 지정된 색�
 
 ![출력 내보내기 대화 상자](../assets/2019-3-0-clr-mgt-export-outputs.png "출력 내보내기 대화 상자"){width="512px"}
 
-[2D 보기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)에서 *저장됨* 이미지에 색상 공간(OCIO)을 할당하거나 ICC 프로필(Adobe ACE)을 연결할 수도 있습니다.
+[2D 보기](../interface/2d-view/2d-view.md)에서 *저장됨* 이미지에 색상 공간(OCIO)을 할당하거나 ICC 프로필(Adobe ACE)을 연결할 수도 있습니다.
 
 ![2D 보기 내보내기 옵션](../assets/2019-3-0-clr-mgt-save-image.png "2D 보기 내보내기 옵션")
 
@@ -209,7 +209,7 @@ Designer과 함께 제공되는 HDRI 환경은 <b>선형 sRGB</b> 색상 공간�
 </tr>
 </table>
 
-이는 색상 관리나 [Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/assets.html) 라이브러리에서 *만든* 그래프를 사용하여 작업할 때 유용합니다.
+이는 색상 관리나 [Substance 3D 에셋](https://substance3d.adobe.com/assets) 라이브러리에서 *만든* 그래프를 사용하여 작업할 때 유용합니다.
 
 ![라이브러리의 색상 변환 노드](../assets/2019-3-0-clr-mgt-nodes.png "라이브러리의 색상 변환 노드"){width="512px"}
 

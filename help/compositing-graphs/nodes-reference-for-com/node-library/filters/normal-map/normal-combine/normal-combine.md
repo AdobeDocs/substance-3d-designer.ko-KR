@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 표준 결합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -49,11 +49,11 @@ ht-degree: 2%
 
 <b>일반 2</b> *색상*&#x200B;설명
 
-<b>일반 1</b> *색상*&#x200B;설명
+<b>보통 1</b> *색상*&#x200B;설명
 
 ## 매개변수
 
-<b>기법</b> *정수*&#x200B;품질에 대한 속도에서 거래하는 사용할 내부 혼합 기법을 설정합니다.\
+<b>기법</b> *정수*&#x200B;품질에 대한 속도로 거래하는 데 사용할 내부 혼합 기술을 설정합니다.\
 *- 화이트아웃(저품질)
 * 채널 혼합(고품질)
 * 디테일 지향(고품질)*

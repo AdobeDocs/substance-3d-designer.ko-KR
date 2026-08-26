@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 프로젝트 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7dbdf7d5539fcc9450150b699fbd588cb0889892
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2687'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Designer에서 작업 환경에 사용할 여러 프로젝트 파일을 가져�
 | <b>3D 장면</b> | 기본적으로 Designer은 3D 보기에서 **MikkT 접선 공간**&#x200B;을 사용합니다. MikkT는 널리 사용되며 Unity, Unreal Engine 4, Blender 및 xNormal 등의 프로그램에서 기본값으로 사용됩니다.3D 보기에 **자신의 접선 공간**&#x200B;을 사용할 수 있습니다. 이 설정에서는 *DLL 파일* 입력 형식으로 Designer에 제공합니다. 레이블이 DLL 파일에서 자동으로 감지되며 플러그 인에 대한 설명을 편집할 수 있습니다&#x200B;<br><br>*기본값: mikktspace.dll*&#x200B;항상 탄젠트 프레임 다시 계산&#x200B;<br><br>*기본값: 선택 취소됨*&#x200B;표준 및 탄젠트 매끄러움 각도&#x200B;<br><br>*기본값: 180.0°* |
 | <b>기타</b> | 일반 맵은 <b>DirectX</b> 또는 <b>OpenGL</b> 형식을 사용하여 생성하거나 처리할 수 있습니다. 이 설정은 [3D 보기](../../../interface/3d-view/3d-view.md)의 [재질 속성](../../../interface/3d-view/material-properties/material-properties.md) 및 [표준](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) 필터 노드 매개 변수와 같은 여러 위치에서 이 형식의 값을 설정합니다.<br><br>*기본값: DirectX*<br><br>[표준](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) 필터 노드에 대해서는 <b>Alpha 채널 내용</b> 매개 변수의 기본값을 설정할 수 있습니다. 모든 경우에 알파를 1로 강제 설정하거나 해당 입력의 정보로 채울 수 있습니다.<br><br>*기본값: Alpha을 1*&#x200B;로 강제 설정 |
 | <b>이미지 형식</b> | *내보낸* 이미지&#x200B;<br><br>*기본값: 기본값(BMP)/Piz 기반 웨이블릿, 선택 취소, 선택 취소(EXR)/선택 취소, 선택 취소, 75(JPG)/최고 속도, 선택 취소(PNG)/기본값(TGA)/LZW(TIF)/선택 취소, 75(WEBP)에 대한 기본 형식 설정을 지정할 수 있습니다.* |
-| <b>종속성 경로</b> | <p>SBS 패키지에는 일반적으로 <b>종속성</b>이 있습니다. 즉, 다른 SBS 패키지, 비트맵 또는 벡터 파일과 같은 <i>외부 리소스</i>에 의존합니다.[종속성 관리자](../../../interface/dependency-manager/dependency-manager.md)에 나열된 <br>이러한 종속성은 저장되며 이러한 리소스를 가리키는 <b>경로</b>를 사용하여 SBS 패키지</i>에서 <i>참조됩니다.</p><p>SBS 패키지와 <i>동일한 경로</i>를 포함하는 종속성(즉, 해당 위치에서 동일한 위치 또는 하위 폴더에 위치)의 경우 참조 경로는 SBS 패키지 위치를 기준으로 <b>쓰여집니다</b>.</p><p>예: SBS 패키지 <code>myproject/mypackage.sbs</code>, 이미지 <code>myproject/myfolder/myimage.png</code> <code>myfolder/myimage.png에 참조됩니다.</code> <code>mypackage.sbs의 경로</code>).</p><p>SBS 패키지와 같은 경로를 포함하지 <i>않는</i> 종속성에 포함하려면(즉, SBS 패키지와 다른 위치에 모두 위치) 경로 작성 방법을 선택할 수 있습니다.</p><p><b>상대 경로</b>(으)로 설정된 경우 리소스는 위에서 설명한 것과 동일한 방식으로 참조됩니다.</p><p>예: SBS 패키지 <code>myparentfolder/myproject/mypackage.sbs</code>, 이미지 <code>myparentfolder/myotherfolder/myimage.png</code> <code>../myotherfolder/myimage.png에 참조됩니다.</code> <code>mypackage.sbs의 경로</code>.</p><p><b>절대 경로</b>(으)로 설정된 경우 리소스는 전체 시스템 경로에서 참조됩니다.</p><p>예: SBS 패키지 <code>myparentfolder/myproject/mypackage.sbs</code>, 이미지 <code>myparentfolder/myotherfolder/myimage.png</code> <code>mypackage.sbs에서 이 동일한 전체 경로를 참조합니다.</code></p><p><i>기본: ...상대 경로</i></p><p><i>참고:</i> 모든 경우 리소스를 이동하면 <i>종속성 끊기</i> 가 되고, 이로 인해 그래프에 <b>고스트 인스턴스</b> 노드가 표시됩니다.  SBS 패키지와 함께 단일 프로젝트 폴더에 있는 모든 종속성을 <i>통합</i>하려면 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 <b>종속성을 사용하여 내보내기...</b> 기능을 사용할 수 있습니다. 이렇게 하면 자유롭게 이동할 수 있는 <i>자체 포함</i> 프로젝트 폴더가 효과적으로 만들어집니다. |
+| <b>종속성 경로</b> | <p>SBS 패키지에는 일반적으로 <b>종속성</b>이 있습니다. 즉, 다른 SBS 패키지, 비트맵 또는 벡터 파일과 같은 <i>외부 리소스</i>에 의존합니다.[종속성 관리자](../../../interface/dependency-manager/dependency-manager.md)에 나열된 <br>이러한 종속성은 저장되며 이러한 리소스를 가리키는 <b>경로</b>를 사용하여 SBS 패키지</i>에서 <i>참조됩니다.</p><p>SBS 패키지와 <i>동일한 경로</i>를 포함하는 종속성(즉, 해당 위치에서 동일한 위치 또는 하위 폴더에 위치)의 경우 참조 경로는 SBS 패키지 위치를 기준으로 <b>쓰여집니다</b>.</p><p>예: SBS 패키지 <code>myproject/mypackage.sbs</code>, 이미지 <code>myproject/myfolder/myimage.png</code> <code>myfolder/myimage.png에 참조됩니다.</code> <code>mypackage.sbs의 경로</code>).</p><p>SBS 패키지와 같은 경로를 포함하지 <i>않는</i> 종속성에 포함하려면(즉, SBS 패키지와 다른 위치에 모두 위치) 경로 작성 방법을 선택할 수 있습니다.</p><p><b>상대 경로</b>(으)로 설정된 경우 리소스는 위에서 설명한 것과 동일한 방식으로 참조됩니다.</p><p>예: SBS 패키지 <code>myparentfolder/myproject/mypackage.sbs</code>, 이미지 <code>myparentfolder/myotherfolder/myimage.png</code> <code>../myotherfolder/myimage.png에 참조됩니다.</code> <code>mypackage.sbs의 경로</code>.</p><p><b>절대 경로</b>(으)로 설정된 경우 리소스는 전체 시스템 경로에서 참조됩니다.</p><p>예: SBS 패키지 <code>myparentfolder/myproject/mypackage.sbs</code>, 이미지 <code>myparentfolder/myotherfolder/myimage.png</code> <code>mypackage.sbs에서 이 동일한 전체 경로를 참조합니다.</code></p><p><i>기본: ...상대 경로</i></p><p><i>참고:</i> 모든 경우 리소스를 이동하면 <i>종속성 끊기</i> 가 되고, 이로 인해 그래프에 <b>고스트 인스턴스</b> 노드가 표시됩니다.  SBS 패키지와 함께 단일 프로젝트 폴더에 있는 모든 종속성을 <i>통합</i>하려면 [탐색기](../../the-explorer-window/the-explorer-window.md) 패널에서 <b>종속성을 사용하여 내보내기...</b> 기능을 사용할 수 있습니다. 이렇게 하면 자유롭게 이동할 수 있는 <i>자체 포함</i> 프로젝트 폴더가 효과적으로 만들어집니다. |
 
 ### 라이브러리
 
@@ -143,7 +143,7 @@ SBS 패키지가 라이브러리에 추가되는 경우 해당 **라이브러리
 >[!NOTE]
 >
 > 사용자 지정 리소스가 라이브러리에 추가되는 동안 기존 라이브러리 범주에 대해 설정된 필터링 규칙 때문에 *표시되지 않을 수 있습니다*. 프로젝트 작업 중에 콘텐츠를 안정적으로 찾을 수 있도록 폴더에 구성된 *나만의 필터*&#x200B;를 만드는 것이 좋습니다.\
-> 자세한 내용은 설명서의 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 섹션을 참조하십시오.
+> 자세한 내용은 설명서의 [사용자 지정 콘텐츠 및 필터 관리](../../the-library/managing-custom-content/managing-custom-content-and-filters.md) 섹션을 참조하십시오.
 
 ### Python
 

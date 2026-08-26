@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer 사용 안내서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 61535e3f89e10931c220096577e76abb9799d8df
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -49,8 +49,8 @@ Designer에서 사용되는 단어나 개념이 익숙하지 않습니까? [용�
 * [홈 화면](../interface/home-screen/home-screen.md) — Substance 3D Designer를 시작하면 홈 화면으로 시작합니다. 이 화면에서 이 소프트웨어를 사용하여 작업을 시작하고 가장 유용한 링크에 액세스할 수 있습니다.
 * [작업 영역 사용자 지정](../interface/customizing-your-wor/customizing-your-workspace.md) — 이 페이지에서는 Adobe Substance 3D Designer의 https://www.adobe.com/kr/products/substance3d-designer.html, 사용자 인터페이스에서 패널을 배열하고 그 기능을 활용하여 워크플로우를 개선하는 방법을 설명합니다.
 * [기본 도구 모음](../interface/the-main-toolbar/the-main-toolbar.md) — 이 페이지에서는 기본 창의 왼쪽 상단에 나타나는 Adobe Substance 3D Designer의 기본 도구 모음과 메뉴에 대해 설명합니다.
-* [환경 설정](../interface/preferences-window/preferences-window.md) — 이 페이지에서는 환경 설정 창과 모든 설정을 설명합니다.
-* [탐색기](../interface/the-explorer-window/the-explorer-window.md) — 이 페이지에서는 Adobe Substance 3D Designer의 탐색기 도크에 대해 설명합니다. 이 도크를 사용하여 패키지 및 리소스를 관리할 수 있습니다.
+* [환경 설정](../interface/preferences-window/preferences-window.md) — 이 페이지에서는 환경 설정 창과 모든 설정을 설명합니다.
+* [탐색기](../interface/the-explorer-window/the-explorer-window.md) — 이 페이지에서는 Adobe Substance 3D Designer의 탐색기 도크에 대해 설명합니다. 이 도크를 사용하여 패키지 및 리소스를 관리할 수 있습니다.
 * [그래프 보기](../interface/the-graph-view/the-graph-view.md) — 이 페이지에는 Substance 3D Designer의 그래프 보기가 표시됩니다.
 * [라이브러리](../interface/the-library/the-library.md) — 이 페이지에는 Substance 3D Designer의 라이브러리 패널, 레이아웃, 콘텐츠 검색 및 필터링을 위한 도구가 제공됩니다.
 * [속성](../interface/properties/properties.md) — 이 페이지에는 Substance 3D Designer의 속성 패널, 레이아웃, 다양한 롤아웃, 범주 및 내에서 찾을 수 있는 매개변수가 표시됩니다. Substance 그래프의 속성에 집중되어 있습니다. Substance 함수 그래프와 FX-맵 그래프는 레이아웃이 더 간단합니다.

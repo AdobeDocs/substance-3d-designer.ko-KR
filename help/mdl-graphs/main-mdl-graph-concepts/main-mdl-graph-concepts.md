@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 기본 MDL 그래프 개념
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ MDL 그래프의 결과는 <b>루트</b> 노드로 정의됩니다. 그래프의
 
 ![MDL 그래프의 루트 노드](../../assets/mdl-root-hl.png "MDL 그래프의 루트 노드")
 
-*MDL 그래프의 루트 노드 및 해당 속성이 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *패널*&#x200B;에 표시됨
+*MDL 그래프의 루트 노드 및 해당 속성이 [속성](../../interface/properties/properties.md)* *패널*&#x200B;에 표시됨
 
 ## 커넥터 및 유형
 

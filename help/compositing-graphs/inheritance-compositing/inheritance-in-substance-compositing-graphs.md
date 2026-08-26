@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance 그래프에서 상속
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 
 ### 상속 메서드 변경
 
-[속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 패널에서 노드 속성의 [기본 매개 변수](../../compositing-graphs/graph-parameters/graph-parameters.md) 섹션에 나열된 모든 매개 변수에는 해당 레이블 반대쪽에 (아이콘) <b>상속 메서드 설정</b> 드롭다운 단추가 있습니다.\
+[속성] 패널에서 노드 속성의 [기본 매개 변수](../../compositing-graphs/graph-parameters/graph-parameters.md) 섹션에 나열된 모든 매개 변수에는 해당 레이블 반대쪽에 (아이콘) <b>상속 메서드 설정</b> 드롭다운 단추가 있습니다.\
 이 단추를 사용하여 매개변수에 사용할 상속 방법을 선택할 수 있습니다.
 
 ![상속 메서드 변경](../../assets/inheritance-change.gif "상속 메서드 변경"){width="512px"}
