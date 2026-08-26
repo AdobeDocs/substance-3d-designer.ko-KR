@@ -1,8 +1,8 @@
 ---
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
 # 도도
@@ -16,9 +16,12 @@ ht-degree: 1%
 
 * AdobeDocs의 Python API 설명서 진입점
 * &#39;설명서 팝업&#39; 페이지의 예
+* 용어집:
+  * HDR
 
 ## 수정 사항
 
+* [개요](help/getting-started/overview/overview.md)에서 끊어진 링크
 * [출력 노드](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)에서 끊어진 링크 및 서식 지정
 * HelpX 링크
 * 페이지 내 ToC 제거(예: 새 소음)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 3D 보기를 사용하여 3D 개체에서 재질을 미리 보고 조명 조건을 테스트합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3561'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,12 @@ ht-degree: 1%
 * 고품질의 광선 추적형 렌더러는 **GPU 패스트레이서** 렌더러를 사용합니다.
 
 자세한 내용은 여기를 참조하세요. [3D 렌더러](3d-renderers/3d-renderers.md)
+
++++ 3D 뷰 도킹
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
 
 ## 뷰포트 인터랙션
 
@@ -122,9 +128,9 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 
 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 빈 영역 *RMB*&#x200B;을(를) 클릭하고 컨텍스트 메뉴에서 **3D 보기에서 출력 보기** 옵션을 선택하여 그래프의 모든 출력을 볼 수 있습니다.
 
-[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스에 RMB를 클릭하고 컨텍스트 메뉴에서 **3D 보기에서 출력 보기** 옵션을 선택하여 그래프를 열지 않고도 그래프의 출력을 볼 수도 있습니다.
+[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스에 RMB를 클릭하고 컨텍스트 메뉴에서 **3D 보기에서 출력 보기** 옵션을 선택하여 그래프를 열지 않고도 그래프의 출력을 볼 수도 있습니다.
 
-그래프의 상황별 메뉴에 대한 대안으로, [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 [3D 보기](https://substance3d.adobe.com/)&#x200B;(으)로 그래프를 드래그해도 동일한 결과를 얻을 수 있습니다.
+그래프의 상황별 메뉴에 대한 대안으로, [탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 [3D 보기](https://substance3d.adobe.com/)&#x200B;(으)로 그래프를 드래그해도 동일한 결과를 얻을 수 있습니다.
 
 *그래프 불러오기*&#x200B;를 수행하면 기본적으로 해당 출력이 3D 보기에 자동으로 적용됩니다. [환경 설정](../../interface/preferences-window/preferences-window.md)에서 이 동작을 사용하지 않도록 설정할 수 있습니다. **편집 > 환경 설정 > 그래프 > 일반**&#x200B;으로 이동하고 그래프를 열 때 **3D 보기에서 출력 보기** 옵션을 선택 해제합니다.
 
@@ -144,7 +150,7 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 
 *RMB*&#x200B;을 사용하여 그래프 보기에서 3D 보기로 노드를 끌어 놓을 수도 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
-[탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스를 확장하고 *LMB*&#x200B;를 사용하여 해당 출력을 3D 보기로 드래그하여 개별 그래프 출력을 볼 수 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
+[탐색기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 도크에서 그래프 리소스를 확장하고 *LMB*&#x200B;를 사용하여 해당 출력을 3D 보기로 드래그하여 개별 그래프 출력을 볼 수 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
 ![사용자 지정 3D 메시 보기](../../assets/3d-mesh.gif "사용자 지정 3D 메시 보기")
 
@@ -215,7 +221,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 >
 > **TDR(Windows만 해당)**
 > 
-> 이 기능을 사용하려면 Designer의 [기술 요구 사항](../../getting-started/system-requirements/system-requirements.md)에 명시된 대로 <b>TDR(Timeout Detection and Recovery)</b>이 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 값과 일치해야 합니다.
+> 이 기능을 사용하려면 Designer의 [기술 요구 사항](../../getting-started/system-requirements/system-requirements.md)에 명시된 대로 <b>TDR(Timeout Detection and Recovery)</b>이 설명서의 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 값과 일치해야 합니다.
 
 ## 메뉴 막대
 
@@ -260,7 +266,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 * 토러스
 
-<b>2D 보기에서 UV 표시:</b> 현재 선택한 메시에 대한 UV를 [2D 보기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)에서 오버레이로 표시할 수 있습니다.
+<b>2D 보기에서 UV 표시:</b> 현재 선택한 메시에 대한 UV를 [2D 보기](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)에서 오버레이로 표시할 수 있습니다.
 
 <b>현재 장면에서 3D 리소스 만들기...:</b> 현재 장면에서 패키지에 새 [3D 장면 리소스](../../resources/3d-scene-resource/3d-scene-resource.md)를 만듭니다.
 
@@ -299,7 +305,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 <b>정의 로드...: </b>(OpenGL 렌더러만 해당) 사용자 지정 [GLSLFX 셰이더](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)를 로드할 수 있습니다. 셰이더가 위의 목록에 추가됩니다.
 
-<b>공통 매개 변수 다시 설정:</b> 셰이더에서 공통적인 모든 매개 변수를 다시 설정합니다. 예를 들어 [래스터라이저/GPU 패스트레이서]와 OpenGL 렌더러 사이를 전환할 때 [Adobe 표준 재질](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)의 여러 매개 변수 값이 전달됩니다.
+<b>공통 매개 변수 다시 설정:</b> 셰이더에서 공통적인 모든 매개 변수를 다시 설정합니다. 예를 들어 [래스터라이저/GPU 패스트레이서]와 OpenGL 렌더러 사이를 전환할 때 [Adobe 표준 재질](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)의 여러 매개 변수 값이 전달됩니다.
 
 <b>이름 바꾸기:</b> 이 재질의 레이블을 변경합니다.
 
@@ -548,7 +554,23 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 >[!NOTE]
 >
-> 도구 모음은 세 개의 평행선으로 표시된 가장 왼쪽의 *핸들*&#x200B;을 사용하여 **3**&#x200B;**&#x200B; D 보기** 도킹 주위에 *위치 변경*할 수 있습니다.
+> 도구 모음은 세 개의 평행선으로 표시된 가장 왼쪽의 *핸들*&#x200B;을 사용하여 **3D 보기** 도킹 주위에 *위치 변경*&#x200B;할 수 있습니다.
+
+### 3D 렌더링 AOV
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p><img src="./3d-view.resources/aov/aov-icon.png" alt="3D 렌더링 AOVs 아이콘" style="padding-left: 5px; padding-right: 5px" /> <b>3D 렌더링 AOV</b> 단추를 사용하여 다른 <a href="../../glossary/glossary.md#aov">AOV</a>을(를) 표시할 수 있습니다.</p>
+            <p>AOV를 사용하면 메시 및 재질 정보를 따로 검사하여 집중된 작업 및 디버깅을 수행할 수 있습니다.</p>
+            <p>일부 AOV에는 뷰포트에서 1(순수한 흰색) 또는 0(순수한 검정)으로 클램프되는 <i>HDR 값</i>이 포함됩니다.<br>값의 전체 범위를 검사하려면 AOV의 3D 렌더링을 HDR 값을 지원하는 이미지 파일 형식(예: <code>.exr</code>)으로 내보낼 수 있습니다.<br>현재 AOV를 내보내려면 <code>Camera > Save render...</code> 메뉴 옵션을 사용하세요.</p>
+            <p><i>참고:</i> AOVs는 래스터라이저와 GPU 패스트레이서 <a href="./3d-renderers/3d-renderers.md">3D 렌더러</a>를 사용할 때만 사용할 수 있습니다.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="3D 렌더링 AOV 합성" />
+        </td>
+    </tr>
+</table>
 
 ### 색상 채널
 
