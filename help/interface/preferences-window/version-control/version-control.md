@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 환경 설정에서 버전 제어 설정을 구성하여 Git 및 기타 시스템과 통합합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -113,8 +113,8 @@ Designer에서 ![P4 설정: 인터프리터](../../../assets/p4v-project-setting
 1. 작업 영역에 있는 패키지 파일의 상태에 따라 다음과 같은 몇 가지 작업을 수행할 수 있습니다.
 
    * <b>추가:</b> 파일을 &#39;ToAdd&#39;로 표시
-   * <b>제출:</b> 선택한 패키지를 제출합니다. 이 작업은 변경 메시지(아래 참조)를 지정하는 대화 상자를 표시합니다.
-   * <b>되돌리기:</b> 수정 내용을 되돌립니다. 이 작업은 복구할 파일을 선택하는 대화 상자를 표시합니다(아래 참조).
+   * <b>제출:</b> 선택한 패키지를 제출합니다. 이 작업은 변경 메시지(아래 참조)를 지정하는 대화 상자를 표시합니다.
+   * <b>되돌리기:</b> 수정 내용을 되돌립니다. 이 작업은 복구할 파일을 선택하는 대화 상자를 표시합니다(아래 참조).
    * <b>체크 아웃:</b> 저장소에서 파일을 확인하십시오.
    * <b>마지막 버전 가져오기:</b> 저장소에서 최신 버전 검색
    * <b>새로 고침 상태:</b> 패키지 파일 상태 새로 고침

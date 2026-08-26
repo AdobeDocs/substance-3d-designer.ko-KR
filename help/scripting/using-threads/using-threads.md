@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: 병렬 처리 및 성능을 위해 Substance 3D Designer Python 스크립팅에서 스레드를 사용하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스레드 사용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e49409eb4835f6a6c9f17713511e07b7afa38028
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: '[표준] 노드를 사용하면 표면 세부 사항 및 조명을 제어하기 위한 표준 맵 텍스처를 처리하고 조작할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 법선
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -78,9 +78,9 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>강도</b> *부동* | Height 맵의 강도를 수정합니다.   정규화로 변환하기 위해 입력 Height 맵을 해석하는 강도를 설정합니다. 입력 맵에 따라 100보다 큰 값은 더 큰 효과가 없습니다. |
-| <b>일반 형식</b> *부울* | Height 맵의 Y 좌표를 반전합니다(OpenGL).   녹색(Y) 채널의 인코딩 방법을 설정합니다. 기본적으로 &quot;Flip Green/Y&quot; 스위치입니다. |
-| <b>Alpha 채널 콘텐츠</b> *부울* | 표준 맵의 알파 채널을 입력 텍스처로 채웁니다.   [입력/강제] Alpha을 1로 하여 Alpha 채우기: 이 옵션을 선택하면 [입력]을 추가 Alpha으로 사용하지 않고 Alpha 채널을 단색으로 설정할 수 있습니다. |
+| <b>강도</b> *부동* | Height 맵의 강도를 수정합니다.   정규화로 변환하기 위해 입력 Height 맵을 해석하는 강도를 설정합니다. 입력 맵에 따라 100보다 큰 값은 더 큰 효과가 없습니다. |
+| <b>일반 형식</b> *부울* | Height 맵의 Y 좌표를 반전합니다(OpenGL).   녹색(Y) 채널의 인코딩 방법을 설정합니다. 기본적으로 &quot;Flip Green/Y&quot; 스위치입니다. |
+| <b>Alpha 채널 콘텐츠</b> *부울* | 표준 맵의 알파 채널을 입력 텍스처로 채웁니다.   [입력/강제] Alpha을 1로 하여 Alpha 채우기: 이 옵션을 선택하면 [입력]을 추가 Alpha으로 사용하지 않고 Alpha 채널을 단색으로 설정할 수 있습니다. |
 
 ## 입력 커넥터
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 비트맵 페인팅 도구를 사용하여 텍스처 편집을 위해 비트맵 리소스에 직접 페인팅할 수 있습니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 비트맵 페인팅 도구
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 *새* 비트맵은 다음과 같은 방법으로 만들 수 있습니다.
 
-* [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 *SBS 패키지*&#x200B;의 RMB 또는 패키지 내의 *폴더*&#x200B;를 클릭하여 상황별 메뉴를 연 다음 <b>새로 만들기</b> 하위 메뉴를 열고 <b>비트맵</b> 옵션을 선택합니다
+* [탐색기](../../../interface/the-explorer-window/the-explorer-window.md) 패널에서 *SBS 패키지*&#x200B;의 RMB 또는 패키지 내의 *폴더*&#x200B;를 클릭하여 상황별 메뉴를 연 다음 <b>새로 만들기</b> 하위 메뉴를 열고 <b>비트맵</b> 옵션을 선택합니다
 * [그래프](../../../interface/the-graph-view/the-graph-view.md)에서 [비트맵 노드](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)를 만들고 상황에 맞는 메뉴에서 <b>새 리소스에서...</b> 옵션을 선택합니다.
 
 새 비트맵 리소스의 *이름*, *해상도* 및 *배경색*&#x200B;을 설정할 수 있는 <b>새 비트맵</b> 창이 열립니다.
@@ -128,9 +128,9 @@ ht-degree: 0%
 
 사전 설정은 ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>브러시 라이브러리</b> 메뉴에서 관리할 수 있는 *라이브러리*&#x200B;에 구성되어 저장됩니다.
 
-<b>라이브러리 내보내기:</b> *현재 사전 설정과 모든 설정을 라이브러리 파일에 저장*
+<b>라이브러리 내보내기:</b> 현재 사전 설정과 모든 설정을 라이브러리 파일에 *저장*
 
-<b>라이브러리 가져오기:</b> 기존 라이브러리 파일에서 사전 설정을 *불러오기*&#x200B;하고 현재 목록에 *추가* - 이름이 *같은 사전 설정이 라이브러리 파일에서 사전 설정으로 바뀌었습니다*.
+<b>라이브러리 가져오기:</b> 기존 라이브러리 파일에서 사전 설정을 *로드*&#x200B;하고 현재 목록에 *추가*&#x200B;합니다. *이름이 같은 사전 설정은 라이브러리 파일에서 사전 설정으로 바뀝니다.*
 
 <b>라이브러리 재설정:</b>은 현재 사전 설정을 기본 라이브러리로 재설정합니다.
 

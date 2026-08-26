@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: 노드 정렬 도구를 사용하여 그래프 보기에서 노드를 정리 및 정렬하면 보다 깔끔하고 읽기 쉬운 그래프가 표시됩니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 노드 정렬 도구
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![노드 정렬 도구 모음](../../../assets/node-alignment-toolbar.png "노드 정렬 도구 모음"){zoomable="yes"}
 
-노드 정렬 도구 를 사용하면 그래프를 통해 노드를 정렬하여 가독성과 작성 경험을 향상시킬 수 있습니다. 노드를 정렬하고 균일하게 분포하며 그리드에 스냅하는 작업을 제공합니다.
+노드 정렬 도구 를 사용하면 그래프를 통해 노드를 정렬하여 가독성과 작성 경험을 향상시킬 수 있습니다. 노드를 정렬하고 균일하게 분포하며 그리드에 스냅하는 작업을 제공합니다.
 
 현재 선택된 <b>노드</b>에서만 작동합니다.
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 ### 스택
 
-<b>스택 </b>옵션 ![](../../../assets/node-alignment-stack.png)을(를) 사용하면 정렬을 사용할 때 <b>겹치지 않게</b> 할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+<b>스택 </b>옵션 ![](../../../assets/node-alignment-stack.png)을(를) 사용하면 정렬을 사용할 때 <b>겹치지 않게</b> 할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.
 
 활성화되면, 노드는 선택 영역의 다른 노드와 충돌할 때까지 가능한 한 참조 위치로 이동합니다. 이렇게 하면 각 노드 사이에 하나의 중간 격자 셀의 여백을 갖는 선택된 축에 이들을 효과적으로 적층한다.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
 description: 패스와 자유 곡선 도구를 사용하여 그래프에 절차 패턴과 유기적인 모양을 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 자유 곡선 도구 작업
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 이 도구 집합은 GPU에서 훨씬 빠르게 실행되는 <b>Substance 엔진</b> 기능을 광범위하게 사용합니다. 따라서 시스템에 대한 엔진의 GPU 버전을 사용하십시오. <b>Direct3D</b>(Windows) 또는 <b>OpenGL</b>(macOS).\
    <b>F9</b> 키를 누르거나 기본 메뉴 막대에서 <b>도구 > 엔진 전환...</b>으로 이동하여 엔진을 전환할 수 있습니다.
-1. 그런 다음 [환경 설정](../../../../../interface/preferences-window/preferences-window.md)의 <b>그래프</b> 섹션에서 <b>컨텍스트 편집</b>을 해제하는 것이 좋습니다(<b>편집 > 환경 설정... 이동).이 창에 액세스하려면 주 메뉴 표시줄의 </b>.\
+1. 그런 다음 [환경 설정](../../../../../interface/preferences-window/preferences-window.md)의 <b>그래프</b> 섹션에서 <b>상황에 맞는 편집</b>을 해제하는 것이 좋습니다(이 창에 액세스하려면 주 메뉴 막대에서 <b>편집 > 환경 설정...</b>(으)로 이동).\
    직접 편집을 사용하면 호스트 그래프의 컨텍스트에서 인스턴스 노드를 열 수 있습니다. 이 방법은 매우 편리하지만 도구 세트의 이미지 캐시에 필요한 계산이 기하급수적으로 증가하는 부작용이 있습니다.
 
 이 두 가지 설정 중 하나를 권장 상태로 변경하면 성능이 크게 향상됩니다.

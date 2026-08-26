@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 작업 영역을 사용자 정의하여 작업 과정 및 레이아웃 환경 설정을 최적화하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 작업 영역 사용자 정의
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Windows 메뉴
 
-이 메뉴를 통해 Designer의 주요 사용자 인터페이스 요소를 관리할 수 있습니다. 각 옵션은 기본 도구 모음에 대한 [이 페이지](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)의 <b>Windows</b> 섹션에 설명되어 있습니다. 여기서는 이 메뉴와 관련된 추가 개념을 제공합니다.
+이 메뉴를 통해 Designer의 주요 사용자 인터페이스 요소를 관리할 수 있습니다. 각 옵션은 기본 도구 모음에 대한 [이 페이지](../the-main-toolbar/the-main-toolbar.md)의 <b>Windows</b> 섹션에 설명되어 있습니다. 여기서는 이 메뉴와 관련된 추가 개념을 제공합니다.
 
 ### 보기 표시/숨기기
 

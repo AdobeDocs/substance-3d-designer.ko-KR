@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ''
 description: 입력 매개 변수 및 값으로 제어할 수 있는 동적 그레이디언트를 만들려면 [그레이디언트(동적)] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래디언트(동적)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 9%
@@ -94,7 +94,7 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>그레이디언트 주소 지정</b> *부울* | 그라디언트가 반복(타일)되는지 또는 클램프되는지를 설정합니다.   이 매개 변수는 회색 음영 입력의 [0, 1] 범위 HDR 픽셀을 처리하는 방법을 결정합니다. 클램프하거나 [0, 1]까지 접습니다. |
+| <b>그레이디언트 주소 지정</b> *부울* | 그라디언트가 반복(타일)되는지 또는 클램프되는지를 설정합니다.   이 매개 변수는 회색 음영 입력의 [0, 1] 범위 HDR 픽셀을 처리하는 방법을 결정합니다. 클램프하거나 [0, 1]까지 접습니다. |
 | <b>그레이디언트 방향</b> *정수* | &#39;그레이디언트 입력&#39;을 샘플링할 축을 설정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>가로:</i> X축을 기준으로 픽셀 행을 샘플링합니다.</li> <li data-preserve-html="true"><i>세로:</i> Y축에서 픽셀 열을 샘플링합니다.</li> </ul> |
 | <b>그레이디언트 입력 위치</b> *부동* | &#39;그레이디언트 입력&#39;에서 샘플링할 픽셀의 행 또는 열의 정규화된 위치입니다. |
 

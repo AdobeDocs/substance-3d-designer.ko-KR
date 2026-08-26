@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: '[패스 정점 프로세서] 노드를 사용하여 고급 옵션으로 패스 정점을 변형하고 조작할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 정점 프로세서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## 매개변수
 
-<b>이전 정점이 액세스됨</b> *정수*\
+<b>액세스된 이전 정점</b> *정수*\
 이 매개 변수를 사용하면 <b>정점별 함수</b> 매개 변수 함수에서 <b>Get</b> 노드를 사용하여 경로(*prev.pos*) 및 이전 정점(*prev[2].pos*)을 따라 이전 정점의 위치를 가져올 수 있습니다.
 
 <b>액세스된 다음 정점</b> *정수*\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: 표면 세부 정보 추출을 위해 Height 맵에서 부드러운 곡률 맵을 생성하려면 곡률(Curvature) 부드러운(Smooth) 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 곡률 매끄럽게
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,9 +78,9 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>곡률</b> *회색 음영* | 입력된 표준 맵에서 계산된 곡률 맵입니다.   밝은 영역은 50% 회색입니다. 볼록 영역은 더 밝고 오목 영역은 더 어둡습니다. |
-| <b>볼록함</b> *회색 음영* | 입력된 표준 맵에서 계산된 볼록도 맵입니다.   영역이 볼록할수록 지도에서의 밝은 영역입니다.  평면 또는 오목 영역은 검정색입니다. |
-| <b>오목</b> *회색 음영* | 입력된 표준 맵에서 계산된 오목한 맵입니다.   오목한 영역이 많을수록 지도에서 더 밝아집니다.  평면 또는 볼록 영역은 검정색입니다. |
+| <b>곡률</b> *회색 음영* | 입력된 표준 맵에서 계산된 곡률 맵입니다.   밝은 영역은 50% 회색입니다. 볼록 영역은 더 밝고 오목 영역은 더 어둡습니다. |
+| <b>볼록함</b> *회색 음영* | 입력된 표준 맵에서 계산된 볼록도 맵입니다.   영역이 볼록할수록 지도에서의 밝은 영역입니다.  평면 또는 오목 영역은 검정색입니다. |
+| <b>오목</b> *회색 음영* | 입력된 표준 맵에서 계산된 오목한 맵입니다.   오목한 영역이 많을수록 지도에서 더 밝아집니다.  평면 또는 볼록 영역은 검정색입니다. |
 
 ## 매개변수
 

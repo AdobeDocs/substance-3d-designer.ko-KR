@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: 모든 기능에 액세스하기 위해 Substance 3D Designer을 활성화하고 라이선스를 관리하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 활성화 및 라이선스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 에디션 | 활성화 프로세스 |
 | --- | --- |
-| Creative Cloud 데스크톱 | [HelpX 설명서](https://helpx.adobe.com/kr/support/substance-3d-designer.html)의 전용 페이지를 참조하십시오. 문제가 있는 경우 [Creative Cloud 설명서](https://helpx.adobe.com/kr/creative-cloud/user-guide.html)에서 추가 답변을 제공할 수 있습니다. |
+| Creative Cloud 데스크톱 | [HelpX 설명서](https://helpx.adobe.com/support/substance-3d-designer.html)의 전용 페이지를 참조하십시오. 문제가 있는 경우 [Creative Cloud 설명서](https://helpx.adobe.com/creative-cloud/user-guide.html)에서 추가 답변을 제공할 수 있습니다. |
 | 증기 | Steam 라이브러리에서 직접 제품을 실행합니다. |
 | Substance(독립 실행형) | 아래에 설명된 활성화 프로세스를 참조하십시오. |
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * <b>이 제품 평가</b>: 레거시 평가판을 더 이상 사용할 수 없습니다. 대신 각 Substance 3D 응용 프로그램에 대해 [여기](https://www.adobe.com/creativecloud/3d-augmented-reality.html) 또는 Creative Cloud 데스크톱을 사용하여 30일 체험판을 시작할 수 있습니다. 각 체험판은 다른 Substance 3D 애플리케이션과 별개이므로 한 번에 하나씩 또는 모두 시도해 볼 수 있습니다.
 * <b>라이선스 파일을 사용하여 활성화</b>: 2022년 9월 30일 이전에 [Substance 3D 웹 사이트](https://store.substance3d.com/user)의 계정 페이지에서 다운로드한 라이선스 파일(<b>\*.key</b>)로 제품을 활성화하십시오.
-* <b>내 계정을 사용하여 활성화</b>: 기존 Substance 계정은 더 이상 활성화에 사용할 수 없습니다. [Substance 계정에 대한 자세한 내용은 여기에서 확인할 수 있습니다](https://helpx.adobe.com/kr/substance-3d/unlisted/faq-end-of-life-accounts.html).
+* <b>내 계정을 사용하여 활성화</b>: 기존 Substance 계정은 더 이상 활성화에 사용할 수 없습니다.
 
 >[!IMPORTANT]
 >

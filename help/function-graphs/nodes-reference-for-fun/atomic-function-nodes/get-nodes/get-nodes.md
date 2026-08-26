@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 노드 가져오기 를 액세스하여 변수 값과 데이터를 검색합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 변수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 ![Substance 함수 그래프 - Get float](../../../../assets/assign-getfloat.gif "Substance 함수 그래프 - Get float"){zoomable="yes"}
 
-Get 노드가 기본적으로 수행하는 작업은 동적 변수를 가져와 함수에 사용하기 위해 Get Nodes의 출력에서 반환하는 것입니다. 이러한 Get 노드는 [그래프 속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)에 정의된 입력 매개 변수와 [매개 변수 함수](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) 사이의 링크를 형성합니다.
+Get 노드가 기본적으로 수행하는 작업은 동적 변수를 가져와 함수에 사용하기 위해 Get Nodes의 출력에서 반환하는 것입니다. 이러한 Get 노드는 [그래프 매개 변수](../../../../compositing-graphs/graph-parameters/graph-parameters.md)에 정의된 입력 매개 변수와 [매개 변수 함수](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) 사이의 링크를 형성합니다.
 
 Get 노드를 사용할 때마다 드롭다운 메뉴에서 사용 가능한 값을 선택해야 합니다. Get 노드는 <b>해당 형식의 값을 가져옵니다</b>. 즉, Get 노드의 메뉴에만 유효한 옵션이 표시되며 유효하지 않은 옵션은 선택할 수 없습니다. 변수를 사용할 수 없는 경우 유형 불일치가 있음을 의미합니다
 

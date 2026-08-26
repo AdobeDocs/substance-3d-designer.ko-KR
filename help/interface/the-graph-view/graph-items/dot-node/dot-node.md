@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 점 노드와 포털 노드를 사용하여 연결 지점을 만들고 그래프 흐름을 구성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 점 노드(포털도 포함)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>점</b> 노드는 연결을 다시 라우팅하고 그룹화하여 그래프를 단순화하고 정리할 수 있는 도우미입니다. 이 옵션은 특히 다른 연결이나 노드에서 실행되는 긴 연결이 많은 그래프에 유용합니다.
+<b>점</b> 노드는 연결을 다시 라우팅하고 그룹화하여 그래프를 단순화하고 정리할 수 있는 도우미입니다. 이 옵션은 특히 다른 연결이나 노드에서 실행되는 긴 연결이 많은 그래프에 유용합니다.
 
 점 노드 쌍을 <b>포털</b>(으)로 사용하여 장거리 또는 연결을 라우팅하기 어려운 위치에서 연결을 숨길 수 있습니다.
 
@@ -102,7 +102,7 @@ Alt 키를 누르고 여러 노드 연결을 병합하려면 점 노드를 링�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-가독성을 떨어뜨리는 번거로운 긴 링크가 없어도 그래프에서 장거리에 걸쳐 데이터를 전송하기 위해 점 노드를 <b>포털</b>(으)로 사용할 수 있습니다. 이렇게 하면 점 노드 사이의 연결이 효과적으로 숨겨집니다.
+가독성을 떨어뜨리는 번거로운 긴 링크가 없어도 그래프에서 장거리에 걸쳐 데이터를 전송하기 위해 점 노드를 <b>포털</b>(으)로 사용할 수 있습니다. 이렇게 하면 점 노드 사이의 연결이 효과적으로 숨겨집니다.
 
 </td>
 </tr>

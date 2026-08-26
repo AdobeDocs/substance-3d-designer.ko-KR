@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 환경 설정 창에 액세스하여 애플리케이션 설정 및 비헤이비어를 사용자 정의합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 환경 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b1b28e909a4d3c19c1dbc28e5ed25b3adc327ac3
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '1973'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ ht-degree: 1%
 
 ### 최근 문서
 
-|  |  |
-| --- | --- |
-| <b>최근 문서 목록에는 </b>이(가) 포함되어 있습니다.  *기본값: 10* | 그러면 [기본 메뉴](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)에서 <b>파일</b> 항목의 <b>최근 패키지</b> 항목에 나열할 문서 수를 선택할 수 있습니다. |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>최근 문서 목록에는 </b>이(가) 포함되어 있습니다.  *기본값: 10* | 그러면 [기본 메뉴](../the-main-toolbar/the-main-toolbar.md)에서 <b>파일</b> 항목의 <b>최근 패키지</b> 항목에 나열할 문서 수를 선택할 수 있습니다. |
 
 ### 내역
 
 |  |  |
 | --- | --- |
-| **작업 내역 스택 크기** *기본값: 200* | 이는 [기본 메뉴](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)의 <b>편집 > 실행 취소</b> 항목에서 주어진 시간에 사용 가능한 실행 취소 작업 수를 나타냅니다.  **주의:** 실행 취소 작업이 많을수록 응용 프로그램에 더 많은 메모리가 필요합니다. |
+| **작업 내역 스택 크기** *기본값: 200* | 이는 [기본 메뉴](../the-main-toolbar/the-main-toolbar.md)의 <b>편집 > 실행 취소</b> 항목에서 주어진 시간에 사용 가능한 실행 취소 작업 수를 나타냅니다.  **주의:** 실행 취소 작업이 많을수록 응용 프로그램에 더 많은 메모리가 필요합니다. |
 
 ### 언어
 
@@ -111,13 +111,13 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>.sbsar에 게시하거나 다른 응용 프로그램으로 보낼 때 항상 .sbs 파일 저장</b>  *기본값: True* | [게시](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 또는 [다른 응용 프로그램에 전송](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)할 때 SBS 패키지의 자동 저장을 제어합니다. |
+| <b>.sbsar에 게시하거나 다른 응용 프로그램으로 보낼 때 항상 .sbs 파일 저장</b>  *기본값: True* | [게시](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)하거나 다른 응용 프로그램으로 보낼 때 SBS 패키지의 자동 저장을 제어합니다. |
 
 ### 쿠커
 
-|  |  |
-| --- | --- |
-| <b>조리 크기 제한</b>  *기본값: 8192픽셀* | 모든 [그래프](../../compositing-graphs/substance-compositing-graphs.md)에서 모든 [노드](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)에 허용된 최대 픽셀 해상도를 정의합니다. 그래프 출력은 항상 2제곱의 제곱 이미지이므로 여기에서 설정된 값은 최대 폭과 Height을 픽셀 단위로 정의합니다. |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>조리 크기 제한</b>  *기본값: 8192픽셀* | 모든 Substance [그래프](../../compositing-graphs/substance-compositing-graphs.md)에서 모든 노드에 허용되는 최대 픽셀 해상도를 정의합니다. 그래프 출력은 항상 2제곱의 제곱 이미지이므로 여기에서 설정된 값은 최대 폭과 Height을 픽셀 단위로 정의합니다. |
 
 ### 엔진
 
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>GPU 광선 추적</b>  *기본값: 선택됨* | 선택하면 [호환 베이커](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/features/gpu-raytracing)에 대해 GPU에서 광선 추적이 수행됩니다.   다음 GPU 광선 추적 백엔드가 NVIDIA GPU 아키텍처에 따라 기본값이 됩니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: 튜링 이상</li> <li data-preserve-html="true"><i>옵션</i>: Pascal 및 Maxwell</li> </ul>  **참고:** GPU 기반 베이커에 대한 자세한 내용은 [Substance 베이커](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/home) 설명서의 [GPU 광선 추적](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/features/gpu-raytracing) 섹션에서 확인할 수 있습니다.  **팁:** 응용 프로그램을 시작할 때 다음 *명령줄 인수*&#x200B;를 사용하여 다른 GPU 광선 추적 백엔드를 *강제*&#x200B;할 수 있습니다. <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Nvidia 튜링 또는 이후 GPU에서 Optix 강제 사용</li> <li data-preserve-html="true"><code>—force-dxr</code> : Nvidia Pascal GPU의 DXR 강제 사용</li> </ul> |
+| <b>GPU 광선 추적</b>  *기본값: 선택됨* | 선택하면 [호환 베이커](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)에 대해 GPU에서 광선 추적이 수행됩니다.   다음 GPU 광선 추적 백엔드가 NVIDIA GPU 아키텍처에 따라 기본값이 됩니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: 튜링 이상</li> <li data-preserve-html="true"><i>옵션</i>: Pascal 및 Maxwell</li> </ul>  **참고:** GPU 기반 베이커에 대한 자세한 내용은 [Substance 베이커](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) 설명서의 [GPU 광선 추적](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) 섹션에서 확인할 수 있습니다.  **팁:** 응용 프로그램을 시작할 때 다음 *명령줄 인수*&#x200B;를 사용하여 다른 GPU 광선 추적 백엔드를 *강제*&#x200B;할 수 있습니다. <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Nvidia 튜링 또는 이후 GPU에서 Optix 강제 사용</li> <li data-preserve-html="true"><code>—force-dxr</code> : Nvidia Pascal GPU의 DXR 강제 사용</li> </ul> |
 
 ## 라이브러리
 

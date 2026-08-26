@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: 고급 텍스처 조작을 위해 사용자 정의 표현식을 사용하여 개별 픽셀을 처리하려면 픽셀 프로세서 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 픽셀 프로세서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -95,7 +95,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. |
-| <b>픽셀 단위 함수</b> *Float/Float4* | 출력 이미지의 픽셀당 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)가 평가되었습니다.   <b>$pos</b> 변수로 설정된 [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 노드를 사용하여 현재 픽셀의 [정규화된](../../../../glossary/glossary.md) 위치에 액세스합니다. |
+| <b>픽셀 단위 함수</b> *Float/Float4* | 출력 이미지의 픽셀당 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)가 평가되었습니다.   <b>$pos</b> 변수로 설정된 [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 노드를 사용하여 현재 픽셀의 [정규화된](../../../../glossary/glossary.md) 위치에 액세스합니다. |
 
 ## 입력 커넥터
 

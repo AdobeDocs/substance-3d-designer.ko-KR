@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: 색상화 및 효과를 위해 그레이디언트 경사를 사용하여 회색 음영 값을 색상에 매핑하려면 [그레이디언트 맵] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그레이디언트 맵
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 사용자 지정 그레이디언트를 사용하여 이미지의 회색조 값을 재매핑합니다.
 
-이 노드는 <b> </b>회색 음영-색상 변환 노드로 간단히 사용하거나 사용자 정의 색상 경사도에 매핑할 때 회색 음영 입력을 컬러화하는 데 사용할 수 있습니다.
+이 노드는 두 가지 용도로 사용됩니다. 간단히 <b>(으)로 사용할 수 있습니다. </b>회색 음영-색상 변환 노드 또는 회색 음영 색상화를 위해 사용자 지정 색상 경사도에 매핑할 수 있습니다.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>색상 모드</b> *부울* | 출력 모드를 [색상] 또는 [회색 음영]으로 설정합니다. |
 | <b>그레이디언트 조정</b> *부울* | [0, 1] 범위를 벗어나는 반복(타일) 또는 클램프 값으로 그레이디언트를 설정합니다. |
-| <b>그레이디언트</b> *그라디언트 키 배열* | 입력 회색 음영 값을 매핑하는 데 사용되는 사용자 정의 그라디언트 램프입니다.   현재 위치에서 편집하거나 [그레이디언트 편집기](#gradient-editor)를 사용하여 편집할 수 있습니다. |
+| <b>그레이디언트</b> *그라디언트 키 배열* | 입력 회색 음영 값을 매핑하는 데 사용되는 사용자 정의 그라디언트 램프입니다.   현재 위치에서 편집하거나 [그레이디언트 편집기](#gradient-editor)를 사용하여 편집할 수 있습니다. |
 
 ## 그레이디언트 편집기
 

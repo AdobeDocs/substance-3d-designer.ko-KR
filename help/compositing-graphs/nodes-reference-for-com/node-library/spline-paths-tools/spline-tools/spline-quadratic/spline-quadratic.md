@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: 스플라인 2차 노드를 사용하여 3개의 제어점으로 매끄러운 2차 스플라인을 만듭니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 스플라인(2차)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 | <b>시작 Height</b> *부동* | 값이 낮을수록 위치가 더 낮거나 더 깊은 <b>p1</b> 지점의 Height을 조정합니다.  이는 <b>p1</b>에서의 스플라인 Height에 영향을 줍니다. |
 | <b>최종 Height</b> *부동* | 값이 낮을수록 위치가 더 낮거나 더 깊은 <b>p3</b> 지점의 Height을 조정합니다.  이는 <b>p3</b>에서의 스플라인 Thickness에 영향을 줍니다. |
 | <b>자동 접선 Height</b> *부울* | 값이 낮을수록 위치가 더 낮거나 더 깊은 <b>p3</b> 지점의 Height을 조정합니다.  이는 <b>p3</b>에서의 스플라인 Thickness에 영향을 줍니다. |
-| <b>접선 Height</b> *부동* | <b>p2</b> 지점으로 제어되는 접선에 의해 제어되는 Height을 조정합니다.  이는 <b>p1</b>에서 멀어져 <b>p3</b>으로 이동할 때 스플라인을 따라 Height에 영향을 줍니다.   *참고:* 이 매개 변수는 <b>자동 접선 Height</b>이 &#39;False&#39;로 설정된 경우에만 사용할 수 있습니다. |
+| <b>접선 Height</b> *부동* | <b>p2</b> 지점으로 제어되는 접선에 의해 제어되는 Height을 조정합니다.  이는 <b>p1</b>에서 멀어져 <b>p3</b>으로 이동할 때 스플라인을 따라 Height에 영향을 줍니다.   *참고:* 이 매개 변수는 <b>자동 접선 Height</b>이 &#39;False&#39;로 설정된 경우에만 사용할 수 있습니다. |
 
 
 +++
@@ -87,8 +87,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>시작 Thickness</b> *부동* | <b>p1</b> 지점의 Thickness을 조정합니다. 이는 <b>p1</b>에서의 스플라인 Thickness에 영향을 줍니다.   *참고:* Thickness은 특정 스플라인 노드에서 사용됩니다. |
-| <b>최종 Thickness</b> *부동* | <b>p3</b> 지점의 Thickness을 조정합니다. 이는 <b>p3</b>에서의 스플라인 Thickness에 영향을 줍니다.   *참고:* Thickness은 특정 스플라인 노드에서 사용됩니다. |
+| <b>시작 Thickness</b> *부동* | <b>p1</b> 지점의 Thickness을 조정합니다. 이는 <b>p1</b>에서의 스플라인 Thickness에 영향을 줍니다.   *참고:* Thickness은 특정 스플라인 노드에서 사용됩니다. |
+| <b>최종 Thickness</b> *부동* | <b>p3</b> 지점의 Thickness을 조정합니다. 이는 <b>p3</b>에서의 스플라인 Thickness에 영향을 줍니다.   *참고:* Thickness은 특정 스플라인 노드에서 사용됩니다. |
 | <b>자동 접선 Thickness</b> *부울* | <b>시작 Thickness</b>에서 <b>끝 Thickness</b>(으)로 선형으로 보간되도록 스플라인 접선의 Thickness을 자동으로 설정합니다.   *참고:* Thickness은 특정 스플라인 노드에서 사용됩니다. |
 | <b>접선 Thickness</b> *부동* | <b>p2</b> 지점으로 제어되는 접선에 의해 제어되는 Thickness을 조정합니다.  이는 <b>p1</b>에서 멀어져 <b>p3</b>으로 이동할 때 스플라인을 따라 Thickness에 영향을 줍니다.   *참고:* Thickness은 특정 스플라인 노드에서 사용됩니다.  *참고 2:* 이 매개 변수는 <b>자동 접선 Thickness</b>이 &#39;False&#39;로 설정된 경우에만 사용할 수 있습니다. |
 

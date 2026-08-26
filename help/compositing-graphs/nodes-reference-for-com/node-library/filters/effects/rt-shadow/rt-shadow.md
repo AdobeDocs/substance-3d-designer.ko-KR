@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: RT 그림자 노드를 사용하여 동적 조명 효과를 생성하기 위해 형상에서 실시간 그림자 정보를 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT 그림자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Height 맵 입력에서 광선 추적형 그림자를 생성합니다.
 * <b>X</b>: 가로 위치, 회전 수;
 * <b>Y</b>: 세로 위치. 여기서 0.5는 정점이고 0/1은 수평선입니다.
 
-<b>빛 강도</b> *부동*\
+<b>조명 강도</b> *부동*\
 광원의 강도입니다.
 
 <b>조명 크기</b> *Float2*(<b>모드</b>가 *음영*(으)로 설정된 경우 사용 가능)\

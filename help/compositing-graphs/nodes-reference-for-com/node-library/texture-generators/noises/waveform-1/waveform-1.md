@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: 파형 1 노드를 사용하면 유기적인 텍스처 및 절차 변경을 위한 파형 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 파형 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 1%
 
 ---
 
@@ -43,26 +43,6 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 출력
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
-
 ## 출력
 
 |  |  |
@@ -74,8 +54,8 @@ ht-degree: 2%
 |  |  |
 | --- | --- |
 | <b>샘플</b> 정수 | 파형을 그리기 위해 X축을 따라 배치되는 패턴의 양입니다. 값이 낮을수록 더 단조로운 모양이 됩니다. |
-| <b>함수</b> 정수 | 파형을 그리는 데 사용되는 함수입니다.   이는 각 샘플에 있는 패턴의 세로 크기를 제어합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>값 노이즈:</i> 값의 임의 분포</li> <li data-preserve-html="true"><i>코사인:</i> 값이 코사인 함수의 진행률을 따릅니다.</li> <li data-preserve-html="true"><i>사용자 지정 함수:</i> 사용자가 작성한 함수를 사용하여 값을 실행하십시오</li> </ul> |
-| <b>사용자 지정 함수</b> 부동 *&#39;함수&#39;가 &#39;사용자 지정 함수&#39;로 설정된 경우 사용 가능* | 각 샘플에 배치된 패턴의 세로 크기를 계산합니다.   사용 가능한 변수:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b>(<i>부동</i>) X축의 패턴 위치입니다. 이는 패턴을 선택하는 데 사용될 수 있다.</li> </ul> |
+| <b>함수</b> 정수 | 파형을 그리는 데 사용되는 함수입니다.   이는 각 샘플에 있는 패턴의 세로 크기를 제어합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>값 노이즈:</i> 값의 임의 분포</li> <li data-preserve-html="true"><i>코사인:</i> 값이 코사인 함수의 진행률을 따릅니다.</li> <li data-preserve-html="true"><i>사용자 지정 함수:</i> 사용자가 작성한 함수를 사용하여 값을 실행하십시오</li> </ul> |
+| <b>사용자 지정 함수</b> 부동 *&#39;함수&#39;가 &#39;사용자 지정 함수&#39;로 설정된 경우 사용 가능* | 각 샘플에 배치된 패턴의 세로 크기를 계산합니다.   사용 가능한 변수:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>pos</b>(<i>부동</i>) X축의 패턴 위치입니다. 이는 패턴을 선택하는 데 사용될 수 있다.</li> </ul> |
 | <b>거칠음</b> 부동 | 좀 더 거칠고 고르게 분포된 청정하고 매끄러운 파형 사이에 보간합니다.    이는 깨끗한 신호 대 백색 잡음으로 생각할 수 있다. |
 | <b>비율</b> 정수 | 이미지에 표시되는 파형의 가로 범위입니다. |
 | <b>최소 진폭</b>  부동 | 파형의 최소값(또는 Thickness)입니다. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 매개 변수 사전 설정을 만들고 사용하여 매개 변수 구성을 저장하고 적용하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 매개 변수 사전 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [외부 사전 설정]에는 \*.SBSPRS 파일인 디스크의 외부 파일이 포함되어 있습니다. 서로 다른 그래프와 노드 간에 전송할 수 있지만 응용 프로그램 내에서만 전송할 수 있습니다. 이것의 주요 목적은 바로 이것입니다: 너무 큰 값을 전송해서 하나씩 복사할 수 없습니다.
 
-외부 사전 설정은 [그래프 인스턴스](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)의 모든 특정 매개 변수, [원자 노드](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)의 대부분의 특정 매개 변수([노출할 수 없는 매개 변수](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md))와 [그래프 속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)의 노출된 입력 매개 변수에 사용할 수 있습니다.
+외부 사전 설정은 [그래프 인스턴스](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)의 모든 특정 매개 변수, [원자 노드](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)의 대부분의 특정 매개 변수([예외는 노출할 수 없는 매개 변수](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)) 및 Substance 그래프의 [매개 변수](../../graph-parameters/graph-parameters.md)매개 변수에 노출된 입력 매개 변수에 사용할 수 있습니다.
 
 이 메뉴를 통해 저장하고 불러올 수 있습니다. 저장된 SBSPRS 파일은 다른 노드 또는 그래프에 로드할 수 있습니다.
 

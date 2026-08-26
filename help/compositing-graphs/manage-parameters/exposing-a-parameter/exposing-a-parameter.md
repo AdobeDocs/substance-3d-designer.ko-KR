@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 합성 그래프에서 매개 변수를 노출하여 재사용할 수 있고 사용자 정의할 수 있는 재질로 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 매개변수 노출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2267'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 매개 변수를 노출하는 것은 가장 강력한 도구 중 하나이며, Substance 3D Painter, Substance 3D Sampler 및 Maya와 3DS Max용 Substance 통합 등 다른 응용 프로그램에 그래프를 여는 데 중요합니다.
 
-이 페이지에서는 노출을 시작하는 데 필요한 모든 개념을 설명합니다. 이 페이지에서 계속하기 전에 먼저 Graph 인스턴스의 정의[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 알아보는 것이 좋습니다. 또한 Publish과 내보내기의 차이점과 관련 파일 유형을 [파악하는 것이 좋습니다.](../../../getting-started/overview/overview.md)
+이 페이지에서는 노출을 시작하는 데 필요한 모든 개념을 설명합니다. 이 페이지에서 계속하기 전에 먼저 Graph 인스턴스의 정의](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 알아보는 것이 좋습니다. [또한 Publish과 내보내기의 차이점과 관련 파일 유형을 [파악하는 것이 좋습니다.](../../../getting-started/overview/overview.md)
 
 ![단순화된 매개 변수 노출](../../../assets/parameters-5.png "단순화된 매개 변수 노출")
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 ## 매개 변수 이해 및 노출
 
 +++매개 변수란 무엇입니까?
-*매개 변수는 그래프의 동작을 제어하는 UI 요소가 있는 단순한 값입니다.* 색상을 변경하거나 혼합 모드를 설정하거나 불투명도 값을 선택하는 등의 작업을 모든 Substance 소프트웨어에서 지속적으로 수행할 수 있습니다. 매개 변수가 없으면 Substance 소프트웨어에서 사용자 지정을 전혀 허용하지 않습니다.
+*매개 변수는 그래프의 동작을 제어하는 UI 요소가 있는 단순한 값입니다.* 색상을 변경하거나 혼합 모드를 설정하거나 불투명도 값을 선택하는 등 모든 Substance 소프트웨어에서는 이러한 혼합 모드를 지속적으로 사용할 수 있습니다. 매개 변수가 없으면 Substance 소프트웨어에서 사용자 지정을 전혀 허용하지 않습니다.
 
 매개 변수는 슬라이더, 다이얼, 입력 상자, 드롭다운 메뉴 등 다양한 형태로 제공됩니다. 이 값이 나타내는 유형은 소수점 값, 정수(정수) 값, 부울(true/false) 값, 텍스트 조각 등 다양합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### 단일 노출 방법
 
-1. 특정 매개 변수 탭 아래의 [속성 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)에서 표시할 매개 변수를 찾습니다
+1. 특정 매개 변수 탭 아래의 [속성](../../../interface/properties/properties.md) 패널에서 표시할 매개 변수를 찾습니다.
 1. ![](../../../assets/image2020-9-17-15-35-59.png) 드롭다운 옵션 단추를 클릭합니다.
 1. 첫 번째 옵션인 드롭다운 목록에서 ![](../../../assets/image2020-9-17-15-37-7.png) <b>새 그래프 입력으로 표시</b>를 선택합니다.
 1. <b>매개 변수 노출</b> 대화 상자가 나타나면 매개 변수 속성을 원하는 대로 설정합니다.
@@ -79,7 +79,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 대부분의 숫자 필드는 *기본 수식*&#x200B;을 입력으로 지원합니다(예: `17+3.5`, `7/3`, `(4+2)*3`). 수식을 확인하려면 *Enter*&#x200B;을(를) 누르면 결과가 필드에 입력됩니다. 공식이 유효하지 않으면 필드가 이전 값으로 되돌아갑니다.\
-> [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 도크와 같은 응용 프로그램의 다른 부분에 있는 일부 숫자 필드도 이 기능을 지원합니다.
+> [속성](../../../interface/properties/properties.md) 도크와 같은 응용 프로그램의 다른 부분에 있는 일부 숫자 필드도 이 기능을 지원합니다.
 
 ![일괄 노출 메서드 연습](../../../assets/batch-expose-2.gif "일괄 노출 메서드 연습"){width="512px"}
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 하나의 매개 변수를 노출할 때 이 방법은 이전보다 약간 느려집니다. 여러 매개 변수를 노출할 때는 훨씬 빠릅니다.
 
 1. 단일 매개 변수를 찾는 대신 <b>특정 매개 변수</b> 탭의 오른쪽 상단에서 ![](../../../assets/image2020-9-17-15-39-7.png) <b>다중 노출</b> 단추를 찾습니다.
-1. <b>일괄 노출 매개 변수 선택...드롭다운 메뉴의 </b>
+1. 드롭다운 메뉴에서 <b>일괄 노출 매개 변수...</b>을 선택합니다.
 1. 노드의 모든 <b>특정 매개 변수</b>를 표시할 수 있는 <b>일괄 노출</b> 대화 상자가 나타납니다
 1. <b>모두</b>, <b>없음</b> 또는 특정 확인란을 사용하여 표시할 매개 변수를 결정합니다.
 1. 목록의 <b>그래프 입력 식별자</b> 열 아래에 있는 매개 변수 이름을 클릭하여 이름을 변경합니다.
@@ -104,7 +104,7 @@ ht-degree: 0%
 | --- | --- |
 | [그레이디언트 경사](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [곡선 편집기](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [글꼴](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [레벨 막대 그래프](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 사용자가 만든 매개 변수에 사용할 수 없는 위젯이 필요합니다. |
 
-다른 중요한 제한 사항은 [정적 매개 변수](../../../glossary/glossary.md)와 관련이 있습니다. [게시된 Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)에서 변경할 수 없습니다.
+다른 중요한 제한 사항은 [정적 매개 변수](../../../glossary/glossary.md)와 관련이 있습니다. [게시된 Substance 3D 에셋(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)에서 변경할 수 없습니다.
 
 정적 매개 변수 - 동적 매개 변수와는 반대로 - *그래프를*&#x200B;조리&#x200B;*한 후에는 즉시 편집할 수 없습니다*. 즉, 알고리즘을 빠르고 효율적으로 실행하기 위해 처리됩니다. 그래프가 *편집* 또는 *게시*&#x200B;될 때마다 Designer에서 요리가 수행됩니다.
 
@@ -128,7 +128,7 @@ ht-degree: 0%
 노출된 매개 변수의 옵션을 변경하려면 다음 작업을 수행하십시오.
 
 1. 이미 표시된 매개 변수 옆의 드롭다운 옵션 단추 ![](../../../assets/image2020-9-17-15-35-59.png)을(를) 클릭합니다.
-1. ![](../../../assets/image2020-9-17-15-37-7.png)<b> 노출된 그래프 입력 편집</b>을(를) 선택합니다. 그러면 그래프 속성의 관련 항목으로 바로 이동합니다
+1. ![](../../../assets/image2020-9-17-15-37-7.png)<b> 노출된 그래프 입력 편집</b>을(를) 선택합니다. 그러면 그래프 속성의 관련 항목으로 바로 이동합니다
 1. 그래프의 빈 영역을 두 번 클릭하여 그래프 속성으로 이동한 다음 <b>입력 매개 변수</b> 목록에서 매개 변수를 찾습니다
 1. <b>탐색기</b>에서 그래프를 한 번 클릭한 다음 <b>입력 매개 변수</b> 목록에서 매개 변수를 찾습니다.
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 미리 보기 모드는 [게시된 Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)의 경험을 최대한 정확하게 표현하기 위한 것입니다. 따라서 *정적 매개 변수가 목록에 없는 경우*&#x200B;와 같이 이 페이지에 나열된 제한 사항이 이 모드에 적용됩니다.
+> 미리 보기 모드는 [게시된 Substance 3D 에셋(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)의 경험을 가능한 한 정확하게 나타내는 것을 목표로 합니다. 따라서 *정적 매개 변수가 목록에 없는 경우*&#x200B;와 같이 이 페이지에 나열된 제한 사항이 이 모드에 적용됩니다.
 
 ![입력 매개 변수 복사 및 붙여넣기](../../../assets/copy-paste-params-2.gif "입력 매개 변수 복사 및 붙여넣기"){width="512px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 시스템 요구 사항을 검토하여 컴퓨터가 필요한 사양을 충족하는지 확인하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 시스템 요구 사항
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ec787363bab8318804a71d6cf7c5484fc67a987e
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 > **TDR(Windows만 해당)**
 > 
-> 복잡한 그래프 렌더링, 3D 보기에서 렌더링, 3D 보기에서 장면 내보내기 등과 같이 GPU에서 많은 계산을 수행하는 동안 최상의 전반적인 안정성을 위해 <b>시간 초과 감지 및 복구(TDR)</b> 값이 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 사항과 일치하는지 확인하는 것이 좋습니다.
+> 복잡한 그래프 렌더링, 3D 보기에서 렌더링, 3D 보기에서 장면 내보내기 등과 같이 GPU에서 많은 계산을 수행하는 동안 최상의 전반적인 안정성을 위해 <b>시간 초과 감지 및 복구(TDR)</b> 값이 설명서의 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 사항과 일치하는지 확인하는 것이 좋습니다.
 
 ## 지원되지 않는 구성
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 다음은 응용 프로그램을 문제 없이 실행하는 데 필요한 최소 GPU 드라이버 버전 목록입니다. 이 목록은 새 버전 릴리스부터 변경될 수 있습니다.
 
-새 드라이버를 다운로드하려면 [GPU에 오래된 드라이버가 있음](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)을 참조하십시오.
+새 드라이버를 다운로드하려면 [GPU에 오래된 드라이버가 있음](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)을 참조하십시오.
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ Optix 또는 DXR을 통해 GPU 광선 추적을 활성화하려면 위에 권장
 
 <b>DXR</b>에는 다음과 같은 최소 구성이 필요합니다.
 
-* <b>Windows 10</b> 버전 1809에서 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/features/gpu-raytracing)를 참조하세요.
+* <b>Windows 10</b> 버전 1809에서 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)를 참조하세요.
 * <b>Pascal 아키텍처의 GPU</b>(Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +126,7 @@ Optix 또는 DXR을 통해 GPU 광선 추적을 활성화하려면 위에 권장
 
 ## 태블릿 사용
 
-<b>Windows</b>의 태블릿 사용자는 다음 페이지에 설명된 설정을 적용하여 가장 안정적인 경험을 얻어야 합니다. [펜 및 태블릿 구성](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+<b>Windows</b>의 태블릿 사용자는 다음 페이지에 설명된 설정을 적용하여 가장 안정적인 경험을 얻어야 합니다. [펜 및 태블릿 구성](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## 언어
 

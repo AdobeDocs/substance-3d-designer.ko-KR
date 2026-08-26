@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: 스플라인 큐빅 노드를 사용하여 곡선 경로에 대한 네 개의 제어점으로 매끄러운 큐빅 스플라인을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인(큐빅)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -49,9 +49,9 @@ ht-degree: 0%
 <b> R</b> - X 위치\
 <b> G</b> - Y 위치\
 <b> B</b> - Height\
-    <b>A</b> - 압축된 데이터:\
-        * Sign: 스플라인이 닫히거나(음수) 열림(양수);\
-        * 절대값: Thickness + 1.
+<b>A</b> - 압축된 데이터:\
+* Sign: 스플라인이 닫히거나(음수) 열림(양수);\
+* 절대값: Thickness + 1.
 
 <b>스플라인 데이터</b> *색상*&#x200B;색상 이미지의 RGBA 채널로 인코딩된 입력 스플라인의 추가 데이터입니다.\
 <b> R</b> - 접선 X\
@@ -66,18 +66,18 @@ ht-degree: 0%
 <b>미리 보기</b> *회색 음영*&#x200B;출력물의 미리 보기가 회색 음영 이미지로 분할됩니다.
 
 <b>스플라인 코드</b> *색상*&#x200B;색상 이미지의 RGBA 채널로 인코딩된 출력 스플라인의 점 좌표입니다.\
-    <b>R</b> - X 위치\
-    <b>G</b> - Y 위치\
-    <b>B</b> - Height\
-    <b>A</b> - 압축된 데이터:\
-        * Sign: 스플라인이 닫히거나(음수) 열림(양수);\
-        * 절대값: Thickness + 1.
+<b>R</b> - X 위치\
+<b>G</b> - Y 위치\
+<b>B</b> - Height\
+<b>A</b> - 압축된 데이터:\
+* Sign: 스플라인이 닫히거나(음수) 열림(양수);\
+* 절대값: Thickness + 1.
 
 <b>스플라인 데이터</b> *색상*&#x200B;색상 이미지의 RGBA 채널로 인코딩된 출력 스플라인의 추가 데이터입니다.\
-    <b>R</b> - 접선 X\
-    <b>G</b> - 접선 Y\
-    <b>B</b> - 사용되지 않음\
-    <b>A</b> - 사용되지 않음
+<b>R</b> - 접선 X\
+<b>G</b> - 접선 Y\
+<b>B</b> - 사용되지 않음\
+<b>A</b> - 사용되지 않음
 
 <b>스플라인 양</b> *정수*&#x200B;출력 스플라인 수입니다.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 노드 배열 도구와 새로운 스플라인 및 패스 노드에 대해 알아보려면 Substance 3D Designer 버전 14.1의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -146,7 +146,7 @@ ht-degree: 1%
 * [함수 그래프] 긴 값이 &#39;Float&#39; 노드에서 겹쳐서 나타납니다.
 * [Fx-Map] 사분면 노드 속성을 표시할 때 충돌이 발생합니다.
 * [그래프] [UDIM] UDIM 목록에 스크롤 막대가 있으면 1..1 1..2 항목이 생성됩니다.
-* [그래프]&#x200B;[단축키] 단축키를 사용하여 생성된 노드는 노드 복제 후 기존 링크에 배치되지 않습니다.
+* [그래프][단축키] 단축키를 사용하여 생성된 노드는 노드 복제 후 기존 링크에 배치되지 않습니다.
 * [Properties] 값이 유효하지 않은 경우 잘못된 매개 변수 표시가 나타납니다.
 * [Publish] 패키지를 게시할 때 상호 종속성 때문에 무한 루프가 발생합니다.
 * [Publish] 종속성이 언로드된 패키지에서 &#39;Publish&#39; 작업을 사용할 때 자동 오류 발생

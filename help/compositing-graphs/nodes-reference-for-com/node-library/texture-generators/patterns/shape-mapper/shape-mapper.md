@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: 모양 매퍼 노드를 사용하여 사용자 정의 가능한 변형 및 위치를 사용하여 모양을 텍스처에 매핑할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 매퍼
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 3%
@@ -88,8 +88,8 @@ ht-degree: 3%
 | --- | --- |
 | <b>모양</b> 정수 | 패턴을 배치할 모양 유형을 설정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">원</li> <li data-preserve-html="true">다각형</li> </ul> |
 | <b>패턴 양</b> 정수 | 선택한 모양을 따라 배치된 패턴의 양입니다. |
-| <b>패턴 양이 포함된 링크 세그먼트</b> 부울 *&#39;모양&#39;이 &#39;다각형&#39;으로 설정된 경우 사용 가능* | <b>패턴 양</b>을 <b>세그먼트</b> 수로 사용합니다.   이렇게 하면 패턴이 모퉁이를 감싸는 것을 방지하여 곧고 일관된 모습을 유지할 수 있습니다. |
-| <b>세그먼트</b> 정수 *&#39;모양&#39;이 &#39;다각형&#39;으로 설정되고 &#39;패턴 양이 있는 링크 세그먼트&#39;가 &#39;거짓&#39;으로 설정된 경우 사용 가능* | 패턴이 배치된 다각형의 선분 양입니다.   선분은 *균일한 크기*&#x200B;이고 모든 정점은 *중심에서 등거리*&#x200B;이므로 선분의 양을 늘리면 다각형이 원 쪽으로 수렴합니다. |
+| <b>패턴 양이 포함된 링크 세그먼트</b> 부울 *&#39;모양&#39;이 &#39;다각형&#39;으로 설정된 경우 사용 가능* | <b>패턴 양</b>을 <b>세그먼트</b> 수로 사용합니다.   이렇게 하면 패턴이 모퉁이를 감싸는 것을 방지하여 곧고 일관된 모습을 유지할 수 있습니다. |
+| <b>세그먼트</b> 정수 *&#39;모양&#39;이 &#39;다각형&#39;으로 설정되고 &#39;패턴 양이 있는 링크 세그먼트&#39;가 &#39;거짓&#39;으로 설정된 경우 사용 가능* | 패턴이 배치된 다각형의 선분 양입니다.   선분은 *균일한 크기*&#x200B;이고 모든 정점은 *중심에서 등거리*&#x200B;이므로 선분의 양을 늘리면 다각형이 원 쪽으로 수렴합니다. |
 | <b>반경</b> 부동 | 모양의 반지름에 대한 승수입니다. 여기서 1.0은 이미지의 가장 짧은 쪽 길이의 절반입니다. |
 | <b>너비</b> 부동 | 도형을 따르는 패턴의 너비에 대한 승수입니다. 여기서 1.0은 이미지의 가장 짧은 변의 절반입니다. |
 | <b>회전</b> 부동 | 모양에 적용된 회전의 양(수평 오른쪽으로부터 시계 방향으로 돌아가는 회전의 수)입니다. |

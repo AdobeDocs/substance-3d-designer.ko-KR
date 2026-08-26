@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 새 노드, Substance 엔진 9.0 및 포털 노드에 대해 알아보려면 Substance 3D Designer 버전 13.0의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 ![패스를 사용하는 재질](../../assets/Paths2.png "패스를 사용하는 재질")
 
-*Celine Dameron[&#128279;](https://www.artstation.com/cline)*&#x200B;의 아트워크
+*Celine Dameron](https://www.artstation.com/cline)*&#x200B;의 아트워크[
 
 ## 새 콘텐츠
 
@@ -88,7 +88,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 #### 수정
 
-또한 스플라인을 재작업하고 조정할 수 있는 도구도 제공합니다. 회전, 변환, 비율 조정 등 [2D 변형](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)을 적용할 노드를 찾을 수 있습니다. 다른 노드는 [뒤틀기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>모양과 다른 두 노드를 찾아 스플라인의 [Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>또는 [Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)을 수정합니다.
+또한 스플라인을 재작업하고 조정할 수 있는 도구도 제공합니다. [뒤틀기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b>에 회전, 변환, 크기 조정 등 [2D 변형](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)을 적용할 노드를 찾을 수 있습니다. </b>모양과 [Thickness](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b>를 수정할 다른 두 노드 </b>또는 스플라인의 [Height](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md).
 
 <table>
 <tr style="border: 0;">
@@ -119,7 +119,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 마지막 범주는 스플라인을 기반으로 최종 모양 또는 패턴을 만드는 것입니다. 가장 먼저 떠오르는 아이디어는 스플라인을 따라 주어진 모양을 반복하는 것입니다. [스플라인 상의 산란](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) 노드를 사용하면 많은 매개 변수를 사용하여 분포(회전, 비율 조정, 오프셋, 색상, 마스크 등)를 완벽하게 제어할 수 있습니다.
 
-[스플라인 채우기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>노드 덕분에 닫힌 스플라인에서 패턴을 쉽게 만들 수 있습니다. 또한 높은 수준의 제어와 정밀도로 모든 텍스처를 스플라인에 매핑하고 싶다면 [스플라인 매퍼](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) 노드가 자동으로 만들어집니다.
+[스플라인 채우기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> 덕분에 </b>노드, 닫힌 스플라인에서 패턴을 쉽게 만들 수 있습니다. 또한 높은 수준의 제어와 정밀도로 모든 텍스처를 스플라인에 매핑하고 싶다면 [스플라인 매퍼](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) 노드가 자동으로 만들어집니다.
 
 <table>
 <tr style="border: 0;">
@@ -150,7 +150,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 [패스에 마스크 적용](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 노드를 사용하면 회색 음영 패턴의 테두리를 세그먼트 목록 형태로 추출할 수 있습니다.
 
-그런 다음 필요에 따라 조정하도록 [경로 2D 변환](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) 또는 [경로 뒤틀기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 이러한 경로를 처리할 수 있습니다.  그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
+그런 다음 필요에 따라 조정하도록 [경로 2D 변환](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) 또는 [경로 뒤틀기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 이러한 경로를 처리할 수 있습니다.  그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
 
 <table>
 <tr style="border: 0;">

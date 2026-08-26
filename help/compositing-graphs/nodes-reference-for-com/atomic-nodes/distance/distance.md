@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ''
 description: 거리 노드를 사용하여 모양에서 마스크 및 절차 효과를 만들기 위한 거리 맵을 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 거리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -84,16 +84,16 @@ ht-degree: 8%
 
 |  |  |
 | --- | --- |
-| <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. &#39;원본 입력&#39; 입력 유형도 변경합니다. |
+| <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. &#39;원본 입력&#39; 입력 유형도 변경합니다. |
 | <b>최대 거리</b> *부동* | 마스크에서 가장 가까운 테두리를 감지하기 위한 최대 거리를 픽셀 단위로 조정합니다. |
-| <b>소스/거리 결합</b> *부울* | 선택 사항인 &#39;원본 입력&#39;이 최종 셀과 결합되는 방법을 결정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>결합:</i> &#39;소스 입력&#39; 값을 페이드 선형 마스크와 결합합니다. &#39;소스 입력&#39; 입력이 연결된 경우 해당 값은 계산된 거리와 결합됩니다.</li> <li data-preserve-html="true"><i>원본만:</i> &#39;원본 입력&#39;에서 단색으로 표시됩니다.</li> </ul> |
+| <b>소스/거리 결합</b> *부울* | 선택 사항인 &#39;원본 입력&#39;이 최종 셀과 결합되는 방법을 결정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>결합:</i> &#39;소스 입력&#39; 값을 페이드 선형 마스크와 결합합니다. &#39;소스 입력&#39; 입력이 연결된 경우 해당 값은 계산된 거리와 결합됩니다.</li> <li data-preserve-html="true"><i>원본만:</i> &#39;원본 입력&#39;에서 단색으로 표시됩니다.</li> </ul> |
 | <b>거리 모드</b> *정수* | 추출된 마스크에서 가장 가까운 경계까지의 거리를 계산하는 방법을 선택합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>유클리드:</i> 제곱 X/Y 차이의 합계.</li> <li data-preserve-html="true"><i>맨해튼:</i> X/Y 차이의 절대값의 합계</li> <li data-preserve-html="true"><i>Chebyshev:</i> X/Y 차이의 절대 값의 최대값입니다.</li> </ul>  <div><img alt="거리 모드 예" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="거리 모드 예"/></div> |
 
 ## 입력 커넥터
 
 |  |  |
 | --- | --- |
-| <b>마스크 입력</b> *회색 음영* 기본 | 거리 값을 계산해야 하는 테두리가 있는 회색 음영 마스크입니다.   이미지에서 0.5의 임계값을 사용하여 이진 마스크를 추출합니다. 이 임계값 위의 모든 값은 흰색이고 그 아래의 모든 값은 검정입니다. |
+| <b>마스크 입력</b> *회색 음영* 기본 | 거리 값을 계산해야 하는 테두리가 있는 회색 음영 마스크입니다.   이미지에서 0.5의 임계값을 사용하여 이진 마스크를 추출합니다. 이 임계값 위의 모든 값은 흰색이고 그 아래의 모든 값은 검정입니다. |
 | <b>원본 입력</b> *색상/회색 음영* | &#39;마스크 입력&#39;에서 가장 가까운 테두리의 픽셀 값을 복사해야 하는 선택적 회색 음영 이미지입니다. |
 
 ## 출력 커넥터

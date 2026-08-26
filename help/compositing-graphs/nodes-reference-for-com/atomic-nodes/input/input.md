@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 입력 노드를 사용하여 사용자가 표시하고 조정할 수 있는 Substance 그래프에 대한 입력 매개변수를 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 입력
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)와 달리 색상, 회색 음영 또는 값 입력을 명시적으로 배치해야 합니다. 자신에게 연결된 것에 따라 유형이 변하는 자신만의 &#39;불가지론적&#39; 입력을 만들 수 없다.
 
-입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)또는 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)를 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
+입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)또는 [필터](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)를 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
 
 <table>
 <tr style="border: 0;">
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>식별자</b> *문자열* | 유일한 필수 고유 속성입니다. 공백을 포함할 수 없습니다.   이 레이블은 설정된 레이블이 없는 경우 입력에 레이블을 지정하고 다른 출력을 구분하는 데 사용됩니다. &quot;input\_1&quot;에 그대로 두지 마십시오. |
+| <b>식별자</b> *문자열* | 유일한 필수 고유 속성입니다. 공백을 포함할 수 없습니다.   이 레이블은 설정된 레이블이 없는 경우 입력에 레이블을 지정하고 다른 출력을 구분하는 데 사용됩니다. &quot;input\_1&quot;에 그대로 두지 마십시오. |
 | <b>설명</b> *문자열* | Designer 라이브러리 및 Painter 선반에 사용되는 선택적 설명입니다. |
-| <b>레이블</b> *문자열* | Designer 및 Painter UI에서 멋진 레이블 지정에 사용되는 UI 레이블 공백을 포함할 수 있습니다.   밑줄 대신 스페이스바를 사용하여 식별자와 유사한 이름으로 설정하는 것이 좋습니다. |
+| <b>레이블</b> *문자열* | Designer 및 Painter UI에서 멋진 레이블 지정에 사용되는 UI 레이블 공백을 포함할 수 있습니다.   밑줄 대신 스페이스바를 사용하여 식별자와 유사한 이름으로 설정하는 것이 좋습니다. |
 | <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 사용자 데이터(기본적으로 와일드카드 사용자 정의 데이터 필드)입니다. |
-| <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 입력을 함께 그룹화하는 데 사용되는 그룹 특성입니다.   동일한(대/소문자 구분) 그룹 속성을 가진 입력은 컴팩트 재질 모드에서 단일 연결로 표시됩니다. |
+| <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 입력을 함께 그룹화하는 데 사용되는 그룹 특성입니다.   동일한(대/소문자 구분) 그룹 속성을 가진 입력은 컴팩트 재질 모드에서 단일 연결로 표시됩니다. |
 
 ## 상속
 
@@ -145,11 +145,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 입력 노드에 대한 *입력 기준* 상속 메서드는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/kr/substance-3d-assets.html)에서 *지원되지 않음*&#x200B;입니다. 패키지를 게시하기 전에 모든 입력 노드의 상속 메서드를 *부모에 대한 상대*(으)로 설정하십시오.
+> 입력 노드에 대한 *입력 기준* 상속 메서드는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/substance-3d-assets.html)에서 *지원되지 않음*&#x200B;입니다. 패키지를 게시하기 전에 모든 입력 노드의 상속 메서드를 *부모에 대한 상대*(으)로 설정하십시오.
 
 ## 통합 특성
 
-입력은 3D 보기로 직접 전송되지 않지만 해당 사용 특성은 [Substance 3D Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home)에서 특정 맵으로 슬롯을 자동으로 채우는 데 사용됩니다(대부분 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)와 함께 사용됨).
+입력은 3D 보기로 직접 전송되지 않지만 해당 사용 특성은 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)에서 특정 맵으로 슬롯을 자동으로 채우는 데 사용됩니다(대부분 [필터](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)와 함께 사용됨).
 
 또한 올바른 입력 및 출력 슬롯과 일치하도록 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에서도 사용 특성이 사용됩니다.
 
@@ -157,6 +157,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>구성 요소</b> *문자열* | 이 옵션은 결과 입력에 실제로 있는 채널을 결정합니다.   이는 통합 및 그래프에서 더 이상 사용되지 않는 레거시 설정입니다. |
+| <b>구성 요소</b> *문자열* | 이 옵션은 결과 입력에 실제로 있는 채널을 결정합니다.   이는 통합 및 그래프에서 더 이상 사용되지 않는 레거시 설정입니다. |
 | <b>사용</b> *문자열* | 이 입력의 유형 또는 용도를 정의합니다. 다른 노드가 이 입력에 연결하는 방법을 나타냅니다. |
 | <b>색상 공간</b> *문자열* | 이 입력을 해석해야 하는 색상 공간을 설정합니다. |

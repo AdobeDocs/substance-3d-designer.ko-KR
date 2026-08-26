@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Substance 3D Designer을 시작할 수 없는 문제를 해결하고 응용 프로그램을 시작할 수 있는 솔루션을 찾습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 애플리케이션이 시작되지 않음
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0cbf71a4a03ac7d0dca48b8f41c753e646b7682b
+source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Designer 버전 15.0 이상이 통합 GPU(iGPU) 및 개별 GPU(dGPU)가 모두 �
 
 <b>![(틱)](../../assets/check.svg) 권장 단계</b>
 
-iGPU의 그래픽 드라이버를 업데이트합니다. 다음 위치에서 최신 드라이버를 찾을 수 있습니다. [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
+iGPU의 그래픽 드라이버를 업데이트합니다. 다음 위치에서 최신 드라이버를 찾을 수 있습니다. [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## 윈도우 /
 
@@ -76,7 +76,7 @@ Substance 3D Designer이 Windows 7, Windows 8 또는 Windows 8.1을 사용하는
 버전 **11.3.0** 업데이트의 일부로 Windows 10보다 낮은 Windows 버전에서 *호환성 중단*&#x200B;인 여러 라이브러리, 도구 및 SDK를 업그레이드했습니다.
 
 Microsoft 자체는 더 이상 주류용 Windows의 이전 버전을 지원하지 않으므로 *적극* Windows 10으로 업그레이드하는 것이 좋습니다([여기](https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information) 및 [여기](https://docs.microsoft.com/en-us/lifecycle/faq/windows#windows-8.1) 참조). 따라서 이러한 버전을 계속 사용하면 *보안 문제*&#x200B;가 발생합니다.\
-Windows 10으로 업그레이드할 수 없는 경우 *Designer*&#x200B;과거&#x200B;*버전&#x200B;**11.2.2**&#x200B;의 설치를 업데이트하지 마십시오*.
+Windows 10으로 업그레이드할 수 없는 경우 *Designer*&#x200B;과거&#x200B;*버전&#x200B;**11.2.2**의 설치를 업데이트하지 마십시오*.
 
 >[!WARNING]
 >

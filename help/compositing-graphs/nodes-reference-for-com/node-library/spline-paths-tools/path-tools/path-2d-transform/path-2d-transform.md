@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/path-2d-transform.html"
 breadcrumb-title: ''
 description: '[패스 2D 변형] 노드를 사용하면 평행 이동, 회전 및 비율 조정 작업을 통해 패스를 변형할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 2D 변형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -51,13 +51,13 @@ ht-degree: 1%
 
 ## 매개변수
 
-<b>매트릭스 변환</b> *부동 소수점4*\
+<b>매트릭스 변환</b> *Float4*\
 스플라인에 적용된 변형 행렬 다음과 같이 세 가지 행렬 매개 변수 편집 모드를 사용할 수 있습니다.\
 *- 변형 기즈모:* 스플라인 2D 변형 노드를 선택하면 [2D 보기](../../../../../../interface/2d-view/2d-view.md)에 표시된 기즈모의 핸들을 조정합니다.\
 *- 회전/늘이기:* 스플라인의 회전 및 늘이기를 개별적으로 제어합니다. 값은 항상 현재 변환에 상대적으로 적용됩니다. 예를 들어, 50% 너비를 두 번 적용하면 25% 너비가 생성됩니다.\
 *- 행렬 값:* <b>행렬 값 편집</b> 단추를 클릭하여 행렬의 원시 숫자 값을 직접 입력합니다.
 
-<b>오프셋</b> *부동 소수점2*\
+<b>오프셋</b> *Float2*\
 X(가로) 및 Y(세로)의 스플라인에 위치 오프셋을 적용합니다.
 
 ## 예

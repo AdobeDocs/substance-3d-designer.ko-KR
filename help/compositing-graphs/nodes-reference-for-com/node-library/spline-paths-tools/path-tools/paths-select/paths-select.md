@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 breadcrumb-title: ''
 description: 경로 선택 노드 를 사용하여 조건에 따라 경로 목록에서 특정 경로를 선택하고 필터링합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 선택
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 매개변수
 
-<b>선택 모드</b> *정수*&#x200B;경로를 선택하는 데 사용되는 메서드:\
+<b>선택 모드</b> *정수*&#x200B;경로를 선택하는 데 사용되는 방법:\
 *- ID 기준:* 인덱스가 <b>경로 ID</b>에 지정된 것과 일치하는 경로를 목록에서 선택합니다.\
 *- 길이 기준:* <b>대상 길이</b>에 지정된 임계값보다 크거나 작은 경로를 선택합니다.
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 선택한 패스의 인덱스입니다.\
 <b>경로 *에 있는 경로 수보다 큰 값을 사용하면 빈 출력이*</b>&#x200B;됩니다.
 
-<b>길이가 더 길거나 더 짧습니까?</b> *부울*(<b>선택 모드</b>가 *길이 기준*(으)로 설정된 경우 사용 가능)\
+<b>길이가 더 길거나 더 짧습니까?</b> *부울*(<b>선택 모드</b>가 *길이*(으)로 설정된 경우 사용 가능)\
 선택 영역의 길이가 <b>대상 길이</b>보다 크거나 작은지 여부를 제어합니다.
 
 <b>대상 길이</b> *부동*(<b>선택 모드</b>가 *길이*(으)로 설정된 경우 사용 가능)\

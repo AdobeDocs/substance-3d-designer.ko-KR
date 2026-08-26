@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 리소스 종속성에서 경고가 발생한 경우 이를 해결하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 종속성 경고
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ ht-degree: 0%
 
    종속성 패키지가 경고 메시지에 지정된 위치에 있는지 확인하십시오. 파일이 없으면 파일을 찾아 해당 위치에 다시 배치하거나 적절하게 다시 만듭니다. 파일이 있는 경우 *Designer에서 해당 파일을 로드하고* 해당 패키지와 관련된 경고 또는 오류를 확인합니다. 해당 특정 문제에 대한 문제 해결 단계를 참조하고 그에 따라 수정하십시오.
 
-   그런 다음 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>다시 로드</b> 옵션을 선택하여 호스트 패키지를 다시 로드합니다.
+   그런 다음 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>다시 로드</b> 옵션을 선택하여 호스트 패키지를 다시 로드합니다.
 
    ![&#39;잘못된 종속 패키지&#39; 솔루션 1](../../assets/warnings-dep-invalid-dependent-pkg.gif "&#39;잘못된 종속 패키지&#39; 솔루션 1")
 1. <b>패키지에서 종속성 재배치</b>
 
-   [종속성 관리자](../../interface/dependency-manager/dependency-manager.md) 를 사용하여 종속성을 재배치할 수 있습니다. [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 호스트 패키지의 RMB를 클릭하고 컨텍스트 메뉴에서 <b>종속성 관리자</b> 옵션을 선택합니다.
+   [종속성 관리자](../../interface/dependency-manager/dependency-manager.md) 를 사용하여 종속성을 재배치할 수 있습니다. [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 호스트 패키지의 RMB를 클릭하고 상황에 맞는 메뉴에서 <b>종속성 관리자</b> 옵션을 선택합니다.
 
    종속 관리자 목록에서 누락된 종속성을 찾아서 RMB를 클릭하고 <b>재배치...</b> 옵션을 선택합니다. 파일 브라우저 대화 상자를 사용하여 종속성 패키지를 찾고 <b>열기</b>를 클릭합니다.
 
-   그런 다음 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>다시 로드</b> 옵션을 선택하여 호스트 패키지를 다시 로드합니다.
+   그런 다음 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>다시 로드</b> 옵션을 선택하여 호스트 패키지를 다시 로드합니다.
 
    ![&#39;잘못된 종속 패키지&#39; 솔루션 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "&#39;잘못된 종속 패키지&#39; 솔루션 2")
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    ![&#39;리소스 솔루션 1과 일치하는 파일 없음](../../assets/warnings-dep-udim-2.gif "&#39;리소스 솔루션 1")과 일치하는 파일 없음
 1. <b>파일 재배치</b>
 
-   파일이 이동되었거나 이름이 바뀐 경우 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 리소스 항목에서 RMB를 클릭하여 파일을 재배치하고 <b>재배치</b> 옵션을 선택하여 해당 리소스를 동일한 유형의 UDIM 이미지 집합&#x200B;*의 첫 번째 파일에 연결합니다.*
+   파일이 이동되었거나 이름이 바뀐 경우 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 리소스 항목에서 RMB를 클릭하여 파일을 재배치하고 <b>재배치</b> 옵션을 선택하여 해당 리소스를 동일한 유형의 UDIM 이미지 집합&#x200B;*의 첫 번째 파일에 연결합니다.*
 
    ![&#39;리소스와 일치하는 파일 없음&#39; 해결 방법 2](../../assets/warnings-dep-udim.gif "&#39;리소스와 일치하는 파일 없음&#39; 해결 방법 2")
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    ![&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 1](../../assets/warnings-dep-file-not-found.gif "&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 1")
 1. <b>파일 재배치</b>
 
-   파일이 이동되었거나 이름이 바뀐 경우 [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널의 리소스 항목에서 RMB를 클릭하여 파일을 재배치하고 <b>재배치</b> 옵션을 선택하여 해당 리소스를 동일한 유형의 다른 파일에 연결합니다.
+   파일이 이동되었거나 이름이 바뀐 경우 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 리소스 항목에서 RMB를 클릭하여 파일을 재배치하고 <b>재배치</b> 옵션을 선택하여 해당 리소스를 동일한 유형의 다른 파일에 연결합니다.
 
    ![&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 2](../../assets/warnings-dep-file-not-found-2.gif "&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 2")
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 ## ![(오류)](../../assets/error.svg) 참조 리소스를 찾을 수 없습니다.
 
-[3D 메시 리소스](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)의 UV 타일에 할당된 그래프를 경고에 보고된 위치에서 찾을 수 없습니다.
+[3D 장면 리소스](../3d-scene-resource/3d-scene-resource.md)의 UV 타일에 할당된 그래프를 경고에 보고된 위치에서 찾을 수 없습니다.
 
 <b>![(틱)](../../assets/check.svg) 솔루션</b>
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. <b>그래프 복원</b>
 
-   [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 패키지의 내용에 <b>UV 타일</b> 목록에 지정된 그래프가 있는지 확인합니다. 존재하지 않는 경우 복원하거나 다시 만듭니다.
+   [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 패키지의 내용에 <b>UV 타일</b> 목록에 지정된 그래프가 있는지 확인합니다. 존재하지 않는 경우 복원하거나 다시 만듭니다.
 
    ![&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1](../../assets/warnings-dep-udim-graph-2.gif "&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1")
 1. <b>다른 그래프 선택</b>
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## ![(오류)](../../assets/error.svg) UV 타일이 여러 번 할당됨
 
-[3D 메시 리소스](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)에 대한 UV 타일이 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에 두 번 이상 할당되었습니다.
+[3D 장면 리소스](../3d-scene-resource/3d-scene-resource.md)에 대한 UV 타일이 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에 두 번 이상 할당되었습니다.
 
 <b>![(틱)](../../assets/check.svg) 솔루션</b>
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 ## ![(오류)](../../assets/error.svg) 잘못된 UV 타일
 
-[3D 메시 리소스](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)에 대해 나열된 UV 타일이 메시에 정의되어 있지 않거나 손상되었습니다.
+[3D 장면 리소스](../3d-scene-resource/3d-scene-resource.md)에 대해 나열된 UV 타일이 메시에 정의되어 있지 않거나 손상되었습니다.
 
 <b>![(틱)](../../assets/check.svg) 솔루션</b>
 

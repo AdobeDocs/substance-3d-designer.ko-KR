@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7eb945801ce2b27657ed7ab9948dc14dcb94e77c
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 11%
 
 ---
 # 도도
@@ -18,12 +18,21 @@ ht-degree: 2%
 * &#39;설명서 팝업&#39; 페이지의 예
 * 용어집:
   * HDR
+  * 금속/금속
+  * HDR
+  * 반사
+  * Height 맵
+  * 불투명도
+  * 절두체
+  * 접선 공간
+  * 초기값 / 임의값
+  * FX-Map
+  * 픽셀 프로세서
+  * 사전 설정
 
 ## 수정 사항
 
-* [개요](help/getting-started/overview/overview.md)에서 끊어진 링크
 * [출력 노드](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)에서 끊어진 링크 및 서식 지정
-* HelpX 링크
 * 페이지 내 ToC 제거(예: 새 소음)
 * 노드 페이지 레이아웃 수정(예: 새 소음)
 * 노드 페이지의 첫 번째 예제 이미지에 대한 링크 수정(예: 새 소음)

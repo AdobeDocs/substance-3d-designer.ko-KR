@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 2D 보기를 사용하여 재질 그래프에서 텍스처 출력을 미리 보고 검사할 수 있습니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 2D 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2354'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 그래프 보기에서 *RMB*&#x200B;을 클릭하여 액세스하는 <b>2D 보기에서 출력 보기</b> 컨텍스트 메뉴 옵션을 사용하여 2D 보기로 이미지를 보낼 수 있습니다.
 
 * *노드*&#x200B;에서 *해당 노드의 출력*&#x200B;을 표시합니다. 노드에 둘 이상의 출력이 있는 경우 하위 메뉴에서 원하는 출력을 선택합니다
-* 그래프 보기의 *빈 공간*&#x200B;에서 *해당 그래프의 출력*&#x200B;을 표시합니다. 그래프에 출력이 두 개 이상 있는 경우 하위 메뉴에서 원하는 출력을 선택합니다
+* 그래프 보기의 *빈 공간*&#x200B;에서 *해당 그래프의 출력*&#x200B;을 표시합니다. 그래프에 출력이 두 개 이상 있는 경우 하위 메뉴에서 원하는 출력을 선택합니다
 
 그래프를 로드하면 기본적으로 *첫 번째 출력*&#x200B;이 2D 보기에 자동으로 표시됩니다. [환경 설정](../../interface/preferences-window/preferences-window.md)에서 이 동작을 사용하지 않도록 설정할 수 있습니다. <b>편집 > 환경 설정 > 그래프 > 합성 그래프 Substance</b>로 이동하고 그래프를 열 때 <b>2D 보기에서 출력 보기</b> 옵션을 *선택 해제*&#x200B;합니다.
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 파일이 선택되면 이미지 오버레이에 대한 다음 컨트롤과 함께 새 도구 모음이 나타납니다.
 
-<b>![](../../assets/2d-view-icon-background-close.png) 닫기:</b> 오버레이 컨트롤 도구 모음을 *닫기* 및 배경 이미지 오버레이를 *비활성화*&#x200B;합니다.
+<b>![](../../assets/2d-view-icon-background-close.png) 닫기:</b> 오버레이 컨트롤 도구 모음을 *닫기*&#x200B;하고 배경 이미지 오버레이를 *비활성화*&#x200B;합니다.
 
 <b>![](../../assets/2d-view-icon-background-loadpng.png) 이미지 불러오기:</b> 오버레이로 사용할 *다른 이미지 파일*&#x200B;을 선택합니다.
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
 [3D 보기](../../interface/3d-view/3d-view.md) 도크의 <b>장면</b> 메뉴에서 <b>2D 보기에서 UV 표시</b> 옵션이 활성화되면 2D 보기에서 UV 오버레이 기능을 사용할 수 있습니다.
 
-<b>UV</b> 단추를 사용하여 활성화할 수 있습니다. ![](../../assets/2d-view-icon-uv.png)
+<b>UV</b> 단추를 사용하여 활성화할 수 있습니다. ![](../../assets/2d-view-icon-uv.png)
 
 그러면 현재 3D 보기에서 선택한 [메시](../../interface/3d-view/3d-view.md)의 UV가 색상이 적용된 와이어프레임으로 표시됩니다.
 
@@ -343,7 +343,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 설명서의 [비트맵 페인팅 편집기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) 페이지에서 자세히 알아볼 수 있습니다.
+> 설명서의 [비트맵 페인팅 도구](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) 페이지에서 자세히 알아볼 수 있습니다.
 
 <table>
 <tr style="border: 0;">
@@ -368,7 +368,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 설명서의 [벡터 그래픽 편집기(더 이상 사용되지 않음)](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) 페이지에서 자세히 알아볼 수 있습니다.
+> 설명서의 [벡터 편집 도구](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)(더 이상 사용되지 않음) 페이지에서 자세히 알아볼 수 있습니다.
 
 ![2D 보기 색상 관리](../../assets/2d-view-color-management-ocio.png "2D 보기 색상 관리"){width="360px"}
 

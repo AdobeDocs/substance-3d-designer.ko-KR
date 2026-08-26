@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
 description: '[색상 팔레트 만들기] 노드를 사용하여 텍스처에서 16색 팔레트를 추출하여 스타일화된 효과를 적용할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 만들기 (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 1%
@@ -67,8 +67,8 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>팔레트</b> 기본 *색상* | 픽셀 행으로 인코딩된 RGB 색상의 순서가 지정된 목록입니다. 팔레트에는 최대 256개의 색상을 사용할 수 있습니다.   이 입력은 선택 사항입니다. 이 옵션을 사용하면 노드에서 설정한 색상이 이 팔레트에 추가됩니다.   [색상 팔레트 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) 노드를 사용하여 팔레트를 시각화할 수 있습니다. |
-| <b>팔레트 색상 양</b> *정수* | 팔레트에 저장된 색상의 양입니다.   해당 숫자가 &#39;팔레트&#39; 이미지 입력의 실제 색상 양과 일치하지 않으면 시각화가 불완전하거나 필요한 것보다 더 많은 빈 슬롯이 있을 수 있습니다. |
+| <b>팔레트</b> 기본 *색상* | 픽셀 행으로 인코딩된 RGB 색상의 순서가 지정된 목록입니다. 팔레트에는 최대 256개의 색상을 사용할 수 있습니다.   이 입력은 선택 사항입니다. 이 옵션을 사용하면 노드에서 설정한 색상이 이 팔레트에 추가됩니다.   [색상 팔레트 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) 노드를 사용하여 팔레트를 시각화할 수 있습니다. |
+| <b>팔레트 색상 양</b> *정수* | 팔레트에 저장된 색상의 양입니다.   해당 숫자가 &#39;팔레트&#39; 이미지 입력의 실제 색상 양과 일치하지 않으면 시각화가 불완전하거나 필요한 것보다 더 많은 빈 슬롯이 있을 수 있습니다. |
 
 ## 출력 커넥터
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>색상 양</b> *정수* | 팔레트에 추가해야 하는 색상의 양입니다. |
-| <b>색상 #</b> *Float3* *&#39;Color amount&#39; 값으로 사용할 수 있는 매개 변수 수* | 팔레트에 추가해야 하는 색상입니다.   색상은 이 번호 매기기 목록과 같은 순서로 팔레트에 추가됩니다. |
+| <b>색상 #</b> *Float3* *&#39;Color amount&#39; 값으로 사용할 수 있는 매개 변수 수* | 팔레트에 추가해야 하는 색상입니다.   색상은 이 번호 매기기 목록과 같은 순서로 팔레트에 추가됩니다. |
 
 ## 예
 

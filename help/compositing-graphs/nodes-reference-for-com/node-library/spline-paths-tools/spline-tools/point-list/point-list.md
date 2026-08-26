@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 점 목록 노드 를 사용하여 스플라인 및 패스 생성에 사용할 점 목록을 만들고 관리합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 포인트 목록
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -55,12 +55,12 @@ ht-degree: 0%
 
 <b>지점 목록 입력</b> *색상*\
 색상 이미지의 RGBA 채널로 인코딩된 입력 지점 목록:\
-    <b>R</b> - X 위치\
-    <b>G</b> - Y 위치\
-    <b>B</b> - Height\
-    <b>A</b> - 압축된 데이터:\
-            * 정수 부분: Smoothness;\
-            * 분수 부분: Thickness.
+<b>R</b> - X 위치\
+<b>G</b> - Y 위치\
+<b>B</b> - Height\
+<b>A</b> - 압축된 데이터:\
+* 정수 부분: Smoothness;\
+* 분수 부분: Thickness.
 
 <b>지점 번호 입력</b> *정수*\
 입력 포인트 수입니다.
@@ -71,12 +71,12 @@ ht-degree: 0%
 
 <b>포인트 목록 </b>*색상*\
 색상 이미지의 RGBA 채널로 인코딩된 점의 출력 목록은 다음과 같습니다.\
-    <b>R</b> - X 위치\
-    <b>G</b> - Y 위치\
-    <b>B</b> - Height\
-    <b>A</b> - 압축된 데이터:\
-            * 정수 부분: Smoothness;\
-            * 분수 부분: Thickness.
+<b>R</b> - X 위치\
+<b>G</b> - Y 위치\
+<b>B</b> - Height\
+<b>A</b> - 압축된 데이터:\
+* 정수 부분: Smoothness;\
+* 분수 부분: Thickness.
 
 <b>포인트 번호 </b>*정수*\
 출력 포인트 수입니다.
@@ -111,7 +111,7 @@ ht-degree: 0%
 <b>포인트 표시</b> *부울*\
 &#39;미리 보기&#39; 출력에 포인트를 표시합니다.
 
-<b>포인트 크기</b> *부동*(&#39;포인트 표시&#39;가 &#39;True&#39;로 설정된 경우 사용 가능)\
+<b>포인트 크기</b> *부동*(&#39;Show Points&#39;가 &#39;True&#39;로 설정된 경우 사용 가능)\
 텍스처 공간에서 점의 반경입니다. 여기서 0.1은 텍스처 폭의 10분의 1입니다.
 
 +++

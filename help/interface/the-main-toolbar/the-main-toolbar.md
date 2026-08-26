@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 워크플로우의 일반적인 도구와 명령에 액세스할 수 있는 Substance 3D Designer의 기본 도구 모음에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 기본 툴바
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 빠른 액세스 버튼
 
-![](../../assets/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N) [새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
+![](../../assets/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N)[새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
 
 ![](../../assets/open.png) <b>열기...:</b>(Ctrl+O) 기존 [Substance 패키지(.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md)를 엽니다.
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 <b>새로 만들기:</b> 그래프 또는 패키지를 만들기 위한 하위 메뉴를 엽니다.
 
-* <b>새 Substance 그래프...:</b>(Ctrl+N) 새 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 설정할 수 있는 [새 Substance 그래프](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) 창을 표시합니다.
+* <b>새 Substance 그래프...:</b>(Ctrl+N) 새 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 설정할 수 있는 [새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시합니다.
 * <b>새 Substance 함수 그래프:</b> [Substance 함수 그래프](../../function-graphs/function-graphs.md)를 사용하여 새 패키지를 만듭니다.
 * <b>비어 있음:</b> 빈 패키지를 만듭니다.
 
@@ -110,11 +110,11 @@ ht-degree: 2%
 
 <b>창 최대화 해제:</b> 패널이 *최대화*&#x200B;인 경우 이 옵션은 최대를 해제하고 레이아웃을 *이전* 상태로 복원합니다. 창이 최대가 되었습니다
 
-<b>탐색기:</b> [탐색기 창을 표시하거나 숨깁니다.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>탐색기:</b> [탐색기](../the-explorer-window/the-explorer-window.md)를 표시하거나 숨깁니다.
 
 <b>그래프:</b> [그래프 창](../../interface/the-graph-view/the-graph-view.md)을 표시하거나 숨깁니다.
 
-<b>매개 변수:</b> [속성 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)을 표시하거나 숨깁니다.
+<b>매개 변수:</b> [속성](../properties/properties.md)을 표시하거나 숨깁니다.
 
 <b>콘솔:</b> 콘솔 창을 표시하거나 숨깁니다.
 
@@ -122,7 +122,7 @@ ht-degree: 2%
 
 <b>종속성 관리자:</b> [종속성 관리자](../../interface/dependency-manager/dependency-manager.md)를 표시하거나 숨깁니다.
 
-<b>2D 보기:</b> [2D 보기를 표시하거나 숨깁니다.](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2D 보기:</b> [2D 보기](../2d-view/2d-view.md)를 표시하거나 숨깁니다.
 
 <b>라이브러리:</b> [라이브러리 창을 표시하거나 숨깁니다.](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ ht-degree: 2%
 
 <b>피드백 제공...:</b> Adobe의 [지원 커뮤니티](https://www.adobe.com/go/Substance-3D-feedback-Designer_kr) 홈 페이지에서 웹 브라우저를 엽니다.
 
-<b>Substance 3D 에셋:</b> 구독자(이전의 Substance Source)를 위해 [프리미엄 3D 콘텐츠](https://helpx.adobe.com/kr/substance-3d/unlisted/assets.html)를 찾아보세요.
+<b>Substance 3D 에셋:</b> 구독자(이전의 Substance Source)를 위해 [프리미엄 3D 콘텐츠](https://substance3d.adobe.com/assets)를 찾아보세요.
 
-<b>Substance 3D 커뮤니티 에셋:</b> [무료 커뮤니티 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/community-assets.html)&#x200B;(이전 Substance share)을 검색할 수 있습니다.
+<b>Substance 3D 커뮤니티 에셋:</b> [무료 커뮤니티 에셋](https://substance3d.adobe.com/community-assets/)&#x200B;(이전 Substance share)을 검색할 수 있습니다.
 
 <b>내 계정 관리\*:</b> Adobe 계정에 대한 웹 페이지를 엽니다.
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>새로운 기능...:</b> Designer 최신 릴리스에 추가된 기능을 강조하는 화면을 표시합니다.
 
-<b>시작 화면...\*:</b> [Substance 3D 에코시스템](https://helpx.adobe.com/kr/substance-3d.html)에서 Designer의 목적과 위치를 통해 새로운 사용자를 안내하는 화면을 표시합니다.
+<b>시작 화면...\*:</b> [Substance 3D 에코시스템](https://helpx.adobe.com/substance-3d.html)에서 Designer의 목적과 위치를 통해 새로운 사용자를 안내하는 화면을 표시합니다.
 
 <b>파트너:</b> Designer의 파트너가 제공하는 타사 통합 고지 사항 및 고지 사항에 액세스할 수 있습니다.
 

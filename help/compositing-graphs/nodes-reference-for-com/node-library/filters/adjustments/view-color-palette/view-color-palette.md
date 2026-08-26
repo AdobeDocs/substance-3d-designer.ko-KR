@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: '[색상 팔레트 보기] 노드를 사용하여 분석을 위해 텍스처에서 추출한 색상 팔레트 데이터를 시각화할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -68,8 +68,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>팔레트</b> 기본 *색상* | 픽셀 행으로 인코딩된 RGB 색상의 순서가 지정된 목록입니다. 팔레트에는 최대 256개의 색상을 사용할 수 있습니다.   노드가 팩하고 렌더링하는 팔레트입니다. |
-| <b>팔레트 색상 양</b> *정수* | 팔레트에 저장된 색상의 양입니다.   해당 숫자가 &#39;팔레트&#39; 이미지 입력의 실제 색상 양과 일치하지 않으면 시각화가 불완전하거나 필요한 것보다 더 많은 빈 슬롯이 있을 수 있습니다. |
+| <b>팔레트</b> 기본 *색상* | 픽셀 행으로 인코딩된 RGB 색상의 순서가 지정된 목록입니다. 팔레트에는 최대 256개의 색상을 사용할 수 있습니다.   노드가 팩하고 렌더링하는 팔레트입니다. |
+| <b>팔레트 색상 양</b> *정수* | 팔레트에 저장된 색상의 양입니다.   해당 숫자가 &#39;팔레트&#39; 이미지 입력의 실제 색상 양과 일치하지 않으면 시각화가 불완전하거나 필요한 것보다 더 많은 빈 슬롯이 있을 수 있습니다. |
 
 ## 출력 커넥터
 
