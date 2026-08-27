@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 다음으로 보내기...  상호운용성
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Adobe Substance 3D Designer은 [Substance 3D Sampler](https://www.adobe.com/kr/p
 일반적으로 워크플로우는 다음과 같습니다.
 
 1. [Substance 그래프의 속성](../../../compositing-graphs/graph-parameters/graph-parameters.md)에서 <b>Type</b> 특성 설정
-1. [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널에서 보낼 패키지를 선택합니다
+1. [탐색기](../the-explorer-window.md) 패널에서 보낼 패키지를 선택합니다
 1. 탐색기의 <b>Publish/보내기</b> 드롭다운에서 대상 응용 프로그램을 선택합니다
 1. 그래프를 변경합니다.
 1. 3단계를 반복하여 패키지를 다시 전송하고 변경 사항으로 기존 전송 에셋을 업데이트합니다
@@ -75,8 +75,8 @@ Substance 그래프에는 다양한 기능이 있을 수 있습니다. 그래프
 
 콘텐츠를 보내는 것은 다음과 같은 방법으로 수행할 수 있습니다.
 
-* 패키지를 마우스 오른쪽 단추로 클릭하고 <b>보내기...컨텍스트 메뉴의 </b> 하위 메뉴를 선택한 다음 <b>보내기...대상 응용 프로그램에 대한 </b> 옵션;
-* [탐색기](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 패널 위쪽의 ![](../../../assets/sendto-icon.jpg) <b>Publish/보내기</b> 단추를 클릭한 다음 <b>보내기...를 선택합니다.대상 응용 프로그램에 대한 </b> 옵션입니다.
+* 패키지를 마우스 오른쪽 단추로 클릭하고 상황별 메뉴에서 <b>보내기...</b> 하위 메뉴를 연 다음 대상 응용 프로그램에 대해 <b>보내기..</b> 옵션을 선택합니다.
+* [탐색기] 패널 위쪽의 ![](../../../assets/sendto-icon.jpg) <b>Publish/보내기</b> 단추를 클릭한 다음 대상 응용 프로그램에 대해 <b>보내기...</b> 옵션을 선택합니다.
 
 </td>
 <td style="border: 0;" valign="top">

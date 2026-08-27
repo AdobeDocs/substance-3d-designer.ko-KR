@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 형식 사양
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Null 경로 헤더(`top[...].XYZW = Float4(0,0,0,0)`)를 사용할 수 있습니
 +++위
 <b>X</b>
 
-이 패스의 정점 수입니다. [0, 16777216] 범위 내에 있어야 합니다.
+이 패스의 정점 수입니다. [0, 16777216] 범위 내에 있어야 합니다.
 
 닫힌 패스의 시작 정점과 끝 정점이 같은 위치에 있으면 두 정점을 셉니다.\
 정점이 0인 패스는 유효한 패스입니다.

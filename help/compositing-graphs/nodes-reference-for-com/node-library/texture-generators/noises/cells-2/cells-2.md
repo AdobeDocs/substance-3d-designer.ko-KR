@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 셀 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 3%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
@@ -42,26 +42,6 @@ ht-degree: 3%
 조정 가능한 벽 Thickness이 있는 셀의 이진 마스크입니다.
 
 참고 항목: [셀 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [셀 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md), [셀 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 출력
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 실행 취소 및 다시 실행
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <b>SDHistoryUtils.UndoGroup</b> 클래스를 사용하면 사용자가 하나의 명령에서 모두 *실행 취소 또는 다시 실행*&#x200B;하기 위해 *그룹 작업*&#x200B;을 수행할 수 있습니다.
 
-이러한 그룹은 사용자가 *이름*&#x200B;을 지정하며, 사용자 인터페이스의 실행 취소/다시 실행 목록에 해당 이름으로 표시됩니다.  따라서 많은 수의 작업을 더 쉽게 관리할 수 있습니다.
+이러한 그룹은 사용자가 *이름*&#x200B;을 지정하며, 사용자 인터페이스의 실행 취소/다시 실행 목록에 해당 이름으로 표시됩니다.  따라서 많은 수의 작업을 더 쉽게 관리할 수 있습니다.
 
 ```
 import sd 

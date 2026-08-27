@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 출력 크기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 출력 크기
 
-그래프의 <b>기본 매개 변수</b> 중 첫 번째이며, <b>출력 형식</b>(또는 비트 심도)과 함께 그래프의 출력에 큰 영향을 미치므로 잘 이해하는 것이 중요합니다. 이는 Designer 내에서 뿐 아니라 게시된 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 파일로서의 다른 응용 프로그램 모두에서 영향을 미칩니다.
+그래프의 <b>기본 매개 변수</b> 중 첫 번째이며 <b>출력 형식</b>(또는 비트 심도)과 함께 [게시된 Substance 3D 에셋(SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 파일로서 Designer 및 다른 응용 프로그램 모두에서 그래프의 출력에 큰 영향을 미치므로 잘 이해하는 것이 중요합니다.
 
 >[!TIP]
 >
@@ -96,7 +96,7 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 * 노드: *입력 기준* - 이 경우 노드의 [기본 입력](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)에서 상속된 값이 사용됩니다.
 * [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드: *절대* - 이유를 알려면 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md) 페이지와 [성능 최적화 지침](../../best-practices/performance-optimization/performance-optimization-guidelines.md)을 참조하세요
 
-해당 항목을 클릭하여 노드 또는 그래프의 속성을 표시한 다음 [속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 패널에서 <b>기본 매개 변수</b> 섹션의 <b>출력 크기</b> 속성을 찾습니다. 상속 방법 드롭다운 메뉴를 클릭하고 원하는 상속 방법을 선택합니다.
+해당 항목을 클릭하여 노드 또는 그래프의 속성을 표시한 다음 [속성](../../interface/properties/properties.md) 패널에서 <b>기본 매개 변수</b> 섹션의 <b>출력 크기</b> 속성을 찾습니다. 상속 방법 드롭다운 메뉴를 클릭하고 원하는 상속 방법을 선택합니다.
 
 ![출력 크기 상속 메서드](../../assets/change-mode.gif "출력 크기 상속 메서드"){width="512px"}
 

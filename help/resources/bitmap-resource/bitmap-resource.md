@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 비트맵 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ SVG(벡터 그래픽) 리소스와 달리 비트맵은 새 리소스로 만들�
 
 ### Substance 3D 에셋(SBSAR)
 
-[SBSAR 파일](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)에는 비트맵이 포함되어 있어 최종 SBSAR 파일 크기에 많은 영향을 줍니다. 이 페이지에서 파일 크기에 미치는 영향에 대해 자세히 알아볼 수 있습니다. [SBSAR 파일이 게시되면](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 그래프의 출력을 계산하는 데 사용되는 비트맵만 포함됩니다. 사용하지 않은 모든 비트맵은 최적화되어 파일 크기에 영향을 주지 않고 최종 SBSAR 패키지에서 제외됩니다.
+[SBSAR 파일](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)에는 비트맵이 포함되어 있어 최종 SBSAR 파일 크기에 많은 영향을 줍니다. 이 페이지에서 파일 크기에 미치는 영향에 대해 자세히 알아볼 수 있습니다. SBSAR 파일이 게시되면 그래프의 출력을 계산하는 데 사용되는 비트맵만 포함됩니다. 사용하지 않은 모든 비트맵은 최적화되어 파일 크기에 영향을 주지 않고 최종 SBSAR 패키지에서 제외됩니다.
 
 ## 파일 유형, 색상 모드 및 해상도
 
@@ -71,4 +71,4 @@ Substance 3D Designer에서는 비트맵의 데이터를 손쉽게 편집하고 
 
 ## 파일 크기 축소
 
-[게시된 Substance 3D 에셋](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)&#x200B;(SBSAR)에 포함된 비트맵의 파일 크기 최소화와 관련된 권장 사항은 [모범 사례](../../best-practices/best-practices.md) 섹션의 [파일 크기 축소 지침](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) 페이지를 참조하십시오.
+[게시된 Substance 3D 에셋(SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)에 포함된 비트맵의 파일 크기 최소화와 관련된 권장 사항은 [모범 사례](../../best-practices/best-practices.md) 섹션의 [파일 크기 축소 지침](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) 페이지를 참조하십시오.

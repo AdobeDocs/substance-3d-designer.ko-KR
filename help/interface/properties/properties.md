@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 속성
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Substance 에코시스템의 주요 기능인 [매개 변수 노출](../../compo
 
 ## 노드 및 Substance 그래프
 
-[노드](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)와 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에 속성 범주가 약간 겹치며 기능이 비슷합니다.
+노드와 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에는 속성 범주가 약간 겹치며 기능이 비슷합니다.
 
 <b>기본 매개 변수</b> 및 <b>특성</b>은 노드와 그래프 간에 동일합니다.
 
-노드는 <b>특정 매개 변수</b> 또는<b> 인스턴스 매개 변수</b>(해당 매개 변수가 [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) 또는 [인스턴스](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)인지에 따라 다름)와 [Substance 그래프의 값](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)을 사용하기 위한 <b>입력 값</b>을 제공합니다.
+노드는 <b>특정 매개 변수</b> 또는<b> 인스턴스 매개 변수</b>(해당 매개 변수가 [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) 또는 [인스턴스](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)인지에 따라 다름)와 [값](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) 작업을 위한 <b>입력 값</b>을 제공합니다.
 
 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)과 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)원자성 노드는 가시성을 위해 <b>통합 특성</b> 및 <b>조건</b>을 사용하므로 예외입니다. 이러한 두 속성 집합은 [입력] 및 [출력] 아래의 [그래프] 속성에서 가운데에 액세스할 수도 있습니다.
 
@@ -67,7 +67,7 @@ Substance 에코시스템의 주요 기능인 [매개 변수 노출](../../compo
 
 ## 리소스 및 패키지
 
-속성 패널도 [탐색기 창](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)에서 선택 변경 내용에 응답합니다. 빈 영역을 두 번 클릭하는 대신 그래프를 선택하는 다른 방법으로 사용할 수 있으며, 패키지 및 [리소스](../../resources/resources.md)속성을 변경할 수도 있습니다.
+속성 패널도 [탐색기](../the-explorer-window/the-explorer-window.md)에서 선택 변경 내용에 응답합니다. 빈 영역을 두 번 클릭하는 대신 그래프를 선택하는 다른 방법으로 사용할 수 있으며, 패키지 및 [리소스](../../resources/resources.md)속성을 변경할 수도 있습니다.
 
 패키지에는 **정보**, **특성** 및 **메타데이터** 섹션이 있습니다. [패키지 메타데이터는 전용 페이지에 설명되어 있습니다.](../../package-metadata/package-metadata.md)
 

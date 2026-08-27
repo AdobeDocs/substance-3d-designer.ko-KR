@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
@@ -55,10 +55,10 @@ ht-degree: 5%
 
 일반적으로 비 그래프 리소스는 그래프의 추가 데이터로 사용되거나 그래프에서 결과를 시각화하는 데 도움이 되는 보조 리소스입니다. 다음 형식이 있으며 각 형식의 하위 페이지는 문서의 이 섹션에 있습니다.
 
-* [비트맵](../resources/bitmap-resource/bitmap-resource.md)
-* [벡터 그래픽 (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 장면 리소스](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [글꼴](../resources/font-resource/font-resource.md)
+* [비트맵](bitmap-resource/bitmap-resource.md)
+* [벡터 그래픽 (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D 장면 리소스](3d-scene-resource/3d-scene-resource.md)
+* [글꼴](font-resource/font-resource.md)
 
 </td>
 </tr>

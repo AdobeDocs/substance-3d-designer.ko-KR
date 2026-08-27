@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance 그래프 및 MDL 재질
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Substance 그래프의 출력은 이 페이지에서 설명하는 두 가지 방법으로 MDL 재질의 노출 매개 변수&#x200B;*에*&#x200B;전달할 수 있습니다.
 
-3D 보기에서 현재 적용된 MDL 재질에 *[가변](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* 유형의 노출 매개 변수가 있는 경우 [노출 매개 변수의 속성](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)에서 <b>유형 수정자</b> 옵션을 사용하여 이 유형을 설정할 수 있으며, 이러한 유형을 *텍스처*&#x200B;에 연결할 수 있습니다.
+3D 보기에서 현재 적용된 MDL 재질에 *[가변](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* 유형의 노출 매개 변수가 있는 경우 [노출 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 속성에서 <b>유형 수정자</b> 옵션을 사용하여 이 유형을 설정할 수 있으며, 이러한 유형을 *텍스처*&#x200B;에 연결할 수 있습니다.
 
 * <b>Color</b> 매개 변수는 RGBA 텍스처에 연결할 수 있습니다.
 * 회색 음영 텍스처의 <b>부동</b> 매개 변수

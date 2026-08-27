@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 플로우 매퍼
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -51,9 +51,9 @@ ht-degree: 0%
 <b> R</b> - X 위치\
 <b> G</b> - Y 위치\
 <b> B</b> - Height\
-    <b>A</b> - 압축된 데이터:\
-        * Sign: 스플라인이 닫히거나(음수) 열림(양수);\
-        * 절대값: Thickness + 1.
+<b>A</b> - 압축된 데이터:\
+* Sign: 스플라인이 닫히거나(음수) 열림(양수);\
+* 절대값: Thickness + 1.
 
 <b>스플라인 데이터</b> *색상*&#x200B;색상 이미지의 RGBA 채널로 인코딩된 입력 스플라인의 추가 데이터입니다.\
 <b> R</b> - 접선 X\

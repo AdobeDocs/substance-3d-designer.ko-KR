@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 그래프 인스턴스 및 하위 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Designer에서 노드 체인을 복제할 때마다 해당 체인을 하위 그�
 
 ### 내 그래프 인스턴스를 노드 라이브러리에 추가할 수 있습니까?
 
-<b>예, </b>할 수 있지만 특정 설정이 필요합니다. 이 설명서의 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 페이지에서 자세히 알아보십시오.
+<b>예, </b>할 수 있지만 특정 설정이 필요합니다. 이 설명서의 [사용자 지정 콘텐츠 및 필터 관리](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) 페이지에서 자세히 알아보십시오.
 
 ### 그래프 인스턴스의 소스 그래프를 검사할 수 있습니까?
 

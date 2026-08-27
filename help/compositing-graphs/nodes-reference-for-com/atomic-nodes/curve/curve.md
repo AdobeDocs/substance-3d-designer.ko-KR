@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 곡선
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -91,7 +91,7 @@ ht-degree: 2%
 | --- | --- |
 | <b>곡선 적용/노출</b> *부울* | 사용자 곡선을 입력 이미지에 적용하지 않고 출력에 복사할 수 있습니다 |
 | <b>곡선 주소 지정</b> *부울* | 이 매개 변수는 입력의 [0, 1] 범위를 벗어나는 HDR 픽셀을 처리하는 방법을 결정합니다. 클램프하거나 [0, 1]까지 접습니다. |
-| <b>곡선</b> *곡선 키 배열* | 입력 회색 음영 값을 매핑하는 데 사용되는 사용자 정의 곡선입니다.   [곡선 편집기](#curve-editor)를 사용하여 편집할 수 있습니다. |
+| <b>곡선</b> *곡선 키 배열* | 입력 회색 음영 값을 매핑하는 데 사용되는 사용자 정의 곡선입니다.   [곡선 편집기](#curve-editor)를 사용하여 편집할 수 있습니다. |
 
 ## 곡선 편집기
 
