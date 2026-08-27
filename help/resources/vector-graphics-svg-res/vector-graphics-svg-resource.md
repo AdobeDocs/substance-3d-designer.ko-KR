@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 절차 재질 제작을 위해 Substance 3D Designer에서 SVG 벡터 그래픽을 가져와 리소스로 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 벡터 그래픽(SVG) 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer은 Scalable Vector 그래픽 형식을 통해 제한된 형식의 Vector 그래픽을 지원합니다. SVG 파일을 다양한 방법으로 리소스로 가져와 그래프의 리소스로 사용할 수 있습니다.
 
-SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
+SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/kr/products/illustrator.html)에서는 다음 옵션에 유의할 경우 SVG 내보내기를 가장 많이 제어할 수 있습니다.
+[Illustrator](https://www.adobe.com/products/illustrator.html)에서는 다음 옵션에 유의할 경우 SVG 내보내기를 가장 많이 제어할 수 있습니다.
 
 * <b>다른 이름으로 저장</b>만 사용하고 *다른 이름으로 내보내기* 사용!
 * <b>SVG 프로필</b>은(는) 아주 작은 프로필은 기본적으로 올바른 설정으로 설정되지만 크게 중요하지 않습니다.

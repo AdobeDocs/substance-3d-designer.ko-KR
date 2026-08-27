@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: Perlin Noise 노드를 사용하면 유기적인 질감과 변형을 생성하기 위해 매끄럽고 자연스러워 보이는 노이즈 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 펄린 노이즈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 3%
+source-wordcount: '178'
+ht-degree: 2%
 
 ---
 
@@ -38,26 +38,6 @@ ht-degree: 3%
 ## 설명
 
 일반적으로 사용되는 회색 음영 값의 매끄러운 분포인 Perlin 노이즈를 생성합니다.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 출력
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
 
 </td>
 </tr>

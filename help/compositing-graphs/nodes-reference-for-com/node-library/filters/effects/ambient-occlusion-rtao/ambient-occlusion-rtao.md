@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: RTAO(Ambient 오클루전) 노드를 사용하여 Height 맵에서 실시간 주변 오클루전 맵을 생성하여 사실적인 음영을 수행합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 주변 오클루전(RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Height 맵 입력을 기반으로 앰비언트 오클루전 맵을 생성합니�
 주변 오클루전을 계산하는 데 사용되는 광선 수입니다.\
 값이 높을수록 성능 비용으로 더 부드럽고 정확한 결과를 제공합니다.
 
-<b>Height 비율</b> *부동*(<b>물리적 크기 사용</b>이 *거짓*(으)로 설정된 경우 사용 가능)\
+<b>Height 크기</b> *Float*(<b>물리적 크기 사용</b>이 *False*(으)로 설정된 경우 사용 가능)\
 Height 맵 입력 강도에 대한 승수입니다.
 
 <b>배포</b> *정수*&#x200B;배포 방법을 설정합니다. 그림자가 있는 영역을 향해 감소합니다.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 다양한 합성 효과와 텍스처를 결합하는 데 사용할 수 있는 혼합 모드에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합 모드
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 *오버레이* 혼합 모드는 곱하기 및 화면 혼합 모드를 결합합니다.
 
-* &#x200B;
+* 
   * 하위 레이어 픽셀의 값이 0.5 미만이면 *곱하기* 유형 혼합이 적용됩니다
   * 하위 레이어 픽셀의 값이 0.5 이상이면 *스크린* 유형 혼합이 적용됩니다
 

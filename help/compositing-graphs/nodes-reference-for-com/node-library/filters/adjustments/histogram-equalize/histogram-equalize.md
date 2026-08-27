@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: 히스토그램 균일화 노드를 사용하여 대비 및 밝기를 개선하기 위해 픽셀 강도를 재분포합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 막대 그래프 균일화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -75,8 +75,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>막대 그래프 해상도</b> *정수* | 막대 그래프의 폭입니다. 값이 높을수록 더 세밀한 값 배포가 가능합니다.   사용 가능한 해상도는 픽셀 단위로 256, 512, 1024, 2048, 4096입니다. |
-| <b>막대 그래프 매끄럽게</b> *부동* | 이미지의 회색 음영 값을 재분포하여 각 값 간의 *차이*&#x200B;를 균일화하여 막대 그래프를 다듬을 수 있습니다.   이 매개 변수는 보정 강도를 조정합니다. |
+| <b>막대 그래프 해상도</b> *정수* | 막대 그래프의 폭입니다. 값이 높을수록 더 세밀한 값 배포가 가능합니다.   사용 가능한 해상도는 픽셀 단위로 256, 512, 1024, 2048, 4096입니다. |
+| <b>막대 그래프 매끄럽게</b> *부동* | 이미지의 회색 음영 값을 재분포하여 각 값 간의 *차이*&#x200B;를 균일화하여 막대 그래프를 다듬을 수 있습니다.   이 매개 변수는 보정 강도를 조정합니다. |
 
 ## 예
 

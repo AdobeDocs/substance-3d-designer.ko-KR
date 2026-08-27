@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 플러그인 관리자를 사용하여 확장 기능을 위해 Python 플러그인을 설치, 관리 및 구성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 플러그인 관리자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # 플러그인 관리자
 
-<b>플러그인 관리자</b> 대화 상자는 기본 메뉴 모음의 <b>도구</b> 메뉴에서 액세스할 수 있습니다. 이를 통해 *활성* 플러그인과 *로드 및 언로드* 플러그인을 확인할 수 있습니다.
+<b>플러그인 관리자</b> 대화 상자는 기본 메뉴 모음의 <b>도구</b> 메뉴에서 액세스할 수 있습니다. 이를 통해 *활성* 플러그인과 *로드 및 언로드* 플러그인을 확인할 수 있습니다.
 
 ![플러그인 관리자](../../assets/pluginmgr.png "플러그인 관리자")
 

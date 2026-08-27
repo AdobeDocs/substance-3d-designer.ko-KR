@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ''
 description: '[균일 색상] 노드를 사용하면 단색 채우기 및 기본 레이어를 만들기 위한 균일 색상 텍스처를 생성할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 균일 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 8%
@@ -96,7 +96,7 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. |
-| <b>출력 색상</b> *Float/Float4* | 출력 이미지에 사용할 단색을 선택합니다.   &#39;색상&#39; 색상 모드를 사용하는 경우 불투명도에 Alpha 채널이 사용됩니다. 0은 완전히 투명하고 1은 완전히 불투명합니다. |
+| <b>출력 색상</b> *Float/Float4* | 출력 이미지에 사용할 단색을 선택합니다.   &#39;색상&#39; 색상 모드를 사용하는 경우 불투명도에 Alpha 채널이 사용됩니다. 0은 완전히 투명하고 1은 완전히 불투명합니다. |
 
 ## 출력 커넥터
 

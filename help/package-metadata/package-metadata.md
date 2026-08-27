@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 체계적인 에셋 라이브러리를 위한 패키지 메타데이터를 만들고 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패키지 메타데이터
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Python 플러그인을 개발하는 경우 테스트 및 디버깅을 위해 메
 
 메타데이터는 /assemblies/content/0000/metadata.json 이라는 파일에 JSON 포맷에 따라 저장됩니다(경로는 .sbsar 아카이브의 루트에 상대적입니다).
 
-일반(문자열) 메타데이터는 그대로 저장됩니다. 예를 들면 다음과 같습니다. &quot;key&quot;: &quot;stringValue&quot;, 한 줄당 한 개 다시, 다양한 키의 원래 순서는 유지되지 않으며, 구현이 정의된다. 일반 파이썬 딕트처럼, 주문에만 의존하지 마세요!
+일반(문자열) 메타데이터는 그대로 저장됩니다(예: &quot;key&quot;: &quot;stringValue&quot;, 줄당 하나). 다시, 다양한 키의 원래 순서는 유지되지 않으며, 구현이 정의된다. 일반 파이썬 딕트처럼, 주문에만 의존하지 마세요!
 
 URL 메타데이터의 목적은 사용자 및 플러그인이 .sbsar 아카이브에 외부 파일을 포함하도록 허용하는 것이므로 특정 변형의 적용을 받습니다. 먼저 저장된 URL과 일치하는 리소스 파일이 이 파일만 포함하는 구현 정의 위치(일반적으로 번호가 매겨진 하위 폴더)의 아카이브에 복사됩니다. 중요한 것은 이름 충돌을 방지하는 것입니다.) 파일은 원래 이름을 유지합니다(이때 리소스 이름이 무시됩니다). 그런 다음 metadata.json의 원본 URL 대신 metadata.json과 관련된 아카이브의 복사된 파일 경로가 기록됩니다.
 

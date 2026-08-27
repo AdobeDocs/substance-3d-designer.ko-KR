@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 breadcrumb-title: ''
 description: Substance 그래프에서 절차 패턴, 곡선 및 유기적인 모양을 만들기 위해 스플라인 및 패스 도구 노드에 액세스합니다.
 helpx_creative_field: ""

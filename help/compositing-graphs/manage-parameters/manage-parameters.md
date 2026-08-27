@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: 더 나은 워크플로우 구성을 위해 Substance 합성 그래프에서 매개변수를 관리하고 구성하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 파라미터 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -59,7 +59,7 @@ ht-degree: 3%
 * <b>매개 변수 붙여넣기:</b> 아래의 [매개 변수 복사 및 붙여넣기](../../compositing-graphs/manage-parameters/manage-parameters.md) 섹션을 참조하세요.
 * <b>매개 변수를 사전 설정 파일로 저장:</b> [이 전용 페이지](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)에서 매개 변수 사전 설정에 대해 자세히 알아보세요.
 * <b>사전 설정 파일에서 매개 변수 적용:</b> [이 전용 페이지](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)의 매개 변수 사전 설정에 대해 자세히 알아보세요.
-* <b>모두 재설정:</b> 모든 매개 변수를 해당 기본값 및 범위로 재설정합니다. 함수가 매개 변수에 적용된 경우, 해당 함수는 무시됩니다.
+* <b>모두 재설정:</b> 모든 매개 변수를 해당 기본값 및 범위로 재설정합니다. 함수가 매개 변수에 적용된 경우, 해당 함수는 무시됩니다.
 
 >[!NOTE]
 >
@@ -120,9 +120,9 @@ ht-degree: 3%
 
 ## 매개 변수 복사 및 붙여넣기
 
-소스 노드에 대한 모든 매개변수 값을 복사하여 대상 노드에 붙여넣을 수 있습니다. 소스 및 대상 노드의 매개 변수는 <b>해당 식별자와 유형을 모두 기준으로 일치</b>됩니다.
+소스 노드에 대한 모든 매개변수 값을 복사하여 대상 노드에 붙여넣을 수 있습니다. 소스 및 대상 노드의 매개 변수는 <b>해당 식별자와 유형 모두에 따라 일치</b>됩니다.
 
-예를 들어, 식별자가 &#39;scale&#39;이고 형식이 &#39;Float&#39;인 &#39;Scale&#39; 매개 변수는 해당 식별자가 &#39;scale&#39;이기도 하고 해당 형식이 &#39;Float&#39;이기도 한 경우 다른 매개 변수 &#39;Shape Scale&#39;에 복사하여 붙여넣을 수 있습니다.
+예를 들어, 식별자가 &#39;scale&#39;이고 형식이 &#39;부동&#39;인 &#39;Scale&#39; 매개 변수는 해당 식별자가 &#39;scale&#39;이기도 하고 형식이 &#39;부동&#39;이기도 한 경우 다른 매개 변수 &#39;Shape Scale&#39;에 복사하여 붙여넣을 수 있습니다.
 
 이 기능은 [매개 변수 사전 설정 파일](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)을 사용하는 것과 같은 방식으로 작동합니다. 실제로 클립보드에 복사된 데이터는 SBSPRS 사전 설정 파일에 저장된 데이터와 동일하며, 텍스트 편집기에 붙여 검토 및 편집할 수 있습니다.
 

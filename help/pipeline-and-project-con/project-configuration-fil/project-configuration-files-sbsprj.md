@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 SBSPRJ 프로젝트 구성 파일을 사용하여 프로젝트 설정을 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 프로젝트 구성 파일 - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,7 @@ ht-degree: 0%
 
 <b>일반: </b>그래프 템플릿, 접선 공간 플러그인, 표준 및 이미지 형식 기본값.
 
-<b>라이브러리: </b>라이브러리에 표시할 경로와 [라이브러리 보기에 대한 필터 및 범주](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)가 표시되었습니다.
-
-<b>MDL: </b>MDL 감시 경로.
+<b>라이브러리: </b>라이브러리에 표시할 경로를 확인했습니다.
 
 <b>스크립팅: </b>콜백 스크립트 및 해석기.
 
@@ -79,7 +77,7 @@ ht-degree: 0%
 
 프로젝트 파일 관리 및 프로젝트 설정 변경에 대해 자세히 알아보려면 [프로젝트 설정](../../interface/preferences-window/project-settings/project-settings.md) 페이지를 참고하십시오.
 
-프로젝트 파일에는 [라이브러리](../../interface/the-library/the-library.md)에 대한 사용자 지정 <b>범주</b> 및 <b>필터</b>도 포함되어 있습니다. 자세한 내용은 [사용자 지정 콘텐츠 및 필터 관리](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 페이지를 참조하세요.
+프로젝트 파일에는 [라이브러리](../../interface/the-library/the-library.md)에 대한 사용자 지정 <b>범주</b> 및 <b>필터</b>도 포함되어 있습니다. 자세한 내용은 [사용자 지정 콘텐츠 및 필터 관리](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) 페이지를 참조하세요.
 
 ## 외부에서 XML 편집
 
@@ -91,7 +89,7 @@ Windows의 경우 [메모장++](https://notepad-plus-plus.org)을(를) 사용하
 
 ## 상대 경로 및 별칭
 
-앨리어스와 결합된 상대 경로는 프로젝트 구성에서 더 복잡하지만 가장 중요한 부분 중 하나이므로 이 섹션에서 이러한 부분을 자세히 설명합니다. 특정 프로젝트 파일에 대한 사용자 지정 별칭을 추가하는 작업은 [프로젝트 설정](../../interface/preferences-window/project-settings/project-settings.md)에서 수행됩니다.
+앨리어스와 결합된 상대 경로는 프로젝트 구성에서 더 복잡하지만 가장 중요한 부분 중 하나이므로 이 섹션에서 이러한 부분을 자세히 설명합니다. 특정 프로젝트 파일에 대한 사용자 지정 별칭을 추가하는 작업은 [프로젝트 설정](../../interface/preferences-window/project-settings/project-settings.md)에서 수행됩니다.
 
 여러 사용자의 PC에서 시스템의 다른 파일을 참조하는 파일의 주요 문제 중 하나는 절대 파일 경로가 작동하지 않는다는 것입니다. 사용자는 완전히 다른 위치에 SVN 저장소를 정의할 수 있습니다(예: C:/John/Gamedev/SubstanceLibrary 또는 D:/Dev/SubstanceLibrary). 이 문제를 해결하기 위해 별칭과 상대 경로가 함께 사용됩니다. 그렇지 않으면 다른 사용자의 파일을 열고 사용자가 로컬에서 가지고 있는 특정 위치에 사용된 사용자 정의 노드를 찾으려고 할 수 있습니다. 이러한 노드는 정확히 같은 방법으로 정의하지 않았을 수 있습니다.
 

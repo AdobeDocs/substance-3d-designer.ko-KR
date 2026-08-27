@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
 breadcrumb-title: ''
 description: 습기 노이즈 노드를 사용하여 습기 표면 효과를 만들기 위한 습기 및 응축 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 습기 소음 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
@@ -42,26 +42,6 @@ ht-degree: 1%
 다양한 경도와 크기의 원판으로 아래 색상에서 기본 회색부터 더하거나 뺍니다.
 
 참고 항목: [습기 노이즈 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 출력
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
 
 </td>
 </tr>

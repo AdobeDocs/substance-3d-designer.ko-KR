@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: 체계적인 에셋 액세스를 위해 Substance 3D Designer Library에서 사용자 정의 콘텐츠 및 필터를 관리하는 방법을 알아보십시오.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: '[인덱스 Flood Fill] 노드를 사용하여 번호가 매겨지고 레이블이 지정된 패턴을 만들기 위한 인덱스 값으로 영역을 채웁니다.'
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 색인으로 Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 [Flood Fill에서 인덱스]를 선택하면 모든 Flood Fill 셀이 인덱스 번호에 따른 값으로 변환되며 왼쪽 상단에는 0부터 시작합니다. 이는 정규화된 형태(0.0 내지 1.0, Flood Fill에 의해 발견되는 수의 셀들로 나누기)로 또는 HDR, 언클램핑된 값(0 내지 n, 여기서 n은 셀의 수임)으로 회색 음영 색조를 반환하는데 사용될 수 있다.
 
-또한 색인에 Flood Fill은 새로운 [값 시스템을 사용하여 발견된 모양의 양과 선택적 내부 데이터 테이블을 포함하는 추가 값](https://helpx.adobe.com/kr/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)을 반환합니다.
+또한 색인에 Flood Fill을 사용하면 [값](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)이 사용되므로 발견된 모양의 양과 선택적 내부 데이터 테이블이 반환됩니다.
 
 ### 입력
 

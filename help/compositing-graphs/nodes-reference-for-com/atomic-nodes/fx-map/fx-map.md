@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
 description: FX-Map 노드를 사용하여 절차 패턴과 효과를 만들기 위해 텍스처에 함수 그래프를 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -75,7 +75,7 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 
 |  |  |
 | --- | --- |
-| <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. 색상은 회색 음영보다 훨씬 느립니다. |
+| <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. 색상은 회색 음영보다 훨씬 느립니다. |
 | <b>배경</b> *Float/Float4* | 결과를 합성할 배경 시작 색상을 설정합니다. |
 | <b>렌더링 영역</b> *Float4* | FX-Map의 각 면에 시작 픽셀 범위를 설정하여 늘이기 효과를 낼 수 있습니다. |
 | <b>타일링 영역</b> *Float4* | FX-맵의 타일링 거리를 오프셋할 수 있습니다. |

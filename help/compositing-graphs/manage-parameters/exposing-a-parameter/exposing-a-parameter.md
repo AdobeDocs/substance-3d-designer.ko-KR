@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 합성 그래프에서 매개 변수를 노출하여 재사용할 수 있고 사용자 정의할 수 있는 재질로 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 매개 변수를 노출하는 것은 가장 강력한 도구 중 하나이며, Substance 3D Painter, Substance 3D Sampler 및 Maya와 3DS Max용 Substance 통합 등 다른 응용 프로그램에 그래프를 여는 데 중요합니다.
 
-이 페이지에서는 노출을 시작하는 데 필요한 모든 개념을 설명합니다. 이 페이지에서 계속하기 전에 먼저 Graph 인스턴스의 정의[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 알아보는 것이 좋습니다. 또한 Publish과 내보내기의 차이점과 관련 파일 유형을 [파악하는 것이 좋습니다.](../../../getting-started/overview/overview.md)
+이 페이지에서는 노출을 시작하는 데 필요한 모든 개념을 설명합니다. 이 페이지에서 계속하기 전에 먼저 Graph 인스턴스의 정의](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 알아보는 것이 좋습니다. [또한 Publish과 내보내기의 차이점과 관련 파일 유형을 [파악하는 것이 좋습니다.](../../../getting-started/overview/overview.md)
 
 ![단순화된 매개 변수 노출](../../../assets/parameters-5.png "단순화된 매개 변수 노출")
 
