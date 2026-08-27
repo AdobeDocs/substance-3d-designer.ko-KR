@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 [속성] 패널을 사용하여 노드 속성 및 그래프 매개 변수를 보고 편집합니다.
 helpx_creative_field: ""

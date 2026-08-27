@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 체계적인 에셋 라이브러리를 위한 패키지 메타데이터를 만들고 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
