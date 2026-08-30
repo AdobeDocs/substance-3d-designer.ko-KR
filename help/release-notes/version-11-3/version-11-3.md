@@ -130,18 +130,18 @@ ht-degree: 1%
 * [Substance 모델] Basis 표시 방식 개선
 * [Substance 모델] Substance 모델 그래프를 .fbx로 내보낼 때 오브젝트의 계층 구조를 유지합니다.
 * [Substance 모델] Substance 모델 그래프에서 FBX/OBJ 내보내기에서 여러 재질 지원
-* [Substance 모델][내용] 입자 노드
-* [Substance 모델][콘텐츠] Generative Transform 노드
-* [Substance 모델][콘텐츠] 유기 패턴 노드
-* [Substance 모델][내용] 인스턴스 노드의 파티클
-* [Substance 모델][내용] 파티클 프루닝 노드
-* [Substance 모델][콘텐츠] Lathe node
-* [Substance 모델][콘텐츠] 셸 노드
-* [Substance 모델][콘텐츠] 프로젝션 노드
-* [Substance 모델][콘텐츠] 곡선 트림 노드
-* [Substance 모델][콘텐츠] 곡선 Sampler 노드 업데이트
-* [Substance 모델][콘텐츠] 메시 Sampler 노드 업데이트
-* [Substance 모델][콘텐츠] 지터 노드 업데이트
+* [Substance 모델]&#x200B;[내용] 입자 노드
+* [Substance 모델]&#x200B;[콘텐츠] Generative Transform 노드
+* [Substance 모델]&#x200B;[콘텐츠] 유기 패턴 노드
+* [Substance 모델]&#x200B;[내용] 인스턴스 노드의 파티클
+* [Substance 모델]&#x200B;[내용] 파티클 프루닝 노드
+* [Substance 모델]&#x200B;[콘텐츠] Lathe node
+* [Substance 모델]&#x200B;[콘텐츠] 셸 노드
+* [Substance 모델]&#x200B;[콘텐츠] 프로젝션 노드
+* [Substance 모델]&#x200B;[콘텐츠] 곡선 트림 노드
+* [Substance 모델]&#x200B;[콘텐츠] 곡선 Sampler 노드 업데이트
+* [Substance 모델]&#x200B;[콘텐츠] 메시 Sampler 노드 업데이트
+* [Substance 모델]&#x200B;[콘텐츠] 지터 노드 업데이트
 * [UX] 현재 뷰를 최대화하는 버튼
 * [UX] 새 그래프 창 업데이트
 * [UX] 도구 메뉴에서 &#39;Download Player&#39; 옵션을 추가하고 &#39;Locate Player&#39;로 집계합니다.
@@ -179,7 +179,7 @@ ht-degree: 1%
 * [UI] 여러 값을 탐색하려면 Tab 키를 두 번 눌러야 합니다.
 * [UI] 마우스 드래그로 확대/축소가 3D 보기와 다른 뷰포트 간에 반전됨
 * [UI] 이미 열려 있는 SBS를 &#39;최근 파일&#39; 목록을 사용하여 로드하면 &#39;패키지를 찾을 수 없음&#39; 프롬프트가 잘못 트리거됩니다
-* [UI][macOS] 애플리케이션을 시작한 후 기본 인터페이스 레이아웃이 잘못됨
+* [UI]&#x200B;[macOS] 애플리케이션을 시작한 후 기본 인터페이스 레이아웃이 잘못됨
 * [UI] 드라이브의 루트에 패키지를 저장할 수 없습니다(Windows만 해당).
 * [Graph] &#39;2D 보기에 자동으로 표시&#39; 옵션이 특정 경우에 일관되지 않습니다.
 * [Graph] SBSAR 인스턴스 노드에 &#39;참조 열기&#39; 옵션을 사용할 수 있습니다.

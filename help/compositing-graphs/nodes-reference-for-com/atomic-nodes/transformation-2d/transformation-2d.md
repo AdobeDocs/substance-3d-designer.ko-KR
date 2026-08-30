@@ -39,7 +39,7 @@ ht-degree: 5%
 
 이 노드는 매우 유용하고 널리 적용되는 노드로, 타일링 향상, 타일링 제거, 특정 위치에 이미지 배치, 입력 늘리기 또는 찌그러뜨리기 등을 수행할 수 있습니다.
 
-그러나 특정 응용 프로그램에 대해 완벽한 일치는 될 수 없으므로 다음 노드가 관심 있을 수 있습니다. [Safe](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), {non-Square[Quad](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), {quad[ 및 {quad{trapezoid](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).[](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
+그러나 특정 응용 프로그램에 대해 완벽한 일치는 될 수 없으므로 다음 노드가 관심 있을 수 있습니다. [Safe](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), &lbrace;non-Square[Quad](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), &lbrace;quad[&#x200B; 및 &lbrace;quad&lbrace;trapezoid](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
 
 <table>
 <tr style="border: 0;">
