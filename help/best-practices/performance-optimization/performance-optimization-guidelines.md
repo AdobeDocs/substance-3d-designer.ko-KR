@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: 그래프 성능을 개선하고 처리 시간을 줄이기 위해 Substance 3D Designer에서 사용할 수 있는 성능 최적화 지침을 살펴보세요.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: 표준 블렌드(Normal Blend) 노드를 사용하면 표준 맵을 함께 블렌딩하여 표면 세부 사항 간의 부드러운 전환을 만들 수 있습니다.
 helpx_creative_field: ""

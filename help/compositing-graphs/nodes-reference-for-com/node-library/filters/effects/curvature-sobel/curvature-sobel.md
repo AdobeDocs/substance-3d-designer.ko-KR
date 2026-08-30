@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: 곡률 소벨(Curvature Sobel) 노드를 사용하면 모서리 기반 마스크를 생성하는 소벨 연산자(Sobel operators)를 사용하여 곡률 모서리를 감지할 수 있습니다.
 helpx_creative_field: ""

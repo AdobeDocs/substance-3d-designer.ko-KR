@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 보기, 패널, 사용자 정의 옵션 등 Substance 3D Designer 작업 영역 인터페이스에 대해 알아봅니다.
 helpx_creative_field: ""

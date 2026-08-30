@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 합성 그래프에서 매개 변수를 노출하여 재사용할 수 있고 사용자 정의할 수 있는 재질로 만드는 방법을 살펴보세요.
 helpx_creative_field: ""

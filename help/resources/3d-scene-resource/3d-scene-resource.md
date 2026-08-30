@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 재질 미리 보기 및 테스트를 위해 3D 장면 리소스를 가져오고 사용하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 3D 장면은 *만*&#x200B;연결할 수 있습니다. 즉, 디스크의 해당 위치에 있으며 응용 프로그램에서 참조됩니다.
 
-3D 장면 리소스가 있는 패키지가 [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 에셋(SBSAR)으로 게시되면 메쉬가 *임베드되지 않음*&#x200B;이지만 삭제됩니다.
+3D 장면 리소스가 있는 패키지가 [Substance 3D](https://www.adobe.com/kr/products/substance3d/3d-augmented-reality.html) 에셋(SBSAR)으로 게시되면 메쉬가 *임베드되지 않음*&#x200B;이지만 삭제됩니다.
 
 ## 베이킹 메시 맵
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 베이킹 텍스처와 관련된 기술적 문제에 대한 문제 해결 단계를 찾아보십시오.
 helpx_creative_field: ""

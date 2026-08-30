@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: '[인덱스 Flood Fill] 노드를 사용하여 번호가 매겨지고 레이블이 지정된 패턴을 만들기 위한 인덱스 값으로 영역을 채웁니다.'
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
 breadcrumb-title: ''
 description: Clouds 1 노드를 사용하여 대기 및 부피 텍스처 효과를 만들기 위한 기본 클라우드 패턴을 생성합니다.
 helpx_creative_field: ""

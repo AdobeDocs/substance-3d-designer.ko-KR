@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: '[그런지 쉐이빙] 노드를 사용하여 나무 그레인 및 재질 텍스처의 세부 사항을 만들기 위한 쉐이빙 패턴을 생성할 수 있습니다.'
 helpx_creative_field: ""
