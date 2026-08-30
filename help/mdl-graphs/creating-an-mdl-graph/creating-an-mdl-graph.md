@@ -60,7 +60,7 @@ ht-degree: 0%
 템플릿 목록은 **프로젝트** 콤보 상자 옆에 있는 *단추*&#x200B;를 사용하여 다른 모드로 표시할 수 있습니다.
 
 * **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)최근에 사용한 표시**: *최근 항목에서 최근 항목* 순으로 마지막으로 사용한 템플릿이 표시되도록 목록을 필터링합니다. 최상위 항목은 최근 항목입니다.
-* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)그래프 표시**: 템플릿은 *레이블 전용*&#x200B;으로 표시됩니다. 템플릿 디렉터리의 [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 파일 순서대로 표시됩니다.
+* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)그래프 표시**: 템플릿은 *레이블 전용*&#x200B;으로 표시됩니다. 템플릿 디렉터리의 [Substance 3D](https://www.adobe.com/kr/products/substance3d/3d-augmented-reality.html) 파일 순서대로 표시됩니다.
 * **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)Substance 3D 파일 표시**: 템플릿은 해당 레이블에 따라 템플릿 디렉터리의 파일 순서대로 *해당 템플릿이 속한 Substance 3D 파일의 하위 항목*&#x200B;으로 표시됩니다.
 * **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)표시 디렉터리**: 템플릿은 해당 레이블에 의해 템플릿의 디렉터리에 있는 파일 순서대로 *자신이 속한 디렉터리의 자식*(으)로 표시됩니다.
 

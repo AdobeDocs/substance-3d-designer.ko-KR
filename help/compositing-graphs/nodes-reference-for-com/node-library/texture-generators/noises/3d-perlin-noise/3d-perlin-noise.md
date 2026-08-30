@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
 description: 3D Perlin 노이즈 노드를 사용하여 3D 공간에 부드러운 Perlin 노이즈 패턴을 생성하여 자연스러워 보이는 볼륨 텍스처를 만듭니다.
 helpx_creative_field: ""

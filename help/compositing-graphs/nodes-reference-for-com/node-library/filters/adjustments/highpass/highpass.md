@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: '[하이패스] 노드를 사용하면 텍스처에서 높은 주파수의 세부 정보를 추출하여 선명 효과 및 세부 사항 향상 효과를 만들 수 있습니다.'
 helpx_creative_field: ""

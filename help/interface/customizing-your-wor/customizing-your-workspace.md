@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 작업 영역을 사용자 정의하여 작업 과정 및 레이아웃 환경 설정을 최적화하는 방법을 알아봅니다.
 helpx_creative_field: ""

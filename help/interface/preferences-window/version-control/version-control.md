@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 환경 설정에서 버전 제어 설정을 구성하여 Git 및 기타 시스템과 통합합니다.
 helpx_creative_field: ""

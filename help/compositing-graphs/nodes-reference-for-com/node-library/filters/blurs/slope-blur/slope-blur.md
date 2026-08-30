@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: 경사 흐림 효과 노드를 사용하면 동작 흐림 효과를 만들기 위해 높이 맵 흐림 효과를 기반으로 방향 경사를 적용할 수 있습니다.
 helpx_creative_field: ""

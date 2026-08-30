@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 키보드 단축키를 사용하여 워크플로우 속도를 높이고 생산성을 향상할 수 있습니다.
 helpx_creative_field: ""

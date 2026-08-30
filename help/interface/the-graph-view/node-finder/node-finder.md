@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: Node Finder 를 사용하여 Substance 그래프에서 노드를 신속하게 검색하고 찾아 효율적으로 탐색할 수 있습니다.
 helpx_creative_field: ""
