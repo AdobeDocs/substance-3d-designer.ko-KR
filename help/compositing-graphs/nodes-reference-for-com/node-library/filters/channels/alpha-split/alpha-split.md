@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Alpha 분할
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '56'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-split.png){width="128px"}
+![](alpha-split.resources/rgb-a-split.png){width="128px"}
 
-## Alpha 분할
-
-**내부:** *필터/채널*
-
-**단순**
+<b>인:</b> 필터 > 채널
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 입력 이미지의 알파를 제거하고 복제합니다. 또한 반대의 결과를 보려면 [Alpha 병합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md)을 참조하십시오.
 
 알파 및 알파 채널이 제거된 이미지를 별도로 출력합니다.
-
-## 매개변수
-
-*매개 변수가 없습니다.*
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
 
 </td>
 </tr>

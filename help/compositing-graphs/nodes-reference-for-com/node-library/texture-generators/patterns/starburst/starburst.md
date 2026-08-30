@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Starburst
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -22,38 +22,43 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst.png){width="128px"}
 
-## Starburst
-
-**인:** *텍스처 생성기**/패턴*
-
-**중간**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 조정 매개 변수를 사용할 수 있는 간단한 스타버스트 효과를 생성합니다.
 
-## 매개변수
-
-* **분기**: *3 - 512*&#x200B;효과의 분기 양.
-* **흐림 정도**: *0.0 - 32.0*&#x200B;흐림 또는 부드러움의 총 양을 제어합니다.
-* **임의성**: *0.0 - 1.0*&#x200B;축 단위의 임의성을 설정하고 중앙을 중심으로 가지를 임의로 회전합니다.
-* **최소 크기**: *0.0 - 1.0*&#x200B;변형의 최소 크기를 설정합니다.
-* **크기 최대**: *0.0 - 2.0*&#x200B;최대 크기를 설정하고, 변형을 사용하지 않는 경우 전역 배율을 제어합니다.
-* **크기 변형**: *0.0 - 1.0*&#x200B;가지당 무작위 크기 조정을 도입합니다.
-* **타일링**: *1 - 16*\
-  결과가 바둑판식으로 표시될 횟수를 설정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/starburst-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>분기</b> <i>3 - 512</i> | 효과의 분기 양입니다. |
+| <b>흐림 효과 양</b> <i>0.0 - 32.0</i> | 흐림 또는 부드러움의 총 양을 제어합니다. |
+| <b>임의성</b> <i>0.0 - 1.0</i> | 축 방향 임의성을 설정하고, 중앙을 중심으로 가지를 무작위로 회전합니다. |
+| <b>최소 크기</b> <i>0.0 - 1.0</i> | 변형의 최소 크기를 설정합니다. |
+| <b>최대 크기</b> <i>0.0 - 2.0</i> | 최대 크기를 설정하고, 변형을 사용하지 않는 경우 전체 크기를 제어합니다. |
+| <b>크기 변형</b> <i>0.0 - 1.0</i> | 분기당 무작위 크기 조절을 도입합니다. |
+| <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="starburst.resources/starburst-ex.gif" />
+        </td>
+    </tr>
 </table>

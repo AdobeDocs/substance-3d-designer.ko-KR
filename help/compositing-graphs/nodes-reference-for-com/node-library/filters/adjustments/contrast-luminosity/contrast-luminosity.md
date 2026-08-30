@@ -10,10 +10,10 @@ helpx_tags: ""
 title: ContrastLuminosity
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '52'
+ht-degree: 13%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/contrast-luminosity-color.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-color.png){width="128px"}
 
-![](../../../../../../assets/contrast-luminosity-grayscale.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-grayscale.png){width="128px"}
 
-## 대비/광도(회색 음영)
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 간단한 대비와 광도(밝기) 조정입니다.
 
-## 매개변수
-
-* **대비**: *-1.0 - 1.0*\
-  결과의 대비를 조정합니다.
-* **광도**: *-1.0 - 1.0*\
-  결과의 광도(밝기)를 조정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/contrastluminosity-optim.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>대비</b> <i>-1.0 - 1.0</i> | 결과의 대비를 조정합니다. |
+| <b>광도</b> <i>-1.0 - 1.0</i> | 결과의 광도(밝기)를 조정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="contrast-luminosity.resources/contrastluminosity-optim.gif" />
+        </td>
+    </tr>
 </table>

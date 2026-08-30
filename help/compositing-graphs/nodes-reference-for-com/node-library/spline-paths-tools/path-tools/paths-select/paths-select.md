@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 패스 선택
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/paths-select-icon.png "노드 아이콘")
+![노드 아이콘](paths-select.resources/paths-select-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -39,31 +39,32 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 입력 커넥터
+<a name="inputs"></a>
 
-<b>레이블</b> *유형*\
-인코딩된 세그먼트 경로 목록입니다. 이 입력을 [패스에 마스크](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 또는 다른 패스 처리 노드에 연결합니다.
+## 입력
 
-## 출력 커넥터
+|  |  |
+|:---|:---|
+| <b>레이블</b> <i>유형</i> | 인코딩된 세그먼트 경로 목록입니다. 이 입력을 [패스에 마스크](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 또는 다른 패스 처리 노드에 연결합니다. |
 
-<b>경로</b> *색상*\
-패스는 하나의 패스로만 입력됩니다. [패스 미리 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)를 사용하여 결과가 어떻게 나타나는지 파악하거나 다른 패스 처리 노드를 사용하거나 [스플라인으로 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)에 입력하여 스플라인으로 추가로 처리할 수 있습니다.
+<a name="outputs"></a>
+
+## 출력
+
+|  |  |
+|:---|:---|
+| <b>경로</b> <i>색상</i> | 패스는 하나의 패스로만 입력됩니다. [패스 미리 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)를 사용하여 결과가 어떻게 나타나는지 파악하거나 다른 패스 처리 노드를 사용하거나 [스플라인으로 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)에 입력하여 스플라인으로 추가로 처리할 수 있습니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-<b>선택 모드</b> *정수*&#x200B;경로를 선택하는 데 사용되는 방법:\
-*- ID 기준:* 인덱스가 <b>경로 ID</b>에 지정된 것과 일치하는 경로를 목록에서 선택합니다.\
-*- 길이 기준:* <b>대상 길이</b>에 지정된 임계값보다 크거나 작은 경로를 선택합니다.
-
-<b>경로 ID</b> *정수*(<b>선택 모드</b>가 *ID별*(으)로 설정된 경우 사용 가능)\
-선택한 패스의 인덱스입니다.\
-<b>경로 *에 있는 경로 수보다 큰 값을 사용하면 빈 출력이*</b>&#x200B;됩니다.
-
-<b>길이가 더 길거나 더 짧습니까?</b> *부울*(<b>선택 모드</b>가 *길이*(으)로 설정된 경우 사용 가능)\
-선택 영역의 길이가 <b>대상 길이</b>보다 크거나 작은지 여부를 제어합니다.
-
-<b>대상 길이</b> *부동*(<b>선택 모드</b>가 *길이*(으)로 설정된 경우 사용 가능)\
-스플라인을 선택하는 데 사용되는 길이 임계값입니다.
+|  |  |
+|:---|:---|
+| <b>선택 모드</b> <i>정수</i> | 경로를 선택하는 데 사용되는 메서드:<br>*- ID 기준:* 인덱스가 <b>경로 ID</b>;<br>*- 길이 기준:*&#x200B;이(가) <b>대상 길이</b>에 지정된 임계값보다 크거나 작은 경로를 목록에서 선택합니다. |
+| <b>경로 ID</b> <i>정수</i>(<b>선택 모드</b>가 *ID별*(으)로 설정된 경우 사용 가능) | 선택한 패스의 인덱스입니다.<br><b>패스 *의 패스 수보다 큰 값을 사용하면 빈 출력이 생성됩니다*</b>. |
+| <b>길이가 더 길거나 더 짧습니까?</b> <i>부울</i>(<b>선택 모드</b>가 *길이*(으)로 설정된 경우 사용 가능) | 선택 영역의 길이가 <b>대상 길이</b>보다 크거나 작은지 여부를 제어합니다. |
+| <b>대상 길이</b> <i>부동</i>(<b>선택 모드</b>가 *길이*(으)로 설정된 경우 사용 가능) | 스플라인을 선택하는 데 사용되는 길이 임계값입니다. |
 
 ## 예
 
@@ -74,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>이후</i>
     </td>
   </tr>
@@ -90,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>이후</i>
     </td>
   </tr>

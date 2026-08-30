@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 해시 함수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![해시 노드: 아이콘](../../../../../assets/hash-icon.png "해시 노드: 아이콘"){width="200px"}
+![해시 노드: 아이콘](hash-functions.resources/hash-icon.png "해시 노드: 아이콘"){width="200px"}
 
 <b>내부:</b> 함수 > 임의
 
@@ -51,20 +51,20 @@ ht-degree: 1%
 
 <b>해시 11:</b> 부동 → 부동
 
-<b>해시 14:</b> Float → Float4
+<b>해시 14:</b> 부동 → 부동 4
 
-<b>해시 21:</b> Float2 → Float
+<b>해시 21:</b> 부동 2 → 부동
 
-<b>해시 22:</b> Float2 → Float2
+<b>해시 22:</b> 부동 2 → 부동 2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>해시 24:</b> Float2 → Float4
+<b>해시 24:</b> 부동 2 → 부동 4
 
-<b>Hash31:</b> Float3 → Float
+<b>해시31:</b> 부동3 → 부동
 
-<b>해시 32:</b> Float3 → Float2
+<b>해시 32:</b> 부동 3 → 부동 2
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![해시 14 예](../../../../../assets/hash14-example.png "해시 14 예"){zoomable="yes"}
+![해시 14 예](hash-functions.resources/hash14-example.png "해시 14 예"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![해시 32 예](../../../../../assets/hash32-example.png "해시 32 예"){zoomable="yes"}
+![해시 32 예](hash-functions.resources/hash32-example.png "해시 32 예"){zoomable="yes"}
 
 </td>
 </tr>

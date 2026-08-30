@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비트맵 내보내기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 Substance 3D Designer에서 다양한 비트맵 파일 포맷으로 내보내는 방법과 여러 UV 타일을 일괄적으로 내보내는 방법에 대해 설명합니다.[PSD 파일로 내보내기](../exporting-psd-files/exporting-psd-files.md)하려면 이에 대한 별도의 전용 페이지가 있습니다.
 
-![단순하게 내보내기](../../assets/exportflow.png "단순하게 내보내기")
+![단순하게 내보내기](exporting-bitmaps.resources/exportflow.png "단순하게 내보내기")
 
 ## 개념 내보내기
 
@@ -43,14 +43,14 @@ ht-degree: 0%
 
 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 창에서 그래프를 마우스 오른쪽 단추로 클릭하여 내보내고 **&quot;출력을 비트맵으로 내보내기&quot;**&#x200B;를 선택합니다.
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 도구 단추 ![](../../assets/image2019-9-17-14-44-17.png)을(를) 클릭하고 **&quot;출력 내보내기...&quot;**&#x200B;를 선택합니다.
+[그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 도구 단추 ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png)을(를) 클릭하고 **&quot;출력 내보내기...&quot;**&#x200B;를 선택합니다.
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. <b>자동 내보내기:</b> 토글 버튼을 사용하면 그래프 출력을 변경하는 즉시 자동으로 다시 내보낼 수 있습니다. 현재 그래프에만 해당됩니다. 설정에 따라 무겁고 느릴 수 있습니다.
 1. <b>내보내기 단추:</b> 현재 설정으로 내보내거나 대화 상자를 닫습니다.
 
-![출력 내보내기 대화 상자](../../assets/fromgraph-1.png "출력 내보내기 대화 상자")
+![출력 내보내기 대화 상자](exporting-bitmaps.resources/fromgraph-1.png "출력 내보내기 대화 상자")
 
 ## 내보내기 대화 상자(일괄 처리/UV 타일)
 
@@ -90,4 +90,4 @@ Designer에서 UV-타일 메쉬를 사용하여 작업할 때 [내보내기] 대
 1. <b>UV 타일:</b> 출력과 마찬가지로 특정 UV 타일의 내보내기를 켜거나 끌 수 있습니다.
 1. <b>[출력 크기](../../compositing-graphs/output-size/output-size.md): </b>내보내기 해상도를 재정의하여 최대 크기로 내보내는 동안 더 작고 더 효율적으로 작업할 수 있습니다.
 
-![출력 일괄 내보내기 대화 상자](../../assets/batch.png "출력 일괄 내보내기 대화 상자")
+![출력 일괄 내보내기 대화 상자](exporting-bitmaps.resources/batch.png "출력 일괄 내보내기 대화 상자")

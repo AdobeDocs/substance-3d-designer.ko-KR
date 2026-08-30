@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 스트레이트 - 미리 곱하기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
+![](straight-to-pre-multiplied.resources/straight-pre-multiply.png){width="128px"}
 
-## 스트레이트 - 미리 곱하기
-
-**내부:** *필터/채널*
-
-**단순**
+<b>인:</b> 필터 > 채널
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 스트레이트 알파를 미리 곱하기로 변환하여 색상을 알파 블렌드 픽셀로 곱합니다.
-
-## 매개변수
-
-*매개 변수가 없습니다.*
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
 
 </td>
 </tr>

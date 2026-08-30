@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프랙탈 합산 기반
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![프랙탈 합산 기반 - 아이콘](../../../../../../assets/fractal_sum_base.png "프랙탈 합산 기반 - 아이콘"){width="200px"}
+![프랙탈 합산 기반 - 아이콘](fractal-sum-base.resources/fractal_sum_base.png "프랙탈 합산 기반 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -47,24 +43,28 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 출력
 
 |  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영* | 회색 음영 비트맵으로 생성된 노이즈 |
+|:---|:---|
+| <b>출력</b> <i>회색 음영</i> | 회색 음영 비트맵으로 생성된 노이즈 |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
 |  |  |
-| --- | --- |
-| <b>거칠음</b> 부동 | 노이즈 옥타브의 균형입니다.    이 값을 높이면 빈도수가 높은 옥타브가 더 많이 표시됩니다. |
-| <b>분. 레벨</b> 정수 | 노이즈에 사용되는 최소 옥타브입니다.    값이 높을수록 노이즈 주파수가 높아집니다. |
-| <b>최대. 레벨</b> 정수 | 노이즈에 사용되는 최대 옥타브입니다.    값이 높을수록 노이즈 주파수가 높아집니다. |
-| <b>장애</b> 부동 | 소음의 성분을 제거합니다.    이 효과를 사용하면 노이즈에 애니메이션을 적용할 수 있습니다. |
-| <b>장애 속도</b> 부동 | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
-| <b>대비</b> 부동 | 최종 결과의 대비입니다. |
-| <b>전역 불투명도</b> 부동 | 노이즈 옥타브의 불투명도가 최종 결과에 함께 추가되었습니다.    값이 높으면 영역이 흰색으로 탈 수 있습니다. |
-| <b>정사각형이 아닌 확장</b> 부울 | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
+|:---|:---|
+| <b>거칠음</b> <i>부동</i> | 노이즈 옥타브의 균형입니다.    이 값을 높이면 빈도수가 높은 옥타브가 더 많이 표시됩니다. |
+| <b>분. 수준</b> <i>정수</i> | 노이즈에 사용되는 최소 옥타브입니다.    값이 높을수록 노이즈 주파수가 높아집니다. |
+| <b>최대. 수준</b> <i>정수</i> | 노이즈에 사용되는 최대 옥타브입니다.    값이 높을수록 노이즈 주파수가 높아집니다. |
+| <b>장애</b> <i>부동</i> | 소음의 성분을 제거합니다.    이 효과를 사용하면 노이즈에 애니메이션을 적용할 수 있습니다. |
+| <b>장애 속도</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
+| <b>대비</b> <i>부동</i> | 최종 결과의 대비입니다. |
+| <b>전역 불투명도</b> <i>부동</i> | 노이즈 옥타브의 불투명도가 최종 결과에 함께 추가되었습니다.    값이 높으면 영역이 흰색으로 탈 수 있습니다. |
+| <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예
 
@@ -72,26 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 기반 - 예 1](../../../../../../assets/fractal_sum_base_1.png "프랙탈 합산 기반 - 예 1"){zoomable="yes"}
+![프랙탈 합산 기반 - 예 1](fractal-sum-base.resources/fractal_sum_base_1.png "프랙탈 합산 기반 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 기반 - 예 2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "프랙탈 합산 기반 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![프랙탈 합산 기반 - 예 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "프랙탈 합산 기반 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

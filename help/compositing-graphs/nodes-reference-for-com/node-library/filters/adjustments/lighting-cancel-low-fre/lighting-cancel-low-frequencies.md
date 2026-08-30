@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 조명 취소 저주파수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 3%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-high-low.png){width="128px"}
 
-## 조명 취소 저주파수
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,16 +37,24 @@ Highpass와 비슷하지만 최종 결과의 채도를 낮추지 않습니다.
 
 또한 고급 버전은 [광도 하이패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md)를 참조하세요.
 
-## 매개변수
-
-* **취소 반경**: 하이패스 효과의 *0.0 - 64.0*&#x200B;반경.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>취소 반경</b> <i>0.0 - 64.0</i> | 하이패스 효과의 반경입니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-lowfrequencies-example.png" />
+        </td>
+    </tr>
 </table>

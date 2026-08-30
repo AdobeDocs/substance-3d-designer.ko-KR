@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 다음으로 보내기...  상호운용성
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 다음으로 보내기...  상호운용성
 
-![Designer에서 Substance 3D 앱으로 보내기](../../../assets/explorer-interop.png "Designer에서 Substance 3D 앱으로 보내기"){width="512px"}
+![Designer에서 Substance 3D 앱으로 보내기](send-to-interoperability.resources/explorer-interop.png "Designer에서 Substance 3D 앱으로 보내기"){width="512px"}
 
 Adobe Substance 3D Designer은 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 및 [Substance 3D Stager](https://www.adobe.com/kr/products/substance3d-stager.html)와 상호 운용성을 갖습니다. 이를 통해 신속하게 작업하여 Substance 3D 에코시스템에 대한 반복을 용이하게 하고 *보내기* 및 *재전송*&#x200B;할 수 있습니다.
 
@@ -49,7 +49,7 @@ Substance 그래프에는 다양한 기능이 있을 수 있습니다. 그래프
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance 그래프의 형식 특성](../../../assets/type-attribute.jpg "Substance 그래프의 형식 특성")
+![Substance 그래프의 형식 특성](send-to-interoperability.resources/type-attribute.jpg "Substance 그래프의 형식 특성")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ Substance 그래프에는 다양한 기능이 있을 수 있습니다. 그래프
 콘텐츠를 보내는 것은 다음과 같은 방법으로 수행할 수 있습니다.
 
 * 패키지를 마우스 오른쪽 단추로 클릭하고 상황별 메뉴에서 <b>보내기...</b> 하위 메뉴를 연 다음 대상 응용 프로그램에 대해 <b>보내기..</b> 옵션을 선택합니다.
-* [탐색기] 패널 위쪽의 ![](../../../assets/sendto-icon.jpg) <b>Publish/보내기</b> 단추를 클릭한 다음 대상 응용 프로그램에 대해 <b>보내기...</b> 옵션을 선택합니다.
+* [탐색기] 패널 위쪽의 ![](send-to-interoperability.resources/sendto-icon.jpg) <b>Publish/보내기</b> 단추를 클릭한 다음 대상 응용 프로그램에 대해 <b>보내기...</b> 옵션을 선택합니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorer의 Publish/보내기 메뉴](../../../assets/explorer-sendto-displayed.jpg "Explorer의 Publish/보내기 메뉴")
+![Explorer의 Publish/보내기 메뉴](send-to-interoperability.resources/explorer-sendto-displayed.jpg "Explorer의 Publish/보내기 메뉴")
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Player에서 Designer을(를) 받으려면 사용자가 Substance 3D Designer *�
 
 >[!NOTE]
 >
-> Substance 3D 파일(SBS)을 플레이어로 보낼 때 Substance 3D 에셋(SBSAR)이 *임시 파일*(으)로 게시됩니다.
+> Substance 3D 파일(SBS)을 Player로 보낼 때 Substance 3D 에셋(SBSAR)이 *임시 파일*(으)로 게시됩니다.
 
 ## 문제
 

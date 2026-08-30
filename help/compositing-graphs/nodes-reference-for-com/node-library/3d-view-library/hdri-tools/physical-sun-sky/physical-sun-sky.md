@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 실제 SunSky
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
@@ -22,45 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/panorama-physical-sun-sky.png){width="200px"}
 
-## 물리적 태양/하늘
-
-**내부:** *3D 보기/HDRI 도구*
-
-**중간**
+<b>내부:</b> 3D 보기 > HDRI 도구
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 Hosek-Wikie skylight 모델을 기반으로 한 물리적 태양과 하늘 구현 인공적인 HDRI를 위한 탁월한 기반을 제공합니다.
 
-## 매개변수
-
-* **태양 위치**:\
-  range = [0,1]x[0,1] (경도-위도 각도)
-* **탁도**: *1.0 - 10.0*\
-  탁도는 1~10입니다.
-* **알베도**: *0.0 - 1.0*\
-  알베도 범위는 0에서 1까지입니다.
-* **기준 색상**: *(색상 값)*\
-  지표 평면의 색입니다.
-* **노출(EV)**: *-1.0 - 4.0*\
-  결과 출력의 노출 값입니다.
-* **태양 크기**: *0.0 - 4.0*\
-  태양의 크기, 1과 다른 모든 값은 물리적으로 정확하지 않습니다. 값에 미묘한 효과가 있습니다!
-* **태양 강도**: *0.0 - 1.0*\
-  태양 디스크의 강도입니다. 태양 원반은 상당히 작아서 효과가 즉시 보이지 않는다.
-* **하늘 강도**: *0.0 - 1.0*&#x200B;하늘의 강도. 또한 디스크 자체가 아니라 하늘의 태양이 산란하는 데에도 영향을 미칩니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/sky-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>태양 위치</b> | range = [0,1]x[0,1] (경도-위도 각도) |
+| <b>탁도</b> <i>1.0 - 10.0</i> | 탁도는 1~10입니다. |
+| <b>알베도</b> <i>0.0 - 1.0</i> | 알베도 범위는 0에서 1까지입니다. |
+| <b>배경색</b> <i>(색상 값)</i> | 지표 평면의 색입니다. |
+| <b>노출(EV)</b> <i>-1.0 - 4.0</i> | 결과 출력의 노출 값입니다. |
+| <b>태양 크기</b> <i>0.0 - 4.0</i> | 태양의 크기, 1과 다른 모든 값은 물리적으로 정확하지 않습니다. 값에 미묘한 효과가 있습니다! |
+| <b>태양 강도</b> <i>0.0 - 1.0</i> | 태양 디스크의 강도입니다. 태양 원반은 상당히 작아서 효과가 즉시 보이지 않는다. |
+| <b>하늘 강도</b> <i>0.0 - 1.0</i> | 하늘의 강렬함입니다. 또한 디스크 자체가 아니라 하늘의 태양이 산란하는 데에도 영향을 미칩니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="physical-sun-sky.resources/sky-ex.gif" />
+        </td>
+    </tr>
 </table>

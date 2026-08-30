@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 곡률 소벨
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
 
-## 곡률 소벨
-
-**내부:** *필터/효과*
-
-**단순**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,17 +37,25 @@ ht-degree: 1%
 
 이 노드는 특정 가장자리를 빠르게 강조 표시하거나 어둡게 하는 데 유용합니다. 이 효과는 [곡률](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md)과는 약간 다릅니다. 더 나은 품질의 결과를 제공하지만 선명하고 거친 느낌을 줍니다.
 
-## 매개변수
-
-* **강도**: *0.0 - 1.0*&#x200B;효과의 강도는 대비를 조정합니다.
-* **표준 형식**: *DirectX, OpenGL*
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>강도</b> <i>0.0 - 1.0</i> | 효과의 강도이며 대비를 조정합니다. |
+| <b>표준 형식</b> <i>DirectX, OpenGL</i> |  |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
+        </td>
+    </tr>
 </table>

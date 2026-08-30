@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 광도 하이패스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 6%
+source-wordcount: '102'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/luminance-highpass.png){width="128px"}
+![](luminance-highpass.resources/luminance-highpass.png){width="128px"}
 
-## 광도 하이패스
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,16 +37,24 @@ ht-degree: 6%
 
 [조명을 사용하여 저주파를 취소하는 것보다 색상을 유지하는 것이 더 낫습니까?](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 
-## 매개변수
-
-* **반경**: 하이패스 효과의 *0.0 - 64.0*&#x200B;반경. 반경이 작을수록 더 작은 조명이 상쇄되고 입력 이미지에 맞게 조정됩니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/luminance-highpass-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>반경</b> <i>0.0 - 64.0</i> | 하이패스 효과의 반경입니다. 반경이 작을수록 더 작은 조명이 상쇄되고 입력 이미지에 맞게 조정됩니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="luminance-highpass.resources/luminance-highpass-example.png" />
+        </td>
+    </tr>
 </table>

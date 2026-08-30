@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 색상 범위 바꾸기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range.png){width="128px"}
 
-## 색상 범위 바꾸기
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 고급 버전은 [색상 일치](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)를 참조하세요.
 
-## 매개변수
-
-* **소스 색상**: *(색상 값)*바꿀 색상.
-* **대상 색상**: *(색상 값)*바꿀 색상.
-* **원본 범위**: *0.0 -* 1.0\
-  선택된 출처의 범위 또는 허용한도입니다. 인접한 다른 색상에 색조가 변경되도록 추가할 수 있습니다.
-* **임계값**: *0.0 - 1.0*&#x200B;범위의 밝기 감소/대비. 소스 색상만 바꾸려면 [낮음]으로 설정하고, 소스로의 혼합 색상도 바꾸려면 [높음]으로 설정합니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>소스 색상</b> <i>(색상 값)</i> | 대체할 색상입니다. |
+| <b>대상 색상</b> <i>(색상 값)</i> | 대체할 색상입니다. |
+| <b>원본 범위</b> <i>0.0 - 1.0</i> | 선택된 출처의 범위 또는 허용한도입니다. 인접한 다른 색상에 색조가 변경되도록 추가할 수 있습니다. |
+| <b>임계값</b> <i>0.0 - 1.0</i> | 범위를 위한 밝기 감소/대비. 소스 색상만 바꾸려면 [낮음]으로 설정하고, 소스로의 혼합 색상도 바꾸려면 [높음]으로 설정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color-range.resources/replace-color-range-example.png" />
+        </td>
+    </tr>
 </table>

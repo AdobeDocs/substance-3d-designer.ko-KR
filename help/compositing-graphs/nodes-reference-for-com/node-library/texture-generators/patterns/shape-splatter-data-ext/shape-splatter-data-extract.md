@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 모양 스플래터 데이터 추출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 3%
+source-wordcount: '71'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract.png){width="128px"}
 
-## 모양 스플래터 데이터 추출
-
-**인:** *텍스처 생성기**/패턴*
-
-**복합**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 [모양 스플래터](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) 데이터에 대한 데이터 구분 기호/분할자 유틸리티입니다. 개별 데이터를 변환 및 표시하여 사용자 지정 계산을 수행하거나 데이터를 확인하거나 모양 튄 형태에 대해 자세히 알아볼 수 있습니다.
 
-## 매개변수
-
-### 입력
-
-* **스플래터 데이터 1**: *색상 입력*
-* **스플래터 데이터 2**: *색상 입력*
-
-*매개 변수가 없습니다.*
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>스플래터 데이터 1</b> <i>색상 입력</i> |  |
+| <b>스플래터 데이터 2</b> <i>색상 입력</i> |  |

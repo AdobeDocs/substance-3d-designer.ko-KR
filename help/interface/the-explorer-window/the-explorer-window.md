@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 탐색기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Explorer를 사용하면 모든 종류의 리소스를 작성, 저장 및 내보
 </td>
 <td style="border: 0;" valign="top">
 
-![탐색기 도킹](../../assets/explorer-3.jpg "탐색기 도킹")
+![탐색기 도킹](the-explorer-window.resources/explorer-3.jpg "탐색기 도킹")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ Explorer 도크를 통해 몇 가지 중요한 작업을 수행할 수 있습니
 
 이 도구 모음을 사용하면 전체 워크플로우와 관련된 기능을 빠르게 수행할 수 있습니다. 모든 단추는 *컨텍스트 인식*&#x200B;입니다. 즉, 이 단추는 탐색기에서 현재 선택한 항목에 따라 동작을 활성화하고 변경합니다.
 
-선택한 패키지를 ![](../../assets/save.png) <b>저장</b>합니다.
+선택한 패키지를 ![](the-explorer-window.resources/save.png) <b>저장</b>합니다.
 
-선택한 ![](../../assets/sendto-icon.jpg) <b>Publish 또는 [보내기](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>:
+선택한 ![](the-explorer-window.resources/sendto-icon.jpg) <b>Publish 또는 [보내기](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b>:
 
 * [Substance 3D 에셋(SBSAR)으로 선택한 모든 패키지 Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * 선택한 패키지를 [Substance 3D Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Substance 3D Stager](https://www.adobe.com/kr/products/substance3d-stager.html)로 보냅니다.
 
-![](../../assets/republish.png) <b>Publish 또는 이전으로 보내기:</b> Publish 또는 이전과 동일한 설정으로 선택한 요소를 보냅니다. 이 옵션은 *현재* 세션에서 *적어도 한 번* 게시된 패키지에서만 사용할 수 있습니다.
+![](the-explorer-window.resources/republish.png) <b>Publish 또는 이전으로 보내기:</b> Publish 또는 이전과 동일한 설정으로 선택한 요소를 보냅니다. 이 옵션은 *현재* 세션에서 *적어도 한 번* 게시된 패키지에서만 사용할 수 있습니다.
 
-선택한 그래프에서 ![](../../assets/graph-cleaner.jpg) <b>사용하지 않는 노드 제거</b>. 도구는 다음 규칙을 따릅니다.
+선택한 그래프에서 ![](the-explorer-window.resources/graph-cleaner.jpg) <b>사용하지 않는 노드 제거</b>. 도구는 다음 규칙을 따릅니다.
 
 * 선택한 항목이 *같은 유형*&#x200B;인 경우에만 도구를 사용할 수 있습니다. 그래프, 폴더 또는 패키지만 사용할 수 있습니다.
 * 선택 항목에 폴더 또는 패키지가 포함되어 있으면 도구에서 그 안의 모든 그래프를 *재귀적으로* 정리합니다.
@@ -77,14 +77,14 @@ Explorer 도크를 통해 몇 가지 중요한 작업을 수행할 수 있습니
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/보내기 드롭다운 메뉴](../../assets/explorer-sendto-displayed.jpg "Publish/보내기 드롭다운 메뉴")
+![Publish/보내기 드롭다운 메뉴](the-explorer-window.resources/explorer-sendto-displayed.jpg "Publish/보내기 드롭다운 메뉴")
 
 *Publish/보내기*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![사용하지 않는 노드 제거 드롭다운 메뉴](../../assets/explorer-graph-cleaner.jpg "사용하지 않는 노드 제거 드롭다운 메뉴")
+![사용하지 않는 노드 제거 드롭다운 메뉴](the-explorer-window.resources/explorer-graph-cleaner.jpg "사용하지 않는 노드 제거 드롭다운 메뉴")
 
 *사용하지 않는 노드 제거*
 
@@ -200,9 +200,9 @@ Explorer 도크를 통해 몇 가지 중요한 작업을 수행할 수 있습니
 
 Explorer 도크 하단에 있는 도구 모음에서는 패키지 또는 패키지 리소스에 대한 정보를 제공합니다.
 
-<b>![](../../assets/explorer-dependencies.jpg) 종속성:</b> 패키지를 선택하면 해당 패키지 종속성이 전용 패널에 나열됩니다.
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg) 종속성:</b> 패키지를 선택하면 해당 패키지 종속성이 전용 패널에 나열됩니다.
 
-<b>![](../../assets/explorer-information.jpg) 정보:</b> 현재 선택한 패키지 또는 리소스와 관련된 메타데이터를 제공합니다.
+<b>![](the-explorer-window.resources/explorer-information.jpg) 정보:</b> 현재 선택한 패키지 또는 리소스와 관련된 메타데이터를 제공합니다.
 
 * 패키지: 패키지의 전체 파일 경로
 * [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md): 리소스의 전체 파일 경로, 해당 [ICC 프로필](../../color-management/color-management.md), 이미지 크기 및 [가져오기 방법](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)(예: *연결* 또는 *가져오기*)
@@ -211,14 +211,14 @@ Explorer 도크 하단에 있는 도구 모음에서는 패키지 또는 패키�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![종속성 패널](../../assets/explorer-dependencies-displayed.jpg "종속성 패널")
+![종속성 패널](the-explorer-window.resources/explorer-dependencies-displayed.jpg "종속성 패널")
 
 *종속성*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![정보 패널](../../assets/explorer-information-displayed.jpg "정보 패널")
+![정보 패널](the-explorer-window.resources/explorer-information-displayed.jpg "정보 패널")
 
 *정보*
 

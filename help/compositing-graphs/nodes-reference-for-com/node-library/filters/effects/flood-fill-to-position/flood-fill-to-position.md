@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
 breadcrumb-title: ''
-description: Flood Fill 위치 지정 노드를 사용하여 절차 패턴을 만들기 위한 위치 기반 값으로 영역을 채웁니다.
+description: '[Flood Fill 위치] 노드를 사용하여 프로시저 패턴을 만들기 위한 위치 기반 값으로 영역을 채웁니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Position
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 위치 Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-position.png){width="128px"}
+![](flood-fill-to-position.resources/floodfill-to-position.png){width="128px"}
 
-## 위치 Flood Fill
-
-**내부:** *필터/효과*
-
-**단순**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,16 +37,22 @@ ht-degree: 2%
 
 각 타일의 색상은 빨강 및 녹색 채널에 저장된 X 및 Y 좌표 중심을 나타냅니다. 이 지도는 바로 사용할 수 있는 지도가 아니라 더 많은 계산을 위한 근거지이다.
 
-## 매개변수
-
-*매개 변수가 없습니다.*
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodfill-to-position-1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodposition-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/floodposition-ex1.png" width="256px"/></div> |
-| --- | --- | --- |
-|  |  |  |
-
 </td>
 </tr>
+</table>
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodfill-to-position-1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodposition-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodposition-ex1.png" />
+        </td>
+    </tr>
 </table>

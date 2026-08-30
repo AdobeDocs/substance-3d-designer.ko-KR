@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 주름진
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
-## 주름진
-
-**내부:** *텍스처 생성기**/잡음*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 [주름진 모양]은 비율 변화가 큰 반방향 노이즈가 필요한 경우에 유용합니다.
 
-## 매개변수
-
-* **비율**: *1 - 8*\
-  효과의 전체 배율을 설정합니다.
-* **뒤틀기 강도**: *0.0 - 128.0*&#x200B;벤드/뒤틀기 효과의 강도를 설정합니다.
-* **장애**: *0.0 - 100.0*\
-  노이즈를 생성하는 데 사용된 레이어를 약간 오프셋하여 변형을 추가합니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/creased-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>크기 조절</b> <i>1 - 8</i> | 효과의 전체 배율을 설정합니다. |
+| <b>뒤틀기 강도</b> <i>0.0 - 128.0</i> | 벤드/뒤틀기 효과의 강도를 설정합니다. |
+| <b>장애</b> <i>0.0 - 100.0</i> | 노이즈를 생성하는 데 사용된 레이어를 약간 오프셋하여 변형을 추가합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="creased.resources/creased-ex.gif" />
+        </td>
+    </tr>
 </table>

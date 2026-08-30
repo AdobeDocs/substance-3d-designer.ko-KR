@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 캐스팅
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 캐스트 노드는 노드를 유형에서 다른 유형으로 변환하는 데 사용됩니다.
 
-![](../../../../assets/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/image2015-12-23-10-5-19.png)
 
 ## 캐스트 노드를 사용하는 방법
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 히스토그램 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '215'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![비등방성 구와하라 회색 음영 아이콘](../../../../../../assets/histogram_render.png "비등방성 구와하라 회색 음영 아이콘"){width="200px"}
+![비등방성 구와하라 회색 음영 아이콘](histogram-render.resources/histogram_render.png "비등방성 구와하라 회색 음영 아이콘"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -39,42 +39,28 @@ ht-degree: 1%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-</tr>
-</table>
-
-## 입력 커넥터
+## 입력
 
 |  |  |
-| --- | --- |
-| <b>입력</b> *회색 음영* 기본 | 히스토그램을 그릴 이미지입니다. |
+|:---|:---|
+| <b>입력</b> <i>회색 음영</i> 기본 | 히스토그램을 그릴 이미지입니다. |
 
-## 출력 커넥터
+<a name="outputs"></a>
+
+## 출력
 
 |  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영* | 입력 이미지에서 계산된 막대 그래프 시각화입니다. |
+|:---|:---|
+| <b>출력</b> <i>회색 음영</i> | 입력 이미지에서 계산된 막대 그래프 시각화입니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>막대 그래프 해상도</b> *정수* | 막대 그래프의 폭입니다. 값이 높을수록 더 세밀한 값 배포가 가능합니다.   사용 가능한 해상도는 픽셀 단위로 256, 512, 1024, 2048, 4096입니다. |
 | <b>자동 크기 조절</b> *부울* | &#39;True&#39;이면 이미지의 전체 Height을 사용하도록 막대 그래프를 다시 매핑합니다.   &#39;False&#39;인 경우 각 열은 입력 이미지에 값이 발생한 Height 픽셀 수만큼 픽셀을 사용합니다. |
 | <b>크기 조절</b> *부동* | 히스토그램의 크기를 세로로 조절합니다. 여기서 1의 값은 히스토그램의 최대 Height이 됩니다. |
@@ -83,6 +69,6 @@ ht-degree: 1%
 
 ## 예
 
-![막대 그래프 렌더링: 예 1](../../../../../../assets/histogram_render_example_1.png "막대 그래프 렌더링: 예 1"){zoomable="yes"}
+![막대 그래프 렌더링: 예 1](histogram-render.resources/histogram_render_example_1.png "막대 그래프 렌더링: 예 1"){zoomable="yes"}
 
-![막대 그래프 렌더링: 예 2](../../../../../../assets/histogram_render_example_2.png "막대 그래프 렌더링: 예 2"){zoomable="yes"}
+![막대 그래프 렌더링: 예 2](histogram-render.resources/histogram_render_example_2.png "막대 그래프 렌더링: 예 2"){zoomable="yes"}

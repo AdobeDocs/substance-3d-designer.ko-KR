@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 드리핑 녹
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dripping-rust.png){width="128px"}
+![](dripping-rust.resources/dripping-rust.png){width="128px"}
 
-## 드리핑 녹
-
-**내부:** *메시 기반 생성기**/마스크 생성기*
-
-**중간**
+<b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,32 +37,40 @@ ht-degree: 1%
 
 이 마스크는 흘러내리는 누출과 함께 녹 플레이크 및 스펙을 나타냅니다.
 
-## 매개변수
-
-### 입력
-
-* **곡률**: *회색 음영 입력*\
-  녹 배치에 도움이 되도록 맵을 작성하거나 생성했습니다.
-* **주변 오클루전**: *회색 음영 입력*\
-  녹 배치에 도움이 되도록 맵을 작성하거나 생성했습니다.
-* **위치**: *회색 음영 입력*\
-  점적 방향에 대해 구워지거나 생성된 맵
-* **마스크(선택 사항)**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다.
-
-### 매개변수
-
-* **녹 확산**: *0.0 - 1.0*&#x200B;녹 양에 대한 기본 제어.
-* **녹 대비**: *0.0 - 1.0*&#x200B;생성된 녹 스펙트럼에 대비 양을 설정합니다(물방울에는 영향을 주지 않음).
-* **Smoothness 확산**: *0.0 - 1.0*&#x200B;녹 얼룩 전체에 적용할 흐림/희미하게 하는 효과의 양.
-* **물방울 강도**: *0.0 - 1.0*&#x200B;겹침에서 물방울의 강도와 길이를 설정합니다.
-* **Smoothness 물방울**: *0.0 - 1.0*&#x200B;물방울에 적용할 흐림 및 매끄러움의 양입니다.
-* **드립스 샘플 양**: *0 - 32*&#x200B;드립스 효과의 품질 수준(단계)을 설정합니다. 속도에 약간의 영향을 미칩니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/dripping-rust-ex3.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>곡률</b> <i>회색 음영 입력</i> | 녹 배치에 도움이 되도록 맵을 작성하거나 생성했습니다. |
+| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 녹 배치에 도움이 되도록 맵을 작성하거나 생성했습니다. |
+| <b>위치</b> <i>회색 음영 입력</i> | 점적 방향에 대해 구워지거나 생성된 맵 |
+| <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>녹 확산</b> <i>0.0 - 1.0</i> | 녹 양에 대한 기본 컨트롤입니다. |
+| <b>녹 대비</b> <i>0.0 - 1.0</i> | 생성된 녹 스펙의 대비 정도를 설정합니다. 물방울에는 영향을 주지 않습니다. |
+| <b>Smoothness 확산</b> <i>0.0 - 1.0</i> | 녹 얼개에 적용할 흐림/번짐 효과의 양입니다. |
+| <b>드립 강도</b> <i>0.0 - 1.0</i> | 반점에서 물방울의 강도와 길이를 설정합니다. |
+| <b>드립스 Smoothness</b> <i>0.0 - 1.0</i> | 물방울에 적용할 흐림 효과 및 매끄러움 정도입니다. |
+| <b>드립스 샘플 양</b> <i>0 - 32</i> | 물방울 효과의 품질 수준(단계)을 설정합니다. 속도에 약간의 영향을 미칩니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dripping-rust.resources/dripping-rust-ex3.gif" />
+        </td>
+    </tr>
 </table>

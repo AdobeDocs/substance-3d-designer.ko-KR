@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 함수 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 언뜻 보기에 Substance 함수 그래프는 Substance 그래프와 정말 비슷하고 작업 과정도 거의 비슷하다.
 
-![Substance 함수 그래프](../../assets/image2015-12-18-11-29-28.png "Substance 함수 그래프")
+![Substance 함수 그래프](the-function-graph.resources/image2015-12-18-11-29-28.png "Substance 함수 그래프")
 
 ## 탐색은 유사합니다.
 
@@ -53,7 +53,7 @@ Substance 함수 그래프에서 사용 가능한 노드는 Substance 그래프�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance 함수 그래프 노드 목록](../../assets/image2015-12-18-13-46-55.png "Substance 함수 그래프 노드 목록")
+![Substance 함수 그래프 노드 목록](the-function-graph.resources/image2015-12-18-13-46-55.png "Substance 함수 그래프 노드 목록")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Substance 그래프와는 반대로 함수는 오직 하나의 출력만을 가�
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance 함수 그래프의 출력 노드](../../assets/image2015-12-18-13-49-43.png "Substance 함수 그래프의 출력 노드")
+![Substance 함수 그래프의 출력 노드](the-function-graph.resources/image2015-12-18-13-49-43.png "Substance 함수 그래프의 출력 노드")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Substance 그래프와는 반대로 함수는 오직 하나의 출력만을 가�
 
 출력을 정의하려면 원하는 출력을 생성하는 노드를 마우스 오른쪽 단추로 클릭하고 *출력 노드로 설정:*&#x200B;을 클릭하십시오.
 
-![출력 노드 정의](../../assets/setoutputnode.gif "출력 노드 정의")
+![출력 노드 정의](the-function-graph.resources/setoutputnode.gif "출력 노드 정의")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Substance 그래프의 경우 다른 그래프에서 만든 함수를 가져올 
 </td>
 <td style="border: 0;" valign="top">
 
-![참조된 Substance 함수 그래프 열기](../../assets/image2017-6-27-10-44-55.png "참조된 Substance 함수 그래프 열기")
+![참조된 Substance 함수 그래프 열기](the-function-graph.resources/image2017-6-27-10-44-55.png "참조된 Substance 함수 그래프 열기")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Substance 그래프의 경우 다른 그래프에서 만든 함수를 가져올 
 
 여러 함수가 포함된 sbs가 있는 경우 sbs를 Substance 함수 그래프로 바로 끌어 놓고 표시 목록에서 가져올 함수를 선택할 수 있습니다.
 
-![패키지에서 Substance 함수 그래프 삭제](../../assets/sbsdrag.gif "패키지에서 Substance 함수 그래프 삭제")
+![패키지에서 Substance 함수 그래프 삭제](the-function-graph.resources/sbsdrag.gif "패키지에서 Substance 함수 그래프 삭제")

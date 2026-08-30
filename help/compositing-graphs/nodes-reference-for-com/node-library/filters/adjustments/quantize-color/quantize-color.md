@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 색상 정량화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](../../../../../../assets/QuantizeColor.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](quantize-color.resources/QuantizeColor.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -51,45 +51,31 @@ ht-degree: 0%
 
 이 노드는 [색상 팔레트 만들기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [색상 팔레트 적용](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md), [색상 팔레트 수정](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [색상 팔레트 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) 노드와 함께 사용할 수 있습니다.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-</tr>
-</table>
-
-## 입력 커넥터
+## 입력
 
 |  |  |
-| --- | --- |
-| <b>입력</b> 기본 *색상* | 양자화되어야 하는 색상 이미지입니다. |
+|:---|:---|
+| <b>입력</b> 기본 <i>색상</i> | 양자화되어야 하는 색상 이미지입니다. |
 
-## 출력 커넥터
+<a name="outputs"></a>
+
+## 출력
 
 |  |  |
-| --- | --- |
-| <b>출력</b> *색상* | 양자화된 색상 이미지입니다. |
-| <b>ID</b> *회색 음영* | 양자화된 각각의 컬러가 고유한 정수 식별자를 할당하는 맵.   이는 다음과 같은 경우에 사용될 수 있습니다.<ul data-preserve-html="true"> <li data-preserve-html="true">[ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 노드를 사용하여 일부 양자화된 영역 중 <b>마스크 추출</b></li> <li data-preserve-html="true">[색상 팔레트 적용](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) 또는 [색상 팔레트 수정](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) 노드를 사용하여 양자화된 이미지를 <b>다시 채색</b></li> </ul> |
-| <b>팔레트</b> *색상* | 양자화 후 남은 색상을 유지하면서 이미지에서 추출된 팔레트입니다.   이미지는 픽셀 행으로 인코딩된 RGB 색상의 정렬된 목록으로, 최대 256개의 색상을 보유할 수 있습니다.   [색상 팔레트 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) 노드를 사용하여 팔레트를 시각화할 수 있습니다. |
-| <b>팔레트 색상 양</b> *정수* | 팔레트에 저장된 색상의 양입니다. |
+|:---|:---|
+| <b>출력</b> <i>색상</i> | 양자화된 색상 이미지입니다. |
+| <b>ID</b> <i>회색 음영</i> | 양자화된 각각의 컬러가 고유한 정수 식별자를 할당하는 맵.   이는 다음과 같은 경우에 사용될 수 있습니다.<ul data-preserve-html="true"> <li data-preserve-html="true">[ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 노드를 사용하여 일부 양자화된 영역 중 <b>마스크 추출</b></li> <li data-preserve-html="true">[색상 팔레트 적용](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) 또는 [색상 팔레트 수정](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) 노드를 사용하여 양자화된 이미지를 <b>다시 채색</b></li> </ul> |
+| <b>팔레트</b> <i>색상</i> | 양자화 후 남은 색상을 유지하면서 이미지에서 추출된 팔레트입니다.   이미지는 픽셀 행으로 인코딩된 RGB 색상의 정렬된 목록으로, 최대 256개의 색상을 보유할 수 있습니다.   [색상 팔레트 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) 노드를 사용하여 팔레트를 시각화할 수 있습니다. |
+| <b>팔레트 색상 양</b> <i>정수</i> | 팔레트에 저장된 색상의 양입니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>최대. 색상 양</b> *정수* | 양자화된 이미지에 사용해야 하는 최대 색상 양입니다.   이 양은 이미지에서 추출한 팔레트에 사용된 것과 동일합니다.   &#39;최대&#39;는 사용되고 있는 양자화 기법 때문에 이 양을 충족하지 못할 수 있음을 의미합니다. &#39;팔레트 색상 양&#39; 출력에서 추출된 색상의 실제 양을 확인합니다. |
 | <b>윤곽선 다듬기</b> *부동* | 입력 이미지에 적용되는 매끄러움 효과의 반경을 제어합니다. 이렇게 하면 양자화된 이미지를 보다 견고하고 응집력 있는 모양으로 단순화할 수 있습니다.   참고: 이 매끄럽게 하려면 많은 계산이 필요하므로 이 값을 올리면 노드의 계산 시간이 상당히 늘어납니다. |
 | <b>디더링</b> *부동* | 원본 이미지에서 그레이디언트와 색상 혼합을 다시 만들려고 디더링 패턴을 적용하지만 양자화 이후에 남아 있는 색상만 사용합니다.   필요한 디더링 효과를 내려면 &#39;윤곽선 매끄럽게 하기&#39; 값을 0으로 사용해야 합니다. |
@@ -104,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -117,11 +103,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -130,11 +116,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -143,11 +129,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -156,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>이후</i>
     </td>
   </tr>

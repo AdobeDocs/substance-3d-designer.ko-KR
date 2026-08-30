@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 크리스탈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-2.png){width="128px"}
+![](crystal-2.resources/crystal-2.png){width="128px"}
 
-## 크리스탈
-
-**내부:** *텍스처 생성기**/잡음*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,21 +37,26 @@ angular, 천 주름 같은 패턴을 생성합니다. [주름 노이즈](../../.
 
 이는 약간의 틈새 소음이기도 합니다. 미세한 대리석 패턴을 다시 만들거나 천을 사용하는 경우와 같이 이러한 유형의 세부 사항을 추구하는 드문 경우에 유용할 수 있습니다.
 
-## 매개변수
-
-* **비율**: *1 - 16*\
-  효과의 전체 배율을 설정합니다.
-* **장애**: *0.0 - 1.0*\
-  작은 변화를 가져오기 위해 노이즈를 위상 이동합니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/crystal-2-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>크기 조절</b> <i>1 - 16</i> | 효과의 전체 배율을 설정합니다. |
+| <b>장애</b> <i>0.0 - 1.0</i> | 작은 변화를 가져오기 위해 노이즈를 위상 이동합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-2.resources/crystal-2-1.png" />
+        </td>
+    </tr>
 </table>

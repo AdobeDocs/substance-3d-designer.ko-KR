@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비교
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -24,4 +24,4 @@ ht-degree: 2%
 
 비교 결과에 따라 True 또는 False를 반환합니다.
 
-![](../../../../assets/image2015-12-23-11-57-3.png)
+![](comparison-nodes.resources/image2015-12-23-11-57-3.png)

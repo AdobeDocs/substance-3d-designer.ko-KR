@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -28,18 +28,18 @@ ht-degree: 0%
 
 ### 새 Substance 모델 그래프
 
-완전히 새로운 그래프 유형인 Substance 모델 그래프를 사용할 수 있으므로 익숙한 노드 인터페이스를 사용하여 절차적인 3D 모델을 만들 수 있습니다.
+완전히 새로운 그래프 유형인 Substance 모델 그래프를 사용하면 익숙한 노드 인터페이스를 사용하여 프로시저 3D 모델을 만들 수 있습니다.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Substance 3D Designer의 Adobe 버전에는 새로운 보내기 기능이 있어 에셋을 다른 Substance 3D 애플리케이션으로 빠르게 보낼 수 있습니다. 더 이상 SBSAR로 게시하고 개별 파일을 로드할 필요가 없습니다. 보내기 를 사용하면 한 번의 클릭으로 이 문제를 해결할 수 있습니다.
 
-![](../../assets/sendto-button.gif)
+![](version-11-2.resources/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Substance 3D Designer의 Adobe 버전에는 새로운 보내기 기능이 있어
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Substance 3D Designer의 Adobe 버전에는 새로운 보내기 기능이 있어
 
 RTAO는 이전 HBAO 노드보다 선명하고 정확한 AO를 훨씬 더 잘 수행합니다.
 
-![](../../assets/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
 
 [빛 무늬]는 단순한 [펄린 노이즈]와 같은 높이 맵을 기반으로 물리적으로 올바른 광선 추적형 빛 무늬 효과를 생성합니다. 실시간 빛 무늬 효과를 위한 사실적인 애니메이션 플립북 텍스처를 만드는 데 적합합니다.
 
-![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
 
 [RT 그림자]는 광선 추적형 정확하고 어두운 영역을 몇 가지 간단한 컨트롤로 표현합니다.
 
@@ -92,35 +92,35 @@ RTAO는 이전 HBAO 노드보다 선명하고 정확한 AO를 훨씬 더 잘 수
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
 </table>
 
-RT Radiance는 새로운 노드 중 가장 진보된 것입니다. 이는 Height 맵, 및 환경 맵 및/또는 발광 맵을 갖는 재료에 기초하여 광선 추적형 조도를 수행한다.
+RT Radiance는 새로운 노드 중 가장 진보된 것입니다. 높이 맵과 환경 맵 및/또는 방출 맵이 있는 재료를 기반으로 광선 추적형 조도를 수행합니다.
 
-![](../../assets/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
 
-이는 스타일화된 프로젝트에서 미리 구운 조명으로 텍스처를 수행할 수 있다는 것을 의미합니다. 또는 하이트맵에서 반사되는 광선 추적형 광선에서 구울 수 있습니다.
+이는 스타일이 적용된 프로젝트와 같이 사전 제작된 조명을 사용하여 텍스처를 수행할 수도 있고 하이맵에서 반사되는 광선 추적형 광선을 베이킹할 수도 있다는 의미입니다.
 
-![](../../assets/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
 
 그리고 마지막으로 구부러진 법선 마디가 있습니다. 정규 정규 변환과 비교하여 이 노드는 AO를 사용하여 해당 AO 정보를 사용하기 위해 정규 맵을 수정합니다. 효과를 만들기 위해 메시 베이커가 필요하기 전에 이 노드가 텍스트 공간에서 이를 수행합니다.
 
-### Adobe 표준 재질 셰이더
+### Adobe Standard Material 셰이더
 
-응용 프로그램 간에 재질과 렌더링을 통합하기 위한 노력의 일환으로 3D 보기의 새로운 기본 셰이더는 Adobe Standard Material Shader입니다. 언뜻 보기에 이 렌더러는 이전의 PBR 메탈릭 거칠음 셰이더와 다를 바 없지만(어쨌든 기반) 더 많은 이국적인 채널을 지원하므로 외부 렌더러 없이 미리 볼 수 있습니다.
+애플리케이션 전체에서 재질과 렌더링을 통합하기 위한 노력에서 3D 뷰의 새로운 기본 셰이더는 Adobe Standard Material 셰이더입니다. 얼핏 보면 이전 PBR 금속 거칠기 셰이더와 다르지 않지만(어쨌든 기반) 더 많은 이국적인 채널을 지원하므로 외부 렌더러 없이 미리 볼 수 있습니다.
 
 ### UI 변경 사항
 

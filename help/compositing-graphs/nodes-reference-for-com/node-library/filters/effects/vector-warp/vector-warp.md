@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 벡터 뒤틀기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '233'
+ht-degree: 2%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-grayscale.png){width="128px"}
 
-## 벡터 뒤틀기(회색 음영)
-
-**내부:** *필터/효과*
-
-**복합**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -45,26 +41,34 @@ ht-degree: 1%
 
 이 왜곡은 표준 뒤틀기 노드가 노드를 잘라내지 않고 방향이 다양한 매우 특정 노드를 수행하려는 경우에 유용할 수 있습니다.
 
-## 매개변수
-
-### 입력
-
-* **입력**: *색상 입력*\
-  왜곡에 매핑할 수 있습니다.
-* **벡터 맵**: *색상 입력*\
-  왜곡 드라이버 맵. 빨강 및 파랑 색상 채널이 사용됩니다.
-
-### 매개변수
-
-* **강도**: 벡터 맵에 대한 *0.0 - 1.0*&#x200B;강도 승수.
-* **벡터 형식**: *DirectX, OpenGL*&#x200B;위/아래 해석 간에 녹색 채널을 바꿉니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력</b> <i>색상 입력</i> | 왜곡에 매핑할 수 있습니다. |
+| <b>벡터 맵</b> <i>색상 입력</i> | 왜곡 드라이버 맵. 빨강 및 파랑 색상 채널이 사용됩니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>강도</b> <i>0.0 - 1.0</i> | 벡터 맵에 대한 강도 승수입니다. |
+| <b>벡터 형식</b> <i>DirectX, OpenGL</i> | 위/아래 해석의 녹색 채널을 바꿉니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="vector-warp.resources/vector-warp-ex.png" />
+        </td>
+    </tr>
 </table>

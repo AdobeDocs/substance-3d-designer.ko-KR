@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래프 인스턴스 및 하위 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 그래프 인스턴스 및 하위 그래프
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 그래프 인스턴스는 <b>다른 그래프를 참조</b>하는 노드입니다. 호스트 그래프에서 인스턴스 노드가 참조하는 그래프를 호스트 그래프의 <b>하위 그래프</b>이라고 할 수 있다.
 
@@ -62,14 +62,14 @@ Designer에서 노드 체인을 복제할 때마다 해당 체인을 하위 그�
 
 ### 그래프 인스턴스의 소스 그래프를 검사할 수 있습니까?
 
-![(틱)](../../../assets/check.svg) 예, **Substance 3D 파일(SBS)**&#x200B;에서 로드된 그래프 인스턴스의 경우 *전용*&#x200B;입니다. 이러한 인스턴스 노드에는 *진한 빨강* 레이블이 있습니다.\
+![(틱)](graph-instances-sub-graphs.resources/check.svg) 예, **Substance 3D 파일(SBS)**&#x200B;에서 로드된 그래프 인스턴스의 경우 *전용*&#x200B;입니다. 이러한 인스턴스 노드에는 *진한 빨강* 레이블이 있습니다.\
 노드를 마우스 오른쪽 단추로 클릭하여 상황별 메뉴를 열고 **참조 열기** 옵션을 선택합니다.
 
 >[!NOTE]
 >
 > 소스 그래프를 검사하는 동안 [환경 설정](../../../interface/preferences-window/preferences-window.md)의 **그래프** 섹션에서 **컨텍스트 편집** 옵션이 *선택*&#x200B;된 경우 인스턴스 그래프의 입력 데이터를 사용할 수 있습니다.
 
-![(빼기)](../../../assets/forbidden.svg) **Substance 3D 에셋(SBSAR)** 인스턴스에서 로드된 그래프를 검사하는 것은 *불가능합니다*. 해당 그래프는 이미 컴파일되었습니다. **탐색기** 패널에서만 에셋을 로드하여 노출된 그래프 목록과 해당 매개 변수를 검사할 수 있습니다. 이러한 인스턴스 노드에는 *녹색* 레이블이 있습니다.\
+![(빼기)](graph-instances-sub-graphs.resources/forbidden.svg) **Substance 3D 에셋(SBSAR)** 인스턴스에서 로드된 그래프를 검사하는 것은 *불가능합니다*. 해당 그래프는 이미 컴파일되었습니다. **탐색기** 패널에서만 에셋을 로드하여 노출된 그래프 목록과 해당 매개 변수를 검사할 수 있습니다. 이러한 인스턴스 노드에는 *녹색* 레이블이 있습니다.\
 노드를 마우스 오른쪽 단추로 클릭하여 상황별 메뉴를 열고 **패키지 로드** 옵션을 선택합니다.
 
 >[!NOTE]

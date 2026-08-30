@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 텍스처 표면 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
 
-**내부:** *필터/효과*
-
-**단순**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -48,75 +46,50 @@ ht-degree: 0%
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>3D 거리 필드</b> <i>회색 음영</i> | 모양의 <i>거리 필드</i>의 256 <i>슬라이스</i>를 나타내는 4096x4096 이미지는 16x16 격자로 정렬됩니다.<br>256개의 슬라이스로 구성된 3D 텍스처의 거리 필드를 계산하기 위해 [3D 텍스처 SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) 노드를 사용할 수 있습니다. |
+| <b>환경</b> <i>색상</i> | 렌더링에서 무한 구에 매핑해야 하는 <i>환경</i>을(를) 나타내는 이미지이며 <i>조명</i>을(를) 계산하는 데 사용됩니다.<br>이미지는 <b>배경 모드</b> 매개 변수가 <i>주변</i> 또는 <i>환경</i>(으)로 설정된 경우 장면 배경을 렌더링하는 데에도 사용됩니다. |
+
+<a name="parameters"></a>
+
 ## 매개변수
 
-### 입력
+|  |  |
+|:---|:---|
+| <b>출력 해상도</b> <i>정수2</i> | <b>X</b> 및 <b>Y</b>의 출력 이미지 해상도이며, <i>2의 제곱</i>으로 표시됩니다. |
+| <b>카메라 위치</b> <i>Float2</i> | 모양 주위의 카메라 위치입니다.<br>노드를 선택하면 카메라의 <b>2D 보기</b>에서 <i>궤도</i>까지 위치 기즈모를 사용할 수 있습니다. |
+| <b>카메라 거리</b> <i>부동</i> | 카메라에서 모양까지의 거리입니다. |
+| <b>카메라 FOV</b> <i>부동</i> | <i>도</i>의 카메라 시야입니다. |
+| <b>알베도</b> <i>Float3</i> | 모양 표면의 알베도 색상입니다. |
+| <b>배경 모드</b> <i>정수</i> | 렌더링된 장면의 배경을 나타내는 방법:<br>- <i>지표 조도</i>: 지표 평면의 계산된 조도<br>- <i>주변</i>: <b>환경</b> 이미지 입력의 주변 색상이 이미지의 강하게 흐려진 버전과 유사한 무한 구형에 매핑됨<br>- <i>균일 색상</i>: 지정된 색상으로 배경을 균일하게 채우기<br>- <i>환경</i>: <b>환경</b> 이미지 입력이 무한 구형에 매핑됨 |
+| <b>배경색</b> <i>Float4</i> | 렌더링된 장면의 배경을 균일하게 채우는 데 사용되는 색입니다.<br><i>참고</i>: 이 매개 변수는 <b>배경 모드</b> 매개 변수가 <i>균일 색상</i>(으)로 설정된 경우에만 사용할 수 있습니다. |
+| <b>기준 평면 사용</b> <i>부울</i> | <i>True</i>일 때 기준 평면을 렌더링합니다. 모양을 둘러싸는 <i>단위 육면체</i>가 이 평면에 있습니다. |
+| <b>무한 평면</b> <i>부울</i> | 지표 평면을 <i>수평선으로 무한히 확장</i>하도록 설정합니다.<br><i>참고</i>: 이 매개 변수는 <b>지표 평면 사용</b> 매개 변수가 <i>True</i>(으)로 설정된 경우에만 사용할 수 있습니다. |
+| <b>지표 평면 크기</b> <i>Float2</i> | 지표 평면의 크기를 조정합니다.<br><i>참고</i>: 이 매개 변수는 <b>지표 평면 사용</b> 매개 변수가 <i>True</i>(으)로 설정되어 있고 <b>무한 평면</b> 매개 변수가 <i>False</i>(으)로 설정되어 있는 경우에만 사용할 수 있습니다. |
 
-* **3D 거리 필드** *회색 음영*\
-  모양의 *거리 필드*&#x200B;의 256 *슬라이스*&#x200B;를 나타내는 4096x4096 이미지는 16x16 격자로 정렬됩니다.\
-  [3D 텍스처 SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) 노드를 사용하여 256개 조각의 3D 텍스처에 대한 거리 필드를 계산할 수 있습니다.
-* **환경** *색상*\
-  렌더링에서 무한 구에 매핑해야 하는 *환경*&#x200B;을(를) 나타내는 이미지이며 *조명*&#x200B;을(를) 계산하는 데 사용됩니다.\
-  **배경 모드** 매개 변수가 *주변* 또는 *환경*(으)로 설정된 경우 이 이미지는 장면 배경을 렌더링하는 데에도 사용됩니다.
+## 예
 
-### 매개변수
-
-* **출력 해상도** *정수2*\
-  **X** 및 **Y**&#x200B;의 출력 이미지 해상도이며, *2의 제곱*&#x200B;으로 표시됩니다.
-* **카메라 위치** *부동 소수점2*\
-  모양 주위의 카메라 위치입니다.\
-  노드를 선택하면 카메라의 **2D 보기**&#x200B;에서 *궤도*&#x200B;까지 위치 기즈모를 사용할 수 있습니다.
-* **카메라 거리** *부동*\
-  카메라에서 모양까지의 거리입니다.
-* **카메라 FOV** *부동*\
-  *도*&#x200B;의 카메라 시야입니다.
-* **알베도** *부동 소수점3*\
-  모양 표면의 알베도 색상입니다.
-* **배경 모드** *정수*\
-  렌더링된 장면의 배경을 나타내는 방법:
-  * *지표 조도*: 지표 평면의 계산된 조도
-  * *주변*: **환경** 이미지 입력의 주변 색상이 강한 흐림 효과가 적용된 버전의 이미지와 유사한 무한 구에 매핑되었습니다.
-  * *균일한 색상*: 지정된 색상으로 배경을 균일하게 채웁니다.
-  * *환경*: **환경** 이미지 입력이 무한 구에 매핑됨
-* **배경색** *부동 소수점4*\
-  렌더링된 장면의 배경을 균일하게 채우는 데 사용되는 색상입니다.\
-  *참고*: 이 매개 변수는 **배경 모드** 매개 변수가 *균일 색상*(으)로 설정된 경우에만 사용할 수 있습니다.
-* **기준 평면 사용** *부울*\
-  *True*&#x200B;일 때 기준 평면을 렌더링합니다. 모양을 둘러싸는 *단위 육면체*&#x200B;가 이 평면에 있습니다.
-* **무한 평면** *부울*\
-  지면을 수평선으로 *무한히 확장*&#x200B;하도록 설정합니다.\
-  *참고*: 이 매개 변수는 **기준 평면 사용** 매개 변수가 *True*(으)로 설정된 경우에만 사용할 수 있습니다.
-* **지표 평면 크기** *부동 소수점2*&#x200B;지표 평면의 크기를 조정합니다.\
-  *참고*: 이 매개 변수는 **기준 평면 사용** 매개 변수가 *True*(으)로 설정되고 **무한 평면** 매개 변수가 *False*(으)로 설정된 경우에만 사용할 수 있습니다.
-
-## 예제 이미지
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
+        </td>
+    </tr>
 </table>

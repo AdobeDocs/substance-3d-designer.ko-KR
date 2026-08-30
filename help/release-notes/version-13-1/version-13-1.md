@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *출시일: 2023년 12월 12일*
 
-![Substance 3D Designer 13.1 배너](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1 배너")
+![Substance 3D Designer 13.1 배너](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1 배너")
 
 ## 프레임 개선
 
@@ -34,23 +34,23 @@ ht-degree: 1%
 
 그래프가 커지면 프레임의 내용을 다시 정렬해야 할 수 있습니다. 노드들은 추가들을 위한 공간을 만들기 위해 시프트될 수 있거나 콘텐츠는 가독성을 증진하기 위해 더 멀리 이격될 필요가 있을 수 있다. 이러한 조정을 용이하게 하기 위해 이제 포함된 개체를 이동할 때 프레임을 자동으로 확장할 수 있습니다. 개체를 이동하는 동안 언제든지 <b>Shift</b>를 누르고 있으면 프레임 테두리가 자동으로 해당 개체를 테두리 내에 고정하도록 할 수 있습니다.
 
-![자동 확장](../../assets/autoexpand.gif)
+![자동 확장](version-13-1.resources/autoexpand.gif)
 
 ### 콘텐츠에 크기 맞추기
 
-그래프를 조정할 때 프레임이 더 이상 내용에 맞게 조정되지 않을 수 있습니다. 이 새 명령을 사용하면 한 개의 중간 격자 셀의 패딩과 함께 프레임의 위치와 크기를 자동으로 조정하여 내용 범위에 맞게 조정할 수 있습니다. 프레임에 설명이 있는 경우 가능하면 설명 옆에 있는 빈 공간을 사용하도록 조정됩니다.
+그래프를 조정할 때 프레임이 더 이상 내용에 맞게 조정되지 않을 수 있습니다. 이 새 명령을 사용하면 중간 격자 셀 한 개의 패딩과 함께 프레임의 위치와 크기를 자동으로 조정하여 내용 범위에 맞게 조정할 수 있습니다. 프레임에 설명이 있는 경우 가능하면 설명 옆에 있는 빈 공간을 사용하도록 조정됩니다.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### 향상된 설명
 
 HTML 코드 덕분에 이제 프레임 설명에 서식이 지정된 텍스트를 입력할 수 있습니다. 이는 주석에도 적용됩니다.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>...기타 등등!</b>
 
-더욱 관대하게 만들기 위한 규칙, 프레임의 크기를 쉽게 조정할 수 있는 인터랙션 영역, 그리드의 노드 순서가 바뀌지 않도록 스냅 규칙, 약간의 신선함을 선사하기 위한 시각적 요소 등 많은 것이 재검토되었습니다. 언제든지 프레임의 [설명서](../../interface/the-graph-view/graph-items/frame/frame.md)를 방문하여 자세히 알아보십시오.
+더욱 관대하게 만들기 위한 규칙, 프레임의 크기를 쉽게 조정할 수 있는 인터랙션 영역, 그리드의 노드 순서가 바뀌지 않도록 스냅 규칙, 약간의 신선함을 선사하기 위한 시각적 요소 등 많은 것이 재검토되었습니다. 언제든지 프레임 [설명서](../../interface/the-graph-view/graph-items/frame/frame.md)를 방문하여 자세히 알아보십시오.
 
 ## 삶의 질 향상
 
@@ -64,7 +64,7 @@ HTML 코드 덕분에 이제 프레임 설명에 서식이 지정된 텍스트�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF 파일 아이콘](../../assets/axf-file-icon.png "AxF 파일 아이콘")
+![AxF 파일 아이콘](version-13-1.resources/axf-file-icon.png "AxF 파일 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ AxF는 [X-Rite](https://www.xrite.com/axf)의 형식입니다. 디지털 디자�
 </tr>
 </table>
 
-![AxF 내보내기](../../assets/exportaxf.gif)
+![AxF 내보내기](version-13-1.resources/exportaxf.gif)
 
 ## API
 

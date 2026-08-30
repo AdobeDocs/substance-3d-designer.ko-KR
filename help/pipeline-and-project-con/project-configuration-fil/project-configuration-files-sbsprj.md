@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프로젝트 구성 파일 - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ 파일 아이콘](../../assets/sbsprj.png "SBSPRJ 파일 아이콘")
+![SBSPRJ 파일 아이콘](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ 파일 아이콘")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Windows의 경우 [메모장++](https://notepad-plus-plus.org)을(를) 사용하
 
 편집기에서 SBSPRJ 파일을 열면 UI의 탭에 해당하는 섹션이 있는 매우 단순한 구조의 레이아웃이 표시됩니다. 모든 설정이 여기에 문서화되지는 않는데, 이는 상당히 자명하기 때문이다.
 
-![XML 편집](../../assets/project-xml.png "XML 편집")
+![XML 편집](project-configuration-files-sbsprj.resources/project-xml.png "XML 편집")
 
 ## 상대 경로 및 별칭
 

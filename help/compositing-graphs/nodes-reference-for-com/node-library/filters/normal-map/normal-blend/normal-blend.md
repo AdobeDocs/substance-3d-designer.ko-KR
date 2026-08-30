@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 표준 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 2%
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
-## 표준 혼합
-
-**내부:** *필터/표준 맵*
-
-**중간**
+<b>내부:</b> 필터 > 노멀 맵
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,30 +37,35 @@ ht-degree: 2%
 
 [표준 혼합]은 표준 맵을 결합(오버레이)하기 위한 것이 아닙니다. 표준 맵에서는 위쪽 맵이 아래쪽 맵에 디테일을 추가합니다. 대신 [일반 결합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)을 사용하십시오.
 
-## 매개변수
-
-### 입력
-
-* **NormalFG**: *색상 입력*\
-  전경/위쪽 표준 맵
-* **NormalBG**: *색상 입력*\
-  배경/하단 표준 맵.
-* **마스크**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크 사용&quot; 매개 변수로 전환할 수 있습니다.
-
-### 매개변수
-
-* **불투명도**: *0.0 - 1.0*\
-  전경과 배경 간 불투명도 혼합
-* **마스크 사용**: *False/True*\
-  마스크 맵 사용을 설정하거나 해제합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/normalblend-ex.gif)
-
-*(.gif 형식은 예제에서 디더링을 도입하며 응용 프로그램 내 결과는 매끄럽습니다.)*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>NormalFG</b> <i>색상 입력</i> | 전경/위쪽 표준 맵 |
+| <b>NormalBG</b> <i>색상 입력</i> | 배경/하단 표준 맵. |
+| <b>마스크</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크 사용&quot; 매개 변수로 전환할 수 있습니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>불투명도</b> <i>0.0 - 1.0</i> | 전경과 배경 간 불투명도 혼합 |
+| <b>마스크 사용</b> <i>거짓/참</i> | 마스크 맵 사용을 설정하거나 해제합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(.gif 형식은 예제에서 디더링을 도입하며 응용 프로그램 내 결과는 매끄럽습니다.)</i>
+        </td>
+    </tr>
 </table>

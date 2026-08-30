@@ -10,10 +10,10 @@ helpx_tags: ""
 title: HDR 범위 뷰어
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 10%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer.png){width="128px"}
 
-## HDR 범위 뷰어(회색 음영)
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 High Dynamic Range 도구로 정확한 영역을 확인합니다. 색상 및 회색 음영 버전이 모두 존재합니다.
 
-## 매개변수
-
-* **최소 범위**: *-2.0 - 0.0*&#x200B;강조 표시를 시작할 최소 범위.
-* **최대 범위**: *1.0 - 3.0*&#x200B;최대 범위
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>최소 범위</b> <i>-2.0 - 0.0</i> | 강조 표시를 시작할 최소 범위입니다. |
+| <b>범위 최대</b> <i>1.0 - 3.0</i> | 최대 밝은 영역까지. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hdr-range-viewer.resources/hdr-viewer-example.png" />
+        </td>
+    </tr>
 </table>

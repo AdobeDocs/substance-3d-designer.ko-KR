@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
 breadcrumb-title: ''
-description: '[반전] 노드를 사용하여 텍스처의 색상 값을 반전하여 네거티브 효과 및 마스크 반전을 만들 수 있습니다.'
+description: '[반전] 노드를 사용하여 텍스처의 색상 값을 반전시켜 네거티브 효과와 마스크 반전을 만들 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Invert
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 반전
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 6%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/invert-greyscale.png){width="128px"}
+![](invert.resources/invert-greyscale.png){width="128px"}
 
-![](../../../../../../assets/invert-3.png){width="128px"}
+![](invert.resources/invert-3.png){width="128px"}
 
-## 반전(회색 음영)
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,16 +39,24 @@ ht-degree: 6%
 
 중요: 입력에 적합한 버전을 사용해야 합니다. 색상 입력에는 &quot;반전&quot;을 사용하고 회색 음영 입력에는 &quot;회색 음영 반전&quot;을 사용합니다.
 
-## 매개변수
-
-* **반전**: *False/True*&#x200B;효과를 설정하거나 해제합니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/invert-gray.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>반전</b> <i>거짓/참</i> | 효과를 설정하거나 해제합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="invert.resources/invert-gray.png" />
+        </td>
+    </tr>
 </table>

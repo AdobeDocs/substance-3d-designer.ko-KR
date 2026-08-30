@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### Substance 재질 그래프의 새로운 내용
 
-![](../../assets/yellow-intense-reduce.png)
+![](version-12-1.resources/yellow-intense-reduce.png)
 
 이 버전에는 많은 노드가 추가되어 몇 가지 새로운 패턴, 새로운 잡음, 새로운 필터 등을 찾을 수 있습니다...
 
@@ -38,36 +38,36 @@ ht-degree: 0%
 
   * 무작위 크기 및 비율의 인접한 타일을 생성하기 위해 새로운 <b>타일 무작위 2</b> 노드를 추가했습니다. 이는 기울어짐, 둥근 모서리 및 베일링이 있는 완전히 불규칙한 격자를 빠르게 만드는 데 매우 유용합니다.
 
-    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
+    ![](version-12-1.resources/tilerandom2-demo2.gif){width="640px"}
   * 삼각형으로 구성된 격자를 생성하기 위한 새로운 <b>Triangle Grid</b> 패턴입니다. 우리는 아래의 재질에 이를 사용하여 쉽고 완벽하게 가죽 그레인을 모사할 것입니다. 이 생성기는 3D 공간에서 정점들의 표면을 나타내며, 다양한 다각형 스타일들을 생성하는데 사용될 수 있다.
 
-    ![](../../assets/trianglegrid-demo.png){width="640px"}
+    ![](version-12-1.resources/trianglegrid-demo.png){width="640px"}
 * **새 노이즈**
 
   * 더 다양한 기능을 제공하기 위해 <b>15개의 새 그런지 지도</b> 세트(콘크리트, 노출, 더러운 물방울 등) 이(가) 라이브러리에 추가되었습니다.
 
-    ![](../../assets/grungemaps.png){width="640px"}
+    ![](version-12-1.resources/grungemaps.png){width="640px"}
   * 보로노이(2D 및 3D), 보로노이 프랙탈(2D 및 3D), 3D 리지 프랙탈 및 현재 3D 펄린 노이즈 업데이트(타일링 및 절대 옵션 추가)와 같은 <b>새로운 2D 및 3D 노이즈</b>도 많이 찾습니다.\
     이러한 노이즈는 모두 3D 공간에서 매핑되며 다양한 스타일을 제공하여 다양성을 높이고 컨트롤을 제공하므로 바다와 아래의 SF 패널 자료와 같이 자료에 맞는 완벽한 맵을 만드는 데 많은 선택을 할 수 있습니다.
 
-    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](version-12-1.resources/fractal-voronoi-scifi-panel.gif){width="640px"}
   * 3D 모델 조각의 아틀라스인 3D 텍스처를 만들고 렌더링하기 위한 <b>3D 텍스처 노드</b>(위치, SDF, 오프셋) 및 <b>3D 렌더링 노드 </b>(표면 또는 볼륨)의 컬렉션입니다.
 
-    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
+    ![](version-12-1.resources/image2022-4-22-11-46-17.png){width="640px"}
 
 * **새 필터**
 
   * <b>자동 자르기</b> 노드를 사용하면 크기를 조정하지 않고 이미지의 *중앙*&#x200B;에 모양을 배치하거나 공간에 맞게 크기를 조정할 수 있습니다. 예를 들어 흩어져 있을 때 일정한 위치와 크기를 유지하면서 모양을 자유롭게 변경할 수 있습니다.
 
-    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
+    ![](version-12-1.resources/autocrop-demo-01-resized.gif){width="640px"}
   * <b> Extend Shape</b> 노드를 사용하면 사용자 지정 방향과 거리 위에 모양의 섹션을 늘릴 수 있습니다.
 
-    ![](../../assets/extendshape.gif){width="640px"}
+    ![](version-12-1.resources/extendshape.gif){width="640px"}
   * <b>균일 없는 회전</b> 노드를 사용하면 지정된 맵에 따라 입력을 회전할 수 있습니다.
 
-    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](version-12-1.resources/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **또한...**
 
   * 비선형 방식으로 값을 제어하는 데 매우 유용한 이징 함수(함수 그래프).
@@ -89,19 +89,19 @@ ht-degree: 0%
 * <b>Stager로 보내기\
   </b>Sampler 및 Painter에서 이미 가능했으므로 이제 클릭 한 번으로 Substance 자료를 Stager로 보낼 수 있습니다. 이 기능 덕분에 더 이상 SBSAR로 게시하고 개별 파일을 로드할 필요가 없습니다(새로운 재질 관리자를 사용하는 Stager 버전 1.2.0 필요).
 
-  ![](../../assets/sendtostagershort.gif)
+  ![](version-12-1.resources/sendtostagershort.gif)
 
 ### 기타
 
 * 패브릭에서 작업하는 경우 이제 재료가 드레이프된 모양에서 렌더링되는 방식을 더 잘 볼 수 있도록 3D 보기에 전용 메쉬를 표시할 수 있습니다. 3D 보기 패널에서 <b>장면</b> 메뉴를 열고 <b>천</b> 옵션을 선택하여 이 모델을 표시합니다.
 
-  ![](../../assets/fabric-rendering.png){width="640px"}
+  ![](version-12-1.resources/fabric-rendering.png){width="640px"}
 
 * 또한 Substance 모델 그래프에 대한 새로운 장면 관리 노드를 몇 개 추가했습니다. 이러한 노드를 사용하면 장면 계층 구조를 구성하기 위해 장면 요소의 이름을 바꾸거나, 부모로 다시 설정하거나, 융합하거나, 확장할 수 있습니다. 또한 장면의 하나 이상의 요소의 피벗을 설정할 수 있는 새로운 노드도 있습니다.
 
 * Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 있다는 경고 및 오류 메시지가 표시될 수 있습니다. 이 버전에서는 탐색기의 모든 오류와 경고를 표시하기 위해 <b>오류 관리 시스템을 개선</b>합니다. 모든 항목이 한 곳에 나열되므로 프로젝트에 문제가 있는지 확인하는 것이 더 쉽습니다.
 
-  ![](../../assets/warning-overview-explorer.png){width="640px"}
+  ![](version-12-1.resources/warning-overview-explorer.png){width="640px"}
 
 ## 릴리스 정보
 

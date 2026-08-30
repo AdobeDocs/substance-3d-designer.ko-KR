@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프 및 MDL 재질
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Substance 그래프에 대해 <b>3D 보기에서 출력 보기</b> 옵션을 사
 
 Substance 그래프의 개별 텍스처는 Substance 그래프 노드에서 RMB를 누르고 3D 뷰로 드래그함으로써, 식별자에 관계없이 텍스처 샘플링을 지원하는 MDL 재료 파라미터 중 임의의 것에 연결될 수 있다. 사용 가능한 샘플러 사용 목록이 표시되며, 선택한 텍스처의 대상 사용을 선택할 수 있습니다.
 
-![노출된 MDL 그래프 입력](../../assets/mdl-graph-inputs-samplers.png "노출된 MDL 그래프 입력")
+![노출된 MDL 그래프 입력](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "노출된 MDL 그래프 입력")
 
 *Substance 그래프로 출력되는 텍스처는 3D 보기에서 MDL 그래프의 노출된 매개 변수에 연결됩니다.*
 
@@ -48,7 +48,7 @@ Substance 그래프의 개별 텍스처는 Substance 그래프 노드에서 RMB�
 Substance 그래프 인스턴스를 <b>탐색기</b> 패널에서 MDL 그래프로 드래그하여 MDL 그래프에 직접 배치할 수 있습니다. MDL 그래프에는 <b>Substance 3D 파일</b>(SBS) 및 <b>Substance 3D 에셋 파일</b>(SBSAR)의 Substance 그래프를 사용할 수 있습니다.
 
 +++Substance 3D 파일(SBS)의 Substance 그래프
-![MDL 그래프의 SBS 파일에서 Substance 그래프](../../assets/mdl-sbs-instance-hl.png "MDL 그래프의 SBS 파일에서 Substance 그래프")
+![MDL 그래프의 SBS 파일에서 Substance 그래프](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "MDL 그래프의 SBS 파일에서 Substance 그래프")
 
 
 
@@ -57,7 +57,7 @@ MDL 그래프의 [Substance 3D 파일](../../getting-started/overview/overview.m
 +++
 
 +++Substance 3D 에셋(SBSAR)의 Substance 그래프
-![MDL 그래프의 SBSAR 파일에서 Substance 그래프](../../assets/mdl-sbsar-instance-hl.png "MDL 그래프의 SBSAR 파일에서 Substance 그래프")
+![MDL 그래프의 SBSAR 파일에서 Substance 그래프](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "MDL 그래프의 SBSAR 파일에서 Substance 그래프")
 
 
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 표준 표준화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-normalize.png){width="128px"}
+![](normal-normalize.resources/normal-normalize.png){width="128px"}
 
-## 표준 표준화
-
-**내부:** *필터/표준 맵*
-
-**단순**
+<b>내부:</b> 필터 > 노멀 맵
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 이미지의 모든 단일 픽셀에 대해 수학적 벡터 정규화 작업을 수행합니다.
 
 표준 맵에 많은 부분을 혼합하고 수정하여 올바른 결과를 내보내려는 경우에 유용합니다.
-
-## 매개변수
-
-*매개 변수가 없습니다.*
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
 
 </td>
 </tr>

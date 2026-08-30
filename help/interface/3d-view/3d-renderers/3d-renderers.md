@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 렌더러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # 3D 렌더러
 
-[3D 보기]에는 4개의 렌더러가 있습니다.
+이 3D 보기는 다음 4개의 렌더러를 제공합니다.
 
 * 두 가지 버전의 Adobe 사내 3D 렌더러: 그림자 지원을 통한 실시간 시각화를 위한 래스터화와 그림자, 반사, 복잡한 재질 속성 등의 정확한 렌더링을 위한 GPU 패스트레이서.
 * 더 이상 사용되지 않는 두 서드파티 렌더러: OpenGL 및 NVIDIA&#39;s Iray.
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 패스트레이서</i>
     </td>
   </tr>
@@ -50,20 +50,20 @@ ht-degree: 7%
 
 +++
 
-Adobe의 3D 렌더러는 [MaterialX](https://materialx.org/) 음영 언어 및 [USD](https://openusd.org/release/index.html) 장면 설명과 같은 최신 기술을 지원하기 위해 기본적으로 만들어졌으며 전체 Substance 3D 에코시스템에 걸쳐 완전한 시각적 일관성을 제공하기 위해 준비되었습니다.
+Adobe의 3D 렌더러는 [MaterialX](https://materialx.org/) 음영 언어 및 [USD](https://openusd.org/release/index.html) 장면 설명과 같은 최신 기술을 지원하도록 기초부터 제작되었으며 전체 Substance 3D 에코시스템에 걸쳐 완전한 시각적 일관성을 제공할 준비가 되었습니다.
 
-USD에 의존하기 때문에 Adobe의 [USDFileFormat 플러그인](https://github.com/adobe/USD-Fileformat-plugins)을 활용하여 FBX 및 GLTF와 같은 많은 3D 장면 형식을 가져오고 재료, 텍스처, 카메라 및 조명을 포함하여 이러한 장면을 완전히 렌더링할 수 있습니다.
+USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://github.com/adobe/USD-Fileformat-plugins)을 활용하여 FBX 및 GLTF와 같은 다양한 3D 장면 형식을 가져오고 재질, 텍스처, 카메라 및 조명을 포함하여 이러한 장면을 완전히 렌더링할 수 있습니다.
 
 +++ 장면 가져오기: 래스터화와 OpenGL 비교
 
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -84,7 +84,7 @@ USD에 의존하기 때문에 Adobe의 [USDFileFormat 플러그인](https://gith
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **샘플** 부동 | 이미지가 수렴된 것으로 간주되기 전에 계산할 픽셀의 샘플 수를 지정합니다. |
-| **주변 오클루전 불투명도** 부동 | 앰비언트 오클루전 불투명도의 값을 지정합니다. |
+| **앰비언트 오클루전 불투명도** 부동 | 앰비언트 오클루전 불투명도의 값을 지정합니다. |
 | **변위 사용** 부울 | 변위를 활성화할지 여부를 지정합니다. |
 | **변위 임계값** 부동 | GPU 테슬레이션을 활성화/비활성화하는 임계값을 설정합니다. |
 | **백페이스 컬링 사용** 부울 | 값이 참이면 카메라에서 멀리 향하는 법선이 있는 삼각형 메쉬를 컬링할 수 있습니다. 값이 false이면 백페이스 컬링이 비활성화됩니다. |
@@ -111,7 +111,7 @@ USD에 의존하기 때문에 Adobe의 [USDFileFormat 플러그인](https://gith
 
 +++
 
-![래스터라이저 - 예 1](../../../assets/3dRendererRasterizer.jpg "래스터라이저 - 예 1"){zoomable="yes"}
+![래스터라이저 - 예 1](3d-renderers.resources/3dRendererRasterizer.jpg "래스터라이저 - 예 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ USD에 의존하기 때문에 Adobe의 [USDFileFormat 플러그인](https://gith
 
 +++
 
-![GPU 경로 추적기 - 예 1](../../../assets/3dRendererPathtracer.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
+![GPU 경로 추적기 - 예 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -272,9 +272,9 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++
 
-+++ Specular 광택
++++ Specular 광택도
 
-Specular 광택 모델을 위한 표준 PBR 재질입니다. [확산], [Specular] 및 [광택] 채널을 사용합니다.
+Specular 광택도 모델에 대한 표준 PBR 자료. 확산, Specular 및 광택도 채널을 사용합니다.
 
 Height 시각화 방법에는 두 가지가 있습니다.
 
@@ -286,7 +286,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++ 밝지 않음
 
-조명 없는 텍스처 맵을 시각화하기 위한 비조명 디버그 셰이더. &#39;color&#39; 채널만 사용합니다.
+조명을 표시하지 않고 텍스처 맵을 시각화하려면 디버그 셰이더를 비웁니다. &#39;color&#39; 채널만 사용합니다.
 
 +++
 
@@ -296,4 +296,4 @@ Designer에서는 OpenGL 렌더러 [GLSLFX 파일 사용](../../../interface/3d-
 > 
 > 이 렌더러는 **사용되지 않음**&#x200B;입니다. 새 기능을 받지 않으며 이후 버전의 Designer에서 중단됩니다.
 
-![OpenGL - 예 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - 예 1"){zoomable="yes"}
+![OpenGL - 예 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - 예 1"){zoomable="yes"}

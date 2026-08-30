@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 애플리케이션이 시작되지 않음
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5e56914c9048c513359d578d802097ef18493a5c
+source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -32,21 +32,21 @@ ht-degree: 1%
 
 ## Designer 15.0 이상
 
-<b>![(오류)](../../assets/error.svg) 문제</b>
+<b>[(오류)](application-does-not-start.resources/error.svg) 문제</b>
 
 Designer 버전 15.0 이상이 통합 GPU(iGPU) 및 개별 GPU(dGPU)가 모두 있는 시스템에서 시작되지 않습니다.
 
-<b>![(틱)](../../assets/check.svg) 권장 단계</b>
+<b>[(틱)](application-does-not-start.resources/check.svg) 권장 단계</b>
 
 iGPU의 그래픽 드라이버를 업데이트합니다. 다음 위치에서 최신 드라이버를 찾을 수 있습니다. [인텔](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## 윈도우 /
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](application-does-not-start.resources/error.svg) 문제**
 
 Windows 10 또는 Windows 11을 사용하는 시스템에서 Substance 3D Designer을 시작할 수 없습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](application-does-not-start.resources/check.svg) 권장 단계**
 
 라이선스 유효성 검사 프로세스에 사용된 *오래된* `libeay32.dll` 라이브러리로 인해 Windows 10 또는 Windows 11에서 이전 버전의 Designer을 시작하지 못할 수 있습니다.
 
@@ -67,11 +67,11 @@ Windows 10 또는 Windows 11을 사용하는 시스템에서 Substance 3D Design
 
 ## Windows 7/8/8.1
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](application-does-not-start.resources/error.svg) 문제**
 
 Substance 3D Designer이 Windows 7, Windows 8 또는 Windows 8.1을 사용하는 시스템에서 시작되지 않습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](application-does-not-start.resources/check.svg) 권장 단계**
 
 버전 **11.3.0** 업데이트의 일부로 Windows 10보다 낮은 Windows 버전에서 *호환성 중단*&#x200B;인 여러 라이브러리, 도구 및 SDK를 업그레이드했습니다.
 
@@ -86,11 +86,11 @@ Windows 10으로 업그레이드할 수 없는 경우 *Designer*&#x200B;과거&#
 
 ## 리눅스
 
-<b>![(오류)](../../assets/error.svg) 문제</b>
+<b>[(오류)](application-does-not-start.resources/error.svg) 문제</b>
 
 홈 화면을 닫고 기본 창을 표시할 때 충돌이 발생합니다.
 
-<b>![(틱)](../../assets/check.svg) 권장 단계</b>
+<b>[(틱)](application-does-not-start.resources/check.svg) 권장 단계</b>
 
 Designer에서 Python 구성 요소를 로드할 수 없습니다. 자체 라이브러리가 아닌 시스템의 <b>libffi.so</b> 라이브러리를 로드하기 때문입니다.
 
@@ -111,17 +111,17 @@ Steam에서 Designer을 시작하는 Linux 사용자는 아래와 같이 Designe
 
 이 작업이 완료되면 향후 모든 세션에서 일반적으로 Steam을 통해 Designer을 시작할 수 있습니다.
 
-![Steam 실행 옵션](../../assets/steam_linux_launch_option.jpg "Steam 실행 옵션")
+![Steam 실행 옵션](application-does-not-start.resources/steam_linux_launch_option.jpg "Steam 실행 옵션")
 
 
 
 +++
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](application-does-not-start.resources/error.svg) 문제**
 
 Designer의 Steam 버전이 오류 메시지로 시작되지 않습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](application-does-not-start.resources/check.svg) 권장 단계**
 
 대신 Steam 응용 프로그램을 로그하여 오류 메시지를 얻을 수 있습니다.
 
@@ -132,7 +132,7 @@ steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![(오류)](../../assets/error.svg) Issu</b><b>e</b>
+<b>![(오류)](application-does-not-start.resources/error.svg) Issu</b><b>e</b>
 
 `<b>xcb</b>` 플러그 인을 로드할 수 없습니다. 명령줄에 다음 메시지가 표시됩니다.
 
@@ -151,7 +151,7 @@ Aborted (core dumped)
 ```
 
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](application-does-not-start.resources/check.svg) 권장 단계**
 
 일부 필수 패키지가 누락되었습니다. Designer 설치 디렉터리에서 다음 명령을 실행합니다.
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![(오류)](../../assets/error.svg) 문제</b>
+<b>![(오류)](application-does-not-start.resources/error.svg) 문제</b>
 
 Designer을 시작할 때 다음 오류가 발생합니다.
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 Designer에서 로드한 시스템 라이브러리가 Designer의 자체 <b>libcrypto.so.1.1</b> 라이브러리와 호환되지 않습니다.
 
-<b>![(틱)](../../assets/check.svg) 권장 단계</b>
+<b>![(틱)](application-does-not-start.resources/check.svg) 권장 단계</b>
 
 시스템의 라이브러리가 대신 사용되도록 Designer 설치 디렉터리에서 <b>`libcrypto.so.1.1`</b> 라이브러리를 제거하십시오.
 
@@ -193,11 +193,11 @@ Designer에서 로드한 시스템 라이브러리가 Designer의 자체 <b>libc
 >
 > 이 해결 방법은 시스템에 자체 libcrypto.so.1 라이브러리가 있는 경우에만 작동합니다. 최근 배포에서는 <b>libxcrypt-compat</b>과(와) 같은 호환성 패키지를 설치해야 할 수 있습니다.
 
-<b>![(오류)](../../assets/error.svg) 문제</b>
+<b>![(오류)](application-does-not-start.resources/error.svg) 문제</b>
 
 Substance 3D Designer이 Linux의 *Arch 기반* 배포를 사용하는 시스템에서 시작되지 않습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계 *(![(경고)](../../assets/warning.svg) 불안정, AMD GPU만 해당!)***
+**![(틱)](application-does-not-start.resources/check.svg) 권장 단계 *(![(경고)](application-does-not-start.resources/warning.svg) 불안정, AMD GPU만 해당!)***
 
 **progl**([AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) 드라이버의 일부)을 설치하고 Designer을 시작해 보십시오. 응용 프로그램 실행 명령에서 `progl` 접두사를 사용하여 이 작업을 수행할 수 있습니다.
 

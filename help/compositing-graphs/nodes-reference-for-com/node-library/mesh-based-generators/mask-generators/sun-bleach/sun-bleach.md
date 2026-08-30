@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 선 블리치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach.png){width="128px"}
 
-## 선 블리치
-
-**내부:** *메시 기반 생성기**/마스크 생성기*
-
-**단순**
+<b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,26 +37,36 @@ ht-degree: 1%
 
 이 마스크는 [빛](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)과 비슷하지만 AO를 지원합니다. 이를 통해 효과 상단에 빛 표백 및 페이드를 나타내는 마스크가 만들어집니다.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 입력
 
-* **일반 월드 공간**: *색상 입력*
-* **주변 오클루전**: *회색 음영 입력*\
-  내부 효과 및 마스크에 사용되는 베이킹된 맵.
-* **마스크(선택 사항)**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다.
+|  |  |
+|:---|:---|
+| <b>일반 월드 공간</b> <i>색상 입력</i> |  |
+| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
+| <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-* **수준**: *0.0 - 1.0*\
-  전체 표백 양을 설정하고 효과를 아래로 이동합니다.
-* **대비**: *0.0 - 1.0*\
-  결과의 대비를 조정합니다.
-* **오클루전**: *0.0 - 1.0*&#x200B;최종 결과에 대한 AO의 영향을 설정합니다.
+|  |  |
+|:---|:---|
+| <b>수준</b> <i>0.0 - 1.0</i> | 전체 표백 양을 설정하고 효과를 아래로 이동합니다. |
+| <b>대비</b> <i>0.0 - 1.0</i> | 결과의 대비를 조정합니다. |
+| <b>오클루전</b> <i>0.0 - 1.0</i> | 최종 결과에 대한 AO의 영향을 설정합니다. |
 
-## 예제 이미지
+## 예
 
-![](../../../../../../assets/sun-bleach-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="sun-bleach.resources/sun-bleach-ex.gif" />
+        </td>
+    </tr>
 </table>

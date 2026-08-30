@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 패스 상의 4중 변형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/quad-transform-on-paths-icon.png "노드 아이콘")
+![노드 아이콘](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -39,29 +39,32 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 입력 커넥터
+<a name="inputs"></a>
 
-<b>경로</b> *색상*\
-인코딩된 세그먼트 경로 목록입니다. 이 입력을 [패스에 마스크](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 또는 다른 *패스* 처리 노드에 연결합니다.
+## 입력
 
-## 출력 커넥터
+|  |  |
+|:---|:---|
+| <b>경로</b> <i>색상</i> | 인코딩된 세그먼트 경로 목록입니다. 이 입력을 [패스에 마스크](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 또는 다른 *패스* 처리 노드에 연결합니다. |
 
-<b>경로</b> *색상*\
-변형된 패스. [패스 미리 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)를 사용하여 결과가 어떻게 나타나는지 파악하거나 다른 패스 처리 노드를 사용하거나 [스플라인으로 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)에 입력하여 스플라인으로 추가로 처리할 수 있습니다.
+<a name="outputs"></a>
+
+## 출력
+
+|  |  |
+|:---|:---|
+| <b>경로</b> <i>색상</i> | 변형된 패스. [패스 미리 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)를 사용하여 결과가 어떻게 나타나는지 파악하거나 다른 패스 처리 노드를 사용하거나 [스플라인으로 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)에 입력하여 스플라인으로 추가로 처리할 수 있습니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-<b>p00</b> *Float2*\
-왼쪽 상단 핸들의 위치입니다.
-
-<b>p01</b> *Float2*\
-오른쪽 위 핸들의 위치입니다.
-
-<b>p02</b> *Float2*\
-왼쪽 아래 핸들의 위치입니다.
-
-<b>p03</b> *Float2*\
-오른쪽 아래 핸들의 위치입니다.
+|  |  |
+|:---|:---|
+| <b>p00</b> <i>Float2</i> | 왼쪽 상단 핸들의 위치입니다. |
+| <b>p01</b> <i>Float2</i> | 오른쪽 위 핸들의 위치입니다. |
+| <b>p02</b> <i>Float2</i> | 왼쪽 아래 핸들의 위치입니다. |
+| <b>p03</b> <i>Float2</i> | 오른쪽 아래 핸들의 위치입니다. |
 
 ## 예
 
@@ -72,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -88,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -106,12 +109,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "노드 예 1")
+![노드 예 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "노드 예 2")
+![노드 예 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "노드 예 2")
 
 </td>
 </tr>

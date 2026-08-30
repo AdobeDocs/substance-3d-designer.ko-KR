@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 색상 정량화 (단순)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](../../../../../../assets/quantize.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](quantize.resources/quantize.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -39,14 +39,13 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 매개변수
 
-<b>빨강 채널 수치화</b> *정수*&#x200B;빨강 채널에 근사할 단계 수를 설정합니다.
-
-<b>녹색 채널 퀀타이즈</b> *정수*&#x200B;녹색 채널에 근사할 단계 수를 설정합니다.
-
-<b>파랑 채널 정량화</b> *정수*
-
-[파랑] 채널에 근사할 단계 수를 설정합니다.
-
-<b>Alpha 채널 수치화</b> *정수* Alpha 채널에 근사할 단계 수를 설정합니다.
+|  |  |
+|:---|:---|
+| <b>빨강 채널 수치화</b> *정수* | 빨강 채널에 근사할 단계 수를 설정합니다. |
+| <b>녹색 채널 퀀타이즈</b> *정수* | 녹색 채널에 근사할 단계 수를 설정합니다. |
+| <b>파랑 채널 정량화</b> *정수* | [파랑] 채널에 근사할 단계 수를 설정합니다. |
+| <b>Alpha 채널 수치화</b> *정수* | 알파 채널 값을 근사화하는 단계 수를 설정합니다. |

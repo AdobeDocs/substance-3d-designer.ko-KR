@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 가장자리 흐림 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur.png){width="128px"}
 
-## 가장자리 흐림 효과
-
-**내부:** *메시 기반 생성기**/마스크 생성기*
-
-**단순**
+<b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,27 +37,35 @@ ht-degree: 2%
 
 이 마스크는 구워진 곡률 맵을 기반으로 가장자리를 강조합니다. 이것은 보다 간단한 마스크 생성기 중 하나입니다.
 
-## 매개변수
-
-### 입력
-
-* **곡률**: *회색 음영 입력*\
-  효과의 기반이 되는 데 사용되는 베이킹된 맵.
-* **마스크(선택 사항)**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다.
-
-### 매개변수
-
-* **수준**: *0.0 - 1.0*\
-  가장자리 강조표시의 양을 설정합니다.
-* **대비**: *0.0 - 1.0*\
-  결과의 대비를 조정합니다.
-* **흐림 반경**: *0.0 - 8.0*&#x200B;강조 표시된 가장자리의 흐림 정도를 설정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/edge-blur-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>곡률</b> <i>회색 음영 입력</i> | 효과의 기반이 되는 데 사용되는 베이킹된 맵. |
+| <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>수준</b> <i>0.0 - 1.0</i> | 가장자리 강조표시의 양을 설정합니다. |
+| <b>대비</b> <i>0.0 - 1.0</i> | 결과의 대비를 조정합니다. |
+| <b>흐림 반경</b> <i>0.0 - 8.0</i> | 강조 표시된 가장자리의 흐림 정도를 설정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-blur.resources/edge-blur-ex.gif" />
+        </td>
+    </tr>
 </table>

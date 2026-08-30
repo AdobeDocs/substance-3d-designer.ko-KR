@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Substance 3D 자산 파일(SBSAR) 게시
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 이 페이지에서는 Substance 3D Designer이 Substance 에코시스템 및 이를 지원하는 다른 응용 프로그램에서 사용되는 <b>SBSAR</b> 확장명을 가진 특수 파일 형식인 <b>Substance 3D asset</b> 파일로 패키지를 게시하는 방법에 대해 설명합니다.
 
-일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/kr/substance-3d-sampler.html) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [&#39;보내기...&#39; 기능](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)을 사용하는 것이 더 빠릅니다.
+일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/ko/docs/substance-3d-sampler/using/home) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [&#39;보내기...&#39; 기능](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)을 사용하는 것이 더 빠릅니다.
 
-![SBSAR 파일 단순화](../../assets/exportflow.png "SBSAR 파일 단순화")
+![SBSAR 파일 단순화](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "SBSAR 파일 단순화")
 
 ## 개념 게시
 
@@ -55,14 +55,14 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-탐색기에서 패키지를 마우스 오른쪽 단추로 클릭하고 ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar 파일...**, 대체 핫키 Ctrl+P를 선택합니다.
+탐색기에서 패키지를 마우스 오른쪽 단추로 클릭하고 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **Publish .sbsar 파일...**, 대체 핫키 Ctrl+P를 선택합니다.
 
-대화 상자로 한 번 게시한 후 ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar 파일을 이전 버전으로**&#x200B;을 사용하여 대화 상자를 보지 않고 게시 프로세스를 반복하고 동일한 설정으로 즉시 게시할 수도 있습니다.
+대화 상자로 한 번 게시한 후 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar 파일을 이전 버전으로**&#x200B;을 사용하여 대화 상자를 보지 않고 게시 프로세스를 반복하고 동일한 설정으로 즉시 게시할 수도 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-탐색기의 상단 도구 모음에서 Publish 단추 ![](../../assets/image2020-9-23-9-39-58.png)을(를) 클릭합니다.
+탐색기의 상단 도구 모음에서 Publish 단추 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png)을(를) 클릭합니다.
 
-대화 상자를 사용하여 게시한 후 Publish을 이전 버튼으로 사용 ![](../../assets/image2020-9-23-11-15-35.png)하여 대화 상자를 보지 않고 게시 프로세스를 반복할 수 있으며, 동일한 설정으로 즉시 게시할 수 있습니다.
+대화 상자를 사용하여 게시한 후 Publish을 이전 버튼으로 사용 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png)하여 대화 상자를 보지 않고 게시 프로세스를 반복할 수 있으며, 동일한 설정으로 즉시 게시할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 </td>
 <td style="border: 0;" valign="top">
 
-![에셋 게시 옵션](../../assets/publish-dialog.png "에셋 게시 옵션")
+![에셋 게시 옵션](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "에셋 게시 옵션")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>

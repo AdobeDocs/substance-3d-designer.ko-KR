@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -62,11 +62,13 @@ lint/link-check CI가 실패하거나 라이브 사이트에서 잘못 렌더링
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * 선택적 크기 조정/최적화 쿼리 매개 변수가 지원됩니다.
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **대체 텍스트는 밑줄을 포함할 수 없습니다**. 올바르게 렌더링되지 않습니다.
 대신 하이픈이나 공백을 사용하십시오.
-* `<page-name>.resources/`에 있는 페이지별 이미지, 공유/앱 아이콘
-`help/assets/`에 있습니다(CLAUDE.md 참조).
+* 페이지별 이미지가 형제 `<page-name>.resources/` 폴더에 있습니다.
+`.md` 옆에 상대적으로 참조된 항목(예:
+  `<page-name>.resources/image.png`). `help/assets/`은(는) 레거시 공유됨
+  폴더 — 새 이미지를 추가하지 마십시오(CLAUDE.md 참조).
 
 ## 표
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PSD 파일 내보내기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -26,13 +26,13 @@ Substance 3D Designer에서 텍스처를 Adobe Photoshop 문서 또는 PSD 파�
 
 ## PSD 내보내기 대화 상자
 
-[PSD 내보내기] 대화 상자는 한 가지 방법으로만 열 수 있습니다. PSD으로 내보낼 그래프의 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 ![](../../assets/image2019-9-17-14-44-17.png) <b>도구</b> 단추를 클릭하고 <b>PSD 내보내기</b>를 선택합니다. 인터페이스가 <b>그래프 보기</b>에 표시됩니다.
+[PSD 내보내기] 대화 상자는 한 가지 방법으로만 열 수 있습니다. PSD으로 내보낼 그래프의 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 ![](exporting-psd-files.resources/image2019-9-17-14-44-17.png) <b>도구</b> 단추를 클릭하고 <b>PSD 내보내기</b>를 선택합니다. 인터페이스가 <b>그래프 보기</b>에 표시됩니다.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![PSD 내보내기 사용자 인터페이스](../../assets/psd-dialog.png "PSD 내보내기 사용자 인터페이스")
+![PSD 내보내기 사용자 인터페이스](exporting-psd-files.resources/psd-dialog.png "PSD 내보내기 사용자 인터페이스")
 
 </td>
 <td style="border: 0;" valign="top">

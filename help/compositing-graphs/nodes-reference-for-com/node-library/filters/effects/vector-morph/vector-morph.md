@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
 breadcrumb-title: ''
-description: 벡터 형태 노드를 사용하면 부드러운 전환을 위해 벡터 필드를 사용하여 두 입력 간의 텍스처를 모핑할 수 있습니다.
+description: 매끄러운 전환을 위해 벡터 필드를 사용하여 두 입력 간의 텍스처를 모핑하려면 벡터 모핑 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 벡터 형태
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-grayscale.png)![](vector-morph.resources/vector-morph.png)
 
-## 벡터 형태 (회색 음영)
-
-**내부:** *필터/효과*
-
-**중간**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,19 +39,23 @@ ht-degree: 2%
 
 벡터 모프는 [벡터 뒤틀기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)와 매우 유사합니다. 주된 차이점은 이 모프 노드가 캔버스 경계 밖으로 밀릴 때 결과를 &quot;반복&quot; 또는 &quot;바둑판식&quot;하지 않는다는 것입니다. 대신 모서리를 클램프하고 반복합니다.
 
-## 매개변수
-
-### 입력
-
-* **입력**: *색상/회색 음영 입력*&#x200B;뒤틀기 대상이어야 하는 원본 입력입니다.
-* **벡터 필드**: *색상 입력*&#x200B;뒤틀기를 제어하는 데 사용되는 벡터 맵입니다.
-
-### 매개변수
-
-* **양**: *0.0 - 1.0*&#x200B;뒤틀기 효과의 강도를 설정합니다. 벡터 맵의 승수로 작동합니다.
-
-## 예제 이미지
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력</b> <i>색상/회색 음영 입력</i> | 뒤틀기 대상이어야 하는 소스 입력입니다. |
+| <b>벡터 필드</b> <i>색상 입력</i> | 뒤틀기를 제어하는 데 사용되는 벡터 맵 |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>금액</b> <i>0.0 - 1.0</i> | 뒤틀기 효과의 강도를 설정합니다. 이 설정은 벡터 맵에 대한 승수로 작동합니다. |

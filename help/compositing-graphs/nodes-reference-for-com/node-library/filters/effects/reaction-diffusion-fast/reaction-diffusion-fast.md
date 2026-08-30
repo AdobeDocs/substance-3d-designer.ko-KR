@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 빠른 반응 확산
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![반응 확산 노드 아이콘](../../../../../../assets/reaction-diffusion.png "반응 확산 노드 아이콘")
+![반응 확산 노드 아이콘](reaction-diffusion-fast.resources/reaction-diffusion.png "반응 확산 노드 아이콘")
 
 <b>인:</b> 필터 > 효과
 
@@ -43,20 +43,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 입력 커넥터
+<a name="inputs"></a>
 
-<b>입력</b> *회색 음영*&#x200B;반응 확산 효과를 적용해야 하는 회색 음영 이미지입니다.
+## 입력
 
-## 출력 커넥터
+|  |  |
+|:---|:---|
+| <b>입력</b> <i>회색 음영</i> | [반응 확산] 효과를 적용해야 하는 회색 음영 이미지입니다. |
 
-<b>출력&#x200B;</b>*회색 음영*&#x200B;입력 이미지에 적용된 반응 확산 효과를 나타내는 회색 음영 이미지입니다.
+<a name="outputs"></a>
+
+## 출력
+
+|  |  |
+|:---|:---|
+| <b>출력</b> <i>회색 음영</i> | 입력 이미지에 적용된 반응-확산 효과를 나타내는 회색 음영 이미지 |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-<b>반경</b> *부동*&#x200B;효과의 확산 정도.
-
-<b>대비</b> *부동*\
-입력의 대비를 조정하며, 일종의 임계값 역할을 합니다.
+|  |  |
+|:---|:---|
+| <b>반경</b> *부동* | 효과가 확산되는 거리입니다. |
+| <b>대비</b> *부동* | 입력의 대비를 조정하며, 일종의 임계값 역할을 합니다. |
 
 ## 예
 
@@ -64,17 +74,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![예 1](../../../../../../assets/reactdiff03.png "예 1")
+![예 1](reaction-diffusion-fast.resources/reactdiff03.png "예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 2](../../../../../../assets/reactdiff02.png "예 2")
+![예 2](reaction-diffusion-fast.resources/reactdiff02.png "예 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 3](../../../../../../assets/reactdiff01.gif "예 3")
+![예 3](reaction-diffusion-fast.resources/reactdiff01.gif "예 3")
 
 </td>
 </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 노출 미리 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
@@ -22,33 +22,38 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
+![](exposure-preview.resources/hdr-exposure-preview.png){width="200px"}
 
-## 노출 미리 보기
-
-**내부:** *3D 보기/HDRI 도구*
-
-**단순**
+<b>내부:</b> 3D 보기 > HDRI 도구
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 노출 단계를 미리 볼 보조 노드입니다. 사용자는 최소 및 최대 값을 설정하며, 노드는 원래 입력의 여러 노출된 버전을 사용하여 훨씬 더 큰 이미지를 생성한다. 서로 다른 버전은 항상 가로로 누적되며, 양은 노드 또는 그래프의 해상도에 따라 달라집니다.
 
-## 매개변수
-
-* **최대 노출(EV)**: *-8.0 - 8.0*\
-  가장 밝은 이미지의 가장 높은 노출입니다.
-* **최소 노출(EV)**: *-8.0 - 8.0*&#x200B;가장 어두운 아래쪽 이미지의 최소 노출.
-
-## 예제 이미지
-
-![](../../../../../../assets/exp-preview-ex.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>최대 노출(EV)</b> <i>-8.0 - 8.0</i> | 가장 밝은 이미지의 가장 높은 노출입니다. |
+| <b>최소 노출(EV)</b> <i>-8.0 - 8.0</i> | 가장 어두운 이미지의 최소 노출입니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="exposure-preview.resources/exp-preview-ex.png" />
+        </td>
+    </tr>
 </table>

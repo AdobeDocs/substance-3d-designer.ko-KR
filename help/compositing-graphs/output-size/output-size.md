@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 출력 크기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> ![](../../assets/props-output-size-lock.jpg) 잠금 단추를 사용하여 Height 값이 너비 값과 *일치*&#x200B;하도록 합니다.
+> ![](output-size.resources/props-output-size-lock.jpg) 잠금 단추를 사용하여 Height 값이 너비 값과 *일치*&#x200B;하도록 합니다.
 
 <table>
 <tr style="border: 0;">
@@ -98,16 +98,16 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 해당 항목을 클릭하여 노드 또는 그래프의 속성을 표시한 다음 [속성](../../interface/properties/properties.md) 패널에서 <b>기본 매개 변수</b> 섹션의 <b>출력 크기</b> 속성을 찾습니다. 상속 방법 드롭다운 메뉴를 클릭하고 원하는 상속 방법을 선택합니다.
 
-![출력 크기 상속 메서드](../../assets/change-mode.gif "출력 크기 상속 메서드"){width="512px"}
+![출력 크기 상속 메서드](output-size.resources/change-mode.gif "출력 크기 상속 메서드"){width="512px"}
 
 ## 예제 문제
 
 새로운 [Adobe Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html) 사용자인 경우 몇 가지 일반적인 문제가 발생할 수 있습니다. 다음은 해결 방법과 함께 몇 가지 예입니다.
 
 +++문제 1
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](output-size.resources/error.svg) 문제**
 
-![문제 예 1](../../assets/problem2-bad.png "문제 예 1")
+![문제 예 1](output-size.resources/problem2-bad.png "문제 예 1")
 
 
 
@@ -115,9 +115,9 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 그래프의 속성에서 Output Size 속성의 상속 메서드가 *Absolute*(으)로 설정되어 임의 값으로 상속을 중지합니다.
 
-**![(틱)](../../assets/check.svg) 솔루션**
+**![(틱)](output-size.resources/check.svg) 솔루션**
 
-![문제 1 해결 방법 예시](../../assets/problem2-good.png "문제 1 해결 방법 예시")
+![문제 1 해결 방법 예시](output-size.resources/problem2-good.png "문제 1 해결 방법 예시")
 
 
 
@@ -126,9 +126,9 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 +++
 
 +++문제 2
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](output-size.resources/error.svg) 문제**
 
-![문제 예 2](../../assets/problem1-bad.png "문제 예 2")
+![문제 예 2](output-size.resources/problem1-bad.png "문제 예 2")
 
 
 
@@ -136,9 +136,9 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드에서 문제가 발생했습니다. 기본적으로 *Absolute* 상속 메서드가 사용되며 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md)을 기반으로 512\*512가 해상도로 선택되었습니다. 연결된 노드는 *입력 관련*(으)로 설정되어 있으므로 비트맵 노드에서 출력 크기를 상속합니다.
 
-**![(틱)](../../assets/check.svg) 솔루션**
+**![(틱)](output-size.resources/check.svg) 솔루션**
 
-![문제 2 해결 방법 예시](../../assets/problem1-good.png "문제 2 해결 방법 예시")
+![문제 2 해결 방법 예시](output-size.resources/problem1-good.png "문제 2 해결 방법 예시")
 
 
 
@@ -147,9 +147,9 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 +++
 
 +++문제 3
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](output-size.resources/error.svg) 문제**
 
-![문제 예 3](../../assets/problem3-bad.png "문제 예 3")
+![문제 예 3](output-size.resources/problem3-bad.png "문제 예 3")
 
 
 
@@ -157,9 +157,9 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 이 문제는 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드에서 상대 수정자 3으로 인해 발생하여 출력이 8배 큽니다.
 
-**![(틱)](../../assets/check.svg) 솔루션**
+**![(틱)](output-size.resources/check.svg) 솔루션**
 
-![문제 3 해결 방법 예시](../../assets/problem3-good.png "문제 3 해결 방법 예시")
+![문제 3 해결 방법 예시](output-size.resources/problem3-good.png "문제 3 해결 방법 예시")
 
 
 

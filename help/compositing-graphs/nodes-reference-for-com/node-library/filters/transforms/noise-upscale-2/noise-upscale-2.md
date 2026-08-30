@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 노이즈 확대 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
 
-## 노이즈 확대 2
-
-**내부:** *필터/변형*
-
-**단순**
+<b>필터</b>:
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,20 +39,27 @@ ht-degree: 1%
 
 이 프로세스의 다양한 변형을 보려면 [노이즈 업스케일 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) 및 [노이즈 업스케일 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md)도 참조하세요.
 
-## 매개변수
-
-* **Offset1X**: *0.0 - 1.0* X축을 기준으로 위/아래 부분을 슬라이드합니다.
-* **오프셋1Y**: *0.0 - 1.0*\
-  Y축을 기준으로 위쪽과 아래쪽을 슬라이드합니다.
-* **Offset2X**: *0.0 - 1.0* X축을 기준으로 왼쪽 및 오른쪽 슬라이드.
-* **Offset2Y**: *0.0 - 1.0* Y축을 기준으로 왼쪽 및 오른쪽 슬라이드.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise2ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>오프셋1X</b> <i>0.0 - 1.0</i> | X축을 기준으로 위쪽과 아래쪽을 슬라이드합니다. |
+| <b>오프셋1Y</b> <i>0.0 - 1.0</i> | Y축을 기준으로 위쪽과 아래쪽을 슬라이드합니다. |
+| <b>Offset2X</b> <i>0.0 - 1.0</i> | X축 위로 왼쪽 및 오른쪽 부분을 슬라이드합니다. |
+| <b>Offset2Y</b> <i>0.0 - 1.0</i> | Y축 위로 왼쪽 및 오른쪽 부분을 슬라이드합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-2.resources/noise2ex.png" />
+        </td>
+    </tr>
 </table>

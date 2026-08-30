@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR 렌더링 매핑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 1%
+source-wordcount: '187'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-color.png)![](pbr-render-mapping.resources/pbr-render-mapping-grayscale.png)
 
-## PBR 렌더링 매핑(색상/회색 음영)
-
-**내부:** *재질 필터/PBR 유틸리티*
-
-**단순**
+<b>내부:</b> 재질 필터 > PBR 유틸리티
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,24 +37,38 @@ ht-degree: 1%
 
 두 가지 유형의 데이터에는 [색상]과 [회색 음영] 버전이 있습니다. 확산 맵에는 [색상]을 사용하고, 거칠기, 금속 및 기타 회색 음영 맵에는 [회색 음영]을 사용합니다.
 
-### 입력
+</td>
+</tr>
+</table>
 
-* **텍스처**: *색상/회색 음영 입력*\
-  모양에 매핑할 텍스처.
-* **UV**: *색상 입력* PBR 렌더링 노드에서 필수 UV 데이터 입력[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>텍스처</b> <i>색상/회색 음영 입력</i> | 모양에 매핑할 텍스처. |
+| <b>UV</b> <i>색상 입력</i> | [PBR 렌더링 노드](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)에서 필수 UV 데이터 입력 |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-* **배경색**: *(색상 값)*배경에서 사용할 단색 값을 설정합니다.
+|  |  |
+|:---|:---|
+| <b>배경색</b> <i>(색상 값)</i> | 배경에서 사용할 단색 값을 설정합니다. |
 
-## 예제 이미지
+## 예
 
 예는 [선형 그레이디언트](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md)에서 [히스토그램 선택](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)을 마스크로 사용하는 네 개의 다른 PBR 렌더링 매핑 노드의 합성입니다.
 
-![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
-
-![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex-2.png" />
+        </td>
+    </tr>
 </table>

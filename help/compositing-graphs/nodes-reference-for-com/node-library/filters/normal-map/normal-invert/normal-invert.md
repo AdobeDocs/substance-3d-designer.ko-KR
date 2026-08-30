@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 표준 반전
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-invert.png){width="128px"}
+![](normal-invert.resources/normal-invert.png){width="128px"}
 
-## 표준 반전
-
-**내부:** *필터/표준 맵*
-
-**단순**
+<b>내부:</b> 필터 > 노멀 맵
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,19 +37,17 @@ ht-degree: 1%
 
 DirectX 또는 OpenGL 스타일 Normaps의 경우 Normamap을 입력 또는 출력으로 사용하는 거의 모든 노드에는 녹색 채널을 반전할 수 있는 옵션이 있다는 점을 참고하십시오. 즉, 이러한 경우에는 이 노드가 거의 필요하지 않습니다.
 
-## 매개변수
-
-* **빨강 반전**: *False/True*
-* **녹색 반전**: *False/True*
-* **파랑 반전**: *False/True*
-* **Alpha 반전**: *False/True*
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>빨강 반전</b> <i>거짓/참</i> |  |
+| <b>녹색 반전</b> <i>거짓/참</i> |  |
+| <b>파랑 반전</b> <i>거짓/참</i> |  |
+| <b>Alpha 반전</b> <i>거짓/참</i> |  |

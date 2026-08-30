@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Nadir Patch
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/panorama-nadir-patch.png){width="200px"}
 
-## Nadir Patch
-
-**내부:** *3D 보기/HDRI 도구*
-
-**복합**
+<b>내부:</b> 3D 보기 > HDRI 도구
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,42 +37,44 @@ ht-degree: 1%
 
 [Nadir Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md)을(를) 사용하여 효과를 빠르게 확인하고 유효성을 검사할 수 있습니다.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 입력
 
-* **입력**: *색상 입력*
-* **마스크 입력**: *회색 음영 입력*\
-  패치를 마스킹하는 데 사용되는 선택적 마스크 슬롯입니다. 알파처럼 작동합니다.
+|  |  |
+|:---|:---|
+| <b>입력</b> <i>색상 입력</i> |  |
+| <b>마스크 입력</b> <i>회색 음영 입력</i> | 패치를 마스킹하는 데 사용되는 선택적 마스크 슬롯입니다. 알파처럼 작동합니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-* **사용**: *False/True*\
-  패치 효과를 활성화하거나 비활성화합니다.
-* **프레임 도우미 표시**: *False/True*\
-  디버그를 위해 보조 줄을 표시하거나 숨깁니다.
-* **프레임 Thickness**: *0.0 - 1.0*\
-  보조 줄의 Thickness.
-* **패치 크기**: *0.0 - 1.0*\
-  패치의 전역적이고 균일한 비율입니다. 소스와 타겟 모두에 영향을 줍니다.
-* **패치 크기**: *0.0 - 1.0*\
-  패치의 크기가 일정하지 않습니다.
-* **패치 회전**: *0.0 - 1.0*\
-  패치의 회전입니다. 소스와 대상에 영향을 줍니다.
-* **패치 Alpha**: *부드러운 사각형, 가우시안, 마스크 입력*\
-  패치와 배경을 혼합하는 데 사용할 알파를 설정합니다.
-* **패치 경도**: *0.0 - 1.0*\
-  알파의 경도/대비를 설정합니다.
-* **원본 회전 오프셋**: *0.0 - 1.0*\
-  패치 소스에 대해서만 회전합니다.
-* **위치 좌표**
-  * **원본 위치**:\
-    소스의 위치입니다. 2D 보기에 핸들이 있습니다.
-  * **패치 위치**:\
-    대상의 위치입니다. 2D 보기에 핸들이 있습니다.
+|  |  |
+|:---|:---|
+| <b>사용</b> <i>거짓/참</i> | 패치 효과를 활성화하거나 비활성화합니다. |
+| <b>프레임 도우미 표시</b> <i>거짓/참</i> | 디버그를 위해 보조 줄을 표시하거나 숨깁니다. |
+| <b>프레임 Thickness</b> <i>0.0 - 1.0</i> | 보조 줄의 Thickness. |
+| <b>패치 크기</b> <i>0.0 - 1.0</i> | 패치의 전역적이고 균일한 비율입니다. 소스와 타겟 모두에 영향을 줍니다. |
+| <b>패치 크기</b> <i>0.0 - 1.0</i> | 패치의 크기가 일정하지 않습니다. |
+| <b>패치 회전</b> <i>0.0 - 1.0</i> | 패치의 회전입니다. 소스와 대상에 영향을 줍니다. |
+| <b>패치 Alpha</b> <i>부드러운 사각형, 가우시안, 마스크 입력</i> | 패치와 배경을 혼합하는 데 사용할 알파를 설정합니다. |
+| <b>패치 경도</b> <i>0.0 - 1.0</i> | 알파의 경도/대비를 설정합니다. |
+| <b>원본 회전 오프셋</b> <i>0.0 - 1.0</i> | 패치 소스에 대해서만 회전합니다. |
+| <b>위치 좌표</b> |  |
+| <b>원본 위치</b> | 소스의 위치입니다. 2D 보기 핸들이 있습니다. |
+| <b>패치 위치</b> | 대상의 위치입니다. 2D 보기 핸들이 있습니다. |
 
-## 예제 이미지
+## 예
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-ex.gif" />
+        </td>
+    </tr>
 </table>

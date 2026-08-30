@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 가장자리 손상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages.png){width="128px"}
 
-## 가장자리 손상
-
-**내부:** *메시 기반 생성기**/마스크 생성기*
-
-**단순**
+<b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,29 +37,36 @@ ht-degree: 2%
 
 이 마스크는 곡률 및 베이킹된 AO를 기반으로 하여 상승된 볼록 에지에 대한 손상을 나타낸다.
 
-## 매개변수
-
-### 입력
-
-* **곡률**: *회색 음영 입력*\
-  효과 배치에 사용되는 베이킹된 맵. 필수!
-* **주변 오클루전**: *회색 음영 입력*\
-  효과 배치에 사용되는 베이킹된 맵. 필수!
-* **마스크(선택 사항)**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다.
-
-### 매개변수
-
-* **수준**: *0.0 - 1.0*\
-  적용할 가장자리 손상의 양입니다.
-* **대비**: *0.0 - 1.0*\
-  결과의 대비를 조정합니다.
-* **손상 강도**: *0.0 - 1.0*&#x200B;벗겨진 일관된 모양과 무질서하고 긁힌 심하게 손상된 모양 사이에서 전환됩니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/edge-damages-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>곡률</b> <i>회색 음영 입력</i> | 효과 배치에 사용되는 베이킹된 맵. 필수! |
+| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 효과 배치에 사용되는 베이킹된 맵. 필수! |
+| <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>수준</b> <i>0.0 - 1.0</i> | 적용할 가장자리 손상의 양입니다. |
+| <b>대비</b> <i>0.0 - 1.0</i> | 결과의 대비를 조정합니다. |
+| <b>손상 강도</b> <i>0.0 - 1.0</i> | 낡고, 일관된 모습과 혼란스럽고, 긁히고, 심하게 손상된 모습 사이의 변화. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-damages.resources/edge-damages-ex.gif" />
+        </td>
+    </tr>
 </table>

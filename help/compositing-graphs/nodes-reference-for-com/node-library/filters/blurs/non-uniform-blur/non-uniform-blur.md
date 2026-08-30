@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 균일하지 않은 흐림 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '177'
+ht-degree: 9%
 
 ---
 
@@ -22,47 +22,52 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
-## 균일하지 않은 흐림(회색 음영)
-
-**내부:** *필터/흐림 효과*
-
-**중간**
+<b>인:</b> 필터 > 흐림 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 고품질 흐림 효과를 수행합니다. 여기서 강도는 입력 마스크에 의해 구동됩니다. 옵션을 사용하여 비등방성 및 측정 기능을 추가할 수 있습니다.
 
-## 매개변수
-
-### 입력
-
-* **흐림 효과 맵**: *회색 음영 입력*&#x200B;효과 강도로 마스크 맵.
-
-### 매개변수
-
-* **강도**: *0.0 - 50.0*&#x200B;흐림 효과를 적용할 최대 강도. 흐림 효과 맵으로 마스크되어 이 설정은 해당 맵의 검정 영역에는 영향을 주지 않습니다.
-* **비등방성**: *0.0 - 1.0*&#x200B;선택적으로 흐림 효과에 방향성을 추가합니다. 각도 매개변수에 의해 제어됩니다.
-* **비대칭**: *0.0 - 1.0*&#x200B;선택적으로 샘플링에 편의를 추가합니다. 각도 매개변수에 의해 제어됩니다.
-* **각도**: *0.0 - 1.0*&#x200B;각도 - 방향 및 샘플링 편향을 설정합니다.
-* **샘플**: *1 - 16*&#x200B;샘플 양에 따라 품질이 결정됩니다. 블레이드의 양을 곱합니다.
-* **블레이드**: *1 -* 9\
-  샘플링 섹터의 양은 품질을 결정합니다. 샘플 양을 곱합니다.
-
-## 예제 이미지
-
-*아래 예제는 [흐림 효과 맵] 슬롯의 90도 경사도에 의해 구동됩니다.*
-
-![](../../../../../../assets/nonuniform-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>흐림 효과 맵</b> <i>회색 음영 입력</i> | 마스크 맵을 사용하여 효과 강도를 설정합니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>강도</b> <i>0.0 - 50.0</i> | 흐림 효과를 적용할 최대 강도입니다. 흐림 효과 맵으로 마스크되어 이 설정은 해당 맵의 검정 영역에는 영향을 주지 않습니다. |
+| <b>비등방성</b> <i>0.0 - 1.0</i> | 필요에 따라 흐림 효과에 방향성을 추가합니다. 각도 매개변수에 의해 제어됩니다. |
+| <b>비대칭</b> <i>0.0 - 1.0</i> | 선택적으로 샘플링에 편의를 추가합니다. 각도 매개변수에 의해 제어됩니다. |
+| <b>각도</b> <i>0.0 - 1.0</i> | 각도 - 방향성과 샘플링 편향을 설정합니다. |
+| <b>샘플</b> <i>1 - 16</i> | 샘플의 양에 따라 품질이 결정됩니다. 블레이드의 양을 곱합니다. |
+| <b>블레이드</b> <i>1 - 9</i> | 샘플링 섹터의 양은 품질을 결정합니다. 샘플 양을 곱합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>아래 예제는 [흐림 효과 맵] 슬롯의 90도 경사도에 의해 구동됩니다.</i>
+        </td>
+    </tr>
 </table>

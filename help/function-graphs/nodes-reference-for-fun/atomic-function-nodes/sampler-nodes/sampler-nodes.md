@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 샘플러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Sampler 노드
 
-![Sampler 노드](../../../../assets/image2016-1-12-14-45-43.png "Sampler 노드")
+![Sampler 노드](sampler-nodes.resources/image2016-1-12-14-45-43.png "Sampler 노드")
 
 이러한 노드는 제공된 2D 좌표에서 입력 이미지의 값을 샘플링합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![픽셀 좌표](../../../../assets/samplercoords.png "픽셀 좌표")
+![픽셀 좌표](sampler-nodes.resources/samplercoords.png "픽셀 좌표")
 
 </td>
 </tr>
@@ -78,8 +78,8 @@ ht-degree: 1%
 값이 증가함에 따라 [0;1] 범위 위에 루프가 있습니다.\
 예: 3.4는 0.4이고, -1.7은 0.3입니다.
 
-<b>가장자리로 클램프</b>\
-[0;1] 범위를 가장 가까운 제한까지 값을 클램프합니다.\
+<b>가장자리로</b>\
+0, 1&rbrack; 범위\
 예: .3.4는 1이고, -1.7은 0입니다.
 
 +++

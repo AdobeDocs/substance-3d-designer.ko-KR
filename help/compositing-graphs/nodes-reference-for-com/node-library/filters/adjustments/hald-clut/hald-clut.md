@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 할드 클루트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '90'
 ht-degree: 4%
 
 ---
@@ -22,37 +22,46 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hald-clut.png){width="128px"}
+![](hald-clut.resources/hald-clut.png){width="128px"}
 
-## 할드 클루트
-
-**내부:** *필터/조정*
-
-**중간**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 입력 이미지에 LUT를 적용합니다. LUT는 4096\*4096 해상도에서 Hald 형식이어야 합니다. 자세한 내용은 <http://www.quelsolaar.com/technology/clut.html>을(를) 참조하십시오.
 
-### 입력
+</td>
+</tr>
+</table>
 
-* **입력**: *색상 입력*\
-  LUT를 적용할 이미지입니다.
-* **lut**: *색상 입력* Lut 입력 슬롯. 4096x4096이어야 합니다.
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력</b> <i>색상 입력</i> | LUT를 적용할 이미지입니다. |
+| <b>lut</b> <i>색상 입력</i> | Lut 입력 슬롯입니다. 4096x4096이어야 합니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-* **Alpha에 의한 LUT 강도**: *거짓/참* LUT 효과에 알파 채널이 가중치를 적용하는지 정의합니다.
+|  |  |
+|:---|:---|
+| <b>Alpha별 LUT 강도</b> <i>거짓/참</i> | LUT 효과가 알파 채널에 의해 가중되는지 여부를 정의합니다. |
 
-예
+## 예
 
-![](../../../../../../assets/content-hald-clut.jpg)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="hald-clut.resources/content-hald-clut.jpg" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 파노라마 회전
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation.png){width="200px"}
 
-## 파노라마 회전
-
-**내부:** *3D 보기/HDRI 도구*
-
-**단순**
+<b>내부:</b> 3D 보기 > HDRI 도구
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 입력 구형 파노라마 이미지를 중심점을 중심으로 회전하여 투영/매핑이 올바른지 유지합니다. HDRI 이미지를 기울이거나 조정하는 데 유용합니다.
 
-## 매개변수
-
-* **회전**: *0.0 - 1.0*
-* **방향 각도**: *0.0 - 1.0*
-* **극을 중심으로 사전 회전**: *-1.0 - 1.0*
-* **기둥을 중심으로 회전 게시**: *0.0 - 1.0*
-
-## 예제 이미지
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>회전</b> <i>0.0 - 1.0</i> |  |
+| <b>방향 각도</b> <i>0.0 - 1.0</i> |  |
+| <b>기둥을 중심으로 한 사전 회전</b> <i>-1.0 - 1.0</i> |  |
+| <b>기둥을 중심으로 회전 게시</b> <i>0.0 - 1.0</i> |  |

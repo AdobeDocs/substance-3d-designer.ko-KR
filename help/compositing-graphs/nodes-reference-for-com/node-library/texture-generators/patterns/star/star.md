@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 별
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/star-5.png)
+![](star.resources/star-5.png)
 
-## 별
-
-**인:** *텍스처 생성기**/패턴*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 5개의 점이 있는 별을 생성합니다.
 
-## 매개변수
-
-* **비율**: *0.0 - 1.0*\
-  전체 모양의 크기를 균일하게 조정합니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>크기 조절</b> <i>0.0 - 1.0</i> | 전체 모양의 크기를 균일하게 조정합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |

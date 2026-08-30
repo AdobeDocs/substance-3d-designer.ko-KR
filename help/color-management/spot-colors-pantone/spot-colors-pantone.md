@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 별색 (Pantone)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -48,26 +48,26 @@ ht-degree: 0%
 
 색상 관리를 설정한 경우에도 색상 피커는 기본적으로 RGB 또는 HSV 색상 피커로 설정됩니다. 이 색상을 별색으로 수동으로 전환해야 합니다. 이 설정은 매개 변수마다 저장되며 매개 변수를 노출할 때도 전달됩니다.
 
-1. RGB 색상 견본 옆의 ![](../../assets/image2021-1-25-9-40-40.png) <b>색상 피커 유형</b> 버튼을 클릭합니다.
+1. RGB 색상 견본 옆의 ![](spot-colors-pantone.resources/image2021-1-25-9-40-40.png) <b>색상 피커 유형</b> 버튼을 클릭합니다.
 1. <b>RGB 색상</b> 대신 드롭다운 목록에서 <b>색상 책</b>을 선택합니다.
-1. ![](../../assets/image2021-1-25-9-40-25.png) <b>색상 피커 유형</b>의 아이콘이 변경되고 해당 인터페이스가 <b>별색</b> 모드로 변경됩니다.
+1. ![](spot-colors-pantone.resources/image2021-1-25-9-40-25.png) <b>색상 피커 유형</b>의 아이콘이 변경되고 해당 인터페이스가 <b>별색</b> 모드로 변경됩니다.
 
-![별색 모드로 전환](../../assets/spot-switch.gif "별색 모드로 전환"){width="512px"}
+![별색 모드로 전환](spot-colors-pantone.resources/spot-switch.gif "별색 모드로 전환"){width="512px"}
 
 ### 별색 선택 및 찾기
 
 색상 책에서 별색을 찾아 선택하는 몇 가지 방법이 있습니다.
 
-* 책의 페이지 양쪽에서 ![](../../assets/image2021-1-25-10-40-28.png) ![](../../assets/image2021-1-25-10-40-53.png) <b>왼쪽 및 오른쪽 화살표</b>를 사용하여 페이지 사이를 이동할 수 있습니다. 페이지 표시를 클릭하고 드래그하여 페이지 간을 스크롤할 수도 있습니다.
+* 책의 페이지 양쪽에서 ![](spot-colors-pantone.resources/image2021-1-25-10-40-28.png) ![](spot-colors-pantone.resources/image2021-1-25-10-40-53.png) <b>왼쪽 및 오른쪽 화살표</b>를 사용하여 페이지 사이를 이동할 수 있습니다. 페이지 표시를 클릭하고 드래그하여 페이지 간을 스크롤할 수도 있습니다.
 * 현재 페이지에서 색상을 클릭하여 선택할 수 있습니다. 종종 더 많은 색상을 사용할 수 있으며 아래로 스크롤해야 합니다.
 * 검색 막대를 사용하여 이름 또는 번호로 색상을 검색할 수 있습니다. 이 검색은 책의 색상 이름만 일치하며, 복잡한 논리는 진행되지 않습니다. &quot;회색&quot;을 검색하면 이름에 &quot;회색&quot;이라는 단어가 포함된 결과만 표시되고, 이름에 숫자만 포함된 회색 색상은 표시되지 않습니다.
-* 색상 책의 더 크고 사용하기 쉬운 인터페이스를 얻으려면 ![](../../assets/image2021-1-25-10-39-18.png) <b>스포이드</b> 아이콘과 ![](../../assets/image2021-1-25-10-40-28.png) <b>왼쪽 화살표</b> 사이에 있는 색상 미리 보기 상자를 클릭하세요.
+* 색상 책의 더 크고 사용하기 쉬운 인터페이스를 얻으려면 ![](spot-colors-pantone.resources/image2021-1-25-10-39-18.png) <b>스포이드</b> 아이콘과 ![](spot-colors-pantone.resources/image2021-1-25-10-40-28.png) <b>왼쪽 화살표</b> 사이에 있는 색상 미리 보기 상자를 클릭하세요.
 
-![별색 검색](../../assets/spot-choose.gif "별색 검색"){width="512px"}
+![별색 검색](spot-colors-pantone.resources/spot-choose.gif "별색 검색"){width="512px"}
 
 ### 별색 선택 및 변환
 
-별색은 ![](../../assets/image2021-1-25-10-39-18.png) <b>스포이드</b> 도구를 사용하여 선택할 수 있습니다. [별색] 모드에 있는 경우 이 설정은 샘플링된 RGB 색상을 현재 선택한 책에서 가장 근접한 일치하는 별색으로 변환하는 것을 의미합니다.
+별색은 ![](spot-colors-pantone.resources/image2021-1-25-10-39-18.png) <b>스포이드</b> 도구를 사용하여 선택할 수 있습니다. [별색] 모드에 있는 경우 이 설정은 샘플링된 RGB 색상을 현재 선택한 책에서 가장 근접한 일치하는 별색으로 변환하는 것을 의미합니다.
 
 Designer의 <b>스포이드</b> 도구는 제한 없이 화면의 아무 곳에서나 사용할 수 있으므로 Designer을 별색 변환 도구로 사용할 수 있습니다.
 
@@ -77,4 +77,4 @@ Designer의 <b>스포이드</b> 도구는 제한 없이 화면의 아무 곳에�
 >
 > 책 간에 별색을 변환하면 손실이 발생합니다. 왕복 전환을 해도 처음에 사용했던 색상과 같은 색상이 나타나지 않는 경우가 많습니다.
 
-![별색 선택 및 변환](../../assets/spot-pick.gif "별색 선택 및 변환"){width="512px"}
+![별색 선택 및 변환](spot-colors-pantone.resources/spot-pick.gif "별색 선택 및 변환"){width="512px"}

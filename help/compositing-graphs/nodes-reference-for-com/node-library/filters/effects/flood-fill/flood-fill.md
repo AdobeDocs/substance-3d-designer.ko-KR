@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/floodfill.png){width="128px"}
 
-## Flood Fill
-
-**내부:** *필터/효과*
-
-**단순**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -47,20 +43,31 @@ Flood Fill은 기본 이진 타일 텍스처에 훨씬 더 많은 변형을 추�
 > 
 > 일반적으로 회색 음영, 경사 값을 사용할 때 타일이 완전히 검정색 픽셀로 분리되지 않으면 문제가 발생합니다. 결과에서 전체적으로 빨간색 값이 부족하거나 이상한 아티팩팅 선이 있어 이러한 점을 확인할 수 있습니다. 이러한 경우 입력 맵의 대비를 조정하거나 입력 맵을 전환합니다. 안전/속도(Safety/Speed) 할인 설정을 변경하여 어떤 것이 개선되는지 확인하십시오.
 
-## 매개변수
-
-* **안전/속도 트레이드 오프**: *단순하거나 작은 모양, 복잡하거나 큰 모양, 실패 모드 없음.*계산 모드를 입력 모양에 가장 적합하도록 설정합니다. 올바른 모드가 선택된 경우 훨씬 더 정확한 결과를 얻을 수 있습니다.
-* **고급 옵션**: *고급 매개 변수 및 출력/숨기기*
-* **안전/속도 무시**: *-1 - 100*&#x200B;고급 옵션만 표시 내부 기능을 재정의할 수 있습니다. 매우 고급 기능으로 고유한 효과를 만들거나 디버깅하는 데 사용됩니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-Flood Fill 결과의 좋은 그리고 나쁜 예.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>안전/속도 트레이드 오프</b> <i>단순하거나 작은 모양, 복잡하거나 큰 모양, 실패 모드 없음</i> | 입력 모양에 가장 적합한 계산 모드로 설정합니다. 올바른 모드가 선택된 경우 훨씬 더 정확한 결과를 얻을 수 있습니다. |
+| <b>고급 옵션</b> <i>고급 매개 변수 및 출력/숨기기</i> 표시 |  |
+| <b>안전/속도 무시</b> <i>-1 - 100</i> | 고급 옵션 이 켜져 있는 경우에만 표시됩니다. 내부 기능을 재정의할 수 있습니다. 매우 고급 기능으로 고유한 효과를 만들거나 디버깅하는 데 사용됩니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-ex1.png" />
+        </td>
+    </tr>
+</table>
+
+Flood Fill 결과의 좋은 그리고 나쁜 예.

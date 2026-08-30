@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 모양 선
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '158'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-stroke.png){width="128px"}
+![](shape-stroke.resources/shape-stroke.png){width="128px"}
 
-![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-grayscale.png){width="128px"}
 
-## 모양 선(회색 음영)
-
-**내부:** *필터/효과*
-
-**중간**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,20 +39,29 @@ ht-degree: 1%
 
 다양한 이미지 편집 효과에 매우 유용합니다.
 
-## 매개변수
-
-* **폭**: 선 효과의 *-1.0 - 1.0*&#x200B;폭.
-* **불투명도**: *0.0 - 1.0*\
-  효과의 전체 불투명도
-* **(윤곽선) 색상**: *(색상 값)*윤곽선 효과에 사용된 색상입니다.
-* **마스크 색상**: *(색상 값) *(회색 음영 버전만)**투명도 매핑 출력에 사용할 단색.
-* **입력이 미리 곱해졌습니다**: *False/True *(색상 버전만 해당)**입력이 미리 곱해졌다고 가정해야 하는지 여부.
-* **미리 곱하기 출력**: *False/True*&#x200B;미리 곱해야 하는지 여부를 지정합니다.
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapestroke-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>너비</b> <i>-1.0 - 1.0</i> | 선 효과의 폭입니다. |
+| <b>불투명도</b> <i>0.0 - 1.0</i> | 효과의 전체 불투명도 |
+| <b>(윤곽선) 색상</b> <i>(색상 값)</i> | 윤곽선 효과에 사용되는 색상입니다. |
+| <b>마스크 색상</b> <i>(색상 값)(회색 음영 버전만)</i> | 투명도 매핑 출력에 사용되는 단색입니다. |
+| <b>미리 곱하기</b> <i>False/True(색상 버전만)</i> | 입력을 미리 곱하기로 가정해야 하는지 여부입니다. |
+| <b>미리 곱하기 출력</b> <i>거짓/참</i> | 출력을 미리 곱해야 하는지 여부입니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-stroke.resources/shapestroke-ex.png" />
+        </td>
+    </tr>
 </table>

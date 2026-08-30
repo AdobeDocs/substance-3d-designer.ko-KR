@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 방사형 흐림 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 2%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur.png)![](radial-blur.resources/radial-blur-grayscale.png)
 
-## 방사형 흐림 효과(회색 음영)
-
-**내부:** *필터/흐림 효과*
-
-**단순**
+<b>인:</b> 필터 > 흐림 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 입력에 회전하는 동작 유형의 흐림 효과를 생성합니다.
 
-## 매개변수
-
-* **샘플**: *1 - 128*&#x200B;흐림 효과의 품질을 설정합니다.
-* **각도**: *0.0 - 0.5*&#x200B;효과의 &quot;회전&quot; 양을 설정합니다.
-* **가운데 위치**:\
-  효과의 중심점을 설정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/radial-blur-ex01.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>샘플</b> <i>1 - 128</i> | 흐림 효과 품질을 설정합니다. |
+| <b>각도</b> <i>0.0 - 0.5</i> | 효과의 &quot;회전&quot; 양을 설정합니다. |
+| <b>가운데 위치</b> | 효과의 중심점을 설정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="radial-blur.resources/radial-blur-ex01.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 곡선
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 곡선](../../../../assets/comp_curve_1.png "원자 노드: 곡선"){width="200px"}
+![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 점을 만들려면 곡선 보기의 아무 곳이나 두 번 클릭하면 됩니다.
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif)
 
 ### 점 영향 제어
 
@@ -112,31 +112,31 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png) 지점 모드를 기본값으로 다시 설정합니다.
+![](curve.resources/image2017-2-17-14-13-27.png) 지점 모드를 기본값으로 다시 설정합니다.
 
-![](../../../../assets/image2017-2-17-14-12-6.png) 사용자가 함께 또는 독립적으로 이동할 수 있도록 2 베지어 핸들러를 잠그거나 잠금 해제합니다.
+![](curve.resources/image2017-2-17-14-12-6.png) 사용자가 함께 또는 독립적으로 이동할 수 있도록 2 베지어 핸들러를 잠그거나 잠금 해제합니다.
 
-![](../../../../assets/image2017-2-17-14-14-0.png) 지점의 양쪽은 베지어 처리기로 제어됩니다.
+![](curve.resources/image2017-2-17-14-14-0.png) 지점의 양쪽은 베지어 처리기로 제어됩니다.
 
-![](../../../../assets/image2017-2-17-14-16-22.png) 지점의 오른쪽은 베지어 핸들러에 의해 제어되고 왼쪽은 평평하게 유지됩니다.
+![](curve.resources/image2017-2-17-14-16-22.png) 지점의 오른쪽은 베지어 핸들러에 의해 제어되고 왼쪽은 평평하게 유지됩니다.
 
-![](../../../../assets/image2017-2-17-14-18-25.png) 점의 왼쪽은 베지어 핸들러에 의해 제어되고 오른쪽은 평평하게 유지됩니다.
+![](curve.resources/image2017-2-17-14-18-25.png) 점의 왼쪽은 베지어 핸들러에 의해 제어되고 오른쪽은 평평하게 유지됩니다.
 
-![](../../../../assets/image2017-2-17-14-19-32.png) 점 면이 평평하게 유지됩니다
+![](curve.resources/image2017-2-17-14-19-32.png) 점 면이 평평하게 유지됩니다
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curvepointsmodes.gif)
 
 ### 입력 막대 그래프 표시
 
-![](../../../../assets/image2017-2-17-14-50-13.png)을(를) 클릭하기만 하면 입력 히스토그램을 표시하거나 숨길 수 있습니다.
+![](curve.resources/image2017-2-17-14-50-13.png)을(를) 클릭하기만 하면 입력 히스토그램을 표시하거나 숨길 수 있습니다.
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/image2017-2-17-14-48-35.png)
 
 ### 각 채널을 개별적으로 제어(색상 입력)
 
@@ -151,15 +151,15 @@ ht-degree: 2%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-RGB 곡선 모드에서 ![](../../../../assets/image2017-2-17-14-55-0.png)을(를) 누르거나 눌러 개별 채널 곡선을 숨기거나 표시할 수 있습니다.
+RGB 곡선 모드에서 ![](curve.resources/image2017-2-17-14-55-0.png)을(를) 누르거나 눌러 개별 채널 곡선을 숨기거나 표시할 수 있습니다.
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/image2017-2-17-14-55-38.png)
 
 ### 정렬, 미러링 및 뒤집기
 
@@ -178,7 +178,7 @@ RGB 곡선 모드에서 ![](../../../../assets/image2017-2-17-14-55-0.png)을(�
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ RGB 곡선 모드에서 ![](../../../../assets/image2017-2-17-14-55-0.png)을(�
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/ctrl.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ X축 또는 Y축의 움직임을 제한합니다.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/shift.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ X축 또는 Y축의 움직임을 제한합니다.
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/altclick.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ X축 또는 Y축의 움직임을 제한합니다.
 
 처리기를 조정하는 동안 하나의 처리기가 곡선 보기를 넘는 경우 오류가 발생할 수 있습니다.
 
-이 경우 ![](../../../../assets/image2017-2-20-19-11-53.png) 단추를 사용하여 콘텐츠에 크기를 맞출 수 있습니다.
+이 경우 ![](curve.resources/image2017-2-20-19-11-53.png) 단추를 사용하여 콘텐츠에 크기를 맞출 수 있습니다.
 
-![](../../../../assets/image2017-2-20-19-12-45.png) 단추를 사용하면 확대/축소 수준이 1로 재설정됩니다
+![](curve.resources/image2017-2-20-19-12-45.png) 단추를 사용하면 확대/축소 수준이 1로 재설정됩니다
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/viewzoom.gif)
 
 ## 입력 커넥터
 

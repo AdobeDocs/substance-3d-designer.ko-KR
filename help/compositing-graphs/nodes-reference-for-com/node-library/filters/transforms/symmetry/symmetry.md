@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 대칭
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-9.png){width="128px"}
 
-## 대칭
-
-**내부:** *필터/변형*
-
-**중간**
+<b>필터</b>:
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,17 +37,25 @@ ht-degree: 4%
 
 이 노드는 [거울](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md)과(와) 매우 비슷하지만 혼합 모드를 위한 추가 컨트롤이 있습니다.
 
-## 매개변수
-
-* **대칭 모드**: *대칭 모드: 대칭 Y, 거울 X, 대각선 왼쪽, 대각선 오른쪽, 거울 X/Y, 거울 X/거울 Y, 대각선 왼쪽/대각선 오른쪽, 대각선 오른쪽/대각선 왼쪽, 8*&#x200B;대칭 기하학적 모드를 선택합니다.
-* **전송 모드**: *0 - 6*&#x200B;대칭 혼합 모드 선택: 복사, 추가, 빼기, 곱하기, 하위 추가, 최대, 최소.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>대칭 모드</b> <i>미러 Y, 미러 X, 대각선 왼쪽, 대각선 오른쪽, 미러 X/Y, 미러 X / 미러 Y, 대각선 왼쪽 / 대각선 오른쪽, 대각선 오른쪽 / 대각선 왼쪽, 8</i> | 대칭 형상 모드를 선택합니다. |
+| <b>전송 모드</b> <i>0 - 6</i> | 대칭 혼합 모드(복사, 추가, 빼기, 곱하기, 하위 추가, 최대, 최소)를 선택합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-ex.png" />
+        </td>
+    </tr>
 </table>

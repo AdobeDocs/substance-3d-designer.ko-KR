@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 노출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-9.png){width="250px"}
 
-## 노출
-
-**내부:** *3D 보기/HDRI 도구*
-
-**단순**
+<b>내부:</b> 3D 보기 > HDRI 도구
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 입력 이미지의 노출을 조정합니다. 사진 편집 소프트웨어에서처럼 &quot;중지&quot; 값 개념을 사용하여 HDR 사진을 밝게 하거나 어둡게 합니다.
 
-## 매개변수
-
-* **노출(EV)** : *-8.0 - 8.0*&#x200B;노출 값(중지됨).
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>노출(EV)</b> <i>-8.0 - 8.0</i> | 노출 값, 중지점 |

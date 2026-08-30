@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 샘플 Substance 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 6%
@@ -32,12 +32,12 @@ ht-degree: 6%
 
 이 프로젝트에서는 다른 그래프에서 필터로 사용할 간단한 그래프 설정을 제공합니다. [필터](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)는 하나 이상의 입력 이미지를 수정 및/또는 혼합하는 노드입니다.
 
-[![샘플 파일 아이콘 필터링](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[![샘플 파일 아이콘 필터링](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Filters&#39; 샘플](../../assets/demo-filter.png "&#39;Filters&#39; 샘플"){zoomable="yes"}
+![&#39;Filters&#39; 샘플](sample-substance-compositing-graphs.resources/demo-filter.png "&#39;Filters&#39; 샘플"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ ht-degree: 6%
 
 문서의 [이 페이지](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)에서 상속에 대해 알아볼 수 있습니다.
 
-[![상속 샘플 파일 아이콘](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[![상속 샘플 파일 아이콘](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;상속&#39; 샘플](../../assets/demo-inheritance.png "&#39;상속&#39; 샘플"){zoomable="yes"}
+![&#39;상속&#39; 샘플](sample-substance-compositing-graphs.resources/demo-inheritance.png "&#39;상속&#39; 샘플"){zoomable="yes"}
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ ht-degree: 6%
 
 [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 노드는 Designer에서 가장 복잡하면서도 강력한 노드 중 하나이며, 이 노드의 작업을 이해하면 그래프에 상당한 수준의 성능과 유연성이 제공되므로 보다 다양한 사용자 정의 노드를 만들 수 있습니다.
 
-이 프로젝트에서는 픽셀 프로세서에 대해 생성기와 필터라는 두 가지 간단한 사용 사례를 보여 줍니다. [함수 그래프](../../function-graphs/function-graphs.md)로 더 많은 작업을 수행하는 데에도 디딤돌이 됩니다.
+이 프로젝트에서는 생성기와 필터라는 두 가지 간단한 픽셀 프로세서 사용 사례를 보여 줍니다. [함수 그래프](../../function-graphs/function-graphs.md)로 더 많은 작업을 수행하는 데에도 디딤돌이 됩니다.
 
-[![픽셀 프로세서 샘플 파일 아이콘](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[![픽셀 프로세서 샘플 파일 아이콘](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;픽셀 프로세서&#39; 샘플](../../assets/demo-pixel-processor.png "&#39;픽셀 프로세서&#39; 샘플"){zoomable="yes"}
+![&#39;픽셀 프로세서&#39; 샘플](sample-substance-compositing-graphs.resources/demo-pixel-processor.png "&#39;픽셀 프로세서&#39; 샘플"){zoomable="yes"}
 
 </td>
 </tr>

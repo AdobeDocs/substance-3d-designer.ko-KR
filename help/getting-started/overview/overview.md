@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 개요
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 다른 애플리케이션과 비교한 내용은 다음과 같습니다.
 
-|  | <div><img alt="Substance 3D Sampler 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Sampler 아이콘" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer 아이콘" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Sampler 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Sampler 아이콘" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer 아이콘" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>학습 곡선</b> | 저 | 중 | 높음 |
 | <b>작성자 자료</b> | 예 | 예 | 예 |
@@ -60,7 +60,7 @@ Substance 3D Designer은 노드 기반의 편집기로 다양한 복잡성으로
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### Substance 3D 파일
 
@@ -71,7 +71,7 @@ Substance 파일은 Designer의 **기본 소스 파일**&#x200B;입니다. Subst
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Substance 3D 에셋
 
@@ -82,7 +82,7 @@ Substance 아카이브는 <b>개 컴파일되고 </b>개의 Substance 파일이 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### 정적 파일
 
@@ -104,7 +104,7 @@ Substance 3D 파일에는 다양한 용도로 사용되는 다양한 리소스�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -154,7 +154,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 다음과 같은 리소스 유형이 있습니다.
 
 * [비트맵](../../resources/bitmap-resource/bitmap-resource.md)
-* [벡터 그래픽 (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [벡터 그래픽(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [3D 장면](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [글꼴](../../resources/font-resource/font-resource.md)
 * [AxF 파일](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 상수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2cb8395834eb64124ebadb2cd051aead9babfa69
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 상수 정수는 정수를 생성하며 1의 단계를 가진다.
 
-[Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)(으)로 변환할 수 있습니다. 이 변환은 추가, 빼기 및 단순 비교보다 복잡한 작업을 수행할 때 권장됩니다.
+[부동](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)(으)로 변환할 수 있습니다. 이 변환은 추가, 빼기 및 단순 비교보다 복잡한 작업을 수행할 때 권장됩니다.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![정수 형식 아이콘](../../../../assets/fn-constant-integer.png "정수 형식 아이콘")
+![정수 형식 아이콘](constant.resources/fn-constant-integer.png "정수 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 형식 아이콘](../../../../assets/fn-constant-integer2.png "Integer2 형식 아이콘")
+![Integer2 형식 아이콘](constant.resources/fn-constant-integer2.png "Integer2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Integer2의 일반적인 사용 사례 중 하나는 [Tile Generator](../../../.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 형식 아이콘](../../../../assets/fn-constant-integer3.png "Integer3 형식 아이콘")
+![Integer3 형식 아이콘](constant.resources/fn-constant-integer3.png "Integer3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Integer3 노드는 (X, Y, Z) 성분을 갖는 정적 3-성분 정수 벡터를 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 형식 아이콘](../../../../assets/fn-constant-integer4.png "Integer4 형식 아이콘")
+![Integer4 형식 아이콘](constant.resources/fn-constant-integer4.png "Integer4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -118,22 +118,22 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 
 ## 부동
 
-상수 부동 소수점 값은 소수점 기호 이후의 값을 지원하며 1보다 작은 단계로 조정할 수 있습니다. (기본값: 0.01)
+상수 부동 값은 분수를 생성합니다. 즉, 소수점 기호 이후의 값을 지원하며 1보다 작은 단계로 조정할 수 있습니다. (기본값: 0.01)
 
-[부동 소수점 수는 정수](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)로 변환할 수 있지만 반올림하거나 가장 가까운 정수로 내려갑니다. 데이터 및 정확도가 손실됩니다.
+[부동을 정수](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)(으)로 변환할 수 있지만 반올림하거나 가장 가까운 정수로 내려서 데이터와 정확도가 손실됩니다.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 형식 아이콘](../../../../assets/fn-constant-float.png "부동 형식 아이콘")
+![부동 유형 아이콘](constant.resources/fn-constant-float.png "부동 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>부동</b>
 
-플로트는 단일 컴포넌트를 가지며 정밀도가 필요한 모든 단일 값에 매우 일반적으로 사용됩니다.
+부동은 단일 구성 요소를 가지며 정밀도가 필요한 모든 단일 값에 매우 일반적으로 사용됩니다.
 
 </td>
 </tr>
@@ -143,16 +143,16 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 형식 아이콘](../../../../assets/fn-constant-float2.png "Float2 형식 아이콘")
+![부동 2 형식 아이콘](constant.resources/fn-constant-float2.png "부동 2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float2</b>
 
-Float2 노드는 (X, Y) 성분을 갖는 2-성분 벡터를 생성한다.
+부동2 노드는 (X, Y) 성분을 갖는 2-성분 벡터를 생성한다.
 
-Float2는 일반적으로 [샘플링 좌표](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [오프셋 변환](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) 및 일반적인 2D 벡터 조작에 사용됩니다.
+부동2는 [샘플링 좌표](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), [오프셋 변환](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md) 및 일반적인 2D 벡터 조작에 일반적으로 사용됩니다.
 
 </td>
 </tr>
@@ -162,16 +162,16 @@ Float2는 일반적으로 [샘플링 좌표](../../../../function-graphs/nodes-r
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 형식 아이콘](../../../../assets/fn-constant-float3.png "Float3 형식 아이콘")
+![부동 3 형식 아이콘](constant.resources/fn-constant-float3.png "부동 3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float3</b>
 
-Float3 노드는 3성분 (X, Y, Z) 벡터를 생성한다.
+부동3 노드는 3-성분 (X, Y, Z) 벡터를 생성한다.
 
-Float3는 [3D SDF 노드](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)와 같이 3D 개체와 [3D 배율 좌표](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)를 사용하여 작업할 때, 그리고 Alpha 없이 RGB 색상을 저장하는 간단한 방법으로 주로 사용됩니다.
+부동3은 [3D SDF 노드](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)와 같이 3D 개체와 [3D 비율 좌표](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)를 사용하여 작업할 때 주로 사용되며 RGB 색상을 저장하는 보다 간단한 방법(예: Alpha 없이)으로 사용됩니다.
 
 </td>
 </tr>
@@ -181,16 +181,16 @@ Float3는 [3D SDF 노드](../../../../function-graphs/nodes-reference-for-fun/fu
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 형식 아이콘](../../../../assets/fn-constant-float4.png "Float4 형식 아이콘")
+![부동 4 형식 아이콘](constant.resources/fn-constant-float4.png "부동 4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>Float4</b>
 
-Float4는 4성분 (X, Y, Z, W) 벡터를 생성한다.
+부동 4는 4-성분 (X, Y, Z, W) 벡터를 생성한다.
 
-Float4는 [균일 색상 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)에서와 같이 XYZW 값이 RGBA에 매핑되는 색상 정보를 저장하고 설정하는 기본 방법입니다.
+부동4는 [균일 색상 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)에서와 같이 XYZW 값이 RGBA에 매핑되는 색상 정보를 저장하고 설정하는 기본 방법입니다.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Float4는 [균일 색상 노드](../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부울 유형 아이콘](../../../../assets/fn-constant-boolean.png "부울 유형 아이콘")
+![부울 유형 아이콘](constant.resources/fn-constant-boolean.png "부울 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

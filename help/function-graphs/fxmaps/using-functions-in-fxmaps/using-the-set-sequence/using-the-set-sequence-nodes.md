@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SetSequence 노드 사용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 설정 및 시퀀스](../../../../assets/image2017-3-17-15-5-5.png "노드 설정 및 시퀀스")
+![노드 설정 및 시퀀스](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "노드 설정 및 시퀀스")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![노드 설정](../../../../assets/image2017-3-17-15-12-52.png "노드 설정")
+![노드 설정](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "노드 설정")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 설정](../../../../assets/image2018-8-30-17-45-35.png "노드 예 설정")
+![노드 예 설정](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "노드 예 설정")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![시퀀스 노드](../../../../assets/image2017-3-17-15-17-38.png "시퀀스 노드")
+![시퀀스 노드](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "시퀀스 노드")
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![시퀀스 노드 예](../../../../assets/image2018-8-30-17-49-41.png "시퀀스 노드 예")
+![시퀀스 노드 예](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "시퀀스 노드 예")
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 예를 들어, 먼저 변수를 *설정*&#x200B;하고, 나중에 값을 *업데이트*&#x200B;한 다음 최종 값을 *읽기*&#x200B;할 수 있으며, 이러한 동작이 *특정 순서로 발생하는지 확인합니다*.
 
-![시퀀스 노드 연결](../../../../assets/image2018-8-30-17-52-27.png "시퀀스 노드 연결")
+![시퀀스 노드 연결](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "시퀀스 노드 연결")
 
 ## 가변 가시성
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![사분면 속성](../../../../assets/image2018-8-30-18-1-6.png "사분면 속성")
+![사분면 속성](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "사분면 속성")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![사분면 색상/광도 함수](../../../../assets/image2018-8-30-18-4-46.png "사분면 색상/광도 함수")
+![사분면 색상/광도 함수](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "사분면 색상/광도 함수")
 
 </td>
 </tr>
 </table>
 
-![흩어진 패턴](../../../../assets/image2018-8-30-18-5-30.png "흩어진 패턴")
+![흩어진 패턴](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "흩어진 패턴")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![패턴 회전의 매개 변수 함수 메뉴](../../../../assets/image2018-8-30-18-7-57.png "패턴 회전의 매개 변수 함수 메뉴")
+![패턴 회전의 매개 변수 함수 메뉴](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "패턴 회전의 매개 변수 함수 메뉴")
 
 </td>
 </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-함수에서 **Get Float** 노드를 사용하여 `myRotation` 매개 변수의 값을 읽습니다. 변수에 float 값이 포함되어 있다는 것을 알고 있으며 이를 함수의 출력으로 설정합니다.
+함수에서 **부동 가져오기** 노드를 사용하여 `myRotation` 매개 변수의 값을 읽습니다. 변수에 float 값이 포함되어 있다는 것을 알고 있으며 함수의 출력으로 설정합니다.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![패턴 회전의 부동 소수점 출력 가져오기](../../../../assets/image2018-8-30-18-10-58.png "패턴 회전의 부동 소수점 출력 가져오기")
+![패턴 회전의 부동 소수점 출력 가져오기](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "패턴 회전의 부동 소수점 출력 가져오기")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ ht-degree: 0%
 
 이제 광도도 회전을 제어합니다.
 
-![회전된 패턴](../../../../assets/image2018-8-30-18-12-25.png "회전된 패턴")
+![회전된 패턴](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "회전된 패턴")

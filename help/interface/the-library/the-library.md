@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 라이브러리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에는 Substance 3D Designer의 **라이브러리** 패널, 해당 레이아웃 및 콘텐츠 검색 및 필터링을 위해 제공하는 도구가 표시됩니다.
 
-![라이브러리](../../assets/library-main.png "라이브러리")
+![라이브러리](the-library.resources/library-main.png "라이브러리")
 
 ## 개요
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 * [원자 노드](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에 대한 원자 노드를 나열합니다.
 * [FX-Map 노드](../../function-graphs/fxmaps/fxmaps.md): [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 노드에서 계산한 그래프와 관련된 노드를 포함합니다.
 * [함수 노드](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md): [함수 그래프](../../function-graphs/function-graphs.md)에 대한 원자 노드를 나열합니다.
-* [텍스처 생성기](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/texture-generators.md): 콘텐츠를 자체적으로 생성하는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 나타내는 노드를 포함합니다
+* [텍스처 생성기](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/texture-generators.md): 콘텐츠를 자체적으로 생성하는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 나타내는 노드를 포함합니다.
 * [필터](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md): 입력을 수정하는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 나타내는 노드를 포함합니다.
 * [스플라인 및 패스 도구](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md): [스플라인](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) 및 [패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md) 노드의 카탈로그
 * [SDF 함수](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions): [모양 스플래터 v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 및 [3D 뷰어](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) 노드와 함께 사용할 3D SDF 함수를 작성하는 노드를 포함합니다.
@@ -103,7 +103,7 @@ ht-degree: 0%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![라이브러리에서 노드 삭제](../../assets/library-create-node.gif "라이브러리에서 노드 삭제")
+![라이브러리에서 노드 삭제](the-library.resources/library-create-node.gif "라이브러리에서 노드 삭제")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ ht-degree: 0%
 ### 이름으로 에셋 검색
 
 <b>콘텐츠</b> 섹션의 왼쪽 상단에 있는 <b>검색</b> 막대를 사용하면 *이름으로 모든 에셋*&#x200B;을 검색할 수 있습니다. 이러한 방식으로 콘텐츠를 검색할 때 <b>범주</b> 섹션의 현재 선택 항목은 무시되고 <b>라이브러리</b>의 *전체 콘텐츠*&#x200B;가 검색됩니다.\
-<b>검색</b> 막대 옆에 있는 ![](../../assets/library-icon-search-filter.png) <b>필터링 기준...</b> 아이콘을 사용하여 *그래프 유형*&#x200B;별로 검색 결과를 필터링할 수 있습니다.
+<b>검색</b> 막대 옆에 있는 ![](the-library.resources/library-icon-search-filter.png) <b>필터링 기준...</b> 아이콘을 사용하여 *그래프 유형*&#x200B;별로 검색 결과를 필터링할 수 있습니다.
 
 >[!NOTE]
 >
 > 검색 표시줄은 찾고 있는 에셋의 이름뿐만 아니라 에셋이 포함할 수 있는 *태그* 또는 에셋이 속한 *범주*&#x200B;도 고려합니다.\
 > 예를 들어 &#39;*표준*&#39;을 입력하면 표준 맵을 생성하거나 수정하는 데 사용할 수 있는 모든 에셋이 나열됩니다. 이는 새로운 노드, 따라서 새로운 가능성을 발견하는 좋은 방법입니다!
 
-![라이브러리에서 에셋 검색](../../assets/library-search-2.png "라이브러리에서 에셋 검색")
+![라이브러리에서 에셋 검색](the-library.resources/library-search-2.png "라이브러리에서 에셋 검색")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ ht-degree: 0%
 
 ### 라이브러리 에셋 시각화
 
-![](../../assets/library-icon-view-mode.png) <b>표시 모드</b> 드롭다운 단추를 사용하여 콘텐츠 항목의 표시 크기를 선택할 수 있습니다.
+![](the-library.resources/library-icon-view-mode.png) <b>표시 모드</b> 드롭다운 단추를 사용하여 콘텐츠 항목의 표시 크기를 선택할 수 있습니다.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![라이브러리 에셋 보기 모드](../../assets/library-display-modes.png "라이브러리 에셋 보기 모드")
+![라이브러리 에셋 보기 모드](the-library.resources/library-display-modes.png "라이브러리 에셋 보기 모드")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/library-icon-toggle-label.png) **레이블 전환** 단추를 사용하면 노드의 레이블을 표시하거나 숨길 수 있습니다.
+![](the-library.resources/library-icon-toggle-label.png) **레이블 전환** 단추를 사용하면 노드의 레이블을 표시하거나 숨길 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![레이블 토글](../../assets/library-toggle-label.png "레이블 토글")
+![레이블 토글](the-library.resources/library-toggle-label.png "레이블 토글")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![에셋 정보 도구 설명](../../assets/library-item-tooltip.png "에셋 정보 도구 설명")
+![에셋 정보 도구 설명](the-library.resources/library-item-tooltip.png "에셋 정보 도구 설명")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ ht-degree: 0%
 
 ### 즐겨찾기
 
-![](../../assets/library-icon-favoritepng.png) <b>즐겨찾기에 추가</b> 단추를 사용하여 <b>콘텐츠</b> 섹션의 항목을 <b>즐겨찾기</b> 목록에 추가할 수 있습니다. 또한 이 목록에 이미 추가된 경우 이 단추를 사용하여 이 목록에서 콘텐츠를 *제거*&#x200B;할 수 있습니다.\
+![](the-library.resources/library-icon-favoritepng.png) <b>즐겨찾기에 추가</b> 단추를 사용하여 <b>콘텐츠</b> 섹션의 항목을 <b>즐겨찾기</b> 목록에 추가할 수 있습니다. 또한 이 목록에 이미 추가된 경우 이 단추를 사용하여 이 목록에서 콘텐츠를 *제거*&#x200B;할 수 있습니다.\
 이 목록에 콘텐츠를 추가하면 <b>라이브러리</b>의 <b>즐겨찾기</b> 범주에서 사용할 수 있으며, 검색어가 일치하는 경우 그래프에서 노드를 검색할 때 <b>노드</b> 메뉴 목록의 *상단*&#x200B;에 표시됩니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![라이브러리의 즐겨찾기](../../assets/library-favourites.png "라이브러리의 즐겨찾기")
+![라이브러리의 즐겨찾기](the-library.resources/library-favourites.png "라이브러리의 즐겨찾기")
 
 </td>
 </tr>

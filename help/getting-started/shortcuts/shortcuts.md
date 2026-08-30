@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 단축키
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 16%
@@ -32,11 +32,11 @@ ht-degree: 16%
 
 **Windows**
 
-![Windows의 키보드 단축키](../../assets/keyboard_shortcuts_win.png "Windows의 키보드 단축키"){zoomable="yes"}
+![Windows의 키보드 단축키](shortcuts.resources/keyboard_shortcuts_win.png "Windows의 키보드 단축키"){zoomable="yes"}
 
 **macOS**
 
-![macOS 키보드 단축키](../../assets/keyboard_shortcuts_mac.png "macOS 키보드 단축키"){zoomable="yes"}
+![macOS 키보드 단축키](shortcuts.resources/keyboard_shortcuts_mac.png "macOS 키보드 단축키"){zoomable="yes"}
 
 ## 단축키 목록
 

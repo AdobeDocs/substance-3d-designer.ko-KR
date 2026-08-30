@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 가장자리 Dirt
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '160'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-dirt.png){width="128px"}
+![](edge-dirt.resources/edge-dirt.png){width="128px"}
 
-## 가장자리 Dirt
-
-**내부:** *메시 기반 생성기**/마스크 생성기*
-
-**단순**
+<b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,30 +37,37 @@ ht-degree: 2%
 
 이 마스크는 곡률 맵만을 기준으로 가장자리 주변에 누적되는 Dirt 효과를 나타냅니다.
 
-## 매개변수
-
-### 입력
-
-* **곡률**: *회색 음영 입력*\
-  효과 배치에 사용되는 베이킹된 맵. 필수!
-* **변형 마스크**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯으로, 재정의 매개 변수가 활성화된 경우에만 사용됩니다.
-* **마스크(선택 사항)**: *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다.
-
-### 매개변수
-
-* **수준**: *0.0 - 1.0*\
-  Dirt 양을 설정합니다.
-* **대비**: *0.0 - 1.0*\
-  결과의 대비를 조정합니다.
-* **변형**: *0.0 - 1.0*&#x200B;대규모 마스크/분리 발생 정도를 혼합합니다.
-* **변형 마스크 재정의**: *False/True*
-
-## 예제 이미지
-
-![](../../../../../../assets/edge-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>곡률</b> <i>회색 음영 입력</i> | 효과 배치에 사용되는 베이킹된 맵. 필수! |
+| <b>변형 마스크</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯으로, 재정의 매개 변수가 활성화된 경우에만 사용됩니다. |
+| <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>수준</b> <i>0.0 - 1.0</i> | Dirt 양을 설정합니다. |
+| <b>대비</b> <i>0.0 - 1.0</i> | 결과의 대비를 조정합니다. |
+| <b>변형</b> <i>0.0 - 1.0</i> | 대규모 마스킹/해체 작업의 양 혼합. |
+| <b>변형 마스크 재정의</b> <i>거짓/참</i> |  |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-dirt.resources/edge-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

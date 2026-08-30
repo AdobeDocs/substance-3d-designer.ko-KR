@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 사용자 인터페이스 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 5%
@@ -28,14 +28,14 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![(出错)](../../assets/error.svg) 문제**
+**![(出错)](user-interface-issues.resources/error.svg) 문제**
 
 사용자 인터페이스 요소가 너무 작거나 너무 큽니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg) 권장 단계**
+**![(滴答)](user-interface-issues.resources/check.svg) 권장 단계**
 
 Designer은 OS *에서 사용자 인터페이스 요소*&#x200B;의 특정 크기를 획득합니다. 따라서 사용자 인터페이스의 비율 조정은 OS의 디스플레이 설정에서 수행해야 합니다.
 

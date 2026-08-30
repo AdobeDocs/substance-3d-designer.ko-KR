@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 벽돌 생성기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 0%
+source-wordcount: '211'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
-## 벽돌 생성기
-
-**인:** *텍스처 생성기**/패턴*
-
-**중간**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,26 +37,35 @@ ht-degree: 0%
 
 추가 옵션은 [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)을 참조하세요.
 
-## 매개변수
-
-* **벽돌**: *1 - 64* X축과 Y축 모두의 벽돌 양을 설정합니다.
-* **경사**: *0.0 - 1.0*&#x200B;벽돌의 경사 프로필을 변경하고 두 방향으로 변경할 수 있으며 밝기 감소 프로필과 모퉁이 라운딩을 설정할 수 있습니다.
-* **비율 유지**: *거짓/참*&#x200B;경사 프로필을 벽돌 크기에 연결하거나 연결하지 않도록 설정합니다.
-* **간격**: *0.0 - 1.0*&#x200B;벽돌 사이에 둘 간격. [경사]에는 간격이 추가된다는 점에 유의하십시오. 따라서 경사를 설정해도 이 매개 변수로 보정해야 합니다.
-* **중간 크기**: *0.0 - 1.0*&#x200B;브릭 패턴 오프셋으로, 다른 모든 열 또는 행의 크기를 변경합니다.
-* **Height**: *-1.0 - 1.0* Height 프로필을 수정합니다. 광도 변형 및 모든 종류의 임의화를 사용할 수 있습니다.
-* **경사**: *-1.0 - 1.0*&#x200B;특정 벽돌이 비스듬히 누워있는 것처럼 벽돌마다 경사를 도입합니다.
-* **오프셋**: *0.0 - 1.0*\
-  행 기준으로 벽돌을 오프셋하고 행별 간격에 영향을 줍니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/brick-generator-ex-01.gif)
-
-![](../../../../../../assets/brick-generator-ex-02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>벽돌</b> <i>1 - 64</i> | X축과 Y축 모두에서 벽돌의 양을 설정합니다. |
+| <b>경사</b> <i>0.0 - 1.0</i> | 벽돌의 경사 프로파일을 변경하여 두 방향으로 변경할 수 있고 밝기 감소 프로파일 및 모퉁이 둥글게 설정할 수 있습니다. |
+| <b>비율 유지</b> <i>거짓/참</i> | [경사] 프로파일을 벽돌 크기에 연결하거나 연결하지 않습니다. |
+| <b>간격</b> <i>0.0 - 1.0</i> | 벽돌 사이에 남겨 둘 간격. [경사]에는 간격이 추가된다는 점에 유의하십시오. 따라서 경사를 설정해도 이 매개 변수로 보정해야 합니다. |
+| <b>중간 크기</b> <i>0.0 - 1.0</i> | 벽돌 패턴 오프셋은 다른 모든 열 또는 행의 크기를 변경합니다. |
+| <b>Height</b> <i>-1.0 - 1.0</i> | Height 프로필을 수정합니다. 광도 변형 및 모든 종류의 임의화를 사용할 수 있습니다. |
+| <b>경사</b> <i>-1.0 - 1.0</i> | 특정 벽돌이 비스듬히 누워있는 것처럼 벽돌마다 경사를 도입합니다. |
+| <b>오프셋</b> <i>0.0 - 1.0</i> | 행 기준으로 벽돌을 오프셋하고 행별 간격에 영향을 줍니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
+        </td>
+    </tr>
 </table>

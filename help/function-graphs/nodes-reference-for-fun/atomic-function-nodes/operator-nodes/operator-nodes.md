@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 연산자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 
 연산자 노드를 사용하면 입력 노드에서 고전적인 수학 연산을 수행할 수 있습니다.
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/image2015-12-23-10-55-31.png)
 
 >[!NOTE]
 >
-> 나눗셈과 셈법의 경우 제수가 더 낮은 입력값입니다.
+> 나눗셈과 모듈로의 경우 제수가 더 낮은 입력값입니다.
 > 
 > 빼기의 경우 빼기 값도 더 낮은 입력입니다.

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 모피 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 2%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
@@ -22,36 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-1.png){width="128px"}
+![](fur-1.resources/fur-1.png){width="128px"}
 
-## 모피 1
-
-**내부:** *텍스처 생성기**/잡음*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 이 경우 직선 유형의 소음이 발생합니다.
 
-## 매개변수
-
-* **비율**: *1 - 8*\
-  효과의 전체 배율을 설정합니다.
-* **장애**: *0.0 - 1.0*\
-  작은 변화를 가져오기 위해 노이즈를 위상 이동합니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/fur-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>크기 조절</b> <i>1 - 8</i> | 효과의 전체 배율을 설정합니다. |
+| <b>장애</b> <i>0.0 - 1.0</i> | 작은 변화를 가져오기 위해 노이즈를 위상 이동합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fur-1.resources/fur-1-ex.gif" />
+        </td>
+    </tr>
 </table>

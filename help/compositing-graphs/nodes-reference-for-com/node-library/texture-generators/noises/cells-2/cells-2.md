@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 셀 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -22,13 +22,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![셀 2 - 아이콘](../../../../../../assets/cells_2.png "셀 2 - 아이콘"){width="200px"}
+![셀 2 - 아이콘](cells-2.resources/cells_2.png "셀 2 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -47,22 +43,26 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## 출력
 
 |  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영* | 회색 음영 비트맵으로 생성된 노이즈 |
+|:---|:---|
+| <b>출력</b> <i>회색 음영</i> | 회색 음영 비트맵으로 생성된 노이즈 |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
 |  |  |
-| --- | --- |
-| <b>비율</b> 정수 | 노이즈 타일을 생성하는 데 사용되는 격자의 하위 분할입니다.    값이 높을수록 더 많은 타일이 그려지고 노이즈가 더 많아집니다. |
-| <b>가장자리 너비</b> 부동 | 격자 비율로 셀 사이의 벽 Thickness을 조정합니다. (즉, 해상도에 종속되지 않음) |
-| <b>반전</b> 부울 | 출력 이미지에서 검정 계열과 흰색 계열을 전환합니다. |
-| <b>장애</b> 부동 | 소음의 성분을 제거합니다.    이 효과를 사용하면 노이즈에 애니메이션을 적용할 수 있습니다. |
-| <b>장애 속도</b> 부동 | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
-| <b>정사각형이 아닌 확장</b> 부울 | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
+|:---|:---|
+| <b>크기 조절</b> <i>정수</i> | 노이즈 타일을 생성하는 데 사용되는 격자의 하위 분할입니다.    값이 높을수록 더 많은 타일이 그려지고 노이즈가 더 많아집니다. |
+| <b>가장자리 너비</b> <i>부동</i> | 격자 비율로 셀 사이의 벽 Thickness을 조정합니다. (즉, 해상도에 종속되지 않음) |
+| <b>반전</b> <i>부울</i> | 출력 이미지에서 검정 계열과 흰색 계열을 전환합니다. |
+| <b>장애</b> <i>부동</i> | 소음의 성분을 제거합니다.    이 효과를 사용하면 노이즈에 애니메이션을 적용할 수 있습니다. |
+| <b>장애 속도</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
+| <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예
 
@@ -70,26 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![셀 2 - 예 1](../../../../../../assets/cells_2_1.png "셀 2 - 예 1"){zoomable="yes"}
+![셀 2 - 예 1](cells-2.resources/cells_2_1.png "셀 2 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![셀 2 - 예 2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "셀 2 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![셀 2 - 예 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "셀 2 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

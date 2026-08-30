@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에는 Substance 3D Designer에 MDL 그래프가 표시되므로 MDL 재질을 작성하고 실시간으로 비헤이비어를 미리 볼 수 있습니다.
 
-![말라카이트 MDL 재료](../assets/mdl-malachite-example.jpg "말라카이트 MDL 재료")
+![말라카이트 MDL 재료](mdl-graphs.resources/mdl-malachite-example.jpg "말라카이트 MDL 재료")
 
 *Chrysocola, MDL 재질이 포함된 Malachite, [Mark Foreman](https://www.artstation.com/oggyart)* *[레거시 Substance share](https://share-legacy.substance3d.com/libraries/4043)* *플랫폼*&#x200B;에서 사용 가능
 
@@ -62,7 +62,7 @@ MDL 그래프는 [Substance 그래프](../compositing-graphs/substance-compositi
 >
 > NVIDIA에서 제작하고 유지 관리하는 MDL 사양 및 [MDL 핸드북](http://mdlhandbook.com/)에 대한 링크를 포함하는 [NVIDIA MDL 설명서](https://raytracing-docs.nvidia.com/mdl/index.html)에서 재료 정의 언어의 기술적 구현에 대해 자세히 알아볼 수 있습니다.
 
-![MDL 그래프 속성](../assets/mdl-main.png "MDL 그래프 속성")
+![MDL 그래프 속성](mdl-graphs.resources/mdl-main.png "MDL 그래프 속성")
 
 *속성 패널의 MDL 그래프 속성*
 

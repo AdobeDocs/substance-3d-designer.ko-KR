@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래프 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -49,11 +49,11 @@ ht-degree: 0%
 > 
 > [환경 설정](../../interface/preferences-window/preferences-window.md)에서 확대/축소 방향을 반전할 수 있습니다.
 
-![뷰포트 탐색](../../assets/navigating.gif "뷰포트 탐색")
+![뷰포트 탐색](the-graph-view.resources/navigating.gif "뷰포트 탐색")
 
 F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하거나, 선택한 항목이 없는 경우 전체 그래프를 사용합니다.
 
-탐색은 <b>탐색 핀 </b>과 F2 키를 사용하여 수행할 수도 있습니다. 아래의 [그래프 항목](#graph-items)을 참조하세요.[.](../../interface/the-graph-view/graph-items/graph-items.md)
+탐색은 <b>탐색 핀 </b>과 F2 키를 사용하여 수행할 수도 있습니다. 아래 [그래프 항목](#graph-items)을 참조하세요.[.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## 객체 이동
 
@@ -150,7 +150,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 * <b>스페이스바</b>를 눌러 <b>노드 메뉴</b>에 액세스합니다. 아래를 참조하십시오.
 * 노드에 매핑된 키보드 단축키 사용 매핑은 [환경 설정 창](../../interface/preferences-window/preferences-window.md)에서 수행됩니다.
 
-![노드 배치](../../assets/nodecreation.gif "노드 배치")
+![노드 배치](the-graph-view.resources/nodecreation.gif "노드 배치")
 
 다른 노드가 선택되어 있을 때 노드가 배치되면 Designer은 새 노드를 이전 노드에 자동으로 연결하려고 시도합니다.\
 이 자동 연결은 항상 새 노드 *이전 노드*&#x200B;를 플로우에 배치합니다.
@@ -180,7 +180,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![그래프 보기: 노드 메뉴](../../assets/graph-node-menu_fuzzy-search.png "그래프 보기: 노드 메뉴")
+![그래프 보기: 노드 메뉴](the-graph-view.resources/graph-node-menu_fuzzy-search.png "그래프 보기: 노드 메뉴")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 * <b>업스트림:</b> 노드에서 RMB를 클릭하고 <b>업스트림 노드 선택</b> 옵션을 선택합니다. 노드의 *입력*&#x200B;에 연결된 스트림의 일부인 노드와 모든 노드가 선택됩니다.
 * <b>다운스트림:</b> 노드에서 RMB를 클릭하고 <b>다운스트림 노드 선택</b> 옵션을 선택합니다. 노드의 *출력*&#x200B;에 연결된 스트림의 일부인 노드와 모든 노드가 선택됩니다.
 
-![노드 선택](../../assets/graph-selecting-nodes.gif "노드 선택")
+![노드 선택](the-graph-view.resources/graph-selecting-nodes.gif "노드 선택")
 
 ### 노드 컨텍스트 메뉴
 
@@ -268,7 +268,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 > * *입력* 커넥터의 경우: 노드가 해당 입력에 설정된 기본값으로 되돌아갑니다.
 > * *출력* 커넥터의 경우: 그래프를 계산할 때 데이터가 무시되고 삭제됩니다.
 
-![노드 연결](../../assets/links.gif "노드 연결")
+![노드 연결](the-graph-view.resources/links.gif "노드 연결")
 
 각 커넥터에서 *임의의 순서*&#x200B;로 LMB를 클릭하여 새 링크를 <b>생성</b>할 수 있습니다.\
 또한 노드 A를 선택한 상태에서 노드 B를 만들면 노드 A의 *첫 번째 출력*&#x200B;이 자동으로 노드 B의 *기본 입력*&#x200B;에 연결됩니다.
@@ -291,7 +291,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 비활성화된 노드에는 다음과 같은 동작이 있습니다.
 
-* 썸네일 대신 ![](../../assets/graph-badge-disabled.png) <b>비활성화</b> 배지&#x200B;*,**점선 윤곽선* 및 내부 *라우팅* 링크와 함께 표시됩니다.
+* 썸네일 대신 ![](the-graph-view.resources/graph-badge-disabled.png) <b>비활성화</b> 배지&#x200B;*,**점선 윤곽선* 및 내부 *라우팅* 링크와 함께 표시됩니다.
 * 노드는 *기본 입력*&#x200B;에서 받은 데이터를 출력합니다.
 * 비활성화된 노드는 함께 *연결*&#x200B;될 수 있습니다.
 * 해당 속성 및 연결이 *수정되지 않음*;
@@ -309,7 +309,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 > * 기본 입력과 출력의 *유형*&#x200B;은 *일치*&#x200B;해야 합니다(예: 회색 음영과 회색 음영, 색상과 색상).
 > * 선택한 모든 노드에는 *동일한 상태*&#x200B;가 있어야 합니다. 즉, 모든 노드를 사용하도록 설정해야 하며, 사용 가능하도록 동일한 규칙이 적용됩니다.
 
-![노드 비활성화](../../assets/graph-disable-node.gif "노드 비활성화"){width="512px"}
+![노드 비활성화](the-graph-view.resources/graph-disable-node.gif "노드 비활성화"){width="512px"}
 
 ## 2D 뷰와 상호 작용
 
@@ -341,78 +341,78 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 기본 도구 모음은 모든 그래프 유형에서 찾을 수 있으며 일반 기능을 제공할 뿐만 아니라 다른 도구 모음의 가시성을 위해 토글합니다. 다음 함수를 찾을 수 있습니다.
 
-![](../../assets/image2020-6-26-16-25-57.png) <b>초점 선택</b>(F)\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png) <b>초점 선택</b>(F)\
 선택 영역에 포커스 보기, 또는 선택 영역이 비어 있는 경우 전체 장면
 
-![](../../assets/image2020-6-26-16-26-8.png) <b>확대/축소 재설정</b>(Z)\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png) <b>확대/축소 재설정</b>(Z)\
 현재 확대/축소 레벨을 기본 상태로 되돌리고 그래프 가운데에 보기를 배치합니다. 확대 또는 축소를 의미할 수 있습니다.
 
-![](../../assets/image2020-6-26-16-26-26.png) <b>그래프 내보내기 보기\
+![](the-graph-view.resources/image2020-6-26-16-26-26.png) <b>그래프 내보내기 보기\
 </b>전체 그래프를 1:1 해상도로 이미지로 내보냅니다. 전체 그래프의 스크린샷을 공유하는 데 유용합니다.
 
-![](../../assets/image2020-6-26-16-26-37.png) <b>노드 정보\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png) <b>노드 정보\
 </b>*- 커넥터 이름 표시:* 노드에 있는 각 개별 커넥터의 이름 표시를 전환합니다.\
 *- 노드 배지 표시:* 모든 노드에서 노드 배지를 토글합니다.\
 *- 노드 크기 표시:* 노드 해상도 표시를 토글합니다([Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)만 해당).\
 *- 표시 타이밍:* 각 노드의 밀리초 타이밍 표시를 토글합니다([Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)만).\
 *- 축소할 때 텍스트 크기 제한:* [그래프 항목](../../interface/the-graph-view/graph-items/graph-items.md)의 텍스트를 확대/축소 임계값을 초과하는 일정한 화면 크기로 유지하므로 축소할 때 텍스트가 명확하게 표시됩니다.
 
-![](../../assets/image2020-6-26-16-26-52.png)<b> 노드 찾기 도구</b>(Ctrl+F)\
+![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b> 노드 찾기 도구</b>(Ctrl+F)\
 도구가 그래프에서 노드, 노출된 매개 변수 및 기타 변수를 찾을 수 있도록 합니다. [전용 페이지](../../interface/the-graph-view/node-finder/node-finder.md)에서 자세히 알아보세요.
 
-![](../../assets/image2020-6-26-16-27-43.png) <b>하이라이트 플로우\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png) <b>하이라이트 플로우\
 </b>현재 선택한 노드 앞이나 뒤에 연결된 노드를 강조 표시합니다. 복잡한 노드 경로를 추적하는 데 유용합니다.
 
-![](../../assets/image2020-6-26-16-28-30.png) <b>노드 팔레트\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png) <b>노드 팔레트\
 </b>노드 도구 모음을 표시하거나 숨깁니다(아래 참조).
 
-![](../../assets/image2020-6-26-16-32-33.png) <b>직사각형 링크\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png) <b>직사각형 링크\
 </b>노드 간에 둥근 또는 직사각형 모양의 링크 사이를 전환합니다. [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에 사용할 수 없습니다.
 
-![](../../assets/image2020-6-26-16-38-2.png) <b>노드 정렬 도구\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png) <b>노드 정렬 도구\
 </b>그래프에서 선택한 노드를 정렬할 수 있는 도구를 사용할 수 있습니다. [전용 페이지](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)에서 자세히 알아보세요.
 
 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에서만:
 
-![](../../assets/image2020-6-26-16-29-6.png) <b>부모 크기\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png) <b>부모 크기\
 </b>부모 해상도 컨트롤 설정을 표시하거나 숨깁니다(아래 참조).
 
-![](../../assets/image2020-6-26-16-31-15.png) <b>링크 만들기 모드</b> (1, 2, 3)\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png) <b>링크 만들기 모드</b> (1, 2, 3)\
 노드 커넥터를 개별적으로 또는 일괄적으로 연결하려면 표준(1), 재질(2) 및 컴팩트 재질(3) 링크 생성 모드 중에서 선택합니다. [전용 페이지](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에서 자세히 알아보세요.
 
-![](../../assets/image2020-6-26-16-33-35.png) <b>시간 컨트롤\
+![](the-graph-view.resources/image2020-6-26-16-33-35.png) <b>시간 컨트롤\
 </b>모든 노드를 다시 설정하고 모든 시간을 다시 설정할 수 있습니다.
 
-![](../../assets/image2020-6-26-16-34-12.png) <b>도구\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png) <b>도구\
 </b>*- 정리:* [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드에 연결되지 않은 스트림의 일부인 모든 노드를 제거합니다.\
 *- 출력 내보내기:* [비트맵 내보내기 인터페이스](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)를 엽니다.\
 *- 출력 다시 내보내기:* 이전 내보내기 작업을 다시 수행합니다.\
 *- PSD 내보내기 도구:* [PSD 내보내기 도구](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md) 인터페이스를 엽니다.
 
-![](../../assets/image2020-6-26-16-37-16.png) <b>노드 이미지 캐시\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png) <b>노드 이미지 캐시\
 </b>노드 이미지 캐시 표시를 토글합니다(아래 참조).
 
-![](../../assets/graph-cleaner.jpg) 사용하지 않는 노드 제거\
+![](the-graph-view.resources/graph-cleaner.jpg) 사용하지 않는 노드 제거\
 </b>사용하지 않는 노드를 제거하기 위한 옵션을 그래프로 표시합니다(아래 참조).
 
 ### 노드 팔레트
 
 노드 도구 모음은 그래프 유형에 따라 다릅니다.
 
-[![노드 팔레트](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![노드 팔레트](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md):</b> [원자 노드](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) 및 [그래프 항목](../../interface/the-graph-view/graph-items/graph-items.md)을 참조하세요.
 
 
-![그래프 항목 팔레트](../../assets/image2020-6-26-16-46-32.png "그래프 항목 팔레트")<br>
+![그래프 항목 팔레트](the-graph-view.resources/image2020-6-26-16-46-32.png "그래프 항목 팔레트")<br>
 <b>[Substance 함수 그래프](../../function-graphs/function-graphs.md):</b> [그래프 항목](../../interface/the-graph-view/graph-items/graph-items.md)을 참조하세요.
 
 
-![FX-맵 팔레트](../../assets/image2020-6-26-16-48-4.png "FX-맵 팔레트")<br>
+![FX-맵 팔레트](the-graph-view.resources/image2020-6-26-16-48-4.png "FX-맵 팔레트")<br>
 <b>[FX-지도 그래프](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> [그래프 항목 보기](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### 마스터 크기
 
-![부모 크기 도구 모음](../../assets/image2020-6-26-17-0-48.png "부모 크기 도구 모음")
+![부모 크기 도구 모음](the-graph-view.resources/image2020-6-26-17-0-48.png "부모 크기 도구 모음")
 
 이 도구 모음은 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에서만 사용할 수 있으며 그래프의 *부모*&#x200B;에 대한 [출력 크기](../../compositing-graphs/output-size/output-size.md)를 설정합니다. 이는 *부모에 대한 상대* [상속 메서드](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)를 사용하는 경우 그래프의 출력 크기에 영향을 줍니다.
 
@@ -420,7 +420,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 ### 노드 이미지 캐시
 
-![노드 이미지 캐시 설정](../../assets/graph-toolbar-node-cache.png "노드 이미지 캐시 설정")
+![노드 이미지 캐시 설정](the-graph-view.resources/graph-toolbar-node-cache.png "노드 이미지 캐시 설정")
 
 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에서 노드를 계산할 때 캐시 사용을 전환합니다.
 
@@ -432,13 +432,13 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 ### 사용하지 않는 노드 제거
 
-![사용하지 않는 노드 제거 드롭다운 메뉴](../../assets/graph-cleaner-menu.jpg "사용하지 않는 노드 제거 드롭다운 메뉴")
+![사용하지 않는 노드 제거 드롭다운 메뉴](the-graph-view.resources/graph-cleaner-menu.jpg "사용하지 않는 노드 제거 드롭다운 메뉴")
 
 그래프에서 반복하고 작업을 시도할 때 최종 결과에 영향을 주지 않는 일부 노드가 뒤에 표시될 수 있습니다. 이렇게 하면 모든 노드가 그래프 렌더링의 첫 번째 단계에서 평가되므로 낭비적인 계산뿐만 아니라 잡동사니도 추가됩니다.
 
-![](../../assets/graph-cleaner.jpg) 사용하지 않는 노드 제거</b> 도구는 *출력* 노드에서 끝나는 스트림의 *일부가 아닌* 모든 노드를 삭제합니다. *입력* 노드를 삭제하면 이 그래프를 참조하는 [인스턴스 노드](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)의 인터페이스가 변경되므로 예외는 입력노드입니다.
+![](the-graph-view.resources/graph-cleaner.jpg) 사용하지 않는 노드 제거</b> 도구는 *출력* 노드에서 끝나는 스트림의 *일부가 아닌* 모든 노드를 삭제합니다. *입력* 노드를 삭제하면 이 그래프를 참조하는 [인스턴스 노드](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)의 인터페이스가 변경되므로 예외는 입력노드입니다.
 
-![사용하지 않는 노드 제거](../../assets/graph-cleaner.gif "사용하지 않는 노드 제거")
+![사용하지 않는 노드 제거](the-graph-view.resources/graph-cleaner.gif "사용하지 않는 노드 제거")
 
 첫 번째 옵션은 *현재* 그래프에만 클리닝을 적용합니다.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 아래 섹션에서는 프로세스를 설명하기 위해 애니메이션 GIF와 함께 일반적인 작업을 간단히 수행하는 방법에 대해 설명합니다.
 
-![뷰포트 탐색](../../assets/3d-navigate.gif "뷰포트 탐색")
+![뷰포트 탐색](3d-view.resources/3d-navigate.gif "뷰포트 탐색")
 
 ### 탐색
 
@@ -78,17 +78,17 @@ ht-degree: 1%
 
 <b>⇧을 누른 상태에서 메시의 LMB를 클릭하여 메시를 선택합니다.</b> 선택한 메쉬에 파란색 윤곽선이 표시됩니다.
 
-<b>선택한 메시에 집중하려면 F를 누르세요</b>. 메시에 초점을 맞추면 카메라가 프레임 주위로 이동하고 주변을 선회합니다.
+<b>선택한 메시에 집중하려면 F를 누르세요</b>. 메시에 프레임을 맞추면 카메라가 움직여 초점을 맞추고 주변을 돈다.
 
 <b>메시를 선택한 상태에서 RMB를 클릭</b>하여 상황에 맞는 메뉴에서 [재질 작업](#material-actions)에 액세스합니다.
 
 <b>선택을 취소하려면 Esc 키를 누르세요.</b> 커서가 메시 위에 있을 필요는 없습니다.
 
-![3D 보기 - 초점 및 선택 해제](../../assets/sceneBrowser-focus.gif "3D 보기 - 초점 및 선택 해제"){zoomable="yes"}
+![3D 보기 - 초점 및 선택 해제](3d-view.resources/sceneBrowser-focus.gif "3D 보기 - 초점 및 선택 해제"){zoomable="yes"}
 
 *선택, 초점, 선택 해제*
 
-![3D 보기 - 상황별 메뉴](../../assets/sceneBrowser-contextualMenu.gif "3D 보기 - 상황별 메뉴"){zoomable="yes"}
+![3D 보기 - 상황별 메뉴](3d-view.resources/sceneBrowser-contextualMenu.gif "3D 보기 - 상황별 메뉴"){zoomable="yes"}
 
 *선택, 상황에 맞는 메뉴*
 
@@ -114,13 +114,13 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 
 <b>조명 > 속성 편집</b>으로 이동하여 장면의 포인트 조명을 토글합니다.
 
-포인트 라이트 1은 LMB 또는 RMB를 누른 상태에서 조명 모드의 뷰포트에서 드래그하여 장면의 원점을 중심으로 이동할 수 있습니다. <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+포인트 라이트 1은 LMB 또는 RMB를 누른 상태에서 조명 모드의 뷰포트에서 드래그하여 장면의 원점을 중심으로 이동할 수 있습니다. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-카메라 모드에 있는 동안 <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> , 마우스 버튼과 함께 Ctrl+⇧ 키를 눌러 일시적으로 조명 모드로 전환할 수도 있습니다.
+카메라 모드에 있는 동안 <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> , 마우스 버튼과 함께 Ctrl+⇧ 키를 눌러 일시적으로 조명 모드로 전환할 수도 있습니다.
 
 ## 3D 보기에서 데이터 보기
 
-![Substance 그래프 출력 보기](../../assets/3d-material.gif "Substance 그래프 출력 보기")
+![Substance 그래프 출력 보기](3d-view.resources/3d-material.gif "Substance 그래프 출력 보기")
 
 ### Substance 그래프
 
@@ -140,7 +140,7 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 > 
 > 둘 이상의 단일 재질에 사용자 정의 메시를 사용하는 경우 재질을 할당할 재질 슬롯을 선택하라는 메시지가 표시됩니다. 위의 방법 중 하나를 사용하여 슬롯을 클릭하여 선택 사항을 확인합니다. 재질 및 할당에 대한 자세한 내용은 아래의 세부 섹션을 참조하십시오.
 
-![3D 보기에서 노드 및 그래프 출력 보기](../../assets/3d-channel.gif "3D 보기에서 노드 및 그래프 출력 보기")
+![3D 보기에서 노드 및 그래프 출력 보기](3d-view.resources/3d-channel.gif "3D 보기에서 노드 및 그래프 출력 보기")
 
 ### 개별 노드/그래프 출력
 
@@ -148,11 +148,11 @@ Designer은 기본적으로 이미지 기반 조명(IBL)과 함께 작동합니�
 
 [그래프 보기](../../interface/the-graph-view/the-graph-view.md)에서 노드를 마우스 오른쪽 단추로 클릭하고 <b>3D 보기에서 보기</b>를 선택하면 출력 노드뿐만 아니라 모든 노드를 볼 수 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
-*RMB*&#x200B;을 사용하여 그래프 보기에서 3D 보기로 노드를 끌어 놓을 수도 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
+*RMB*&#x200B;을 사용하여 그래프 보기에서 노드를 3D 보기로 끌어 놓을 수도 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
 [탐색기](../the-explorer-window/the-explorer-window.md) 도크에서 그래프 리소스를 확장하고 *LMB*&#x200B;를 사용하여 해당 출력을 3D 보기로 드래그하여 개별 그래프 출력을 볼 수 있습니다. 노드를 할당할 수 있는 채널이 있는 목록이 표시됩니다. 아무 것이나 클릭하여 확인합니다.
 
-![사용자 지정 3D 메시 보기](../../assets/3d-mesh.gif "사용자 지정 3D 메시 보기")
+![사용자 지정 3D 메시 보기](3d-view.resources/3d-mesh.gif "사용자 지정 3D 메시 보기")
 
 ## (사용자 정의) 3D 장면 보기
 
@@ -161,7 +161,7 @@ Designer은 12개의 사전 설정 망을 제공합니다. 이러한 메시는 �
 
 사용자 지정 3D 장면의 경우 [3D 장면 작업](../../working-with-3d-scenes/working-with-3d-scenes.md) 섹션으로 이동합니다.
 
-![재질 속성 변경](../../assets/3d-materials.gif "재질 속성 변경")
+![재질 속성 변경](3d-view.resources/3d-materials.gif "재질 속성 변경")
 
 ## 셰이더 속성 변경
 
@@ -184,7 +184,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 > * <b>렌더러/GPU 패스트레이서:</b> 렌더러 설정(렌더러 > 설정 편집)에 있으며 *전체 장면*&#x200B;에 영향을 줍니다.
 > * <b>OpenGL:</b> 재질 속성에 있으면 재질에 영향을 줍니다.
 
-![장면 내보내기](../../assets/3d-view-export-scene.gif "장면 내보내기")
+![장면 내보내기](3d-view.resources/3d-view-export-scene.gif "장면 내보내기")
 
 ## 장면 내보내기
 
@@ -230,7 +230,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 +++장면
 <b>장면</b> 메뉴는 표시된 모양(3D 리소스)과 3D 보기 상태를 다룹니다. 3D 리소스는 메시만 공유하고 장면 상태는 조명, 카메라 및 관련 설정이며 메시를 나란히 포함할 수도 있습니다.
 
-![장면 메뉴 메시](../../assets/3d-view-meshes.png "장면 메뉴 메시")
+![장면 메뉴 메시](3d-view.resources/3d-view-meshes.png "장면 메뉴 메시")
 
 
 
@@ -526,25 +526,25 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>백페이스 컬링</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>백페이스 컬링</b>
 
 이 옵션을 사용하지 않도록 설정하면 *양쪽*&#x200B;에서 메시 면을 볼 수 있습니다. 이 옵션은 와이어프레임과 함께 사용할 수 있습니다.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>테두리 상자</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>테두리 상자</b>
 
 메시 테두리 상자의 표시를 토글합니다.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>꼭지점 접선 공간</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>꼭지점 접선 공간</b>
 
 모든 정점에 대한 탄젠트, 이항 및 수직 벡터를 색상이 지정된 기즈모로 표시합니다.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>와이어프레임</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>와이어프레임</b>
 
 메시의 와이어프레임 표시를 전환합니다.
 
@@ -574,7 +574,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 ### 색상 채널
 
-![](../../assets/2d-view-icon-channels.png) <b>색상 채널</b> 단추를 사용하여 이미지의 단일 채널을 표시할 수 있습니다. 그러면 <b>빨강</b>, <b>녹색</b> 및 <b>파랑</b> 채널 중 표시할 채널을 선택할 수 있는 콤보 상자가 열립니다. <b>RGB</b> 옵션을 선택하면 모든 채널이 있는 이미지의 일반적인 모습이 복원됩니다.
+![](3d-view.resources/2d-view-icon-channels.png) <b>색상 채널</b> 단추를 사용하여 이미지의 단일 채널을 표시할 수 있습니다. 그러면 <b>빨강</b>, <b>녹색</b> 및 <b>파랑</b> 채널 중 표시할 채널을 선택할 수 있는 콤보 상자가 열립니다. <b>RGB</b> 옵션을 선택하면 모든 채널이 있는 이미지의 일반적인 모습이 복원됩니다.
 
 <b>색상 채널</b> 단추의 *아이콘*&#x200B;은(는) 현재 표시된 채널에 따라 *변경*&#x200B;됩니다.
 

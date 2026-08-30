@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 표현식이 있는 경우 표시
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 * 그래프의 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드;
 * 그래프의 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드입니다.
 
-![입력 매개 변수 표시 여부 전환](../../assets/visible-if-example.gif "입력 매개 변수 표시 여부 전환"){width="512px"}
+![입력 매개 변수 표시 여부 전환](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "입력 매개 변수 표시 여부 전환"){width="512px"}
 
 논리 식이 `true`(으)로 평가되면 매개 변수, 입력 또는 출력이 현재 그래프를 나타내는 모든 [인스턴스 노드](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에 표시됩니다. 그렇지 않으면 *숨김*&#x200B;이 됩니다.
 
@@ -69,7 +69,7 @@ input["identifier"]
 
 &quot;표시되는 경우&quot; 필드에는 다음과 같은 매개 변수가 허용됩니다.
 
-* 부울, 부동 소수점 및 정수 입력
+* 부울, 부동 및 정수 입력입니다.
 * `true` 및 `false` 값(대/소문자 구분, 대문자 없음)
 * `.x` : 하위 매개 변수에 액세스합니다.
 * `&&`<b> </b>: 및

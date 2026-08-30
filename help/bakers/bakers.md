@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 베이커
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 68389d2a09ef1db6c14073029efdbfd9d48c83c8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 베이커
 
-굽기는 **메시 기반 정보를 텍스처로 전송**&#x200B;하는 동작을 참조합니다. 그런 다음 이러한 정보를 음영 및/또는 Substance 필터로 읽어 고급 효과 또는 텍스처를 생성합니다.
+굽기는 **메시 기반 정보를 텍스처로 전송**&#x200B;하는 동작을 참조합니다. 그런 다음 이러한 정보를 음영 및/또는 Substance 필터로 읽어서 고급 효과 또는 텍스처를 생성합니다.
 
 >[!NOTE]
 >
@@ -35,13 +35,13 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-3D 장면 리소스의 컨텍스트 메뉴에서 ![&#39;베이크 모드 정보&#39; 옵션](../assets/sd-mesh-right-click.png " 3D 장면 리소스의 컨텍스트 메뉴에서 ") &#39;베이크 모드 정보&#39; 옵션
+3D 장면 리소스의 컨텍스트 메뉴에서 ![&#39;베이크 모드 정보&#39; 옵션](bakers.resources/sd-mesh-right-click.png " 3D 장면 리소스의 컨텍스트 메뉴에서 ") &#39;베이크 모드 정보&#39; 옵션
 
 </td>
 </tr>
 </table>
 
-![베이킹 창](../assets/sd-window-overview.png "베이킹 창")
+![베이킹 창](bakers.resources/sd-window-overview.png "베이킹 창")
 
 ## 개요
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-mesh-selection.png)
+![](bakers.resources/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -72,12 +72,12 @@ ht-degree: 0%
 
 ### 출력
 
-이 패널은 구워진 텍스처의 위치를 제어합니다.
+이 패널은 구워진 텍스처가 위치할 위치를 제어합니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-output.png)
+![](bakers.resources/sd-output.png)
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 | *매개 변수* | *설명* |
 | --- | --- |
-| **메서드** | 구워진 텍스처가 Substance 패키지와 함께 저장되는 방법을 제어합니다.가능한 값:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>포함</strong> : 구워진 텍스처는 특정 이름을 사용하여 Substance 패키지 옆의 하위 폴더에 저장됩니다.</li><li data-preserve-html="true"><strong>연결</strong>(기본값) : 구운 텍스처는 정의된 폴더에 저장된 다음 패키지된 Substance에서 참조됩니다.</li></ul> |
+| **메서드** | 구워진 텍스처가 Substance 패키지와 함께 저장되는 방식을 제어합니다.가능한 값:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>임베드됨</strong> : 구워진 텍스처는 특정 이름을 사용하여 Substance 패키지 옆의 하위 폴더에 저장됩니다.</li><li data-preserve-html="true"><strong>연결</strong>(기본값) : 구운 텍스처는 정의된 폴더에 저장된 다음 패키지된 Substance에서 참조됩니다.</li></ul> |
 | **폴더** | 저장 시 구워진 텍스처의 위치입니다. 세 개의 점 버튼을 클릭하여 파일 대화 상자를 열고 내보내기 폴더를 선택합니다.폴더가 실제로 존재하는지 여부를 나타내는 확인 표시가 오른쪽에 표시됩니다. |
 | **이름** | 구운 텍스처의 명명 규칙. 점 세 개 버튼을 클릭하여 드롭다운 메뉴를 열고 다른 자리 표시자(이름, 사용자 정의, 재질, 메시)를 삽입합니다. |
 | **샘플** | 파일 이름을 시뮬레이션하여 이름 지정 규칙을 테스트합니다. |
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 이 패널은 하이 폴리 메쉬 목록 및 관련 설정을 제어합니다. 자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
 
-![HD 메시](../assets/sd-high.png "HD 메시")
+![HD 메시](bakers.resources/sd-high.png "HD 메시")
 
 ### 기본값
 
 자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
 
-![기본값](../assets/sd-default-values.png "기본값")
+![기본값](bakers.resources/sd-default-values.png "기본값")
 
 ### 베이커 렌더링 목록 및 설정
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 특정 매개 변수에 대한 자세한 내용은 [베이커 설정](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/bakers-settings)을 참조하세요.
 
-![베이커 렌더링 목록](../assets/sd-baker-list.png "베이커 렌더링 목록")
+![베이커 렌더링 목록](bakers.resources/sd-baker-list.png "베이커 렌더링 목록")

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 그레이디언트로 Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -22,49 +22,56 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/floodfill-to-gradient.png){width="128px"}
 
-## 그레이디언트로 Flood Fill
-
-**내부:** *필터/효과*
-
-**단순**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
-[Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) 베이스를 무작위로 향하는 그레이디언트로 변환합니다. 타일이 임의로 기울어진 높이 맵을 만드는 데 매우 유용합니다.
-
-## 매개변수
-
-### 입력
-
-* **Flood Fill**: *색상 입력*&#x200B;기본 Flood Fill 데이터.
-* **각도 입력**: *회색 음영 입력*\
-  외부 맵을 사용하여 셀별 각도를 결정하는 옵션 맵
-* **경사 입력**: *회색 음영 입력*&#x200B;셀별 그레이디언트 경사 강도를 결정하는 선택적 맵
-
-### *매개 변수*
-
-* **각도**: *0.0 - 1.0*&#x200B;모든 타일에 대해 균일한 전역 각도/방향을 설정합니다.
-* **각도 변형**: *0.0 - 1.0*&#x200B;각 타일의 각도를 개별적으로 임의화합니다. 이것은 가장 유용하고 강력한 매개 변수입니다!
-* **테두리 상자 크기에 곱하기**: *0.0 - 1.0*&#x200B;전체 선형 효과의 크기를 타일의 개별 테두리 상자 크기로 조절합니다. 즉, 더 작은 타일이 더 큰 타일보다 더 어두워집니다.
-* **각도 이미지 입력 배율**: *0.0 - 1.0*&#x200B;생성된 그레이디언트 방향에 대한 선택적 각도 입력 맵의 영향 설정
-* **경사 이미지 입력 승수**: *0.0 - 1.0*\
-  생성된 그레이디언트 경사 강도에 대한 선택적 경사 입력 맵의 영향을 설정합니다.
-* **경사 강도로 곱하기**: *0.0 - 1.0*
-* **플랫 경사 색상**: *(회색 음영 값)*플랫 경사에 대해 단색 값을 설정할 수 있습니다.
-
-## 예제 이미지
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodgradient-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodgradient-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
+[임의 그레이디언트(임의 그레이디언트)로 &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)Flood Fill 타일이 임의로 기울어진 높이 맵을 만드는 데 매우 유용합니다.
 
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>색상 입력</i> | 기본 Flood Fill 데이터. |
+| <b>각도 입력</b> <i>회색 음영 입력</i> | 외부 맵을 사용하여 셀별 각도를 결정하는 옵션 맵 |
+| <b>경사 입력</b> <i>회색 음영 입력</i> | 셀별 그레이디언트 경사 강도를 결정하는 선택적 맵입니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>각도</b> <i>0.0 - 1.0</i> | 모든 타일에 대해 균일한 글로벌 각도/방향을 설정합니다. |
+| <b>각도 변형</b> <i>0.0 - 1.0</i> | 각 타일의 각도를 개별적으로 임의화합니다. 이것은 가장 유용하고 강력한 매개 변수입니다! |
+| <b>테두리 상자 크기에 곱하기</b> <i>0.0 - 1.0</i> | 타일의 개별 테두리 상자 크기에 따라 전체 선형 효과의 크기를 조절합니다. 즉, 더 작은 타일이 더 큰 타일보다 더 어두워집니다. |
+| <b>각도 이미지 입력 승수</b> <i>0.0 - 1.0</i> | 생성된 그레이디언트 방향에 대한 선택적 각도 입력 맵의 영향 설정 |
+| <b>경사 이미지 입력 승수</b> <i>0.0 - 1.0</i> | 생성된 그레이디언트 경사 강도에 대한 선택적 경사 입력 맵의 영향을 설정합니다. |
+| <b>경사 강도로 곱하기</b> <i>0.0 - 1.0</i> |  |
+| <b>플랫 경사 색상</b> <i>(회색 음영 값)</i> | 플랫 경사에 대해 실선 값을 설정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-gradient.resources/floodgradient-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-gradient.resources/floodgradient-ex1.png" />
+        </td>
+    </tr>
 </table>

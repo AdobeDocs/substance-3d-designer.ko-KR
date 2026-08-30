@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 위브
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 7%
 
 ---
 
@@ -22,37 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-2.png){width="128px"}
+![](weave-2.resources/weave-2.png){width="128px"}
 
-## 위브
-
-**인:** *텍스처 생성기**/패턴*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 단순한 직조 패턴을 생성합니다. 임의화를 위한 컨트롤이 있습니다. 최대 장애 시, 이것은 심지어 소음으로 사용될 수 있습니다.
 
-## 매개변수
-
-* **타일링**: *1 - 16*\
-  결과가 바둑판식으로 표시될 횟수를 설정합니다.
-* **장애**: *0.0 - 100.0*\
-  다양한 변화를 도입하기 위해 직조 바늘을 뒤흔든다.
-* **45도 회전**: *False/True*&#x200B;미리 설정된 각도로 회전합니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/weave2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
+| <b>장애</b> <i>0.0 - 100.0</i> | 다양한 변화를 도입하기 위해 직조 바늘을 뒤흔든다. |
+| <b>45도 회전</b> <i>거짓/참</i> | 미리 설정된 각도로 회전합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="weave-2.resources/weave2-ex.gif" />
+        </td>
+    </tr>
 </table>

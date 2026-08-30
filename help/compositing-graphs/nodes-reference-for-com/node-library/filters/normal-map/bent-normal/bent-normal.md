@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 노멀 구부리기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![구부러진 표준 노드 아이콘](../../../../../../assets/rt-bent-normal.png "구부러진 표준 노드 아이콘")
+![구부러진 표준 노드 아이콘](bent-normal.resources/rt-bent-normal.png "구부러진 표준 노드 아이콘")
 
-<b>내부:</b> *필터/표준 맵*
+<b>내부:</b> 필터 > 노멀 맵
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -42,33 +42,27 @@ Height 맵 입력을 기반으로 [구부러진 표준 맵]을 생성합니다. 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 매개변수
 
-<b>물리적 크기 사용</b> *부울*\
-물리적 크기 설정을 사용하여 Height 비율을 결정하려면 전환합니다.
+|  |  |
+|:---|:---|
+| <b>물리적 크기 사용</b> <i>부울</i> | 물리적 크기 설정을 사용하여 Height 비율을 결정하려면 전환합니다. |
+| <b>물리적 크기</b> <i>Float3</i> | (<b>물리적 크기 사용</b>이(가) <i>True</i>(으)로 설정된 경우 사용 가능) 표면의 실제 물리적 크기를 기준으로 Height 비율을 조정합니다. |
+| <b>샘플</b> <i>정수</i> | 구부러진 법선을 계산하는 데 사용되는 광선 수입니다.<br>높을수록 성능이 저하되는 대신 더 부드럽고 정확한 결과를 얻을 수 있습니다. |
+| <b>Height 크기</b> <i>부동</i> | (물리적 크기 사용 이 False 로 설정된 경우 사용 가능) 높이 맵 입력 강도에 대한 승수입니다. |
+| <b>배포</b> <i>정수</i> | 배포 방법을 설정합니다. 어두운 영역 쪽으로 감소되는 영향이 있습니다. |
+| <b>최대 거리</b> <i>부동</i> | 폐색될 수 있는 최대 거리 광선을 설정합니다. |
+| <b>스프레드 각도</b> <i>부동</i> | 주사할 광선의 확산 각도를 설정합니다. 1의 값은 완전한 반구입니다. |
+| <b>표준 형식</b> <i>정수</i> | 출력의 녹색 채널을 반전합니다. |
 
-<b>물리적 크기</b> *Float3*(<b>물리적 크기 사용</b>이 *True*(으)로 설정된 경우 사용 가능)\
-표면의 실제 Height을 기반으로 물리적 크기 비율을 조정합니다.
+## 예
 
-<b>샘플</b> *정수*\
-구부러진 법선을 계산하는 데 사용되는 광선 수입니다.\
-값이 높을수록 성능이 저하되는 대신 더 부드럽고 정확한 결과를 얻을 수 있습니다.
-
-<b>Height 크기</b> *부동(사용 물리적 크기가 False로 설정된 경우 사용 가능)*\
-Height 맵 입력 강도에 대한 승수입니다.
-
-<b>배포</b> *정수*\
-배포 방법을 설정합니다. 어두운 영역 쪽으로 감소되는 영향이 있습니다.
-
-<b>최대 거리</b> *부동*\
-폐색될 수 있는 최대 거리 광선을 설정합니다.
-
-<b>스프레드 각도</b> *부동*\
-주사할 광선의 확산 각도를 설정합니다. 1의 값은 완전한 반구입니다.
-
-<b>표준 형식</b> *정수*\
-출력의 녹색 채널을 반전합니다.
-
-## 예제 이미지
-
-![구부러진 표준 노드 - 예 1](../../../../../../assets/bent-normal-ex-1.jpg "구부러진 표준 노드 - 예 1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+        </td>
+    </tr>
+</table>

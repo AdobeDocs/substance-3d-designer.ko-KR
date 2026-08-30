@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 선형 그레이디언트 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 6%
 
 ---
 
@@ -22,34 +22,39 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient3.png)
+![](gradient-linear-3.resources/gradient3.png)
 
-## 선형 그레이디언트 3
-
-**인:** *텍스처 생성기**/패턴*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 가장 진보된 선형 그레이디언트입니다. 이 노드는 [선형 그레이디언트 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md)의 둥근 파이프 같은 경사 대신 선명한 직선 프로파일을 반환하고 중간점에 대한 추가 컨트롤을 제공합니다.
 
-## 매개변수
-
-* **타일링**: *1 - 16*\
-  결과가 바둑판식으로 표시될 횟수를 설정합니다.
-* **위치**: *0.0 - 1.0*&#x200B;그레이디언트의 중간점 또는 최고점이 있는 위치를 설정합니다.
-* **회전**: **0, 90°**&#x200B;방향을 왼쪽에서 오른쪽으로, 또는 그 반대로 변경합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/gradient3-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
+| <b>위치</b> <i>0.0 - 1.0</i> | 그레이디언트의 중간점 또는 최고점이 있는 위치를 설정합니다. |
+| <b>회전</b> <i>0, 90°</i> | 방향을 왼쪽-오른쪽에서 위쪽-아래쪽으로 변경하거나 그 반대로 변경합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-3.resources/gradient3-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 그런지 콘크리트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-**내부:** *텍스처 생성기**/잡음*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,20 +39,30 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 매개변수
 
-* **균형** *부동*&#x200B;어두운 값과 밝은 값 간의 균형을 조정합니다.
-* **대비** *부동*&#x200B;이미지의 대비를 조정합니다.
-* **반전** *부울*`1-x` 작업을 사용하여 이미지의 출력을 반전합니다.
-* **비정사각형 확장** *부울*&#x200B;정사각형이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-* 고급
-  * **기본 노이즈** *부동*&#x200B;기본 텍스처의 노이즈를 조정합니다.
-  * **Dirt의 얼룩 불투명도** *부동* Dirt 얼룩 불투명도를 조정합니다.
-  * **Dirt 반전** *부울* Dirt 조각의 영향을 반전합니다.
-  * **Scratches 불투명도** *부동*&#x200B;스크래치의 불투명도를 조정합니다.
-  * **선명 효과** *부동*&#x200B;이미지에 적용된 선명 효과의 강도를 조정합니다.
-  * **큰 변형 강도** *부동*&#x200B;기본 텍스처에 적용된 큰 비율(낮은 주파수) 변형을 조정합니다.
+|  |  |
+|:---|:---|
+| <b>균형</b> <i>부동</i> | 어두운 값과 밝은 값 간의 균형을 조정합니다. |
+| <b>대비</b> <i>부동</i> | 이미지의 대비를 조정합니다. |
+| <b>반전</b> <i>부울</i> | `1-x` 작업을 사용하여 이미지의 출력을 반전합니다. |
+| <b>비정사각형 확장</b> <i>부울</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>고급</b> |  |
+| <b>기본 소음</b> <i>부동</i> | 기본 텍스처의 노이즈를 조정합니다. |
+| <b>Dirt이 불투명도를 검사합니다</b> <i>부동</i> | Dirt 조각의 불투명도를 조정합니다. |
+| <b>Dirt 반전</b> <i>부울</i> | Dirt 스팟의 영향을 반전합니다. |
+| <b>Scratches 불투명도</b> <i>부동</i> | 스크래치의 불투명도를 조정합니다. |
+| <b>선명 효과</b> <i>부동</i> | 이미지에 적용된 선명하게 하기 효과의 강도를 조정합니다. |
+| <b>큰 변형 강도</b> <i>부동</i> | 기본 텍스처에 적용된 큰 비율(낮은 주파수) 변형을 조정합니다. |
 
-## 예제 이미지
+## 예
 
-![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
+        </td>
+    </tr>
+</table>

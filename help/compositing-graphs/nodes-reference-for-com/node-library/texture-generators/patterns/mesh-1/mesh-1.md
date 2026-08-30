@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 망 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-1.png){width="128px"}
+![](mesh-1.resources/mesh-1.png){width="128px"}
 
-## 망 1
-
-**인:** *텍스처 생성기**/패턴*
-
-**단순**
+<b>내부:</b> 텍스처 생성기 > 패턴
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 얇은 블록이 있는 간단한 메쉬 패턴. Height 및 세부 정보 맵을 만드는 데 유용합니다.
 
-## 매개변수
-
-* **타일링**: *1 - 16*\
-  결과가 바둑판식으로 표시될 횟수를 설정합니다.
-* **45도 회전**: *False/True*&#x200B;결과를 45도 회전합니다.
-* **비정사각형 확장**: *False/True*\
-  제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/mesh-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
+| <b>45도 회전</b> <i>거짓/참</i> | 결과를 45도 회전합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-1.resources/mesh-1-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 다중 각도-알베도
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo.png){width="128px"}
 
-## 다중 각도-알베도
-
-**내부:** *재질 필터/스캔 처리*
-
-**단순**
+<b>내부:</b> 재질 필터 > 스캔 처리
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -47,22 +43,22 @@ ht-degree: 1%
 > 
 > [블로그 게시물 &quot;스마트폰은 재료 스캐너입니다&quot;는 이 프로세스를 좀 더 잘 보여줍니다.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
-## 매개변수
-
-### 입력
-
-* **입력 1-8**: *색상 입력*&#x200B;입력 수는 샘플 양 매개 변수에 의해 결정됩니다.
-
-### 매개변수
-
-* **샘플 양**: *2 - 8*&#x200B;처리에 사용할 샘플(입력) 수를 설정합니다.
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력 1-8</b> <i>색상 입력</i> | 입력 수는 Samples Amount 매개 변수에 따라 결정됩니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>샘플 양</b> <i>2 - 8</i> | 처리에 사용할 샘플(입력) 수를 설정합니다. |

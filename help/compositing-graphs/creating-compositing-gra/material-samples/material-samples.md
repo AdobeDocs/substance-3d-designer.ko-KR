@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 자료 샘플
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 73b37bdd1591868533dfe176d431774c93b83b07
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 자료 샘플
 
-![재질 샘플 - 템플릿 카드](../../../assets/materialSamples-cards.png "재질 샘플 - 템플릿 카드")
+![재질 샘플 - 템플릿 카드](material-samples.resources/materialSamples-cards.png "재질 샘플 - 템플릿 카드")
 
 Designer에서는 다양한 재질 유형을 포함하는 샘플 그래프를 선별하여 학습하고 실험할 수 있습니다.
 
@@ -36,14 +36,14 @@ Designer에서는 다양한 재질 유형을 포함하는 샘플 그래프를 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 재료 샘플](../../../assets/newGraphDialog-samples-1.png "새 Substance 그래프 대화 상자 - 재료 샘플"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 재료 샘플](material-samples.resources/newGraphDialog-samples-1.png "새 Substance 그래프 대화 상자 - 재료 샘플"){zoomable="yes"}
 
 <b>범주</b> 콤보 상자를 열고 <b>재질 샘플</b>을 선택하여 사용 가능한 템플릿을 나열합니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![재질 샘플 - 배너 단추](../../../assets/materialSamples-bannerButton.png "재질 샘플 - 배너 단추"){zoomable="yes"}
+![재질 샘플 - 배너 단추](material-samples.resources/materialSamples-bannerButton.png "재질 샘플 - 배너 단추"){zoomable="yes"}
 
 편리하게 배치된 <b>샘플로 이동</b> 단추를 사용하여 대화 상자의 샘플 목록으로 바로 이동할 수 있습니다
 <b>홈 화면</b>에서
@@ -62,7 +62,7 @@ Designer에서는 다양한 재질 유형을 포함하는 샘플 그래프를 �
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![재질 샘플 - 템플릿 카드 도구 설명](../../../assets/newGraphDialog-sampleTooltip.png "재질 샘플 - 템플릿 카드 도구 설명"){zoomable="yes"}
+![재질 샘플 - 템플릿 카드 도구 설명](material-samples.resources/newGraphDialog-sampleTooltip.png "재질 샘플 - 템플릿 카드 도구 설명"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,4 +84,4 @@ Designer에서는 다양한 재질 유형을 포함하는 샘플 그래프를 �
 > 3D 보기의 재질이 자동으로 <code>OpenPBR 화면으로 전환됩니다.</code> 다음에 대한 셰이더
 > 샘플을 정확하게 확인합니다.
 
-![재질 샘플 - 그래프](../../../assets/materialSamples-graph.png "재질 샘플 - 그래프"){zoomable="yes"}
+![재질 샘플 - 그래프](material-samples.resources/materialSamples-graph.png "재질 샘플 - 그래프"){zoomable="yes"}

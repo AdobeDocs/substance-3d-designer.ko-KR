@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 다중 각도에서 표준으로
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
+![](multi-angle-to-normal.resources/multi-angle-to-normal.png){width="128px"}
 
-## 다중 각도에서 표준으로
-
-**내부:** *재질 필터/스캔 처리*
-
-**중간**
+<b>내부:</b> 재질 필터 > 스캔 처리
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -45,27 +41,26 @@ ht-degree: 1%
 >
 > 이 알베도의 알베도 버전은 [다중 각도 대 노드](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md)를 참조하십시오. 입력을 사전 처리하려면 [다중 Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [다중 자르기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) 및 [다중 복제 패치](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)를 사용할 수 있습니다. 이러한 노드를 결합해야 합니다.
 
-## 매개변수
-
-### 입력
-
-* **입력 1-8**: *색상 입력*
-
-### 매개변수
-
-* **표준 형식**: *DirectX, OpenGL*\
-  서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다).
-* **샘플 양**: *2 - 8*&#x200B;처리할 샘플(입력) 양을 설정합니다.
-* **강도**: *0.0 - 1.0*&#x200B;표준 맵 강도를 설정합니다.
-* **첫 번째 샘플 조명 각도**: *0.0 - 360.0*&#x200B;첫 번째 입력의 조명 각도 방향을 설정합니다.
-* **다음 샘플 조명 각도**: *시계 반대 방향, 시계 방향*&#x200B;다음 샘플의 조명이 이동하는 방향을 설정합니다.
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력 1-8</b> <i>색상 입력</i> |  |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>표준 형식</b> <i>DirectX, OpenGL</i> | 서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다). |
+| <b>샘플 양</b> <i>2 - 8</i> | 처리할 샘플(입력) 양을 설정합니다. |
+| <b>강도</b> <i>0.0 - 1.0</i> | 표준 맵 강도를 설정합니다. |
+| <b>첫 번째 샘플 조명 각도</b> <i>0.0 - 360.0</i> | 첫 번째 입력의 조명 각도 방향을 설정합니다. |
+| <b>다음 샘플 조명 각도</b> <i>시계 반대 방향, 시계 방향</i> | 다음 샘플의 조명이 이동하는 방향을 설정합니다. |

@@ -1,7 +1,7 @@
 ---
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * `help/` - 목차를 미러링하도록 구성된 모든 문서 콘텐츠.
 * `help/guide/TOC.md` — 목차. 모든 항목은 페이지의 Markdown 파일에 대한 상대 링크(`/help/...`에 있음)입니다. `TOC.md`은(는) 페이지 트리 메타데이터(`user-guide-title`, `breadcrumb-title`, `nudge`, `{#section-id}`과(와) 같은 섹션 앵커)도 포함합니다.
-* `help/assets/` - 공유, 비페이지 특정 이미지(예: 여러 페이지에서 재사용되는 앱 아이콘).
+* `help/assets/` — 레거시 공유 이미지 폴더. 이제 페이지별 미디어가 페이지당 `<md-file-name>.resources/` 형제 폴더에 있습니다(아래 폴더/TOC 규칙 참조). 아무 페이지에서도 참조되지 않은 일부 남아 있는 이미지만 남아 있습니다. 새 이미지를 여기 말고 사용 중인 페이지의 `.resources` 폴더에 넣으십시오.
 * `help/glossary/glossary.md` — `#term` 조각을 통한 상호 연결에 사용되는 앵커 범위(`<span id="term"></span>`)를 사용하여 알파벳순으로 구성된 하나의 큰 용어집 페이지입니다.
 * `metadata.md` — 리포지토리 수준 프런트 문제(클라우드/솔루션/제품 ID, `git-repo` 등) `TOC.md`마다 상속됩니다. 리포지토리 전체 메타데이터 변경을 위해서만 이 설정을 편집합니다. 페이지별 메타데이터는 해당 페이지의 자체 앞면에 포함됩니다.
 * `redirects.csv`, `linkcheckexclude.json`, `markdownlint_custom.json`, `pipeline.opts` - 게시 파이프라인 구성(리디렉션, 링크 확인 예외, 린트 규칙 재정의, 파이프라인 옵션).
@@ -31,6 +31,10 @@ ht-degree: 0%
 * 페이지가 특정 미디어(이미지, GIF, 비디오)인 경우 해당 페이지는 `<md-file-name>.resources`(이)라는 형제 하위 폴더에 있습니다.
 
 페이지를 추가하거나 이동할 때 `TOC.md`과(와) 폴더 레이아웃을 함께 업데이트하십시오. 동기화가 유지되어야 합니다.
+
+## 노드 참조 페이지
+
+노드 라이브러리 트리(예: `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`)는 고유한 일관된 레이아웃을 가진 고유한 페이지 유형입니다. 아이콘/설명 HTML 테이블, 뒤에 고정된 `## Inputs` / `## Outputs` / `## Parameters` 테이블(`#inputs`/`#outputs`/`#parameters`) 및 `## Examples` 갤러리가 있습니다. `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`을(를) 모델로 하여 아래의 일반 콘텐츠 페이지 블록이 아닌 **최소** 앞면(`title` + `description`만)을 사용합니다. 포함된 미디어(아이콘, 예제 이미지/GIF)가 상대적으로 참조되는 페이지 옆의 형제 `<node-name>.resources/` 폴더에 있습니다. 전체 작성 템플릿에 `generate-node-documentation` 스킬(있는 경우)을 사용합니다.
 
 ## 페이지 앞면 문제
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 변수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 변수는 <b>값을 저장</b>하여 나중에 가져오기(<b>가져오기</b>) 및/또는 수정(<b>설정</b>)하는 방법입니다.
 
-![Substance 함수 그래프 - Get float](../../../../assets/assign-getfloat.gif "Substance 함수 그래프 - Get float"){zoomable="yes"}
+![Substance 함수 그래프 - Get float](get-nodes.resources/assign-getfloat.gif "Substance 함수 그래프 - Get float"){zoomable="yes"}
 
 Get 노드가 기본적으로 수행하는 작업은 동적 변수를 가져와 함수에 사용하기 위해 Get Nodes의 출력에서 반환하는 것입니다. 이러한 Get 노드는 [그래프 매개 변수](../../../../compositing-graphs/graph-parameters/graph-parameters.md)에 정의된 입력 매개 변수와 [매개 변수 함수](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) 사이의 링크를 형성합니다.
 
@@ -58,7 +58,7 @@ Get 노드를 사용할 때마다 드롭다운 메뉴에서 사용 가능한 값
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Get float2 - Icon](../../../../assets/fn_variables_getfloat2.png "Get float2 - Icon"){width="200px"}
+![Get float2 - Icon](get-nodes.resources/fn_variables_getfloat2.png "Get float2 - Icon"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,25 +88,25 @@ Get 노드를 사용할 때마다 드롭다운 메뉴에서 사용 가능한 값
 ### 노드 가져오기
 
 +++부동
-![부동 소수점 가져오기 - 아이콘](../../../../assets/fn_variables_getfloat.png "부동 소수점 가져오기 - 아이콘"){width="200px"}
+![부동 소수점 가져오기 - 아이콘](get-nodes.resources/fn_variables_getfloat.png "부동 소수점 가져오기 - 아이콘"){width="200px"}
 
 
 
 부동 소수점 얻기
 
-![Get float2 - Icon](../../../../assets/fn_variables_getfloat2.png "Get float2 - Icon"){width="200px"}
+![Get float2 - Icon](get-nodes.resources/fn_variables_getfloat2.png "Get float2 - Icon"){width="200px"}
 
 
 
 부동 소수점2 얻기
 
-![Get float3 - Icon](../../../../assets/fn_variables_getfloat3.png "Get float3 - Icon"){width="200px"}
+![Get float3 - Icon](get-nodes.resources/fn_variables_getfloat3.png "Get float3 - Icon"){width="200px"}
 
 
 
 부동 소수점3 얻기
 
-![Get float4 - Icon](../../../../assets/fn_variables_getfloat4.png "Get float4 - Icon"){width="200px"}
+![Get float4 - Icon](get-nodes.resources/fn_variables_getfloat4.png "Get float4 - Icon"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Get 노드를 사용할 때마다 드롭다운 메뉴에서 사용 가능한 값
 +++
 
 +++정수
-![정수 가져오기 - 아이콘](../../../../assets/fn_variables_getint.png "정수 가져오기 - 아이콘"){width="200px"}
+![정수 가져오기 - 아이콘](get-nodes.resources/fn_variables_getint.png "정수 가져오기 - 아이콘"){width="200px"}
 
 
 
 정수 얻기
 
-![정수2 가져오기 - 아이콘](../../../../assets/fn_variables_getint2.png "정수2 가져오기 - 아이콘"){width="200px"}
+![정수2 가져오기 - 아이콘](get-nodes.resources/fn_variables_getint2.png "정수2 가져오기 - 아이콘"){width="200px"}
 
 
 
 정수2 얻기
 
-![정수 가져오기3 - 아이콘](../../../../assets/fn_variables_getint3.png "정수 가져오기3 - 아이콘"){width="200px"}
+![정수 가져오기3 - 아이콘](get-nodes.resources/fn_variables_getint3.png "정수 가져오기3 - 아이콘"){width="200px"}
 
 
 
 정수3 얻기
 
-![정수4 가져오기 - 아이콘](../../../../assets/fn_variables_getint4.png "정수4 가져오기 - 아이콘"){width="200px"}
+![정수4 가져오기 - 아이콘](get-nodes.resources/fn_variables_getint4.png "정수4 가져오기 - 아이콘"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Get 노드를 사용할 때마다 드롭다운 메뉴에서 사용 가능한 값
 +++
 
 +++기타
-![부울 가져오기 - 아이콘](../../../../assets/fn_variables_getboolean.png "부울 가져오기 - 아이콘"){width="200px"}
+![부울 가져오기 - 아이콘](get-nodes.resources/fn_variables_getboolean.png "부울 가져오기 - 아이콘"){width="200px"}
 
 
 
 부울 얻기
 
-![문자열 가져오기 - 아이콘](../../../../assets/fn_variables_getstring.png "문자열 가져오기 - 아이콘"){width="200px"}
+![문자열 가져오기 - 아이콘](get-nodes.resources/fn_variables_getstring.png "문자열 가져오기 - 아이콘"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Get String
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![설정: 노드 아이콘](../../../../assets/fn_variables_set.png "설정: 노드 아이콘"){width="200px"}
+![설정: 노드 아이콘](get-nodes.resources/fn_variables_set.png "설정: 노드 아이콘"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Get String
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![정의됨: 노드 아이콘](../../../../assets/fn_variables_isdefined.png "정의됨: 노드 아이콘"){width="200px"}
+![정의됨: 노드 아이콘](get-nodes.resources/fn_variables_isdefined.png "정의됨: 노드 아이콘"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
