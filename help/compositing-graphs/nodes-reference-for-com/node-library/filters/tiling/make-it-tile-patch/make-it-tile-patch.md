@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
 breadcrumb-title: ''
 description: Make It Tile Patch 노드를 사용하여 입력 이미지에서 매끄러운 타일링 텍스처를 패치하고 만들 수 있습니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 타일 패치로 만들기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '268'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch.png)
 
-![](../../../../../../assets/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-grayscale.png)
 
-## 타일 패치로 만들기(회색 음영)
-
-**내부:** *필터/타일링*
-
-**복합**
+<b>내부:</b> 필터 > 타일링
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -47,27 +43,36 @@ ht-degree: 0%
 
 전체 재질을 사용하여 이 작업을 수행하려면 [스마트 자동 타일](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)을 참조하세요.
 
-## 매개변수
-
-* **마스크 크기**: *0.0 - 1.0*&#x200B;패치를 스탬프할 때 사용되는 둥근 마스크의 크기입니다.
-* **마스크 정밀도**: *0.0 - 1.0*&#x200B;마스크의 밝기 감소/Smoothness 정밀도.
-* **마스크 뒤틀기**: *-100.0 - 100.0*&#x200B;마스크 가장자리에 뒤틀기를 도입합니다. 패치 사이의 매끄럽고 정의되지 않은 전환을 피하는 데 유용합니다.
-* **패턴 크기 너비**: *0.0 - 1000.0*&#x200B;패치의 너비를 일정하지 않게 변경합니다.
-* **패턴 크기 Height**: *0.0 - 1000.0*&#x200B;패치의 Height을 일정하지 않게 변경합니다.
-* **장애**: *0.0 - 1.0*\
-  병진 임의성을 도입하고 패치가 약간 이동합니다.
-* **크기 변형**: *0.0 - 100.0*&#x200B;마스크에 크기 변형을 도입합니다.
-* **옥타브**: *0 - 6*&#x200B;전체 크기를 결정하는 기본 컨트롤입니다.
-* **회전**: *-360.0 - 360.0*&#x200B;패치를 사전 회전합니다.
-* **회전 변형**: *0.0 - 360.0*&#x200B;모든 패치 스탬프에 대해 임의의 회전을 도입합니다.
-* **배경색**: *(색상 값)*패치가 표시되지 않는 영역의 배경색을 설정합니다.
-* **색상 변형**: *0.0 - 1.0(색상 버전만)*패치당 색상 변형을 소개합니다.
-* **광도 변형** *(회색 음영 버전만 해당)*패치당 광도 변형을 소개합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/patch-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>마스크 크기</b> <i>0.0 - 1.0</i> | 패치를 스탬프할 때 사용되는 둥근 마스크의 크기입니다. |
+| <b>마스크 정밀도</b> <i>0.0 - 1.0</i> | 마스크의 밝기 감소/Smoothness 정밀도입니다. |
+| <b>마스크 뒤틀기</b> <i>-100.0 - 100.0</i> | 마스크 가장자리에 뒤틀기를 도입합니다. 패치 사이의 매끄럽고 정의되지 않은 전환을 피하는 데 유용합니다. |
+| <b>패턴 크기 너비</b> <i>0.0 - 1000.0</i> | 패치의 폭을 불균일하게 변경합니다. |
+| <b>패턴 크기 Height</b> <i>0.0 - 1000.0</i> | 패치의 Height을 불규칙하게 변경합니다. |
+| <b>장애</b> <i>0.0 - 1.0</i> | 병진 임의성을 도입하고 패치가 약간 이동합니다. |
+| <b>크기 변형</b> <i>0.0 - 100.0</i> | 마스크의 크기 변형을 도입합니다. |
+| <b>옥타브</b> <i>0 - 6</i> | 전체 크기를 결정하는 기본 컨트롤입니다. |
+| <b>회전</b> <i>-360.0 - 360.0</i> | 패치를 사전 회전합니다. |
+| <b>회전 변형</b> <i>0.0 - 360.0</i> | 모든 패치 스탬프에 대해 임의 회전을 도입합니다. |
+| <b>배경색</b> <i>(색상 값)</i> | 패치가 표시되지 않는 영역의 배경색을 설정합니다. |
+| <b>색상 변형</b> <i>0.0 - 1.0(색상 버전만)</i> | 패치당 색상 변형을 소개합니다. |
+| <b>광도 변형</b> <i>(회색 음영 버전만)</i> | 패치당 광도 변화를 소개합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-patch.resources/patch-ex.gif" />
+        </td>
+    </tr>
 </table>

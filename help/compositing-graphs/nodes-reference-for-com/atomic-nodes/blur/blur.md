@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ''
 description: '[흐림 효과] 노드를 사용하면 세부 사항을 매끄럽게 하고 소프트 포커스 효과를 만들기 위해 텍스처에 흐림 효과를 적용할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 흐림 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![흐림 효과 노드 아이콘](../../../../assets/blur-9.png){width="200px"}
+![흐림 효과 노드 아이콘](blur.resources/blur-9.png){width="200px"}
 
 **내부:** 원자 노드
 
@@ -52,4 +52,4 @@ ht-degree: 5%
 
 | 흐림(원자성) | 흐림 효과 HQ |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-hq.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-hq.png"/></div> |

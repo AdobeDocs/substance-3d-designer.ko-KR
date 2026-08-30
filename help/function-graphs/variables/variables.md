@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 변수를 사용하여 값을 효율적으로 저장하고 다시 사용하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 변수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Substance 3D Designer에는 Numerics와 Booleans라는 두 가지 변수 패밀�
 
 이렇게 하려면 다음 모든 숫자 값 중에서 선택할 수 있습니다.
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## 부울
 

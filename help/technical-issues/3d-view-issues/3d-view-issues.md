@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: 렌더링, 표시 및 성능 문제를 포함한 Substance 3D Designer의 3D 보기 문제를 해결합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 보기 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 낮은 성능: 추가 설치형 GPU가 사용되지 않음
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 Substance 3D Designer은 시스템의 *추가 설치형* GPU(<b>dGPU</b>)를 사용하지 않으며, 대신 *통합* GPU(<b>iGPU</b>)를 사용합니다. 이렇게 하면 그래프 및/또는 [3D 보기](../../interface/3d-view/3d-view.md)를 렌더링할 때 성능이 저하됩니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 스위처블 그래픽이 있는 시스템은 GPU 제조업체에 따라 전용 소프트웨어의 *특정 응용 프로그램*&#x200B;에 사용해야 하는 *dGPU*&#x200B;을(를) 강제 실행할 수 있습니다.
 
@@ -47,11 +47,11 @@ Substance 3D Designer은 시스템의 *추가 설치형* GPU(<b>dGPU</b>)를 사
 
 ## 3D 개체가 평평합니다
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 한 세션에서 세부 볼륨을 특색있게 지정한 3D 개체는 다음 세션에서 평평하게 되지만 그래프는 변경되지 않았으며 Height 맵은 동일한 데이터를 전달합니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 Height 맵에 따른 3D 개체의 변형 효과는 **테셀레이션 변위**&#x200B;이라는 기법을 사용하여 수행된다. 이 기술은 다음 두 단계로 이루어집니다.
 
@@ -75,11 +75,11 @@ Height 맵에 따른 3D 개체의 변형 효과는 **테셀레이션 변위**&#x
 
 ## 3D 보기가 완전히 검정색임
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 버전 15.0.0 이상에서 3D 보기의 뷰포트는 평평한 검정색입니다. 일부 텍스트 오버레이(예: 샘플 및 렌더링 시간)가 표시되지만 3D 장면이 표시되지 않습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 버전 15.1 이상
 
@@ -113,11 +113,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)에서는 최
 
 ## &#39;렌더러가 지원되지 않음&#39; 메시지가 표시됩니다.
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 버전 15.0.0 이상에서는 새 3D 렌더러(래스터라이저, GPU 패스파래서)를 사용할 때 뷰포트의 오른쪽 하단에 &#39;렌더러 지원 안 됨&#39; 메시지가 표시됩니다. 3D 장면이 표시되지 않습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)에서는 최신 기술을 사용하므로 이전 GPU에서 지원하지 않는 새로운 사내 [3D 렌더러](../../interface/3d-view/3d-renderers/3d-renderers.md)를 도입했습니다.
 
@@ -144,7 +144,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)에서는 최
 
 ## 3D 개체가 완전히 매끄럽게 보임
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 **Height** [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)에 보낸 데이터를 작업한 후 개체에 일부 볼륨이 있는 것처럼 보이지만 음영에서 Height 정보를 무시한 것처럼 *완전히 부드럽게 보입니다*.
 
@@ -152,7 +152,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md)에서는 최
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)에 연결된 *표준으로 변환*&#x200B;되었는지 확인하십시오.
 
@@ -163,7 +163,7 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 
 ## 렌더링이 흐림/픽셀화됨
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 시스템에서 *디스플레이 비율*&#x200B;을 사용하면 렌더링된 이미지가 흐릿하거나 픽셀화되어 보입니다.
 
@@ -179,7 +179,7 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 기본적으로 Designer은 *크기 조절* 디스플레이 해상도를 사용하여 [3D 보기](../../interface/3d-view/3d-view.md)의 렌더링 해상도를 정의합니다. 선명한 렌더링에 *기본* 디스플레이 해상도가 대신 사용되도록 변경할 수 있습니다.
 
@@ -188,7 +188,7 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](../../assets/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
 
 </td>
 </tr>
@@ -196,11 +196,11 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 
 ## &#39;테셀레이션 요소&#39; 속성을 찾을 수 없습니다.
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 Designer을 버전 15.0.0으로 업그레이드한 후 재질 속성에서 이전의 &#39;테셀레이션 요소&#39; 매개 변수를 찾을 수 없습니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 새 렌더러(래스터화 및 GPU 패스트레이서)를 사용할 때 &#39;테셀레이션 요소&#39;가 이러한 렌더러의 속성에서 발견되었습니다. 3D 보기에서 <b>렌더러 > 설정 편집</b>으로 이동합니다. 등록 정보가 등록 정보 도크에 나열됩니다.
 
@@ -214,11 +214,11 @@ Designer을 버전 15.0.0으로 업그레이드한 후 재질 속성에서 이�
 
 ## 3D 개체가 이상하게 보임: 해당 음영이 조명에 맞지 않습니다.
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
-물체의 음영은 법선, 접선, 이항 벡터에 의존한다. 좌표는 [-1, 1] 범위를 사용하는 반면 표준 맵은 대부분의 경우 [0, 1] 범위를 사용합니다. 한 값에서 다른 값으로 조정하려면 <b>바이어스 및 비율</b>을 적용해야 합니다. value\*scale+bias.
+물체의 음영은 법선, 접선, 이항 벡터에 의존한다. 해당 좌표는 `[-1, 1]` 범위를 사용하는 반면 노멀 맵은 대부분의 경우 `[0, 1]` 범위를 사용합니다. 값을 다른 값에 맞추려면 <b>편의와 비율</b>을 적용해야 합니다. `value * scale + bias`.
 
-예를 들어, 음계 2와 바이어스 -1은 x 값을 [0, 1]에서 [-1, 1]로 조정하므로 x\*2-1이 됩니다.
+예를 들어, 소수 자릿수 2와 -1은 x 값을 `[0, 1]`에서 `[-1, 1]`(으)로 조정하므로 `x * 2 - 1`이(가) 됩니다.
 
 Designer은 3D 메시로 지정되지 않는 한 일반 비율 및 편향을 적용하지 않습니다. 해당 정보가 없는 경우 [해당 자료를 재정의](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)할 때 콘솔에 경고가 발생합니다.
 
@@ -227,7 +227,7 @@ Designer은 3D 메시로 지정되지 않는 한 일반 비율 및 편향을 적
 ```
 
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 조금 전에 USD 형식으로 내보낸 장면의 경우: 필요한 데이터가 포함된 최신 USD 버전을 사용하여 장면을 다시 내보냅니다. 장면 내보내기에 사용되는 소프트웨어에 따라 달라지는 일반 비율 및 편중과 관련된 속성에 유의하십시오.
 
@@ -235,11 +235,11 @@ Designer은 3D 메시로 지정되지 않는 한 일반 비율 및 편향을 적
 
 ## 3D 보기를 시작할 때 충돌 발생
 
-**![(오류)](../../assets/error.svg) 문제**
+**![(오류)](3d-view-issues.resources/error.svg) 문제**
 
 프로젝트를 만들거나 프로젝트를 로드하거나 3D 보기를 수동으로 시작할 때 3D 보기 시작 시 Designer이 충돌합니다.
 
-**![(틱)](../../assets/check.svg) 권장 단계**
+**![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 
 먼저 시스템이 Designer [시스템 요구 사항](../../getting-started/system-requirements/system-requirements.md)을 충족하는지 확인하십시오.
 

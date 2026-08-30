@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ''
 description: '[레벨] 노드를 사용하여 색상 교정 및 개선을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 레벨
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](../../../../assets/comp_levels_1.png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -90,8 +90,8 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 | <b>높은 수준</b> *Float/Float4* | 입력 이미지의 밝은 영역 레벨을 정의합니다.  입력 High 값을 전체 흰색으로 다시 매핑합니다. |
 | <b>중간 수준</b> *Float/Float4* | 입력 이미지의 중간 영역 레벨을 정의합니다.  입력 Mid 값을 중간 회색으로 다시 매핑합니다. |
 | <b>수평 아웃 낮음</b> *Float/Float4* | 출력 이미지의 저조도 레벨을 정의합니다.  제한을 설정하려면 출력 [검정] 값을 클램프합니다. |
-| <b>수준 높음</b> *Float/Float4* | 출력 이미지의 밝은 영역 레벨을 정의합니다.  제한을 설정하려면 출력 흰색 값을 클램프합니다. |
-| <b>중간 클램프</b> *부울* | 출력 레벨을 계산하기 전에 변환된 입력 값을 [0, 1]로 클램프할지 여부를 결정합니다. |
+| <b>수준 높음</b> *Float/Float4* | 출력 이미지의 밝은 영역 레벨을 정의합니다.  클램프에서 흰색 값 설정 |
+| <b>중간 클램프</b> *부울* | 0 입력 값을 [1]로 변환한 후 계산합니다. |
 
 ## 사용 안내서
 
@@ -101,11 +101,11 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 &#39;특정 매개 변수&#39; 상단 표시줄에서 막대 그래프의 편리한 기능에 액세스하는 단추를 찾을 수 있습니다.
 
-![수준 노드 빠른 작업](../../../../assets/levels-2.png "수준 노드 빠른 작업")
+![수준 노드 빠른 작업](levels.resources/levels-2.png "수준 노드 빠른 작업")
 
-<b>1 - 반전:</b> &#39;Level out low&#39; 및 &#39;Level out high&#39; 매개 변수의 값을 바꿉니다.
+<b>1 - 반전:</b> &#39;Level out low&#39; 및 &#39;레벨 아웃 높음&#39; 매개 변수의 값을 바꿉니다.
 
-<b>2 - 자동 수준:</b> &#39;Level in low&#39; 및 &#39;Level in high&#39; 매개 변수의 값을 각각 이미지에 있는 가장 낮은 값과 가장 높은 값으로 자동으로 조정합니다.
+<b>2 - 자동 수준:</b> &#39;레벨 인 낮음&#39; 및 &#39;레벨 인 높음&#39; 매개 변수의 값을 이미지에 있는 가장 낮은 값과 가장 높은 값으로 각각 자동으로 조정합니다.
 
 <b>3 - 인터페이스 전환:</b> 히스토그램과 슬라이더 편집기를 전환합니다.
 
@@ -113,7 +113,7 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 막대 그래프 편집기는 정확한 값이 필요하지 않고 노출 매개 변수가 중요하지 않은 경우 시각적으로 빠르게 조정할 수 있도록 만들어졌습니다. 일반적으로 레벨 작업 시 가장 빠르고 쉬운 방법입니다.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 입력 유형(색상 또는 회색 음영)에 따라 막대 그래프 위의 드롭다운을 사용하여 수정 중인 채널을 선택할 수 있습니다.
 

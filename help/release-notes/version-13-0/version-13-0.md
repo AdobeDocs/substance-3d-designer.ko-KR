@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 새 노드, Substance 엔진 9.0 및 포털 노드에 대해 알아보려면 Substance 3D Designer 버전 13.0의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,9 +26,9 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 *출시일: 2023년 6월 6일*
 
-![패스를 사용하는 재질](../../assets/Paths2.png "패스를 사용하는 재질")
+![패스를 사용하는 재질](version-13-0.resources/Paths2.png "패스를 사용하는 재질")
 
-*Celine Dameron[&#128279;](https://www.artstation.com/cline)*&#x200B;의 아트워크
+*Celine Dameron](https://www.artstation.com/cline)*&#x200B;의 아트워크[
 
 ## 새 콘텐츠
 
@@ -39,7 +39,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 이러한 모든 노드는 많은 가능성을 제공하며 많은 크리에이티브 응용 프로그램을 가질 것입니다. [패스 및 자유 곡선 도구 작업](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)에 대한 섹션을 살펴보고 이 도구 집합에 익숙해지도록 이해하기 위한 중요한 개념에 대해 알아보세요.
 
-![스플라인을 사용하는 재질](../../assets/Splines.png "스플라인을 사용하는 재질")
+![스플라인을 사용하는 재질](version-13-0.resources/Splines.png "스플라인을 사용하는 재질")
 
 [루이스 멜린](https://www.artstation.com/troglodette)*의*&#x200B;아트워크
 
@@ -61,22 +61,22 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 큐빅](../../assets/SplineCubic-Demo.gif "스플라인 큐빅")
+![스플라인 큐빅](version-13-0.resources/SplineCubic-Demo.gif "스플라인 큐빅")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 폴리 이차](../../assets/SplinePolyQuadratic-Demo.gif "스플라인 폴리 이차")
+![스플라인 폴리 이차](version-13-0.resources/SplinePolyQuadratic-Demo.gif "스플라인 폴리 이차")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 원](../../assets/SplineCircle-Demo.gif "스플라인 원")
+![스플라인 원](version-13-0.resources/SplineCircle-Demo.gif "스플라인 원")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 브리지 목록](../../assets/SplineBridge-List_Demo.gif "스플라인 브리지 목록")
+![스플라인 브리지 목록](version-13-0.resources/SplineBridge-List_Demo.gif "스플라인 브리지 목록")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 2D 변형](../../assets/Spline2DTransform-Demo1.gif "스플라인 2D 변형")
+![스플라인 2D 변형](version-13-0.resources/Spline2DTransform-Demo1.gif "스플라인 2D 변형")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 뒤틀기](../../assets/SplineWarp-Demo.gif "스플라인 뒤틀기")
+![스플라인 뒤틀기](version-13-0.resources/SplineWarp-Demo.gif "스플라인 뒤틀기")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 샘플 Thickness](../../assets/SplineSampleThickness-Demo.gif "스플라인 샘플 Thickness")
+![스플라인 샘플 Thickness](version-13-0.resources/SplineSampleThickness-Demo.gif "스플라인 샘플 Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 회색 음영 산란](../../assets/ScatterOnSplineGrayscale-Demo.gif "스플라인 회색 음영 산란")
+![스플라인 회색 음영 산란](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "스플라인 회색 음영 산란")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 채우기](../../assets/SplineFill-Demo.gif "스플라인 채우기")
+![스플라인 채우기](version-13-0.resources/SplineFill-Demo.gif "스플라인 채우기")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 매퍼 색상](../../assets/SplineMapperColor-Demo.gif "스플라인 매퍼 색상")
+![스플라인 매퍼 색상](version-13-0.resources/SplineMapperColor-Demo.gif "스플라인 매퍼 색상")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 플로우 매퍼](../../assets/SplineFlowMapper-Demo.gif "스플라인 플로우 매퍼")
+![스플라인 플로우 매퍼](version-13-0.resources/SplineFlowMapper-Demo.gif "스플라인 플로우 매퍼")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![패스에 마스크 적용](../../assets/MaskToPaths-Demo2.gif "패스에 마스크 적용")
+![패스에 마스크 적용](version-13-0.resources/MaskToPaths-Demo2.gif "패스에 마스크 적용")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![패스에 마스크 적용 2](../../assets/MaskToPaths-Demo1.gif "패스에 마스크 적용 2")
+![패스에 마스크 적용 2](version-13-0.resources/MaskToPaths-Demo1.gif "패스에 마스크 적용 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Substance 엔진 v9는 또한 다음과 같은 개선 사항을 제공합니다.
 
 이 새로운 기능은 전용 [튜토리얼](https://www.adobe.com/go/designer-tutorial-portals)에서 자세히 설명합니다.
 
-![포털 노드](../../assets/PortalNodeFinal.gif "포털 노드")
+![포털 노드](version-13-0.resources/PortalNodeFinal.gif "포털 노드")
 
 ## 홈 화면
 
@@ -216,9 +216,9 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * 새로운 기능을 소개하거나 빠른 팁을 발견하는 튜토리얼과 같은 학습 리소스에 대한 링크를 찾을 수 있는 학습 페이지.
 * 새로운 기능 화면, 정보 화면, Substance 3D 웹 사이트, 지원 커뮤니티 포럼 등에 바로 연결됩니다.
 
-![홈 화면 - 홈](../../assets/HomeScreen.png "홈 화면 - 홈")
+![홈 화면 - 홈](version-13-0.resources/HomeScreen.png "홈 화면 - 홈")
 
-![홈 화면 - 학습](../../assets/LearnPage.png "홈 화면 - 학습")
+![홈 화면 - 학습](version-13-0.resources/LearnPage.png "홈 화면 - 학습")
 
 ## 새 언어
 

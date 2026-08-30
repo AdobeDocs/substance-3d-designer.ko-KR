@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Iray
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Ray 로고](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Ray 로고](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-3D 보기가 Iray의 *프로그레시브 렌더러*&#x200B;를 사용하므로 각 픽셀에 적어도 하나의 샘플이 수행되면 즉시 이미지가 생성됩니다. 샘플링 반복이 수행되면 이미지가 *자동으로 업데이트*&#x200B;되므로 초기 러프 이미지가 각 반복에서 *정리됨*&#x200B;이 됩니다.
+3D 보기가 Iray의 *프로그레시브 렌더러*&#x200B;를 사용하므로 각 픽셀에 적어도 하나의 샘플이 수행되면 이미지가 생성됩니다. 샘플링 반복이 수행되면 이미지가 *자동으로 업데이트*&#x200B;되어 초기 러프 이미지가 *각 반복에서 더 깨끗해짐*&#x200B;이 됩니다.
 
 렌더러는 [3D 보기](../../../interface/3d-view/3d-view.md) 패널에서 사용할 수 있습니다. <b>렌더러</b> 메뉴를 열고 <b>Array</b> 옵션을 선택하여 해당 3D 보기 패널에서 사용되는 렌더러를 Array로 전환하십시오.\
 Ray 렌더러 *로 전환하면 일부 3D 보기 메뉴에서 사용 가능한 옵션이 변경*&#x200B;됩니다. 이러한 변경 사항은 아래의 <b>3D 보기</b> 섹션에 설명되어 있습니다.
@@ -62,7 +62,7 @@ Ray 렌더러 *로 전환하면 일부 3D 보기 메뉴에서 사용 가능한 �
 </td>
 <td style="border: 0;" valign="top">
 
-![Iray에서 렌더링된 중세 성벽 재질](../../../assets/iray-overview.png "Iray에서 렌더링된 중세 성벽 재질")
+![Iray에서 렌더링된 중세 성벽 재질](iray.resources/iray-overview.png "Iray에서 렌더링된 중세 성벽 재질")
 
 *재질: [중세 성벽](https://oggyart.artstation.com/projects/Xnzx0a)* *제공 [Mark Foreman](https://www.artstation.com/oggyart)* *[Substance 3D 에셋](https://substance3d.adobe.com/assets)* *라이브러리*&#x200B;에서 사용 가능
 
@@ -104,7 +104,7 @@ Ray 렌더러 *로 전환하면 일부 3D 보기 메뉴에서 사용 가능한 �
 > 메시 *을(를) 세분화하면 렌더링 전과 렌더링 중 처리 시간이 기하급수적으로 증가*&#x200B;됩니다. 값을 입력하여 *보수적인*&#x200B;을(를) 사용하는 것이 좋습니다.\
 > 파라메트릭 메서드에는 *높음* **숫자** 값을 사용하고 길이 메서드에는 *낮음* **최소 길이** 값을 사용하는 것에 주의하십시오.
 
-![장면 옵션](../../../assets/iray-scene-subdivision.gif "장면 옵션")
+![장면 옵션](iray.resources/iray-scene-subdivision.gif "장면 옵션")
 
 <a name="materials"></a>
 
@@ -132,12 +132,12 @@ Iray는 NVIDIA에서 개발한 [MDL 음영 모델](https://www.nvidia.com/en-us/
 
 * <b>편집</b> 옵션을 선택하여 <b>속성</b> 패널에서 MDL의 *노출된 입력*&#x200B;에 액세스하고 필요에 따라 재질을 조정합니다
 * <b>로드..</b> 옵션을 사용하면 누적 목록에 추가되고 장면에 적용될 모든 MDL 파일을 *수동으로 로드*&#x200B;할 수 있습니다.
-* <b>사전 설정 내보내기...</b> 옵션을 사용하면 <b>MDL 재질 사전 설정 내보내기</b> 대화 상자가 열립니다. 이 대화 상자에서 3D 보기에 적용된 현재 설정을 사용하여 사전 설정 MDL 파일을 내보낼 수 있습니다
+* <b>사전 설정 내보내기...</b> 옵션을 사용하면 <b>MDL 재질 사전 설정 내보내기</b> 대화 상자가 열리며 3D 보기에 적용된 현재 설정을 사용하여 사전 설정 MDL 파일을 내보낼 수 있습니다
 
 </td>
 <td style="border: 0;" valign="top">
 
-![재질 메뉴](../../../assets/iray-mdl-list.png "재질 메뉴")
+![재질 메뉴](iray.resources/iray-mdl-list.png "재질 메뉴")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 * <b>초점 거리</b>: 초점의 카메라와의 거리(예: 이미지가 가장 선명한 위치)입니다.
 * <b>조리개 지름</b>: 카메라의 조리개를 제어하는 값입니다. 값이 낮을수록 초점 전후에 이미지 요소가 더 선명해집니다. 즉, 간단히 말해 이 값은 필드 효과 깊이의 강도를 제어합니다
 
-![카메라 설정](../../../assets/camera-dof.png "카메라 설정")
+![카메라 설정](iray.resources/camera-dof.png "카메라 설정")
 
 <a name="environment"></a>
 
@@ -193,9 +193,9 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 * **지표**: 지표 평면을 활성화합니다.
 * **위치**: 유한 돔의 원점 위치(*구* 돔 유형에도 적용됨)
 * **반사율**: 지면 반사의 불투명도 및 색조입니다. 여기서 검은색은 반사가 보이지 않음을 의미합니다.
-* **광택**: 바닥 반사의 광택
+* **광택도**: 지면 반사의 광택도
 * **그림자 강도**: 지면에 드리워진 그림자의 불투명도
-* **텍스처 크기**: 지면에 투영된 환경 텍스처 크기를 제어합니다(*구* 돔 유형에도 적용)
+* **텍스처 배율**: 지면에 환경 텍스처 투영의 크기를 제어합니다(*구* 돔 유형에도 적용)
 
 이러한 설정의 영향은 아래에서 확인할 수 있습니다.
 
@@ -205,11 +205,11 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - 환경 숨김">
+      <img src="iray.resources/iray-environment-hidden.png" alt="Iray - 환경 숨김">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-visible.png" alt="Iray - 환경 표시">
+      <img src="iray.resources/iray-env-visible.png" alt="Iray - 환경 표시">
       <br><i>이후</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 
 
 
-![Iray - 숨겨진 환경](../../../assets/iray-environment-hidden.png "Iray - 숨겨진 환경")
+![Iray - 숨겨진 환경](iray.resources/iray-environment-hidden.png "Iray - 숨겨진 환경")
 
-![Iray - 환경 표시](../../../assets/iray-env-visible.png "Iray - 환경 표시")
+![Iray - 환경 표시](iray.resources/iray-env-visible.png "Iray - 환경 표시")
 
 +++
 
@@ -229,11 +229,11 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - 무한 구만">
+      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iray - 무한 구만">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - 지표 평면이 있는 무한 구">
+      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray - 지표 평면이 있는 무한 구">
       <br><i>이후</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 
 
 
-![Iray - 무한 구 전용](../../../assets/iray-env-infinite-sphere.png "Iray - 무한 구 전용")
+![Iray - 무한 구 전용](iray.resources/iray-env-infinite-sphere.png "Iray - 무한 구 전용")
 
-![Iray - 지표 평면이 있는 무한 구](../../../assets/iray-env-sphere-ground.png "Iray - 지표 평면이 있는 무한 구")
+![Iray - 지표 평면이 있는 무한 구](iray.resources/iray-env-sphere-ground.png "Iray - 지표 평면이 있는 무한 구")
 
 +++
 
 +++환경 회전
-![환경 회전](../../../assets/iray-env-rotation.gif "환경 회전")
+![환경 회전](iray.resources/iray-env-rotation.gif "환경 회전")
 
 
 
 +++
 
 +++지표 평면 조정
-![지표 반사](../../../assets/iray-env-ground-options.gif "지표 반사")
+![지표 반사](iray.resources/iray-env-ground-options.gif "지표 반사")
 
 
 
 +++
 
 +++무한 구 조정
-![환경 비율(구)](../../../assets/iray-env-sphere-radius.gif "환경 비율(구)")
+![환경 비율(구)](iray.resources/iray-env-sphere-radius.gif "환경 비율(구)")
 
 
 
 +++
 
 +++포함 상자 조정
-![환경 비율(큐브)](../../../assets/iray-env-box-dimensions.gif "환경 비율(큐브)")
+![환경 비율(큐브)](iray.resources/iray-env-box-dimensions.gif "환경 비율(큐브)")
 
 
 
@@ -287,7 +287,7 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 * <b>해상도</b>: 효과적인 렌더링 해상도입니다. 카메라 속성의 창 해상도 사용 옵션을 False로 설정하면 이미지 비율이 해상도 비율에 맞게 자동으로 조정됩니다
 * <b>장면 통계</b>: 렌더링된 장면과 관련된 통계 목록입니다. 여기에는 삼각형 수 및 기타 데이터 간의 재질 수가 포함됩니다.
 
-![표시 옵션](../../../assets/iray-display-data.png "표시 옵션"){width="512px"}
+![표시 옵션](iray.resources/iray-display-data.png "표시 옵션"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-none.png" alt="Iray - 기본 렌더링">
+      <img src="iray.resources/iray-renderer-none.png" alt="Iray - 기본 렌더링">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - 가성 샘플러 활성화됨">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - 가성 샘플러 활성화됨">
       <br><i>이후</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 
 
 
-![Iray - 기본 렌더링](../../../assets/iray-renderer-none.png "Iray - 기본 렌더링")
+![Iray - 기본 렌더링](iray.resources/iray-renderer-none.png "Iray - 기본 렌더링")
 
-![Iray - Caustic sampler 사용](../../../assets/iray-renderer-caustics.png "Iray - Caustic sampler 사용")
+![Iray - Caustic sampler 사용](iray.resources/iray-renderer-caustics.png "Iray - Caustic sampler 사용")
 
 +++
 
@@ -340,11 +340,11 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Firefly 필터 사용 안 함">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Firefly 필터 사용 안 함">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly 필터 사용">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly 필터 사용">
       <br><i>이후</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 
 
 
-![Iray - Firefly 필터 사용 안 함](../../../assets/iray-renderer-caustics.png "Iray - Firefly 필터 사용 안 함")
+![Iray - Firefly 필터 사용 안 함](iray.resources/iray-renderer-caustics.png "Iray - Firefly 필터 사용 안 함")
 
-![Iray - Firefly 필터 사용](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Firefly 필터 사용")
+![Iray - Firefly 필터 사용](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Firefly 필터 사용")
 
 +++
 
@@ -364,11 +364,11 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - 사후 노이즈 제거 비활성화됨">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - 사후 노이즈 제거 비활성화됨">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - 사후 노이즈 제거 사용">
+      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - 사후 노이즈 제거 사용">
       <br><i>이후</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ Ray 렌더러를 선택한 경우 카메라 속성에서 다음과 같은 몇 �
 
 
 
-![Iray - Post-denoiser 사용 안 함](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser 사용 안 함")
+![Iray - Post-denoiser 사용 안 함](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser 사용 안 함")
 
-![Iray - Post-denoiser 사용](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiser 사용")
+![Iray - Post-denoiser 사용](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiser 사용")
 
 +++
 
@@ -404,4 +404,4 @@ Iray 렌더러는 NVIDIA GPU에서만 하드웨어 가속을 제공하며 다음
 > GPU 하드웨어 가속은 [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone) 기술을 사용합니다. 최상의 호환성과 안정성을 위해 *그래픽 드라이버가 최신*&#x200B;인지 확인하십시오. NVIDIA GPU용 최신 드라이버를 [여기](https://www.nvidia.com/Download/index.aspx?lang=en-us)에서 찾습니다.\
 > 다중 GPU 구성의 경우 최고의 안정성을 위해 *SLI를 비활성화*&#x200B;하고 GPU를 하나만 선택하는 것이 좋습니다.
 
-![Iray 환경 설정](../../../assets/iray-preferences-hardware.png "Iray 환경 설정")
+![Iray 환경 설정](iray.resources/iray-preferences-hardware.png "Iray 환경 설정")

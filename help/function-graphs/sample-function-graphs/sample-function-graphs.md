@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 샘플 함수 그래프를 탐색하여 고급 기법 및 모범 사례를 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 샘플 함수 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 5%
@@ -32,12 +32,12 @@ ht-degree: 5%
 
 이 프로젝트는 함수 그래프에 대한 일반적인 소개 역할을 하며 이 그래프를 사용하여 [Substance 합성 그래프](../../compositing-graphs/substance-compositing-graphs.md)의 노드 매개 변수에 있는 컨트롤을 확장하는 방법을 설명합니다.
 
-[![Substance 함수 그래프 샘플 파일 아이콘](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[![Substance 함수 그래프 샘플 파일 아이콘](sample-function-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/demo-functions.png){width="512px"}
+![](sample-function-graphs.resources/demo-functions.png){width="512px"}
 
 </td>
 </tr>

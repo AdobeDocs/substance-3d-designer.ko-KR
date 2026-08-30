@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
 breadcrumb-title: ''
 description: PBR 알베도 안전 색상 노드를 사용하여 알베도 색상이 PBR 재질에 대해 물리적으로 적합한 범위 내에 있는지 확인합니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR 알베도 안전 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color.png){width="128px"}
 
-## PBR 알베도 안전 색상
-
-**내부:** *재질 필터/PBR 유틸리티*
-
-**단순**
+<b>내부:</b> 재질 필터 > PBR 유틸리티
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,17 +39,15 @@ ht-degree: 1%
 
 이는 빠른 교정 도구로 유용하며, 특히 PBR을 아직 학습하고 있지만 항상 정확해야 하는 절대 측정값으로 의도되지 않을 때 유용합니다.
 
-## 매개변수
-
-* **PBR 워크플로**: *기본 색상 - 금속, 확산 - Specular*&#x200B;두 개의 다른 PBR 워크플로 사이를 전환합니다.
-* **허용치**: *0.0 - 1.0*&#x200B;범위를 벗어난 값의 허용치 양.
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>PBR 워크플로</b> <i>기본 색상 - 금속, 확산 - Specular</i> | 서로 다른 두 PBR 작업 과정 사이를 전환합니다. |
+| <b>허용치</b> <i>0.0 - 1.0</i> | 범위를 벗어난 값의 허용치 양입니다. |

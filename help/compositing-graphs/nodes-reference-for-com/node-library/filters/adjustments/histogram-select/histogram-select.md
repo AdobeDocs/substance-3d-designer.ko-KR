@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
-description: '[막대 그래프 선택] 노드를 사용하여 대상 조정을 위한 텍스처 막대 그래프에서 특정 범위를 선택하고 추출할 수 있습니다.'
+description: 막대 그래프 선택 노드를 사용하여 텍스처 막대 그래프에서 특정 범위를 선택하고 추출하여 지정된 조정을 수행합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 막대 그래프 선택
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select.png){width="128px"}
 
-## 막대 그래프 선택
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,17 +37,26 @@ ht-degree: 1%
 
 [히스토그램 선택에서 Substance 아카데미 비디오를 시청하려면 여기를 클릭하십시오.](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## 매개변수
-
-* **위치**: *0.0 - 1.0*&#x200B;범위 선택이 수행되는 중간 위치를 설정합니다.
-* **범위**: *0.0 - 1.0*&#x200B;선택 범위의 너비를 설정합니다.
-* **대비**: *0.0 - 1.0*\
-  결과의 대비/감소를 조정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>위치</b> <i>0.0 - 1.0</i> | 범위 선택이 수행되는 중간 위치를 설정합니다. |
+| <b>범위</b> <i>0.0 - 1.0</i> | 선택 범위의 폭을 설정합니다. |
+| <b>대비</b> <i>0.0 - 1.0</i> | 결과의 대비/감소를 조정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-select.resources/histoselect-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: FXMaps의 반복 노드를 사용하여 재질에 반복 패턴 및 절차 변형을 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 반복 노드
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Quadrant 노드에서 사용할 수 있는 모든 동적 기능은 반복 노드
 
 통과 이미지는 반복 매개 변수의 설정과 관계없이 항상 그대로 통과됩니다.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

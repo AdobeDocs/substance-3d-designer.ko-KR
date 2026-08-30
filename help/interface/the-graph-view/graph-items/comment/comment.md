@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 그래프에 주석을 추가하여 워크플로우를 문서화하고 노드 연결을 설명합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 주석
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![댓글 아이콘](../../../../assets/graphatomic-comment_1.png "댓글 아이콘")
+![댓글 아이콘](comment.resources/graphatomic-comment_1.png "댓글 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![댓글: 상위 댓글](../../../../assets/graph-comment_parented.gif "댓글: 상위 댓글")
+![댓글: 상위 댓글](comment.resources/graph-comment_parented.gif "댓글: 상위 댓글")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 1%
 
 ## HTML 서식
 
-HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 서식은 주석의 <b>설명</b> 속성에서 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 사용하여 전환됩니다.
+HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 서식은 주석의 <b>설명</b> 속성에서 ![](comment.resources/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 사용하여 전환됩니다.
 
 >[!TIP]
 >
 > [프레임](../../../../interface/the-graph-view/graph-items/frame/frame.md) 설명서의 <b>설명</b> 섹션에서 이 기능에 대해 자세히 알아보십시오.
 
-![주석: HTML 마크업](../../../../assets/graph-comment_html-markup.gif "주석: HTML 마크업")
+![주석: HTML 마크업](comment.resources/graph-comment_html-markup.gif "주석: HTML 마크업")

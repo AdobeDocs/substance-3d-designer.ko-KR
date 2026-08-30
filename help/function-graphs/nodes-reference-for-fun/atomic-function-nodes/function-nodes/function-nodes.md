@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 함수 노드에 액세스하여 사용자 정의 함수 그래프를 호출하고 실행합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 함수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 ## 노드 목록
 
 +++Pow
-![Pow 노드 아이콘](../../../../assets/Pow_Node.jpg "Pow 노드 아이콘")
+![Pow 노드 아이콘](function-nodes.resources/Pow_Node.jpg "Pow 노드 아이콘")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2Pow 노드 아이콘](../../../../assets/2Pow_Node.jpg "2Pow 노드 아이콘")
+![2Pow 노드 아이콘](function-nodes.resources/2Pow_Node.jpg "2Pow 노드 아이콘")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++제곱근
-![정사각형 루트 노드 아이콘](../../../../assets/SquareRoot_Node.jpg "정사각형 루트 노드 아이콘")
+![정사각형 루트 노드 아이콘](function-nodes.resources/SquareRoot_Node.jpg "정사각형 루트 노드 아이콘")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++지수
-![지수 노드 아이콘](../../../../assets/Exponential_Node.jpg "지수 노드 아이콘")
+![지수 노드 아이콘](function-nodes.resources/Exponential_Node.jpg "지수 노드 아이콘")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++대수
-![로그 노드 아이콘](../../../../assets/Logarithm_Node.jpg "로그 노드 아이콘")
+![로그 노드 아이콘](function-nodes.resources/Logarithm_Node.jpg "로그 노드 아이콘")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++밑이 2인 로그
-![로그 기본 2 노드 아이콘](../../../../assets/LogarithmBase2_Node.jpg "로그 기본 2 노드 아이콘")
+![로그 기본 2 노드 아이콘](function-nodes.resources/LogarithmBase2_Node.jpg "로그 기본 2 노드 아이콘")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++절대치
-![절대 노드 아이콘](../../../../assets/Absolute_Node.jpg "절대 노드 아이콘")
+![절대 노드 아이콘](function-nodes.resources/Absolute_Node.jpg "절대 노드 아이콘")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 +++
 
 +++상한
-![Ceil 노드 아이콘](../../../../assets/Ceil_Node.jpg "Ceil 노드 아이콘")
+![Ceil 노드 아이콘](function-nodes.resources/Ceil_Node.jpg "Ceil 노드 아이콘")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 +++
 
 +++내림
-![플로어 노드 아이콘](../../../../assets/Floor_Node.jpg "플로어 노드 아이콘")
+![플로어 노드 아이콘](function-nodes.resources/Floor_Node.jpg "플로어 노드 아이콘")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 +++
 
 +++선형 보간
-![선형 보간 노드 아이콘](../../../../assets/LinearInterpolation_Node.jpg "선형 보간 노드 아이콘")
+![선형 보간 노드 아이콘](function-nodes.resources/LinearInterpolation_Node.jpg "선형 보간 노드 아이콘")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++최소
-![최소 노드 아이콘](../../../../assets/Minimum_Node.jpg "최소 노드 아이콘")
+![최소 노드 아이콘](function-nodes.resources/Minimum_Node.jpg "최소 노드 아이콘")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++최대
-![최대 노드 아이콘](../../../../assets/Maximum_Node.jpg "최대 노드 아이콘")
+![최대 노드 아이콘](function-nodes.resources/Maximum_Node.jpg "최대 노드 아이콘")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++코사인
-![코사인 노드 아이콘](../../../../assets/Cosine_Node.jpg "코사인 노드 아이콘")
+![코사인 노드 아이콘](function-nodes.resources/Cosine_Node.jpg "코사인 노드 아이콘")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++사인
-![사인 노드 아이콘](../../../../assets/Sine_Node.jpg "사인 노드 아이콘")
+![사인 노드 아이콘](function-nodes.resources/Sine_Node.jpg "사인 노드 아이콘")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++탄젠트
-![접선 노드 아이콘](../../../../assets/Tangent_Node.jpg "접선 노드 아이콘")
+![접선 노드 아이콘](function-nodes.resources/Tangent_Node.jpg "접선 노드 아이콘")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++아크탄젠트 2
-![아크 탄젠트 2 노드 아이콘](../../../../assets/ArcTangent2_Node.jpg "아크 탄젠트 2 노드 아이콘")
+![아크 탄젠트 2 노드 아이콘](function-nodes.resources/ArcTangent2_Node.jpg "아크 탄젠트 2 노드 아이콘")
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 5%
 +++
 
 +++데카르트식
-![절대 노드 아이콘](../../../../assets/Absolute_Node.jpg "절대 노드 아이콘")
+![절대 노드 아이콘](function-nodes.resources/Absolute_Node.jpg "절대 노드 아이콘")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 5%
 +++
 
 +++임의
-![임의 노드 아이콘](../../../../assets/Random_Node.jpg "임의 노드 아이콘")
+![임의 노드 아이콘](function-nodes.resources/Random_Node.jpg "임의 노드 아이콘")
 
 
 

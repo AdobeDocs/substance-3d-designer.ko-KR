@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 환경 설정에서 버전 제어 설정을 구성하여 Git 및 기타 시스템과 통합합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 Designer은 [Perforce](https://www.perforce.com/)&#x200B;(P4) 버전 제어 시스템의 Python 통합을 제공합니다.
 
-통합은 [탐색기](../../../interface/the-explorer-window/the-explorer-window.md)의 패키지 상황별 메뉴에 사용자 정의 &#39;버전 제어&#39; 하위 메뉴와 P4의 패키지 상태에 맞는 사용자 정의 아이콘을 추가합니다.
+통합은 [탐색기](../../../interface/the-explorer-window/the-explorer-window.md)의 패키지 상황별 메뉴에 사용자 정의 &#39;버전 컨트롤&#39; 하위 메뉴와 P4의 패키지 상태에 맞는 사용자 정의 아이콘을 추가합니다.
 
 ## P4 준비 중
 
 [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v)에서 아래와 같이 작업 영역 이름과 경로를 기록해 두십시오.
 
-![P4V 작업 영역 정보](../../../assets/p4v-workspace-strings.jpg "P4V 작업 영역 정보"){zoomable="yes"}
+![P4V 작업 영역 정보](version-control.resources/p4v-workspace-strings.jpg "P4V 작업 영역 정보"){zoomable="yes"}
 
 텍스트 편집기 또는 IDE에서 Designer 설치 &#39;*tools/version\_control/perforce.py*&#39;에 있는 이 스크립트를 엽니다.
 
@@ -52,9 +52,9 @@ cVerbose = False
 
 ## Designer에서 설정
 
-Designer의 [환경 설정](../../../interface/preferences-window/preferences-window.md)에서 사용할 수 있는 [프로젝트 설정](../../../interface/preferences-window/project-settings/project-settings.md)에 버전 제어가 구성되어 있습니다.
+Designer의 [환경 설정](../../../interface/preferences-window/preferences-window.md)에서 사용할 수 있는 [프로젝트 설정](../../../interface/preferences-window/project-settings/project-settings.md)에서 버전 컨트롤이 구성되었습니다.
 
-프로젝트 설정의 ![&#39;버전 제어&#39; 탭](../../../assets/p4v-project-settings.jpg " 프로젝트 설정의 &#39;버전 제어&#39; 탭"){zoomable="yes"}
+프로젝트 설정의 ![&#39;버전 제어&#39; 탭](version-control.resources/p4v-project-settings.jpg " 프로젝트 설정의 &#39;버전 제어&#39; 탭"){zoomable="yes"}
 
 1. &#39;편집 > 환경 설정&#39;으로 이동
 1. &#39;프로젝트&#39;로 이동하고 대상 [프로젝트 파일](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)을 선택한 다음 &#39;버전 제어&#39; 탭으로 이동합니다.
@@ -64,7 +64,7 @@ Designer의 [환경 설정](../../../interface/preferences-window/preferences-wi
    * <b>이름:</b> P4V에서 이전에 검색한 &#39;작업 영역 이름&#39;을 입력하십시오.
    * <b>경로:</b> P4V에서 이전에 검색한 &#39;작업 영역 경로&#39;를 입력하십시오.
 
-Designer에서 ![P4 설정: 작업 영역](../../../assets/p4v-project-settings-workspace.jpg "Designer에서 P4 설정: 작업 영역"){zoomable="yes"}
+Designer에서 ![P4 설정: 작업 영역](version-control.resources/p4v-project-settings-workspace.jpg "Designer에서 P4 설정: 작업 영역"){zoomable="yes"}
 
 ### 동작 설정
 
@@ -88,7 +88,7 @@ Designer에서 ![P4 설정: 작업 영역](../../../assets/p4v-project-settings-
 1. Designer 설치에서 다음 스크립트를 선택합니다. &#39;*tools/version\_control/perforce.py*&#39;
 1. 다른 모든 액션에 대해 스크립트가 자동으로 설정되어야 합니다.
 
-Designer에서 ![P4 설정: 작업](../../../assets/p4v-project-settings-actions.jpg "Designer에서 P4 설정: 작업"){zoomable="yes"}
+Designer에서 ![P4 설정: 작업](version-control.resources/p4v-project-settings-actions.jpg "Designer에서 P4 설정: 작업"){zoomable="yes"}
 
 ### 사용자 정의 동작 설정
 
@@ -103,7 +103,7 @@ Designer에서 ![P4 설정: 작업](../../../assets/p4v-project-settings-actions
 1. 스크립트 파일 확장자 또는 접미어 및 인터프리터 실행 파일의 경로를 설정합니다
 1. perforce.py 스크립트를 편집하여 &#39;p4&#39; 바이너리의 위치를 업데이트합니다.
 
-Designer에서 ![P4 설정: 인터프리터](../../../assets/p4v-project-settings-interpreters.jpg "Designer에서 P4 설정: 인터프리터"){zoomable="yes"}
+Designer에서 ![P4 설정: 인터프리터](version-control.resources/p4v-project-settings-interpreters.jpg "Designer에서 P4 설정: 인터프리터"){zoomable="yes"}
 
 ## 버전 제어 사용 방법
 
@@ -123,12 +123,12 @@ Designer에서 ![P4 설정: 인터프리터](../../../assets/p4v-project-setting
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![&#39;Submit&#39; 대화 상자](../../../assets/p4v-submit.jpg "&#39;Submit&#39; 대화 상자"){zoomable="yes"}
+   ![&#39;Submit&#39; 대화 상자](version-control.resources/p4v-submit.jpg "&#39;Submit&#39; 대화 상자"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![&#39;되돌리기&#39; 대화 상자](../../../assets/p4v-revert.jpg "&#39;되돌리기&#39; 대화 상자"){zoomable="yes"}
+   ![&#39;되돌리기&#39; 대화 상자](version-control.resources/p4v-revert.jpg "&#39;되돌리기&#39; 대화 상자"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ Designer에서 ![P4 설정: 인터프리터](../../../assets/p4v-project-setting
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![패키지 아이콘: 최신](../../../assets/p4-up-to-date.png "패키지 아이콘: 최신")
+![패키지 아이콘: 최신](version-control.resources/p4-up-to-date.png "패키지 아이콘: 최신")
 
 최신
 
 </td>
 <td style="border: 0;" valign="top">
 
-![패키지 아이콘: 체크 아웃됨](../../../assets/p4-checked-out.png "패키지 아이콘: 체크 아웃됨")
+![패키지 아이콘: 체크 아웃됨](version-control.resources/p4-checked-out.png "패키지 아이콘: 체크 아웃됨")
 
 체크 아웃됨
 
 </td>
 <td style="border: 0;" valign="top">
 
-![패키지 아이콘: 추가됨](../../../assets/p4-added.png "패키지 아이콘: 추가됨")
+![패키지 아이콘: 추가됨](version-control.resources/p4-added.png "패키지 아이콘: 추가됨")
 
 추가 대상으로 표시됨
 
 </td>
 <td style="border: 0;" valign="top">
 
-![패키지 아이콘: 저장소에 없음](../../../assets/p4-not-in-depot.png "패키지 아이콘: 저장소에 없음")
+![패키지 아이콘: 저장소에 없음](version-control.resources/p4-not-in-depot.png "패키지 아이콘: 저장소에 없음")
 
 서비스 센터에 없음
 

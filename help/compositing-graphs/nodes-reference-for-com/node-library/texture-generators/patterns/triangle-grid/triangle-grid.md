@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 Triangle Grid 노드를 사용하여 기하학적 텍스처를 만들기 위한 삼각형 격자 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -44,44 +44,30 @@ ht-degree: 0%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 매개변수
-
-</td>
-</tr>
-</table>
-
-## 입력 커넥터
+## 입력
 
 |  |  |
-| --- | --- |
-| <b>Height</b> *회색 음영* 기본 | 정점의 *Height*(예: Z 위치)을 매핑하는 데 사용되는 회색 음영 이미지 입력입니다.    이 투입의 영향력은 &#39;Height 투입승수&#39; 매개변수에 의해 통제된다. |
-| <b>벡터 맵</b> *색상* | X축과 Y축에 정점의 *변위*&#x200B;을(를) 매핑하는 데 사용되는 색상 이미지 입력입니다.    X/Y 오프셋은 각각 이미지의 R/G 채널에 매핑됩니다.    이 입력의 영향은 &#39;벡터 맵 변위&#39; 매개 변수에 의해 제어됩니다. |
-| <b>색상 입력</b> *색상* | 정점, 선분 또는 삼각형의 *색상*&#x200B;을 매핑하는 데 사용되는 색상 이미지 입력입니다.    이 입력은 &#39;색상 소스&#39; 매개 변수를 &#39;색상 입력&#39;으로 설정할 때 사용됩니다. |
+|:---|:---|
+| <b>Height</b> <i>회색 음영</i> 기본 | 정점의 *Height*(예: Z 위치)을 매핑하는 데 사용되는 회색 음영 이미지 입력입니다.    이 투입의 영향력은 &#39;Height 투입승수&#39; 매개변수에 의해 통제된다. |
+| <b>벡터 맵</b> <i>색상</i> | X축과 Y축에 정점의 *변위*&#x200B;을(를) 매핑하는 데 사용되는 색상 이미지 입력입니다.    X/Y 오프셋은 각각 이미지의 R/G 채널에 매핑됩니다.    이 입력의 영향은 &#39;벡터 맵 변위&#39; 매개 변수에 의해 제어됩니다. |
+| <b>색상 입력</b> <i>색상</i> | 정점, 선분 또는 삼각형의 *색상*&#x200B;을 매핑하는 데 사용되는 색상 이미지 입력입니다.    이 입력은 &#39;색상 소스&#39; 매개 변수를 &#39;색상 입력&#39;으로 설정할 때 사용됩니다. |
 
-## 출력 커넥터
+<a name="outputs"></a>
+
+## 출력
 
 |  |  |
-| --- | --- |
-| <b>출력</b> *색상* | 출력 이미지입니다. |
+|:---|:---|
+| <b>출력</b> <i>색상</i> | 출력 이미지입니다. |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>색상 출력</b> *정수* | 삼각측정 서피스를 나타내는 방법:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>정점당:</b> 각 정점에 색상이 할당되고 삼각형 표면에 보간됩니다.</li> <li data-preserve-html="true"><b>삼각형당:</b> 각 삼각형에 단색이 할당됨</li> <li data-preserve-html="true"><b>가는 선</b><b>:</b>은 꼭짓점 사이의 선분에 윤곽선을 적용합니다</li> <li data-preserve-html="true"><b>가장자리까지의 거리</b><b>:</b>는 각 삼각형에서 가장 가까운 세그먼트에 거리를 렌더링합니다</li> <li data-preserve-html="true"><b>중앙</b><b>:</b>은 각 삼각형의 무게 중심에 대해 정규화된 거리를 렌더링합니다</li> </ul> |
 | <b>삼각 측량</b> *정수* | 서피스에 대한 삼각 측량 방법, 즉 쿼드의 *상대 정점 쌍*&#x200B;을 연결합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>자동:</b>은 자동으로 두 정점을 선택하여 카메라에서 <i>가장 멀리 보이는 삼각형</i>을 만듭니다<br/> <b>45°:</b> X-오른쪽 축을 기준으로 선 <i>45도 돌린</i>을(를) 만드는 반대 정점을 연결합니다</li> <li data-preserve-html="true"><b>-45°:</b> X-오른쪽 축을 기준으로 줄 <i>방향을 -45도</i>로 돌린 반대 정점을 연결합니다</li> <li data-preserve-html="true"><b>Quinux 가로:</b> 정점의 삼각측량 방향을 <i>한 행마다</i> 바꿉니다.</li> <li data-preserve-html="true"><b>Quinux 수직:</b> 정점의 삼각측량 방향을 <i>모든 다른 열</i> 대체<br/> </li> </ul> |
 | <b>X 양</b> *정수* | X축에 생성된 정점의 양입니다. |
@@ -97,31 +83,31 @@ ht-degree: 0%
 | <b>무작위 Height</b> *부동* | 각 정점의 Z 위치에 임의의 오프셋을 적용합니다.  이 오프셋은 <b>Height 입력 승수</b> 매개 변수를 사용하여 *스택*&#x200B;입니다. |
 | <b>혼합 모드</b> *정수* | *겹쳐진 삼각형*&#x200B;의 값을 혼합하는 방법을 설정합니다. 모드를 사용하면 표시할 삼각형 중 *어떤*&#x200B;개를 효과적으로 선택할 수 있습니다. <ul data-preserve-html="true"> <li data-preserve-html="true"><b>분:</b> 텍스트</li> <li data-preserve-html="true"><b>최대:</b> 텍스트</li> <li data-preserve-html="true"><b>깊이 테스트</b>: 텍스트</li> <li data-preserve-html="true"><b>Alpha 혼합:</b> 텍스트</li> </ul>참고: 사용 가능한 혼합 모드는 <b>색상 출력</b> 매개 변수의 값에 따라 다릅니다. |
 | <b>색상 소스</b> *정수* *&#39;색상 출력&#39; 매개 변수가 &#39;정점당&#39;, &#39;삼각형당&#39; 또는 &#39;가는 선&#39;으로 설정된 경우 사용할 수 있습니다.* | 선택한 <b>색상 출력</b> 모드에 따라 꼭지점, 삼각형 또는 선분에 할당되어야 하는 *색상 획득* 방법(예: 광도)을 설정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Height</b><b>:</b> 정점의 Height을 광도로 사용</li> <li data-preserve-html="true"><b>무작위</b><b>:</b> 무작위 광도 값 사용</li> <li data-preserve-html="true"><b>색상 입력</b><b>:</b> <b style="">색상 입력</b> 입력에서 샘플링된 값을 사용합니다.</li> </ul> |
-| <b>색상 소스 불투명도</b> *부동* *&#39;Color Output&#39; 매개 변수가 &#39;Thin Line&#39;으로 설정된 경우 사용할 수 있습니다.* | 선택한 <b>색상 소스</b>에서 생성된 값으로 <b>선 색상</b> 값의 *재정의*&#x200B;를 제어합니다.   참고: 이 값을 1로 설정하면 <b>선 색상</b> 매개 변수는 영향을 주지 않습니다. |
+| <b>색상 소스 불투명도</b> *부동* *&#39;색 출력&#39; 매개 변수가 &#39;가는 선&#39;으로 설정되어 있을 때 사용할 수 있습니다.* | 선택한 <b>색상 소스</b>에서 생성된 값으로 <b>선 색상</b> 값의 *재정의*&#x200B;를 제어합니다.   참고: 이 값을 1로 설정하면 <b>선 색상</b> 매개 변수는 영향을 주지 않습니다. |
 | <b>가장자리까지의 거리 Thickness</b> *부동* *&#39;Color Output&#39; 매개 변수가 &#39;Distance to Edge&#39;로 설정되어 있을 때 사용할 수 있습니다.* | 거리 그레이디언트의 Thickness을 설정합니다. 값이 낮을수록 *더 짧아집니다*. |
-| <b>선 색상</b> *Float/Float4* *&#39;Color Output&#39; 매개 변수가 &#39;Thin Line&#39;으로 설정된 경우 사용할 수 있습니다.* | 선분의 광도 값입니다.   참고: <b>색상 소스 불투명도</b> 값을 1로 설정하면 이 매개 변수는 영향을 주지 않습니다. |
-| <b>배경색</b> *Float/Float4* *&#39;Color Output&#39; 매개 변수가 &#39;Thin Line&#39;으로 설정된 경우 사용할 수 있습니다.* | 세그먼트 사이에 표시되는 배경의 광도 값입니다.   참고: <b>혼합 모드</b>가 *최대*(으)로 설정되면 배경은 예상대로 *더 밝음*&#x200B;인 세그먼트를 재정의합니다. |
+| <b>선 색상</b> *부동/부동4* *&#39;색 출력&#39; 매개 변수가 &#39;가는 선&#39;으로 설정되어 있을 때 사용할 수 있습니다.* | 선분의 광도 값입니다.   참고: <b>색상 소스 불투명도</b> 값을 1로 설정하면 이 매개 변수는 영향을 주지 않습니다. |
+| <b>배경색</b> *부동/부동4* *&#39;색 출력&#39; 매개 변수가 &#39;가는 선&#39;으로 설정되어 있을 때 사용할 수 있습니다.* | 세그먼트 사이에 표시되는 배경의 광도 값입니다.   참고: <b>혼합 모드</b>가 *최대*(으)로 설정되면 배경은 예상대로 *더 밝음*&#x200B;인 세그먼트를 재정의합니다. |
 | <b>임의 색상 시드 모드</b> *정수* *&#39;색상 출력&#39; 매개 변수가 &#39;정점당&#39;, &#39;삼각형당&#39; 또는 &#39;가는 선&#39;으로 설정되고 &#39;색상 소스&#39; 매개 변수가 &#39;임의&#39;로 설정된 경우 사용할 수 있습니다.* | 의사 랜덤 색상 분포에 사용된 시드를 획득하는 방법은 다음과 같습니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>전역 임의 시드</b><b>:</b>는 노드의 그래프에서 시드를 상속합니다.</li> <li data-preserve-html="true"><b>수동 시드</b><b>:</b> 사용자 지정 개별 시드 사용</li> </ul> |
 | <b>임의 색상 시드</b> *정수* *&#39;Random Color Seed Mode&#39; 매개 변수가 &#39;Manual Seed&#39;로 설정되고 &#39;Color Source&#39; 매개 변수가 &#39;Random&#39;으로 설정된 경우 사용할 수 있습니다.* | 의사 난수 색상 분포에 사용되는 이산 시드 값입니다. |
 | <b>비정사각형 확장</b> *부울* | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 
-## 예제 이미지
+## 예
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid: 예 1"){zoomable="yes"}
+![Triangle Grid: 예 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid: 예 2"){zoomable="yes"}
+![Triangle Grid: 예 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid: 예 3"){zoomable="yes"}
+![Triangle Grid: 예 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: 예 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -131,17 +117,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid: 예 4"){zoomable="yes"}
+![Triangle Grid: 예 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: 예 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid: 예 5"){zoomable="yes"}
+![Triangle Grid: 예 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: 예 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid: 예 6"){zoomable="yes"}
+![Triangle Grid: 예 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: 예 6"){zoomable="yes"}
 
 </td>
 </tr>
@@ -151,12 +137,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 가죽](../../../../../../assets/trianglegrid-demo.png "Triangle Grid: 가죽"){zoomable="yes"}
+![Triangle Grid: 가죽](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: 가죽"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 그래프](../../../../../../assets/trianglegrid-node.png "Triangle Grid: 그래프"){zoomable="yes"}
+![Triangle Grid: 그래프](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: 그래프"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 재사용 가능한 값과 매개 변수에 대한 사용자 정의 변수를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 변수 만들기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Set 노드 사용은 다음과 같습니다.
 >
 > 만들 변수가 여러 개인 경우 *Set* 및 *Sequence* 노드 만들기 작업을 반복하고 마지막 시퀀스 노드를 출력 노드로 설정하십시오.
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)

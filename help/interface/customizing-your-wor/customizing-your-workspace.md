@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 작업 영역을 사용자 정의하여 작업 과정 및 레이아웃 환경 설정을 최적화하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 작업 영역 사용자 정의
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 보기 표시/숨기기
 
-특정 인터페이스 항목을 표시하거나 숨기려면 *Windows* 메뉴에서 해당 이름을 클릭하십시오. 표시된 항목에 ![](../../assets/image2015-12-17-10-43-24.png) 확인 표시가 있습니다.
+특정 인터페이스 항목을 표시하거나 숨기려면 *Windows* 메뉴에서 해당 이름을 클릭하십시오. 표시된 항목에 ![](customizing-your-workspace.resources/image2015-12-17-10-43-24.png) 확인 표시가 있습니다.
 
 ### 도킹을 뷰로 채우기
 
@@ -46,7 +46,7 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Windows 메뉴](../../assets/windows-menu-1.png "Windows 메뉴")
+![Windows 메뉴](customizing-your-workspace.resources/windows-menu-1.png "Windows 메뉴")
 
 </td>
 </tr>
@@ -56,13 +56,13 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 
 도크의 가장자리는 이동하여 크기를 조정할 수 있습니다. 다른 도크는 크기에 맞게 동적으로 크기가 조정됩니다.
 
-![도킹 크기 조정](../../assets/interface-customisation-resize.gif "도킹 크기 조정")
+![도킹 크기 조정](customizing-your-workspace.resources/interface-customisation-resize.gif "도킹 크기 조정")
 
 ## 도킹 이동
 
 도킹은 *제목 표시줄*&#x200B;을 사용하여 주 창 주위로 이동할 수 있습니다. 도킹이 이동하는 위치에 따라 도킹의 크기가 알맞게 조정됩니다.
 
-![도킹 이동](../../assets/interface-customisation-move.gif "도킹 이동")
+![도킹 이동](customizing-your-workspace.resources/interface-customisation-move.gif "도킹 이동")
 
 ## 탭 이동 도킹
 
@@ -70,7 +70,7 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 
 도킹과 같이 제목 표시줄 *기존 도크 위로*&#x200B;도킹을 이동하여 도킹의 크기를 조정하거나 이동할 수 없지만 *프레임*&#x200B;이 대상 도크 주변에 나타납니다.
 
-![탭 이동 도크](../../assets/interface-customisation-tab.gif "탭 이동 도크")
+![탭 이동 도크](customizing-your-workspace.resources/interface-customisation-tab.gif "탭 이동 도크")
 
 ## 고정 해제
 
@@ -78,10 +78,10 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 
 이 작업은 다음 두 가지 방법으로 수행할 수 있습니다.
 
-* *제목 표시줄*&#x200B;을(를) 사용하여 도크를 이동하고 *주 창 밖으로* 또는 주 창의 *도크가 아닌* 영역에 배치합니다. *기본 창*&#x200B;의 다른 도킹으로 이동하거나 <b>![](../../assets/dock-icons-redock.png) 다시 도킹</b> 단추를 클릭하여 이 도킹을 다시 도킹할 수 있습니다.
-* <b>![](../../assets/dock-icons-undock.png) Undock</b> 단추를 클릭합니다. 이 메서드로 도킹되지 않은 도킹은 <b>![](../../assets/dock-icons-redock.png) 다시 도킹</b> 단추를 클릭하여 *전용*&#x200B;을(를) 다시 도킹할 수 있습니다.
+* *제목 표시줄*&#x200B;을(를) 사용하여 도크를 이동하고 *주 창 밖으로* 또는 주 창의 *도크가 아닌* 영역에 배치합니다. *기본 창*&#x200B;의 다른 도킹으로 이동하거나 <b>![](customizing-your-workspace.resources/dock-icons-redock.png) 다시 도킹</b> 단추를 클릭하여 이 도킹을 다시 도킹할 수 있습니다.
+* <b>![](customizing-your-workspace.resources/dock-icons-undock.png) Undock</b> 단추를 클릭합니다. 이 메서드로 도킹되지 않은 도킹은 <b>![](customizing-your-workspace.resources/dock-icons-redock.png) 다시 도킹</b> 단추를 클릭하여 *전용*&#x200B;을(를) 다시 도킹할 수 있습니다.
 
-![고정 해제](../../assets/interface-customisation-undock.gif "고정 해제")
+![고정 해제](customizing-your-workspace.resources/interface-customisation-undock.gif "고정 해제")
 
 ## 부두 최대화
 
@@ -93,12 +93,12 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 도크는 다음 두 가지 방법으로 최대화할 수 있습니다.
 
 * *커서를 도킹 위에 놓고* <b>Shift+Space</b> 키 입력 누르기
-* <b>![](../../assets/dock-icons-maximise.png) 최대화</b> 단추를 클릭합니다.
+* <b>![](customizing-your-workspace.resources/dock-icons-maximise.png) 최대화</b> 단추를 클릭합니다.
 
 최대화 도크는 *최대화 이전*&#x200B;에 보관된 크기 및 위치로 최소화할 수 있습니다. 이 작업은 다음 세 가지 방법으로 수행할 수 있습니다.
 
 * *커서를 도킹 위에 놓고* <b>Shift+Space</b> 키 입력 누르기
-* <b>![](../../assets/dock-icons-minimise.png) 최소화</b> 단추를 클릭합니다.
+* <b>![](customizing-your-workspace.resources/dock-icons-minimise.png) 최소화</b> 단추를 클릭합니다.
 * <b>창</b> 메뉴를 열고 <b>창 최대화 해제</b> 옵션 선택
 
 >[!NOTE]
@@ -114,7 +114,7 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 > * 도킹 제목 표시줄에 *사용 안 함* 단추가 있습니다.
 > * 주 창 *에서 최대화된 도크는 제목 표시줄을 사용하여 이동할 수 없습니다*
 
-![도킹 최대화](../../assets/interface-customisation-maximise.gif "도킹 최대화")
+![도킹 최대화](customizing-your-workspace.resources/interface-customisation-maximise.gif "도킹 최대화")
 
 ## 고정 도킹
 
@@ -122,7 +122,7 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 
 도킹이 고정되면 해당 도킹에 표시되어야 할 향후 콘텐츠가 대신 *새 도킹을 만듭니다*. 이 새 도크는 고정되지 않으므로 새 콘텐츠를 업데이트하고 호스팅할 수 있습니다.
 
-도크를 고정하려면 해당 ![](../../assets/dock-icons-pin.png) <b>고정</b> 단추를 클릭합니다. 그런 다음 ![](../../assets/dock-icons-pinned.png) <b>고정 해제</b> 단추를 사용하여 *고정 해제*&#x200B;를 통해 새 콘텐츠를 호스트하는 데 *사용 가능*&#x200B;을 한 번 더 만들 수 있습니다.
+도크를 고정하려면 해당 ![](customizing-your-workspace.resources/dock-icons-pin.png) <b>고정</b> 단추를 클릭합니다. 그런 다음 ![](customizing-your-workspace.resources/dock-icons-pinned.png) <b>고정 해제</b> 단추를 사용하여 *고정 해제*&#x200B;를 통해 새 콘텐츠를 호스트하는 데 *사용 가능*&#x200B;을 한 번 더 만들 수 있습니다.
 
 *동일한 유형*&#x200B;의 여러 도크를 포함하여 한 번에 둘 이상의&#x200B;*도크를 고정할 수 있습니다.*
 
@@ -132,11 +132,11 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 * 두 개 이상의 비트맵을 동시에 표시
 * 여러 그래프에서 동시에 작업하기
 
-![도킹 고정](../../assets/interface-customisation-pin.gif "도킹 고정")
+![도킹 고정](customizing-your-workspace.resources/interface-customisation-pin.gif "도킹 고정")
 
 ## 도킹 닫기
 
-![](../../assets/dock-icons-close.png) <b>닫기</b> 단추를 클릭하여 도크를 닫을 수 있습니다.
+![](customizing-your-workspace.resources/dock-icons-close.png) <b>닫기</b> 단추를 클릭하여 도크를 닫을 수 있습니다.
 
 ## 인터페이스 레이아웃 재설정
 
@@ -144,4 +144,4 @@ Designer에서 도크는 해당 콘텐츠와 분리된 *컨테이너입니다*. 
 
 표시 상태도 재설정됩니다. 즉, 닫힌 도크는 *다시 열림*(예: 3D 보기)될 수 있고 표시된 도크는 *닫힘*&#x200B;될 수 있습니다(예: 콘솔, 종속성 관리자, 플러그인이 만든 도크).
 
-![레이아웃 재설정](../../assets/interface-customisation-reset.gif "레이아웃 재설정")
+![레이아웃 재설정](customizing-your-workspace.resources/interface-customisation-reset.gif "레이아웃 재설정")

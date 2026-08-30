@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
 description: 텍스트 기반 패턴을 만들기 위해 텍스트 노드를 사용하여 사용자 정의 가능한 글꼴과 스타일로 텍스트 텍스처를 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 텍스트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Text](../../../../assets/comp_text_1.png "Atomic node: Text"){width="200px"}
+![Atomic node: Text](text.resources/comp_text_1.png "Atomic node: Text"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

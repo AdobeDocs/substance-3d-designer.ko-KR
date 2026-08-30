@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 제어 노드에 액세스하여 플로우 및 실행 논리를 제어합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 제어
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Else 노드](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Else 노드")
+![If...Else 노드](../../../../assets/IfElse_Node.jpg "If...Else 노드")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![시퀀스 노드](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "시퀀스 노드")
+![시퀀스 노드](../../../../assets/Sequence_Node.jpg "시퀀스 노드")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![전체 루프 노드](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "전체 루프 노드")
+![전체 루프 노드](../../../../assets/WhileLoop-Node.jpg "전체 루프 노드")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -100,10 +100,10 @@ ht-degree: 1%
 </tr>
 </table>
 
-루프에 암시적 최대 반복 횟수가 있습니다. 이 최대 반복 횟수를 -1로 설정하면 사용하지 않도록 설정할 수 있습니다.
+루프에 암시적 최대 반복 수가 있으며, 이를 -1로 설정하여 비활성화할 수 있습니다.
 
-변수는 이터레이션 간에 해당 값을 유지하며 종료 조건(종료 조건)에서 액세스할 수 있습니다.\
-즉, 반복할 때마다 인덱스 값에 추가하고 종료 조건에서 해당 값을 확인하여 필요한 루프 수를 제어할 수 있습니다.
+변수는 반복 간에 해당 값을 유지하며 종료 조건(종료 조건)에서 액세스할 수 있습니다.\
+즉, 모든 반복에 인덱스 값을 추가하고 종료 조건에서 해당 값을 확인하여 필요한 루프 수를 제어할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -114,16 +114,16 @@ ht-degree: 1%
 첫 번째 반복 전에 계산되는 그래프의 부분(즉, 루프의 시작 부분)입니다.
 
 <b>종료 코드.</b> *부울*\
-루프가 중지되려면 true여야 하는 조건입니다. 각 반복에 대해 다시 계산됩니다.\
-*참고:* 최대 반복 횟수는 여전히 <b>최대 반복 횟수</b> 매개 변수로 제한됩니다.
+루프가 중지되려면 true여야 하는 조건입니다. 각 반복에서 다시 계산됩니다.\
+*참고:* 최대 반복 수는 여전히 <b>최대 반복 수</b> 매개 변수로 제한됩니다.
 
 <b>루프 본문</b> *변수 형식*\
-루프에서 이점을 얻는 그래프입니다. 각 반복에 대해 다시 계산됩니다.
+루프에서 이점을 얻는 그래프입니다. 각 반복에서 다시 계산됩니다.
 
 +++
 
 +++매개변수
-<b>최대. 반복 </b> *정수*\
+<b>최대. 반복</b> *정수*\
 노드에서 수행한 최대 반복 수입니다.\
 다음 조건 중 하나가 먼저 충족되면 노드가 반복을 중지합니다. 이 최대 수에 도달하거나 종료 조건이 true 가 됩니다.\
 이 최대값은 값을 *-1*(으)로 설정하여 사용하지 않도록 설정할 수 있습니다. 이 시점에서 종료 조건만 이터레이션을 중지할 수 있습니다.

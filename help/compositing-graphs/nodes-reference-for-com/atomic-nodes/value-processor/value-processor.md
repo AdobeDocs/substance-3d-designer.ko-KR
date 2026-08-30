@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ''
 description: 값 프로세서 노드를 사용하면 사용자 정의 조정을 위한 수학 연산을 사용하여 텍스처 값을 처리하고 조작할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 값 프로세서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 값 프로세서](../../../../assets/comp_valueprocessor_1.png "Atomic node: 값 프로세서"){width="200px"}
+![Atomic node: 값 프로세서](value-processor.resources/comp_valueprocessor_1.png "Atomic node: 값 프로세서"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

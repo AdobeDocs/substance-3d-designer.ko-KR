@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: '[표준] 노드를 사용하면 표면 세부 사항 및 조명을 제어하기 위한 표준 맵 텍스처를 처리하고 조작할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 법선
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Normal](../../../../assets/comp_normal_1.png "Atomic node: Normal"){width="200px"}
+![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

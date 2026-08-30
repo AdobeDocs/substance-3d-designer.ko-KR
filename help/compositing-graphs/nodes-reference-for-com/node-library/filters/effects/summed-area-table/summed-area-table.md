@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
 breadcrumb-title: ''
 description: 효율적인 상자 필터링 및 흐림 효과 작업을 위해 합산 영역 테이블 노드를 사용하여 합산 영역 테이블을 생성합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 합산 영역 테이블
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '42'
 ht-degree: 2%
 
 ---
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/summedareatable.png){width="200px"}
+![](summed-area-table.resources/summedareatable.png){width="200px"}
 
-## 합산 영역 테이블
-
-**내부:** *필터/효과*
-
-**단순**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
-### 설명
+## 설명
 
 *왼쪽 위* 픽셀부터 시작하여 이미지의 픽셀 값 *합계*&#x200B;를 반환합니다.
 

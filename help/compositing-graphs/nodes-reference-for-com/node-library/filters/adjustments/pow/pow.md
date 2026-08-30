@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
 breadcrumb-title: ''
-description: 밝기 곡선 및 감마 교정을 제어하기 위해 텍스처에 멱함수 조정을 적용하려면 Pow 노드를 사용합니다.
+description: 밝기 곡선 및 감마 교정을 제어하기 위해 텍스처에 전원 함수 조정을 적용하려면 Pow 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Pow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-1.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-grayscale.png){width="128px"}
 
-## 펑(회색 음영)
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,14 +39,24 @@ ht-degree: 4%
 
 중요: [색상] 또는 [회색 음영] 입력 여부에 따라 올바른 버전을 사용해야 합니다.
 
-## 매개변수
-
-* **지수**: *0.0 - 10.0*&#x200B;지수로 입력 전원을 공급합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/pow.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>지수</b> <i>0.0 - 10.0</i> | 입력 전원을 공급하는 지수입니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pow.resources/pow.gif" />
+        </td>
+    </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
 description: 조건부 텍스처 선택을 위한 선택기를 기반으로 다중 스위치 노드를 사용하여 여러 입력 텍스처 간에 전환할 수 있습니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 다중 스위치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-greyscale.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch.png){width="128px"}
 
-## 다중 스위치(회색 음영)
-
-**내부:** *필터/혼합*
-
-**단순**
+<b>내부:</b> 필터 > 혼합
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -45,19 +41,23 @@ ht-degree: 2%
 
 중요: 입력에 적합한 버전을 사용해야 합니다. 색상 입력에는 &quot;다중 스위치&quot;를 사용하고 회색 음영 입력에는 &quot;다중 스위치 회색 음영&quot;을 사용합니다.
 
-## 매개변수
-
-### 입력
-
-* **입력 1-20**: *색상 입력*
-
-### 매개변수
-
-* **입력 번호**: *2 - 20*&#x200B;표시할 입력의 양입니다. 중요: 연결 수가 줄어들면 연결을 제거하지 않습니다.
-* **선택 입력**: *1 - 20*&#x200B;결과로 반환할 입력.
-
-## 예제 이미지
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력 1-20</b> <i>색상 입력</i> |  |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>입력 번호</b> <i>2 - 20</i> | 표시할 입력의 양입니다. 중요: 연결 수가 줄어들면 연결을 제거하지 않습니다. |
+| <b>선택 항목 입력</b> <i>1 - 20</i> | 결과로 반환할 입력 |

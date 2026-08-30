@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 3D 장면을 가져와 편집하고 사용하여 재질을 미리 보고 테스트하는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 장면 작업
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,16 +20,16 @@ ht-degree: 0%
 
 # 3D 장면 작업
 
-![3D 장면 작업](../assets/workingWith3DScenes.png "3D 장면 작업"){zoomable="yes"}
+![3D 장면 작업](working-with-3d-scenes.resources/workingWith3DScenes.png "3D 장면 작업"){zoomable="yes"}
 
 Designer을 사용하면 컨텍스트에서 재질 작업을 위해 [3D 장면](../glossary/glossary.md)을 로드할 수 있습니다. 각 형식에 대해 지원되는 기능 목록을 포함하여 3D 장면에 대해 지원되는 파일 형식 목록을 여기에서 확인할 수 있습니다. <b>&lt;링크 필요></b>
 
 컨텍스트에서 작업하려면 장면의 [재질](../glossary/glossary.md) 중 하나를 [재정의](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)하여 Designer에서 작성된 재질로 바꾸는 작업이 포함됩니다.\
-Designer에서 사용할 수 있는 Substance 그래프 템플릿을 사용하거나 3D 장면의 재질에서 [값과 텍스처를 추출](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)하여 처음부터 시작할 수 있습니다.
+Designer에서 사용할 수 있는 Substance 그래프 템플릿을 사용하거나 3D 장면의 재질에서 [값 및 텍스처 추출](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)을 시작점으로 사용하여 처음부터 시작할 수 있습니다.
 
 3D 장면 사용을 완료하면 다른 응용 프로그램에서 인제스트할 새 파일로 [내보내기](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)할 수 있습니다.
 
-USD 형식으로 내보낼 때 이 워크플로는 완전히 <b>비파괴</b>될 수 있습니다. 즉, 편집 및 추가만 내보냅니다.
+USD 형식으로 내보낼 때 이 워크플로우는 완전히 <b>비파괴</b>할 수 있습니다. 즉, 편집 및 추가 내용만 내보냅니다.
 
 먼저 작업할 3D 장면을 로드하고 세션 간에 Designer의 상태를 유지할 수 있어야 합니다.
 
@@ -64,7 +64,7 @@ USD 형식으로 내보낼 때 이 워크플로는 완전히 <b>비파괴</b>될
 * <b>조명:</b> 장면의 모든 조명은 [장면 브라우저](../interface/3d-view/scene-browser/scene-browser.md)에서 비활성화할 수 있습니다.
 * <b>카메라:</b> 장면에서 감지된 모든 카메라는 Designer에서 추가한 카메라에 사전 설정으로 추가됩니다.
 
-![3D 장면의 콘텐츠](../assets/loaded3DScene.png "3D 장면의 콘텐츠"){zoomable="yes"}
+![3D 장면의 콘텐츠](working-with-3d-scenes.resources/loaded3DScene.png "3D 장면의 콘텐츠"){zoomable="yes"}
 
 Designer은 3D 장면에 USD 설명을 사용합니다. 해당 레이아웃은 장면 브라우저에서 탐색할 수 있으며, 각 [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) 유형에는 자체 아이콘(지오메트리, 재질, 셰이더, 카메라, 변환 등)이 있습니다.
 
@@ -85,14 +85,14 @@ Designer은 3D 장면에 USD 설명을 사용합니다. 해당 레이아웃은 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![3D 장면 로드 - 3D 장면 리소스](../assets/load3DScene-3DSceneResource.gif "3D 장면 로드 - 3D 장면 리소스"){zoomable="yes"}
+![3D 장면 로드 - 3D 장면 리소스](working-with-3d-scenes.resources/load3DScene-3DSceneResource.gif "3D 장면 로드 - 3D 장면 리소스"){zoomable="yes"}
 
 3D 장면 리소스 로드
 
 </td>
 <td style="border: 0;" valign="top">
 
-![라이브러리에서 3D 장면 불러오기](../assets/load3DScene-Library.gif "라이브러리에서 3D 장면 불러오기"){zoomable="yes"}
+![라이브러리에서 3D 장면 불러오기](working-with-3d-scenes.resources/load3DScene-Library.gif "라이브러리에서 3D 장면 불러오기"){zoomable="yes"}
 
 라이브러리에서 3D 장면 불러오기
 
@@ -104,14 +104,14 @@ Designer은 3D 장면에 USD 설명을 사용합니다. 해당 레이아웃은 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![3D 장면 불러오기 - 3D 장면 파일에서 불러오기](../assets/load3DScene-3DSceneFile.gif "3D 장면 불러오기 - 3D 장면 파일에서 불러오기"){zoomable="yes"}
+![3D 장면 불러오기 - 3D 장면 파일에서 불러오기](working-with-3d-scenes.resources/load3DScene-3DSceneFile.gif "3D 장면 불러오기 - 3D 장면 파일에서 불러오기"){zoomable="yes"}
 
 3D 장면 파일 불러오기
 
 </td>
 <td style="border: 0;" valign="top">
 
-![3D 장면 불러오기 - 장면 상태 파일에서](../assets/load3DScene-sceneStateFile.gif "3D 장면 불러오기 - 장면 상태 파일에서"){zoomable="yes"}
+![3D 장면 불러오기 - 장면 상태 파일에서](working-with-3d-scenes.resources/load3DScene-sceneStateFile.gif "3D 장면 불러오기 - 장면 상태 파일에서"){zoomable="yes"}
 
 장면 상태 파일 로드
 
@@ -138,7 +138,7 @@ Designer에서 만든 모든 항목은 장면 브라우저에서 <b>굵은 레�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![장면 브라우저 - Designer에서 만든 요소](../assets/sceneBrowser-createdByDesigner.png "장면 브라우저 - Designer에서 만든 요소"){zoomable="yes"}
+![장면 브라우저 - Designer에서 만든 요소](working-with-3d-scenes.resources/sceneBrowser-createdByDesigner.png "장면 브라우저 - Designer에서 만든 요소"){zoomable="yes"}
 
 </td>
 </tr>
@@ -146,13 +146,13 @@ Designer에서 만든 모든 항목은 장면 브라우저에서 <b>굵은 레�
 
 ## 장면 상태 파일
 
-3D 보기에서 재질, 카메라, 조명 등을 설정한 후 해당 상태를 장면 상태 파일(.sbsscn)에 저장할 수 있으며 이 파일은 나중에 로드되어 해당 상태를 복원할 수 있습니다. 예를 들어 서로 다른 유형의 재질이나 특정 조명 환경을 미리 볼 수 있도록 몇 가지 장면을 설정할 수 있습니다.
+3D 보기에서 재질, 카메라, 조명 등을 설정한 후 해당 상태를 나중에 로드하여 해당 상태를 복원할 수 있는 장면 상태 파일(.sbsscn)에 저장할 수 있습니다. 예를 들어 서로 다른 유형의 재질이나 특정 조명 환경을 미리 볼 수 있도록 몇 가지 장면을 설정할 수 있습니다.
 
-![장면 상태 파일 불러오기](../assets/loadSceneStateFile.gif "장면 상태 파일 불러오기"){zoomable="yes"}
+![장면 상태 파일 불러오기](working-with-3d-scenes.resources/loadSceneStateFile.gif "장면 상태 파일 불러오기"){zoomable="yes"}
 
-저장된 장면 상태는 3D 뷰의 기본 상태로 사용될 수도 있으므로, 새로운 3D 뷰가 생성될 때마다 해당 상태가 사용됩니다. 이 기능은 타일링 값이 2이고 특정 환경 맵이 있는 구 2-타일 메시에서 기본적으로 재질을 미리 보려는 경우에 유용합니다.
+저장된 장면 상태는 3D 보기의 기본 상태로 사용될 수도 있으므로, 새 3D 보기가 생성될 때마다 해당 상태가 사용됩니다. 이 기능은 타일링 값이 2이고 특정 환경 맵이 있는 구 2-타일 메시에서 기본적으로 재질을 미리 보려는 경우에 유용합니다.
 
-장면 상태 파일과 관련된 작업은 3D 보기의 [장면] 메뉴에 있으며 [여기](../interface/3d-view/3d-view.md)에 설명되어 있습니다.
+장면 상태 파일과 관련된 작업은 3D 보기의 [장면] 메뉴에 있으며 [여기](../interface/3d-view/3d-view.md)에 문서화되어 있습니다.
 
 장면 상태 파일은 XML 형식을 사용하며 [프로젝트 설정](../interface/preferences-window/project-settings/project-settings.md)에 정의된 경우 [별칭](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)을 사용합니다.
 

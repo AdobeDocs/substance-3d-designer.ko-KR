@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 노드 배열 도구와 새로운 스플라인 및 패스 노드에 대해 알아보려면 Substance 3D Designer 버전 14.1의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *출시일: 2025년 1월 14일*
 
-![스플라인에 스플라인 산란](../../assets/fond.png)
+![스플라인에 스플라인 산란](version-14-1.resources/fond.png)
 
 ## 스플라인 및 패스 업데이트
 
@@ -34,12 +34,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 애니메이션의 산란 스플라인 1](../../assets/spline1.gif){zoomable="yes"}
+![스플라인 애니메이션의 산란 스플라인 1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인 2](../../assets/spline2.gif){zoomable="yes"}
+![스플라인의 산란 스플라인 2](version-14-1.resources/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 깔끔하고 읽기 쉬운 그래프를 유지하는 데 열중하면 [노드 정렬 도구](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)가 만들어졌으며 완전히 개선되었습니다! 이제 노드를 수평 또는 수직으로 균일하게 배치할 수 있으며 노드를 정렬하면 노드를 깔끔하게 쌓아 겹치는 부분을 방지할 수 있습니다. Cherry on top: 두 기능 모두 노드의 실제 크기를 고려합니다!
 
-![노드 정렬](../../assets/alignment.gif){zoomable="yes"}
+![노드 정렬](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## 파라미터 복사/붙여넣기
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 2D 보기의 새로운 [색상 Sampler 도구](../../interface/2d-view/color-sampler/color-sampler.md)를 사용하면 선택한 픽셀에 핀을 놓아 해당 픽셀의 값을 추적할 수 있습니다. 이 기능은 그래프에서 여러 노드에 걸쳐 동일한 픽셀의 정보를 항상 보고 있는지 확인하는 데 매우 유용합니다. 정보 패널을 열어 도구에 액세스하고 사용해 보십시오!
 
-![색상 샘플러: 도구 사용](../../assets/color-sampler-demo.gif "색상 샘플러: 도구 사용"){width="640px" zoomable="yes"}
+![색상 샘플러: 도구 사용](version-14-1.resources/color-sampler-demo.gif "색상 샘플러: 도구 사용"){width="640px" zoomable="yes"}
 
 ## 검색 개선 사항
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * Node Finder 툴을 활성화하면 검색 필드에 포커스가 자동으로 설정됩니다.
 * 도구 모음의 레이아웃이 공간을 절약하도록 다시 고려되었습니다.
 
-![검색 도구 모음](../../assets/search-53.png){width="640px"}
+![검색 도구 모음](version-14-1.resources/search-53.png){width="640px"}
 
 ## 비디오
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![스플라인의 비디오 산란 스플라인](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![스플라인의 비디오 산란 스플라인](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![비디오 사용자 경험 기능](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![비디오 사용자 경험 기능](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ ht-degree: 1%
 * [함수 그래프] 긴 값이 &#39;Float&#39; 노드에서 겹쳐서 나타납니다.
 * [Fx-Map] 사분면 노드 속성을 표시할 때 충돌이 발생합니다.
 * [그래프] [UDIM] UDIM 목록에 스크롤 막대가 있으면 1..1 1..2 항목이 생성됩니다.
-* [그래프]&#x200B;[단축키] 단축키를 사용하여 생성된 노드는 노드 복제 후 기존 링크에 배치되지 않습니다.
+* [그래프][단축키] 단축키를 사용하여 생성된 노드는 노드 복제 후 기존 링크에 배치되지 않습니다.
 * [Properties] 값이 유효하지 않은 경우 잘못된 매개 변수 표시가 나타납니다.
 * [Publish] 패키지를 게시할 때 상호 종속성 때문에 무한 루프가 발생합니다.
 * [Publish] 종속성이 언로드된 패키지에서 &#39;Publish&#39; 작업을 사용할 때 자동 오류 발생

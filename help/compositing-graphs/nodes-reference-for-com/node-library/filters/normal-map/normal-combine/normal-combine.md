@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: 표준 결합 노드를 사용하여 표면 세부 사항 및 세부 사항 레이어를 위해 여러 개의 표준 맵을 결합합니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 표준 결합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
 <b>내부:</b> 필터 > 표준 맵
 
@@ -45,17 +45,21 @@ ht-degree: 2%
 
 마스크 등을 사용하여 두 개의 표준 맵을 결합하지 않고 혼합하려면 [표준 혼합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)을 사용해야 합니다.
 
-## 입력 커넥터
+<a name="inputs"></a>
 
-<b>일반 2</b> *색상*&#x200B;설명
+## 입력
 
-<b>보통 1</b> *색상*&#x200B;설명
+|  |  |
+|:---|:---|
+| <b>일반 2</b> <i>색상</i> | 설명 |
+| <b>보통 1</b> <i>색상</i> | 설명 |
+
+<a name="parameters"></a>
 
 ## 매개변수
 
-<b>기법</b> *정수*&#x200B;품질에 대한 속도로 거래하는 데 사용할 내부 혼합 기술을 설정합니다.\
-*- 화이트아웃(저품질)
-* 채널 혼합(고품질)
-* 디테일 지향(고품질)*
+|  |  |
+|:---|:---|
+| <b>기법</b> *정수* | 사용할 내부 혼합 기술을 설정하고 품질에 대한 속도에서 거래합니다.<br><br>*- 화이트아웃(저품질)<br>* 채널 혼합(고품질)<br>* 디테일 지향(고품질)* |
 
 ## 예

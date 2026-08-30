@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
-description: 3D 보기 장면 메뉴의 장면 내보내기 작업을 사용하여 Designer에서 편집한 모든 3D 장면을 내보냅니다.
+description: '[3D 보기 장면] 메뉴의 [장면 내보내기] 동작을 사용하여 Designer에서 편집한 모든 내용을 포함한 3D 장면을 내보냅니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 장면 내보내기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 장면 내보내기
 
-Designer에서 편집한 모든 내용을 포함하여 장면을 내보내야 하는 경우 [3D 보기](../../interface/3d-view/3d-view.md)의 &#39;장면&#39; 메뉴에서 &#39;장면 내보내기...&#39; 동작을 사용하십시오.
+Designer에서 편집한 모든 내용을 장면으로 내보내야 하는 경우 [3D 보기](../../interface/3d-view/3d-view.md)의 &#39;장면&#39; 메뉴에서 &#39;장면 내보내기...&#39; 동작을 사용하십시오.
 
-USD 형식으로 내보내려면 장면의 콘텐츠가 [장면 브라우저](../../interface/3d-view/scene-browser/scene-browser.md)에 표시된 트리와 일치합니다.
+USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](../../interface/3d-view/scene-browser/scene-browser.md)에 표시되는 트리와 일치합니다.
 
 다른 포맷의 경우 장면의 내용과 해당 내부 구조는 선택한 파일 포맷에서 지원하는 기능에 따라 달라집니다.
 
@@ -30,7 +30,7 @@ USD 형식으로 내보내려면 장면의 콘텐츠가 [장면 브라우저](..
 >
 > Designer에서 장면에 추가한 모든 항목은 내보낸 장면에 포함됩니다(기본 카메라, 기본 환경, 모든 재질 복사).
 
-![장면 내보내기 작업](../../assets/exportActions.png "장면 내보내기 작업"){zoomable="yes"}
+![장면 내보내기 작업](exporting-scenes.resources/exportActions.png "장면 내보내기 작업"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ USD 형식으로 내보내려면 장면의 콘텐츠가 [장면 브라우저](..
 </td>
 <td style="border: 0;" valign="top">
 
-![내보낸 장면 파일 - 병합됨](../../assets/exportFlattened.png "내보낸 장면 파일 - 병합됨"){zoomable="yes"}
+![내보낸 장면 파일 - 병합됨](exporting-scenes.resources/exportFlattened.png "내보낸 장면 파일 - 병합됨"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ USD 형식으로 내보내려면 장면의 콘텐츠가 [장면 브라우저](..
 </td>
 <td style="border: 0;" valign="top">
 
-![내보낸 장면 파일 - 레이어드](../../assets/exportLayered.png "내보낸 장면 파일 - 레이어드"){zoomable="yes"}
+![내보낸 장면 파일 - 레이어드](exporting-scenes.resources/exportLayered.png "내보낸 장면 파일 - 레이어드"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,6 +102,6 @@ USD 형식으로 내보내려면 장면의 콘텐츠가 [장면 브라우저](..
 
 ## 텍스처
 
-텍스처를 내보낸 파일 옆의 디렉터리로 내보내고 그 이름을 &#39;<b>\_textures</b>&#39; 접미사와 함께 지정합니다.
+텍스처를 내보낸 파일 옆의 디렉터리로 내보내고 그 이름을 따서 &#39;<b>\_텍스처</b>&#39; 접미사와 함께 지정합니다.
 
 <b>EXR</b> 형식을 사용하는 HDR 텍스처(부동 소수점)를 제외하고 <b>PNG</b> 형식을 사용합니다.

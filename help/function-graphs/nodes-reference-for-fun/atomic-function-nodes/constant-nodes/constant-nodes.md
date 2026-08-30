@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 상수 노드에 액세스하여 상수 값과 매개변수를 정의합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 상수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![정수 형식 아이콘](../../../../assets/fn-constant-integer.png "정수 형식 아이콘")
+![정수 형식 아이콘](constant-nodes.resources/fn-constant-integer.png "정수 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 형식 아이콘](../../../../assets/fn-constant-integer2.png "Integer2 형식 아이콘")
+![Integer2 형식 아이콘](constant-nodes.resources/fn-constant-integer2.png "Integer2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2는 일반적으로 사용되지 않지만 예를 들어 [Tile Generator
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 형식 아이콘](../../../../assets/fn-constant-integer3.png "Integer3 형식 아이콘")
+![Integer3 형식 아이콘](constant-nodes.resources/fn-constant-integer3.png "Integer3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer3 노드는 (X, Y, Z) 성분을 갖는 정적 3-성분 정수 벡터를 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 형식 아이콘](../../../../assets/fn-constant-integer4.png "Integer4 형식 아이콘")
+![Integer4 형식 아이콘](constant-nodes.resources/fn-constant-integer4.png "Integer4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 형식 아이콘](../../../../assets/fn-constant-float.png "부동 형식 아이콘")
+![부동 형식 아이콘](constant-nodes.resources/fn-constant-float.png "부동 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 형식 아이콘](../../../../assets/fn-constant-float2.png "Float2 형식 아이콘")
+![Float2 형식 아이콘](constant-nodes.resources/fn-constant-float2.png "Float2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Float2 노드는 정적 2 구성 요소 Float 벡터를 생성합니다. 구성 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 형식 아이콘](../../../../assets/fn-constant-float3.png "Float3 형식 아이콘")
+![Float3 형식 아이콘](constant-nodes.resources/fn-constant-float3.png "Float3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Float3 노드는 정적 3 구성 요소 Float 벡터를 생성합니다. 구성 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 형식 아이콘](../../../../assets/fn-constant-float4.png "Float4 형식 아이콘")
+![Float4 형식 아이콘](constant-nodes.resources/fn-constant-float4.png "Float4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Substance 함수 그래프에는 부울과 문자열이라는 두 개의 추가 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부울 유형 아이콘](../../../../assets/fn-constant-boolean.png "부울 유형 아이콘")
+![부울 유형 아이콘](constant-nodes.resources/fn-constant-boolean.png "부울 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance 함수 그래프에는 부울과 문자열이라는 두 개의 추가 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![문자열 유형 아이콘](../../../../assets/fn-constant-string.png "문자열 유형 아이콘")
+![문자열 유형 아이콘](constant-nodes.resources/fn-constant-string.png "문자열 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
