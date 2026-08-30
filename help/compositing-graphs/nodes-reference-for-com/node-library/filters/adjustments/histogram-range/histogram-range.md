@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
-description: '[막대 그래프 범위] 노드를 사용하여 색상 교정 및 조정을 위해 막대 그래프 범위를 기준으로 텍스처 값을 다시 매핑할 수 있습니다.'
+description: '[막대 그래프 범위] 노드를 사용하여 색상 교정 및 조정을 위해 막대 그래프 범위를 기반으로 막대 그래프 값을 다시 매핑할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 히스토그램 범위
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
-## 히스토그램 범위
-
-**내부:** *필터/조정*
-
-**단순**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -42,15 +38,25 @@ ht-degree: 1%
 
 [히스토그램 범위에서 Substance 아카데미 비디오를 시청하려면 여기를 클릭하십시오.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## 매개변수
-
-* **범위**: *0.0 - 1.0*&#x200B;범위를 줄일 정도입니다. 이는 [최소 레벨] 및 [최대 레벨] 슬라이더를 모두 내부로 이동하는 것과 비슷합니다.
-* **위치**: *0.0 - 1.0*&#x200B;범위 축소에 대한 오프셋으로, 범위 축소에 대한 다른 중간점을 설정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>범위</b> <i>0.0 - 1.0</i> | 범위를 얼마나 줄일 수 있습니까? 이는 [최소 레벨] 및 [최대 레벨] 슬라이더를 모두 내부로 이동하는 것과 비슷합니다. |
+| <b>위치</b> <i>0.0 - 1.0</i> | 범위 감소의 오프셋, 범위 감소의 다른 중간점 설정. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

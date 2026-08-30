@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: '[회색 음영 색상 Flood Fill]를 사용하여 연결된 영역을 회색 음영 색상으로 채워 단색 패턴을 만듭니다.'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: GrayscaleColor로 Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-grayscale.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/floodfill-to-color.png){width="128px"}
 
-## 무작위 회색 음영/색상으로 Flood Fill
-
-**내부:** *필터/효과*
-
-**&#x200B;**&#x200B;단순&#x200B;**&#x200B;**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,18 +39,24 @@ Flood Fill 데이터를 사용하여 회색 음영 또는 색상 값 견본을 �
 
 이 시스템은 모든 셀에 고유한 값이나 색상을 제공하면서도 제어를 유지하고 미리 정해진 입력을 제거하는 강력한 시스템입니다.
 
-## 매개변수
-
-### 입력
-
-* **Flood Fill**: *색상 입력*
-* **회색 음영/색상 입력**: *회색 음영/색상 입력*
-
-### 매개변수
-
-* **광도/색상 조정**: *-1.0 - 1.0*&#x200B;노드에 대한 바이어스 또는 기본 값을 설정합니다. [회색 음영] 또는 [색상] 입력을 사용할 때 이 입력을 사용하여 초기 값을 시작점으로 변경할 수 있습니다.
-* **광도/색상 무작위**: *-1.0 - 1.0*&#x200B;변형 정도를 설정합니다.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>색상 입력</i> |  |
+| <b>회색 음영/색상 입력</b> <i>회색 음영/색상 입력</i> |  |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>광도/색상 조정</b> <i>-1.0 - 1.0</i> | 노드에 대한 바이어스 또는 기준 값을 설정합니다. [회색 음영] 또는 [색상] 입력을 사용할 때 이 입력을 사용하여 초기 값을 시작점으로 변경할 수 있습니다. |
+| <b>광도/색상 무작위</b> <i>-1.0 - 1.0</i> | 변화의 양을 설정합니다. |

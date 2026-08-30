@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 매개 변수 사전 설정을 만들고 사용하여 매개 변수 구성을 저장하고 적용하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 매개 변수 사전 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 사전 설정을 저장하고 불러오는 방법에는 두 가지가 있으며, 두 가지 사용 사례 모두 아래에 자세히 설명되어 있습니다.
 
-![사전 설정 불러오기/저장 드롭다운 메뉴](../../../assets/preset-menu.gif "사전 설정 불러오기/저장 드롭다운 메뉴"){width="512px"}
+![사전 설정 불러오기/저장 드롭다운 메뉴](parameter-presets.resources/preset-menu.gif "사전 설정 불러오기/저장 드롭다운 메뉴"){width="512px"}
 
 ## 외부 사전 설정
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > 부분 일치도 작동함: 로드된 노드에 없는 SBSPRS에 저장된 매개 변수는 무시됩니다. 즉, [타일 Sampler의 색상 및 회색 음영 버전과 같이 대부분 유사한 노드 간에 속성을 전송할 수 있습니다.](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! 모든 공유 매개 변수가 로드됩니다. 일치는 식별자와 유형에서 발생합니다.
 
-![포함된 사전 설정 편집](../../../assets/preset-embed.gif "포함된 사전 설정 편집"){width="512px"}
+![포함된 사전 설정 편집](parameter-presets.resources/preset-embed.gif "포함된 사전 설정 편집"){width="512px"}
 
 ## 포함된 사전 설정
 

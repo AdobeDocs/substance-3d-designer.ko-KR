@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: 색상 공간, 프로필 및 별색 작업 과정을 포함하여 Substance 3D Designer의 색상 관리에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -68,20 +68,20 @@ Substance 3D Designer은 다음과 같은 구성으로 제공됩니다.
 | <b>8비트 이미지</b> | 8비트 비트맵의 기본 색상 공간을 설정합니다. *기본값: OpenColorIO 구성 파일에 의해 설정* |
 | <b>16비트 이미지</b> | 16비트 비트맵의 기본 색상 공간을 설정합니다. *기본값: OpenColorIO 구성 파일에 의해 설정* |
 | <b>부동 소수점 이미지</b> | *\*.exr *또는*\*.hdr* 형식의 *HDR* 이미지와 같은 부동 소수점 정밀도 비트맵의 기본 색상 공간을 설정합니다. *기본값: OpenColorIO 구성 파일에 의해 설정* |
-| <b>파일 이름을 사용하여 색상 공간 검색</b> | 비트맵 파일 이름 *의*&#x200B;접미사&#x200B;*가 현재 OpenColorIO*&#x200B;구성&#x200B;*에 포함된 색상 공간의 소문자 이름과 정확히*&#x200B;일치하는 경우 Designer에서 자동으로 색상 공간을 할당할 수 있도록 합니다. 예: 비트맵 리소스 *mybitmap\_aces\_acescg.png*&#x200B;이(가) 자동으로 *ACES - ACEScg* 색상 공간으로 설정되고 적절한 변환이 작업 색상 공간에 적용됩니다. *기본값: 선택됨* |
+| <b>파일 이름을 사용하여 색상 공간 검색</b> | 비트맵 파일 이름 *의*&#x200B;접미사&#x200B;*가 현재 OpenColorIO*&#x200B;구성&#x200B;*에 포함된 색상 공간의 소문자 이름과 정확히*&#x200B;일치하는 경우 Designer에서 자동으로 색상 공간을 할당할 수 있도록 합니다. 예: *mybitmap\_aces\_acescg.png*&#x200B;은(는) 자동으로 *ACE - ACEScg*(으)로 설정되며, 적절한 비트맵 색상 공간(mybitmap\_aces\_acescg.png})이 작업 색상 공간에 적용됩니다. *기본값: 선택됨* |
 
 ### 2D 및 3D 보기 표시 기본값
 
 |  |  |
 | --- | --- |
 | <b>2D 및 3D 보기 표시 기본값</b> | [2D 보기](../interface/2d-view/2d-view.md) 및 [3D 보기](../interface/3d-view/3d-view.md) 뷰포트에 대한 기본 *표시* 색상 공간을 설정합니다. *기본값: OpenColor IO 구성 파일로 설정* |
-| <b>축소판 색상 관리</b> | Designer이 그래프에서 노드 *축소판*&#x200B;을(를) *작업* 색상 공간으로 자동으로 변환할 수 있도록 합니다. *기본값: 선택됨* |
+| <b>축소판 색상 관리</b> | 그래프의 *작업* 색상 공간에 Designer 2 노드 *축소판*&#x200B;을(를) 자동으로 표시합니다. *기본값: 선택됨* |
 
 ## Adobe ACE
 
 ### 색상 설정
 
-색상 관리에 Adobe ACE 모드를 사용할 때 Substance 3D Designer에서는 <b>ICC 프로필</b>(*\*.icc / \*.icm*)에 저장된 정보를 사용하여 색상 변환을 수행하고 색상 공간을 식별합니다.
+색상 관리에 Adobe ACE 모드를 사용할 때 Substance 3D Designer에서는 <b>ICC 프로파일</b>(*\*.icc \*.icm*)에 저장된 정보를 사용하여 색상을 수행하고 색상 공간을 식별합니다.
 
 Designer은 다양한 ICC 프로필과 함께 제공됩니다. Designer 설치 파일의 `resources > icc` 폴더에서 이러한 프로필에 대한 파일을 찾을 수 있습니다.\
 현재 시스템 사용자의 *문서* 폴더에 있는 `Adobe/Adobe Substance 3D Designer/icc` 위치에 이러한 파일을 배치하여 *자신의* ICC 프로필을 추가할 수 있습니다.
@@ -89,7 +89,7 @@ Designer은 다양한 ICC 프로필과 함께 제공됩니다. Designer 설치 �
 |  |  |
 | --- | --- |
 | <b>작업 영역</b> | 이 설정을 사용하면 작업 색상 공간을 선택하여 Substance 3D Designer 전체에서 *색상 작업을 수행*&#x200B;할 수 있습니다. *기본값: sRGB IEC61966-2.1* |
-| <b>렌더링 의도</b> | 이 옵션을 사용하면 색상이 *작업*&#x200B;색상 공간의 *색상 영역 외*&#x200B;인 경우 색상을 변환하는 방법을 제어할 수 있습니다. *기본값: 상대 색도계* |
+| <b>렌더링 의도</b> | 이 옵션을 사용하면 *작업*&#x200B;색상 공간의 *색상 영역* 외부에서 색상을 변환하는 방법을 제어할 수 있습니다. *기본값: 상대 색도계* |
 
 ### 비트맵 색상 공간 기본값
 
@@ -104,13 +104,13 @@ Designer은 다양한 ICC 프로필과 함께 제공됩니다. Designer 설치 �
 
 |  |  |
 | --- | --- |
-| <b>2D 및 3D 보기 표시 기본값</b> | [2D 보기](../interface/2d-view/2d-view.md) 및 [3D 보기](../interface/3d-view/3d-view.md) 뷰포트에 대한 기본 *표시* 색상 공간을 설정합니다. *기본값:***&#x200B;기본 화면에 대한 ICC 프로필, OS에서 검색됨&#x200B;**&#x200B;** |
+| <b>2D 및 3D 보기 표시 기본값</b> | [2D 보기](../interface/2d-view/2d-view.md) 및 [3D 보기](../interface/3d-view/3d-view.md) 뷰포트에 대한 기본 *표시* 색상 공간을 설정합니다. *기본값:***&#x200B;기본 화면에 대한 ICC 프로필, OS에서 검색됨&#x200B;**** |
 
 ### 그래프 표시
 
 |  |  |
 | --- | --- |
-| <b>축소판 색상 관리</b> | *선택*&#x200B;되면 Designer은 *노드 축소판*&#x200B;을 현재 *작업 색상 공간*(으)로 변환합니다. *기본값:***&#x200B;선택 취소됨&#x200B;**&#x200B;** |
+| <b>축소판 색상 관리</b> | *선택*&#x200B;되면 Designer은 *노드 축소판*&#x200B;을 현재 *작업 색상 공간*(으)로 변환합니다. *기본값:***&#x200B;선택 취소됨&#x200B;**** |
 
 ## 레거시 모드
 
@@ -152,18 +152,18 @@ Designer에서 <b>레거시</b> 모드를 사용하는 경우 색상 관리가 *
 > 
 > 특히 **파일 이름**&#x200B;을 사용하여 적절한 색상 공간을 *자동으로* 설정할 수 있습니다. 파일 이름의 색상 공간 이름은 OpenColorIO 구성 파일의 *이름*&#x200B;과 일치해야 합니다(예: *myImage\_utility - linear -srgb.png*&#x200B;는 *유틸리티 - Linear - sRGB* 색상 공간으로 설정됩니다).
 
-![비트맵 색상 공간 설정](../assets/2019-3-0-bitmap-clr-space.png "비트맵 색상 공간 설정")
+![비트맵 색상 공간 설정](color-management.resources/2019-3-0-bitmap-clr-space.png "비트맵 색상 공간 설정")
 
 ## 출력 내보내기
 
 <b>출력 내보내기</b> 대화 상자를 사용하는 경우 *각* 출력에 대해 <b>색상 공간</b>(OCIO)을 할당하거나 <b>ICC 프로필</b>(Adobe ACE)을 연결할 수 있습니다.\
 Designer은 이미지 파일을 저장하기 전에 이미지를 지정된 색상 공간으로 *변환*&#x200B;합니다.
 
-![출력 내보내기 대화 상자](../assets/2019-3-0-clr-mgt-export-outputs.png "출력 내보내기 대화 상자"){width="512px"}
+![출력 내보내기 대화 상자](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "출력 내보내기 대화 상자"){width="512px"}
 
 [2D 보기](../interface/2d-view/2d-view.md)에서 *저장됨* 이미지에 색상 공간(OCIO)을 할당하거나 ICC 프로필(Adobe ACE)을 연결할 수도 있습니다.
 
-![2D 보기 내보내기 옵션](../assets/2019-3-0-clr-mgt-save-image.png "2D 보기 내보내기 옵션")
+![2D 보기 내보내기 옵션](color-management.resources/2019-3-0-clr-mgt-save-image.png "2D 보기 내보내기 옵션")
 
 ## 2D 및 3D 보기
 
@@ -171,7 +171,7 @@ Designer은 이미지 파일을 저장하기 전에 이미지를 지정된 색�
 
 색상 관리를 *전환*&#x200B;하고 표시 도구 모음의 드롭다운 메뉴를 사용하여 언제든지 보기에 대한 *표시 변형*&#x200B;을 변경할 수 있습니다.
 
-![2D 보기의 색상 공간 설정](../assets/2019-3-0-clr-mgt-display-toolbar.png "2D 보기의 색상 공간 설정"){width="512px"}
+![2D 보기의 색상 공간 설정](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "2D 보기의 색상 공간 설정"){width="512px"}
 
 ### 라이브러리 HDRI 환경
 
@@ -180,7 +180,7 @@ Designer과 함께 제공되는 HDRI 환경은 <b>선형 sRGB</b> 색상 공간�
 
 이 경우 3D 보기 패널 <b>환경</b> 메뉴에서 사용할 수 있는 환경 속성에서 라이브러리 HDRI 환경의 색상 공간을 *수동으로* 설정해야 합니다.
 
-![3D 보기 환경의 색상 공간 설정](../assets/2019-3-0-clr-mgt-hdri-env.png "3D 보기 환경의 색상 공간 설정"){width="512px"}
+![3D 보기 환경의 색상 공간 설정](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "3D 보기 환경의 색상 공간 설정"){width="512px"}
 
 ## 색상 변환 노드
 
@@ -211,7 +211,7 @@ Designer과 함께 제공되는 HDRI 환경은 <b>선형 sRGB</b> 색상 공간�
 
 이는 색상 관리나 [Substance 3D 에셋](https://substance3d.adobe.com/assets) 라이브러리에서 *만든* 그래프를 사용하여 작업할 때 유용합니다.
 
-![라이브러리의 색상 변환 노드](../assets/2019-3-0-clr-mgt-nodes.png "라이브러리의 색상 변환 노드"){width="512px"}
+![라이브러리의 색상 변환 노드](color-management.resources/2019-3-0-clr-mgt-nodes.png "라이브러리의 색상 변환 노드"){width="512px"}
 
 ## 알려진 제한 사항
 

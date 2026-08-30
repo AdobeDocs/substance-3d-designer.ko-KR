@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: 그래프 성능을 개선하고 처리 시간을 줄이기 위해 Substance 3D Designer에서 사용할 수 있는 성능 최적화 지침을 살펴보세요.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 성능 최적화 지침
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 ### 포함 비트맵에 대한 크기 최적화
 
 [비트맵](../../resources/bitmap-resource/bitmap-resource.md)의 [출력 크기](../../compositing-graphs/output-size/output-size.md)는 기본적으로 [&#39;절대&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 설정되어 있습니다. 즉, 비트맵이 노드 체인을 통해 출력에 연결되면 최종 출력이 포함된 비트맵의 크기가 됩니다.\
-비트맵 뒤에 삽입한 노드의 출력 크기는 입력 &#39;[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)에 대해 &#39;(으)로 설정됩니다. 즉, 비트맵 크기도 노드에 고유하고 노드 체인에서 출력으로 이 크기를 전달합니다. 이 문제를 해결하려면 비트맵의 출력 크기를 [&#39;부모 항목&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)으로 설정하도록 비트맵의 다음 노드를 설정해야 합니다.
+비트맵 뒤에 삽입한 노드의 출력 크기는 입력 &#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)에 대해 [&#39;(으)로 설정됩니다. 즉, 비트맵 크기도 노드에 고유하고 노드 체인에서 출력으로 이 크기를 전달합니다. 이 문제를 해결하려면 비트맵의 출력 크기를 [&#39;부모 항목&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)으로 설정하도록 비트맵의 다음 노드를 설정해야 합니다.
 
 그래프가 동적 해상도로 설정된 경우 포함된 비트맵의 출력 크기를 부모를 기준으로 변경할 수 있습니다.\
 이렇게 하면 마스터 그래프를 기반으로 비트맵 크기가 변경되므로 그래프가 비트맵에서 필요한 해상도보다 더 높은 해상도를 처리할 수 없게 됩니다.
@@ -143,9 +143,9 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 >
 > [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드를 &quot;부모에 상대적으로&quot;로 설정하고 그래프를 Substance 3D 에셋(SBSAR)에 [게시](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)하면 원본 크기 대신 **256x256**&#x200B;의 해상도로 비트맵이 저장됩니다. 대신 비트맵 노드의 [상속 메서드](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)&#39; [출력 크기](../../compositing-graphs/output-size/output-size.md)&#39;을(를) &#39;절대&#39;로 유지하고 비트맵 노드 바로 뒤에 &#39;부모 대비&#39;로 설정된 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드를 사용하는 것이 좋습니다.
 
-![포함된 비트맵 최적화 1](../../assets/input-1.jpg "포함된 비트맵 최적화 1")
+![포함된 비트맵 최적화 1](performance-optimization-guidelines.resources/input-1.jpg "포함된 비트맵 최적화 1")
 
-![포함된 비트맵 최적화 2](../../assets/relativetoparent.jpg "포함된 비트맵 최적화 2")
+![포함된 비트맵 최적화 2](performance-optimization-guidelines.resources/relativetoparent.jpg "포함된 비트맵 최적화 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 </td>
 <td style="border: 0;" valign="top">
 
-![포함된 비트맵 최적화 3](../../assets/format.jpg "포함된 비트맵 최적화 3")
+![포함된 비트맵 최적화 3](performance-optimization-guidelines.resources/format.jpg "포함된 비트맵 최적화 3")
 
 </td>
 </tr>

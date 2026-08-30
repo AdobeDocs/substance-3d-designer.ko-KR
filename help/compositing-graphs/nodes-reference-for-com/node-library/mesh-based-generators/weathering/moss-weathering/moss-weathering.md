@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/moss-weathering.html"
 breadcrumb-title: ''
 description: 이끼의 풍화 노드를 사용하여 메쉬 곡률과 위치를 기반으로 이끼의 성장 패턴을 재질에 추가합니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 이끼풍화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
-## 이끼풍화
-
-**내부:** *메쉬 기반 생성기**/풍화*
-
-**복합**
+<b>내부:</b> 메시 기반 생성기 > 풍화
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,50 +39,48 @@ ht-degree: 1%
 
 전체 재질을 사용하여 작업할 때는 [링크 만들기 모드](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes)를 올바르게 이해해야 합니다.
 
-## 매개변수
-
-### 입력
-
-* **위치**: *색상 입력*\
-  Bed World Space Position.
-* **Height** : *회색 음영 입력*\
-  추가 Heightmap 입력.
-* **마스크** : *회색 음영 입력*\
-  노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크&quot; 매개 변수로 전환할 수 있습니다.
-
-### 매개변수
-
-* **채널**
-  * 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다.
-* **고급**
-  * **표준 형식**: *DirectX, OpenGL*\
-    서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다).
-  * **마스크**: *False/True*\
-    마스크 맵 사용을 설정하거나 해제합니다.
-* **효과**
-  * **이끼 전파**: *0.0 - 1.0*&#x200B;이끼의 확산을 설정합니다. 조금씩 덮이는 것에서부터 무겁고 두껍고 어두운 이끼에 이르기까지 단계별로 자란다.
-* **혼합**
-  * **확산 강도**: *0.0 - 1.0*\
-    확산 영역의 혼합 강도입니다.
-  * **기본 색상 강도**: *0.0 - 1.0*\
-    기본 색상의 혼합 강도입니다.
-  * **표준 강도**: *0.0 - 1.0*\
-    표준의 혼합 강도입니다.
-  * **Specular 강도**: *0.0 - 1.0*\
-    Specular의 혼합 강도입니다.
-  * **광택 강도**: *0.0 - 1.0*\
-    광택의 혼합 강도입니다.
-  * **거칠음 강도**: *0.0 - 1.0*\
-    거칠기의 혼합 강도입니다.
-  * **주변 오클루전 강도**: *0.0 - 1.0*\
-    주변 오클루전의 혼합 강도입니다.
-  * **Height 강도**: *0.0 - 1.0*\
-    Height의 혼합 강도입니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/moss-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>위치</b> <i>색상 입력</i> | Bed World Space Position. |
+| <b>Height</b> <i>회색 음영 입력</i> | 추가 Heightmap 입력. |
+| <b>마스크</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크&quot; 매개 변수로 전환할 수 있습니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
+| <b>고급</b> |  |
+| <b>표준 형식</b> <i>DirectX, OpenGL</i> | 서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다). |
+| <b>마스크</b> <i>거짓/참</i> | 마스크 맵 사용을 설정하거나 해제합니다. |
+| <b>효과</b> |  |
+| <b>이끼 전파</b> <i>0.0 - 1.0</i> | 이끼의 스프레드를 설정합니다. 조금씩 덮이는 것에서부터 무겁고 두껍고 어두운 이끼에 이르기까지 단계별로 자란다. |
+| <b>혼합</b> |  |
+| <b>확산 강도</b> <i>0.0 - 1.0</i> | 확산 영역의 혼합 강도입니다. |
+| <b>기본 색상 강도</b> <i>0.0 - 1.0</i> | 기본 색상의 혼합 강도입니다. |
+| <b>표준 강도</b> <i>0.0 - 1.0</i> | 표준의 혼합 강도입니다. |
+| <b>Specular 강도</b> <i>0.0 - 1.0</i> | Specular의 혼합 강도입니다. |
+| <b>광택도 강도</b> <i>0.0 - 1.0</i> | 광택의 혼합 강도입니다. |
+| <b>거칠음 강도</b> <i>0.0 - 1.0</i> | 거칠기의 혼합 강도입니다. |
+| <b>앰비언트 오클루전 강도</b> <i>0.0 - 1.0</i> | 주변 오클루전의 혼합 강도입니다. |
+| <b>Height 강도</b> <i>0.0 - 1.0</i> | Height의 혼합 강도입니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="moss-weathering.resources/moss-ex.gif" />
+        </td>
+    </tr>
 </table>

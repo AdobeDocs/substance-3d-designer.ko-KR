@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 재질 프로젝트를 위한 리소스를 가져오고, 연결하고, 새 리소스를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 가져오기, 연결, 새 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # 가져오기, 연결, 새 리소스
 
-[Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)은(는) 그래프에서 사용할 새 리소스를 가져오거나 만드는 3가지 모드를 지원합니다. 이러한 리소스는 [비트맵](../../resources/bitmap-resource/bitmap-resource.md), [벡터 그래픽](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [3D 장면](../3d-scene-resource/3d-scene-resource.md) 및 [글꼴](../../resources/font-resource/font-resource.md)을(를) 포함하되 이에 국한되지 않고 다양한 유형으로 제공됩니다. 이 페이지에서는 다양한 방법과 각 방법을 가장 잘 사용하는 시기를 설명합니다.
+[Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)은(는) 그래프에서 사용할 새 리소스를 가져오거나 만드는 3가지 모드를 지원합니다. 이러한 리소스는 [비트맵](../../resources/bitmap-resource/bitmap-resource.md), [벡터 그래픽](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [3D 장면](../3d-scene-resource/3d-scene-resource.md) 및 [글꼴](../../resources/font-resource/font-resource.md)을(를) 포함하되 이에 국한되지 않고 다양한 유형으로 구성될 수 있습니다. 이 페이지에서는 다양한 방법과 각 방법을 가장 잘 사용하는 시기를 설명합니다.
 
 모든 메서드는 탐색기의 패키지에서 RMB를 클릭하여 액세스합니다.
 
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 |                                                                                                                                                                         | 새로 만들기 | 가져오기 | 링크 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| 그래프([Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md), [Substance 함수 그래프](../../function-graphs/function-graphs.md) | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(오류)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [비트맵](../../resources/bitmap-resource/bitmap-resource.md),[벡터 그래픽(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(틱)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 3D 장면, [글꼴](../../resources/font-resource/font-resource.md) | <div><img alt="(오류)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(틱)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| SBS 파일 옆에 만들어집니다. | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(오류)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| Designer에서 편집 가능 | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(오류)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 외부 편집 내용이 자동으로 동기화됨 | <div><img alt="(오류)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(틱)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 게시된 SBSAR에 포함됨 | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(틱)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| 그래프([Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md), [Substance 함수 그래프](../../function-graphs/function-graphs.md) | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| [비트맵](../../resources/bitmap-resource/bitmap-resource.md),[벡터 그래픽(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 3D 장면, [글꼴](../../resources/font-resource/font-resource.md) | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| SBS 파일 옆에 생성됩니다. | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| Designer에서 편집 가능 | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| 외부 편집 내용이 자동으로 동기화됨 | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(오류)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 게시된 SBSAR에 포함됨 | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="(틱)" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
 
 ## 새 리소스
 
@@ -69,4 +69,4 @@ Designer에서 동시에 작업하는 동안 외부 편집기를 사용하여 �
 > 이러한 항목에 주의하고 *깨진 종속성을 예상*&#x200B;하는 데 필요한 작업을 수행하는 것이 좋습니다. 이는 패키지에서 항목을 삭제했을 때 발생할 수 있습니다.\
 > 이러한 작업에는 삭제 전에 이러한 리소스의 *모든 사용을 제거*&#x200B;하는 작업이 포함될 수 있습니다.
 
-![&#39;사용 중인 삭제된 리소스&#39; 경고](../../assets/confirm-item-removal.png "&#39;사용 중인 삭제된 리소스&#39; 경고"){width="512px"}
+![&#39;사용 중인 삭제된 리소스&#39; 경고](importing-linking-and-new-resources.resources/confirm-item-removal.png "&#39;사용 중인 삭제된 리소스&#39; 경고"){width="512px"}

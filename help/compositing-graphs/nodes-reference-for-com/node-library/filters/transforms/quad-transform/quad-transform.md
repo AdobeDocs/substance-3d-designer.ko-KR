@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
 description: 원근 교정 및 뒤틀기를 위해 4차원 변형을 텍스처에 적용하려면 [4차원 변형] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 쿼드 변형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 2%
 
 ---
 
@@ -22,40 +22,46 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform.png){width="128px"}
 
-## 4중 변형(회색 음영)
-
-**내부:** *필터/변형*
-
-**중간**
+<b>필터</b>:
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
 모퉁이점과의 상호 작용을 통해 쿼드 모양의 변형을 허용하는 특별한 변형 노드. 매우 구체적인 변형 작업을 직접 수행할 수 있습니다.
 
-## 매개변수
-
-* **p00**: 왼쪽 위 지점.
-* **p01**: 왼쪽 아래 지점
-* **p10**: 오른쪽 위 지점.
-* **p11**: 오른쪽 아래 지점입니다.
-* **컬링**: *앞에만, 뒤에만, 앞뒤로, 앞뒤로*&#x200B;지점이 서로 교차할 때 모양의 컬링/숨기기를 설정합니다.
-* **타일링 사용**: *False/True*
-* **배경색**: *(회색 음영 값)*타일링이 꺼져 있는 경우 단색 배경색입니다.
-* **샘플링**: *쌍선형, 가장 가까운*&#x200B;샘플링 품질을 설정합니다.
-
-## 예제 이미지
-
-![](../../../../../../assets/quad-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>p00</b> | 왼쪽 상단. |
+| <b>p01</b> | 왼쪽 아래 점 |
+| <b>p10</b> | 오른쪽 상단 |
+| <b>p11</b> | 오른쪽 하단 포인트. |
+| <b>컬링</b> <i>앞면 전용, 뒷면 전용, 앞면/뒷면</i> | 점이 서로 교차할 때 모양의 컬링/숨기기를 설정합니다. |
+| <b>타일링 사용</b> <i>거짓/참</i> |  |
+| <b>배경색</b> <i>(회색 음영 값)</i> | 타일링이 꺼져 있는 경우 단색 배경색입니다. |
+| <b>샘플링</b> <i>쌍선형, 가장 가까운</i> | 샘플링 품질을 설정합니다. |
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="quad-transform.resources/quad-example.gif" />
+        </td>
+    </tr>
 </table>

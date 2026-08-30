@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: 향상된 재질 미리 보기 및 시각화를 위해 3D 보기 카메라에 후처리 효과를 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 후처리 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
@@ -20,9 +20,9 @@ ht-degree: 4%
 
 # 후처리 효과
 
-![포스트 효과](../../../../assets/postEffects.png "포스트 효과"){zoomable="yes"}
+![포스트 효과](post-effects.resources/postEffects.png "포스트 효과"){zoomable="yes"}
 
-카메라 속성에서 포스트 효과를 활성화하여 렌더링을 개선하거나 특정 재질 속성을 확인할 수 있습니다.
+카메라 속성에서 포스트 효과가 렌더링을 개선하거나 특정 재질 속성을 확인하도록 할 수 있습니다.
 
 이러한 효과는 자체 개발되었으며 래스터라이저와 GPU 패스트레이서 [렌더러](../../../../interface/3d-view/3d-renderers/3d-renderers.md)에서만 사용할 수 있습니다.
 
@@ -65,11 +65,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXReinhard.jpg" alt="PostFXReinhard">
+      <img src="post-effects.resources/PostFXReinhard.jpg" alt="PostFXReinhard">
       <br><i>이후</i>
     </td>
   </tr>
@@ -77,9 +77,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXReinhard](../../../../assets/PostFXReinhard.jpg "PostFXReinhard")
+![PostFXReinhard](post-effects.resources/PostFXReinhard.jpg "PostFXReinhard")
 
 +++
 
@@ -89,11 +89,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXAtan.jpg" alt="PostFXAtan">
+      <img src="post-effects.resources/PostFXAtan.jpg" alt="PostFXAtan">
       <br><i>이후</i>
     </td>
   </tr>
@@ -101,9 +101,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAtan](../../../../assets/PostFXAtan.jpg "PostFXAtan")
+![PostFXAtan](post-effects.resources/PostFXAtan.jpg "PostFXAtan")
 
 +++
 
@@ -113,11 +113,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXExp.jpg" alt="PostFXExp">
+      <img src="post-effects.resources/PostFXExp.jpg" alt="PostFXExp">
       <br><i>이후</i>
     </td>
   </tr>
@@ -125,9 +125,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXExp](../../../../assets/PostFXExp.jpg "PostFXExp")
+![PostFXExp](post-effects.resources/PostFXExp.jpg "PostFXExp")
 
 +++
 
@@ -137,11 +137,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXLog.jpg" alt="PostFXLog">
+      <img src="post-effects.resources/PostFXLog.jpg" alt="PostFXLog">
       <br><i>이후</i>
     </td>
   </tr>
@@ -149,9 +149,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXLog](../../../../assets/PostFXLog.jpg "PostFXLog")
+![PostFXLog](post-effects.resources/PostFXLog.jpg "PostFXLog")
 
 +++
 
@@ -161,11 +161,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXAces.jpg" alt="PostFXAces">
+      <img src="post-effects.resources/PostFXAces.jpg" alt="PostFXAces">
       <br><i>이후</i>
     </td>
   </tr>
@@ -173,9 +173,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAces](../../../../assets/PostFXAces.jpg "PostFXAces")
+![PostFXAces](post-effects.resources/PostFXAces.jpg "PostFXAces")
 
 +++
 
@@ -185,11 +185,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXHejl.jpg" alt="PostFXHejl">
+      <img src="post-effects.resources/PostFXHejl.jpg" alt="PostFXHejl">
       <br><i>이후</i>
     </td>
   </tr>
@@ -197,9 +197,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXHejl](../../../../assets/PostFXHejl.jpg "PostFXHejl")
+![PostFXHejl](post-effects.resources/PostFXHejl.jpg "PostFXHejl")
 
 +++
 
@@ -209,11 +209,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXNeutral.jpg" alt="PostFXNeutral">
+      <img src="post-effects.resources/PostFXNeutral.jpg" alt="PostFXNeutral">
       <br><i>이후</i>
     </td>
   </tr>
@@ -221,9 +221,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXNeutral](../../../../assets/PostFXNeutral.jpg "PostFXNeutral")
+![PostFXNeutral](post-effects.resources/PostFXNeutral.jpg "PostFXNeutral")
 
 +++
 
@@ -233,11 +233,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXAgx.jpg" alt="PostFXAgx">
+      <img src="post-effects.resources/PostFXAgx.jpg" alt="PostFXAgx">
       <br><i>이후</i>
     </td>
   </tr>
@@ -245,9 +245,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAgx](../../../../assets/PostFXAgx.jpg "PostFXAgx")
+![PostFXAgx](post-effects.resources/PostFXAgx.jpg "PostFXAgx")
 
 +++
 
@@ -257,11 +257,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="post-effects.resources/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/PostFXPbrNeutral.jpg" alt="PostFXPbrNeutral">
+      <img src="post-effects.resources/PostFXPbrNeutral.jpg" alt="PostFXPbrNeutral">
       <br><i>이후</i>
     </td>
   </tr>
@@ -269,9 +269,9 @@ ht-degree: 4%
 
 
 
-![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](post-effects.resources/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXPbrNeutral](../../../../assets/PostFXPbrNeutral.jpg "PostFXPbrNeutral")
+![PostFXPbrNeutral](post-effects.resources/PostFXPbrNeutral.jpg "PostFXPbrNeutral")
 
 +++
 
@@ -279,7 +279,7 @@ ht-degree: 4%
 
 매우 밝은 영역에서 빛이 적게 들어오는 영역으로 빛이 밖으로 번지는 언저리의 카메라 내 효과를 시뮬레이션합니다.
 
-그 효과는 장면의 조명, 카메라 노출 및 방출 재료들에 의해 영향을 받는다.
+이 효과는 장면의 조명, 카메라 노출 및 방출 재질의 영향을 받습니다.
 
 +++임계값
 이 값을 초과하는 꽃이 피는 경우 표시되는 광도 값입니다.
@@ -291,11 +291,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomThreshold1.jpg" alt="bloomThreshold1">
+      <img src="post-effects.resources/bloomThreshold1.jpg" alt="bloomThreshold1">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomThreshold4.jpg" alt="bloomThreshold4">
+      <img src="post-effects.resources/bloomThreshold4.jpg" alt="bloomThreshold4">
       <br><i>이후</i>
     </td>
   </tr>
@@ -303,9 +303,9 @@ ht-degree: 4%
 
 
 
-![bloomThreshold1](../../../../assets/bloomThreshold1.jpg "bloomThreshold1")
+![bloomThreshold1](post-effects.resources/bloomThreshold1.jpg "bloomThreshold1")
 
-![bloomThreshold4](../../../../assets/bloomThreshold4.jpg "bloomThreshold4")
+![bloomThreshold4](post-effects.resources/bloomThreshold4.jpg "bloomThreshold4")
 
 +++
 
@@ -319,11 +319,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomFalloff1.jpg" alt="bloomFalloff1">
+      <img src="post-effects.resources/bloomFalloff1.jpg" alt="bloomFalloff1">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
+      <img src="post-effects.resources/bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
       <br><i>이후</i>
     </td>
   </tr>
@@ -331,9 +331,9 @@ ht-degree: 4%
 
 
 
-![bloomFalloff1](../../../../assets/bloomFalloff1.jpg "bloomFalloff1")
+![bloomFalloff1](post-effects.resources/bloomFalloff1.jpg "bloomFalloff1")
 
-![bloomFalloff0-6](../../../../assets/bloomFalloff0-6.jpg "bloomFalloff0-6")
+![bloomFalloff0-6](post-effects.resources/bloomFalloff0-6.jpg "bloomFalloff0-6")
 
 +++
 
@@ -347,11 +347,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomLevel8.jpg" alt="bloomLevel8">
+      <img src="post-effects.resources/bloomLevel8.jpg" alt="bloomLevel8">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomLevel2.jpg" alt="bloomLevel2">
+      <img src="post-effects.resources/bloomLevel2.jpg" alt="bloomLevel2">
       <br><i>이후</i>
     </td>
   </tr>
@@ -359,9 +359,9 @@ ht-degree: 4%
 
 
 
-![bloomLevel8](../../../../assets/bloomLevel8.jpg "bloomLevel8")
+![bloomLevel8](post-effects.resources/bloomLevel8.jpg "bloomLevel8")
 
-![bloomLevel2](../../../../assets/bloomLevel2.jpg "bloomLevel2")
+![bloomLevel2](post-effects.resources/bloomLevel2.jpg "bloomLevel2")
 
 +++
 
@@ -375,11 +375,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/bloomColorShift0.jpg" alt="bloomColorShift0">
+      <img src="post-effects.resources/bloomColorShift0.jpg" alt="bloomColorShift0">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
+      <img src="post-effects.resources/bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
       <br><i>이후</i>
     </td>
   </tr>
@@ -387,9 +387,9 @@ ht-degree: 4%
 
 
 
-![bloomColorShift0](../../../../assets/bloomColorShift0.jpg "bloomColorShift0")
+![bloomColorShift0](post-effects.resources/bloomColorShift0.jpg "bloomColorShift0")
 
-![bloomColorShift0-8](../../../../assets/bloomColorShift0-8.jpg "bloomColorShift0-8")
+![bloomColorShift0-8](post-effects.resources/bloomColorShift0-8.jpg "bloomColorShift0-8")
 
 +++
 
@@ -413,11 +413,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
+      <img src="post-effects.resources/depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
+      <img src="post-effects.resources/depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
       <br><i>이후</i>
     </td>
   </tr>
@@ -425,9 +425,9 @@ ht-degree: 4%
 
 
 
-![depthOfFieldMaxRadius32](../../../../assets/depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
+![depthOfFieldMaxRadius32](post-effects.resources/depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
 
-![depthOfFieldMaxRadius4](../../../../assets/depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
+![depthOfFieldMaxRadius4](post-effects.resources/depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
 
 +++
 
@@ -441,11 +441,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
+      <img src="post-effects.resources/depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
+      <img src="post-effects.resources/depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
       <br><i>이후</i>
     </td>
   </tr>
@@ -453,9 +453,9 @@ ht-degree: 4%
 
 
 
-![depthOfFieldCompositeStrength0-2](../../../../assets/depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
+![depthOfFieldCompositeStrength0-2](post-effects.resources/depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
 
-![depthOfFieldCompositeStrength0-05](../../../../assets/depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
+![depthOfFieldCompositeStrength0-05](post-effects.resources/depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
 
 +++
 
@@ -471,11 +471,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongituonalAberration0">
+      <img src="post-effects.resources/depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongituonalAberration0">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongituonalAberrical1">
+      <img src="post-effects.resources/depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongituonalAberrical1">
       <br><i>이후</i>
     </td>
   </tr>
@@ -483,9 +483,9 @@ ht-degree: 4%
 
 
 
-![depthOfFieldLongteralAberricalAberration0](../../../../assets/depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongteralAberration0")
+![depthOfFieldLongteralAberricalAberration0](post-effects.resources/depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongteralAberration0")
 
-![depthOfFieldLongteralAberricalAberration1](../../../../assets/depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongteralAberration1")
+![depthOfFieldLongteralAberricalAberration1](post-effects.resources/depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongteralAberration1")
 
 +++
 
@@ -501,11 +501,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
+      <img src="post-effects.resources/depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
+      <img src="post-effects.resources/depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
       <br><i>이후</i>
     </td>
   </tr>
@@ -513,9 +513,9 @@ ht-degree: 4%
 
 
 
-![depthOfFieldAchromaticAberrationYes](../../../../assets/depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
+![depthOfFieldAchromaticAberrationYes](post-effects.resources/depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
 
-![depthOfFieldAchromaticAberrationNo](../../../../assets/depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
+![depthOfFieldAchromaticAberrationNo](post-effects.resources/depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
 
 +++
 
@@ -531,11 +531,11 @@ ht-degree: 4%
 <table>
   <tr>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
+      <img src="post-effects.resources/depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../assets/depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
+      <img src="post-effects.resources/depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
       <br><i>이후</i>
     </td>
   </tr>
@@ -543,8 +543,8 @@ ht-degree: 4%
 
 
 
-![depthOfFieldAchromaticCatsEyeYes](../../../../assets/depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
+![depthOfFieldAchromaticCatsEyeYes](post-effects.resources/depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
 
-![depthOfFieldAchromaticCatsEyeNo](../../../../assets/depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
+![depthOfFieldAchromaticCatsEyeNo](post-effects.resources/depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
 
 +++

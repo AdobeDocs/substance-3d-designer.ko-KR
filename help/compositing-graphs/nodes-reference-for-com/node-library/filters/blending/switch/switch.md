@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
 description: 조건부 텍스처 선택을 위해 마스크를 기준으로 두 입력 텍스처 간을 전환하려면 [전환] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 전환
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-1.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-grayscale.png){width="128px"}
 
-## 전환(회색 음영)
-
-**내부:** *필터/혼합*
-
-**단순**
+<b>내부:</b> 필터 > 혼합
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -45,19 +41,23 @@ ht-degree: 4%
 
 중요: 입력에 적합한 버전을 사용해야 합니다. 색상 입력에는 &quot;전환&quot;을 사용하고, 회색 음영 입력에는 &quot;회색 음영 전환&quot;을 사용합니다.
 
-## 매개변수
-
-### 입력
-
-* **입력 1(True)**: *색 또는 회색 음영 입력*
-* **입력 2(False)**: *색상 또는 회색 음영 입력*
-
-### 매개변수
-
-* **전환**: *False/True*&#x200B;입력 1(True)과 2(False) 사이를 전환합니다.
-
-## 예제 이미지
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>입력 1(True)</b> <i>색상 또는 회색 음영 입력</i> |  |
+| <b>입력 2(False)</b> <i>색상 또는 회색 음영 입력</i> |  |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>전환</b> <i>거짓/참</i> | 입력 1(True)과 2(False) 사이를 전환합니다. |

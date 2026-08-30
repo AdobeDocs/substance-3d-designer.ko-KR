@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 플러그인 검색 경로를 구성하여 Python 플러그인이 위치한 위치를 지정합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 플러그인 검색 경로
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Designer은 특정 디렉터리에서 플러그인을 찾습니다(예: 검색 �
 1. <b>Python</b> 탭에서 *<b>+</b>*버튼을 클릭하여 플러그인이 포함된 디렉터리를 추가합니다
 1. <b>확인</b>을 클릭하여 유효성 검사
 
-![Python 플러그인 검색 경로 프로젝트 설정](../../assets/image-70.png "Python 플러그인 검색 경로 프로젝트 설정")
+![Python 플러그인 검색 경로 프로젝트 설정](plugin-search-paths.resources/image-70.png "Python 플러그인 검색 경로 프로젝트 설정")
 
 ## 환경 변수 사용
 

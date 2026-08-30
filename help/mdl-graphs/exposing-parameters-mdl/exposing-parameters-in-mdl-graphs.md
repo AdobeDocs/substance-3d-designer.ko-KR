@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 그래프에서 매개변수 노출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 그래프의 *다른 노드* 또는 *외부 소스*&#x200B;에서 제공된 값과 텍스처에 연결할 수 있도록 MDL 그래프에 매개변수를 표시하는 프로세스를 설명합니다.
 
-![노드 입력의 노출 상태](../../assets/mdl-node-inputs-hl.png "노드 입력의 노출 상태")
+![노드 입력의 노출 상태](exposing-parameters-in-mdl-graphs.resources/mdl-node-inputs-hl.png "노드 입력의 노출 상태")
 
 *노드 입력의 노출 상태*
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 <b>그래프 보기</b>에서 노드를 선택하면 해당 속성이 <b>속성</b> 패널에 표시됩니다. 대부분의 속성은 해당 레이블의 오른쪽에 일련의 버튼과 함께 나열됩니다.
 
-* **![](../../assets/mdl-expose-new-node.png)새 노드에 값을 복사하고 이 매개 변수에 연결합니다.**: 이 속성에 대한 *입력 커넥터*&#x200B;를 만들고 이 속성의 현재 값을 출력하는 *새 노드*&#x200B;에 연결합니다.
-* **![](../../assets/mdl-expose-new-input.png)이 매개 변수에 대한 입력 핀 만들기**: 이 속성에 대한 *입력 커넥터*&#x200B;를 만듭니다.
-* **![](../../assets/mdl-expose-reset.png)이 매개 변수를 기본값으로 다시 설정**: 이 속성의 입력 커넥터에 연결된 값이 없으면 값을 기본값으로 다시 설정합니다.
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-node.png)새 노드에 값을 복사하고 이 매개 변수에 연결합니다.**: 이 속성에 대한 *입력 커넥터*&#x200B;를 만들고 이 속성의 현재 값을 출력하는 *새 노드*&#x200B;에 연결합니다.
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-new-input.png)이 매개 변수에 대한 입력 핀 만들기**: 이 속성에 대한 *입력 커넥터*&#x200B;를 만듭니다.
+* **![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-reset.png)이 매개 변수를 기본값으로 다시 설정**: 이 속성의 입력 커넥터에 연결된 값이 없으면 값을 기본값으로 다시 설정합니다.
 
-![](../../assets/mdl-expose-input.gif)
+![](exposing-parameters-in-mdl-graphs.resources/mdl-expose-input.gif)
 
 *노드 입력 조작*
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 **이 매개 변수에 대한 입력 핀 만들기** 단추를 다시 클릭하여 입력 커넥터를 *제거*&#x200B;할 수 있습니다. 이때 속성 값은 **속성** 패널에 설정된 값으로 돌아갑니다.
 
-![노출된 노드 매개 변수](../../assets/mdl-exposed-float-hl.png "노출된 노드 매개 변수")
+![노출된 노드 매개 변수](exposing-parameters-in-mdl-graphs.resources/mdl-exposed-float-hl.png "노출된 노드 매개 변수")
 
 *노출된 노드 매개 변수*
 
@@ -57,7 +57,7 @@ MDL 그래프에서 매개변수를 그래프 레벨에 노출하는 것, 즉 MD
 
 노출할 수 있는 노드의 컨텍스트 메뉴에는 <b>노출</b> 옵션이 있습니다. 대부분의 경우 부동 소수점, 색상 또는 텍스처 좌표와 같은 값이나 데이터를 생성하는 노드입니다.
 
-노드의 컨텍스트 메뉴에서 ![&quot;노출&quot; 옵션](../../assets/mdl-expose-float-menu-hl.png "&quot;노출&quot; 노드의 컨텍스트 메뉴에서 옵션")
+노드의 컨텍스트 메뉴에서 ![&quot;노출&quot; 옵션](exposing-parameters-in-mdl-graphs.resources/mdl-expose-float-menu-hl.png "&amp;quot;노출&amp;quot; 노드의 컨텍스트 메뉴에서 옵션")
 
 노드의 컨텍스트 메뉴에서 *&quot;노출&quot; 옵션*
 
@@ -75,12 +75,12 @@ MDL 그래프에서 매개변수를 그래프 레벨에 노출하는 것, 즉 MD
 * <b>감마 유형</b>: 이 매개 변수에 연결된 텍스처의 값을 샘플링할 때 사용해야 하는 감마
 * <b>기본적으로 표시</b>: 일부 매개 변수가 숨겨져 있을 수 있는 경우 MDL 통합에서 이 매개 변수의 표시 여부를 설정합니다.
 * <b>형식 한정자</b>: 값이 균일한지 또는 가변인지 설정합니다. Auto로 설정된 경우 매개 변수는 해당 입력에서 이 속성을 상속합니다(예: Float 값의 경우: Float에 연결하면 균일, 텍스처에 연결하면 다름).
-* <b>Sampler 사용</b>: 여러 출력이 한 번에 MDL 재질에 연결된 경우 *적절한 텍스처를 연결*&#x200B;하는 데 사용되는 매개 변수 사용량의 식별자입니다. 예를 들어, 3D 뷰에서 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 MDL 재질에 연결할 때 텍스처는 사용 식별자를 일치시켜 올바른 입력에 연결됩니다.
+* <b>Sampler 사용</b>: 여러 출력이 MDL 재질에 한 번에 연결될 때 *적절한 텍스처를 연결*&#x200B;하는 데 사용되는 매개 변수 사용량의 식별자. 예를 들어, 3D 보기에서 MDL 재질에 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 연결할 때, 텍스처는 해당 사용 식별자를 일치시켜 올바른 입력에 연결됩니다.
 
 >[!WARNING]
 >
 > 그래프 입력이 *노드* 수준에서 구성된 상태로 설정되어 있는 동안 해당 순서는 [그래프 속성](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)의 **그래프 입력** 섹션에서 *그래프* 수준에서 관리됩니다.
 
-![그래프 입력에 노드 노출](../../assets/mdl-expose-parameter.gif "그래프 입력에 노드 노출")
+![그래프 입력에 노드 노출](exposing-parameters-in-mdl-graphs.resources/mdl-expose-parameter.gif "그래프 입력에 노드 노출")
 
 *그래프 입력에 노드를 표시하는 중*

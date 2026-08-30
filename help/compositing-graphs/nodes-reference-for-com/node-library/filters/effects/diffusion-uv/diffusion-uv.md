@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: '[확산] UV 노드를 사용하여 UV 공간에 확산 효과를 적용하여 매끄러운 색상 전환과 혼합을 만들 수 있습니다.'
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 확산 UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
 
-**내부:** *필터/효과*
-
-**중간**
+<b>인:</b> 필터 > 효과
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -49,45 +47,40 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 매개변수
-
-* **반복**: *0.0 - 64.0*&#x200B;수행할 확산 반복 수입니다(높을수록 좋지만 느림). 유용한 값은 [8, 48] 범위에 있습니다.\
-  만약 여러분이 수학적 정확성을 찾고 있지 않다면, 낮은 값들이 괜찮거나 더 낫다는 것을 알아두세요.
+<a name="inputs"></a>
 
 ## 입력
 
-* **원본** *색상*\
-  확산될 UV입니다. 이 필터에서는 타일링이 특별한 방식으로 처리됩니다(*설명* 참조).
-* **마스크** *회색 음영*&#x200B;확산 마스크: 흰색 픽셀은 *소스*&#x200B;에서 샘플링되고 검은색 픽셀로 확산됩니다. 이미지는 흑백이어야 합니다. 마스크에 그레이디언트가 포함되어 있으면 차단 값은 0.5입니다.
+|  |  |
+|:---|:---|
+| <b>원본</b> <i>색상</i> | 확산될 UV입니다. 이 필터에서는 타일링이 특별한 방식으로 처리됩니다(<i>설명</i> 참조). |
+| <b>마스크</b> <i>회색 음영</i> | 확산 마스크: 흰색 픽셀은 <i>소스</i>에서 샘플링되고 검은색 픽셀에서 확산됩니다. 이미지는 흑백이어야 합니다. 마스크에 그레이디언트가 포함되어 있으면 차단 값은 0.5입니다. |
 
-## 예제 이미지
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## 매개변수
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>반복</b> <i>0.0 - 64.0</i> | 수행할 확산 반복 수입니다(높을수록 좋지만 느림). 유용한 값은 [8, 48] 범위에 있습니다.<br>수학적 정확성을 찾고 있지 않은 경우 낮은 값이 적합하거나 더 좋습니다. |
 
-</td>
-<td style="border: 0;" valign="top">
+## 예
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
+        </td>
+    </tr>
 </table>

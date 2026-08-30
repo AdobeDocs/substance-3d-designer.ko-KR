@@ -2,10 +2,10 @@
 name: write-experience-league-markdown
 description: ""
 Source: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
-source-git-commit: ec58342925d3e608b0180b67a1e20ffaeb1f306a
+source-git-commit: e44437dcecf30714ffe5274c91135d84a0360aa7
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 5%
+source-wordcount: '647'
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,9 @@ lint/link-check CI가 실패하거나 라이브 사이트에서 잘못 렌더링
 * 백슬래시(`\*`, `\_` 등)를 사용하여 리터럴 특수 문자를 이스케이프합니다.
 * 머리글/제목의 **앰퍼샌드**&#x200B;은(는) 다음과 같이 작성(`and`)하거나 인코딩해야 합니다.
   `&amp;` — 제목의 raw `&`이(가) 구문 분석을 중단할 수 있습니다.
-* 리터럴 텍스트(실제 HTML 아님)로 사용된 **꺾쇠 괄호**&#x200B;는 인코딩해야 합니다.
+* 리터럴 텍스트(실제 HTML 아님)로 사용된 **꺾쇠 괄호**는 인코딩해야 합니다.
   `<placeholder>` → `&lt;placeholder&gt;`입니다.
-* 워드 프로세서에서 붙여넣은 **스마트 따옴표**&#x200B;를 인코딩해야 합니다.
+* 워드 프로세서에서 붙여넣은 **스마트 따옴표**를 인코딩해야 합니다.
 리터럴 곱슬 문자: 왼쪽 이중 `&#8220;`, 오른쪽 이중 `&#8221;`,
 아포스트로피/오른쪽 싱글 `&#8217;`.
 
@@ -62,11 +62,13 @@ lint/link-check CI가 실패하거나 라이브 사이트에서 잘못 렌더링
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * 선택적 크기 조정/최적화 쿼리 매개 변수가 지원됩니다.
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **대체 텍스트는 밑줄을 포함할 수 없습니다**. 올바르게 렌더링되지 않습니다.
 대신 하이픈이나 공백을 사용하십시오.
-* `<page-name>.resources/`에 있는 페이지별 이미지, 공유/앱 아이콘
-`help/assets/`에 있습니다(CLAUDE.md 참조).
+* 페이지별 이미지가 형제 `<page-name>.resources/` 폴더에 있습니다.
+`.md` 옆에 상대적으로 참조된 항목(예:
+  `<page-name>.resources/image.png`). `help/assets/`은(는) 레거시 공유됨
+  폴더 — 새 이미지를 추가하지 마십시오(CLAUDE.md 참조).
 
 ## 표
 
@@ -91,7 +93,7 @@ lint/link-check CI가 실패하거나 라이브 사이트에서 잘못 렌더링
 
 * 인라인 코드: 단일 백틱.
 * 펜싱된 블록: 구문용 선택적 언어가 있는 트리플 백틱
-강조 표시(` `&#x200B;``python `, ` ``&#x200B;`javascript ` 등).
+강조 표시(` ```python `, ` ```javascript ` 등).
 
 ## 메모/경고 블록
 

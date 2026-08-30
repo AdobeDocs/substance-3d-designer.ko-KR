@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: 변수 가져오기 노드를 사용하여 Substance 3D Designer 함수 그래프에서 변수 값을 검색하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 변수 값 가져오기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 이렇게 하려면 *Get* 노드를 사용해야 합니다.
 
-![](../../../assets/image2015-12-21-7-29-51.png)
+![](get-a-variable-value.resources/image2015-12-21-7-29-51.png)
 
 Get 노드에는 다양한 종류가 있습니다. 가져올 값의 유형에 따라 적절한 노드를 선택하십시오.
 
-![](../../../assets/image2015-12-21-7-31-4.png)
+![](get-a-variable-value.resources/image2015-12-21-7-31-4.png)
 
 ## Get 노드에 변수 할당
 
@@ -38,7 +38,7 @@ Get 노드에는 다양한 종류가 있습니다. 가져올 값의 유형에 �
 
 변수 이름이 노드에 표시됩니다.
 
-![](../../../assets/assign-getfloat.gif)
+![](get-a-variable-value.resources/assign-getfloat.gif)
 
 Get 노드 유형과 동일한 유형의 변수만 목록에 나타납니다.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 15.1의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 *출시일: 2025년 12월 11일*
 
-![배너 Designer 15.1](../../assets/bannerweb.png)
+![배너 Designer 15.1](version-15-1.resources/bannerweb.png)
 
 ## 그래프 생성 개선
 
@@ -36,13 +36,13 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 [자세히 알아보기](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![새 그래프 창 다시 구성](../../assets/newgraph.png){zoomable="yes"}
+![새 그래프 창 다시 구성](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## 포함된 샘플
 
 새롭게 디자인된 그래프 만들기 창을 시작으로 다양한 [<b>샘플 재질</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)이 소프트웨어 내에 직접 추가되었습니다. 학습 리소스에 대한 액세스 권한 개선 요청에 대한 응답입니다.
 
-![샘플에 대한 새 그래프 만들기 창](../../assets/GraphSample.png){zoomable="yes"}
+![샘플에 대한 새 그래프 만들기 창](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 이러한 요구를 충족하기 위해 직물(가죽 및 새틴 포함), 목재, 금속, 플라스틱, 세라믹 등과 같은 재료 샘플을 포함했습니다. 이러한 예는 프로젝트를 간편하게 시작하고 Substance 3D Designer에서 사용할 수 있는 기본 패밀리 노드를 익히는 데 도움이 되도록 고안되었습니다
 
@@ -54,7 +54,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 [자세히 알아보기](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![substance designer의 나무 샘플](../../assets/samplegraph.png){zoomable="yes"}
+![substance designer의 나무 샘플](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## 새로운 노이즈
 
@@ -70,7 +70,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 예: [셀 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [구름 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [방향 스크래치](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [습기 노이즈 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![방향 장애 노이즈](../../assets/directionaldisorder.gif){zoomable="yes"}
+![방향 장애 노이즈](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## 노드 메뉴의 계층
 
@@ -82,12 +82,12 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![범주 &#x200B;](../../assets/search1-2.png){zoomable="yes"}을(를) 사용하여 노드 검색
+![범주 ](version-15-1.resources/search1-2.png){zoomable="yes"}을(를) 사용하여 노드 검색
 
 </td>
 <td style="border: 0;" valign="top">
 
-![범주 2](../../assets/search2.png){zoomable="yes"}의 노드 검색
+![범주 2](version-15-1.resources/search2.png){zoomable="yes"}의 노드 검색
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="기본 출력의 축소판은 항상 관련이 있습니다.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="기본 출력의 축소판은 항상 관련이 있습니다.">
       <br><i>이후</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 [자세히 알아보기](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![정의된 노드](../../assets/isdefined.png){zoomable="yes"}
+![정의된 노드](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## 릴리스 정보
 
@@ -199,8 +199,8 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 * [3D 보기] Specular level이 올바르게 적용되지 않음
 * [3D 보기] Eclair 래스터라이저를 사용할 때 Specular edge color이 작동하지 않음
 * [3D 보기] 사용자가 추가한 재질이 기본 장면에 적용되지 않음
-* [3D 보기]&#x200B;[베이커] 재질 색상이 재정의되거나 &quot;색상&quot; 베이커를 사용할 때 너무 어둡습니다
-* [3D 보기]&#x200B;[Bakers] FBX 파일에서 재질 색상이 없음
+* [3D 보기][베이커] 재질 색상이 재정의되거나 &quot;색상&quot; 베이커를 사용할 때 너무 어둡습니다
+* [3D 보기][Bakers] FBX 파일에서 재질 색상이 없음
 * [베이커] FBX 파일의 재질 색상이 올바르게 감지되지 않음
 * [Bakers] JSON 사전 설정 내보내기에서 &#39;recompute\_tangents&#39; 옵션은 항상 &#39;false&#39;입니다.
 * [베이커] CLI: JSON 파일을 통해 동일한 베이커를 연속으로 실행할 때 충돌이 발생합니다

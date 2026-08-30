@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
 breadcrumb-title: ''
 description: 다중 재질 혼합 노드를 사용하여 여러 재질을 혼합하여 복잡한 재질 조합을 만들 수 있습니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 다중 재질 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-material-blend.png){width="128px"}
+![](multi-material-blend.resources/multi-material-blend.png){width="128px"}
 
-## 다중 재질 혼합
-
-**내부:** *재질 필터/혼합*
-
-**중간**
+<b>내부:</b> 재질 필터 > 혼합
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -43,30 +39,28 @@ ht-degree: 1%
 
 이 옵션을 사용할 때는 [재질 1], [슬롯 1]이 항상 기본 재질이며 다른 재질이 나타나지 않는 모든 위치에 표시된다는 점에 유의하십시오. 따라서 색상을 설정할 수 없습니다. 이 금고를 재생하려면 예를 들어 러프 블랙으로 설정된 [기본 재질](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md)를 연결하면 됩니다.
 
-## 매개변수
-
-### 입력
-
-* **1-16 전체 재질 슬롯**&#x200B;슬롯 양은 **재질** 드롭다운에 의해 결정됩니다.
-* **색상 ID**: *색상 입력*\
-  색상 ID 맵을 구웠습니다.
-
-### 매개변수
-
-* **재질**: *2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16*&#x200B;혼합할 서로 다른 재질의 최대 양을 설정합니다.
-* **채널**\
-  예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다.
-* **재질 2-16**&#x200B;활성화된 모든 재질에 대해 하나의 그룹이 나타납니다.
-  * **색상**: *(색상 값)*이 재질 슬롯과 일치하는 ID 맵에서 선택할 색상입니다.
-  * **흐림**: *0.01 - 1.0*&#x200B;인접한 색상으로 도련.
-  * **패딩**: *0.0 - 1.0*&#x200B;전환 경도: 마스크 대비.
-
-## 예제 이미지
-
-|  |
-| --- |
-| 이 페이지에 첨부된 이미지가 없습니다. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 입력
+
+|  |  |
+|:---|:---|
+| <b>1-16 전체 재질 슬롯</b> | 슬롯의 양은 <b>재질</b> 드롭다운에 의해 결정됩니다. |
+| <b>색상 ID</b> <i>색상 입력</i> | 색상 ID 맵을 구웠습니다. |
+
+<a name="parameters"></a>
+
+## 매개변수
+
+|  |  |
+|:---|:---|
+| <b>재질</b> <i>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</i> | 혼합할 서로 다른 재질의 최대 양을 설정합니다. |
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
+| <b>재질 2-16</b> | 활성화된 모든 재질에 대해 하나의 그룹이 표시됩니다. |
+| <b>색상</b> <i>(색상 값)</i> | 이 재질 슬롯과 일치하는 ID 맵에서 선택할 색상입니다. |
+| <b>허용량</b> <i>0.01 - 1.0</i> | 주변 색상으로 도련을 더합니다. |
+| <b>패딩</b> <i>0.0 - 1.0</i> | 전환 경도: 마스크 대비. |

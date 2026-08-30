@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: 패스 및 스플라인 노드에서 사용하는 패스 형식 사양 및 데이터 구조에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 형식 사양
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -32,14 +32,14 @@ ht-degree: 0%
 
 패스 문서는 각각 <b>32비트 부동 소수점 색상 텍스처</b>로 인코딩된 세그먼트 목록을 설명하는 패스 목록입니다.
 
-텍스처는 &#39;위&#39;(*$pos.y &lt; 0.5*) 부분과 &#39;아래&#39;(*$pos.y > 0.5*) 부분으로 분할됩니다.
+텍스처가 &#39;위&#39;(*$pos.y &lt; 0.5*) 부분과 &#39;아래&#39;(*$pos.y > 0.5*) 부분으로 분할됩니다.
 
 &#39;위&#39; 부분의 픽셀에 있는 모든 데이터는 의미상 &#39;아래&#39; 부분의 일치하는 픽셀과 밀접하게 관련되며, 그 반대의 경우도 마찬가지입니다.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![패스 다각형 인코딩 데이터](../../../../../../assets/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
+![패스 다각형 인코딩 데이터](paths-format-specifications.resources/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 이 문서의 픽셀 크기입니다(예: 정확히 `Float2(1,1) / $size`).
 
-이는 출력 크기가 다른 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에서 패스를 읽을 때 유용합니다.
+이 기능은 출력 크기가 다른 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에서 패스를 읽을 때 유용합니다.
 
 <b>폭</b>
 
@@ -90,18 +90,18 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 이 문서에 정의된 마지막 정점의 주소입니다. 새 데이터를 추가하는 데 유용합니다.
 
-따라서 실제로 마지막 정점의 주소보다 스캔라인 순서로 더 큰 주소일 수 있습니다. 범위: &rbrack;0, 1[×]0,.5&lbrack;
+따라서 실제로 마지막 정점의 주소보다 스캔라인 순서로 더 큰 주소일 수 있습니다. 범위: ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
-사용되지 않음. Float2(0, 1)여야 함
+사용되지 않음, 부동2(0, 1)여야 함
 
 +++
 
 ### 패스 머리글
 
 문서 머리글 바로 다음에 경로 수 = top[(0,0)].X 경로 헤더가 시맨틱 단위로 하나씩 옵니다.\
-E.g. 문서에 3개의 경로가 있는 경우 해당 경로는 U[(0,1)\*pixel\_size], U[(0,2)\*pixel\_size] 및 U[(0,3)\*pixel\_size] (픽셀\_size = top[(0,0)].YZ 포함)에 저장됩니다.
+E.g. 문서에 3개의 경로가 있는 경우 해당 경로는 U[(0,1)\*pixel\_size], U[(0,2)\*pixel\_size] 및 U[(0,3)\*pixel\_size](픽셀\_size = top[(0,0)].YZ 포함)에 저장됩니다.
 
 한 픽셀 행에 포함할 수 있는 것보다 많은 패스가 있는 경우 나머지 패스-헤더는 다음 행 중 하나에 스캔라인 순서로 기록됩니다.\
 Null 경로 헤더(`top[...].XYZW = Float4(0,0,0,0)`)를 사용할 수 있습니다. 이러한 경로는 하나의 빈 경로로 허용됩니다.
@@ -269,11 +269,11 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 세 번째 반복 노드의 Iterations 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다. 사용 방법에 대한 예시.
 
-![sample_next의 최소 사용 사례](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
+![sample_next의 최소 사용 사례](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
 
 
 
-![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
+![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
 
 
 
@@ -334,7 +334,7 @@ Fx-Map을 사용하여 경로를 읽고 쓰는 방법에 대한 아이디어를 
 
 구체적인 사용 사례에 따라 할 말이 너무 많기 때문에 자세히 알아보지는 않겠지만, 가장 먼저 해야 할 일은 여러분이 어디에 있는지 확인하는 것입니다.
 
-상단($pos.y &lt; 0.5) 또는 하단($pos.y > 0.5) 부분에 있습니까? 전용 변수(예: `*isTop*`)에서 `*vert.addr*` Float2를 만들 때 이 값은 위쪽 부분은 `*$pos*`이고 아래쪽 부분은 `$pos - (0,0.5)`임을 기억하는 것이 좋습니다.
+상단($pos.y &lt; 0.5) 또는 하단($pos.y > 0.5) 부분에 있습니까? 전용 변수(예: `*isTop*`)에서 `*vert.addr*` 부동2를 만들 때 해당 값은 위쪽 부분은 `*$pos*`이고 아래쪽 부분은 `$pos - (0,0.5)`임을 기억하는 것이 좋습니다.
 
 *vert.addr*&#x200B;에는 어떤 항목이 있습니까? 샘플을 채취하여 (W != 0)이 있는지 확인한 다음, 있다면 정확히 무엇인지 확인합니다. 헤더(W = 0.0625)(`*Read/is\_header*` 확인) 또는 정점(`Read/is\_vertex` 확인) 중 어느 것입니까? 헤더라면 문서 헤더일까요, 패스 헤더일까요? `*Read/current\_pixel\_is\_document\_header*`을(를) 사용하여 확인할 수 있습니다. 하나 또는 여러 개의 도우미 함수를 사용하여 관심 있는 내용을 일치시킵니다.
 

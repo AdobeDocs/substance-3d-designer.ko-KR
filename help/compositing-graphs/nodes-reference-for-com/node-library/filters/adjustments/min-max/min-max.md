@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
-description: 최소 최대(Min Max) 노드를 사용하여 값 범위를 제어하기 위한 최소 및 최대 임계값 사이에서 텍스처 값을 클램프합니다.
+description: 최소 최대 노드를 사용하여 값 범위를 제어하기 위한 최소 및 최대 임계값 사이에서 텍스처 값을 클램프합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max
 helpx_experience_level: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 최소 최대
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max.png){width="200px"}
 
-## 최소 최대
-
-**내부:** *필터/조정*
-
-**중간**
+<b>내부:</b> 필터 > 조정
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
@@ -41,14 +37,16 @@ Min Max는 회색 음영 입력의 가장 밝은 값과 가장 어두운 값을 
 
 이 노드를 수준과 함께 사용하려면 최소한 [노출 매개 변수 드롭다운](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)과 [값 입력 탭](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)을 사용하는 방법을 알고 있어야 합니다.
 
-## 매개변수
-
-*매개 변수가 없습니다.*
-
-## 예제 이미지
-
-![](../../../../../../assets/minmax.png)
-
 </td>
 </tr>
+</table>
+
+## 예
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="min-max.resources/minmax.png" />
+        </td>
+    </tr>
 </table>

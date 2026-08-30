@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-11-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 11.3의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ### 새로운 모델 그래프 기능
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 모델링 기능을 확장하기 위해 모델 그래프에 많은 개선 사항이 추가되었습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 1%
   * 입자 정리
   * 인스턴스의 입자
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>새 모델링 및 변형 노드</b>\
   더 복잡한 모양을 만들기 위해 새로운 노드가 더 추가되었습니다. 각 노드를 클릭하여 자세한 내용을 살펴보십시오.
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ### 상호 운용성 향상
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 다음과 같은 두 가지 새로운 가능성으로 Send-O 작업이 확장되었습니다.
 
@@ -71,24 +71,24 @@ ht-degree: 1%
 
 ### 기타
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 다양한 삶의 질 개선이 이루어졌습니다.
 
 * **입력 관련 입력**\
   이제 [입력 기준]에 설정된 그래프 입력은 기본적으로 상위 그래프 크기에 연결되지 않고 연결된 노드 크기를 상속합니다. 따라서 서로 다른 크기의 입력을 통해 서로 다른 해상도를 보다 쉽게 관리할 수 있습니다.
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **새 그래프 창**\
   새 그래프 창이 재구성되어 이제 특정 템플릿의 세부 사항을 더 잘 보고 기존 패키지에 새 그래프를 직접 만들 수 있습니다.
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **모든 패키지 닫기**\
   탐색기에서 많은 패키지를 관리하는 데 있어 번거로움을 줄여주는 작은 작업입니다. 현재 열려 있는 모든 패키지를 닫으려면 **파일** > **모두 닫기**&#x200B;를 사용하십시오.
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **현재 보기 최대화**\
   새 제목 표시줄 **아이콘** 또는 바로 가기 **SHIFT+스페이스바**&#x200B;를 사용하여 창을 전체 화면으로 확장합니다. 이는 부동 창에서도 사용할 수 있습니다.
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 ### 콘텐츠
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 이 릴리스에서는 새 확산 노드를 추가하고 PBR 렌더링 노드를 개선합니다.
 
 * <b>확산 노드</b>\
   새로운 [확산 색상], [확산 회색 음영] 및 [확산] UV 노드를 사용하면 입력 마스크를 기반으로 부드러운 혼합 흐림 효과를 만들 수 있습니다.
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **개선된 PBR 렌더링 노드**\
   이 노드에는 다음과 같은 변경 사항이 있습니다.
@@ -130,18 +130,18 @@ ht-degree: 1%
 * [Substance 모델] Basis 표시 방식 개선
 * [Substance 모델] Substance 모델 그래프를 .fbx로 내보낼 때 오브젝트의 계층 구조를 유지합니다.
 * [Substance 모델] Substance 모델 그래프에서 FBX/OBJ 내보내기에서 여러 재질 지원
-* [Substance 모델]&#x200B;[내용] 입자 노드
-* [Substance 모델]&#x200B;[콘텐츠] Generative Transform 노드
-* [Substance 모델]&#x200B;[콘텐츠] 유기 패턴 노드
-* [Substance 모델]&#x200B;[내용] 인스턴스 노드의 파티클
-* [Substance 모델]&#x200B;[내용] 파티클 프루닝 노드
-* [Substance 모델]&#x200B;[콘텐츠] Lathe node
-* [Substance 모델]&#x200B;[콘텐츠] 셸 노드
-* [Substance 모델]&#x200B;[콘텐츠] 프로젝션 노드
-* [Substance 모델]&#x200B;[콘텐츠] 곡선 트림 노드
-* [Substance 모델]&#x200B;[콘텐츠] 곡선 Sampler 노드 업데이트
-* [Substance 모델]&#x200B;[콘텐츠] 메시 Sampler 노드 업데이트
-* [Substance 모델]&#x200B;[콘텐츠] 지터 노드 업데이트
+* [Substance 모델][내용] 입자 노드
+* [Substance 모델][콘텐츠] Generative Transform 노드
+* [Substance 모델][콘텐츠] 유기 패턴 노드
+* [Substance 모델][내용] 인스턴스 노드의 파티클
+* [Substance 모델][내용] 파티클 프루닝 노드
+* [Substance 모델][콘텐츠] Lathe node
+* [Substance 모델][콘텐츠] 셸 노드
+* [Substance 모델][콘텐츠] 프로젝션 노드
+* [Substance 모델][콘텐츠] 곡선 트림 노드
+* [Substance 모델][콘텐츠] 곡선 Sampler 노드 업데이트
+* [Substance 모델][콘텐츠] 메시 Sampler 노드 업데이트
+* [Substance 모델][콘텐츠] 지터 노드 업데이트
 * [UX] 현재 뷰를 최대화하는 버튼
 * [UX] 새 그래프 창 업데이트
 * [UX] 도구 메뉴에서 &#39;Download Player&#39; 옵션을 추가하고 &#39;Locate Player&#39;로 집계합니다.
@@ -179,7 +179,7 @@ ht-degree: 1%
 * [UI] 여러 값을 탐색하려면 Tab 키를 두 번 눌러야 합니다.
 * [UI] 마우스 드래그로 확대/축소가 3D 보기와 다른 뷰포트 간에 반전됨
 * [UI] 이미 열려 있는 SBS를 &#39;최근 파일&#39; 목록을 사용하여 로드하면 &#39;패키지를 찾을 수 없음&#39; 프롬프트가 잘못 트리거됩니다
-* [UI]&#x200B;[macOS] 애플리케이션을 시작한 후 기본 인터페이스 레이아웃이 잘못됨
+* [UI][macOS] 애플리케이션을 시작한 후 기본 인터페이스 레이아웃이 잘못됨
 * [UI] 드라이브의 루트에 패키지를 저장할 수 없습니다(Windows만 해당).
 * [Graph] &#39;2D 보기에 자동으로 표시&#39; 옵션이 특정 경우에 일관되지 않습니다.
 * [Graph] SBSAR 인스턴스 노드에 &#39;참조 열기&#39; 옵션을 사용할 수 있습니다.

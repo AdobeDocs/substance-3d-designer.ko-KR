@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 절차 재질 제작을 위해 Substance 3D Designer에서 SVG 벡터 그래픽을 가져와 리소스로 사용합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 벡터 그래픽(SVG) 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Substance 3D Designer은 Scalable Vector 그래픽 형식을 통해 제한된 형식의 Vector 그래픽을 지원합니다. SVG 파일을 다양한 방법으로 리소스로 가져와 그래프의 리소스로 사용할 수 있습니다.
 
-SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
+SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 * 획이 지원되지만 1픽셀 폭의 획이 생성되고 획 스타일링은 무시됩니다.
 * 파선 스타일은 확실히 깨집니다.
 * 텍스트를 렌더링할 패스/윤곽선으로 변환해야 합니다.
-* [복합 경로](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)는 지원되지 않습니다.
+* [복합 경로](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)는 지원되지 않습니다.
 * 그레이디언트와 같은 고급 기능은 지원되지 않습니다.
 * CSS 속성의 스타일 요소는 지원되지 않습니다.
 
@@ -70,7 +70,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 
 ### Adobe Illustrator
 
-[Illustrator](https://www.adobe.com/kr/products/illustrator.html)에서는 다음 옵션에 유의할 경우 SVG 내보내기를 가장 많이 제어할 수 있습니다.
+[Illustrator](https://www.adobe.com/products/illustrator.html)에서는 다음 옵션에 유의할 경우 SVG 내보내기를 가장 많이 제어할 수 있습니다.
 
 * <b>다른 이름으로 저장</b>만 사용하고 *다른 이름으로 내보내기* 사용!
 * <b>SVG 프로필</b>은(는) 아주 작은 프로필은 기본적으로 올바른 설정으로 설정되지만 크게 중요하지 않습니다.
@@ -87,7 +87,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 > 대지는 생성된 SVG 파일의 결과에 영향을 줄 수 있습니다. 일부 Illustrator 파일 템플릿은 여러 개의 아트보드를 소개합니다.\
 > 아트보드를 하나만 제대로 자르고 SVG으로 저장할 때 아트보드 창에서 선택하도록 합니다.
 
-![Illustrator SVG 내보내기 옵션](../../assets/svg-export-options-ai.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
+![Illustrator SVG 내보내기 옵션](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
 
 ### 잉크스케이프
 
@@ -98,7 +98,7 @@ Inkscape는 기본적으로 SVG으로 저장되지만 파일 형식에 대한 �
 
 ### Adobe Photoshop
 
-Photoshop에는 매우 제한된 SVG 내보내기 도구(<b>파일 > 내보내기 >내보내기 형식...</b>)가 있습니다. 현재 Substance 3D Designer에 대해 올바른 결과를 생성할 수 없습니다. 모양 및 패스 정보를 가져올 수 있지만 스타일은 항상 요소로 저장되므로 호환되지 않습니다.
+Photoshop에는 매우 제한된 SVG 내보내기 도구(<b>파일 > 내보내기 >내보내기 형식...</b>)이 있습니다. 현재 Substance 3D Designer에 대해 올바른 결과를 생성할 수 없습니다. 모양 및 패스 정보를 가져올 수 있지만 스타일은 항상 요소로 저장되므로 호환되지 않습니다.
 
 이 기능은 간단한 흑백 모양 마스크에 사용할 수 있습니다. 여기서 해결 방법은 [Alpha 분할](../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md)을 사용하여 SVG에서 Alpha을 추출하는 것입니다.
 

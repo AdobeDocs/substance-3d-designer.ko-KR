@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/python-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/python-issues.html"
 breadcrumb-title: ''
 description: 플러그인 및 API 문제를 포함하여 Substance 3D Designer의 Python 스크립팅 문제를 해결합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Python 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Python에 구현된 기능에는 [탐색기](../../interface/the-explorer-window
 
 ## &#39;QtForPython&#39; 모듈을 로드하지 못합니다
 
-<b>![(오류)](../../assets/error.svg) 문제</b>
+<b>![(오류)](python-issues.resources/error.svg) 문제</b>
 
 &#39;QtForPython&#39; Python 모듈을 로드하지 못하여 Python에 구현된 기능(예: [탐색기](../../interface/the-explorer-window/the-explorer-window.md)의 도구 모음에서 [Publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[보내기](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md) 작업 및 그래프에서 사용하지 않는 노드를 제거하는 도구)이 누락됩니다.
 
 또한 많은 [Python 플러그인](../../scripting/plugin-basics/plugin-basics.md)이 로드되지 않거나 예상대로 작동하지 않습니다.
 
-<b>![(틱)](../../assets/check.svg) 권장 단계</b>
+<b>![(틱)](python-issues.resources/check.svg) 권장 단계</b>
 
 Designer의 QtForPython 설치 및 해당 종속 항목과 시스템의 기존 설치 항목이 충돌할 수 있습니다.
 

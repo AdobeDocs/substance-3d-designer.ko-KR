@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 비트맵, 글꼴 및 3D 장면을 포함한 리소스를 가져오고 만들고 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/graph-5.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/folder-4.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -56,7 +56,7 @@ ht-degree: 5%
 일반적으로 비 그래프 리소스는 그래프의 추가 데이터로 사용되거나 그래프에서 결과를 시각화하는 데 도움이 되는 보조 리소스입니다. 다음 형식이 있으며 각 형식의 하위 페이지는 문서의 이 섹션에 있습니다.
 
 * [비트맵](bitmap-resource/bitmap-resource.md)
-* [벡터 그래픽 (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [벡터 그래픽(SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [3D 장면 리소스](3d-scene-resource/3d-scene-resource.md)
 * [글꼴](font-resource/font-resource.md)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 일반적인 경고 및 오류에 대한 해결 방법을 찾아 문제를 빠르게 해결하십시오.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 경고 및 오류
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 
 ### 탐색기
 
-경고가 있는 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](../../assets/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
+경고가 있는 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](warnings-and-errors.resources/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
 
 다음과 같은 규칙을 따릅니다.
 
@@ -48,7 +48,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 
 ### 그래프 보기
 
-경고가 있는 [그래프 보기](../../interface/the-graph-view/the-graph-view.md) 패널의 항목에 대해 해당 경고는 뷰포트의 *왼쪽 아래 모서리*&#x200B;에 색상이 있는 텍스트와 함께 표시됩니다. 특정 노드에서 경고가 트리거되면 해당 노드에는 ![](../../assets/warning-badge.png) 경고 배지가 있습니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 배지에 커서를 몇 초 동안 둡니다.
+경고가 있는 [그래프 보기](../../interface/the-graph-view/the-graph-view.md) 패널의 항목에 대해 해당 경고는 뷰포트의 *왼쪽 아래 모서리*&#x200B;에 색상이 있는 텍스트와 함께 표시됩니다. 특정 노드에서 경고가 트리거되면 해당 노드에는 ![](warnings-and-errors.resources/warning-badge.png) 경고 배지가 있습니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 배지에 커서를 몇 초 동안 둡니다.
 
 다음과 같은 규칙을 따릅니다.
 
@@ -71,7 +71,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 
 ### 속성
 
-경고가 있는 [속성](../../interface/properties/properties.md) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](../../assets/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
+경고가 있는 [속성](../../interface/properties/properties.md) 패널의 항목에 대해서는 해당 경고가 목록의 항목 맨 오른쪽 가장자리에 ![](warnings-and-errors.resources/warning-icon.png) 아이콘과 함께 표시됩니다. 모든 경고를 자세히 나열하는 *도구 설명*&#x200B;을 표시하려면 해당 아이콘에 커서를 몇 초 동안 둡니다.
 
 다음과 같은 규칙을 따릅니다.
 
@@ -94,7 +94,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Designer에서 프로젝트 작업을 하는 동안 프로젝트에 문제가 �
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Designer에서 발생할 수 있는 경고 및 오류 목록은 소스에 따라
 ### Substance 그래프의 경고
 
 * 정의된 출력 노드가 없음
-* [x] 매개 변수의 함수에 몇 가지 경고가 있습니다
+* `[x]` 매개 변수의 함수에 몇 가지 경고가 있습니다
 * 참조된 데이터에 몇 가지 경고가 있음
 * 참조 리소스를 찾을 수 없음
 * 텍스트 노드에서 잘못된 글꼴을 사용함

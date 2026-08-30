@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 이전 버전에 익숙한 사용자를 위한 Substance 3D Designer 베이커용 레거시 인터페이스에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bakers 레거시 인터페이스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '380'
+ht-degree: 4%
 
 ---
 
@@ -24,47 +24,47 @@ ht-degree: 3%
 
 ## 개요
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-33-40.png)
 
 베이커 패널은 4부분으로 나누어져 있습니다:
 
 ### 1: 장면
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-35-53.png)
 
 베이킹 프로세스에 관여하는 메쉬의 부분을 정의할 수 있습니다.
 
 버전 6의 새로운 기능, 재료 별로 선택할 수도 있습니다.
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-45-26.png)
 
 ### 제빵사
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-46-26.png)
 
-![](../../assets/image2017-3-13-9-47-47.png) 단추를 눌러 원하는 베이커를 처리 목록에 추가할 수 있습니다
+![](bakers-legacy-interface.resources/image2017-3-13-9-47-47.png) 단추를 눌러 원하는 베이커를 처리 목록에 추가할 수 있습니다
 
 >[!NOTE]
 >
-> 베이킹은 목록 순서(위에서 아래로)에 따라 처리됩니다. 일반 맵과 같은 베이킹 결과를 다른 베이킹 프로세스에서 다시 사용하려면 이 작업이 중요할 수 있습니다
+> 베이킹은 목록 순서(위에서 아래로)에 따라 처리됩니다. 다른 베이킹 프로세스에서 노멀 맵과 같은 베이킹 결과를 재사용하려면 이 과정이 중요할 수 있습니다
 
 베이커 레이아웃에서 &quot;+&quot;를 클릭하면 스택에 베이커를 추가할 수 있습니다(원하는 수의 베이커를 스택에 배치할 수 있습니다).
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/image2017-3-13-9-52-8.png)
 
-![](../../assets/image2017-3-13-9-54-33.png)을 눌러 목록에서 굽기 프로세스를 제거할 수 있습니다
+![](bakers-legacy-interface.resources/image2017-3-13-9-54-33.png)을 눌러 목록에서 굽기 프로세스를 제거할 수 있습니다
 
-베이킹 프로세스를 선택하고 ![](../../assets/image2017-3-13-9-55-33.png)을(를) 사용하여 베이킹 프로세스 목록의 순서를 바꿀 수 있습니다
+베이킹 프로세스를 선택하고 ![](bakers-legacy-interface.resources/image2017-3-13-9-55-33.png)을(를) 사용하여 베이킹 프로세스 목록의 순서를 바꿀 수 있습니다
 
 ### 3: 베이커 매개 변수
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-24-0.png)
 
 이 섹션에는 현재 선택한 제빵사의 특정 옵션이 표시됩니다.
 
 ### 4: 공통 매개변수
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-28-12.png)
 
 제빵사 간에 공유되는 매개 변수를 표시합니다.
 
@@ -82,4 +82,4 @@ ht-degree: 3%
 
 버전 6의 새로운 기능: 이제 취소 버튼을 사용하여 베이킹 프로세스를 취소할 수 있습니다.
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-50-4.png)

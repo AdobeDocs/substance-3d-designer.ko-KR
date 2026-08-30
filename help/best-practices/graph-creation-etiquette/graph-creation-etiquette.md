@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: Substance 그래프를 생성하여 깔끔하고 유지 관리가능하며 효율적인 워크플로우를 유지하는 모범 사례와 에티켓을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래프 만들기 에티켓
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 더 깔끔하고 쉽게 그래프를 읽을 수 있도록 해주는 가장 중요한 요소는 그래프의 핵심 그룹 주위에 프레임을 배치하는 것입니다. 프레임이 없으면 큰 그래프는 거의 읽을 수 없으며, 프레임을 그린 후에는 작은 그래프라도 훨씬 쉽게 이해할 수 있습니다. 프레임의 큰 장점은 매우 멀리 축소하더라도 프레임의 <b> 이름이 항상 동일한 크기</b>로 렌더링된다는 것입니다.
 
-![Substance 그래프의 프레임](../../assets/frames.gif "Substance 그래프의 프레임")
+![Substance 그래프의 프레임](graph-creation-etiquette.resources/frames.gif "Substance 그래프의 프레임")
 
 프레임은 그래프의 진행 상황을 훨씬 더 쉽게 이해할 수 있도록 합니다. 이들은 몇 달 후 작업을 다시 시작하는 작성자나 동료 등 다른 사용자로서 익숙하지 않은 그래프를 찾는 데 도움을 줄 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 입력 및 출력은 그래프의 맨 끝에 배치해야 합니다. 오른쪽에 있는 모든 출력, 왼쪽에 있는 모든 입력, 각각은 세로로 정렬됩니다. 이렇게 하면 개체를 보다 쉽게 찾고 식별할 수 있습니다.
 
-![입력 및 출력 배치](../../assets/inout.gif "입력 및 출력 배치")
+![입력 및 출력 배치](graph-creation-etiquette.resources/inout.gif "입력 및 출력 배치")
 
 위의 예시는 매우 극단적인 경우입니다. 프레임이 항상 필요하거나 가능한 것은 아니지만 시작 및 출력의 수직 정렬이 임의적이고 재편된 배치가 훨씬 더 명확해야 합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 크고 매우 긴 그래프에서는 링크가 매우 큰 범위에 걸쳐 만들어지기도 합니다. 이로 인해 많은 제어 없이 그래프를 통과하는 링크 와이어가 혼란스러워집니다. 바로 가기 &quot;Alt + Shift 드래그&quot;를 사용하면 이러한 링크를 재구성하고 링크를 세분화하고 중간에 추가 핸들을 추가하여 다른 경로로 링크를 다시 라우팅할 수 있습니다. 상황에 맞는 시나리오에서는 이 기능을 사용하는 것이 좋습니다.
 
-![링크 라우팅](../../assets/linkjreroute.gif "링크 라우팅")
+![링크 라우팅](graph-creation-etiquette.resources/linkjreroute.gif "링크 라우팅")
 
 ### 레이블, 식별자 및 사용
 
@@ -73,19 +73,19 @@ ht-degree: 0%
 
 제안된 기본 레이블이 충분하지 않으므로 시간과 노력을 들여 노출된 매개 변수와 입력 및 출력에 사용자 정의 레이블을 추가합니다.
 
-![식별자 및 레이블](../../assets/output-label.png "식별자 및 레이블")
+![식별자 및 레이블](graph-creation-etiquette.resources/output-label.png "식별자 및 레이블")
 
 식별자와 레이블이 너무 다르지 않도록 합니다. 식별자가 다른 곳(여러 함수)에서 사용되는 경우 어떤 UI 속성이 어떤 변수와 관련되어 있는지 찾기가 매우 어려울 수 있습니다.
 
-![식별자 부분 대비](../../assets/labelvsidentifier.png "식별자 부분 대비")
+![식별자 부분 대비](graph-creation-etiquette.resources/labelvsidentifier.png "식별자 부분 대비")
 
 레이블을 프레임(프레임 레이블) 및 주석에서 사용하는 용어와 일치시키십시오. 그래프의 어떤 섹션이 노출된 매개 변수에 연결되어 있는지 쉽게 알아볼 수 있습니다
 
-![프레임 및 매개 변수 레이블 일치](../../assets/match-labels.png "프레임 및 매개 변수 레이블 일치")
+![일치하는 프레임 및 매개 변수 레이블](graph-creation-etiquette.resources/match-labels.png "일치하는 프레임 및 매개 변수 레이블")
 
 ### 매개 변수 설정
 
-매개 변수를 표시할 때는 레이블과 식별자 그 이상의 것이 중요하므로 다음 사항에 유의해야 합니다.
+매개 변수를 노출할 때는 레이블과 식별자 이상의 것이 중요하므로 다음 사항에 유의해야 합니다.
 
 * 올바른 편집기 유형을 선택합니다. 슬라이더가 항상 의미가 있는 것은 아닐 수 있습니다. 각도 또는 드롭다운 Ui 요소도 가능합니다.
 * 적절한 [최소] 및 [최대] 값을 설정하고 클램핑하는 것이 타당한지 결정합니다.
@@ -103,7 +103,7 @@ ht-degree: 0%
 * 데이터는 가능한 한 회색 음영으로 유지되는 것이 이상적이며 반드시 필요한 경우에만 변환됩니다. 이를 통해 복잡성을 줄이고 성능을 절약할 수 있습니다.
 * 입력 및 출력은 올바른 유형을 염두에 두고 만들거나 설정해야 합니다. 예를 들어 &quot;마스크&quot; 입력이 이진 마스크로 사용하기 위해 회색 음영으로 변환되는 경우 색상으로 설정된다는 것은 의미가 없습니다.
 
-![색상 및 회색 음영 변환](../../assets/colorgray01.png "색상 및 회색 음영 변환")
+![색상 및 회색 음영 변환](graph-creation-etiquette.resources/colorgray01.png "색상 및 회색 음영 변환")
 
 ### 해상도 제어
 

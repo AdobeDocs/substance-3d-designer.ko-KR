@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 스크립팅을 위한 플러그인 패키지를 만들고 구성하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 플러그인 패키지
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Python 패키지는 플러그인을 만들어 애플리케이션을 확장하는
 
 ## 플러그인 패키지 설치
 
-![플러그인 관리자](../../assets/screenshot-from-2019-07-18-11-48-56.png "플러그인 관리자")
+![플러그인 관리자](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "플러그인 관리자")
 
 플러그인 패키지는 <b>도구</b> 메뉴의 <b>플러그인 관리자</b>를 사용하여 설치됩니다.
 

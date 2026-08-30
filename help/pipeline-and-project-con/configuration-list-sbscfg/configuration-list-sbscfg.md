@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 SBSCFG 구성 목록을 사용하여 프로젝트 설정 및 사전 설정을 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 구성 목록 - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG 파일 아이콘](../../assets/sbscfg.png "SBSCFG 파일 아이콘")
+![SBSCFG 파일 아이콘](configuration-list-sbscfg.resources/sbscfg.png "SBSCFG 파일 아이콘")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 강조 표시된 섹션은 구성 파일과 관련된 부분으로, 위에서 정의한 SBSCFG 파일에 저장된 목록에 더 많은 프로젝트를 추가하기만 하면 됩니다.
 
-![프로젝트 설정](../../assets/config-ui.png "프로젝트 설정")
+![프로젝트 설정](configuration-list-sbscfg.resources/config-ui.png "프로젝트 설정")
 
 ### XML로 외부 편집
 
