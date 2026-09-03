@@ -28,7 +28,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 ![패스를 사용하는 재질](version-13-0.resources/version-13-0-01.png "패스를 사용하는 재질")
 
-*Celine Dameron](https://www.artstation.com/cline)*&#x200B;의 아트워크[
+*Celine Dameron[&#128279;](https://www.artstation.com/cline)*&#x200B;의 아트워크
 
 ## 새 콘텐츠
 

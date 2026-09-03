@@ -82,7 +82,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![범주 ](version-15-1.resources/version-15-1-06.png){zoomable="yes"}을(를) 사용하여 노드 검색
+![범주 &#x200B;](version-15-1.resources/version-15-1-06.png){zoomable="yes"}을(를) 사용하여 노드 검색
 
 </td>
 <td style="border: 0;" valign="top">
@@ -199,8 +199,8 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 * [3D 보기] Specular level이 올바르게 적용되지 않음
 * [3D 보기] Eclair 래스터라이저를 사용할 때 Specular edge color이 작동하지 않음
 * [3D 보기] 사용자가 추가한 재질이 기본 장면에 적용되지 않음
-* [3D 보기][베이커] 재질 색상이 재정의되거나 &quot;색상&quot; 베이커를 사용할 때 너무 어둡습니다
-* [3D 보기][Bakers] FBX 파일에서 재질 색상이 없음
+* [3D 보기]&#x200B;[베이커] 재질 색상이 재정의되거나 &quot;색상&quot; 베이커를 사용할 때 너무 어둡습니다
+* [3D 보기]&#x200B;[Bakers] FBX 파일에서 재질 색상이 없음
 * [베이커] FBX 파일의 재질 색상이 올바르게 감지되지 않음
 * [Bakers] JSON 사전 설정 내보내기에서 &#39;recompute\_tangents&#39; 옵션은 항상 &#39;false&#39;입니다.
 * [베이커] CLI: JSON 파일을 통해 동일한 베이커를 연속으로 실행할 때 충돌이 발생합니다

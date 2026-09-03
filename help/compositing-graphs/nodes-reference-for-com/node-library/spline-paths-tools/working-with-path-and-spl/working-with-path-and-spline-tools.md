@@ -165,7 +165,7 @@ ht-degree: 0%
 
 ### 스플라인 편집
 
-[스플라인 2d}스플라인 1} 및 {2 스플라인 뒤틀기](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)를 사용하면 스플라인의 모양을 편집할 수 있습니다.](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)[
+[스플라인 2d&rbrace;스플라인 1&rbrace; 및 &lbrace;2 스플라인 뒤틀기](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)를 사용하면 스플라인의 모양을 편집할 수 있습니다.[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
 
 또한 인덱스로 패스를 선택하고 [스플라인 선택](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-select/spline-select.md) 노드를 사용하여 스플라인을 트리밍하여 원하지 않는 스플라인을 제거할 수 있습니다.
 

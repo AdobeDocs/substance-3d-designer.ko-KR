@@ -202,7 +202,7 @@ SDF 함수 노드는 기능 및 목적에 따라 라이브러리에서 분류됩
 
 ### 변환
 
-모양은 [변환](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [크기 조정](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [비틀림](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) 등과 같이 다양한 방식으로 1}될 수 있습니다.](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md)[
+모양은 [변환](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [크기 조정](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [비틀림](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) 등과 같이 다양한 방식으로 1&rbrace;될 수 있습니다.[&#128279;](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md)
 이러한 노드를 사용하면 서피스가 정의된 *공간 자체*&#x200B;를 통해 변환을 수행할 수 있습니다.
 
 해당 공간을 `P`이라고 합니다. 다음 섹션으로 이동하여 이것이 의미하는 것과 공간 변환이 작동하는 방식에 대해 자세히 알아보세요.
@@ -272,7 +272,7 @@ SDF 함수를 사용하여 만든 모양에 기본 재질 관리를 사용할 �
 3D 뷰어 노드에서 사용하던 [테두리 프레임](#the-bounding-frame)과 일치하도록 **SDF 테두리 프레임 크기** 매개 변수를 조정하고 모양이 제대로 그려졌는지 확인하십시오.
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
-**모양 유형**&#x200B;이 `SDF function`(으)로 설정된 *모양 튄 v2.**SDF 경계 프레임 크기**가 모양에 맞게 조정되었습니다.*
+**모양 유형**&#x200B;이 `SDF function`(으)로 설정된 *모양 튄 v2.**SDF 경계 프레임 크기**&#x200B;가 모양에 맞게 조정되었습니다.*
 
 >[!TIP]
 > 

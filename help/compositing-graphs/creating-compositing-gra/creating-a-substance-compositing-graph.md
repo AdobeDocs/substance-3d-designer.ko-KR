@@ -28,7 +28,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
 
 새 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 만드는 프로세스를 시작하려면 다음 방법 중 하나를 사용할 수 있습니다.
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* 
+* &#x200B;
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
