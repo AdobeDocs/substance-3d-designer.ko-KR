@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
 breadcrumb-title: ''
 description: '[가장자리 감지] 노드를 사용하면 윤곽선 및 가장자리 기반 마스크 효과를 만들기 위한 텍스처의 가장자리를 감지할 수 있습니다.'
 helpx_creative_field: ""

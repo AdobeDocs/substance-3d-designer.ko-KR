@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: 표면 세부 정보 추출을 위해 Height 맵에서 부드러운 곡률 맵을 생성하려면 곡률(Curvature) 부드러운(Smooth) 노드를 사용합니다.
 helpx_creative_field: ""

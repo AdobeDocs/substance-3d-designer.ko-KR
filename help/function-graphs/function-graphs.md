@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: Designer에서 Substance 함수 그래프를 만들고 사용하여 사용자 정의 함수와 재사용 가능한 노드 네트워크를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

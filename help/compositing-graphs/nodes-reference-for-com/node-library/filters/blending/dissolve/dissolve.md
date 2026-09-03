@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/dissolve.html"
 breadcrumb-title: ''
 description: 텍스처 간 전환 및 페이드 효과를 만들기 위해 디졸브 모드를 사용하여 텍스처를 혼합하려면 디졸브 노드를 사용합니다.
 helpx_creative_field: ""

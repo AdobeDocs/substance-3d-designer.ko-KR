@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: 노드를 효율적으로 연결하기 위한 Substance 3D Designer 그래프 보기의 링크 생성 모드에 대해 알아봅니다.
 helpx_creative_field: ""

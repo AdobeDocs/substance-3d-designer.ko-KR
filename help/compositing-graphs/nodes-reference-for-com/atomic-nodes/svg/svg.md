@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ''
 description: SVG 노드를 사용하여 SVG 벡터 그래픽을 확장 가능한 그래픽 요소를 만들기 위한 텍스처로 가져오고 렌더링합니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 프로시저 텍스처 및 재질 작업 과정을 만들기 위한 Substance 합성 그래프에 대해 알아봅니다.
 helpx_creative_field: ""

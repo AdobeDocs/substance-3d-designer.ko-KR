@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 다양한 미리 보기 품질과 성능을 위해 3D 보기에서 래스터라이저와 패스파트레서 렌더러 중 하나를 선택합니다.
 helpx_creative_field: ""
@@ -178,7 +178,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 <b>테셀레이션 + 변위</b> - 형상을 세분화하고 정점을 표준을 따라 배치합니다.
 
-Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
+Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
 
 +++
 

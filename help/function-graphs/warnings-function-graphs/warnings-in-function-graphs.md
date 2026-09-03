@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 경고를 이해하고 일반적인 문제를 해결하는 방법을 알아보십시오.
 helpx_creative_field: ""

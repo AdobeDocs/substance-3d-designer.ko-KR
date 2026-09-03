@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: 정사각형이 아닌 변형 노드를 사용하면 독립적인 X 및 Y 비율을 사용하여 정사각형이 아닌 텍스처에 변형을 적용할 수 있습니다.
 helpx_creative_field: ""

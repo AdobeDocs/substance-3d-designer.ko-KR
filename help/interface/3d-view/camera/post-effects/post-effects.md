@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ''
 description: 향상된 재질 미리 보기 및 시각화를 위해 3D 보기 카메라에 후처리 효과를 적용합니다.
 helpx_creative_field: ""

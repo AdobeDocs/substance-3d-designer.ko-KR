@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
 breadcrumb-title: ''
 description: FXMaps의 sampler 노드를 사용하여 텍스처를 샘플링하고 프로시저 재질 베리에이션을 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

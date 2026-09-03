@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: 변수 가져오기 노드를 사용하여 Substance 3D Designer 함수 그래프에서 변수 값을 검색하는 방법을 알아봅니다.
 helpx_creative_field: ""

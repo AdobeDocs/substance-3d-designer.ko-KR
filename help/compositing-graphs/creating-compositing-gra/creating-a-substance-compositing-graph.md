@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 절차 텍스처 워크플로우를 구축하기 위해 Substance 합성 그래프를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

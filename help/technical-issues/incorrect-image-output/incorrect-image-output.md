@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 잘못된 이미지 출력 문제를 해결하고 렌더링 문제를 해결하는 방법을 알아봅니다.
 helpx_creative_field: ""

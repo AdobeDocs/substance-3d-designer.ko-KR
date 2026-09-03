@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 SBSPRJ 프로젝트 구성 파일을 사용하여 프로젝트 설정을 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""

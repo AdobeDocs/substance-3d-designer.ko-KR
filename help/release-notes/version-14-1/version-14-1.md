@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 노드 배열 도구와 새로운 스플라인 및 패스 노드에 대해 알아보려면 Substance 3D Designer 버전 14.1의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""

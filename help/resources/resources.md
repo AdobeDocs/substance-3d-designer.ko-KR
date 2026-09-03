@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 비트맵, 글꼴 및 3D 장면을 포함한 리소스를 가져오고 만들고 관리하는 방법을 알아봅니다.
 helpx_creative_field: ""
