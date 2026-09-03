@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: 메시 형상 및 접촉 영역을 기반으로 그리스 누적 마스크를 생성하려면 그리스 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그리스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grease.resources/grease.png){width="128px"}
+![](grease.resources/grease-01.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
 |  |  |
 |:---|:---|
-| <b>Thickness</b> <i>회색 음영 입력</i> | 전체 효과의 기초가 되는 Thickness 맵을 구웠습니다. 필수! |
+| <b>Thickness</b> <i>회색 음영 입력</i> | 전체 효과의 기초가 되는 [베이크 두께] 맵입니다. 필수! |
 | <b>노이즈</b> <i>회색 음영 입력</i> | 그리스 그런지를 재정의할 선택적 노이즈 맵 |
 | <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
 
@@ -67,7 +67,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grease.resources/grease-ex.gif" />
+            <img src="grease.resources/grease-02.gif" />
         </td>
     </tr>
 </table>

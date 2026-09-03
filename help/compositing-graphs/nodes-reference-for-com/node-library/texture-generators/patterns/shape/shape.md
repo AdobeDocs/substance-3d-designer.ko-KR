@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
 breadcrumb-title: ''
-description: 모양 노드를 사용하여 Substance 3D Designer에서 패턴 및 텍스처를 만들기 위한 기본 기하학적 모양을 생성합니다.
+description: Shape 노드를 사용하면 Substance 3D Designer에서 패턴 및 텍스처를 만들기 위한 기본 기하학적 모양을 생성할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape.resources/shape-2.png){width="128px"}
+![](shape.resources/shape-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 설명
 
-기본 모양을 수정하는 옵션을 사용하여 다양한 절차 모양을 생성합니다. 모양은 항상 완벽하게 보간되고 고정밀입니다.
+기본 모양을 수정할 수 있는 옵션을 사용하여 다양한 프로시저 모양을 생성합니다. 모양은 항상 완벽하게 보간되고 고정밀입니다.
 
-단순함에도 불구하고, 이것은 매우 유용한 노드입니다: 그것은 대부분의 절차적 하이트맵 생성의 기본 요소입니다! 기본 모양을 변형 노드와 결합하면 어떤 비트맵보다 훨씬 더 정확한 완벽한 절차의 Heightmap 모양을 만들 수 있습니다.
+단순함에도 불구하고, 이것은 매우 유용한 노드입니다 : 그것은 가장 프로시저 Heightmap 생성의 빌딩 블록입니다! 기본 모양과 변환 노드를 결합하면 모든 비트맵보다 훨씬 정확한 프로시저 Heightmap 모양을 만들 수 있습니다.
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape.resources/shape-ex.gif" />
+            <img src="shape.resources/shape-02.gif" />
         </td>
     </tr>
 </table>

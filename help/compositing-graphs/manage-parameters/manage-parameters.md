@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: 더 나은 워크플로우 구성을 위해 Substance 합성 그래프에서 매개변수를 관리하고 구성하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 파라미터 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
@@ -46,7 +46,7 @@ ht-degree: 3%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![속성의 전역 &#39;매개 변수 관리&#39; 메뉴](manage-parameters.resources/manage-parameters-menu-global.png "속성의 전역 &#39;매개 변수 관리&#39; 메뉴"){zoomable="yes"}
+![속성의 전역 &#39;매개 변수 관리&#39; 메뉴](manage-parameters.resources/manage-parameters-01.png "속성의 전역 &#39;매개 변수 관리&#39; 메뉴"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 3%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![속성의 로컬 &#39;매개 변수 관리&#39; 메뉴](manage-parameters.resources/manage-parameters-menu.png "속성의 로컬 &#39;매개 변수 관리&#39; 메뉴"){zoomable="yes"}
+![속성의 로컬 &#39;매개 변수 관리&#39; 메뉴](manage-parameters.resources/manage-parameters-02.png "속성의 로컬 &#39;매개 변수 관리&#39; 메뉴"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ ht-degree: 3%
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-노드 컨텍스트 메뉴의 ![&#39;매개 변수 관리&#39; 메뉴](manage-parameters.resources/manage-parameters-node-menu.png " 노드 컨텍스트 메뉴의 &#39;매개 변수 관리&#39; 메뉴"){zoomable="yes"}
+노드 컨텍스트 메뉴의 ![&#39;매개 변수 관리&#39; 메뉴](manage-parameters.resources/manage-parameters-03.png " 노드 컨텍스트 메뉴의 &#39;매개 변수 관리&#39; 메뉴"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ ht-degree: 3%
 </td>
 <td style="border: 0;" valign="top">
 
-![매개 변수 복사 및 붙여넣기](manage-parameters.resources/copy-paste-parameters.gif "매개 변수 복사 및 붙여넣기"){zoomable="yes"}
+![매개 변수 복사 및 붙여넣기](manage-parameters.resources/manage-parameters-04.gif "매개 변수 복사 및 붙여넣기"){zoomable="yes"}
 
 </td>
 </tr>

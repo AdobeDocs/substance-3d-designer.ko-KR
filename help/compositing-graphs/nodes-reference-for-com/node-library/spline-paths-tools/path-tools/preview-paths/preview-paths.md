@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: 경로 미리보기 노드를 사용하여 디버깅 및 확인을 위해 2D 뷰에서 경로 데이터를 시각화할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 미리 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](preview-paths.resources/preview-paths-icon.png "노드 아이콘")
+![노드 아이콘](preview-paths.resources/preview-paths-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -66,12 +66,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "노드 예 1")
+![노드 예 1](preview-paths.resources/preview-paths-02.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "노드 예 2")
+![노드 예 2](preview-paths.resources/preview-paths-03.jpg "노드 예 2")
 
 </td>
 </tr>

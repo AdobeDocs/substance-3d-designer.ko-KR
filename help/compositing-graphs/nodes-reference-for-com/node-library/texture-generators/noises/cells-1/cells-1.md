@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
 breadcrumb-title: ''
-description: 셀 1 노드를 사용하여 유기적이고 생물학적인 텍스처 효과를 만들기 위한 기본 세포 패턴을 생성합니다.
+description: 셀 1 노드를 사용하여 유기적 및 생물학적 텍스처 효과를 만들기 위한 기본 세포 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 셀 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![셀 1 - 아이콘](cells-1.resources/cells_1.png "셀 1 - 아이콘"){width="200px"}
+![셀 1 - 아이콘](cells-1.resources/cells-1-01.png "셀 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 1](cells-1.resources/cells_1_1.png "셀 1 - 예 1"){zoomable="yes"}
+![셀 1 - 예 1](cells-1.resources/cells-1-02.png "셀 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 2](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif "셀 1 - 예 2"){zoomable="yes"}
+![셀 1 - 예 2](cells-1.resources/cells-1-03.gif "셀 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 3](cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif "셀 1 - 예 3"){zoomable="yes"}
+![셀 1 - 예 3](cells-1.resources/cells-1-04.gif "셀 1 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 4](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif "셀 1 - 예 4"){zoomable="yes"}
+![셀 1 - 예 4](cells-1.resources/cells-1-05.gif "셀 1 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

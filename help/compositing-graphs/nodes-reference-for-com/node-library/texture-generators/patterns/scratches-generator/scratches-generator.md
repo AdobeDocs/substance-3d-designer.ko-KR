@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
 breadcrumb-title: ''
 description: Scratches 생성기 노드를 사용하여 재료의 마모와 손상을 추가하기 위한 절차적 스크래치 패턴을 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Scratches 생성기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](scratches-generator.resources/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator-01.png)
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -73,10 +73,10 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-ex1.png" />
+            <img src="scratches-generator.resources/scratches-generator-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="scratches-generator.resources/scratches-ex2.png" />
+            <img src="scratches-generator.resources/scratches-generator-03.png" />
         </td>
     </tr>
 </table>

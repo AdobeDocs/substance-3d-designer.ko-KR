@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
-description: 다중 복제 패치 노드 를 사용하여 스캔한 재료 가공물을 복구하기 위해 여러 텍스처 채널을 복제하고 패치합니다.
+description: 다중 복제 패치 노드를 사용하여 스캔한 재료 가공물을 복구하기 위해 여러 텍스처 채널을 복제하고 패치합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 다중 복제 패치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
 
-![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## 설명
 
-이 노드는 [복제 패치](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)의 다중 입력 버전입니다. 최대 8개의 입력을 서로 연결하고 모든 입력에 대해 정확히 동일한 클론 패치 작업을 수행합니다. 주로 다각 사진에 사용하기 위한 것으로, 다각 사진은 [알베도에 대한 다각](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) 또는 [보통 사진에 대한 다각](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)과 결합됩니다.
+이 노드는 [복제 패치](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)의 다중 입력 버전입니다. 최대 8개의 입력을 서로 연결하고 모든 입력에 대해 정확히 동일한 복제 패치 작업을 수행합니다. 주로 다각 사진에 사용하기 위한 것으로, 다각 사진은 [알베도에 대한 다각](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) 또는 [보통 사진에 대한 다각](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)과 결합됩니다.
 
 >[!NOTE]
 >

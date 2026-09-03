@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: '[흰색 노이즈] 노드를 사용하면 텍스처 변형과 임의 효과를 만들기 위한 흰색 노이즈 패턴을 생성할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 흰색 노이즈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![흰색 노이즈 - 아이콘](white-noise.resources/white_noise_v2.png "흰색 노이즈 - 아이콘"){width="200px"}
+![흰색 노이즈 - 아이콘](white-noise.resources/white-noise-01.png "흰색 노이즈 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -63,12 +63,12 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![흰색 노이즈 - 예 1](white-noise.resources/white_noise_v2_1.png "흰색 노이즈 - 예 1"){zoomable="yes"}
+![흰색 노이즈 - 예 1](white-noise.resources/white-noise-02.png "흰색 노이즈 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![백색 잡음 - 예 2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "백색 잡음 - 예 2"){zoomable="yes"}
+![백색 잡음 - 예 2](white-noise.resources/white-noise-03.gif "백색 잡음 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

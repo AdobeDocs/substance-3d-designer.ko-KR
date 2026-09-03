@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: 방사형 흐림 효과 노드를 사용하면 중심점에서 방사형 흐림 효과를 적용하여 동작 및 확대/축소 효과를 만들 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방사형 흐림 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](radial-blur.resources/radial-blur.png)![](radial-blur.resources/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur-01.png)![](radial-blur.resources/radial-blur-02.png)
 
 <b>인:</b> 필터 > 흐림 효과
 
@@ -54,7 +54,7 @@ ht-degree: 10%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="radial-blur.resources/radial-blur-ex01.png" />
+            <img src="radial-blur.resources/radial-blur-03.png" />
         </td>
     </tr>
 </table>

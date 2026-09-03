@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance 합성 그래프의 경고를 이해하고 일반적인 문제 및 오류를 해결하는 방법을 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프의 경고
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 >
 > [새 그래프](../creating-compositing-gra/creating-a-substance-compositing-graph.md) 대화 상자를 통해 사용할 수 있는 그래프 템플릿에는 사용할 준비가 된 사전 설정 출력 노드가 있습니다.
 
-![&#39;출력 노드가 정의되지 않음&#39; 경고 수정](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "&#39;출력 노드가 정의되지 않음&#39; 경고 수정"){width="512px"}
+![&#39;출력 노드가 정의되지 않음&#39; 경고 수정](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "&#39;출력 노드가 정의되지 않음&#39; 경고 수정"){width="512px"}
 
 ### ![(오류)](warnings-in-substance-compositing-graphs.resources/error.svg) *[x]* 매개 변수의 함수에 몇 가지 경고가 있습니다.
 
@@ -51,7 +51,7 @@ E.g. 균일 색상[출력 색상], 픽셀 프로세서[픽셀당 함수]
 
 그런 다음 그래프 보기의 왼쪽 하단에 나열된 경고를 평가하고 문제를 해결합니다. 함수 그래프에서 보고된 경고를 해결하려면 [함수 그래프의 경고](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) 페이지를 참조할 수 있습니다.
 
-![Fix &#39;Parameter function has some warnings&#39; warning](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "Fix &#39;Parameter function has some warnings&#39; warning")
+![Fix &#39;Parameter function has some warnings&#39; warning](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "Fix &#39;Parameter function has some warnings&#39; warning")
 
 ### ![(오류)](warnings-in-substance-compositing-graphs.resources/error.svg) 참조된 데이터에 몇 가지 경고가 있습니다
 
@@ -69,11 +69,11 @@ E.g. 균일 색상[출력 색상], 픽셀 프로세서[픽셀당 함수]
 * 그래프의 경우 이 페이지의 다른 항목을 참조하십시오
 * 다른 유형의 리소스는 [종속성 경고](../../resources/warnings-from-dep/warnings-from-dependencies.md) 페이지를 참조하십시오
 
-![Fix &#39;Referenced data has some warnings&#39; warning](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "Fix &#39;Referenced data has some warnings&#39; warning")
+![Fix &#39;Referenced data has some warnings&#39; warning](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "Fix &#39;Referenced data has some warnings&#39; warning")
 
 ### ![(오류)](warnings-in-substance-compositing-graphs.resources/error.svg) 참조 리소스를 찾을 수 없습니다.
 
-노드에서 참조하는 리소스를 [Substance 3D](https://www.adobe.com/kr/products/substance3d/3d-augmented-reality.html) 파일(SBS)에 저장된 경로에서 찾을 수 없습니다. 다음은 리소스를 참조하는 몇 가지 노드입니다.
+노드에서 참조하는 리소스를 [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 파일(SBS)에 저장된 경로에서 찾을 수 없습니다. 다음은 리소스를 참조하는 몇 가지 노드입니다.
 
 * [그래프 인스턴스](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 노드가 그래프를 참조합니다.
 * [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드가 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md)를 참조합니다.
@@ -92,7 +92,7 @@ E.g. 균일 색상[출력 색상], 픽셀 프로세서[픽셀당 함수]
 참조된 리소스는 [탐색기] 패널에서 찾아서 **파일 경로** 특성에 저장된 위치에 있는지 확인합니다.\
 그렇지 않으면 탐색기에서 리소스 항목에 대해 RMB를 클릭하고 컨텍스트 메뉴에서 **재배치...** 옵션을 선택하여 해당 리소스에 대해 유효한 새 대상 파일을 설정합니다.
 
-![&#39;참조 리소스를 찾을 수 없습니다&#39; 경고 수정](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "&#39;참조 리소스를 찾을 수 없습니다&#39; 경고 수정")
+![&#39;참조 리소스를 찾을 수 없습니다&#39; 경고 수정](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "&#39;참조 리소스를 찾을 수 없습니다&#39; 경고 수정")
 
 ### ![(오류)](warnings-in-substance-compositing-graphs.resources/error.svg) 텍스트 노드에서 잘못된 글꼴을 사용함
 

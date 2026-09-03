@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: 스타일화된 색상 효과에 대해 색상 팔레트를 사용하여 텍스처를 다시 매핑하려면 [색상 팔레트 적용] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 적용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](apply-color-palette.resources/ApplyColorPalette.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](apply-color-palette.resources/apply-color-palette-01.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -64,31 +64,31 @@ ID 맵을 사용하여 정렬된 팔레트의 색상을 이미지에 적용합�
 
 ## 예
 
-![색상 팔레트 적용: 예 1](apply-color-palette.resources/apply_color_palette_example_2.png "색상 팔레트 적용: 예 1"){zoomable="yes"}
+![색상 팔레트 적용: 예 1](apply-color-palette.resources/apply-color-palette-02.png "색상 팔레트 적용: 예 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply-color-palette-03.jpg" alt="apply_color_palette_example_1_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply-color-palette-04.jpg" alt="apply_color_palette_example_1_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![색상 팔레트 적용: 예 3](apply-color-palette.resources/apply_color_palette_example_4.png "색상 팔레트 적용: 예 3"){zoomable="yes"}
+![색상 팔레트 적용: 예 3](apply-color-palette.resources/apply-color-palette-05.png "색상 팔레트 적용: 예 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply-color-palette-06.jpg" alt="apply_color_palette_example_3_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply-color-palette-07.jpg" alt="apply_color_palette_example_3_after">
       <br><i>이후</i>
     </td>
   </tr>

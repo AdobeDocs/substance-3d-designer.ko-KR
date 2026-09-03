@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 워크플로우의 일반적인 도구와 명령에 액세스할 수 있는 Substance 3D Designer의 기본 도구 모음에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 기본 툴바
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![기본 도구 모음](the-main-toolbar.resources/mainmenu.png "기본 도구 모음")
+![기본 도구 모음](the-main-toolbar.resources/the-main-toolbar-01.png "기본 도구 모음")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ ht-degree: 2%
 
 ## 빠른 액세스 버튼
 
-![](the-main-toolbar.resources/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N) [새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
+![](the-main-toolbar.resources/the-main-toolbar-02.png) <b>새 Substance 그래프...:</b>(Ctrl+N)[새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
 
-![](the-main-toolbar.resources/open.png) <b>열기...:</b>(Ctrl+O) 기존 [Substance 패키지(.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md)를 엽니다.
+![](the-main-toolbar.resources/the-main-toolbar-03.png) <b>열기...:</b>(Ctrl+O) 기존 [Substance 패키지(.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md)를 엽니다.
 
-![](the-main-toolbar.resources/saveall.png) <b>모두 저장:</b>(Ctrl+⇧+S) [탐색기](../../interface/the-explorer-window/the-explorer-window.md)에 나열된 모든 패키지를 저장합니다.
+![](the-main-toolbar.resources/the-main-toolbar-04.png) <b>모두 저장:</b>(Ctrl+⇧+S) [탐색기](../../interface/the-explorer-window/the-explorer-window.md)에 나열된 모든 패키지를 저장합니다.
 
-![](the-main-toolbar.resources/undo.png) <b>실행 취소:</b>(Ctrl+Z) 마지막 작업을 실행 취소합니다.
+![](the-main-toolbar.resources/the-main-toolbar-05.png) <b>실행 취소:</b>(Ctrl+Z) 마지막 작업을 실행 취소합니다.
 
-![](the-main-toolbar.resources/redo.png) <b>다시 실행:</b>(Ctrl+Y) 마지막으로 실행 취소된 작업을 다시 실행합니다.
+![](the-main-toolbar.resources/the-main-toolbar-06.png) <b>다시 실행:</b>(Ctrl+Y) 마지막으로 실행 취소된 작업을 다시 실행합니다.
 
 ## 파일
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>새로운 기능...:</b> Designer 최신 릴리스에 추가된 기능을 강조하는 화면을 표시합니다.
 
-<b>시작 화면...\*:</b> [Substance 3D 에코시스템](https://helpx.adobe.com/kr/substance-3d.html)에서 Designer의 목적과 위치를 통해 새로운 사용자를 안내하는 화면을 표시합니다.
+<b>시작 화면...\*:</b> [Substance 3D 에코시스템](https://helpx.adobe.com/substance-3d.html)에서 Designer의 목적과 위치를 통해 새로운 사용자를 안내하는 화면을 표시합니다.
 
 <b>파트너:</b> Designer의 파트너가 제공하는 타사 통합 고지 사항 및 고지 사항에 액세스할 수 있습니다.
 

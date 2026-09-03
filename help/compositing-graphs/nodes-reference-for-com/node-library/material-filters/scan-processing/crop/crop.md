@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
 description: 자르기 노드를 사용하여 스캔한 재료 및 텍스처를 처리하기 위해 특정 영역으로 재료 출력을 자릅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 자르기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crop.resources/crop-10.png){width="128px"}
+![](crop.resources/crop-01.png){width="128px"}
 
-![](crop.resources/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-02.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 

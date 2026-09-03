@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
 breadcrumb-title: ''
 description: RT 조도 노드를 사용하여 사실적인 조명 계산을 위해 기하학에서 실시간 조도 정보를 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방사광
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -60,7 +60,7 @@ ht-degree: 4%
 | <b>바운스 계산</b> <i>거짓/참</i> | 바운스의 컴퓨팅을 토글합니다. 품질과 속도에 영향을 줍니다. |
 | <b>환경 회전</b> <i>0.0 - 1.0</i> | 환경을 회전합니다. |
 | <b>환경 노출(EV)</b> <i>-4.0 - 4.0</i> | 환경에 사용할 노출 값으로 효과의 전체 명도에 영향을 줍니다. |
-| <b>발광 강도</b> <i>0.0 - 20.0</i> | 방출 입력에 대한 승수는 방출의 조도 강도에 영향을 줍니다. |
+| <b>발광 강도</b> <i>0.0 - 20.0</i> | 방출 입력을 위한 승수는 방출로부터의 방사 강도에 영향을 미친다. |
 | <b>방출 색상 공간</b> <i>sRGB, 선형</i> | 감수성 입력을 해석하는 데 사용되는 색상 공간입니다. |
 | Raw 조도 Alpha의 <b>IBL 그림자</b> <i>거짓/참</i> | 그림자를 추가할지 여부 전환 |
 | <b>방출 LOD 편향</b> <i>-1.0 - 1.0</i> | 방출 조도의 품질을 조정합니다. 값이 낮을수록 노이즈가 많아집니다. |
@@ -70,13 +70,13 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
         </td>
     </tr>
 </table>

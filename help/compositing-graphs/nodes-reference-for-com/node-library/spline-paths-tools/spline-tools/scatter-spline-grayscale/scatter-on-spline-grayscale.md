@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: 스플라인 회색 음영 산란 를 사용하여 절차 패턴을 위해 스플라인 경로를 따라 회색 음영 요소를 분배합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 회색 음영 산란
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "노드 아이콘")
+![노드 아이콘](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -160,11 +160,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "노드 예 2")
+![노드 예 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "노드 예 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 데모 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "노드 데모 2")
+![노드 데모 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "노드 데모 2")
 
 </td>
 </tr>

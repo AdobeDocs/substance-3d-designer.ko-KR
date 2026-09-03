@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: 3D 장면에서 기존 재질을 재정의하여 테스트 및 미리 보기를 위한 자체 Substance 재질로 대체합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 장면 재질 재정의
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 재질은 처음부터 만들거나 [Substance 그래프로 추출](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)된 조정된 버전의 장면 재질을 만들 수 있습니다.
 
-![장면 재질을 재정의하고 수정하여 장면 상태로 재설정](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "장면 재질을 재정의하고 수정하여 장면 상태로 재설정"){zoomable="yes"}
+![장면 재질을 재정의하고 수정하여 장면 상태로 재설정](overriding-scene-materials.resources/overriding-scene-materials-01.gif "장면 재질을 재정의하고 수정하여 장면 상태로 재설정"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![재질 재정의 - &#39;3D 보기&#39; 뷰포트에서 동작](overriding-scene-materials.resources/overrideMaterialActionViewport.png "재질 재정의 - &#39;3D 보기&#39; 뷰포트에서 동작"){zoomable="yes"}
+![재질 재정의 - &#39;3D 보기&#39; 뷰포트에서 동작](overriding-scene-materials.resources/overriding-scene-materials-02.png "재질 재정의 - &#39;3D 보기&#39; 뷰포트에서 동작"){zoomable="yes"}
 
 *3D 보기 뷰포트에서 동작*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![재질 재정의 - &#39;재질&#39; 메뉴의 동작](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "재질 재정의 - &#39;재질&#39; 메뉴의 동작"){zoomable="yes"}
+![재질 재정의 - &#39;재질&#39; 메뉴의 동작](overriding-scene-materials.resources/overriding-scene-materials-03.png "재질 재정의 - &#39;재질&#39; 메뉴의 동작"){zoomable="yes"}
 
 *재질 메뉴의 동작*
 
@@ -119,21 +119,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![재질을 장면 상태로 재설정 - &#39;3D 보기&#39; 뷰포트에서 작업](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "재질을 장면 상태로 재설정 - &#39;3D 보기&#39; 뷰포트에서 작업"){zoomable="yes"}
+![재질을 장면 상태로 재설정 - &#39;3D 보기&#39; 뷰포트에서 작업](overriding-scene-materials.resources/overriding-scene-materials-04.png "재질을 장면 상태로 재설정 - &#39;3D 보기&#39; 뷰포트에서 작업"){zoomable="yes"}
 
 *3D 보기 뷰포트에서 동작*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![재질을 장면 상태로 재설정 - &#39;재질&#39; 메뉴의 동작](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "재질을 장면 상태로 재설정 - &#39;재질&#39; 메뉴의 동작"){zoomable="yes"}
+![재질을 장면 상태로 재설정 - &#39;재질&#39; 메뉴의 동작](overriding-scene-materials.resources/overriding-scene-materials-05.png "재질을 장면 상태로 재설정 - &#39;재질&#39; 메뉴의 동작"){zoomable="yes"}
 
 *재질 메뉴의 동작*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![재질을 장면 상태로 재설정 - &#39;속성&#39; 도크에서 동작](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "재질을 장면 상태로 재설정 - &#39;속성&#39; 도크에서 동작"){zoomable="yes"}
+![재질을 장면 상태로 재설정 - &#39;속성&#39; 도크에서 동작](overriding-scene-materials.resources/overriding-scene-materials-06.png "재질을 장면 상태로 재설정 - &#39;속성&#39; 도크에서 동작"){zoomable="yes"}
 
 *재질 속성에서 동작*
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![장면 상태로 재설정 - 재질 속성에서 동작](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "장면 상태로 재설정 - 재질 속성에서 동작"){zoomable="yes"}
+![장면 상태로 재설정 - 재질 속성에서 동작](overriding-scene-materials.resources/overriding-scene-materials-07.png "장면 상태로 재설정 - 재질 속성에서 동작"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ ht-degree: 0%
 
 Designer에서만 작성 및 관리되는 *다른* 데이터 집합입니다. 그러면 이 재질이 장면의 원본 재질을 재정의하는 *복사본에 연결됨*&#x200B;됩니다.
 
-![재질 재정의 - 데이터 도식](overriding-scene-materials.resources/overridingMaterialsSchematic.png "재질 재정의 - 데이터 도식"){zoomable="yes"}
+![재질 재정의 - 데이터 도식](overriding-scene-materials.resources/overriding-scene-materials-08.png "재질 재정의 - 데이터 도식"){zoomable="yes"}
 
 &#39;재질&#39; 메뉴에 나열된 재질을 장면에서 Designer이 생성한 사본에 연결할 수 있습니다. 장면 브라우저 사본에서 RMB를 클릭한 다음 &#39;재질 연결&#39; 하위 메뉴로 이동합니다.
 
 하위 메뉴에는 장면의 모든 재질이 나열되고 &#39;재질&#39; 메뉴에서 수동으로 만든 재질이 나열됩니다.
 
-![재질 연결](overriding-scene-materials.resources/connectMaterials.gif "재질 연결"){zoomable="yes"}
+![재질 연결](overriding-scene-materials.resources/overriding-scene-materials-09.gif "재질 연결"){zoomable="yes"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: Substance 3D Designer을 시작할 수 없는 문제를 해결하고 응용 프로그램을 시작할 수 있는 솔루션을 찾습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 애플리케이션이 시작되지 않음
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Substance 3D Designer이 Windows 7, Windows 8 또는 Windows 8.1을 사용하는
 버전 **11.3.0** 업데이트의 일부로 Windows 10보다 낮은 Windows 버전에서 *호환성 중단*&#x200B;인 여러 라이브러리, 도구 및 SDK를 업그레이드했습니다.
 
 Microsoft 자체는 더 이상 주류용 Windows의 이전 버전을 지원하지 않으므로 *적극* Windows 10으로 업그레이드하는 것이 좋습니다([여기](https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information) 및 [여기](https://docs.microsoft.com/en-us/lifecycle/faq/windows#windows-8.1) 참조). 따라서 이러한 버전을 계속 사용하면 *보안 문제*&#x200B;가 발생합니다.\
-Windows 10으로 업그레이드할 수 없는 경우 *Designer*&#x200B;과거&#x200B;*버전&#x200B;**11.2.2**&#x200B;의 설치를 업데이트하지 마십시오*.
+Windows 10으로 업그레이드할 수 없는 경우 *Designer*&#x200B;과거&#x200B;*버전&#x200B;**11.2.2**의 설치를 업데이트하지 마십시오*.
 
 >[!WARNING]
 >
@@ -111,7 +111,7 @@ Steam에서 Designer을 시작하는 Linux 사용자는 아래와 같이 Designe
 
 이 작업이 완료되면 향후 모든 세션에서 일반적으로 Steam을 통해 Designer을 시작할 수 있습니다.
 
-![Steam 실행 옵션](application-does-not-start.resources/steam_linux_launch_option.jpg "Steam 실행 옵션")
+![Steam 실행 옵션](application-does-not-start.resources/application-does-not-start-01.jpg "Steam 실행 옵션")
 
 
 

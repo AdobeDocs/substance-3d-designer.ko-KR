@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
 breadcrumb-title: ''
 description: 모양 스플래터 데이터 추출 노드를 사용하여 고급 패턴 제어를 위해 모양 스플래터 작업에서 데이터를 추출합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 스플래터 데이터 추출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter-data-extract.resources/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 

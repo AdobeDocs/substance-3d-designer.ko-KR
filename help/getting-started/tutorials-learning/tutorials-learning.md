@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 튜토리얼 및 학습 리소스에 액세스하여 프로시저 재질 제작 기술을 익힙니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tutorials 학습
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![첫 번째 단계&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[![첫 번째 단계&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/tutorials-learning-01.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;첫 번째 재질 만들기&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[![&#39;첫 번째 재질 만들기&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/tutorials-learning-02.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;빠른 팁&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[![&#39;빠른 팁&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/tutorials-learning-03.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![&#39;스마트폰은 재질 스캐너입니다&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
+[![&#39;스마트폰은 재질 스캐너입니다&#39; 튜토리얼 일러스트레이션](tutorials-learning.resources/tutorials-learning-04.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">

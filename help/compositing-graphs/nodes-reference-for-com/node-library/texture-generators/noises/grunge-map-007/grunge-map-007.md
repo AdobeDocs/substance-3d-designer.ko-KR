@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
 breadcrumb-title: ''
 description: 그런지 맵 007 노드를 사용하여 표면 변형 및 마모 효과를 추가하기 위한 프로시저 그런지를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 지도 007
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-007.resources/grungemap-007.png){width="128px"}
+![](grunge-map-007.resources/grunge-map-007-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-007.resources/grungemap-007-ex.gif" />
+            <img src="grunge-map-007.resources/grunge-map-007-02.gif" />
         </td>
     </tr>
 </table>

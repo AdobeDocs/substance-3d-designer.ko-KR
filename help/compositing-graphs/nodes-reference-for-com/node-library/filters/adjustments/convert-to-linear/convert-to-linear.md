@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
 breadcrumb-title: ''
 description: '[선형으로 변환] 노드를 사용하여 정확한 색상 계산을 위해 텍스처를 sRGB에서 선형 색상 공간으로 변환합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 선형으로 변환
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](convert-to-linear.resources/convert-to-linear.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-01.png){width="128px"}
 
-![](convert-to-linear.resources/convert-to-linear-grayscale.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-02.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 

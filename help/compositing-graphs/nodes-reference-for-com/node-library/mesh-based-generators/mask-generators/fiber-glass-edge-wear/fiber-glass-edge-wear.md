@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: 섬유 유리 Edge Wear 노드를 사용하여 메쉬 곡률을 기반으로 섬유 유리 가장자리에 마모 마스크를 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 섬유 유리 Edge Wear
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear-01.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
@@ -75,7 +75,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-ex.gif" />
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-02.gif" />
         </td>
     </tr>
 </table>

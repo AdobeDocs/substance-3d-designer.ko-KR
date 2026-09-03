@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
 breadcrumb-title: ''
 description: '[조명 취소 고주파] 노드를 사용하여 재질 분석을 위해 텍스처에서 고주파 조명 세부 사항을 제거합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 고주파수 조명 취소
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies.png){width="128px"}
+![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-highfrequencies-example.png" />
+            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-02.png" />
         </td>
     </tr>
 </table>

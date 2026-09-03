@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure-preview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure-preview.html"
 breadcrumb-title: ''
 description: 최종 렌더링 전에 HDRI 환경에서 노출 조정을 미리 보려면 노출 미리 보기 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 노출 미리 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](exposure-preview.resources/hdr-exposure-preview.png){width="200px"}
+![](exposure-preview.resources/exposure-preview-01.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="exposure-preview.resources/exp-preview-ex.png" />
+            <img src="exposure-preview.resources/exposure-preview-02.png" />
         </td>
     </tr>
 </table>

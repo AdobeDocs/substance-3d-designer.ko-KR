@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
 description: '[그레이디언트 2점] 노드를 사용하여 HDRI 환경에서 하늘 및 지표 색상 전환을 위한 2점 그레이디언트를 만듭니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그레이디언트 2 포인트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-2-points.resources/gradient-ex2.gif" />
+            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
         </td>
     </tr>
 </table>

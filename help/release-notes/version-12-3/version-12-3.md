@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 12.3의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 출시일: *2022년 10월 6일*
 
-![](version-12-3.resources/largef.png){width="1111px"}
+![](version-12-3.resources/version-12-3-01.png){width="1111px"}
 
 ## 주요 기능
 
@@ -33,20 +33,20 @@ ht-degree: 0%
 그래프를 만드는 데 익숙한 경우 하위 그래프(또는 그래프 인스턴스)를 만들어 작업을 재사용하고, 그래프를 덜 복잡하게 만들고, 더 효율적으로 만들 수 있어야 합니다.\
 이제 Substance 모델 그래프에서도 가능합니다. 하위 그래프를 탐색기에서 기본 그래프로 끌어다 놓으면 인스턴스 노드로 사용할 수 있습니다.
 
-![](version-12-3.resources/subgraph.gif){width="600px"}
+![](version-12-3.resources/version-12-3-02.gif){width="600px"}
 
 또한 출력 장면과 같은 Substance 모델 그래프에 대한 출력 노드의 개념을 도입했습니다. 이제 그래프에 하나 이상의 출력을 가질 수 있습니다.\
 그래프가 다른 그래프에서 인스턴스화될 때 각 출력은 출력 핀에 해당합니다.
 
-![](version-12-3.resources/image2022-10-4-15-31-27.png){width="600px"}
+![](version-12-3.resources/version-12-3-03.png){width="600px"}
 
 하위 그래프 노드를 마우스 오른쪽 버튼으로 클릭하면 참조된 인스턴스를 보거나 편집할 수 있습니다.
 
-![](version-12-3.resources/image2022-10-4-16-28-36.png){width="600px"}
+![](version-12-3.resources/version-12-3-04.png){width="600px"}
 
 하위 그래프 및 노출된 매개 변수 덕분에 아래 그림에 나와 있는 것처럼 복잡한 에셋을 만들고 무한한 변형을 적용할 수 있습니다.
 
-![](version-12-3.resources/seasons.gif){width="600px"}
+![](version-12-3.resources/version-12-3-05.gif){width="600px"}
 
 ### Substance 모델 그래프의 기타 개선 사항
 
@@ -55,18 +55,18 @@ ht-degree: 0%
   <b>Visible If</b>을(를) 사용하여 매개 변수 가시성에 조건을 추가하여 깔끔하고 기능적인 UI를 유지할 수 있습니다. Substance 그래프에 이미 사용할 수 있는 이 메커니즘은 이제 동일한 구문을 사용하는 Substance 모델 그래프로 확장됩니다. <b>\
   </b>
 
-  ![](version-12-3.resources/visibleif.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-06.gif){width="600px"}
 
 * <b>곡선 에디션 전용 새 노드\
   </b>이 버전에서는 곡선 편집 전용의 몇 가지 새로운 노드를 제공합니다. <b>곡선 반전</b>은 곡선의 두 극점을 교체하고, <b>곡선 세분화</b>는 두 가지 방법에 따라 선분에 더 많은 정점을 추가하며, <b>곡선 매끄럽게 하기 </b>2D 곡선의 모든 각도를 매끄럽게 하고, 마지막으로 <b>오프셋 곡선</b>은 아래와 같이 2D 곡선을 부풀리거나 변형합니다.<b>
 
   </b>
 
-  ![](version-12-3.resources/curve-offset-4.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-07.gif){width="600px"}
 * <b>새 그래프 창 </b>\
   이제 <b>새 Substance 모델 그래프</b> 창을 Substance 모델 그래프에도 사용할 수 있습니다. 직접 템플릿을 추가하거나 기본 템플릿을 선택한 다음, 그래프 이름을 직접 입력하고 그래프가 추가될 패키지를 선택할 수 있습니다.
 
-  ![](version-12-3.resources/image2022-10-5-15-25-42.png){width="600px"}
+  ![](version-12-3.resources/version-12-3-08.png){width="600px"}
 
 ### 시작 및 새로운 기능 패널
 
@@ -76,9 +76,9 @@ Designer을 시작하는 데 도움이 되는 두 가지 새로운 패널을 도
 
 이러한 두 패널은 도움말 메뉴에서도 액세스할 수 있습니다.
 
-![](version-12-3.resources/image2022-10-3-15-47-28.png)
+![](version-12-3.resources/version-12-3-09.png)
 
-![](version-12-3.resources/image2022-10-3-15-47-55.png)
+![](version-12-3.resources/version-12-3-10.png)
 
 ### 기타
 
@@ -88,7 +88,7 @@ Designer을 시작하는 데 도움이 되는 두 가지 새로운 패널을 도
   이전 버전에서는 Designer이 운영 체제에 설정된 비율 인수를 올바르게 처리할 수 없었습니다. 아래 그림에서 볼 수 있듯이 모든 것이 4K 디스플레이에서 완벽하게 관리되며 모든 글꼴과 버튼이 일관된 크기로 표시됩니다.\
   이제 사용 가능한 인터페이스가 필요하지 않으므로 환경 설정의 &#39;높은 DPI 사용 안 함&#39; 옵션이 이 새 버전에서 *거짓*(으)로 다시 설정되었습니다.
 
-  ![](version-12-3.resources/highdpi-fix.gif){width="600px"}
+  ![](version-12-3.resources/version-12-3-11.gif){width="600px"}
 
 * **Steam 버전에 대한 Apple Silicon 기본 지원(M1/M2)**\
   12.2 버전의 Designer은 M1 또는 M2 칩을 기반으로 하는 새로운 Apple 머신을 완전히 지원한 최초의 버전이지만 Steam 버전에는 이러한 지원이 없었습니다. 이제 모든 Designer 사용자는 이러한 컴퓨터에서 더 빠르고 효율적인 경험을 활용할 수 있습니다.
@@ -137,10 +137,10 @@ Designer을 시작하는 데 도움이 되는 두 가지 새로운 패널을 도
 * [UI] 그래프 도구 모음의 확장 메뉴가 완전하지 않습니다.
 * [UI] 하드 범위 활성화를 실행 취소한 후 잘못된 매개 변수 위젯 값
 * [3D 보기] 세션에서 다른 세션으로의 Iray에서 기본값이 아닌 셰이더 설정이 손실됩니다.
-* [베이커] 메시가 없는 장면에서 베이킹 창을 로드할 때 충돌이 발생합니다
+* [베이커] 메시가 없는 장면이 있는 베이킹 창을 로드할 때 충돌 발생
 * [함수] 참조된 그래프에 인스턴스를 복사할 때 충돌이 발생합니다
-* [함수] 노드를 조작할 때 발생할 수 있는 충돌 수정
+* [함수] 노드를 조작할 때 발생할 수 있는 충돌을 수정합니다.
 * [세계화] 이탤릭체가 일본어/한국어/중국어에서 항상 올바르게 비활성화되지 않음
-* [Graph] 새 MDL 및 Substance 모델 그래프에 대한 대체 식별자가 잘못되었습니다.
+* [그래프] 새 MDL 및 Substance 모델 그래프에 대한 대체 식별자가 잘못되었습니다.
 * [Graph] 값에 의해 제어되는 상속된 매개 변수가 가끔 잘못 계산되기도 합니다
 * [GraphRender] 고해상도 그래프를 계산하는 동안 엔진을 전환할 때 충돌 발생(macOS만 해당)

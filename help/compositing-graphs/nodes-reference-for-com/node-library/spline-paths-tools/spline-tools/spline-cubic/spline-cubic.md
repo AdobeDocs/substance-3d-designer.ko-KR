@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-cubic.html"
 breadcrumb-title: ''
 description: 스플라인 큐빅 노드를 사용하여 곡선 경로에 대한 네 개의 제어점으로 매끄러운 큐빅 스플라인을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인(큐빅)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-cubic.resources/spline-cubic-icon.png "노드 아이콘")
+![노드 아이콘](spline-cubic.resources/spline-cubic-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -101,12 +101,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-cubic.resources/SplineCubic-Variant1.jpg "노드 예 1")
+![노드 예 1](spline-cubic.resources/spline-cubic-02.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-cubic.resources/SplineCubic-Variant2.jpg "노드 예 2")
+![노드 예 2](spline-cubic.resources/spline-cubic-03.jpg "노드 예 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 3](spline-cubic.resources/SplineCubic-Demo.gif "노드 예 3")
+![노드 예 3](spline-cubic.resources/spline-cubic-04.gif "노드 예 3")
 
 </td>
 <td style="border: 0;" valign="top">

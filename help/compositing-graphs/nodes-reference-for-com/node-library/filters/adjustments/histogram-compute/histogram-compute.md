@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
 description: '[히스토그램 계산] 노드를 사용하여 분석 및 처리를 위한 텍스처의 히스토그램 데이터를 계산합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 히스토그램 컴퓨팅
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![막대 그래프 계산: 아이콘](histogram-compute.resources/histogram_compute.png "막대 그래프 계산: 아이콘"){width="200px"}
+![막대 그래프 계산: 아이콘](histogram-compute.resources/histogram-compute-01.png "막대 그래프 계산: 아이콘"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -77,16 +77,16 @@ ht-degree: 1%
 
 ## 예
 
-![막대 그래프 계산: 예 1](histogram-compute.resources/histogram_compute_example_1.jpg "막대 그래프 계산: 예 1"){zoomable="yes"}
+![막대 그래프 계산: 예 1](histogram-compute.resources/histogram-compute-02.jpg "막대 그래프 계산: 예 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram-compute-03.jpg" alt="histogram_compute_example_2_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram-compute-04.jpg" alt="histogram_compute_example_2_after">
       <br><i>이후</i>
     </td>
   </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
 description: 조건부 텍스처 선택을 위한 선택기를 기반으로 다중 스위치 노드를 사용하여 여러 입력 텍스처 간에 전환할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 다중 스위치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-switch.resources/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-01.png){width="128px"}
 
-![](multi-switch.resources/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch-02.png){width="128px"}
 
 <b>내부:</b> 필터 > 혼합
 

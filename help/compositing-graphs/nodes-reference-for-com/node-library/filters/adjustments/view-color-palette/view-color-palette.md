@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: '[색상 팔레트 보기] 노드를 사용하여 분석을 위해 텍스처에서 추출한 색상 팔레트 데이터를 시각화할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](view-color-palette.resources/ViewColorPalette.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](view-color-palette.resources/view-color-palette-01.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 설명
 
-색상 팔레트를 정사각형 또는 직사각형으로 압축하여 그래프 보기 또는 2D 보기에서 보다 쉽게 시각화할 수 있습니다.\
+색상 팔레트를 사각형 또는 사각형으로 압축하여 그래프 보기 또는 2D 보기에서 보다 쉽게 시각화할 수 있습니다.\
 그 패킹은 가능한 한 적은 빈 공간을 남기는 것을 목표로 한다.
 
 </td>
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![색상 팔레트 보기: 예 1](view-color-palette.resources/view_color_palette_example_1.png "색상 팔레트 보기: 예 1"){zoomable="yes"}
+![색상 팔레트 보기: 예 1](view-color-palette.resources/view-color-palette-02.png "색상 팔레트 보기: 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![색상 팔레트 보기: 예 2](view-color-palette.resources/view_color_palette_example_2.png "색상 팔레트 보기: 예 2"){zoomable="yes"}
+![색상 팔레트 보기: 예 2](view-color-palette.resources/view-color-palette-03.png "색상 팔레트 보기: 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![색상 팔레트 보기: 예 3](view-color-palette.resources/view_color_palette_example_3.png "색상 팔레트 보기: 예 3"){zoomable="yes"}
+![색상 팔레트 보기: 예 3](view-color-palette.resources/view-color-palette-04.png "색상 팔레트 보기: 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![색상 팔레트 보기: 예 4](view-color-palette.resources/view_color_palette_example_4.png "색상 팔레트 보기: 예 4"){zoomable="yes"}
+![색상 팔레트 보기: 예 4](view-color-palette.resources/view-color-palette-05.png "색상 팔레트 보기: 예 4"){zoomable="yes"}
 
 </td>
 </tr>

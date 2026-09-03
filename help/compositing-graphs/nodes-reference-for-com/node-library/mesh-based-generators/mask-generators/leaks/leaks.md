@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
 description: 누수 노드를 사용하여 메시 형상을 기반으로 물 얼룩과 유체 효과를 생성하는 누수 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 누출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks.png){width="128px"}
+![](leaks.resources/leaks-01.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 이 마디는 날카로운 모서리에서 나오는 Dirt 줄무늬와 그림이 새어 나오는 것을 나타냅니다. 구운 위치에서 줄무늬가 생성되므로 항상 아래쪽으로 이동합니다.
 
-변형 마스크를 변경해 보십시오. 변형 마스크는 줄무늬의 배치를 구동하므로 다른 [마스크 생성기]에 비해 훨씬 더 큰 영향을 미칠 수 있습니다.
+변형 마스크를 변경해 보십시오. 변형 마스크는 줄무늬의 배치를 주도하므로 다른 마스크 생성기에 비해 훨씬 큰 영향을 줄 수 있습니다.
 
 </td>
 </tr>
@@ -74,7 +74,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-ex.gif" />
+            <img src="leaks.resources/leaks-02.gif" />
         </td>
     </tr>
 </table>

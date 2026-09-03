@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 캐스트 노드를 사용하여 float, int 및 vector 간에 데이터 유형을 변환합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 캐스팅
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 캐스트 노드는 노드를 유형에서 다른 유형으로 변환하는 데 사용됩니다.
 
-![](cast-nodes.resources/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/cast-nodes-01.png)
 
 ## 캐스트 노드를 사용하는 방법
 

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
 breadcrumb-title: ''
-description: 그런지 맵 015 노드를 사용하면 표면에 디테일과 마모 효과를 더하는 절차 그런지 텍스처를 만들 수 있습니다.
+description: 그런지 맵 015 노드를 사용하여 표면에 대한 디테일과 마모 효과를 재료에 추가하는 프로시저 그런지를 생성할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 015
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 지도 015
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-015.resources/grungemap-015.png){width="128px"}
+![](grunge-map-015.resources/grunge-map-015-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-015.resources/grungemap-015-ex.gif" />
+            <img src="grunge-map-015.resources/grunge-map-015-02.gif" />
         </td>
     </tr>
 </table>

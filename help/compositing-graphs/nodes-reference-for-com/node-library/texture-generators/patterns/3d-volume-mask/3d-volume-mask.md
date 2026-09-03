@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: 3D 볼륨 마스크 노드를 사용하여 고급 재질 효과를 위해 3D 위치를 기반으로 볼륨 마스크를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 볼륨 마스크
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -67,16 +67,16 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
         </td>
     </tr>
 </table>

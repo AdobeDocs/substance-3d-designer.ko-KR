@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
 breadcrumb-title: ''
 description: 앨리어싱 아티팩트를 줄이기 위해 텍스처에 [빠른 대략의 앤티 앨리어싱]을 적용하려면 FXAA 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-01.png)![](fxaa.resources/fxaa-02.png)
 
 <b>인:</b> 필터 > 효과
 
@@ -44,7 +44,7 @@ FXAA 알고리즘에 따라 앤티 앨리어스 필터를 적용합니다. 이�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fxaa.resources/fxaa-ex.png" />
+            <img src="fxaa.resources/fxaa-03.png" />
         </td>
     </tr>
 </table>

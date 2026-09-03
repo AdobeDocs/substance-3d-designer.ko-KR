@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: 섬유 1 노드를 사용하여 섬유, 머리카락 및 섬유 재료를 시뮬레이션하는 기본 섬유 텍스처를 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 섬유 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -24,7 +24,7 @@ ht-degree: 12%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fibers-1.resources/fibers-1.png){width="128px"}
+![](fibers-1.resources/fibers-1-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -53,7 +53,7 @@ ht-degree: 12%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fibers-1.resources/fibers-1-ex.gif" />
+            <img src="fibers-1.resources/fibers-1-02.gif" />
         </td>
     </tr>
 </table>

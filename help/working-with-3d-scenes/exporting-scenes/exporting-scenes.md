@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: '[3D 보기 장면] 메뉴의 [장면 내보내기] 동작을 사용하여 Designer에서 편집한 모든 내용을 포함한 3D 장면을 내보냅니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 장면 내보내기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 >
 > Designer에서 장면에 추가한 모든 항목은 내보낸 장면에 포함됩니다(기본 카메라, 기본 환경, 모든 재질 복사).
 
-![장면 내보내기 작업](exporting-scenes.resources/exportActions.png "장면 내보내기 작업"){zoomable="yes"}
+![장면 내보내기 작업](exporting-scenes.resources/exporting-scenes-01.png "장면 내보내기 작업"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 </td>
 <td style="border: 0;" valign="top">
 
-![내보낸 장면 파일 - 병합됨](exporting-scenes.resources/exportFlattened.png "내보낸 장면 파일 - 병합됨"){zoomable="yes"}
+![내보낸 장면 파일 - 병합됨](exporting-scenes.resources/exporting-scenes-02.png "내보낸 장면 파일 - 병합됨"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 </td>
 <td style="border: 0;" valign="top">
 
-![내보낸 장면 파일 - 레이어드](exporting-scenes.resources/exportLayered.png "내보낸 장면 파일 - 레이어드"){zoomable="yes"}
+![내보낸 장면 파일 - 레이어드](exporting-scenes.resources/exporting-scenes-03.png "내보낸 장면 파일 - 레이어드"){zoomable="yes"}
 
 </td>
 </tr>

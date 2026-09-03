@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: 스플라인 브리지 노드를 사용하여 끊김 없는 연결을 만들기 위해 두 스플라인 사이의 텍스처를 연결합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 브리지(스플라인 2개)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "노드 아이콘")
+![노드 아이콘](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 설명
 
-이러한 스플라인을 따라 <b>스플라인 #1</b>에서 <b>스플라인 #2</b>까지 스플라인을 생성합니다. 생성된 스플라인은 [선형] (직선) 또는 [입방 베지어] (곡선)일 수 있습니다.
+이러한 스플라인을 따라 <b>스플라인 #1</b>에서 <b>스플라인 #2</b>까지 스플라인을 생성합니다. 생성된 스플라인은 [선형](직선) 또는 [입방 베지어](곡선)일 수 있습니다.
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>브리지 스플라인 양</b> <i>정수</i> | 스플라인을 따라 생성된 스플라인 수가 #1스플라인&rbrack; #2. |
+| <b>브리지 스플라인 양</b> <i>정수</i> | 스플라인을 따라 생성된 스플라인 수가 #1스플라인] #2. |
 | <b>Bridge 스플라인 유형</b> <i>정수</i> | 생성되는 스플라인 유형:<br><br>- 선형: 시작점에서 끝점까지의 직선 스플라인;<br>- 큐빅 베지어: 시작점에서 끝점까지의 곡선 스플라인(곡선은 시작점과 끝점의 길이 및 각도로 제어됨). |
 | <b>스플라인 시작 #1</b> <i>부동</i> | 스플라인이 생성된 위치에서 스플라인 #1을 따라 위치를 오프셋합니다. 이 값은 스플라인 #1의 정규화된 길이입니다.<br>값이 높을수록 같은 수의 스플라인이 더 촘촘하게 패킹됩니다. |
 | <b>스플라인 시작 #2</b> <i>부동</i> | 스플라인이 생성된 위치에서 스플라인 #2을 따라 위치를 오프셋합니다. 이 값은 스플라인 #2의 정규화된 길이입니다.<br>값이 높을수록 같은 수의 스플라인이 더 촘촘하게 패킹됩니다. |
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "노드 예 2")
+![노드 예 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "노드 예 2")
 
 </td>
 </tr>

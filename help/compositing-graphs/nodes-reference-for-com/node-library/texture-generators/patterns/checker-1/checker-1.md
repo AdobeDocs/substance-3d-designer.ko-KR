@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: 체커 1 노드를 사용하여 테스트 및 텍스처를 위한 사용자 정의 가능한 타일 크기와 색상으로 바둑판 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 검사기 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](checker-1.resources/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="checker-1.resources/checker-1-ex.gif" />
+            <img src="checker-1.resources/checker-1-02.gif" />
         </td>
     </tr>
 </table>

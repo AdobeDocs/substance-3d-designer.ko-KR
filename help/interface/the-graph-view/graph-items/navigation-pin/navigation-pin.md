@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: 그래프 보기에서 탐색 핀을 사용하여 Substance 3D Designer 그래프의 여러 위치 사이를 빠르게 이동할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 고정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![탐색 핀 아이콘](navigation-pin.resources/graphatomic-pin_1.png "탐색 핀 아이콘")
+![탐색 핀 아이콘](navigation-pin.resources/navigation-pin-01.png "탐색 핀 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ ht-degree: 1%
 
 현재 확대/축소 레벨에서 뷰포트에 핀이 배치됩니다.
 
-![핀: 핀으로 이동](navigation-pin.resources/graph-pin_jumping.gif "핀: 핀으로 이동")
+![핀: 핀으로 이동](navigation-pin.resources/navigation-pin-02.gif "핀: 핀으로 이동")

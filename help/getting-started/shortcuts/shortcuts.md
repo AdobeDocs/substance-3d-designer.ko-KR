@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 키보드 단축키를 사용하여 워크플로우 속도를 높이고 생산성을 향상할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 단축키
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 16%
@@ -32,11 +32,11 @@ ht-degree: 16%
 
 **Windows**
 
-![Windows의 키보드 단축키](shortcuts.resources/keyboard_shortcuts_win.png "Windows의 키보드 단축키"){zoomable="yes"}
+![Windows의 키보드 단축키](shortcuts.resources/shortcuts-01.png "Windows의 키보드 단축키"){zoomable="yes"}
 
 **macOS**
 
-![macOS 키보드 단축키](shortcuts.resources/keyboard_shortcuts_mac.png "macOS 키보드 단축키"){zoomable="yes"}
+![macOS 키보드 단축키](shortcuts.resources/shortcuts-02.png "macOS 키보드 단축키"){zoomable="yes"}
 
 ## 단축키 목록
 

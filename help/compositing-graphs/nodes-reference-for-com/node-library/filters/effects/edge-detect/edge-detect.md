@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/edge-detect.html"
 breadcrumb-title: ''
 description: '[가장자리 감지] 노드를 사용하면 윤곽선 및 가장자리 기반 마스크 효과를 만들기 위한 텍스처의 가장자리를 감지할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 가장자리 감지
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-detect.resources/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect-01.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -48,7 +48,7 @@ ht-degree: 7%
 |  |  |
 |:---|:---|
 | <b>가장자리 너비</b> <i>1.0 - 16.0</i> | 가장자리 주위의 검색된 영역의 폭입니다. |
-| <b>가장자리 원형률</b> <i>0.0 - 16.0</i> | 생성된 마스크를 함께 둥글게 하고, 흐리게 하고, 매끄럽게 합니다. |
+| <b>모서리 둥글기</b> <i>0.0 - 16.0</i> | 생성된 마스크를 함께 둥글게 하고, 흐리게 하고, 매끄럽게 합니다. |
 | <b>반전</b> <i>거짓/참</i> | 결과를 반전합니다. |
 | <b>허용치</b> <i>0.0 - 1.0</i> | 모서리가 나타나야 하는 위치의 공차 범위 요소입니다. |
 
@@ -57,7 +57,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-detect.resources/edge-detect-ex.png" />
+            <img src="edge-detect.resources/edge-detect-02.png" />
         </td>
     </tr>
 </table>

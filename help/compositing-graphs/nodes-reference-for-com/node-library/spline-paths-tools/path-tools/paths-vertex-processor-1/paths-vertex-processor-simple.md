@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: 간단한 변형 옵션으로 패스 정점을 처리하려면 패스 정점 프로세서 단순 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 정점 프로세서 단순
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "노드 아이콘")
+![노드 아이콘](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 입력 <b>패스</b>의 정점 위치에 변형을 적용합니다.
 
 1. <b>정점별 함수</b> 매개 변수 함수 편집;
-1. *vertex.pos* 변수에 <b>Get 부동2</b> 노드를 사용합니다.
+1. *vertex.pos* 변수에 <b>Get Float2</b> 노드 사용;
 1. 이 값에 대해 몇 가지 작업을 수행합니다(예: 곱하기를 통해 패스 크기를 조절합니다).
 1. 계산 결과를 출력으로 설정합니다.
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "노드 예 2")
+![노드 예 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "노드 예 2")
 
 </td>
 <td style="border: 0;" valign="top">

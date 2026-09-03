@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
-description: Substance 3D Designer의 비트맵 페인팅 도구를 사용하여 텍스처 편집을 위해 비트맵 리소스에 직접 페인팅할 수 있습니다.
+description: Substance 3D Designer의 비트맵 페인팅 도구를 사용하여 텍스처 편집을 위해 비트맵 리소스에서 바로 페인트를 할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource > Bitmap painting tools
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비트맵 페인팅 도구
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 호환되는 비트맵에 대해 [2D 보기](../../../interface/2d-view/2d-view.md) 패널에서 사용할 수 있는 페인팅 도구에 대해 설명합니다.
 
-![2D 보기의 비트맵 페인팅 도구](bitmap-painting-tools.resources/2dview-paintingtools-main_1.png "2D 보기의 비트맵 페인팅 도구"){width="512px"}
+![2D 보기의 비트맵 페인팅 도구](bitmap-painting-tools.resources/bitmap-painting-tools-01.png "2D 보기의 비트맵 페인팅 도구"){width="512px"}
 
 ## 개요
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 이 도구는 *펜 압력*&#x200B;을 포함하여 펜 입력을 지원합니다. 펜 디스플레이를 활용하려면 [2D 보기](../../../interface/2d-view/2d-view.md) 패널을 [고정 해제](../../../interface/customizing-your-wor/customizing-your-workspace.md)한 다음 페인팅하기에 더 편리한 구성으로 배치하고 크기를 조정할 수 있습니다.
 
-편집 작업은 *개별적으로 실행 취소*&#x200B;할 수 있으며, 이미지를 편집하는 동안 [막대 그래프](../../../interface/2d-view/2d-view.md) 패널, [바둑판 표시](../../../interface/2d-view/2d-view.md) 및 [배경 이미지](../../../interface/2d-view/2d-view.md)와 같은 2D 보기 패널의 다른 모든 기능은 여전히 *사용 가능*&#x200B;합니다.
+편집 작업은 *개별적으로 실행 취소*&#x200B;할 수 있으며, [막대 그래프](../../../interface/2d-view/2d-view.md) 패널, [타일식 표시](../../../interface/2d-view/2d-view.md) 및 [배경 이미지](../../../interface/2d-view/2d-view.md)와 같이 이미지를 편집하는 동안 2D 보기 패널의 다른 모든 기능은 여전히 *사용 가능*&#x200B;합니다.
 
 >[!IMPORTANT]
 >
-> [새로 만들거나 가져온](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)인 *8비트* [비트맵 리소스](../../../resources/bitmap-resource/bitmap-resource.md)에 *전용*&#x200B;을(를) 페인트할 수 있습니다.
+> [새로 만들거나 가져온](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)인 *8비트* [비트맵 리소스](../../../resources/bitmap-resource/bitmap-resource.md)에서 *전용*&#x200B;을 페인트 할 수 있습니다.
 
 >[!WARNING]
 >
@@ -42,7 +42,7 @@ ht-degree: 0%
 > 
 > 태블릿 사용자는 가장 안정적인 환경을 위해 다음 페이지에 설명된 설정을 적용해야 합니다. [펜 및 태블릿 구성](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![새 비트맵 대화 상자](bitmap-painting-tools.resources/2dview-paintingtools-new-bitmap.png "새 비트맵 대화 상자"){width="512px"}
+![새 비트맵 대화 상자](bitmap-painting-tools.resources/bitmap-painting-tools-02.png "새 비트맵 대화 상자"){width="512px"}
 
 ## 페인팅 도구 활성화
 
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 페인팅 도구는 기본적으로 [2D 보기](../../../interface/2d-view/2d-view.md) 패널의 *왼쪽*&#x200B;에 있는 **도구 선택 도구 모음**&#x200B;에서 찾을 수 있습니다. 키보드 단축키를 사용하면 이러한 도구에 빠르게 액세스할 수 있으며, 도구/함수 이름 뒤 괄호 사이에는 아래와 같이 표시됩니다.
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](bitmap-painting-tools.resources/2dview-paintingtools-icon-colors-secondary.png) <b>색상 선택</b> <b>축소판:</b> *기본* 및 *보조* 색상을 정의할 수 있습니다. 이 축소판 중 하나를 클릭하여 <b>색상 편집기</b> 창을 표시하고 색상을 정의합니다. 도구에서 *기본* 색상을 사용합니다. 기본 색상과 보조 색상은 언제든지 *교체*(<b>X</b>)할 수 있습니다.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-03.png)![](bitmap-painting-tools.resources/bitmap-painting-tools-04.png) <b>색상 선택</b> <b>축소판:</b> *기본* 및 *보조* 색상을 정의할 수 있습니다. 이 축소판 중 하나를 클릭하여 <b>색상 편집기</b> 창을 표시하고 색상을 정의합니다. 도구에서 *기본* 색상을 사용합니다. 기본 색상과 보조 색상은 언제든지 *교체*(<b>X</b>)할 수 있습니다.
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush.png) <b>브러시 도구(B):</b> 도구 옵션 도구 모음에 정의된 옵션을 사용하여 펜 끝이나 <b>LMB</b> 단추를 누를 때 커서 위치에 *기본* 색상을 적용합니다
+![](bitmap-painting-tools.resources/bitmap-painting-tools-05.png) <b>브러시 도구(B):</b> 도구 옵션 도구 모음에 정의된 옵션을 사용하여 펜 끝이나 <b>LMB</b> 단추를 누를 때 커서 위치에 *기본* 색상을 적용합니다
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-clone.png) <b>도장 도구(T):</b> 사용하면 이미지의 일부를 다른 도장에 찍어낼 수 있습니다. <b>Alt</b> 키를 누른 상태에서 <b>LMB</b>를 클릭하여 도장을 찍어야 하는 *원본*&#x200B;을 정의할 수 있습니다. 그런 다음 [도구 옵션] 도구 모음에 정의된 옵션을 사용하여 펜 끝이나 <b>LMB</b> 단추를 누르면 이미지의 *대상* 영역이 커서 위치에 스탬프됩니다. 원본은 대상의 움직임을 *추적*&#x200B;하며, *원본* 영역의 크기는 *브러시*&#x200B;의 크기와 *일치*&#x200B;합니다.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-06.png) <b>도장 도구(T):</b> 사용하면 이미지의 일부를 다른 도장에 찍어낼 수 있습니다. <b>Alt</b> 키를 누른 상태에서 <b>LMB</b>를 클릭하여 도장을 찍어야 하는 *원본*&#x200B;을 정의할 수 있습니다. 그런 다음 [도구 옵션] 도구 모음에 정의된 옵션을 사용하여 펜 끝이나 <b>LMB</b> 단추를 누르면 이미지의 *대상* 영역이 커서 위치에 스탬프됩니다. 원본은 대상의 움직임을 *추적*&#x200B;하며, *원본* 영역의 크기는 *브러시*&#x200B;의 크기와 *일치*&#x200B;합니다.
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-clone-alignment.png) <b>맞춤 사용(스탬프 도구 옵션):</b> 새 스탬프가 시작될 때 원본이 *제자리에 있어야 하는지* 아니면 *새 스탬프 위치에 상대적으로 재배치되어야 하는지* 정의할 수 있습니다.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-07.png) <b>맞춤 사용(스탬프 도구 옵션):</b> 새 스탬프가 시작될 때 원본이 *제자리에 있어야 하는지* 아니면 *새 스탬프 위치에 상대적으로 재배치되어야 하는지* 정의할 수 있습니다.
 
-<b>![](bitmap-painting-tools.resources/2dview-paintingtools-icon-eraser.png) 지우개(E):</b> [도구 옵션] 도구 모음에 정의된 옵션을 사용하여 펜 끝이나 <b>LMB</b> 단추를 누를 때 커서 위치에서 이미지의 현재 색상을 (0, 0, 0, 0) 값으로 바꿉니다. <b>Alpha</b> 채널에서 이 도구의 영향을 추적하려면 [투명도 표시](../../../interface/2d-view/2d-view.md)가 사용하도록 설정되어 있는지 확인하세요.
+<b>![](bitmap-painting-tools.resources/bitmap-painting-tools-08.png) 지우개(E):</b> [도구 옵션] 도구 모음에 정의된 옵션을 사용하여 펜 끝이나 <b>LMB</b> 단추를 누를 때 커서 위치에서 이미지의 현재 색상을 (0, 0, 0, 0) 값으로 바꿉니다. <b>Alpha</b> 채널에서 이 도구의 영향을 추적하려면 [투명도 표시](../../../interface/2d-view/2d-view.md)가 사용하도록 설정되어 있는지 확인하세요.
 
 ## 도구 옵션 도구 모음
 
@@ -97,16 +97,16 @@ ht-degree: 0%
 
 ### 브러시 선택
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>브러시 선택</b>을 사용하면 사용 가능한 브러시 *사전 설정*&#x200B;에서 *사전 구성* 브러시를 선택하고, <b>크기</b> 및 <b>경도</b> *(*&#x200B;브러시 편집기의 <b>모양</b> 섹션 참조)를 설정하고, 브러시 획의 *미리 보기*를 표시할 수 있습니다.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>브러시 선택</b>을 사용하면 사용 가능한 브러시 *사전 설정*&#x200B;에서 *사전 구성* 브러시를 선택하고, <b>크기</b> 및 <b>경도</b> *(*&#x200B;브러시 편집기의 <b>모양</b> 섹션 참조)를 설정하고, 브러시 획의 *미리 보기*를 표시할 수 있습니다.
 
-브러시 사전 설정은 브러시 편집기에서 만들고 편집하며 *라이브러리*&#x200B;에 정렬할 수 있습니다. 이 패널에 나타나는 브러시 사전 설정은 불러온 모든 브러시 사전 설정 라이브러리 중 *합계*&#x200B;입니다. 이러한 라이브러리는 ![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-library.png) <b>브러시 라이브러리</b> 메뉴에 액세스하여 관리할 수 있습니다(브러시 편집기의 <b>사전 설정</b> 섹션 참조).
+브러시 사전 설정은 브러시 편집기에서 만들고 편집하며 *라이브러리*&#x200B;에 정렬할 수 있습니다. 이 패널에 나타나는 브러시 사전 설정은 불러온 모든 브러시 사전 설정 라이브러리 중 *합계*&#x200B;입니다. 이러한 라이브러리는 ![](bitmap-painting-tools.resources/bitmap-painting-tools-10.png) <b>브러시 라이브러리</b> 메뉴에 액세스하여 관리할 수 있습니다(브러시 편집기의 <b>사전 설정</b> 섹션 참조).
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-brushpresets-previewbkgd.png) <b>배경색 선택</b> 단추를 사용하면 *브러시 획 미리 보기*&#x200B;의 배경색을 변경할 수 있습니다.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-11.png) <b>배경색 선택</b> 단추를 사용하면 *브러시 획 미리 보기*&#x200B;의 배경색을 변경할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![브러시 선택 패널](bitmap-painting-tools.resources/2dview-paintingtools-brushes.png "브러시 선택 패널")
+![브러시 선택 패널](bitmap-painting-tools.resources/bitmap-painting-tools-12.png "브러시 선택 패널")
 
 </td>
 </tr>
@@ -118,15 +118,15 @@ ht-degree: 0%
 
 ### 브러시 편집기
 
-![](bitmap-painting-tools.resources/2dview-paintingtools-icon-brush-options.png) <b>브러시 편집기</b>에서는 브러시의 동작을 정의할 수 있는 세분화된 옵션에 액세스할 수 있습니다.
+![](bitmap-painting-tools.resources/bitmap-painting-tools-13.png) <b>브러시 편집기</b>에서는 브러시의 동작을 정의할 수 있는 세분화된 옵션에 액세스할 수 있습니다.
 
 <b>사전 설정</b>
 
-브러시는 사용자 정의한 다음 <b>브러시 사전 설정</b>으로 저장할 수 있으며, ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-currentpreset.png) <b>브러시 사전 설정 목록</b> 및 ![](bitmap-painting-tools.resources/2dview-paintingtools-brush-thumb.png) <b>브러시 선택</b> 패널에서 사용할 수 있습니다.
+브러시는 사용자 정의한 다음 <b>브러시 사전 설정</b>으로 저장할 수 있으며, ![](bitmap-painting-tools.resources/bitmap-painting-tools-14.png) <b>브러시 사전 설정 목록</b> 및 ![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>브러시 선택</b> 패널에서 사용할 수 있습니다.
 
-사전 설정을 만들려면 아래의 속성을 원하는 대로 설정한 다음 ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-addpreset.png) <b>브러시 사전 설정 추가 </b>버튼을 클릭하고 <b>사전 설정 이름</b> 창에서 브러시 이름을 설정합니다. 이제 <b>브러시 사전 설정 목록</b>에서 새 사전 설정이 자동으로 선택되고, 언제든지 새 현재 설정으로 ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-updatepreset.png) <b>업데이트</b>하거나 ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-deletepreset.png) <b>삭제</b>할 수 있습니다.
+사전 설정을 만들려면 아래의 속성을 원하는 대로 설정한 다음 ![](bitmap-painting-tools.resources/bitmap-painting-tools-15.png) <b>브러시 사전 설정 추가 </b>버튼을 클릭하고 <b>사전 설정 이름</b> 창에서 브러시 이름을 설정합니다. 이제 <b>브러시 사전 설정 목록</b>에서 새 사전 설정이 자동으로 선택되고, 언제든지 새 현재 설정으로 ![](bitmap-painting-tools.resources/bitmap-painting-tools-16.png) <b>업데이트</b>하거나 ![](bitmap-painting-tools.resources/bitmap-painting-tools-17.png) <b>삭제</b>할 수 있습니다.
 
-사전 설정은 ![](bitmap-painting-tools.resources/2dview-paintingtools-editor-presetlibrary.png) <b>브러시 라이브러리</b> 메뉴에서 관리할 수 있는 *라이브러리*&#x200B;에 구성되어 저장됩니다.
+사전 설정은 ![](bitmap-painting-tools.resources/bitmap-painting-tools-18.png) <b>브러시 라이브러리</b> 메뉴에서 관리할 수 있는 *라이브러리*&#x200B;에 구성되어 저장됩니다.
 
 <b>라이브러리 내보내기:</b> 현재 사전 설정과 모든 설정을 라이브러리 파일에 *저장*
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![브러시 편집기](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor.png "브러시 편집기")
+![브러시 편집기](bitmap-painting-tools.resources/bitmap-painting-tools-19.png "브러시 편집기")
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ ht-degree: 0%
 +++텍스처
 브러시에 *비트맵 파일*&#x200B;을 적용하고 플랫 색상 대신 해당 비트맵을 *도장*&#x200B;하는 데 사용할 수 있습니다. 브러시 텍스처는 다음과 같이 작동합니다.
 
-<b>텍스처 파일: </b>브러시 텍스처로 사용해야 하는 비트맵의 *경로*&#x200B;를 정의합니다. 입력 필드 옆에 있는 ![](bitmap-painting-tools.resources/2dview-paintingtools-brusheditor-selecttexture.png) 단추를 사용하여 시스템 파일 브라우저를 통해 비트맵을 선택할 수 있습니다
+<b>텍스처 파일: </b>브러시 텍스처로 사용해야 하는 비트맵의 *경로*&#x200B;를 정의합니다. 입력 필드 옆에 있는 ![](bitmap-painting-tools.resources/bitmap-painting-tools-20.png) 단추를 사용하여 시스템 파일 브라우저를 통해 비트맵을 선택할 수 있습니다
 
 *전용* 텍스처가 브러시의 기본 플랫 색상을 대체합니다. 즉, 위에 나열된 모든 브러시 속성을 *계속 사용할 수 있습니다*. 이렇게 하면 설명한 대로 작동합니다
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 <b>플로우</b>는 지정된 시간에 적용되는 *도구 효과의 양*&#x200B;을 제어합니다. *같은 선에 첨가물*&#x200B;입니다. 이는 해당 영역에서 *같은 선*&#x200B;을 여러 번 통과하거나 여러 개의 개별 선을 수행하여 영역의 불투명도를 다시 최대 100%로 추가할 수 있음을 의미합니다.
 
-![불투명도 및 플로우 컨트롤](bitmap-painting-tools.resources/2dview-paintingtools-opacityflow.png "불투명도 및 플로우 컨트롤")
+![불투명도 및 플로우 컨트롤](bitmap-painting-tools.resources/bitmap-painting-tools-21.png "불투명도 및 플로우 컨트롤")
 
 <table>
 <tr style="border: 0;">
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 ### 타일링 모드
 
-브러시, 스탬프 및 지우개 도구를 사용하면 ![](bitmap-painting-tools.resources/2dview-paintingtools-icon-tiling.png) <b>타일링 모드</b>를 설정할 수도 있습니다. 이 모드는 획이 이미지의 경계 밖의 영역에 영향을 줄 때 이미지의 반대 방향으로 *뒤로 반복*&#x200B;하는 기능을 정의합니다.
+브러시, 스탬프 및 지우개 도구를 사용하면 ![](bitmap-painting-tools.resources/bitmap-painting-tools-22.png) <b>타일링 모드</b>를 설정할 수도 있습니다. 이 모드는 획이 이미지의 경계 밖의 영역에 영향을 줄 때 이미지의 반대 방향으로 *뒤로 반복*&#x200B;하는 기능을 정의합니다.
 
 <b>X 및 Y 타일링</b>: 브러시 획이 가로 및 세로 방향으로 *모두* 타일링됩니다.
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![타일링 모드](bitmap-painting-tools.resources/2dview-paintingtools-tiling.png "타일링 모드")
+![타일링 모드](bitmap-painting-tools.resources/bitmap-painting-tools-23.png "타일링 모드")
 
 </td>
 </tr>

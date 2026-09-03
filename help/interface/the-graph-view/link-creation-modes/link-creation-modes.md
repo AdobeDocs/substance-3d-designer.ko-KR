@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: 노드를 효율적으로 연결하기 위한 Substance 3D Designer 그래프 보기의 링크 생성 모드에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 링크 생성 모드
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,22 +26,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![링크 만들기 모드: 표준](link-creation-modes.resources/link-creation-mode-standard.gif "링크 만들기 모드: 표준"){zoomable="yes"}
+![링크 만들기 모드: 표준](link-creation-modes.resources/link-creation-modes-01.gif "링크 만들기 모드: 표준"){zoomable="yes"}
 
 *확대하려면 클릭*
 
-<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png) 표준</b> (1)
+<b>![](link-creation-modes.resources/link-creation-modes-02.png) 표준</b> (1)
 
 조건이 적용되지 않습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![링크 만들기 모드: 재질](link-creation-modes.resources/link-creation-mode-material.gif "링크 만들기 모드: 재질"){zoomable="yes"}
+![링크 만들기 모드: 재질](link-creation-modes.resources/link-creation-modes-03.gif "링크 만들기 모드: 재질"){zoomable="yes"}
 
 *확대하려면 클릭*
 
-![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>재질</b> (2)
+![](link-creation-modes.resources/link-creation-modes-04.png) <b>재질</b> (2)
 
 입력과 출력은 사용량에 따라 일치합니다.
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![링크 만들기 모드: 소형 재질](link-creation-modes.resources/link-creation-mode-compact-material.gif "링크 만들기 모드: 소형 재질"){zoomable="yes"}
+![링크 만들기 모드: 소형 재질](link-creation-modes.resources/link-creation-modes-05.gif "링크 만들기 모드: 소형 재질"){zoomable="yes"}
 
 *확대하려면 클릭*
 
-![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>컴팩트 재질</b> (3)
+![](link-creation-modes.resources/link-creation-modes-06.png) <b>컴팩트 재질</b> (3)
 
 재질과 동일합니다.
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-그래프 도구 모음에서 ![](link-creation-modes.resources/link-creation-mode.png) <b>링크 만들기 모드</b> 버튼을 클릭하거나 위에 나열된 키보드 단축키를 사용하여 언제든지 모드 간에 전환할 수 있습니다.
+그래프 도구 모음에서 ![](link-creation-modes.resources/link-creation-modes-07.png) <b>링크 만들기 모드</b> 버튼을 클릭하거나 위에 나열된 키보드 단축키를 사용하여 언제든지 모드 간에 전환할 수 있습니다.
 
 <b>재질</b> 및 <b>압축 재질</b> 모드에서는 *일치하지 않는 사용*&#x200B;을 사용하는 입력과 출력 간의 연결이 금지됩니다.
 
 ## 모드
 
-|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> 표준 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> 압축 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> 컴팩트 재질 |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-02.png"/></div> 표준 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-04.png"/></div> 압축 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-06.png"/></div> 컴팩트 재질 |
 | --- | --- | --- | --- |
 | <b>입력</b> | 모든 입력이 표시됩니다. | 모든 입력이 표시됩니다. | 그룹당 입력 1개만 |
 | <b>출력</b> | 모든 출력이 표시됩니다 | 모든 출력이 표시됩니다 | 그룹당 1개의 출력만 |
@@ -92,7 +92,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![노드의 그룹 캡슐](link-creation-modes.resources/link-creation-mode-group-node.png "노드의 그룹 캡슐"){zoomable="yes"}
+![노드의 그룹 캡슐](link-creation-modes.resources/link-creation-modes-08.png "노드의 그룹 캡슐"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![그룹 특성](link-creation-modes.resources/link-creation-mode-group.png "그룹 특성"){zoomable="yes"}
+![그룹 특성](link-creation-modes.resources/link-creation-modes-09.png "그룹 특성"){zoomable="yes"}
 
 *확대하려면 클릭*
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![사용 특성](link-creation-modes.resources/link-creation-mode-usage.png "사용 특성"){zoomable="yes"}
+![사용 특성](link-creation-modes.resources/link-creation-modes-10.png "사용 특성"){zoomable="yes"}
 
 *확대하려면 클릭*
 

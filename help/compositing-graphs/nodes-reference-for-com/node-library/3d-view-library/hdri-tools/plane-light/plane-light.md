@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: 직접 조명 제어를 위해 평면 조명 노드를 사용하여 HDRI 환경에 평면 광원을 추가합니다.
+description: 직접 조명 제어를 위해 평면 광원 노드를 사용하여 평면 광원을 HDRI 환경에 추가합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 평면 라이트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/plane-light-01.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 | <b>모양 색상 모드</b> <i>RGB, 온도(켈빈), 이미지 입력</i> | 모양 색상을 설정하는 데 사용할 방법을 선택합니다. 이미지 입력(Image Input)은 두 번째 입력 슬롯을 사용할 수 있게 합니다. |
 | <b>색상</b> <i>(색상 값)</i> | [모양 색상 모드]가 [RGB]로 설정된 경우에만 가능합니다. 모양의 색상을 선택합니다. |
 | <b>온도</b> <i>800.0 - 20000.0</i> | [모양 색상 모드]가 [온도]로 설정된 경우에만 가능합니다. 모양 색상의 켈빈 값을 설정합니다. |
-| <b>모양 이미지 UV 모드</b> <i>늘리다, 중간만 반복 + 1&rbrace;</i> | [모양 색상 모드]가 [이미지 입력]으로 설정된 경우에만 가능합니다. 선 모양에 이미지가 적용되는 방식을 설정하고 UV 반복 동작을 결정합니다. |
+| <b>모양 이미지 UV 모드</b> <i>늘리다, 중간만 반복 + 1}</i> | [모양 색상 모드]가 [이미지 입력]으로 설정된 경우에만 가능합니다. 선 모양에 이미지가 적용되는 방식을 설정하고 UV 반복 동작을 결정합니다. |
 | <b>모양 이미지 반복 간격</b> <i>0.0 - 1.0</i> | [모양 색상 모드]가 [이미지 입력]으로 설정되고 [UV 모드]가 [반복 + 간격]으로 설정된 경우에만 가능합니다. 이미지가 선을 따라 반복될 때의 간격 값을 설정합니다. |
 | <b>모양 이미지 감마</b> <i>sRGB, 선형</i> | [모양 색상 모드]가 [이미지 입력]으로 설정된 경우에만 가능합니다. 모양 이미지 입력을 해석하는 방법을 결정합니다. |
 | <b>노출(EV)</b> <i>0.0 - 10.0</i> | 생성된 모양에 대한 노출 값 설정, 배경 이미지 노출 값과 이상적인 일치. |
@@ -89,7 +89,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-02.gif" />
         </td>
     </tr>
 </table>

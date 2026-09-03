@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ''
 description: ''
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 출력
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 출력](output.resources/comp_output_1.png "Atomic node: 출력"){width="200px"}
+![Atomic node: 출력](output.resources/output-01.png "Atomic node: 출력"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ ht-degree: 0%
 | <b>식별자</b> *문자열* | 출력의 고유 식별자입니다. 이 속성은 비워 둘 수 없으며 특수 문자 또는 공백을 포함할 수 없습니다.   이 식별자는 노드의 레이블인 &#39;Label&#39; 속성이 공백으로 남아 있을 때 사용됩니다. [내보낸 텍스처](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)의 이름을 지정하는 데 사용할 수도 있습니다. |
 | <b>설명</b> *문자열* | 출력의 도구 설명으로 사용되는 선택적 설명은 Substance 그래프입니다. |
 | <b>레이블</b> *문자열* | 출력 노드 및 이 그래프를 나타내는 [인스턴스 노드](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)의 해당 커넥터에 대한 레이블로 사용됩니다. 레이블에는 공백 및 특수 문자가 포함될 수 있습니다. |
-| <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
+| <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
 | <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 출력을 함께 그룹화하는 데 사용되는 특성입니다.   &#39;Group&#39; 특성이 동일한 출력이 &#39;Compact Material&#39; 링크 생성 모드에서 단일 연결로 표시됩니다. |
 
 ## 통합 특성
@@ -101,11 +101,11 @@ ht-degree: 0%
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="output.resources/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/output-02.png" alt="defaultouput2">
       <br><i>이전</i>
     </td>
     <td style="border: 0">
-      <img src="output.resources/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/output-03.png" alt="defaultouput1">
       <br><i>이후</i>
     </td>
   </tr>

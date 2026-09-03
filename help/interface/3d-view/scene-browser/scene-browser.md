@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: '[장면 브라우저]를 사용하여 뷰포트에서 3D 장면 요소, 재질 및 개체를 탐색하고 관리합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 장면 브라우저
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -24,11 +24,11 @@ ht-degree: 1%
 
 개체를 선택하고 가시성을 전환하며 [장면 재정의](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)할 재질을 선택할 수 있는 컨트롤을 제공합니다.
 
-Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openusd.org/release/index.html)을(를) 사용하므로 해당 용어와 개념이 장면 트리에서 찾을 수 있습니다.
+Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openusd.org/release/index.html)을(를) 사용하므로 해당 용어와 개념은 장면 트리에서 찾을 수 있습니다.
 
-[3D 보기 장면 도구 모음](../../../interface/3d-view/3d-view.md)에서 전용 토글 버튼 ![](scene-browser.resources/sceneBrowser-toggleButton.png)을(를) 클릭하여 표시합니다.
+[3D 보기 장면 도구 모음](../../../interface/3d-view/3d-view.md)에서 전용 토글 버튼 ![](scene-browser.resources/scene-browser-01.png)을(를) 클릭하여 표시합니다.
 
-![장면 브라우저 - 3D 장면 로드됨](scene-browser.resources/loaded3DScene.png "장면 브라우저 - 3D 장면 로드됨"){zoomable="yes"}
+![장면 브라우저 - 3D 장면 로드됨](scene-browser.resources/scene-browser-02.png "장면 브라우저 - 3D 장면 로드됨"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openu
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![장면 브라우저 - 장면 트리](scene-browser.resources/sceneBrowser-sceneTree.png "장면 브라우저 - 장면 트리"){zoomable="yes"}
+![장면 브라우저 - 장면 트리](scene-browser.resources/scene-browser-03.png "장면 브라우저 - 장면 트리"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Designer이 로드된 장면에 일부 개체를 추가합니다. Designer에서
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![장면 브라우저 - Designer에서 추가한 개체가 굵게 표시됨](scene-browser.resources/sceneBrowser-addedByDesigner.png "장면 브라우저 - Designer에서 추가한 개체가 굵게 표시됨"){zoomable="yes"}
+![장면 브라우저 - Designer에서 추가한 개체가 굵게 표시됨](scene-browser.resources/scene-browser-04.png "장면 브라우저 - Designer에서 추가한 개체가 굵게 표시됨"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Designer이 로드된 장면에 일부 개체를 추가합니다. Designer에서
 
 상위 개체의 상태는 하위 개체의 상태로 이어지므로 상위 개체를 비활성화하면 하위 개체도 비활성화됩니다.
 
-개체의 눈 단추 ![](scene-browser.resources/sceneBrowser-eyeButton.png)을(를) 클릭하거나 개체의 컨텍스트 메뉴에서 개체의 가시성을 전환할 수 있습니다. 이 메뉴에서는 장면 개체의 가시성을 관리하기 위한 몇 가지 추가 작업을 제공합니다.
+개체의 눈 단추 ![](scene-browser.resources/scene-browser-05.png)을(를) 클릭하거나 개체의 컨텍스트 메뉴에서 개체의 가시성을 전환할 수 있습니다. 이 메뉴에서는 장면 개체의 가시성을 관리하기 위한 몇 가지 추가 작업을 제공합니다.
 
 * <b>숨기기:</b> 선택한 개체를 비활성화합니다.
 * <b>표시:</b> 선택한 개체를 활성화합니다.
@@ -128,23 +128,23 @@ Designer이 로드된 장면에 일부 개체를 추가합니다. Designer에서
 * <b>모든 자식 확장:</b> 선택한 개체에서 모든 자식 목록을 재귀적으로 확장합니다.
 * <b>모든 자식 축소:</b> 선택한 개체 아래의 모든 자식 목록을 재귀적으로 축소합니다.
 
-![장면 브라우저 - 개체 표시 여부 전환](scene-browser.resources/sceneBrowser-toggleVisibility.gif "장면 브라우저 - 개체 표시 여부 전환"){zoomable="yes"}
+![장면 브라우저 - 개체 표시 여부 전환](scene-browser.resources/scene-browser-06.gif "장면 브라우저 - 개체 표시 여부 전환"){zoomable="yes"}
 
 ### 환경
 
-모든 환경 조명(DomeLight)의 가시성은 다른 개체와 동일한 방식으로 활성화 및 비활성화할 수 있습니다.
+환경 조명(DomeLight)의 가시성은 다른 개체와 동일한 방식으로 활성화 및 비활성화할 수 있습니다.
 
-환경 조명이 비활성화되면 장면에 대한 조명 기여도 비활성화됩니다.
+환경 조명이 비활성화된 경우 장면에 대한 조명 기여도도 비활성화됩니다.
 
-두 개 이상의 환경 조명을 사용하도록 설정한 경우 해당 조명 기여도는 *누적*&#x200B;됩니다.
+둘 이상의 환경 조명을 사용하는 경우 조명 기여도는 *누적*&#x200B;됩니다.
 
-![장면 브라우저 - 환경 표시 여부 전환](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "장면 브라우저 - 환경 표시 여부 전환"){zoomable="yes"}
+![장면 브라우저 - 환경 표시 여부 전환](scene-browser.resources/scene-browser-07.gif "장면 브라우저 - 환경 표시 여부 전환"){zoomable="yes"}
 
 ### 조명
 
 장면의 모든 조명도 마찬가지입니다. 각 조명은 개별적으로 전환할 수 있습니다.
 
-![장면 브라우저 - 조명 가시성 전환](scene-browser.resources/sceneBrowser-toggleLights.gif "장면 브라우저 - 조명 가시성 전환"){zoomable="yes"}
+![장면 브라우저 - 조명 가시성 전환](scene-browser.resources/scene-browser-08.gif "장면 브라우저 - 조명 가시성 전환"){zoomable="yes"}
 
 ## 연결된 재질
 
@@ -163,7 +163,7 @@ Designer에서 나열하는 재질은 장면 트리에서 하나 이상의 메�
 </td>
 <td style="border: 0;" valign="top">
 
-![장면 브라우저 - 연결된 자료](scene-browser.resources/sceneBrowser-connectedMaterial.png "장면 브라우저 - 연결된 자료"){zoomable="yes"}
+![장면 브라우저 - 연결된 자료](scene-browser.resources/scene-browser-09.png "장면 브라우저 - 연결된 자료"){zoomable="yes"}
 
 </td>
 </tr>

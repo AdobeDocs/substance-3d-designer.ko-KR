@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: 절차 텍스처에 대한 빠른 반응 확산 알고리즘을 사용하여 유기 패턴을 생성하려면 반응 확산 빠른 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 빠른 반응 확산
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![반응 확산 노드 아이콘](reaction-diffusion-fast.resources/reaction-diffusion.png "반응 확산 노드 아이콘")
+![반응 확산 노드 아이콘](reaction-diffusion-fast.resources/reaction-diffusion-fast-01.png "반응 확산 노드 아이콘")
 
 <b>인:</b> 필터 > 효과
 
@@ -74,17 +74,17 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![예 1](reaction-diffusion-fast.resources/reactdiff03.png "예 1")
+![예 1](reaction-diffusion-fast.resources/reaction-diffusion-fast-02.png "예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 2](reaction-diffusion-fast.resources/reactdiff02.png "예 2")
+![예 2](reaction-diffusion-fast.resources/reaction-diffusion-fast-03.png "예 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 3](reaction-diffusion-fast.resources/reactdiff01.gif "예 3")
+![예 3](reaction-diffusion-fast.resources/reaction-diffusion-fast-04.gif "예 3")
 
 </td>
 </tr>

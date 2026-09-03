@@ -1,7 +1,7 @@
 ---
 title: 3D 뷰어
 description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > 필터 > 효과 > 3D 뷰어
-source-git-commit: cf997d97732d612012e12714280edb5cc9842cb8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D 뷰어 아이콘](./3d-viewer.resources/3d-viewer.png "3D 뷰어")
+![3D 뷰어 아이콘](./3d-viewer.resources/3d-viewer-01.png "3D 뷰어")
 
 <b>인:</b> 필터 > 효과
 
@@ -70,15 +70,15 @@ ht-degree: 0%
 | <b>카메라 샘플</b> *정수* | 픽셀 당 수행되는 카메라 샘플의 양입니다.<br><br>이 매개 변수는 앤티 앨리어싱의 품질과 필드 효과의 깊이에 영향을 줍니다.<br><br>값이 높을수록 성능이 저하되지만 이미지의 노이즈가 줄어듭니다. |
 | <b>광선 행진 단계</b> *정수* | 구 추적 프로세스에서 수행된 단계의 양, 즉 모양의 표면을 감지하고 그리는 데 사용되는 광선 마칭 기법입니다.<br><br>값이 높을수록 성능이 저하되지만 정확하고 일관된 표면(특히 복잡한 모양의 경우)이 생성됩니다.<br><br><i>팁:</i> <b>출력</b> 매개 변수를 &#39;구 추적 단계&#39; AOV로 설정하여 추가 단계가 필요한 모양의 영역을 시각화하십시오. 이러한 영역은 먼저 단계의 양을 줄여 영향을 받습니다. |
 | <b>보조 광선 행진 단계</b> *정수* | 구 추적 프로세스에서 수행한 단계의 양으로 확산 및 Specular 오클루전을 계산하여 기울어진 그림자를 그립니다.<br><br>값이 높을수록 성능이 저하되어 그림자가 더 정확해집니다. |
-| <b>카메라 모드</b> *정수* | 장면을 렌더링 이미지에 투영하는 방법:<br><br>- <b>원근:</b> 이 투영은 깊이를 전달하고 필드 깊이와 같은 렌즈 효과를 활성화합니다.<br>- <b>직교:</b> 이 투영은 장면을 병합하고 깊이를 무효화합니다.<br>- <b>사용자 정의 함수:</b> 함수 그래프를 작성하여 사용자 정의 카메라를 설정합니다. |
-| <b>카메라 함수</b> *Float3* | 카메라의 변환을 정의하는 함수 그래프입니다. 이 설정은 사용자 정의 카메라를 설정하는 데 사용할 수 있습니다.<br><br>함수는 다음 변수를 <b>설정</b>해야 합니다.<br>- <code>view.origin</code> (Float3) 카메라 보기의 픽셀당 월드 공간 위치입니다.<br>- <code>view.direction.</code> (Float3) 투영 모드에 따른 카메라 뷰의 픽셀당 순방향 벡터. (E.g. 원근 또는 직교)<br><br>다음 변수를 <b>get</b>:<br>- <code>camera.origin에 사용할 수 있습니다.</code> (Float3) 카메라의 월드 공간 위치입니다. (camera.direction * camera_distance + camera.target)<br>- <code>camera.direction</code> (Float3) 카메라의 월드 공간 방향(즉, 카메라의 Y 방향 벡터)입니다.<br>- <code>camera.right</code> (Float3) 카메라의 X-오른쪽 벡터.<br>- <code>camera.up</code> (Float3) 카메라의 Z-up 벡터입니다.<br>- <code>camera.target</code> (Float3) 카메라 대상의 세계 공간 위치입니다. |
-| <b>UV 위치</b> *Float2* | 2D 이미지 공간에서 <b>대상 위치</b>를 선회하는 카메라 위치와 방향을 유추하는 데 사용되는 위치입니다.<br><br><i>팁:</i> 이 매개 변수는 노드를 선택할 때 2D 보기에서 사용할 수 있는 <i>위치 기즈모</i>를 사용하여 직관적으로 조정할 수 있습니다. |
-| <b>FOV</b> *부동* | 줌 계수에 영향을 주는 직교 카메라의 FOV(시야) |
+| <b>카메라 모드</b> *정수* | 장면을 렌더링 이미지에 투영하는 방법:<br><br>- <b>원근감:</b> 이 투영은 깊이를 전달하고 필드 깊이와 같은 렌즈 효과를 활성화합니다.<br>- <b>직교:</b> 이 투영은 장면을 병합하고 깊이를 무효화합니다.<br>- <b>사용자 정의 함수:</b> 함수 그래프를 작성하여 사용자 정의 카메라를 설정합니다. |
+| <b>카메라 함수</b> *Float3* | 카메라의 변환을 정의하는 함수 그래프 이 설정은 사용자 정의 카메라를 설정하는 데 사용할 수 있습니다.<br><br>함수는 다음 변수를 <b>설정</b>해야 합니다.<br>- <code>view.origin</code> (Float3) 카메라 보기의 픽셀당 월드 공간 위치입니다.<br>- <code>view.direction.</code> (부동 3) 투영 모드에 따른 카메라 뷰의 픽셀당 순방향 벡터. (E.g. 원근감 또는 직교)<br><br>다음 변수를 <b>get</b>:<br>- <code>camera.origin에 사용할 수 있습니다.</code> (부동 3) 카메라의 월드 공간 위치입니다. (camera.direction * camera_distance + camera.target)<br>- <code>camera.direction</code> (부동3) 카메라의 월드 공간 방향(즉, 카메라의 Y-포워드 벡터).<br>- <code>camera.right</code> (부동 3) 카메라의 X-오른쪽 벡터.<br>- <code>camera.up</code> (부동3) 카메라의 Z-up 벡터입니다.<br>- <code>camera.target</code> (부동 3) 카메라 대상의 세계 공간 위치입니다. |
+| <b>UV 위치</b> *부동2* | 2D 이미지 공간에서 <b>대상 위치</b>를 선회하는 카메라 위치와 방향을 유추하는 데 사용되는 위치입니다.<br><br><i>팁:</i> 이 매개 변수는 노드를 선택할 때 2D 보기에서 사용할 수 있는 <i>위치 기즈모</i>를 사용하여 직관적으로 조정할 수 있습니다. |
+| <b>FOV</b> *부동* | 확대/축소 계수에 영향을 주는 직교 카메라의 FOV(시야). |
 | <b>초점 거리</b> *부동* | 필드 효과의 확대/축소 계수와 깊이에 영향을 주는 카메라의 초점 거리. |
 | <b>대상과의 거리</b> *부동* | 카메라가 <b>대상 위치</b>에서 정지해야 하는 거리입니다.<br><br>이 옵션을 조정하면 카메라가 대상 방향으로 이동합니다. |
 | <b>대상 위치</b> *Float3* | 카메라가 항상 향하는 카메라 대상 위치입니다. |
-| <b>토네마퍼</b> *정수* | 장면 렌더링에 적용해야 하는 톤 매핑 알고리즘입니다.<br><br>- <b>없음(Raw)<br>- <b>sRGB</b><br>- <b>AgX</b><br>- <b>ACES</b> |
-| <b>필드 깊이 사용</b> *부울* | 원근 카메라의 &#39;필드 깊이&#39; 카메라 렌즈 효과를 시뮬레이션합니다.<br><br><b>F 숫자</b> 및 <b>초점 거리</b> 매개 변수를 사용하여 효과의 조리개와 초점을 각각 조정합니다.<br><br>결과는 <b>초점 거리</b>에도 영향을 줍니다. |
+| <b>토네마퍼</b> *정수* | 장면 렌더링에 적용해야 하는 톤 매핑 알고리즘입니다.<br><br>- <b>없음(Raw)<br>- <b>sRGB</b><br>- <b>AgX</b><br>- <b>ACE</b> |
+| <b>필드 깊이 사용</b> *부울* | 원근감 카메라에 대한 &#39;필드 깊이&#39; 카메라 렌즈 효과를 시뮬레이션합니다.<br><br><b>F 숫자</b> 및 <b>초점 거리</b> 매개 변수를 사용하여 효과의 조리개와 초점을 각각 조정합니다.<br><br>결과는 <b>초점 거리</b>에도 영향을 줍니다. |
 | <b>F-번호</b> *부동* | 카메라의 <i>조리개</i>.<br><br>값이 낮을수록 <i>필드 깊이</i>이 짧아집니다. 즉, 개체가 선명해지는 거리 범위가 짧아지고 해당 범위에서 멀어질수록 더 강한 흐림 효과가 적용됩니다. |
 | <b>초점 거리</b> *부동* | 초점의 거리를 카메라에서 전방 벡터를 따라 떨어진 거리로 설정합니다.<br><br>해당 거리 범위 내의 표면은 선명하게 나타나며, 해당 범위, 즉 <i>필드 깊이 </i>은(는) <b>F-숫자</b>로 정의됩니다. |
 | <b>노출(EV)</b> *부동* | 카메라 센서에 닿는 빛의 양, 즉 렌더링에서 조명의 강도.<br><br>값이 낮을수록 렌더링되는 장면이 더 어두워집니다.<br><br>EV(노출 값)는 구체적으로 카메라 센서가 <i>노출</i>되는 빛의 양을 나타냅니다. |
@@ -102,24 +102,24 @@ ht-degree: 0%
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="예제 1" />
+            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="예제 1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="예제 1" />
+                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="예제 1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="예제 2" />
+                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="예제 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="예제 3" />
+                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="예제 3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="예제 4" />
+                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="예제 4" />
                     </td>
                 </tr>
             </table>

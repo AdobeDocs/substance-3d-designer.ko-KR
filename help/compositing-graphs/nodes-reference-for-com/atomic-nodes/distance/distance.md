@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ''
 description: 거리 노드를 사용하여 모양에서 마스크 및 절차 효과를 만들기 위한 거리 맵을 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 거리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="200px"}
+![Atomic node: Distance](distance.resources/distance-01.png "Atomic node: Distance"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -87,7 +87,7 @@ ht-degree: 8%
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. &#39;원본 입력&#39; 입력 유형도 변경합니다. |
 | <b>최대 거리</b> *부동* | 마스크에서 가장 가까운 테두리를 감지하기 위한 최대 거리를 픽셀 단위로 조정합니다. |
 | <b>소스/거리 결합</b> *부울* | 선택 사항인 &#39;원본 입력&#39;이 최종 셀과 결합되는 방법을 결정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>결합:</i> &#39;소스 입력&#39; 값을 페이드 선형 마스크와 결합합니다. &#39;소스 입력&#39; 입력이 연결된 경우 해당 값은 계산된 거리와 결합됩니다.</li> <li data-preserve-html="true"><i>원본만:</i> &#39;원본 입력&#39;에서 단색으로 표시됩니다.</li> </ul> |
-| <b>거리 모드</b> *정수* | 추출된 마스크에서 가장 가까운 경계까지의 거리를 계산하는 방법을 선택합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>유클리드:</i> 제곱 X/Y 차이의 합계.</li> <li data-preserve-html="true"><i>맨해튼:</i> X/Y 차이의 절대값의 합계</li> <li data-preserve-html="true"><i>Chebyshev:</i> X/Y 차이의 절대 값의 최대값입니다.</li> </ul>  <div><img alt="거리 모드 예" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-comparison.jpg" title="거리 모드 예"/></div> |
+| <b>거리 모드</b> *정수* | 추출된 마스크에서 가장 가까운 경계까지의 거리를 계산하는 방법을 선택합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>유클리드:</i> 제곱 X/Y 차이의 합계.</li> <li data-preserve-html="true"><i>맨해튼:</i> X/Y 차이의 절대값의 합계</li> <li data-preserve-html="true"><i>Chebyshev:</i> X/Y 차이의 절대 값의 최대값입니다.</li> </ul>  <div><img alt="거리 모드 예" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-02.jpg" title="거리 모드 예"/></div> |
 
 ## 입력 커넥터
 
@@ -108,17 +108,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-03.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-04.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-05.gif){width="250px"}
 
 </td>
 </tr>

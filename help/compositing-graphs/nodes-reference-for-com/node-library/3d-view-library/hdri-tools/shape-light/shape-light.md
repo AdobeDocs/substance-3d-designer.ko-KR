@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: 모양 조명 노드를 사용하여 독특한 조명 효과를 주기 위해 HDRI 환경에 사용자 정의 모양의 광원을 추가합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 도형 조명
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-light.resources/panorama-shape.png){width="200px"}
+![](shape-light.resources/shape-light-01.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -77,7 +77,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-light.resources/shape-light-ex.gif" />
+            <img src="shape-light.resources/shape-light-02.gif" />
         </td>
     </tr>
 </table>

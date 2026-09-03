@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: 함수 그래프에 해시 함수를 사용하여 입력 좌표에 따라 결정론적 난수 값을 생성한다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 해시 함수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![해시 노드: 아이콘](hash-functions.resources/hash-icon.png "해시 노드: 아이콘"){width="200px"}
+![해시 노드: 아이콘](hash-functions.resources/hash-functions-01.png "해시 노드: 아이콘"){width="200px"}
 
 <b>내부:</b> 함수 > 임의
 
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![해시 14 예](hash-functions.resources/hash14-example.png "해시 14 예"){zoomable="yes"}
+![해시 14 예](hash-functions.resources/hash-functions-02.png "해시 14 예"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![해시 32 예](hash-functions.resources/hash32-example.png "해시 32 예"){zoomable="yes"}
+![해시 32 예](hash-functions.resources/hash-functions-03.png "해시 32 예"){zoomable="yes"}
 
 </td>
 </tr>

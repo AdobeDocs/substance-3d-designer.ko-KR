@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
 breadcrumb-title: ''
 description: 지저분한 섬유 2 노드를 사용하여 직조 및 텍스타일 텍스처를 만들기 위한 중간 섬유 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 지저분한 섬유 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![너저분한 섬유 2 - 아이콘](messy-fibers-2.resources/messy_fibers_2.png "너저분한 섬유 2 - 아이콘"){width="200px"}
+![너저분한 섬유 2 - 아이콘](messy-fibers-2.resources/messy-fibers-2-01.png "너저분한 섬유 2 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 1](messy-fibers-2.resources/messy_fibers_2_1.png "지저분한 섬유 2 - 예 1"){zoomable="yes"}
+![지저분한 섬유 2 - 예 1](messy-fibers-2.resources/messy-fibers-2-02.png "지저분한 섬유 2 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 2](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "지저분한 섬유 2 - 예 2"){zoomable="yes"}
+![지저분한 섬유 2 - 예 2](messy-fibers-2.resources/messy-fibers-2-03.gif "지저분한 섬유 2 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 3](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "지저분한 섬유 2 - 예 3"){zoomable="yes"}
+![지저분한 섬유 2 - 예 3](messy-fibers-2.resources/messy-fibers-2-04.gif "지저분한 섬유 2 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 4](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "지저분한 섬유 2 - 예 4"){zoomable="yes"}
+![지저분한 섬유 2 - 예 4](messy-fibers-2.resources/messy-fibers-2-05.gif "지저분한 섬유 2 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

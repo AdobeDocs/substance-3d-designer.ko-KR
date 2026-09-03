@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: '[모양 광선] 노드를 사용하여 모양과 텍스처에 광선 효과를 추가하여 빛나는 분위기 있는 시각 효과를 만들 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Shape Glow
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-glow.resources/shape-glow-grayscale.png){width="128px"}
+![](shape-glow.resources/shape-glow-01.png){width="128px"}
 
-![](shape-glow.resources/shape-glow.png){width="128px"}
+![](shape-glow.resources/shape-glow-02.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-glow.resources/shapeglow-ex.png" />
+            <img src="shape-glow.resources/shape-glow-03.png" />
         </td>
     </tr>
 </table>

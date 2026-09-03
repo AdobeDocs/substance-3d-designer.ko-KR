@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SDF 함수 작업
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dd03ffc77a6d09c680dcf3e1fc204e4cb86cc336
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -29,7 +29,7 @@ SDF 함수는 SDF 함수 세트에서 사용 가능한 SDF 노드를 결합하�
 1. 결과를 시각화하기 위해 [3D 뷰어](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) 노드에서 SDF 함수를 작성합니다.
 2. 최종 함수 그래프(또는 [인스턴스화](../../../../glossary/glossary.md#instance-node))를 [모양 스플래터 v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)와 같이 SDF 함수를 지원하는 노드의 SDF 함수 매개 변수에 복사합니다.
 
-<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Substance 3D Designer의 3D SDF 함수 노드 기능 모그래프" />
+<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="Substance 3D Designer의 3D SDF 함수 노드 기능 모그래프" />
 
 ## SDF 함수 개요
 
@@ -39,7 +39,7 @@ SDF 함수는 SDF 함수 세트에서 사용 가능한 SDF 노드를 결합하�
             <p>수학 함수가 2D에서 곡선으로 플롯될 수 있는 것처럼 3D에서도 서피스로 플롯될 수 있습니다.</p><p>부호 있는 거리 필드는 공간의 임의의 점에서 서피스의 가장 가까운 점까지의 거리를 계산하여 3D 공간의 서피스를 정의하는 수학 함수입니다.</p><p>더 잘 이해하기 위해 '서명된 거리 필드'라는 이름을 세분화합니다.<ul><li><b>부호</b>은 점이 표면 앞/바깥에 있으면 함수가 양수 값을 반환하고, 점이 표면 안쪽/뒤에 있으면 음수 값을 반환하며, 점이 표면에 있으면 0을 반환합니다.</li><li><b>거리</b>은 함수가 공간의 모든 점에서 표면의 *가장 가까운* 점까지의 거리를 계산한다는 사실을 의미합니다.</li><li><b>필드</b>은 공간의 각 점에 가장 가까운 표면까지의 거리를 나타내는 해당 값이 있으므로 함수가 값 필드를 설명하는 것을 의미합니다.</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="스위핑 아이소라인을 사용하여 SDF 함수가 생성한 모양을 시각화합니다." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-02.gif" alt="스위핑 아이소라인을 사용하여 SDF 함수가 생성한 모양을 시각화합니다." />
         </td>
     </tr>
 </table>
@@ -72,7 +72,7 @@ Substance 함수 그래프에 대해 알아야 할 사항:
 
 +++ SDF 함수 정의 함수 그래프의 예
 
-![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
+![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-functions-03.png)
 
 +++
 
@@ -86,11 +86,11 @@ SDF 함수를 작성하기 위해서는 먼저 노드를 시각화해야 조정�
 
 [실제 태양/하늘](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md) 노드를 사용하면 3D 뷰어에서 환경 조명을 빠르게 설정할 수 있습니다.
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="SDF 함수 시각화를 위한 3D 뷰어 노드 설정" />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-functions-04.gif" alt="SDF 함수 시각화를 위한 3D 뷰어 노드 설정" />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>모든 SDF 함수 노드와 입력 커넥터에는 해당 노드의 목적과 사용 방법에 대해 자세히 알 수 있는 도구 설명이 있습니다.</p><p>꼭 확인해 보세요!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 함수 노드의 입력 커넥터에 대한 도구 설명입니다." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>모든 SDF 함수 노드와 입력 커넥터에는 해당 노드의 목적과 사용 방법에 대해 자세히 알 수 있는 도구 설명이 있습니다.</p><p>꼭 확인해 보세요!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-05.png" alt="SDF 함수 노드의 입력 커넥터에 대한 도구 설명입니다." /></td></tr></table>
 
 ### 노드 값 설정
 
@@ -101,11 +101,11 @@ Substance 함수 그래프의 모든 노드와 마찬가지로 SDF 함수 노드
 
 SDF 함수 노드의 대부분의 입력 커넥터에는 해당 도구 설명에 표시된 기본값이 있습니다.
 
-<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="SDF 기본 요소를 편집하는 데 사용되는 상수 노드입니다." />
+<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-functions-06.gif" alt="SDF 기본 요소를 편집하는 데 사용되는 상수 노드입니다." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>일부 값을 항상 표시할 필요가 없으면 <code>D</code> 키를 사용하여 노드를 고정하여 공간을 절약하고 그래프를 정리합니다.</p><p>주석을 사용하여 값을 추적할 수도 있습니다.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="SDF 함수 노드의 입력 커넥터에 대한 도구 설명입니다." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>일부 값을 항상 표시할 필요가 없으면 <code>D</code> 키를 사용하여 노드를 고정하여 공간을 절약하고 그래프를 정리합니다.</p><p>주석을 사용하여 값을 추적할 수도 있습니다.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-07.png" alt="SDF 함수 노드의 입력 커넥터에 대한 도구 설명입니다." /></td></tr></table>
 
 
 ### 테두리 프레임
@@ -113,10 +113,10 @@ SDF 함수 노드의 대부분의 입력 커넥터에는 해당 도구 설명에
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>테두리 프레임은 SDF 함수가 <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">모양 스플래터 v2</a> 노드에서 평가되고 그려지는 <i>테두리</i>를 정의하는 3D 공간의 상자입니다.</p><p>테두리 프레임이 너무 작으면 모양의 일부가 트리밍될 수 있습니다. 너무 크면 불필요한 계산과 더 긴 처리 시간을 초래할 수 있다.</p><p><b>테두리 프레임</b> 매개 변수를 사용하면 테두리 프레임을 시각화할 수 있습니다. 그런 다음 <b>테두리 프레임 크기</b> 매개 변수의 값을 변경하여 테두리 프레임의 크기를 조정할 수 있습니다.</p><p><b>프레임 밖의 색상 입히기</b> 매개 변수를 사용하여 테두리 프레임 바깥의 영역을 밝은 빨간색으로 시각화하면 그에 따라 프레임을 조정할 수 있습니다.</p>
+            <p>테두리 프레임은 <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">모양 스플래터 v2</a> 노드에서 SDF 함수가 평가되고 그려지는 <i>테두리</i>를 정의하는 3D 공간의 상자입니다.</p><p>테두리 프레임이 너무 작으면 모양의 일부가 트리밍될 수 있습니다. 너무 크면 불필요한 계산과 더 긴 처리 시간을 초래할 수 있다.</p><p><b>테두리 프레임</b> 매개 변수를 사용하면 테두리 프레임 시각화를 사용할 수 있습니다. 그런 다음 <b>테두리 프레임 크기</b> 매개 변수의 값을 변경하여 테두리 프레임의 크기를 조정할 수 있습니다.</p><p><b>프레임 밖의 색상화</b> 매개 변수를 사용하여 테두리 프레임 바깥 영역을 밝은 빨간색으로 시각화하여 그에 따라 프레임을 조정할 수 있습니다.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-08.jpg" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
         </td>
     </tr>
 </table>
@@ -126,10 +126,10 @@ SDF 함수 노드의 대부분의 입력 커넥터에는 해당 도구 설명에
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>모양을 변형하려면 그려진 공간을 *변형해야 하기 때문에 일부 변형 후에 사용되는 노드의 결과는 놀라운 일일 수 있습니다.이러한 경우 공간 자체를 시각화하는 것이 도움이 되며, <i>모양의 거리 필드를 시각화하는</i>으로 수행할 수 있습니다.<br></p><p>이를 위해 3D 뷰어 노드는 모양의 표면으로부터의 지정된 거리를 나타내는 반복되는 윤곽선인 <i>아이소라인</i>을 사용합니다. <b>SDF 등치선</b> 매개 변수를 사용하면 해당 시각화를 사용할 수 있습니다.<br>아이소라인은 <b>SDF 아이소라인 위치</b> 매개 변수에 지정된 Height에 있는 수평 평면에 그려집니다.</p><p>모양에 적용된 변형에 의해 아이소라인이 어떻게 변형되는지 확인하는 것은 모양 자체가 어떻게 변형되는지 이해하고 그에 따라 노드의 매개 변수를 조정하는 데 도움이 될 수 있습니다.</p>
+            <p>변환의 모양은 실제로 *그려진 공간*을 포함하기 때문에, 몇 가지 변형 후 사용된 노드의 결과는 놀라운 것일 수 있다.이러한 경우 공간 자체를 시각화하는 것이 도움이 되며, <i>모양의 거리 필드를 시각화하는</i>으로 수행할 수 있습니다.<br></p><p>이를 위해 3D 뷰어 노드는 모양의 표면으로부터의 지정된 거리를 나타내는 반복되는 윤곽선인 <i>아이소라인</i>을 사용합니다. <b>SDF 등치선</b> 매개 변수를 사용하면 해당 시각화를 사용할 수 있습니다.<br>아이소라인은 <b>SDF 아이소라인 위치</b> 매개 변수에 지정된 Height에 있는 수평 평면에 그려집니다.</p><p>모양에 적용된 변환에 의해 아이소라인이 어떻게 변형되는지 보는 것은 모양 자체가 변환 노드라는 것을 이해하고 그에 따라 매개 변수를 조정하는 데 도움이 될 수 있다.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-09.jpg" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
         </td>
     </tr>
 </table>
@@ -142,7 +142,7 @@ SDF 함수 노드는 기능 및 목적에 따라 라이브러리에서 분류됩
 
 +++ 작업 영역 예
 
-![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-workspace.png)
+![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-functions-10.png)
 
 +++
 
@@ -180,7 +180,7 @@ SDF 함수 노드는 기능 및 목적에 따라 라이브러리에서 분류됩
 이러한 노드를 사용하면 프리미티브로 만든 모양을 결합하고 수정할 수 있습니다. 여기에는 다음이 포함됩니다.
 * [합집합](sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md), [교차](sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md) 및 [빼기](sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md)와 같이 모양을 다양한 방법으로 결합할 수 있는 **직선 부울** 연산자
 * 모양을 혼합 효과와 결합할 수 있는 [라운딩](sdf-functions-operators/3d-sdf-op-rounding/3d-sdf-op-rounding.md) 및 [형태](sdf-functions-operators/3d-sdf-op-morph/3d-sdf-op-morph.md)와 같은 **변형 부울** 연산자
-* [셸](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md) 및 [대칭](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)과 같이 모양을 수정 및/또는 복제할 수 있는 **기타 특수** 연산자
+* [Shell](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md) 및 [대칭](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)와 같이 모양을 수정 및/또는 복제할 수 있는 **기타 특수** 연산자
 
 +++ 노드
 
@@ -202,8 +202,8 @@ SDF 함수 노드는 기능 및 목적에 따라 라이브러리에서 분류됩
 
 ### 변환
 
-모양은 [변환](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md), [회전](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [크기 조정](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [비틀림](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) 등과 같은 다양한 방법으로 변형할 수 있습니다.
-이러한 노드를 사용하면 서피스가 정의된 *공간 자체를 변환*&#x200B;하여 이러한 변환을 수행할 수 있습니다.
+모양은 [변환](sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md), [크기 조정](sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md), [비틀림](sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md) 등과 같이 다양한 방식으로 1}될 수 있습니다.](sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md)[
+이러한 노드를 사용하면 서피스가 정의된 *공간 자체*&#x200B;를 통해 변환을 수행할 수 있습니다.
 
 해당 공간을 `P`이라고 합니다. 다음 섹션으로 이동하여 이것이 의미하는 것과 공간 변환이 작동하는 방식에 대해 자세히 알아보세요.
 
@@ -256,7 +256,7 @@ SDF 함수를 사용하여 만든 모양에 기본 재질 관리를 사용할 �
 
 이에 대한 예시는 다음과 같습니다.
 
-![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
+![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-functions-11.gif)
 
 구를 반복하여 공간을 3D 격자선으로 시각화합니다. *공백 반복*&#x200B;에 의해 반복됩니다.\
 공유 `P`이(가) 없으면 굽은 원통은 구가 사용하는 반복 공간을 사용합니다.\
@@ -271,8 +271,8 @@ SDF 함수를 사용하여 만든 모양에 기본 재질 관리를 사용할 �
 
 3D 뷰어 노드에서 사용하던 [테두리 프레임](#the-bounding-frame)과 일치하도록 **SDF 테두리 프레임 크기** 매개 변수를 조정하고 모양이 제대로 그려졌는지 확인하십시오.
 
-![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-**모양 유형**&#x200B;이 `SDF function`(으)로 설정된 *모양 튄 v2.**SDF 경계 프레임 크기**&#x200B;가 모양에 맞게 조정되었습니다.*
+![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
+**모양 유형**&#x200B;이 `SDF function`(으)로 설정된 *모양 튄 v2.**SDF 경계 프레임 크기**가 모양에 맞게 조정되었습니다.*
 
 >[!TIP]
 > 
@@ -292,7 +292,7 @@ SDF 모양에는 재질 ID가 할당될 수 있습니다. 이 값은 모양의 �
 특정 재질 ID로 태그를 지정할 모양의 부분 뒤에 [재질 ID 설정](./sdf-functions-material/set-id/set-id.md) 노드를 사용하고, [정수](../../atomic-function-nodes/constant-nodes/constant-nodes.md) 상수 노드를 사용하여 원하는 재질 ID 값을 설정합니다.\
 3D 뷰어 노드에서 **출력** 매개 변수를 `Material ID`(으)로 설정하여 모양의 재질 ID를 시각화합니다.
 
-![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)\
+![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-functions-13.png)\
 *오른쪽에 있는 두 3D 뷰어 노드의 출력은 모양(왼쪽)과 해당 질감 ID(오른쪽)를 표시하도록 합성되어 혼합 모양에서 질감 ID가 분할되는 동안 질감이 보간되는 방법을 보여줍니다.*
 
 Material ID는 Shape 스플래터 v2 컴패니언 노드에서 활용할 수 있습니다.
@@ -302,13 +302,13 @@ Material ID는 Shape 스플래터 v2 컴패니언 노드에서 활용할 수 있
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="모양 스플래터 v2 매퍼 색상 노드의 색상 매핑에 사용할 SDF 재질 ID입니다."/><i>색상 매핑에 사용되는 재질 ID<br>모양 스플래터 v2 매퍼 색상</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-14.jpg" alt="모양 스플래터 v2 매퍼 색상 노드의 색상 매핑에 사용할 SDF 재질 ID입니다."/><i>색상 매핑에 사용되는 재질 ID<br>모양 스플래터 v2 매퍼 색상</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="모양 스플래터 v2 매퍼 색상 노드의 삼면형 매핑을 위한 SDF 재질 ID입니다."/><i>모양 스플래터 v2 매퍼 색상의 삼각 매핑에 사용되는 재질 ID<br></i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-15.jpg" alt="모양 스플래터 v2 매퍼 색상 노드의 삼면형 매핑을 위한 SDF 재질 ID입니다."/><i>모양 스플래터 v2 매퍼 색상의 삼각 매핑에 사용되는 재질 ID<br></i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="모양 스플래터 v2에서 마스크 노드로 마스킹을 위한 SDF 재질 ID입니다."/><br><i>마스킹에 사용되는 재질 ID<br>모양 스플래터 v2에서 마스킹</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-16.jpg" alt="모양 스플래터 v2에서 마스크 노드로 마스킹을 위한 SDF 재질 ID입니다."/><br><i>마스킹에 사용되는 재질 ID<br>모양 스플래터 v2에서 마스킹</i>
         </td>
     </tr>
 </table>
@@ -324,13 +324,13 @@ Material ID는 Shape 스플래터 v2 컴패니언 노드에서 활용할 수 있
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="모양 스플래터 v2 노드의 SDF 색상 출력입니다."/><i>SDF 색상 출력</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-17.jpg" alt="모양 스플래터 v2 노드의 SDF 색상 출력입니다."/><i>SDF 색상 출력</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="모양 스플래터 v2 노드의 SDF 거칠음"/><br><i>SDF 거칠음 출력</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-18.jpg" alt="모양 스플래터 v2 노드의 SDF 거칠음"/><br><i>SDF 거칠음 출력</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="모양 스플래터 v2 노드의 SDF 금속성입니다."/><i>SDF metalness 출력</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-19.jpg" alt="모양 스플래터 v2 노드의 SDF 금속성입니다."/><i>SDF metalness 출력</i>
         </td>
     </tr>
 </table>
@@ -343,7 +343,7 @@ Material ID는 Shape 스플래터 v2 컴패니언 노드에서 활용할 수 있
             <p><b>녹슨 볼트</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">재료 샘플</a>은 모양 스플래터 v2 노드의 컨텍스트에서 적용된 SDF 함수로 이동할 수 있습니다.</p><p>그래프는 구조, 노드 설정 및 SDF 함수 설정을 단계별로 안내하기 위해 구성 및 주석 처리됩니다.</p><p>또한 <i>완전히 편집 가능한</i>이므로 샌드박스로 사용하여 모양 스플래터 v2와 SDF 함수 도구 세트를 더 자세히 이해할 수 있습니다. 원하는 만큼 샘플 그래프를 만들 수 있으므로 자유롭게 사용해 보세요!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
         </td>
     </tr>
 </table>

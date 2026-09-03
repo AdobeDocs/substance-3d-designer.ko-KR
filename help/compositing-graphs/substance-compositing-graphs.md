@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 프로시저 텍스처 및 재질 작업 과정을 만들기 위한 Substance 합성 그래프에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-
 아래에서 일반적인 사용 사례의 몇 가지 예를 확인할 수 있습니다.
 
 +++단순 도형
-![Substance 그래프의 단순 모양](substance-compositing-graphs.resources/simpleshape.png "Substance 그래프의 단순 모양"){width="512px"}
+![Substance 그래프의 단순 모양](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "Substance 그래프의 단순 모양"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-
 +++
 
 +++조정 필터
-![Substance 그래프의 조정 필터](substance-compositing-graphs.resources/simplefilter.png "Substance 그래프의 조정 필터"){width="512px"}
+![Substance 그래프의 조정 필터](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "Substance 그래프의 조정 필터"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-
 +++
 
 +++완전 재질
-![Substance 그래프의 전체 재질](substance-compositing-graphs.resources/simplematerial.png "Substance 그래프의 전체 재질"){width="512px"}
+![Substance 그래프의 전체 재질](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "Substance 그래프의 전체 재질"){width="512px"}
 
 
 

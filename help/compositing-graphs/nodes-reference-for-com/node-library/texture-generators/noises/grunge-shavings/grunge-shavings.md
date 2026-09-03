@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
-description: '[그런지 쉐이빙] 노드를 사용하여 나무 그레인 및 재질 텍스처의 세부 사항을 만들기 위한 쉐이빙 패턴을 생성할 수 있습니다.'
+description: '[그런지 쉐이빙] 노드를 사용하여 나무 그레인 및 재질 텍스처 세부 사항을 만들기 위한 쉐이빙 패턴을 생성할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 쉐이빙스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -60,10 +60,10 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
         </td>
     </tr>
 </table>

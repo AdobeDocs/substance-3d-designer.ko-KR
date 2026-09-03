@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 상수 노드에 액세스하여 상수 값과 매개변수를 정의합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 상수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 상수 정수는 정수를 생성하며 1의 단계를 가진다.
 
-[Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)(으)로 변환할 수 있습니다. 이 변환은 추가, 빼기 및 단순 비교보다 복잡한 작업을 수행할 때 권장됩니다.
+[부동](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)(으)로 변환할 수 있습니다. 이 변환은 추가, 빼기 및 단순 비교보다 복잡한 작업을 수행할 때 권장됩니다.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![정수 형식 아이콘](constant-nodes.resources/fn-constant-integer.png "정수 형식 아이콘")
+![정수 형식 아이콘](constant-nodes.resources/constant-nodes-01.png "정수 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 형식 아이콘](constant-nodes.resources/fn-constant-integer2.png "Integer2 형식 아이콘")
+![Integer2 형식 아이콘](constant-nodes.resources/constant-nodes-02.png "Integer2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2는 일반적으로 사용되지 않지만 예를 들어 [Tile Generator
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 형식 아이콘](constant-nodes.resources/fn-constant-integer3.png "Integer3 형식 아이콘")
+![Integer3 형식 아이콘](constant-nodes.resources/constant-nodes-03.png "Integer3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer3 노드는 (X, Y, Z) 성분을 갖는 정적 3-성분 정수 벡터를 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 형식 아이콘](constant-nodes.resources/fn-constant-integer4.png "Integer4 형식 아이콘")
+![Integer4 형식 아이콘](constant-nodes.resources/constant-nodes-04.png "Integer4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -115,22 +115,22 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 
 ## 부동
 
-상수 부동 소수점 자리는 전체 숫자가 아닌 분수를 생성합니다. 즉, 소수점 기호 뒤에 항상 값을 가지며 1보다 작은 단계만큼 증가 또는 감소할 수 있습니다(기본값 0.01).
+상수 부동은 전체 숫자가 아닌 분수를 생성하므로 소수점 기호 뒤에 항상 값을 가지며 1보다 작은 단계(기본값 0.01)만큼 증가 또는 감소할 수 있습니다.
 
-[부동 소수점 수는 정수](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)로 변환할 수 있지만 반올림하거나 가장 가까운 정수로 내려갑니다. 데이터 및 정확도가 손실됩니다.
+[부동을 정수](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)(으)로 변환할 수 있지만 반올림하거나 가장 가까운 정수로 내려서 데이터와 정확도가 손실됩니다.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 형식 아이콘](constant-nodes.resources/fn-constant-float.png "부동 형식 아이콘")
+![부동 유형 아이콘](constant-nodes.resources/constant-nodes-05.png "부동 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>부동</b>
 
-플로트는 단일 구성 요소를 가지며, (1)은 간결성을 위해 이름에서 생략된다. Float는 매우 일반적이며 슬라이더 또는 각도 형태의 정밀한 제어가 필요한 모든 값에 사용됩니다. 거의 모든 노드의 매개 변수에서 찾을 수 있습니다. 또한 회색 음영 값의 기본 데이터 형식입니다.<b></b>
+부동은 단일 구성 요소를 가지기 때문에, (1)은 간결성을 위해 명칭에서 생략된다. 부동은 매우 일반적이며 슬라이더 또는 각도(Angle) 형태의 정밀한 제어가 필요한 모든 값에 사용됩니다. 거의 모든 노드의 매개 변수에서 찾을 수 있습니다. 또한 회색 음영 값의 기본 데이터 형식입니다.<b></b>
 
 </td>
 </tr>
@@ -140,14 +140,14 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 형식 아이콘](constant-nodes.resources/fn-constant-float2.png "Float2 형식 아이콘")
+![부동 2 형식 아이콘](constant-nodes.resources/constant-nodes-06.png "부동 2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float2</b>
+<b>부동2</b>
 
-Float2 노드는 정적 2 구성 요소 Float 벡터를 생성합니다. 구성 요소의 이름은 X, Y입니다. Float2는 매우 일반적이며 [샘플링 좌표](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 및 [변환 오프셋](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)에 사용됩니다.
+부동2 노드는 정적 2-성분 부동 벡터를 생성한다. 구성 요소의 이름은 X, Y입니다. 부동 2는 매우 일반적이며 [샘플링 좌표](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 및 [변환 오프셋](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)에 사용됩니다.
 
 </td>
 </tr>
@@ -157,14 +157,14 @@ Float2 노드는 정적 2 구성 요소 Float 벡터를 생성합니다. 구성 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 형식 아이콘](constant-nodes.resources/fn-constant-float3.png "Float3 형식 아이콘")
+![부동 3 형식 아이콘](constant-nodes.resources/constant-nodes-07.png "부동 3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float3</b>
+<b>부동3</b>
 
-Float3 노드는 정적 3 구성 요소 Float 벡터를 생성합니다. 구성 요소의 이름은 X,Y,Z입니다. Float3는 흔하지 않으며, 주로 [3D 배율 좌표](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)를 나타내는 데 사용되며, Alpha 데이터 없이 색상을 더 간단하게 저장하는 데 사용됩니다.<b>\
+부동3 노드는 정적 3-성분 부동 벡터를 생성한다. 구성 요소의 이름은 X,Y,Z입니다. 부동 3은 일반적이지 않으며, 주로 [3D 배율 좌표](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)를 나타내는 데 사용되며, Alpha 데이터 없이 색상을 더 간단하게 저장할 수 있는 방법입니다.<b>\
 </b>
 
 </td>
@@ -175,14 +175,14 @@ Float3 노드는 정적 3 구성 요소 Float 벡터를 생성합니다. 구성 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 형식 아이콘](constant-nodes.resources/fn-constant-float4.png "Float4 형식 아이콘")
+![부동 4 형식 아이콘](constant-nodes.resources/constant-nodes-08.png "부동 4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float4</b>
+<b>부동4</b>
 
-Float4는 정적 4 구성 요소 Float 벡터를 생성합니다.구성 요소의 이름은 X,Y,Z,W입니다. Float4는 [색상 정보를 저장하고 설정하는 기본 방법이므로 매우 일반적입니다. 여기서 XYZW 데이터는 RGBA 값을 나타냅니다.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
+부동 4는 정적 4 구성 요소 부동 Vector.Components 이름은 X,Y,Z,W입니다. 부동 4는 [색상 정보를 저장하고 설정하는 기본 방법이므로 매우 일반적입니다. 여기서 XYZW 데이터는 RGBA 값을 나타냅니다.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>
 
 </td>
@@ -197,7 +197,7 @@ Substance 함수 그래프에는 부울과 문자열이라는 두 개의 추가 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부울 유형 아이콘](constant-nodes.resources/fn-constant-boolean.png "부울 유형 아이콘")
+![부울 유형 아이콘](constant-nodes.resources/constant-nodes-09.png "부울 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance 함수 그래프에는 부울과 문자열이라는 두 개의 추가 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![문자열 유형 아이콘](constant-nodes.resources/fn-constant-string.png "문자열 유형 아이콘")
+![문자열 유형 아이콘](constant-nodes.resources/constant-nodes-10.png "문자열 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

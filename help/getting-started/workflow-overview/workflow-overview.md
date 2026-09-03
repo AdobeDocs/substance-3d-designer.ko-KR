@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: 처음부터 끝까지 Substance 3D Designer에서 절차 자료를 만드는 필수 작업 과정에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 워크플로우 개요
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer은 노드 기반의 편집기입니다. 즉, 거의 모든
 
 [그래프 유형](#graph-types)
 
-![데이터 흐름이 단순화됨](workflow-overview.resources/graph-direction.png "데이터 흐름이 단순화됨")
+![데이터 흐름이 단순화됨](workflow-overview.resources/workflow-overview-01.png "데이터 흐름이 단순화됨")
 
 ## 노드 기반 워크플로우
 
@@ -40,7 +40,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 주요 이점은 작업 과정이 <b>비선형</b>이 된다는 것입니다. 기록 스택으로 이동하는 수동으로 수행되는 작업과 달리, 언제든지 노드를 교체하거나 수정할 수 있습니다. 이미지의 결과에 영향을 주는 첫 번째 [대비] 조정이 끝까지 너무 많았다고 판단되면 나중에 수행한 모든 작업을 잃지 않고 뒤로 돌아가 조정하거나 완전히 잘라낼 수 있습니다.
 
-![그래프 인스턴스 단순화](workflow-overview.resources/sub-graph.png "그래프 인스턴스 단순화")
+![그래프 인스턴스 단순화](workflow-overview.resources/workflow-overview-02.png "그래프 인스턴스 단순화")
 
 ## 그래프 인스턴스 작업 과정
 
@@ -48,7 +48,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)의 그래프 인스턴스에 대한 자세한 내용은 설명서에 [전용 섹션](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)이 있습니다.
 
-![그래프 매개 변수 단순화](workflow-overview.resources/parameters-5.png "그래프 매개 변수 단순화")
+![그래프 매개 변수 단순화](workflow-overview.resources/workflow-overview-03.png "그래프 매개 변수 단순화")
 
 ## 사용자 정의 매개 변수
 
@@ -62,7 +62,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-04.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 아래에서 일반적인 사용 사례의 몇 가지 예를 확인할 수 있습니다.
 
 +++단순 도형
-![Substance 그래프의 단순 모양](workflow-overview.resources/simpleshape.png "Substance 그래프의 단순 모양"){width="512px"}
+![Substance 그래프의 단순 모양](workflow-overview.resources/workflow-overview-05.png "Substance 그래프의 단순 모양"){width="512px"}
 
 
 
@@ -95,18 +95,18 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 +++
 
 +++조정 필터
-![Substance 그래프의 조정 필터](workflow-overview.resources/simplefilter.png "Substance 그래프의 조정 필터"){width="512px"}
+![Substance 그래프의 조정 필터](workflow-overview.resources/workflow-overview-06.png "Substance 그래프의 조정 필터"){width="512px"}
 
 
 
-필터 그래프는 일반 맵을 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(사용자 지정 미리 보기 포함)으로 가져와서 [곡률을 변환](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)한 다음 [대비를 조정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)하여 최종 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)으로 볼록 가장자리 마스크를 만듭니다.
+필터 그래프는 노멀 맵을 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(사용자 지정 미리 보기 포함)으로 받아들이고, [곡률을 변환](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)한 다음 [대비를 조정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)하여 최종 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)으로 볼록 가장자리 마스크를 만듭니다.
 
 [막대 그래프]에 설정된 대비 값을 표시할 수 있으므로 동적 입력 슬롯과 결합하여 간단하지만 유용한 필터가 됩니다.
 
 +++
 
 +++완전 재질
-![Substance 그래프의 전체 재질](workflow-overview.resources/simplematerial.png "Substance 그래프의 전체 재질"){width="512px"}
+![Substance 그래프의 전체 재질](workflow-overview.resources/workflow-overview-07.png "Substance 그래프의 전체 재질"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-08.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 다음은 Substance 함수 그래프에 대한 일반적인 사용 사례의 몇 가지 예입니다.
 
 +++단순 함수
-![단순 함수 그래프](workflow-overview.resources/lerpfunction.png "단순 함수 그래프"){width="256px"}
+![단순 함수 그래프](workflow-overview.resources/workflow-overview-09.png "단순 함수 그래프"){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 +++
 
 +++고급 기능
-![고급 함수](workflow-overview.resources/pixel-function.png "고급 함수"){width="512px"}
+![고급 함수](workflow-overview.resources/workflow-overview-10.png "고급 함수"){width="512px"}
 
 
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 고급 변형 컨트롤로 무작위 타일 패턴을 만들려면 [타일 무작위 2] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 무작위 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tile-random-2-01.jpg){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -113,25 +113,25 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tile-random-2-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tile-random-2-05.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tile-random-2-06.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tile-random-2-07.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-random-2.resources/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tile-random-2-08.png" />
         </td>
     </tr>
 </table>

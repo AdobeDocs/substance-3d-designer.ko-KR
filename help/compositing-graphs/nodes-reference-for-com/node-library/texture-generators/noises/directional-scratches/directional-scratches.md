@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: 방향 Scratches 노드를 사용하여 방향 스크래치 패턴을 만들어 재료에 마모 및 손상 효과를 추가합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 직접 스크래치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![방향 스크래치 - 아이콘](directional-scratches.resources/directional_scratches.png "방향 스크래치 - 아이콘"){width="200px"}
+![방향 스크래치 - 아이콘](directional-scratches.resources/directional-scratches-01.png "방향 스크래치 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -72,27 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![방향 스크래치 - 예 1](directional-scratches.resources/directional_scratches_1.png "방향 스크래치 - 예 1"){zoomable="yes"}
+![방향 스크래치 - 예 1](directional-scratches.resources/directional-scratches-02.png "방향 스크래치 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향 스크래치 - 예 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "방향 스크래치 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![방향 스크래치 - 예 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "방향 스크래치 - 예 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![방향 스크래치 - 예 4](directional-scratches.resources/noise-directional-scrat-1.gif "방향 스크래치 - 예 4"){zoomable="yes"}
+![방향 스크래치 - 예 2](directional-scratches.resources/directional-scratches-03.gif "방향 스크래치 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +87,22 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![방향 스크래치 - 예 5](directional-scratches.resources/noise-directional-scrat-2.gif "방향 스크래치 - 예 5"){zoomable="yes"}
+![방향 스크래치 - 예 3](directional-scratches.resources/directional-scratches-04.gif "방향 스크래치 - 예 3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![방향 스크래치 - 예 4](directional-scratches.resources/directional-scratches-05.gif "방향 스크래치 - 예 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![방향 스크래치 - 예 5](directional-scratches.resources/directional-scratches-06.gif "방향 스크래치 - 예 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

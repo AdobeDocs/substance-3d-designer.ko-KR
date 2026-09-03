@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
 breadcrumb-title: ''
 description: '[큐브 3D GBuffers] 노드를 사용하여 고급 렌더링 효과를 위해 3D 큐브 투영에서 지오메트리 버퍼를 생성합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cube 3D Buffers
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube-3d-gbuffers-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 설명
 
-Heightmap만 출력하는 대신 위치 및 노멀 맵을 출력하는 [큐브 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)의 고급 버전입니다.
+높이 맵 대신 위치 및 표준 맵도 출력하는 [큐브 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)의 고급 버전입니다.
 
 </td>
 </tr>

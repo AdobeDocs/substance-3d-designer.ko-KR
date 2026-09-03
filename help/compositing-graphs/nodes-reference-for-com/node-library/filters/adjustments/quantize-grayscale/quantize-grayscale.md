@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 breadcrumb-title: ''
 description: '[회색 음영 분석] 노드를 사용하여 포스터화 효과의 회색 음영 레벨 수를 줄입니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 회색 음영 정량화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![회색 음영 아이콘 정량화](quantize-grayscale.resources/quantize-grayscale.png "회색 음영 아이콘 정량화"){width="200px"}
+![회색 음영 아이콘 정량화](quantize-grayscale.resources/quantize-grayscale-01.png "회색 음영 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -52,6 +52,6 @@ ht-degree: 1%
 
 ## 예
 
-![예 1](quantize-grayscale.resources/quantizegrayscale.gif "예 1")
+![예 1](quantize-grayscale.resources/quantize-grayscale-02.gif "예 1")
 
-![예 2](quantize-grayscale.resources/quantizegrayscale.png "예 2")
+![예 2](quantize-grayscale.resources/quantize-grayscale-03.png "예 2")

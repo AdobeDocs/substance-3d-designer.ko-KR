@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
 description: 3D Perlin 노이즈 노드를 사용하여 3D 공간에 부드러운 Perlin 노이즈 패턴을 생성하여 자연스러워 보이는 볼륨 텍스처를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Perlin 노이즈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise.resources/3dperlinnoise.png){width="200px"}
+![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -67,13 +67,13 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlin.gif" />
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" />
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" />
+            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
         </td>
     </tr>
 </table>

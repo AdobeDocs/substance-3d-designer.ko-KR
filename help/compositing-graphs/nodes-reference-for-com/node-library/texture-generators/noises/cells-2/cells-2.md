@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
 breadcrumb-title: ''
 description: 셀 2 노드를 사용하여 유기적이고 생물학적인 텍스처 효과를 만들기 위한 중간 세포 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 셀 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![셀 2 - 아이콘](cells-2.resources/cells_2.png "셀 2 - 아이콘"){width="200px"}
+![셀 2 - 아이콘](cells-2.resources/cells-2-01.png "셀 2 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![셀 2 - 예 1](cells-2.resources/cells_2_1.png "셀 2 - 예 1"){zoomable="yes"}
+![셀 2 - 예 1](cells-2.resources/cells-2-02.png "셀 2 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![셀 2 - 예 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "셀 2 - 예 2"){zoomable="yes"}
+![셀 2 - 예 2](cells-2.resources/cells-2-03.gif "셀 2 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

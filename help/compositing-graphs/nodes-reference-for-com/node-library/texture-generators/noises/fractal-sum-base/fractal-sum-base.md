@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html"
 breadcrumb-title: ''
 description: '[프랙탈 합산 기본] 노드를 사용하여 복잡한 유기 텍스처를 만들기 위한 기본 프랙탈 노이즈 패턴을 생성합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프랙탈 합산 기반
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![프랙탈 합산 기반 - 아이콘](fractal-sum-base.resources/fractal_sum_base.png "프랙탈 합산 기반 - 아이콘"){width="200px"}
+![프랙탈 합산 기반 - 아이콘](fractal-sum-base.resources/fractal-sum-base-01.png "프랙탈 합산 기반 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 기반 - 예 1](fractal-sum-base.resources/fractal_sum_base_1.png "프랙탈 합산 기반 - 예 1"){zoomable="yes"}
+![프랙탈 합산 기반 - 예 1](fractal-sum-base.resources/fractal-sum-base-02.png "프랙탈 합산 기반 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 기반 - 예 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "프랙탈 합산 기반 - 예 2"){zoomable="yes"}
+![프랙탈 합산 기반 - 예 2](fractal-sum-base.resources/fractal-sum-base-03.gif "프랙탈 합산 기반 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

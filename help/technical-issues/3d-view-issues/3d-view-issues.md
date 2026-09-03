@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: 렌더링, 표시 및 성능 문제를 포함한 Substance 3D Designer의 3D 보기 문제를 해결합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 보기 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/3dview-height-without-normals.gif){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-01.gif){width="256px"}
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Height 데이터가 **표준** [출력](../../compositing-graphs/nodes-reference
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
 
-![](3d-view-issues.resources/demo-viewport-scaling-option.png){width="256px"}
+![](3d-view-issues.resources/3d-view-issues-02.png){width="256px"}
 
 </td>
 </tr>
@@ -233,11 +233,11 @@ Designer은 3D 메시로 지정되지 않는 한 일반 비율 및 편향을 적
 
 [재질 재정의](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)를 수행하면 Designer은 메시를 처리하고 표준, 접선 및 이항식과 관련된 누락된 데이터를 계산합니다. Designer의 기본 비율과 편향이 메시에 필요한 비율과 일치하면 메시 재정의 시 메시가 올바르게 표시됩니다.
 
-## 3D 보기를 시작할 때 충돌 발생
+## 3D 보기 시작 시 충돌
 
 **![(오류)](3d-view-issues.resources/error.svg) 문제**
 
-프로젝트를 만들거나 프로젝트를 로드하거나 3D 보기를 수동으로 시작할 때 3D 보기 시작 시 Designer이 충돌합니다.
+Designer은 3D 보기 시작 시, 프로젝트 생성 시, 프로젝트 로드 시 또는 수동으로 3D 보기 시작 시 충돌을 진행합니다.
 
 **![(틱)](3d-view-issues.resources/check.svg) 권장 단계**
 

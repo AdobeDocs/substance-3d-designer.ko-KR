@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
 breadcrumb-title: ''
-description: AO 취소 노드를 사용하여 깨끗한 텍스처 처리를 위해 스캔한 자료에서 앰비언트 오클루전을 제거합니다.
+description: AO 취소 노드를 사용하여 깨끗한 텍스처 처리를 위해 스캔한 재질에서 주변 오클루전을 제거합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AO 취소
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](ao-cancellation.resources/ao-cancel.png){width="128px"}
+![](ao-cancellation.resources/ao-cancellation-01.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 

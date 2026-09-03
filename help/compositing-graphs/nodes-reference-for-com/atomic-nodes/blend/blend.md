@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ''
 description: 혼합 노드 를 사용하여 합성 효과를 만드는 다양한 혼합 모드를 사용하여 두 텍스처를 혼합합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="200px"}
+![Atomic node: Blend](blend.resources/blend-01.png "Atomic node: Blend"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-이 기능은 [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
+이 기능은 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
 
 >[!TIP]
 >

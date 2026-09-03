@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 샘플러 노드에 액세스하여 텍스처를 샘플링하고 색상 값을 추출합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 샘플러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Sampler 노드
 
-![Sampler 노드](sampler-nodes.resources/image2016-1-12-14-45-43.png "Sampler 노드")
+![Sampler 노드](sampler-nodes.resources/sampler-nodes-01.png "Sampler 노드")
 
 이러한 노드는 제공된 2D 좌표에서 입력 이미지의 값을 샘플링합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![픽셀 좌표](sampler-nodes.resources/samplercoords.png "픽셀 좌표")
+![픽셀 좌표](sampler-nodes.resources/sampler-nodes-02.png "픽셀 좌표")
 
 </td>
 </tr>
@@ -78,8 +78,8 @@ ht-degree: 1%
 값이 증가함에 따라 [0;1] 범위 위에 루프가 있습니다.\
 예: 3.4는 0.4이고, -1.7은 0.3입니다.
 
-<b>가장자리로</b>\
-0, 1&rbrack; 범위\
+<b>가장자리로 클램프</b>\
+[0;1] 범위를 가장 가까운 제한까지 값을 클램프합니다.\
 예: .3.4는 1이고, -1.7은 0입니다.
 
 +++

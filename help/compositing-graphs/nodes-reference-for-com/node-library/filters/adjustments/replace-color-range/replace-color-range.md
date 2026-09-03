@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
 breadcrumb-title: ''
 description: 색상 범위 바꾸기 노드를 사용하여 지정된 범위 내의 색상을 색상 교정을 위한 새 색상으로 바꿉니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 범위 바꾸기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](replace-color-range.resources/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="replace-color-range.resources/replace-color-range-example.png" />
+            <img src="replace-color-range.resources/replace-color-range-02.png" />
         </td>
     </tr>
 </table>

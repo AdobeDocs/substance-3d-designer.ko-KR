@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: Designer에서 사용자 정의 함수 및 재사용 가능한 노드 네트워크를 만들기 위한 Substance 함수 그래프에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 함수 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 언뜻 보기에 Substance 함수 그래프는 Substance 그래프와 정말 비슷하고 작업 과정도 거의 비슷하다.
 
-![Substance 함수 그래프](the-function-graph.resources/image2015-12-18-11-29-28.png "Substance 함수 그래프")
+![Substance 함수 그래프](the-function-graph.resources/the-function-graph-01.png "Substance 함수 그래프")
 
 ## 탐색은 유사합니다.
 
@@ -38,7 +38,7 @@ Substance 함수 그래프에서는 Substance 그래프와 같은 방법으로 �
 
 Substance 그래프와 마찬가지로 일련의 노드를 연쇄적으로 연결하여 함수를 만듭니다. 각 노드는 이전 노드에서 생성한 결과를 사용합니다.
 
-출력은 파라미터의 값 또는 픽셀 프로세서 노드의 출력을 정의할 것이다.
+출력은 매개변수 값 또는 픽셀 프로세서 노드의 출력을 정의합니다.
 
 ## Substance 그래프와의 차이
 
@@ -53,7 +53,7 @@ Substance 함수 그래프에서 사용 가능한 노드는 Substance 그래프�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance 함수 그래프 노드 목록](the-function-graph.resources/image2015-12-18-13-46-55.png "Substance 함수 그래프 노드 목록")
+![Substance 함수 그래프 노드 목록](the-function-graph.resources/the-function-graph-02.png "Substance 함수 그래프 노드 목록")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Substance 그래프와는 반대로 함수는 오직 하나의 출력만을 가�
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance 함수 그래프의 출력 노드](the-function-graph.resources/image2015-12-18-13-49-43.png "Substance 함수 그래프의 출력 노드")
+![Substance 함수 그래프의 출력 노드](the-function-graph.resources/the-function-graph-03.png "Substance 함수 그래프의 출력 노드")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Substance 그래프와는 반대로 함수는 오직 하나의 출력만을 가�
 
 출력을 정의하려면 원하는 출력을 생성하는 노드를 마우스 오른쪽 단추로 클릭하고 *출력 노드로 설정:*&#x200B;을 클릭하십시오.
 
-![출력 노드 정의](the-function-graph.resources/setoutputnode.gif "출력 노드 정의")
+![출력 노드 정의](the-function-graph.resources/the-function-graph-04.gif "출력 노드 정의")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Substance 그래프의 경우 다른 그래프에서 만든 함수를 가져올 
 </td>
 <td style="border: 0;" valign="top">
 
-![참조된 Substance 함수 그래프 열기](the-function-graph.resources/image2017-6-27-10-44-55.png "참조된 Substance 함수 그래프 열기")
+![참조된 Substance 함수 그래프 열기](the-function-graph.resources/the-function-graph-05.png "참조된 Substance 함수 그래프 열기")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Substance 그래프의 경우 다른 그래프에서 만든 함수를 가져올 
 
 여러 함수가 포함된 sbs가 있는 경우 sbs를 Substance 함수 그래프로 바로 끌어 놓고 표시 목록에서 가져올 함수를 선택할 수 있습니다.
 
-![패키지에서 Substance 함수 그래프 삭제](the-function-graph.resources/sbsdrag.gif "패키지에서 Substance 함수 그래프 삭제")
+![패키지에서 Substance 함수 그래프 삭제](the-function-graph.resources/the-function-graph-06.gif "패키지에서 Substance 함수 그래프 삭제")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: 3D 텍스처 SDF 노드를 사용하여 매끄러운 모양과 효과를 만들기 위해 3D 데이터에서 서명된 거리 필드 텍스처를 생성합니다.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D 텍스처 SDF
+title: 3D 텍스처 PDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# 3D 텍스처 SDF
+# 3D 텍스처 PDF
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3d-texture-sdf-01.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -61,13 +61,13 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-04.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: 3D 보로노이 노드를 사용하여 체적 셀룰러 텍스처를 생성하기 위해 3D 세계 위치를 기반으로 보로노이 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 보로노이
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3d-voronoi-01.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -71,24 +71,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3d-voronoi-07.jpg" />
         </td>
     </tr>
 </table>

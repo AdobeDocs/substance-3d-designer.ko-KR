@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: 히스토그램 균일화 노드를 사용하여 대비 및 밝기를 개선하기 위해 픽셀 강도를 재분포합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 막대 그래프 균일화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![막대 그래프 균일화: 아이콘](histogram-equalize.resources/histogram_equalize.png "막대 그래프 균일화: 아이콘"){width="200px"}
+![막대 그래프 균일화: 아이콘](histogram-equalize.resources/histogram-equalize-01.png "막대 그래프 균일화: 아이콘"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -69,44 +69,44 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram-equalize-02.jpg" alt="histogram_equalize_example_1_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram-equalize-03.jpg" alt="histogram_equalize_example_1_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![막대 그래프 균일화: 예 1](histogram-equalize.resources/histogram_equalize_example_3.png "막대 그래프 균일화: 예 1"){zoomable="yes"}
+![막대 그래프 균일화: 예 1](histogram-equalize.resources/histogram-equalize-04.png "막대 그래프 균일화: 예 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram-equalize-05.jpg" alt="histogram_equalize_example_2_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram-equalize-06.jpg" alt="histogram_equalize_example_2_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![막대 그래프 균일화: 예 2](histogram-equalize.resources/histogram_equalize_example_5.png "막대 그래프 균일화: 예 2"){zoomable="yes"}
+![막대 그래프 균일화: 예 2](histogram-equalize.resources/histogram-equalize-07.png "막대 그래프 균일화: 예 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram-equalize-08.jpg" alt="histogram_equalize_example_4_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram-equalize-09.jpg" alt="histogram_equalize_example_4_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![막대 그래프 균일화: 예 3](histogram-equalize.resources/histogram_equalize_example_6.png "막대 그래프 균일화: 예 3"){zoomable="yes"}
+![막대 그래프 균일화: 예 3](histogram-equalize.resources/histogram-equalize-10.png "막대 그래프 균일화: 예 3"){zoomable="yes"}

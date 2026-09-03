@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: '[노이즈 업스케일 2] 노드를 사용하면 더 큰 크기에서 텍스처 품질을 유지하기 위해 노이즈 기반 보간을 사용하여 텍스처를 업스케일할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 노이즈 확대 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale-2-01.png){width="128px"}
 
 <b>필터</b>:
 
@@ -59,7 +59,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="noise-upscale-2.resources/noise2ex.png" />
+            <img src="noise-upscale-2.resources/noise-upscale-2-02.png" />
         </td>
     </tr>
 </table>

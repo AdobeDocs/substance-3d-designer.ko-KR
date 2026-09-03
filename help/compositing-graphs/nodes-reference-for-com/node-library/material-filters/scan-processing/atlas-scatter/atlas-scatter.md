@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
 breadcrumb-title: ''
 description: Atlas Scatter 노드를 사용하여 스캔한 자료에서 타일 패턴을 만들기 위해 아틀라스에 걸쳐 텍스처를 산란 합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Scatter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](atlas-scatter.resources/atlas-scatter.png){width="200px"}
+![](atlas-scatter.resources/atlas-scatter-01.png){width="200px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 
@@ -119,7 +119,7 @@ Atlas에서 요소를 추출하고 배경에서 산란을 만듭니다. 아틀�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="atlas-scatter.resources/atlas-scatter-11.png" />
+            <img src="atlas-scatter.resources/atlas-scatter-02.png" />
         </td>
     </tr>
 </table>

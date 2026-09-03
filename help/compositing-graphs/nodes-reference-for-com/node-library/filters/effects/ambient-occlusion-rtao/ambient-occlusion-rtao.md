@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: RTAO(Ambient 오클루전) 노드를 사용하여 Height 맵에서 실시간 주변 오클루전 맵을 생성하여 사실적인 음영을 수행합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 주변 오클루전(RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO 노드 아이콘](ambient-occlusion-rtao.resources/rt-ao.png "RTAO 노드 아이콘")
+![RTAO 노드 아이콘](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "RTAO 노드 아이콘")
 
 <b>인:</b> 필터 > 효과
 
@@ -62,10 +62,10 @@ Height 맵 입력을 기반으로 앰비언트 오클루전 맵을 생성합니�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
         </td>
     </tr>
 </table>

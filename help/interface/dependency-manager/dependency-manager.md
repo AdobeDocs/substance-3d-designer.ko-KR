@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 종속성 관리자를 사용하면 프로젝트의 리소스 종속성을 보고 관리할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 종속성 관리자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ ht-degree: 5%
 
 탐색기에서 패키지를 마우스 오른쪽 버튼으로 클릭하고 컨텍스트 메뉴에서 &#39;종속성 관리자&#39; 옵션을 선택하여 액세스할 수 있습니다.
 
-![종속성 관리자](dependency-manager.resources/dependency-manager.png "종속성 관리자")
+![종속성 관리자](dependency-manager.resources/dependency-manager-01.png "종속성 관리자")

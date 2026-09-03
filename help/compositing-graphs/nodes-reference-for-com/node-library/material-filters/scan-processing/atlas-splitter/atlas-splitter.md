@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
-description: Atlas Splitter 노드를 사용하여 스캔한 재료를 처리하기 위해 텍스처 아틀라스를 개별 텍스처로 분할합니다.
+description: Atlas Splitter 노드를 사용하여 스캔한 재료를 처리하기 위해 텍스처 아틀라스를 개별 텍스처으로 분할합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Atlas Splitter
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](atlas-splitter.resources/atlas-splitter.png "노드 아이콘")
+![노드 아이콘](atlas-splitter.resources/atlas-splitter-01.png "노드 아이콘")
 
 <b>인:</b> 재질 필터/스캔 처리
 

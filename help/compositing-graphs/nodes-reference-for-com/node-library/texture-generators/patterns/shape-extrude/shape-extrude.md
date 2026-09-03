@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
-description: 모양 돌출 노드를 사용하여 Substance 3D Designer 텍스처에서 모양을 돌출시키고 3D 같은 깊이 효과를 만듭니다.
+description: Substance 3D Designer 텍스처에서 모양 돌출 노드를 사용하여 모양을 돌출시키고 3D 같은 깊이 효과를 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 돌출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-extrude.resources/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -66,7 +66,7 @@ ht-degree: 5%
 | <b>경사 곡선</b> <i>-1.0 - 1.0</i> | 경사 효과의 볼록 또는 오목 곡선을 설정합니다. 값을 0으로 지정하면 커브가 없고 직선이 됩니다. |
 | <b>경사 미러링</b> <i>거짓/참</i> | 모양 아래뿐만 아니라 위쪽에도 경사를 적용하려면 토글합니다. |
 | <b>멀티플라이어 다운스케일</b> <i>0 - 2</i> | 손쉬운 다운스케일링 컨트롤 내장. 앤티 앨리어스를 빠르게 추가하는 데 사용할 수 있으며, 노드 해상도도 높여야 합니다. |
-| <b>위치</b> | 3D 공간에서 결과를 회전하기 위한 기본 컨트롤입니다. 2D 뷰에서 인터랙티브 Gizmo와 상호 연관됩니다. |
+| <b>위치</b> | 3D 공간에서 결과를 회전하기 위한 기본 컨트롤입니다. 2D 보기에서 인터랙티브 Gizmo와 상호 작용. |
 | <b>출력 범위</b> <i>[0, 1], [-1, 1]</i> | 출력 최소 및 최대 값을 설정합니다. [범위]를 [-1,1]로 설정하면 음수 값이 검정으로 표시됩니다. |
 
 ## 예
@@ -74,7 +74,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-extrude.resources/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-02.png" />
         </td>
     </tr>
 </table>

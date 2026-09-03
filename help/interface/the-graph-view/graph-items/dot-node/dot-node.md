@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 점 노드와 포털 노드를 사용하여 연결 지점을 만들고 그래프 흐름을 구성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 점 노드(포털도 포함)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![점 노드 아이콘](dot-node.resources/graphatomic-dot_1.png "점 노드 아이콘")
+![점 노드 아이콘](dot-node.resources/dot-node-01.png "점 노드 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 0%
 +++링크에 삽입
 <b>Alt</b> 키를 누른 상태에서 연결을 마우스로 가리키면 점 노드 미리 보기가 표시됩니다. 그런 다음 LMB를 클릭하여 해당 위치의 연결에 점 노드를 추가합니다.
 
-![점 노드 삽입](dot-node.resources/dot-node-insert-optim.gif "점 노드 삽입"){width="512px"}
+![점 노드 삽입](dot-node.resources/dot-node-02.gif "점 노드 삽입"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 계속해서 새 연결을 드래그하고 작업을 반복하여 원하는 방식으로 해당 연결을 라우팅할 수 있습니다.
 
-![점: 커넥터에서 만들기](dot-node.resources/graph-dot_create-from-connector.gif "점: 커넥터에서 만들기")
+![점: 커넥터에서 만들기](dot-node.resources/dot-node-03.gif "점: 커넥터에서 만들기")
 
 
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++노드 메뉴
 <b>스페이스바</b>를 눌러 <b>노드 메뉴</b>를 표시한 다음 &#39;점&#39; 항목을 선택하거나 검색 필드에 &#39;점&#39;을 입력하여 항목을 표시하고 더 빠르게 찾습니다.
 
-![노드 메뉴의 점 노드](dot-node.resources/dot-node-insert-menu.png "노드 메뉴의 점 노드")
+![노드 메뉴의 점 노드](dot-node.resources/dot-node-04.png "노드 메뉴의 점 노드")
 
 
 
@@ -85,7 +85,7 @@ Alt 키를 누르고 여러 노드 연결을 병합하려면 점 노드를 링�
 </td>
 <td style="border: 0;" valign="top">
 
-![링크 병합](dot-node.resources/dot-node-congrenate-links-optim.gif "링크 병합"){width="512px"}
+![링크 병합](dot-node.resources/dot-node-05.gif "링크 병합"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Alt 키를 누르고 여러 노드 연결을 병합하려면 점 노드를 링�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![점 노드를 포털로 - 아이콘](dot-node.resources/DotNode_Portal-1.png "점 노드를 포털로 - 아이콘")
+![점 노드를 포털로 - 아이콘](dot-node.resources/dot-node-06.png "점 노드를 포털로 - 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ Alt 키를 누르고 여러 노드 연결을 병합하려면 점 노드를 링�
 </tr>
 </table>
 
-![점 노드를 포털로](dot-node.resources/DotNode_Portal.gif "점 노드를 포털로")
+![점 노드를 포털로](dot-node.resources/dot-node-07.gif "점 노드를 포털로")
 
 ### 포털 생성 중
 

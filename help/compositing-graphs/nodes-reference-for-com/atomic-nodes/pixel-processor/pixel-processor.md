@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ''
 description: 고급 텍스처 조작을 위해 사용자 정의 표현식을 사용하여 개별 픽셀을 처리하려면 픽셀 프로세서 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 픽셀 프로세서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 픽셀 프로세서](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: 픽셀 프로세서"){width="200px"}
+![Atomic node: 픽셀 프로세서](pixel-processor.resources/pixel-processor-01.png "Atomic node: 픽셀 프로세서"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

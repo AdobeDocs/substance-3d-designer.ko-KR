@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: 모양 매퍼 노드를 사용하여 사용자 정의 가능한 변형 및 위치를 사용하여 모양을 텍스처에 매핑할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 매퍼
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![모양 매퍼 - 아이콘](shape-mapper.resources/shape_mapper.png "모양 매퍼 - 아이콘"){width="200px"}
+![모양 매퍼 - 아이콘](shape-mapper.resources/shape-mapper-01.png "모양 매퍼 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 

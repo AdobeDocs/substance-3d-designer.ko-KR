@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: 마스크-패스 노드를 사용하면 마스크 텍스처를 패스 데이터로 변환하여 패스를 계속 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스에 마스크 적용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](mask-to-paths.resources/mask-to-paths-icon.png "노드 아이콘")
+![노드 아이콘](mask-to-paths.resources/mask-to-paths-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 생성된 패스의 시작 위치와 목록에서 해당 순서를 제어할 수 있습니다.
 
-생성된 경로는 전용 노드(예: [경로 2D&rbrace;경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), &lbrace;2 변환 경로[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md), [스플라인 경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드를 사용하여 스플라인으로 변환되어 모양을 매핑하거나 산란으로 지정할 수 있습니다.
+생성된 패스는 전용 노드(예: [패스 2D 변형](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), [패스 뒤틀기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md))를 사용하여 추가로 처리하거나 [스플라인 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드를 사용하여 스플라인으로 변환하여 모양을 매핑하거나 산란에 사용할 수 있습니다.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ ht-degree: 0%
 | <b>시작 함수</b> <i>부동</i> | 시작 정점을 선택하는 데 사용되는 함수입니다. Float 값을 반환합니다.<br>각 정점에 대해 함수가 실행되고 함수가 *가장 높은 결과*&#x200B;를 반환하는 정점이 선택됩니다.<br>사용 가능한 변수:<br>*-* vertex.cornerness(부동)*:* 모서리가 될 후보인 정점의 점수&#x200B;<br>*-* vertex.pos(부동2)*:* 이미지 공간의 정점 위치<br><i>참고:</i> 이 매개 변수는 경로 시작 모드가 &#39;지정된 위치에 가장 가까운 정점&#39; 또는 &#39;사용자 지정 시작 함수&#39;로 설정된 경우에 사용할 수 있습니다. |
 | <b>주문 모드</b> <i>정수</i> | 생성된 경로 순서 지정 방법입니다.<br>경로 위치 또는 크기 *테두리 상자*(Bbox)를 경로 순서 지정 기준으로 사용할 수 있습니다.<br>이는 여러 스플라인 노드가 스플라인의 순서를 사용하므로 전용 노드를 사용하여 생성된 <b>경로를 스플라인으로 변환할 때 큰 영향을 미칩니다</b>.<br>*- 레거시(고속):* 성능이 크게 향상된 이 노드의 이전 버전에서 사용된 메서드&#x200B;<br>*- 방향을 따라 Bbox 중심 위치별:* 경로는 Bbox 중심 위치에 따라 지정된 방향을 따라 처음부터 마지막 위치까지 순서가 지정됩니다&#x200B;<br>*- 방향을 따라 Bbox Bbox 왼쪽 위 위치별:* 경로는 왼쪽 위 위치에 따라 정렬됩니다. 지정된 방향을 따라 Bbox의 첫 번째부터 마지막 번째까지 모퉁이&#x200B;<br>*- Bbox 크기 기준 - 가장 큰 경로에서 가장 작은 경로* Bbox 크기에 따라 정렬됩니다. 가장 큰 경로에서 가장 작은 경로&#x200B;<br>*- Bbox 크기 기준 - 가장 작은 경로에서 가장 큰 경로* Bbox 크기에 따라 정렬됩니다. 가장 작은 경로에서 가장 큰 경로&#x200B;<br>*- 사용자 지정 정렬 함수:* 사용자 지정 함수를 사용하여 경로를 정렬합니다. |
 | <b>순서 지정 방향</b> <i>부동</i> | 패스를 처음 시작부터 끝까지 해당 방향을 따라 정렬하는 데 사용되는 방향을 설명하는 각도입니다.<br>값은 X 왼쪽 방향 벡터를 회전하는 데 사용되는 *회전 수*&#x200B;입니다. 즉, 0은 (-1, 0)의 방향 벡터를 설정하고, 0.25(90도)는 (0, 1)의 방향 벡터를 설정한다. |
-| <b>순서 지정 함수</b> <i>부동</i> | 경로 순서를 지정하는 데 사용되는 함수입니다. Float 값을 반환합니다.이 함수 값에 따라 <br>경로가 *오름차순*&#x200B;으로 정렬됩니다. 즉, 각 Path에 대한 함수의 결과는 Paths를 정렬하는 데 사용되는 *정렬 키*&#x200B;입니다.<br>사용 가능한 변수:<br>* bbox.center(부동2): Path Bbox의 가운데 위치<br>* bbox.topleft(부동2): Path Bbox의 왼쪽 상단 모서리 위치<br>* bbox.size(부동2): Path Bbox의 크기(X: width, Y: Height) |
+| <b>순서 지정 함수</b> <i>부동</i> | 경로 순서를 지정하는 데 사용되는 함수입니다. 부동 값을 반환합니다.이 함수 값에 따라 <br>경로가 *오름차순*&#x200B;으로 정렬됩니다. 즉, 각 Path에 대한 함수의 결과는 Paths를 정렬하는 데 사용되는 *정렬 키*&#x200B;입니다.<br>사용 가능한 변수:<br>* bbox.center(부동2): Path Bbox의 가운데 위치<br>* bbox.topleft(부동2): Path Bbox의 왼쪽 상단 모서리 위치<br>* bbox.size(부동2): Path Bbox의 크기(X: width, Y: Height) |
 
 ## 예
 
@@ -92,11 +92,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 2](mask-to-paths.resources/MaskToPaths-Demo2.gif "노드 예 2"){zoomable="yes"}
+![노드 예 2](mask-to-paths.resources/mask-to-paths-06.gif "노드 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 1](mask-to-paths.resources/MaskToPaths-Demo1.gif "노드 예 1"){zoomable="yes"}
+![노드 예 1](mask-to-paths.resources/mask-to-paths-07.gif "노드 예 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 3: 시작 모드](mask-to-paths.resources/MaskToPaths-Demo3.gif "노드 예 3: 시작 모드"){zoomable="yes"}
+![노드 예 3: 시작 모드](mask-to-paths.resources/mask-to-paths-08.gif "노드 예 3: 시작 모드"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 3: 순서 지정 모드](mask-to-paths.resources/MaskToPaths-Demo4.gif "노드 예 3: 순서 지정 모드"){zoomable="yes"}
+![노드 예 3: 순서 지정 모드](mask-to-paths.resources/mask-to-paths-09.gif "노드 예 3: 순서 지정 모드"){zoomable="yes"}
 
 </td>
 </tr>

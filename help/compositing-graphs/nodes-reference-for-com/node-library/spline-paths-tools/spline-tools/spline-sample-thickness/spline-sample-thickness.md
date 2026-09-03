@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
 description: 스플라인 샘플 Thickness 노드를 사용하여 절차 효과를 위해 스플라인을 따라 Thickness 값을 샘플링합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 샘플 Thickness
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-sample-thickness.resources/spline-sample-thickness-icon.png "노드 아이콘")
+![노드 아이콘](spline-sample-thickness.resources/spline-sample-thickness-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-02.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-03.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-04.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/spline-sample-thickness-05.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-sample-thickness.resources/SplineSampleThickness-Variant1-After1.jpg "노드 예 1")
+![노드 예 1](spline-sample-thickness.resources/spline-sample-thickness-06.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-sample-thickness.resources/SplineSampleThickness-Demo.gif "노드 예 2")
+![노드 예 2](spline-sample-thickness.resources/spline-sample-thickness-07.gif "노드 예 2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 홈 화면을 통해 최근 프로젝트, 템플릿 및 학습 리소스에 액세스할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 홈 화면
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # 홈 화면
 
-![홈 화면](home-screen.resources/home-screen-home.jpg "홈 화면")
+![홈 화면](home-screen.resources/home-screen-01.jpg "홈 화면")
 
 <b>홈 화면<b> </b></b>Substance 3D Designer을 실행하면 환영합니다. 프로젝트를 시작하고 유용한 링크에 액세스하는 데 도움이 됩니다.
 
@@ -33,18 +33,18 @@ ht-degree: 2%
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![뒤로 단추](home-screen.resources/home-screen-back-icon.jpg "뒤로 단추")
+![뒤로 단추](home-screen.resources/home-screen-02.jpg "뒤로 단추")
 
 </td>
 </tr>
 </table>
 
-![홈 섹션](home-screen.resources/home-screen-home_1.jpg "홈 섹션"){width="512px"}
+![홈 섹션](home-screen.resources/home-screen-03.jpg "홈 섹션"){width="512px"}
 
 ## 홈
 
-![](home-screen.resources/home-screen-home-icon.jpg) <b>홈</b> 섹션에는 Designer 사용을 위해 강조 표시된 제안이 포함된 배너가 제공됩니다.\
-오른쪽의 ![](home-screen.resources/home-screen-expand-icon.jpg) <b>제안 숨기기</b> 단추를 사용하여 이 배너를 축소할 수 있습니다.
+![](home-screen.resources/home-screen-04.jpg) <b>홈</b> 섹션에는 Designer 사용을 위해 강조 표시된 제안이 포함된 배너가 제공됩니다.\
+오른쪽의 ![](home-screen.resources/home-screen-05.jpg) <b>제안 숨기기</b> 단추를 사용하여 이 배너를 축소할 수 있습니다.
 
 아래에서는 <b>최근</b> 헤더 아래의 최근 파일 목록을 통해 가장 최근 것부터 가장 오래된 것까지 마지막으로 로드된 프로젝트에 빠르게 액세스할 수 있습니다.
 
@@ -54,11 +54,11 @@ ht-degree: 2%
 >
 > 파일의 전체 경로를 표시하려면 항목에 커서를 몇 초 동안 그대로 둡니다.
 
-![학습 섹션](home-screen.resources/home-screen-learn.jpg "학습 섹션"){width="512px"}
+![학습 섹션](home-screen.resources/home-screen-06.jpg "학습 섹션"){width="512px"}
 
 ## 학습
 
-![](home-screen.resources/home-screen-learn-icon.jpg) <b>학습</b> 섹션은 Substance 3D Designer에 대한 이해를 높이는 데 유용한 학습 리소스를 제공합니다.
+![](home-screen.resources/home-screen-07.jpg) <b>학습</b> 섹션은 Substance 3D Designer에 대한 이해를 높이는 데 유용한 학습 리소스를 제공합니다.
 
 이러한 리소스는 카드 링크로 나열되며 다음과 같이 그룹화됩니다.
 
@@ -68,11 +68,11 @@ ht-degree: 2%
   * [빠른 팁](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc)은 재질, 패턴, 필터 등을 만드는 기술에 대해 선별된 재생 목록입니다.
   * [온라인 설명서](../../home/home.md)는 이 설명서를 제공합니다.
 
-![새로운 기능 화면](home-screen.resources/home-screen-whats-new.jpg "새로운 기능 화면"){width="512px"}
+![새로운 기능 화면](home-screen.resources/home-screen-08.jpg "새로운 기능 화면"){width="512px"}
 
 ## 새로운 기능
 
-화면 오른쪽 상단의 ![](home-screen.resources/home-screen-whats-new-icon.jpg) <b>새로운 기능</b> 버튼에는 Designer 버전에 추가된 주요 기능을 나열하는 화면과 해당 버전에 대한 전체 [릴리스 정보](../../release-notes/release-notes.md)에 대한 링크가 표시됩니다.
+화면 오른쪽 상단의 ![](home-screen.resources/home-screen-09.jpg) <b>새로운 기능</b> 버튼에는 Designer 버전에 추가된 주요 기능을 나열하는 화면과 해당 버전에 대한 전체 [릴리스 정보](../../release-notes/release-notes.md)에 대한 링크가 표시됩니다.
 
 ## 프로젝트 시작
 
@@ -82,7 +82,7 @@ ht-degree: 2%
 * <b>패키지 열기:</b> 기존 패키지를 로드할 수 있습니다.
 * <b>AxF 가져오기:</b> [AxF 가져오기 워크플로](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)를 시작합니다.
 
-![Substance 3D Designer 화면 정보](home-screen.resources/home-screen-about.jpg "Substance 3D Designer 화면 정보"){width="256px"}
+![Substance 3D Designer 화면 정보](home-screen.resources/home-screen-10.jpg "Substance 3D Designer 화면 정보"){width="256px"}
 
 ## 링크
 

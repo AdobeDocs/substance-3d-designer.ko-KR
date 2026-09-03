@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 다양한 합성 효과와 텍스처를 결합하는 데 사용할 수 있는 혼합 모드에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합 모드
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 2%
@@ -26,19 +26,19 @@ ht-degree: 2%
 
 *복사* 혼합 모드는 전경을 배경 위에 배치합니다.
 
-![혼합 모드: 복사](blending-modes-description.resources/image2015-8-20-9-38-0.png "혼합 모드: 복사"){zoomable="yes"}
+![혼합 모드: 복사](blending-modes-description.resources/blending-modes-description-01.png "혼합 모드: 복사"){zoomable="yes"}
 
 색상 이미지의 경우 기본적으로 불투명도에서 알파 채널이 고려됩니다.
 
-&#39;알파 혼합&#39; 매개 변수를 사용하여 변경할 수 있습니다.
+&#39;Alpha 혼합&#39; 매개 변수를 사용하여 변경할 수 있습니다.
 
-![혼합 모드: 복사(2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "혼합 모드: 복사(2)"){zoomable="yes"}
+![혼합 모드: 복사(2)](blending-modes-description.resources/blending-modes-description-02.png "혼합 모드: 복사(2)"){zoomable="yes"}
 
 ## 추가(선형 닷지)
 
 *추가* 혼합 모드를 사용하면 배경의 각 해당 픽셀에 전경 입력 값이 추가됩니다.
 
-![혼합 모드: 추가(선형 닷지)](blending-modes-description.resources/image2015-8-20-9-38-19.png "혼합 모드: 추가(선형 닷지)"){zoomable="yes"}
+![혼합 모드: 추가(선형 닷지)](blending-modes-description.resources/blending-modes-description-03.png "혼합 모드: 추가(선형 닷지)"){zoomable="yes"}
 
 ## 빼기
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 빼기의 결과가 0보다 낮으면, 그 값은 0으로 캡핑되므로 순수한 검정이 된다.
 
-![혼합 모드: 빼기](blending-modes-description.resources/image2015-8-20-9-38-35.png "혼합 모드: 빼기"){zoomable="yes"}
+![혼합 모드: 빼기](blending-modes-description.resources/blending-modes-description-04.png "혼합 모드: 빼기"){zoomable="yes"}
 
 ## 곱하기
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 각 픽셀의 값이 0과 1 사이에 포함되어 있으므로 원본과 항상 같거나 더 낮습니다(더 어둡게).
 
-![혼합 모드: 곱하기](blending-modes-description.resources/image2015-8-20-9-38-53.png "혼합 모드: 곱하기"){zoomable="yes"}
+![혼합 모드: 곱하기](blending-modes-description.resources/blending-modes-description-05.png "혼합 모드: 곱하기"){zoomable="yes"}
 
 ## 하위 추가
 
@@ -63,19 +63,19 @@ ht-degree: 2%
 * 값이 0.5보다 큰 전경 픽셀은 해당 배경 픽셀에 추가됩니다.
 * 값이 0.5보다 낮은 전경 픽셀을 배경의 해당 픽셀에서 뺍니다.
 
-![혼합 모드: 하위 항목 추가](blending-modes-description.resources/image2015-8-20-9-39-11.png "혼합 모드: 하위 항목 추가"){zoomable="yes"}
+![혼합 모드: 하위 항목 추가](blending-modes-description.resources/blending-modes-description-06.png "혼합 모드: 하위 항목 추가"){zoomable="yes"}
 
 ## 최대(밝게)
 
 *최대* 혼합 모드는 배경과 전경 중 더 높은 값을 선택합니다.
 
-![혼합 모드: 최대(밝게)](blending-modes-description.resources/image2015-8-20-9-40-12.png "혼합 모드: 최대(밝게)"){zoomable="yes"}
+![혼합 모드: 최대(밝게)](blending-modes-description.resources/blending-modes-description-07.png "혼합 모드: 최대(밝게)"){zoomable="yes"}
 
 ## 최소(어둡게)
 
 *최소* 혼합 모드는 배경과 전경 중 더 낮은 값을 선택합니다.
 
-![혼합 모드: 최소(어둡게)](blending-modes-description.resources/image2015-8-20-9-40-31.png "혼합 모드: 최소(어둡게)"){zoomable="yes"}
+![혼합 모드: 최소(어둡게)](blending-modes-description.resources/blending-modes-description-08.png "혼합 모드: 최소(어둡게)"){zoomable="yes"}
 
 ## 전환
 
@@ -88,23 +88,23 @@ ht-degree: 2%
 
 이러한 특정 구성에서 혼합 노드를 사용하도록 [전환](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) 및 [회색 음영 전환](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) 노드가 설정되어 있습니다.
 
-![혼합 모드: 전환](blending-modes-description.resources/image2015-8-20-9-38-0.png "혼합 모드: 전환"){zoomable="yes"}
+![혼합 모드: 전환](blending-modes-description.resources/blending-modes-description-01.png "혼합 모드: 전환"){zoomable="yes"}
 
 ## 나누기
 
 *나누기* 혼합 모드는 배경 입력 픽셀 값을 전경의 해당 픽셀로 나눕니다.
 
-![혼합 모드: 나누기](blending-modes-description.resources/image2015-8-20-9-41-32.png "혼합 모드: 나누기"){zoomable="yes"}
+![혼합 모드: 나누기](blending-modes-description.resources/blending-modes-description-09.png "혼합 모드: 나누기"){zoomable="yes"}
 
 ## 오버레이
 
 *오버레이* 혼합 모드는 곱하기 및 화면 혼합 모드를 결합합니다.
 
-* &#x200B;
+* 
   * 하위 레이어 픽셀의 값이 0.5 미만이면 *곱하기* 유형 혼합이 적용됩니다
   * 하위 레이어 픽셀의 값이 0.5 이상이면 *스크린* 유형 혼합이 적용됩니다
 
-![혼합 모드: 오버레이](blending-modes-description.resources/image2015-8-20-9-41-50.png "혼합 모드: 오버레이"){zoomable="yes"}
+![혼합 모드: 오버레이](blending-modes-description.resources/blending-modes-description-10.png "혼합 모드: 오버레이"){zoomable="yes"}
 
 ## 화면
 
@@ -112,7 +112,7 @@ ht-degree: 2%
 
 그 결과는 곱하는 것과 반대의 결과이며, 원본과 비교했을 때 항상 같거나 더 밝습니다(더 밝음).
 
-![혼합 모드: 화면](blending-modes-description.resources/image2015-8-20-9-42-11.png "혼합 모드: 화면"){zoomable="yes"}
+![혼합 모드: 화면](blending-modes-description.resources/blending-modes-description-11.png "혼합 모드: 화면"){zoomable="yes"}
 
 ## 소프트 라이트
 
@@ -120,4 +120,4 @@ ht-degree: 2%
 
 50% 이상의 명도를 포함하는 혼합 색상은 배경 픽셀을 밝게 하고 50% 미만의 명도를 포함하는 색상은 배경 픽셀을 어둡게 합니다.
 
-![혼합 모드: 소프트 라이트](blending-modes-description.resources/image2015-8-20-9-42-32.png "혼합 모드: 소프트 라이트"){zoomable="yes"}
+![혼합 모드: 소프트 라이트](blending-modes-description.resources/blending-modes-description-12.png "혼합 모드: 소프트 라이트"){zoomable="yes"}

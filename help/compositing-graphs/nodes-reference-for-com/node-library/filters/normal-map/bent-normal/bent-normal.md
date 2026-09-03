@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: 표준 구부리기 노드를 사용하면 주변 오클루전 및 간접 조명을 설명하는 표준 구부리기 맵을 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 노멀 구부리기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![구부러진 표준 노드 아이콘](bent-normal.resources/rt-bent-normal.png "구부러진 표준 노드 아이콘")
+![구부러진 표준 노드 아이콘](bent-normal.resources/bent-normal-01.png "구부러진 표준 노드 아이콘")
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -62,7 +62,7 @@ Height 맵 입력을 기반으로 [구부러진 표준 맵]을 생성합니다. 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
         </td>
     </tr>
 </table>

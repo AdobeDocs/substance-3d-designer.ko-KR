@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 기술 문제에 대한 문제 해결 안내서를 찾아 문제를 빠르게 해결하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 기술 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -55,16 +55,16 @@ Designer에는 충돌 및 버그를 직접 보고하는 방법이 포함됩니�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-응용 프로그램이 충돌하면 대부분의 경우 [충돌 보고서] 대화 상자가 표시됩니다.
+응용 프로그램이 충돌을 수행하면 대부분의 경우 [충돌 보고서] 대화 상자가 표시됩니다.
 
-설명 필드에서 충돌 상황에 대해 알려주시면 문제를 조사하고 향후 Designer 릴리스에서 해결하기를 바랍니다.
+조사한 후 향후 Designer 릴리스에서 수정할 수 있도록 설명 필드에서 충돌의 상황에 대해 알 수 있습니다.
 
-<b>유효한 전자 메일 주소</b>를 공유하면 자세한 정보가 필요한 경우 사용자에게 연락하거나 발생한 충돌에 대한 해결 방법을 제공할 수 있습니다.
+<b>유효한 전자 메일 주소</b>를 공유하면 자세한 정보가 필요한 경우 사용자에게 연락하거나 사용자가 경험한 충돌에 대한 해결 방법을 제공할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![충돌 보고서 대화 상자](technical-issues.resources/crash-reporter-2.png "충돌 보고서 대화 상자"){zoomable="yes"}
+![충돌 보고서 대화 상자](technical-issues.resources/technical-issues-01.png "충돌 보고서 대화 상자"){zoomable="yes"}
 
 *확대하려면 클릭*
 
@@ -91,7 +91,7 @@ Designer에서는 언제든지 버그를 신고할 수 있습니다. 기본 메�
 </td>
 <td style="border: 0;" valign="top">
 
-![버그 보고서 대화 상자](technical-issues.resources/bug-reporter.png "버그 보고서 대화 상자"){zoomable="yes"}
+![버그 보고서 대화 상자](technical-issues.resources/technical-issues-02.png "버그 보고서 대화 상자"){zoomable="yes"}
 
 *확대하려면 클릭*
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 breadcrumb-title: ''
 description: 경로 노드에서 4중 변환을 사용하여 경로 곡선을 따라 요소에 2차 변환을 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 상의 4중 변형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "노드 아이콘")
+![노드 아이콘](quad-transform-on-path.resources/quad-transform-on-path-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -75,11 +75,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -109,12 +109,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "노드 예 1")
+![노드 예 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "노드 예 2")
+![노드 예 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "노드 예 2")
 
 </td>
 </tr>

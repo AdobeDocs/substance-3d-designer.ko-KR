@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 점 목록 노드 를 사용하여 스플라인 및 패스 생성에 사용할 점 목록을 만들고 관리합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 포인트 목록
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](point-list.resources/point-list-icon.png "노드 아이콘")
+![노드 아이콘](point-list.resources/point-list-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -93,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](point-list.resources/PointList-Variant1.jpg "노드 예 1")
+![노드 예 1](point-list.resources/point-list-02.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](point-list.resources/PointList-Demo1.gif "노드 예 2")
+![노드 예 2](point-list.resources/point-list-03.gif "노드 예 2")
 
 </td>
 </tr>

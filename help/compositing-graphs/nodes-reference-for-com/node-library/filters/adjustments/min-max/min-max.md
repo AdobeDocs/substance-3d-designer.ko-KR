@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
-description: 최소 최대 노드를 사용하여 값 범위를 제어하기 위한 최소 및 최대 임계값 사이에서 텍스처 값을 클램프합니다.
+description: 최소 최대(Min Max) 노드를 사용하여 값 범위를 제어하기 위한 최소 및 최대 임계값 사이에서 텍스처 값을 클램프합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 최소 최대
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](min-max.resources/min-max.png){width="200px"}
+![](min-max.resources/min-max-01.png){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -46,7 +46,7 @@ Min Max는 회색 음영 입력의 가장 밝은 값과 가장 어두운 값을 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="min-max.resources/minmax.png" />
+            <img src="min-max.resources/min-max-02.png" />
         </td>
     </tr>
 </table>

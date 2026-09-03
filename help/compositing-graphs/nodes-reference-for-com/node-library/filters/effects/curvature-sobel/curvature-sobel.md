@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: 곡률 소벨(Curvature Sobel) 노드를 사용하면 모서리 기반 마스크를 생성하는 소벨 연산자(Sobel operators)를 사용하여 곡률 모서리를 감지할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 곡률 소벨
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
+            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
         </td>
     </tr>
 </table>

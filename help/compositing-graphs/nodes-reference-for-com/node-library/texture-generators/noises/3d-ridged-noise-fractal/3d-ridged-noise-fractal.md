@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
-description: 산악 같은 텍스처를 만들기 위해 3D 공간에서 3D 리지 노이즈 프랙탈 노드를 사용하여 리지 프랙탈 노이즈 패턴을 생성합니다.
+description: '[3D 가장자리 노이즈 프랙탈 노드]를 사용하여 산과 같은 텍스처를 만들기 위해 3D 공간에 가장자리 거칠게 표시된 프랙탈 노이즈 패턴을 생성합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 융기된 노이즈 프랙탈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-ridged-noise-fractal.resources/3dridgednoisefractal.png){width="200px"}
+![](3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-01.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -71,10 +71,10 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+            <img src="3d-ridged-noise-fractal.resources/3d-ridged-noise-fractal-03.jpg" />
         </td>
     </tr>
 </table>

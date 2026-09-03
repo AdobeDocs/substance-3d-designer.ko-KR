@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: 변환 2D 노드를 사용하여 평행 이동, 회전 및 비율 조정을 비롯한 2D 변환을 텍스처에 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 변환
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 변환 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: 변환 2D"){width="200px"}
+![Atomic node: 변환 2D](transformation-2d.resources/transformation-2d-01.png "Atomic node: 변환 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 이 노드는 매우 유용하고 널리 적용되는 노드로, 타일링 향상, 타일링 제거, 특정 위치에 이미지 배치, 입력 늘리기 또는 찌그러뜨리기 등을 수행할 수 있습니다.
 
-그러나 특정 응용 프로그램에 대해 완벽한 일치는 될 수 없으므로 다음 노드가 관심 있을 수 있습니다. [Safe](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), &lbrace;non-Square[Quad](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), &lbrace;quad[&#x200B; 및 &lbrace;quad&lbrace;trapezoid](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
+그러나 특정 응용 프로그램과 완벽하게 일치할 수는 없으므로 다음 노드가 관심 있을 수 있습니다. [안전 변형](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [정사각형이 아닌 변형](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [쿼드 변형](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) 및 [사다리꼴 변형](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
 <table>
 <tr style="border: 0;">
@@ -67,7 +67,7 @@ ht-degree: 5%
 > 
 > &#39;타일링 모드&#39; [기본 매개 변수](../../../../glossary/glossary.md)의 [상속 메서드](../../../../glossary/glossary.md)를 &#39;절대&#39;로 설정한 다음 매개 변수 값을 &#39;타일링 없음&#39;으로 설정할 수 있습니다.
 > 
-> ![](transformation-2d.resources/tilingmode.png)
+> ![](transformation-2d.resources/transformation-2d-02.png)
 
 >[!NOTE]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
 description: '[확산 회색 음영] 노드를 사용하면 부드러운 색상 전환과 혼합을 위해 회색 음영 확산 효과를 적용할 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 확산 회색 음영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-01.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -66,24 +66,24 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-07.jpg" />
         </td>
     </tr>
 </table>

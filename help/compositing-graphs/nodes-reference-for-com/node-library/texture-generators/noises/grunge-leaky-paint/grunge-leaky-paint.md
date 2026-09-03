@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: 그런지 누수 페인트 노드를 사용하여 풍화 및 노화 표면 효과를 만들기 위한 페인트 누수 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지가 새는 페인트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
         </td>
     </tr>
 </table>

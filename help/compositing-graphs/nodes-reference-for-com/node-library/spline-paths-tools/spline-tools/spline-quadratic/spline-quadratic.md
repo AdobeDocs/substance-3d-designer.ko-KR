@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: 스플라인 2차 노드를 사용하여 3개의 제어점으로 매끄러운 2차 스플라인을 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인(2차)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![스플라인(2차): 아이콘](spline-quadratic.resources/spline-quadratic-icon.png "스플라인(2차): 아이콘")
+![스플라인(2차): 아이콘](spline-quadratic.resources/spline-quadratic-01.png "스플라인(2차): 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -103,12 +103,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인(2차): 예제 1](spline-quadratic.resources/spline-quadratic-example-1.png "스플라인(2차): 예제 1"){zoomable="yes"}
+![스플라인(2차): 예제 1](spline-quadratic.resources/spline-quadratic-02.png "스플라인(2차): 예제 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인(2차): 예제 2](spline-quadratic.resources/spline-quadratic-example-2.png "스플라인(2차): 예제 2"){zoomable="yes"}
+![스플라인(2차): 예제 2](spline-quadratic.resources/spline-quadratic-03.png "스플라인(2차): 예제 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인(2차): 데모](spline-quadratic.resources/spline-quadratic-demo.gif "스플라인(2차): 데모"){zoomable="yes"}
+![스플라인(2차): 데모](spline-quadratic.resources/spline-quadratic-04.gif "스플라인(2차): 데모"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

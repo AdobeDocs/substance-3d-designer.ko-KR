@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
 breadcrumb-title: ''
 description: 히스토그램 렌더링 노드를 사용하여 히스토그램 데이터를 분석 및 디버깅을 위한 텍스처로 시각화합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 히스토그램 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![비등방성 구와하라 회색 음영 아이콘](histogram-render.resources/histogram_render.png "비등방성 구와하라 회색 음영 아이콘"){width="200px"}
+![비등방성 구와하라 회색 음영 아이콘](histogram-render.resources/histogram-render-01.png "비등방성 구와하라 회색 음영 아이콘"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -69,6 +69,6 @@ ht-degree: 2%
 
 ## 예
 
-![막대 그래프 렌더링: 예 1](histogram-render.resources/histogram_render_example_1.png "막대 그래프 렌더링: 예 1"){zoomable="yes"}
+![막대 그래프 렌더링: 예 1](histogram-render.resources/histogram-render-02.png "막대 그래프 렌더링: 예 1"){zoomable="yes"}
 
-![막대 그래프 렌더링: 예 2](histogram-render.resources/histogram_render_example_2.png "막대 그래프 렌더링: 예 2"){zoomable="yes"}
+![막대 그래프 렌더링: 예 2](histogram-render.resources/histogram-render-03.png "막대 그래프 렌더링: 예 2"){zoomable="yes"}

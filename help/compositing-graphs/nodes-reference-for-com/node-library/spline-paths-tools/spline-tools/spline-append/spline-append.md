@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: 스플라인 첨부(Spline Append) 노드를 사용하여 여러 스플라인을 함께 추가하여 보다 긴 연속 패스를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 첨부
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-append.resources/spline-append-icon.png "노드 아이콘")
+![노드 아이콘](spline-append.resources/spline-append-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-append.resources/SplineAppend-Demo.jpg "노드 예 1")
+![노드 예 1](spline-append.resources/spline-append-02.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-append.resources/SplineAppend-Graph.jpg "노드 예 2")
+![노드 예 2](spline-append.resources/spline-append-03.jpg "노드 예 2")
 
 </td>
 </tr>
 </table>
 
-![노드 데모](spline-append.resources/SplineAppend-Demo2.gif "노드 데모")
+![노드 데모](spline-append.resources/spline-append-04.gif "노드 데모")

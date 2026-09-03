@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
 breadcrumb-title: ''
 description: '[색상 정량화] 노드를 사용하면 포스터화와 스타일화된 효과를 만들기 위해 텍스처의 색상 수를 줄일 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 정량화 (단순)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](quantize.resources/quantize.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](quantize.resources/quantize-01.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 

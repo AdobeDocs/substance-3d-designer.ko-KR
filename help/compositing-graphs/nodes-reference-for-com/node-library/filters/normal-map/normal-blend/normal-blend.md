@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
-description: 표준 블렌드(Normal Blend) 노드를 사용하면 표준 맵을 함께 블렌딩하여 표면 세부 사항 간의 부드러운 전환을 만들 수 있습니다.
+description: 표준(Normal) 혼합 노드를 사용하여 노멀 맵을 함께 블렌딩하여 표면 세부 사항 간의 부드러운 전환을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 표준 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-blend.resources/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## 설명
 
-[표준 혼합]을 사용하면 선택적 마스크를 사용하여 두 개의 표준 맵을 혼합하고 모든 값을 표준화 상태로 유지할 수 있습니다. [원자 혼합 노드](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)와 크게 다르지 않지만 표준 맵에 대한 내부 계산을 추가했습니다.
+[표준] 혼합을 사용하면 선택적 마스크를 사용하여 두 개의 표준 맵을 혼합할 수 있으며, 동시에 모든 값을 표준으로 유지할 수 있습니다. [원자 혼합 노드](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)와 크게 다르지 않지만 표준 맵에 대한 내부 계산을 추가했습니다.
 
-[표준 혼합]은 표준 맵을 결합(오버레이)하기 위한 것이 아닙니다. 표준 맵에서는 위쪽 맵이 아래쪽 맵에 디테일을 추가합니다. 대신 [일반 결합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)을 사용하십시오.
+표준 혼합은 맨 위 맵이 맨 아래 맵에 디테일을 추가하는 표준 맵을 결합(오버레이)하기 위한 것이 아닙니다. 대신 [일반 결합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)을 사용하십시오.
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(.gif 형식은 예제에서 디더링을 도입하며 응용 프로그램 내 결과는 매끄럽습니다.)</i>
+            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(.gif 형식은 예제에서 디더링을 도입하며 응용 프로그램 내 결과는 매끄럽습니다.)</i>
         </td>
     </tr>
 </table>

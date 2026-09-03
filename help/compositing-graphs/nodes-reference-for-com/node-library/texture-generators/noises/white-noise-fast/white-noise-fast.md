@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
 breadcrumb-title: ''
 description: 빠른 텍스처 변경 및 임의화를 위해 빠른 흰색 노이즈 패턴을 생성하려면 [빠른 흰색 노이즈] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 빠른 흰색 노이즈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](white-noise-fast.resources/white-noise-fast.png){width="128px"}
+![](white-noise-fast.resources/white-noise-fast-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="white-noise-fast.resources/white-noise-fast-1.png" />
+            <img src="white-noise-fast.resources/white-noise-fast-02.png" />
         </td>
     </tr>
 </table>

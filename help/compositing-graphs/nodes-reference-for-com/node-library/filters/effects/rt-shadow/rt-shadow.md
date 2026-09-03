@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: RT 그림자 노드를 사용하여 동적 조명 효과를 생성하기 위해 형상에서 실시간 그림자 정보를 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT 그림자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RT 그림자 노드 아이콘](rt-shadow.resources/rt-shadow.png "RT 그림자 노드 아이콘")
+![RT 그림자 노드 아이콘](rt-shadow.resources/rt-shadow-01.png "RT 그림자 노드 아이콘")
 
 <b>인:</b> 필터 > 효과
 
@@ -64,13 +64,13 @@ Height 맵 입력에서 광선 추적형 그림자를 생성합니다.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-01.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-02.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-03.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-04.jpg" />
         </td>
     </tr>
 </table>

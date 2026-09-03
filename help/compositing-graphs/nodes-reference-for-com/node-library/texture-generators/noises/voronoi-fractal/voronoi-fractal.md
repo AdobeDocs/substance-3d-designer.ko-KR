@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
 breadcrumb-title: ''
 description: Voronoi 프랙탈 노드를 사용하여 유기적인 세포 텍스처를 만들기 위한 프랙탈 Voronoi 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 보로노이 프랙탈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoifractal.png){width="200px"}
+![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 설명
 
-**보로노이 프랙탈** 노드는 *Z-down 직교 투영*&#x200B;을 사용하여 2D 이미지에 매핑된 *프랙탈* 3D 보로노이 노이즈를 생성합니다.
+**보로노이 프랙탈** 노드는 *Z-down 정사영 투영*&#x200B;을 사용하여 2D 이미지에 매핑된 *프랙탈* 3D 보로노이 노이즈를 생성합니다.
 
 이 베이킹된 맵은 실제 노드 대신 [큐브 GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md)을(를) 입력으로 사용하여 테스트할 수 있습니다(아래 예제 이미지 참조).
 
@@ -79,28 +79,28 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
         </td>
     </tr>
 </table>

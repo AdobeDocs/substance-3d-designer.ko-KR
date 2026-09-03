@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: '[확산] UV 노드를 사용하여 UV 공간에 확산 효과를 적용하여 매끄러운 색상 전환과 혼합을 만들 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 확산 UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -69,18 +69,18 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
         </td>
     </tr>
 </table>

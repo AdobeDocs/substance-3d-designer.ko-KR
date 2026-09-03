@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프 및 MDL 재질
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -20,26 +20,26 @@ ht-degree: 1%
 
 # Substance 그래프 및 MDL 재질
 
-이 페이지에서는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)와 MDL 그래프 간의 시너지 효과 및 Substance 그래프 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)의 텍스처를 MDL 그래프 입력으로 연결하는 방법에 대해 설명합니다.
+이 페이지에서는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)와 MDL 그래프 간의 시너지 효과 및 Substance 그래프 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)에서 MDL 그래프 입력으로 텍스처를 연결하는 방법에 대해 설명합니다.
 
 ## 개요
 
 Substance 그래프의 출력은 이 페이지에서 설명하는 두 가지 방법으로 MDL 재질의 노출 매개 변수&#x200B;*에*&#x200B;전달할 수 있습니다.
 
-3D 보기에서 현재 적용된 MDL 재질에 *[가변](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* 유형의 노출 매개 변수가 있는 경우 [노출 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 속성에서 <b>유형 수정자</b> 옵션을 사용하여 이 유형을 설정할 수 있으며, 이러한 유형을 *텍스처*&#x200B;에 연결할 수 있습니다.
+3D 보기에서 현재 적용된 MDL 재질에 *[가변](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* 유형의 노출 매개 변수가 있는 경우 [노출 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 속성에서 <b>유형 수정자</b> 옵션을 사용하여 이 유형을 설정할 수 있습니다. 이러한 유형을 *텍스처*&#x200B;에 연결할 수 있습니다.
 
 * <b>Color</b> 매개 변수는 RGBA 텍스처에 연결할 수 있습니다.
-* 회색 음영 텍스처의 <b>부동</b> 매개 변수
+* 회색 음영 텍스처에 대한 <b>부동</b> 매개 변수
 
-이러한 경우, 원시 균일 값은 가변적인 값을 공급하는 텍스처 샘플러로 대체된다. 이러한 샘플러에는 노출된 매개 변수에 정의된 <b>usage</b> 특성이 있으며, 이 사용을 통해 Designer은 Substance 그래프로 출력되는 텍스처를 MDL 재질의 적절한 매개 변수에 *일치하는 사용*&#x200B;할 수 있습니다.
+이러한 경우, 원시 균일 값은 가변적인 값을 공급하는 텍스처 샘플러로 대체된다. 이러한 샘플러에는 노출된 매개 변수에 정의된 <b>usage</b> 특성이 있으며, 이 사용을 통해 Designer은 Substance 그래프로 출력되는 텍스처를 MDL 재질의 적절한 매개 변수에 *일치하는 사용량*&#x200B;을 통해 연결할 수 있습니다.
 
-## 3D 보기에서 그래프 Substance
+## 3D 보기의 그래프 Substance
 
 Substance 그래프에 대해 <b>3D 보기에서 출력 보기</b> 옵션을 사용하거나 Substance 그래프를 <b>탐색기</b> 패널에서 <b>3D 보기</b>(으)로 드래그할 때, 출력은 현재 3D 보기에 표시된 MDL 재질에서 *일치하는 용도*&#x200B;의 노출된 매개 변수에 연결됩니다.
 
 Substance 그래프의 개별 텍스처는 Substance 그래프 노드에서 RMB를 누르고 3D 뷰로 드래그함으로써, 식별자에 관계없이 텍스처 샘플링을 지원하는 MDL 재료 파라미터 중 임의의 것에 연결될 수 있다. 사용 가능한 샘플러 사용 목록이 표시되며, 선택한 텍스처의 대상 사용을 선택할 수 있습니다.
 
-![노출된 MDL 그래프 입력](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "노출된 MDL 그래프 입력")
+![노출된 MDL 그래프 입력](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "노출된 MDL 그래프 입력")
 
 *Substance 그래프로 출력되는 텍스처는 3D 보기에서 MDL 그래프의 노출된 매개 변수에 연결됩니다.*
 
@@ -47,8 +47,8 @@ Substance 그래프의 개별 텍스처는 Substance 그래프 노드에서 RMB�
 
 Substance 그래프 인스턴스를 <b>탐색기</b> 패널에서 MDL 그래프로 드래그하여 MDL 그래프에 직접 배치할 수 있습니다. MDL 그래프에는 <b>Substance 3D 파일</b>(SBS) 및 <b>Substance 3D 에셋 파일</b>(SBSAR)의 Substance 그래프를 사용할 수 있습니다.
 
-+++Substance 3D 파일(SBS)의 Substance 그래프
-![MDL 그래프의 SBS 파일에서 Substance 그래프](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "MDL 그래프의 SBS 파일에서 Substance 그래프")
++++Substance 3D 파일에서 그래프 Substance(SBS)
+MDL 그래프에서 SBS 파일의 ![Substance 그래프](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "MDL 그래프에서 SBS 파일의 Substance 그래프")
 
 
 
@@ -57,7 +57,7 @@ MDL 그래프의 [Substance 3D 파일](../../getting-started/overview/overview.m
 +++
 
 +++Substance 3D 에셋(SBSAR)의 Substance 그래프
-![MDL 그래프의 SBSAR 파일에서 Substance 그래프](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "MDL 그래프의 SBSAR 파일에서 Substance 그래프")
+![MDL 그래프의 SBSAR 파일에서 Substance 그래프](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "MDL 그래프의 SBSAR 파일에서 Substance 그래프")
 
 
 
