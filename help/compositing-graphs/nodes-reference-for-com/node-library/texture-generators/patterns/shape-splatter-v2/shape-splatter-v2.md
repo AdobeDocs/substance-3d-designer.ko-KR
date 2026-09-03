@@ -1,7 +1,7 @@
 ---
 title: 모양 튀김 v2
 description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > 생성기 > 패턴 > 모양 스프터 v2
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![모양 스플래터 v2 아이콘](shape-splatter-v2.resources/shape-splatter-v2.png "모양 스플래터 v2")
+![모양 스플래터 v2 아이콘](shape-splatter-v2.resources/shape-splatter-v2-01.png "모양 스플래터 v2")
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 |                                      |                                                                                                                                                                                                                                                                                                                                                                  |
 |:-------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>배경 Height</b> *회색 음영* | 모양이 흩어져 있는 기본 Height 맵 각 Height은 &#39;최대 혼합&#39;을 사용하여 결합하며, 여기서 둘 중 더 높은 값이 사용됩니다.<br><br>배경 Height이 출력 Height에 기여하는 정도는 <b>배경 입력 불투명도</b> 매개 변수에 의해 제어됩니다. |
+| <b>배경 Height</b> *회색 음영* | 모양이 흩어져 있는 기본 높이 맵입니다. 각 Height은 &#39;최대 혼합&#39;을 사용하여 결합하며, 여기서 둘 중 더 높은 값이 사용됩니다.<br><br>배경 Height이 출력 Height에 기여하는 정도는 <b>배경 입력 불투명도</b> 매개 변수에 의해 제어됩니다. |
 | <b>밀도 맵</b> *회색 음영* | 모양의 밝은 영역에 모이는 광도에 따라 모양의 변위를 제어하는 회색 음영 맵입니다.<br><br>모양 변위 강도는 <b>밀도 맵 승수</b> 매개 변수에 의해 제어됩니다. |
 | <b>Height 오프셋 맵</b> *회색 음영* | 모양의 피벗 위치에 따라 모양에 균일하게 값이 추가되는 회색 음영 맵<br><br>맵의 기여도는 <b>Height 오프셋 맵 승수</b> 매개 변수에 의해 제어됩니다. |
 | <b>Height 비율 맵</b> *회색 음영* | 모양 Height에 대한 인수로 사용되는 값을 나타내는 회색 음영 맵<br><br>맵의 기여도는 <b>Height 비율 맵 승수</b> 매개 변수에 의해 제어됩니다. |
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 |                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Height</b> | 배경 Height(사용 중이고 표시 가능한 경우)를 비롯하여 흩어진 모양에 대해 계산된 Height 맵입니다. |
+| <b>Height</b> | 배경 Height(사용 중이고 보이는 경우)를 포함하여 흩어진 모양에 대해 계산된 높이 맵입니다. |
 | <b>SDF 색상</b> | <b>SDF 함수</b>에서 만든 모양의 색상입니다.<br><br>SDF 함수 그래프에서 <a href="../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md">색상 설정</a> 노드를 사용하여 모양의 구성 요소별 색상을 정의합니다. |
 | <b>SDF metalness</b> | <b>SDF 함수</b>에서 만든 모양의 색상입니다.<br><br>SDF 함수 그래프에서 <a href="../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md">metalness 설정</a> 노드를 사용하여 모양의 구성 요소당 metalness 값을 정의합니다. |
 | <b>SDF 거칠음</b> | <b>SDF 함수</b>에서 만든 모양의 색상입니다.<br><br>SDF 함수 그래프에서 <a href="../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md">거칠기 설정</a> 노드를 사용하여 모양의 구성 요소당 거칠기 값을 정의합니다. |
@@ -110,8 +110,8 @@ ht-degree: 0%
 | <b>모양 돌출 Height</b> *부동* | 이미지 공간에서 최대 밀어내기 거리입니다. 여기서 1은 이미지의 가장 긴 면입니다.<br><br>이 거리는 <b>모양 비율</b> 값에 맞게 조정됩니다. |
 | <b>모양 돌출 샘플</b> *정수* | 입력 패턴의 돌출을 그리기 위해 수행되는 샘플의 양입니다.<br><br>많은 양은 일부 성능을 희생하면서 더 부드럽고 더 정의된 돌출을 만듭니다. |
 | <b>패턴 함수</b> *부동* | 3D 평면 SDF에 매핑된 패턴을 계산하는 데 사용되는 작성된 Substance 함수 그래프입니다.<br><br>이러한 패턴은 <b>모양 돌출 사용</b>을 사용하여 돌출할 수도 있습니다. |
-| <b>패턴 SDF 함수</b> *부동* | 공간에서 3D 개체의 표면을 설명하는 부호 있는 거리 필드(SDF)를 작성하는 Substance 함수 그래프입니다.<br><br>라이브러리에서 [SDF 함수](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)의 기본 제공 컬렉션을 검색하여 사용 가능한 <i>연산자</i> 및 <i>변형</i>을 사용하여 여러 SDF <i>프리미티브</i>를 결합하여 복잡한 개체를 제작합니다.<br><br>SDF 모양은 완전히 절차적이며 동적으로 조정할 수 있으므로 흩어져 있는 각 모양을 <i>고유</i>하게 할 수 있습니다.<br><br>SDF 함수 결과를 시각화하려면 [3D 뷰어](../../../filters/effects/3d-viewer/3d-viewer.md) 노드를 사용하세요.<br><br><i>참고:</i> SDF 함수에 임의성을 적용하려면 &#39;무작위&#39;가 아닌 [해시](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#random) 노드를 사용하세요. |
-| <b>SDF 경계 프레임 크기</b> *Float3* | SDF 모양의 최대 테두리 상자(Bbox) 크기를 정의하며, 이 크기는 2D Bbox를 계산하는 데 사용됩니다.<br><br>모양은 2D Bbox 테두리 내에서만 그려지고 나머지는 트리밍됩니다. |
+| <b>패턴 SDF 함수</b> *부동* | 공간에서 3D 개체의 표면을 설명하는 부호 있는 거리 필드(SDF)를 작성하는 Substance 함수 그래프입니다.<br><br>라이브러리에서 [SDF 함수](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)의 기본 제공 컬렉션을 검색하여 사용 가능한 <i>연산자</i> 및 <i>변형</i>을 사용하여 여러 SDF <i>프리미티브</i>를 결합하여 복잡한 개체를 제작합니다.<br><br>SDF 모양은 완전히 프로시저가며 동적으로 조정할 수 있으므로 흩어져 있는 각 모양이 <i>고유</i>되도록 설정할 수 있습니다.<br><br>SDF 함수 결과를 시각화하려면 [3D 뷰어](../../../filters/effects/3d-viewer/3d-viewer.md) 노드를 사용하세요.<br><br><i>참고:</i> SDF 함수에 임의성을 적용하려면 &#39;무작위&#39;가 아닌 [해시](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#random) 노드를 사용하세요. |
+| <b>SDF 경계 프레임 크기</b> *부동3* | SDF 모양의 최대 테두리 상자(Bbox) 크기를 정의하며, 이 크기는 2D Bbox를 계산하는 데 사용됩니다.<br><br>모양은 2D Bbox 테두리 내에서만 그려지고 나머지는 트리밍됩니다. |
 | <b>컷아웃 사용</b> *부울* | <b>컷아웃 임계값</b> 아래의 모든 값을 무시하는 패턴 트리밍을 전환합니다. 이렇게 하면 원하는 패턴 실루엣만 사용됩니다. |
 | <b>컷아웃 임계값</b> *부동* | 패턴 값이 트리밍되는 회색 음영 값입니다. 즉, 패턴의 실루엣에 대한 경계로 사용되는 값입니다. |
 | <b>정규화된 워크플로</b> *부울* | 켜짐 인 경우 모양의 Height을 자동으로 조정하여 크기를 늘리거나 줄일 때 <i>원래 비율을 유지합니다</i>.<br><br>끄면 도형의 Height이 원래 비율과 관계없이 이미지의 전체 Height 범위로 표시됩니다.<br><br>모양 Height은 <b>Height 비율</b> 매개 변수를 사용하여 수동으로 조정할 수 있습니다. |
@@ -119,7 +119,7 @@ ht-degree: 0%
 | <b>Height 크기</b> *부동* | 모양의 Height에 대한 승수입니다. 여기서 1은 모양의 정규화된 Height 범위의 이미지 전체 Height 범위에 표현된 모양의 전체 Height입니다. (<b>정규화된 워크플로</b> 참조) |
 | <b>Height 비율 무작위</b> *부동* | 각 모양의 Height을 지정된 비율까지 임의로 축소합니다. 여기서 1은 모양의 Height을 0까지 완전히 축소할 수 있음을 의미합니다. |
 | <b>Height 비율 맵 승수</b> *부동* | 제공된 <b>Height 비율 맵</b>의 강도입니다. 여기서 1은 도형의 Height에 대해 전체 맵 값을 곱한 것을 의미합니다. |
-| <b>배경 입력 불투명도</b> *부동* | 최종 Height 맵에 제공된 <b>배경 Height</b> 입력의 강도입니다.<br><br>모양과 배경의 Height은 &#39;최대 혼합&#39;을 사용하여 결합됩니다. 여기서 둘 중 더 높은 것이 사용됩니다. |
+| <b>배경 입력 불투명도</b> *부동* | 최종 높이 맵에서 제공된 <b>배경 Height</b> 입력의 강도입니다.<br><br>모양과 배경의 Height은 &#39;최대 혼합&#39;을 사용하여 결합됩니다. 여기서 둘 중 더 높은 것이 사용됩니다. |
 | <b>배경에서 Height 오프셋</b> *부동* | 도형의 Height에 추가해야 하는 배경 Height의 비율입니다. 여기서 1은 전체 배경 Height이 추가되었음을 의미합니다.<br><br>배경 Height에 &#39;rest&#39; 모양을 지정하는 데 사용할 수 있습니다. |
 | <b>배경 일치</b> *부동* | 픽셀당 배경 Height과 일치하도록 모양의 Height에 적용된 변형 강도입니다. 여기서 1은 정확히 일치하는 것을 의미합니다.<br><br><i>참고:</i> 이 매개 변수는 <b>배경에서 Height 오프셋</b> = 0이면 영향을 주지 않습니다. |
 | <b>배경 매끄럽게 경사</b> *부동* | <b>배경에서 Height 오프셋</b> 및 <b>배경 일치</b> 조정에 사용되는 배경 Height에 적용된 매끄러움 강도입니다.<br><br>이렇게 하면 변형 빈도와 Height 오프셋이 부드러워져 원하는 것보다 더 커질 수 있습니다. |
@@ -127,7 +127,7 @@ ht-degree: 0%
 | <b>Height 오프셋 무작위</b> *부동* | 지정된 값까지 모양의 Height에 임의 오프셋을 적용합니다.<br><br>값은 이미지의 전체 Height 범위로 표시됩니다. |
 | <b>ID에서 Height 오프셋</b> *부동* | 분포의 색인에 따라 모양의 Height에 적용되는 오프셋으로, 한 모양에서 지정된 값까지 다음 모양으로 선형적으로 증가합니다.<br><br>값은 <code>[0, 1]을(를) 초과하여 수동으로 설정할 수 있습니다.</code> 범위. |
 | <b>Height 오프셋 맵 멀티플라이어</b> *부동* | 지정된 계수를 사용하여 <b>Height 오프셋 맵</b>에 의해 적용되는 오프셋의 강도를 조정합니다. 여기서 1은 맵의 강도 값이 그대로 적용됨을 의미합니다.<br><br>XY 피벗 위치에서 오프셋 맵의 값을 추가하여 전체 모양의 Height을 오프셋합니다.<br><br>승수 값은 <code>[0, 1]을(를) 초과하여 수동으로 설정할 수 있습니다.</code> 범위. |
-| <b>크기 모드</b> *정수* | 흩어진 모양의 크기를 정의하는 방법:<br><br>- <b>자동:</b> 크기 는 모양 셀 크기의 인수로 표시됩니다.<br>- <b>절대(텍스처 공간):</b> 크기 는 이미지의 가장 긴 면의 인수로 표시됩니다. |
+| <b>크기 모드</b> *정수* | 흩어진 모양의 크기를 정의하는 방법:<br><br>- <b>자동:</b> 크기 는 모양 셀 크기의 인수로 표시됩니다.<br>- <b>절대(텍스처 공간):</b> 크기 는 이미지의 가장 긴 변의 인수로 표시됩니다. |
 | <b>크기 비율 유지</b> *부울* | 정사각형이 아닌 격자 및 이미지 크기에서 원래 비율을 유지하도록 모양의 크기를 조정합니다. |
 | <b>모양 비율</b> *부동* | <b>크기 모드</b>에서 정의한 인수로 모양의 크기를 나타냅니다.<br><br><i>참고:</i> <b>포아송 디스크</b> 배포를 사용할 때 모양의 크기를 조정하면 사용 가능한 공간을 활용하기 위해 모양이 이동됩니다. <b>Shape scale post Poisson</b> 매개 변수를 사용하여 제자리에서 모양의 크기를 조정합니다. |
 | <b>모양 비율 무작위</b> *부동* | 지정된 값까지 임의의 배율로 모양의 크기를 줄입니다. 여기서 1로 설정하면 일부 모양의 크기가 0 크기까지 줄어 들 수 있습니다. |
@@ -148,7 +148,7 @@ ht-degree: 0%
 | <b>벡터 변위 멀티플라이어</b> *Float3* | <b>벡터 맵 변위</b>을(를) 축당 별도의 계수로 조정합니다. 여기서 0.0은 해당 축에 적용되는 변위가 없음을 의미합니다. |
 | <b>전역 오프셋</b> *Float2* | 각 모양의 위치에 적용된 오프셋 <i>after</i> 모든 Height 오프셋, 임의 오프셋 및 기타 변위가 적용됩니다.<br><br>이것은 이 매개 변수를 사용하여 모양을 이동하면 위치, 방향 및 크기가 수정되지 않는다는 것을 의미합니다. |
 | <b>선 위치 오프셋</b> *부동* | <b>선 위치 오프셋 모드</b>에 따라 격자의 모양 선에 적용되는 오프셋입니다. |
-| <b>선 위치 오프셋 모드</b> *정수* | 도형에 <b>선 위치 오프셋</b>을 적용하는 방법입니다.<br><br><b>모두</b> 메서드는 이미지의 가장 긴 쪽(즉, 텍스처 공간)에 대한 인수로 오프셋을 적용합니다.<br>- <b>모두 - 가로:</b> 행 인덱스의 인수로 오프셋 값을 행별 가로로 점진적으로 추가합니다.<br>- <b>모두 - 세로:</b> 열 인덱스의 인수로 오프셋 값을 열별 세로로 점진적으로 추가합니다.<br><br>Quincunx</b> 메서드는 모양의 셀 크기에 대한 인수로 오프셋을 적용합니다.<br>- <b>Quincunx - Horizontal:</b> 오프셋 값을 다른 행마다 균일하게 추가합니다.<br>- <b>Quincunx - Vertical:</b> 오프셋 값을 다른 열마다 균일하게 추가합니다.<b> |
+| <b>선 위치 오프셋 모드</b> *정수* | 도형에 <b>선 위치 오프셋</b>을 적용하는 방법입니다.<br><br>모든</b> 메서드는 이미지의 가장 긴 쪽(즉 텍스처 공간에서)에 대한 인수로 오프셋을 적용합니다.<br>- <b>모두 - 가로:</b> 행 인덱스의 인수로 오프셋 값을 행별 가로로 점진적으로 추가합니다.<br>- <b>모두 - 세로:</b> 열 인덱스의 인수로 오프셋 값을 열별 세로로 점진적으로 추가합니다.<b><br><br>Quincunx</b> 메서드는 모양의 셀 크기에 대한 인수로 오프셋을 적용합니다.<br>- <b>Quincunx - Horizontal:</b> 오프셋 값을 다른 행마다 균일하게 추가합니다.<br>- <b>Quincunx - Vertical:</b> 오프셋 값을 다른 열마다 균일하게 추가합니다.<b> |
 | <b>피벗 위치(로컬)</b> *Float3* | 모양의 로컬 공간에서 피벗의 위치를 조정하며, 이는 변형의 원점에 영향을 줍니다. (예: 위치 오프셋, 회전 및 크기 조절)<br><br>예를 들어, Z 피벗 위치를 조정하여 모양을 기준선을 중심으로 회전시킵니다. |
 | <b>3D 회전</b> *Float3* | 축당 회전을 모든 모양에 회전 수로 균일하게 적용합니다. |
 | <b>3D 회전 무작위</b> *부동* | 도형에 시계 방향이나 시계 반대 방향으로 지정된 값까지 적용되는 임의의 회전 양에 대한 인수(회전 수)입니다. |
@@ -157,8 +157,8 @@ ht-degree: 0%
 | <b>정상 중심 회전</b> *부동* | 수직을 중심으로 하는 모든 모양(즉, 로컬 Z축)에 균일하게 적용된 회전 양(회전 수)입니다. |
 | <b>보통 무작위 회전</b> *부동* | 각 모양에 표준(즉, 로컬 Z축)을 중심으로 시계 방향이나 시계 반대 방향으로 최대 한 바퀴 돌도록 임의 회전을 적용합니다. |
 | <b>경사 회전</b> *부동* | 해당 위치에서 배경의 경사에 맞게 모양을 회전합니다.<br>즉, 전체 Z-up 벡터의 회전과 같은 회전을 배경 Height의 표준으로 적용합니다.<br><br>이 매개 변수는 이 순환에 대한 인수입니다. 여기서 1은 전체 순환이 적용됨을 의미합니다.<br><br>이 회전은 모양에 적용할 수 있는 다른 회전에 추가됩니다. |
-| <b>경사 회전 입력</b> *정수* | <b>경사 회전</b>.<br><br>- <b>배경:</b>을(를) 구동하는 데 사용되는 경사의 원본입니다. 배경 Height 텍스처가 사용되며 해당 Height 맵에서 계산된 법선이 회전의 대상 방향입니다.<br>- <b>벡터 맵:</b> 벡터 맵 텍스처에서 지정한 벡터가 회전의 대상 방향으로 사용됩니다.</b> |
-| <b>벡터 맵 멀티플라이어</b> *부동* | <b>벡터 맵 회전 축</b>으로 지정된 축을 중심으로 모양을 회전하여 <b>벡터 맵</b> 텍스처에서 설명하는 벡터의 방향과 일치시킵니다.<br>즉, 전체 X-오른쪽 벡터와 같은 회전을 텍스처의 벡터에 적용합니다.<br><br>이 매개 변수는 이 순환에 대한 인수입니다. 여기서 1은 전체 순환이 적용됨을 의미합니다.<br><br>이 회전은 모양에 적용할 수 있는 다른 회전에 추가됩니다. |
+| <b>경사 회전 입력</b> *정수* | <b>경사 회전</b>.<br><br>- <b>배경:</b> 배경 Height 텍스처를 사용하는 경우 해당 높이 맵에서 계산된 법선이 회전의 대상 방향입니다.<br>- <b>벡터 맵:</b> 벡터 맵 텍스처에서 지정한 벡터가 회전의 대상 방향으로 사용됩니다.</b> |
+| <b>벡터 맵 멀티플라이어</b> *부동* | <b>벡터 맵</b> 텍스처에서 설명하는 벡터의 방향과 일치하도록 <b>벡터 맵 회전 축</b>에서 지정한 축을 중심으로 모양을 회전합니다.<br>즉, 전역 X-오른쪽 벡터와 같은 회전을 텍스처의 벡터에 적용합니다.<br><br>이 매개 변수는 이 순환에 대한 인수입니다. 여기서 1은 전체 순환이 적용됨을 의미합니다.<br><br>이 회전은 모양에 적용할 수 있는 다른 회전에 추가됩니다. |
 | <b>벡터 맵 회전 축</b> *정수* | <b>벡터 맵</b>에서 지정한 회전을 기준으로 하는 축입니다.<br><br>- <b>표준:</b> &#39;표준 중심 회전&#39; 매개 변수를 사용하는 것과 유사하게 모양을 표준 중심으로 회전합니다.<br>- <b>Z축:</b> &#39;3D 회전&#39; 매개 변수의 Z 구성 요소를 사용하는 것과 유사하게 전역 Z 축을 중심으로 모양을 회전합니다. |
 | <b>무작위 마스크</b> *부동* | 임의 순서로 도형의 총 양에 대한 지정된 비율을 숨깁니다. 여기서 1은 모든 도형이 숨겨진다는 것을 의미합니다.<br><br>이 매개 변수는 마스크 맵과 결합됩니다. (사용되는 경우) |
 | <b>마스크 맵 임계값</b> *부동* | <b>마스크 맵</b>의 회색 음영 값(아래에 숨겨진 모양)<br><br>맵이 <b>무작위 마스크</b> 매개 변수와 결합되었습니다. |
@@ -174,29 +174,29 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>포아송 분포</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>포아송 분포</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>균일 분포</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>균일 분포</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>밀도 맵</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>임의 3D 회전</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>경사 회전</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>모양 돌출</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>밀도 맵</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>3D SDF 모양</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>임의 3D 회전</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>경사 회전</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>모양 돌출</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>3D SDF 모양</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

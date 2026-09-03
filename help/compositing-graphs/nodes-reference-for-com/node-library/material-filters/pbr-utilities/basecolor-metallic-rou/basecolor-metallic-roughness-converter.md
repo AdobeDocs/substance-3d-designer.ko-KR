@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
-description: BaseColor 금속 거칠음 변환기 노드를 사용하여 다양한 PBR 재질 형식과 작업 과정 간에 변환할 수 있습니다.
+description: BaseColor 금속 거칠기 변환기 노드를 사용하여 다양한 PBR 재질 형식과 작업 과정 간에 변환할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > BaseColor  Metallic  Roughness converter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BaseColor 금속 거칠음 변환기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](basecolor-metallic-roughness-converter.resources/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > PBR 유틸리티
 

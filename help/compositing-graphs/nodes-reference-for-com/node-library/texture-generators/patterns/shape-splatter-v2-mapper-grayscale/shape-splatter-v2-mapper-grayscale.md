@@ -1,7 +1,7 @@
 ---
 title: 모양 스플래터 v2 매퍼 회색 음영
 description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > 생성기 > 패턴 > 모양 튄 v2 매퍼 회색 음영
-source-git-commit: f688c618b01d3ca8059e67cf0797268e44e94b17
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1766'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![모양 스플래터 v2 매퍼 회색 음영 아이콘](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale.png "모양 스플래터 v2 매퍼 회색 음영")
+![모양 스플래터 v2 매퍼 회색 음영 아이콘](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale-01.png "모양 스플래터 v2 매퍼 회색 음영")
 
 <b>내부:</b> 생성기 > 패턴
 

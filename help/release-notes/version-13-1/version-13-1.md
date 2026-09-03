@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *출시일: 2023년 12월 12일*
 
-![Substance 3D Designer 13.1 배너](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1 배너")
+![Substance 3D Designer 13.1 배너](version-13-1.resources/version-13-1-01.png "Substance 3D Designer 13.1 배너")
 
 ## 프레임 개선
 
@@ -34,19 +34,19 @@ ht-degree: 1%
 
 그래프가 커지면 프레임의 내용을 다시 정렬해야 할 수 있습니다. 노드들은 추가들을 위한 공간을 만들기 위해 시프트될 수 있거나 콘텐츠는 가독성을 증진하기 위해 더 멀리 이격될 필요가 있을 수 있다. 이러한 조정을 용이하게 하기 위해 이제 포함된 개체를 이동할 때 프레임을 자동으로 확장할 수 있습니다. 개체를 이동하는 동안 언제든지 <b>Shift</b>를 누르고 있으면 프레임 테두리가 자동으로 해당 개체를 테두리 내에 고정하도록 할 수 있습니다.
 
-![자동 확장](version-13-1.resources/autoexpand.gif)
+![자동 확장](version-13-1.resources/version-13-1-02.gif)
 
 ### 콘텐츠에 크기 맞추기
 
 그래프를 조정할 때 프레임이 더 이상 내용에 맞게 조정되지 않을 수 있습니다. 이 새 명령을 사용하면 중간 격자 셀 한 개의 패딩과 함께 프레임의 위치와 크기를 자동으로 조정하여 내용 범위에 맞게 조정할 수 있습니다. 프레임에 설명이 있는 경우 가능하면 설명 옆에 있는 빈 공간을 사용하도록 조정됩니다.
 
-![fitsize](version-13-1.resources/fitsize.gif)
+![fitsize](version-13-1.resources/version-13-1-03.gif)
 
 ### 향상된 설명
 
 HTML 코드 덕분에 이제 프레임 설명에 서식이 지정된 텍스트를 입력할 수 있습니다. 이는 주석에도 적용됩니다.
 
-![richtext](version-13-1.resources/description-3.png)
+![richtext](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...기타 등등!</b>
 
@@ -64,7 +64,7 @@ HTML 코드 덕분에 이제 프레임 설명에 서식이 지정된 텍스트�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF 파일 아이콘](version-13-1.resources/axf-file-icon.png "AxF 파일 아이콘")
+![AxF 파일 아이콘](version-13-1.resources/version-13-1-05.png "AxF 파일 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ AxF는 [X-Rite](https://www.xrite.com/axf)의 형식입니다. 디지털 디자�
 </tr>
 </table>
 
-![AxF 내보내기](version-13-1.resources/exportaxf.gif)
+![AxF 내보내기](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 
@@ -106,7 +106,7 @@ AxF는 [X-Rite](https://www.xrite.com/axf)의 형식입니다. 디지털 디자�
 * [프레임] 큰 격자에 스냅
 * [프레임] 프레임 설명에 대한 HTML 코드 지원
 * [프레임] 상호 작용 영역 업데이트
-* [프레임] 시각적 요소 업데이트
+* [프레임] 시각적 측면 업데이트
 * [그래프] 표시되는 링크의 가운데가 아닌 가운데에 노드를 만듭니다
 * [그래프] 선택 항목에서 사용할 수 있는 속성이 있는 유일한 항목인 경우 해당 항목의 속성을 표시합니다.
 * [그래프] 그래프의 주석에 대해 &quot;크기 조절&quot; 옵션을 제거합니다.

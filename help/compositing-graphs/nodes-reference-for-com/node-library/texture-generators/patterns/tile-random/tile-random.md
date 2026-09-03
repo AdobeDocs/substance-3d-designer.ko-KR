@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 무작위
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random-01.png){width="128px"}
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 설명
 
-[무작위 타일]은 프로시저 타일 패턴을 생성하는데, 이 패턴은 해당 타일의 [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)보다 타일 모양에 좀 더 많은 혼란이 있습니다. 이것은 어떤 타일을 더 작은 타일로 무작위로 쪼개서 이것을 한다. 많은 개념이 유사하기 때문에 타일 무작위와 씨름하기 전에 먼저 Tile Generator에서 방법을 찾는 것이 좋습니다.
+[무작위 타일]은 타일 모양에 [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)보다 좀 더 많은 혼란이 있는 절차적 타일 패턴을 생성합니다. 이것은 어떤 타일을 더 작은 타일로 무작위로 쪼개서 이것을 한다. 많은 개념이 유사하기 때문에 타일 무작위와 씨름하기 전에 먼저 Tile Generator에서 방법을 찾는 것이 좋습니다.
 
 목표가 구체적이고 덜 조직화된 패턴인 경우 [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 대신 타일 임의성이 사용됩니다. 하지만 제한 사항이 있으므로 다른 고급 요구 사항을 위해 [Sampler 바둑판식 배열](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)을 사용해 보세요.
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 |:---|:---|
 | <b>X 양</b> <i>1 - 64</i> | 패턴의 X-반복의 양입니다. |
 | <b>Y 양</b> <i>1 - 64</i> | 패턴의 Y-반복의 양입니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 | <b>패턴</b> |  |
 | <b>패턴</b> <i>패턴 입력, 정사각형, 디스크, 포물면, 벨, 가우스, 가시, 피라미드, 벽돌, 그라데이션, 파도, 하프 벨, 고정된 벨, 초승달, 캡슐, 원뿔</i> | 사용할 패턴 모양을 선택합니다. |
 | <b>이미지 입력 필터링(엔진 > v4)</b> <i>쌍선형 + 밉맵, 쌍선형, 최근접</i> |  |
@@ -106,7 +106,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-02.png" />
         </td>
     </tr>
 </table>

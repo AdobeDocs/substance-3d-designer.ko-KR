@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 표현식이 있는 경우 표시
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 * 그래프의 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드;
 * 그래프의 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드입니다.
 
-![입력 매개 변수 표시 여부 전환](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "입력 매개 변수 표시 여부 전환"){width="512px"}
+![입력 매개 변수 표시 여부 전환](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "입력 매개 변수 표시 여부 전환"){width="512px"}
 
 논리 식이 `true`(으)로 평가되면 매개 변수, 입력 또는 출력이 현재 그래프를 나타내는 모든 [인스턴스 노드](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에 표시됩니다. 그렇지 않으면 *숨김*&#x200B;이 됩니다.
 

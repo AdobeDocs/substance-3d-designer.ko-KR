@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 장면 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 1%
@@ -56,7 +56,7 @@ ht-degree: 1%
 * 리소스를 [탐색기](../../interface/the-explorer-window/the-explorer-window.md)에 로드한 상태에서 *RMB*&#x200B;을(를) 클릭하고 상황에 맞는 메뉴에서 <b>모델 정보 굽기</b> 옵션을 선택합니다
 * 메시 맵 베이크를 설정하고 실행할 수 있는 [베이크 모델 정보](../../bakers/bakers.md) 대화 상자가 나타납니다
 
-![메시 맵 굽기](3d-scene-resource.resources/bake-model-information.gif "메시 맵 굽기"){width="512px"}
+![메시 맵 굽기](3d-scene-resource.resources/3d-scene-resource-01.gif "메시 맵 굽기"){width="512px"}
 
 ## UDIM/UV-tile 사용
 

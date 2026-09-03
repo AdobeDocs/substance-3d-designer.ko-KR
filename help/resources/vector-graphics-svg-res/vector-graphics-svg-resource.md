@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 벡터 그래픽(SVG) 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 2%
@@ -87,7 +87,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 > 대지는 생성된 SVG 파일의 결과에 영향을 줄 수 있습니다. 일부 Illustrator 파일 템플릿은 여러 개의 아트보드를 소개합니다.\
 > 아트보드를 하나만 제대로 자르고 SVG으로 저장할 때 아트보드 창에서 선택하도록 합니다.
 
-![Illustrator SVG 내보내기 옵션](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
+![Illustrator SVG 내보내기 옵션](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
 
 ### 잉크스케이프
 

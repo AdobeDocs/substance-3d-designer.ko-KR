@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프 값
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -34,18 +34,18 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <div><img alt="값 프로세서 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="값 프로세서 노드 아이콘" width="100px"/></div>  <b>[값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)를 사용하면 원하는 수의 회색 음영 또는 색상 입력을 사용하고 이러한 입력을 기반으로 계산에서 단일 값을 반환할 수 있습니다. |
-| <div><img alt="값 입력 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="값 입력 노드 아이콘" width="100px"/></div>  **[값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)을 사용하면 명시적으로 값으로 정의된 하위 그래프에 입력 슬롯을 만들 수 있습니다. |
+| <div><img alt="값 프로세서 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-01.png" title="값 프로세서 노드 아이콘" width="100px"/></div>  <b>[값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)를 사용하면 원하는 수의 회색 음영 또는 색상 입력을 사용하고 이러한 입력을 기반으로 계산에서 단일 값을 반환할 수 있습니다. |
+| <div><img alt="값 입력 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-02.png" title="값 입력 노드 아이콘" width="100px"/></div>  **[값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)을 사용하면 명시적으로 값으로 정의된 하위 그래프에 입력 슬롯을 만들 수 있습니다. |
 
 또한 다른 노드에서는 특정 방식으로 이러한 문제를 처리합니다.
 
 [회색 음영] 및 [색상]에서 수행했던 것처럼 [값] 연결을 연결하면 [출력 노드](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)가 자동으로 [값] 출력이 되도록 조정됩니다.
 
-![출력 값 노드](values-in-substance-compositing-graphs.resources/values-output.gif "출력 값 노드"){width="512px"}
+![출력 값 노드](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-03.gif "출력 값 노드"){width="512px"}
 
 모든 단일 노드([Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) 및 [라이브러리](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/인스턴스)에 값 입력을 정의할 수 있는 새 탭이 있습니다.
 
-![노드에 입력 값 추가](values-in-substance-compositing-graphs.resources/values-inputs.gif "노드에 입력 값 추가")
+![노드에 입력 값 추가](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-04.gif "노드에 입력 값 추가")
 
 ## 값을 사용한 작업
 
@@ -57,4 +57,4 @@ ht-degree: 2%
 
 값이 표시되거나 사용 중인 위치를 강조 표시하려면 값 입력 또는 값 출력이 있는 노드를 굵은 노란색 테두리로 강조 표시합니다.
 
-![값을 사용한 작업](values-in-substance-compositing-graphs.resources/yellowhighlight.png "값을 사용한 작업")
+![값을 사용한 작업](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-05.png "값을 사용한 작업")

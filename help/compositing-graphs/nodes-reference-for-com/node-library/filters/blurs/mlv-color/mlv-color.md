@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV 색상: 아이콘](mlv-color.resources/MLV_Color_Icon.png "MLV 색상: 아이콘")
+![MLV 색상: 아이콘](mlv-color.resources/mlv-color-01.png "MLV 색상: 아이콘")
 
 <b>인:</b> 필터 > 흐림 효과
 
@@ -79,11 +79,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
       <br><i>이후</i>
     </td>
   </tr>

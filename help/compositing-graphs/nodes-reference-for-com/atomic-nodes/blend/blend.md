@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="200px"}
+![Atomic node: Blend](blend.resources/blend-01.png "Atomic node: Blend"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

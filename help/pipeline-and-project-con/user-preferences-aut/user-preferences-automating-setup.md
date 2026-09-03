@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 사용자 환경 설정 - 설정 자동화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ user\_preferences.xml 파일에는 [프로젝트 구성](../../pipeline-and-proj
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML 파일 아이콘](user-preferences-automating-setup.resources/xml-5.png "XML 파일 아이콘")
+![XML 파일 아이콘](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "XML 파일 아이콘")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ user\_preferences.xml 파일에는 [프로젝트 구성](../../pipeline-and-proj
 
 자동화된 설정이 없거나 테스트용으로 <b>편집 > 환경 설정...</b>으로 이동한 다음 왼쪽의 &quot;<b>프로젝트</b>&quot; 섹션을 클릭하세요.
 
-![프로젝트 설정](user-preferences-automating-setup.resources/preferences-ui.png "프로젝트 설정")
+![프로젝트 설정](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "프로젝트 설정")
 
 빨간색으로 표시된 버튼을 사용하면 다른[SBSCFG 파일](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)을 선택할 수 있습니다.
 
@@ -210,4 +210,4 @@ def SetConfigurationFile(p_ConfigPath):
 
    *&quot;C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe&quot; —config-file &quot;C:\Dev\Substance\custom\_configuration.sbscfg&quot;*
 
-![실행 파일 속성에 구성 파일 입력](user-preferences-automating-setup.resources/shortcutargument.jpg "실행 파일 속성에 구성 파일 입력")
+![실행 파일 속성에 구성 파일 입력](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "실행 파일 속성에 구성 파일 입력")

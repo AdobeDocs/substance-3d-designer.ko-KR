@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Substance 3D Designer의 Adobe 버전에는 새로운 보내기 기능이 있어 에셋을 다른 Substance 3D 애플리케이션으로 빠르게 보낼 수 있습니다. 더 이상 SBSAR로 게시하고 개별 파일을 로드할 필요가 없습니다. 보내기 를 사용하면 한 번의 클릭으로 이 문제를 해결할 수 있습니다.
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Substance 3D Designer의 Adobe 버전에는 새로운 보내기 기능이 있어
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Substance 3D Designer의 Adobe 버전에는 새로운 보내기 기능이 있어
 
 RTAO는 이전 HBAO 노드보다 선명하고 정확한 AO를 훨씬 더 잘 수행합니다.
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 [빛 무늬]는 단순한 [펄린 노이즈]와 같은 높이 맵을 기반으로 물리적으로 올바른 광선 추적형 빛 무늬 효과를 생성합니다. 실시간 빛 무늬 효과를 위한 사실적인 애니메이션 플립북 텍스처를 만드는 데 적합합니다.
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 [RT 그림자]는 광선 추적형 정확하고 어두운 영역을 몇 가지 간단한 컨트롤로 표현합니다.
 
@@ -92,17 +92,17 @@ RTAO는 이전 HBAO 노드보다 선명하고 정확한 AO를 훨씬 더 잘 수
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RTAO는 이전 HBAO 노드보다 선명하고 정확한 AO를 훨씬 더 잘 수
 
 RT Radiance는 새로운 노드 중 가장 진보된 것입니다. 높이 맵과 환경 맵 및/또는 방출 맵이 있는 재료를 기반으로 광선 추적형 조도를 수행합니다.
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 이는 스타일이 적용된 프로젝트와 같이 사전 제작된 조명을 사용하여 텍스처를 수행할 수도 있고 하이맵에서 반사되는 광선 추적형 광선을 베이킹할 수도 있다는 의미입니다.
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
 그리고 마지막으로 구부러진 법선 마디가 있습니다. 정규 정규 변환과 비교하여 이 노드는 AO를 사용하여 해당 AO 정보를 사용하기 위해 정규 맵을 수정합니다. 효과를 만들기 위해 메시 베이커가 필요하기 전에 이 노드가 텍스트 공간에서 이를 수행합니다.
 
@@ -189,7 +189,7 @@ UI는 약간 수정되었지만 가장 눈에 띄는 것은 개선된 파일 > �
 * [매개 변수] 드롭다운 Integer1 매개 변수에 음수 값을 사용하면 인스턴스에서 일관되지 않은 동작이 발생합니다
 * [매개 변수] 각도 위젯에서 값을 늘리는 동안 문제가 발생했습니다.
 * [그래프] 2D 또는 3D 보기에서 출력을 표시할 때 타이밍 문제가 발생합니다.
-* [국제화] 일부 특정 문자가 파일 식별자에서 공백으로 변경됩니다.
+* [국제화] 파일 식별자에서 일부 특정 문자가 공백으로 변경됨
 * [Preferences] &#39;User project&#39; 파일 레이블이 일본어에서 다시 변환되지 않습니다.
 * [Python API] SDUIMgr.getCurrentGraphSelectedNodes() 메서드를 실행하는 동안 RecursionError 발생
 * [Python API] SDApplication.getPath(SDApplicationPath.InstallationDir)가 아무 것도 반환하지 않음

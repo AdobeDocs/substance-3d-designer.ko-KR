@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 종속성 경고
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    그런 다음 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>다시 로드</b> 옵션을 선택하여 호스트 패키지를 다시 로드합니다.
 
-   ![&#39;잘못된 종속 패키지&#39; 솔루션 1](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg.gif "&#39;잘못된 종속 패키지&#39; 솔루션 1")
+   ![&#39;잘못된 종속 패키지&#39; 솔루션 1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif "&#39;잘못된 종속 패키지&#39; 솔루션 1")
 1. <b>패키지에서 종속성 재배치</b>
 
    [종속성 관리자](../../interface/dependency-manager/dependency-manager.md) 를 사용하여 종속성을 재배치할 수 있습니다. [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 호스트 패키지의 RMB를 클릭하고 상황에 맞는 메뉴에서 <b>종속성 관리자</b> 옵션을 선택합니다.
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    그런 다음 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>다시 로드</b> 옵션을 선택하여 호스트 패키지를 다시 로드합니다.
 
-   ![&#39;잘못된 종속 패키지&#39; 솔루션 2](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg-2.gif "&#39;잘못된 종속 패키지&#39; 솔루션 2")
+   ![&#39;잘못된 종속 패키지&#39; 솔루션 2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif "&#39;잘못된 종속 패키지&#39; 솔루션 2")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) *&#39;X&#39;* 별칭이 프로젝트에 정의되어 있는지 확인하십시오.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 [프로젝트 파일](../../interface/preferences-window/project-settings/project-settings.md) 중 하나 이상은 경고에 보고되는 별칭을 정의해야 합니다.
 
-![&#39;확인 별칭이 정의됨&#39; 솔루션](warnings-from-dependencies.resources/warnings-dep-alias.gif "&#39;확인 별칭이 정의됨&#39; 솔루션")
+![&#39;확인 별칭이 정의됨&#39; 솔루션](warnings-from-dependencies.resources/warnings-from-dependencies-03.gif "&#39;확인 별칭이 정의됨&#39; 솔루션")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) 이 리소스와 일치하는 파일을 찾을 수 없습니다
 
@@ -73,12 +73,12 @@ ht-degree: 0%
 
    리소스의 <b>파일 경로</b> 특성으로 지정된 위치로 이동하여 템플릿 뒤의 파일이 있는지 확인하십시오. 복구되지 않으면 복구하거나 다시 만듭니다.
 
-   ![&#39;리소스 솔루션 1과 일치하는 파일 없음](warnings-from-dependencies.resources/warnings-dep-udim-2.gif "&#39;리소스 솔루션 1")과 일치하는 파일 없음
+   ![&#39;리소스 솔루션 1과 일치하는 파일 없음](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "&#39;리소스 솔루션 1")과 일치하는 파일 없음
 1. <b>파일 재배치</b>
 
    파일이 이동되었거나 이름이 바뀐 경우 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 리소스 항목에서 RMB를 클릭하여 파일을 재배치하고 <b>재배치</b> 옵션을 선택하여 해당 리소스를 동일한 유형의 UDIM 이미지 집합&#x200B;*의 첫 번째 파일에 연결합니다.*
 
-   ![&#39;리소스와 일치하는 파일 없음&#39; 해결 방법 2](warnings-from-dependencies.resources/warnings-dep-udim.gif "&#39;리소스와 일치하는 파일 없음&#39; 해결 방법 2")
+   ![&#39;리소스와 일치하는 파일 없음&#39; 해결 방법 2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "&#39;리소스와 일치하는 파일 없음&#39; 해결 방법 2")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) 연결된 파일을 찾을 수 없습니다.
 
@@ -92,12 +92,12 @@ ht-degree: 0%
 
    리소스의 <b>파일 경로</b> 특성으로 지정된 위치로 이동하여 파일이 있는지 확인하십시오. 복원되지 않으면 복원하거나 다시 만듭니다.
 
-   ![&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif "&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 1")
+   ![&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif "&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 1")
 1. <b>파일 재배치</b>
 
    파일이 이동되었거나 이름이 바뀐 경우 [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널의 리소스 항목에서 RMB를 클릭하여 파일을 재배치하고 <b>재배치</b> 옵션을 선택하여 해당 리소스를 동일한 유형의 다른 파일에 연결합니다.
 
-   ![&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif "&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 2")
+   ![&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif "&#39;연결된 파일을 찾을 수 없음&#39; 해결 방법 2")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) 색상 공간을 찾을 수 없음
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 >
 > 이 경고는 **레거시** 이외의 색상 관리 모드(색상 관리를 사용하지 않도록 설정하는 것과 유사)를 사용하는 경우에만 트리거됩니다. [프로젝트 설정](../../interface/preferences-window/project-settings/project-settings.md)의 **색상 관리** 섹션에서 색상 관리를 사용하도록 설정할 수 있습니다.
 
-![&#39;색상 공간을 찾을 수 없음&#39; 해결 방법](warnings-from-dependencies.resources/warnings-dep-color-space.gif "&#39;색상 공간을 찾을 수 없음&#39; 해결 방법")
+![&#39;색상 공간을 찾을 수 없음&#39; 해결 방법](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "&#39;색상 공간을 찾을 수 없음&#39; 해결 방법")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) 참조 리소스를 찾을 수 없습니다.
 
@@ -127,12 +127,12 @@ ht-degree: 0%
 
    [탐색기](../../interface/the-explorer-window/the-explorer-window.md) 패널에서 패키지의 내용에 <b>UV 타일</b> 목록에 지정된 그래프가 있는지 확인합니다. 존재하지 않는 경우 복원하거나 다시 만듭니다.
 
-   ![&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif "&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1")
+   ![&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif "&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1")
 1. <b>다른 그래프 선택</b>
 
    패키지의 다른 그래프를 UV 타일에 할당합니다.
 
-   ![&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1](warnings-from-dependencies.resources/warnings-dep-udim-graph.gif "&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 2")
+   ![&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 1](warnings-from-dependencies.resources/warnings-from-dependencies-10.gif "&#39;참조 리소스를 찾을 수 없음&#39; 해결 방법 2")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) UV 타일이 여러 번 할당됨
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 3D 메시 리소스의 각 UV 집합에 대해 <b>UV 타일</b> 목록에 *두 번 이상* UDIM 인덱스가 없는지 확인하십시오.
 
-![&#39;UV 타일이 여러 번&#39; 솔루션에 할당됨](warnings-from-dependencies.resources/warnings-dep-udim-same.gif "&#39;UV 타일이 여러 번&#39; 솔루션에 할당됨")
+![&#39;UV 타일이 여러 번&#39; 솔루션에 할당됨](warnings-from-dependencies.resources/warnings-from-dependencies-11.gif "&#39;UV 타일이 여러 번&#39; 솔루션에 할당됨")
 
 ## ![(오류)](warnings-from-dependencies.resources/error.svg) 잘못된 UV 타일
 
@@ -156,4 +156,4 @@ ht-degree: 0%
 >
 > 이 경고는 연결된 리소스에서 검색된 UDIM을 *전용*&#x200B;에 나열하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;의 데이터만 수정하면 이 경고가 트리거될 수 있습니다.
 
-![&#39;잘못된 UV 타일&#39; 솔루션](warnings-from-dependencies.resources/warnings-dep-udim-invalid.gif "&#39;잘못된 UV 타일&#39; 솔루션")
+![&#39;잘못된 UV 타일&#39; 솔루션](warnings-from-dependencies.resources/warnings-from-dependencies-12.gif "&#39;잘못된 UV 타일&#39; 솔루션")

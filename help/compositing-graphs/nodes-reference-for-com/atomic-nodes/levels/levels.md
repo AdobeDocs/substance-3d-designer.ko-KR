@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 레벨
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](levels.resources/levels-01.png "Atomic node: Levels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-02.png)
 
-![](levels.resources/levels-1-1.png)
+![](levels.resources/levels-03.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 &#39;특정 매개 변수&#39; 상단 표시줄에서 막대 그래프의 편리한 기능에 액세스하는 단추를 찾을 수 있습니다.
 
-![수준 노드 빠른 작업](levels.resources/levels-2.png "수준 노드 빠른 작업")
+![수준 노드 빠른 작업](levels.resources/levels-04.png "수준 노드 빠른 작업")
 
 <b>1 - 반전:</b> &#39;Level out low&#39; 및 &#39;레벨 아웃 높음&#39; 매개 변수의 값을 바꿉니다.
 
@@ -113,7 +113,7 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 막대 그래프 편집기는 정확한 값이 필요하지 않고 노출 매개 변수가 중요하지 않은 경우 시각적으로 빠르게 조정할 수 있도록 만들어졌습니다. 일반적으로 레벨 작업 시 가장 빠르고 쉬운 방법입니다.
 
-![](levels.resources/levels-histo.gif)
+![](levels.resources/levels-05.gif)
 
 입력 유형(색상 또는 회색 음영)에 따라 막대 그래프 위의 드롭다운을 사용하여 수정 중인 채널을 선택할 수 있습니다.
 

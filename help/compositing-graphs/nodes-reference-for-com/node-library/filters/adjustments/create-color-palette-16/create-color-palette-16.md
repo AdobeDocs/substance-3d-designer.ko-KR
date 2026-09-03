@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 breadcrumb-title: ''
-description: '[색상 팔레트 만들기] 텍스처를 사용하여 스타일화된 효과를 내기 위한 노드에서 16색 팔레트를 추출할 수 있습니다.'
+description: '[색상 팔레트 만들기] 노드를 사용하여 텍스처에서 16색 팔레트를 추출하여 스타일화된 효과를 적용할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 만들기 (16)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](create-color-palette-16.resources/CreateColorPalette16.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](create-color-palette-16.resources/create-color-palette-16-01.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>색상 양</b> *정수* | 팔레트에 추가해야 하는 색상의 양입니다. |
-| <b>색상 #</b> *Float3* *&#39;Color amount&#39; 값으로 사용할 수 있는 매개 변수 수* | 팔레트에 추가해야 하는 색상입니다.   색상은 이 번호 매기기 목록과 같은 순서로 팔레트에 추가됩니다. |
+| <b>색상 #</b> *부동3* *&#39;색상 양&#39; 값으로 사용할 수 있는 매개 변수 수* | 팔레트에 추가해야 하는 색상입니다.   색상은 이 번호 매기기 목록과 같은 순서로 팔레트에 추가됩니다. |
 
 ## 예
 
@@ -76,15 +76,15 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![색상 팔레트 만들기: 예 1](create-color-palette-16.resources/create_color_palette_example_1.png "색상 팔레트 만들기: 예 1"){zoomable="yes"}
+![색상 팔레트 만들기: 예 1](create-color-palette-16.resources/create-color-palette-16-02.png "색상 팔레트 만들기: 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![색상 팔레트 만들기: 예 2](create-color-palette-16.resources/create_color_palette_example_2.png "색상 팔레트 만들기: 예 2"){zoomable="yes"}
+![색상 팔레트 만들기: 예 2](create-color-palette-16.resources/create-color-palette-16-03.png "색상 팔레트 만들기: 예 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![색상 팔레트 만들기: 예 3](create-color-palette-16.resources/create_color_palette_example_3.png "색상 팔레트 만들기: 예 3"){zoomable="yes"}
+![색상 팔레트 만들기: 예 3](create-color-palette-16.resources/create-color-palette-16-04.png "색상 팔레트 만들기: 예 3"){zoomable="yes"}

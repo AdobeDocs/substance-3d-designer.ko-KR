@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 기본 MDL 그래프 개념
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ MDL 재질은 Designer에 포함된 [Ray](../../interface/3d-view/iray/iray.md) 
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Ray 로고](main-mdl-graph-concepts.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Ray 로고](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ MDL 그래프의 결과는 <b>루트</b> 노드로 정의됩니다. 그래프의
 
 루트 노드는 현재 출력의 미리보기를 표시하는 썸네일을 포함한다.
 
-![MDL 그래프의 루트 노드](main-mdl-graph-concepts.resources/mdl-root-hl.png "MDL 그래프의 루트 노드")
+![MDL 그래프의 루트 노드](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "MDL 그래프의 루트 노드")
 
 *MDL 그래프의 루트 노드 및 해당 속성이 [속성](../../interface/properties/properties.md)* *패널*&#x200B;에 표시됨
 
@@ -81,7 +81,7 @@ Designer의 다른 그래프보다 MDL 그래프에 데이터 유형이 훨씬 �
 >
 > *일치하는 데이터 형식*&#x200B;에 대한 커넥터만 함께 연결할 수 있습니다. 색상 코딩의 유일한 목적은 그래프에 전달되는 데이터의 유형 및 어떤 커넥터를 연결할 수 있는지에 대한 가독성을 높이는 것입니다.
 
-![MDL 노드 커넥터 유형](main-mdl-graph-concepts.resources/mdl-connector-types.png "MDL 노드 커넥터 유형"){width="512px"}
+![MDL 노드 커넥터 유형](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-03.png "MDL 노드 커넥터 유형"){width="512px"}
 
 *커넥터의 특성은 I/O 값 유형에 따라 다르며 I/O 식별자 뒤에 괄호로 표시됩니다.*
 
@@ -101,16 +101,16 @@ Designer의 다른 그래프보다 MDL 그래프에 데이터 유형이 훨씬 �
 * *출력* 커넥터에서 *링크를 끌어서* 노드 메뉴가 표시되면 *첫 번째 입력*&#x200B;의 데이터 형식이 선택한 *출력* 데이터 형식과 일치하는 노드가 목록에 포함됩니다.
 * *입력* 커넥터에서 *링크를 끌어서* 노드 메뉴가 표시되면 *출력*&#x200B;의 데이터 형식이 *선택한 입력* 데이터 형식과 일치하는 노드가 목록에 포함됩니다.
 
-![필터링된 노드 만들기](main-mdl-graph-concepts.resources/mdl-filtered-node-creation.gif "필터링된 노드 만들기")
+![필터링된 노드 만들기](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-04.gif "필터링된 노드 만들기")
 
 *MDL 그래프에서 필터링된 노드를 만듭니다. 커넥터의 값 유형에 따라 목록이 변경됩니다.*
 
 ## 그래프 입력 및 텍스처
 
-MDL 재질은 예를 들어 값과 텍스처 형태로 외부 소스에서 데이터를 받을 수 있습니다. 전용 입력 노드가 있는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)와 달리 <b>노드를 노출</b>하면 이러한 결과를 얻을 수 있습니다.
+MDL 재질은 예를 들어 값 및 텍스처 형태로 외부 소스에서 데이터를 수신할 수 있습니다. 전용 입력 노드가 있는 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)와 달리 <b>노드를 노출</b>하면 이러한 결과를 얻을 수 있습니다.
 
 데이터는 *type*&#x200B;에 따라 노출된 노드로 전달될 수 있습니다. 예를 들어, Float 값은 노출된 <b>float</b> 노드에 전달되고 텍스처는 노출된 <b>color</b> 노드에 전달될 수 있습니다(이 경우 샘플링된 픽셀의 RGBA 값은 색상 값으로 전달됨).
 
-![노출된 그래프 입력](main-mdl-graph-concepts.resources/mdl-graph-inputs-samplers.png "노출된 그래프 입력")
+![노출된 그래프 입력](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-05.png "노출된 그래프 입력")
 
 *노출된 노드는 Raw 값 입력 및 텍스처의 샘플러인 그래프 입력을 만듭니다*

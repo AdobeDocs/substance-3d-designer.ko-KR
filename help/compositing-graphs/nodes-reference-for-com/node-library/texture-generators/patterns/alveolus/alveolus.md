@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
-description: 폐포 노드를 사용하여 유기적이고 기하학적인 텍스처 효과를 만들기 위한 벌집형 세포 패턴을 생성합니다.
+description: Alveolus 노드를 사용하여 유기 및 기하학적 텍스처 효과를 만들기 위한 벌집형 세포 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Alveolus
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 치조골
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alveolus.resources/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="alveolus.resources/alveolus.gif" />
+            <img src="alveolus.resources/alveolus-02.gif" />
         </td>
     </tr>
 </table>

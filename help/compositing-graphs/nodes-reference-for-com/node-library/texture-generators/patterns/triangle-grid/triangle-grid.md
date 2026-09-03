@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Triangle Grid
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
 
-![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -97,37 +97,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: 예 1"){zoomable="yes"}
+![Triangle Grid: 예 1](triangle-grid.resources/triangle-grid-03.jpg "Triangle Grid: 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: 예 2"){zoomable="yes"}
+![Triangle Grid: 예 2](triangle-grid.resources/triangle-grid-04.png "Triangle Grid: 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 예 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: 예 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: 예 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: 예 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: 예 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: 예 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: 예 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: 예 6"){zoomable="yes"}
+![Triangle Grid: 예 3](triangle-grid.resources/triangle-grid-05.jpg "Triangle Grid: 예 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 가죽](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: 가죽"){zoomable="yes"}
+![Triangle Grid: 예 4](triangle-grid.resources/triangle-grid-06.jpg "Triangle Grid: 예 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: 그래프](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: 그래프"){zoomable="yes"}
+![Triangle Grid: 예 5](triangle-grid.resources/triangle-grid-07.jpg "Triangle Grid: 예 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: 예 6](triangle-grid.resources/triangle-grid-08.jpg "Triangle Grid: 예 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: 가죽](triangle-grid.resources/triangle-grid-09.png "Triangle Grid: 가죽"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: 그래프](triangle-grid.resources/triangle-grid-10.png "Triangle Grid: 그래프"){zoomable="yes"}
 
 </td>
 </tr>

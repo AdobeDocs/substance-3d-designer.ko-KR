@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 원
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-circle.resources/spline-circle-icon.png "노드 아이콘")
+![노드 아이콘](spline-circle.resources/spline-circle-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 |:---|:---|
 | <b>원 반경</b> <i>부동</i> | 텍스처 공간에서 원의 반경을 조정합니다. |
 | <b>원 사전 회전</b> <i>부동</i> | [크기]를 적용하기 전에 기본 원에 회전을 적용합니다. |
-| <b>원 크기</b> <i>Float2</i> | 원의 가로 크기(X) 및 세로 크기(Y)를 조정합니다. |
+| <b>원 크기</b> <i>부동2</i> | 원의 가로 크기(X) 및 세로 크기(Y)를 조정합니다. |
 | <b>순환 후 회전</b> <i>부동</i> | [크기]를 적용한 후 기본 원에 회전을 적용합니다. |
-| <b>원 위치</b> <i>Float2</i> | 텍스처 공간에서 원의 중심 위치를 설정합니다. |
+| <b>원 위치</b> <i>부동2</i> | 텍스처 공간에서 원의 중심 위치를 설정합니다. |
 | <b>시작 Thickness</b> <i>부동</i> | 원의 시작점 Thickness을 조정합니다. 이 Thickness은 스플라인을 따라 끝 Thickness으로 보간됩니다.<br>참고: Thickness은 특정 스플라인 노드에서 사용됩니다. |
 | <b>최종 Thickness</b> <i>부동</i> | 원의 끝점 Thickness을 조정합니다. 이 Thickness은 스플라인을 따라 시작 Thickness으로 보간됩니다.<br>참고: Thickness은 특정 스플라인 노드에서 사용됩니다. |
 | <b>시작 Height</b> <i>부동</i> | 값이 낮을수록 위치가 낮거나 깊은 원의 시작점 Height을 조정합니다. 이 Height은 스플라인을 따라 끝 Height으로 보간됩니다. |
@@ -96,12 +96,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-circle.resources/SplineCircle-Variant1.jpg "노드 예 1")
+![노드 예 1](spline-circle.resources/spline-circle-02.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-circle.resources/SplineCircle-Demo.gif "노드 예 2")
+![노드 예 2](spline-circle.resources/spline-circle-03.gif "노드 예 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![예 3](spline-circle.resources/SplineCircle-Variant2.jpg "예 3")
+![예 3](spline-circle.resources/spline-circle-04.jpg "예 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 4](spline-circle.resources/SplineCircle-Variant3.jpg "예 4")
+![예 4](spline-circle.resources/spline-circle-05.jpg "예 4")
 
 </td>
 </tr>

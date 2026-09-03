@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 환경 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 환경 설정 창
 
-![환경 설정 창](preferences-window.resources/image2021-6-22-20-56-1.png "환경 설정 창")
+![환경 설정 창](preferences-window.resources/preferences-window-01.png "환경 설정 창")
 
 이 페이지에는 <b>환경 설정</b> 창과 모든 설정이 표시됩니다.
 
@@ -148,23 +148,23 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>그래프를 열 때 모든 노드 축소판 자동 계산</b>  *기본값: 선택됨* | 선택하면 그래프를 로드할 때 모든 노드 축소판을 자동으로 렌더링합니다. |
-| <b>그래프를 열 때 2D 보기에서 출력 보기</b>  *기본값: 선택됨* | 선택하면 [2D 보기](../../interface/2d-view/2d-view.md)에서 첫 번째 그래프 출력이 자동으로 표시됩니다. 또한 스트림의 일부인 모든 노드를 해당 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드로 렌더링하는 효과가 있습니다. |
+| <b>그래프를 열 때 2D 보기에서 출력 보기</b>  *기본값: 선택됨* | 선택하면 첫 번째 그래프 출력이 해당 그래프를 열 때 [2D 보기](../../interface/2d-view/2d-view.md)에 자동으로 표시됩니다. 또한 스트림의 일부인 모든 노드를 해당 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드로 렌더링하는 효과가 있습니다. |
 | <b>새로 만든 합성 노드를 자동으로 표시</b>  *기본값: 선택됨* | 선택하면 [2D 보기](../../interface/2d-view/2d-view.md)가 자동으로 업데이트되어 새로 만든 노드의 출력을 표시합니다. |
-| <b>색상/회색조 변환 노드 자동 삽입</b>  *기본값: 선택 취소됨* | 선택하면 *특정 노드를 배치*&#x200B;하여 적절한 변환을 수행하여 색상/회색 음영 연결 유형의 불일치를 자동으로 해결합니다.   *회색 음영* 출력(회색 커넥터)이 *색상* 입력(노란색 커넥터)에 연결되면 [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드가 두 커넥터 사이에 자동으로 배치됩니다.   *색상* 출력(노란색 커넥터)이 *회색 음영* 입력(회색 커넥터)에 연결되면 [회색 음영 전환](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) 노드가 두 커넥터 사이에 자동으로 배치됩니다. |
+| <b>색상/회색조 변환 노드 자동 삽입</b>  *기본값: 선택 취소됨* | 선택하면 *특정 노드를 배치*&#x200B;하여 적절한 변환을 수행하여 색상/회색 음영 연결 유형의 불일치를 자동으로 해결합니다.   *회색 음영* 출력(회색 커넥터)이 *색상* 입력(노란색 커넥터)에 연결되면 [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드가 두 커넥터 사이에 자동으로 배치됩니다.   *색상* 출력(노란색 커넥터)이 *회색 음영* 입력(회색 커넥터)에 연결되면 [회색 음영 변환](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) 노드가 두 커넥터 사이에 자동으로 배치됩니다. |
 | <b>컨텍스트에서 그래프 편집 사용</b>  *기본값: 선택 취소됨* | 기본적으로 노드를 마우스 오른쪽 단추로 클릭하여 [인스턴스 노드](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에서 참조하는 그래프를 열고 <b>참조 열기</b>를 선택하면 해당 그래프가 *격리된 상태로* 로드되고 편집됩니다.   이 옵션을 선택하면 현재 그래프에서 인스턴스 *에 전달된 정보를 사용하여 인스턴스*&#x200B;에서 참조하는 그래프를 편집할 수 있습니다. 이렇게 하려면 인스턴스 노드를 마우스 오른쪽 단추로 클릭하고 <b>컨텍스트에서 참조 열기</b>를 선택하거나 Ctrl+E 키 입력을 사용합니다.   즉, 인스턴스 그래프는 인스턴스 그래프의 컨텍스트에서 편집할 수 있습니다. 이 기능은 작업 중인 그래프에서 편집 내용을 확인하는 데 매우 유용합니다. 아래의 예를 참조하십시오.  **참고:** 컨텍스트 편집을 사용할 때 [그래프 속성](../../compositing-graphs/graph-parameters/graph-parameters.md)에서 <b>미리 보기</b> 및 <b>사전 설정</b> 탭이 *비활성화*&#x200B;됩니다. |
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![직접 편집 사용 안 함](preferences-window.resources/substance3ddesigner_incontext_no.gif "직접 편집 사용 안 함")
+![직접 편집 사용 안 함](preferences-window.resources/preferences-window-02.gif "직접 편집 사용 안 함")
 
 *참조 열기*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![직접 편집 사용](preferences-window.resources/substance3ddesigner_incontext_yes.gif "직접 편집 사용")
+![직접 편집 사용](preferences-window.resources/preferences-window-03.gif "직접 편집 사용")
 
 *컨텍스트에서 참조 열기*
 

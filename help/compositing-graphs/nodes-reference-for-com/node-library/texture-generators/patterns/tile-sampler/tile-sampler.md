@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
-description: Substance 3D Designer 타일 노드를 사용하여 입력 텍스처에서 타일을 샘플링하고 배열하여 Sampler에 타일 패턴을 만듭니다.
+description: Sampler 타일 노드를 사용하면 입력 텍스처에서 타일을 샘플링하고 정렬하여 Substance 3D Designer에 타일 패턴을 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 타일 Sampler은 타일 패턴의 궁극적인 생성 노드입니다. [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)의 발전된 복잡한 버전입니다. 2017 2.1년을 기준으로 하면 타일 Sampler과 [생성기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)의 차이가 훨씬 줄어듭니다. 주요 차이점은 크기 조절, 위치, 회전, 크기, 색상 및 마스크 생성에 사용할 수 있는 7개의 다른 맵 슬롯에서만 있습니다. 효과는 개별적으로 혼합할 수 있습니다.
 
-타일 Sampler은 외부 입력 맵으로 제어되는 특정 매개 변수에 대한 추가 제어와 함께 인공 절차 패턴을 만드는 데 유용합니다.
+타일 Sampler은 외부 입력 맵으로 제어되는 특정 매개 변수에 대한 추가 제어를 통해 인공 프로시저 패턴을 만들 때 유용합니다.
 
 타일 Sampler으로 넘어가기 전에 [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)에 익숙한지 확인하세요. 대부분의 경우 [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)이면 충분하며 타일 Sampler의 복잡성을 추가할 필요가 없습니다.
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>예는 입력 맵(패턴 분포, 크기 조절, 회전)에 의해 매개 변수가 제어되는 방법을 보여 줍니다.</i>
+            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>예는 입력 맵(패턴 분포, 크기 조절, 회전)에 의해 매개 변수가 제어되는 방법을 보여 줍니다.</i>
         </td>
     </tr>
 </table>

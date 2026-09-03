@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 중간 필터 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![중간 필터 색상: 아이콘](median-filter-color.resources/MedianFilter_Icon_Color.png "중간 필터 색상: 아이콘")
+![중간 필터 색상: 아이콘](median-filter-color.resources/median-filter-color-01.png "중간 필터 색상: 아이콘")
 
 <b>인:</b> 필터 > 흐림 효과
 
@@ -76,11 +76,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-color.resources/median-filter-color-02.png" alt="MedianFilter_Variant2A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-color.resources/median-filter-color-03.png" alt="MedianFilter_Variant2B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -89,11 +89,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="median-filter-color.resources/median-filter-color-04.png" alt="MedianFilter_Variant3A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="median-filter-color.resources/median-filter-color-05.png" alt="MedianFilter_Variant3B">
       <br><i>이후</i>
     </td>
   </tr>

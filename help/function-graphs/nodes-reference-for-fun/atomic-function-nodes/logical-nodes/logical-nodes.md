@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 논리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 논리 노드는 그래프에 여러 조건을 추가하는 데 사용됩니다.
 
-![](logical-nodes.resources/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/logical-nodes-01.png)
 
 ## *및* 노드
 
-![](logical-nodes.resources/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/logical-nodes-02.png)
 
 And 노드는 두 개의 Boolean 노드를 입력으로 사용합니다.
 
@@ -35,7 +35,7 @@ And 노드는 두 개의 Boolean 노드를 입력으로 사용합니다.
 
 ## *또는* 노드
 
-![](logical-nodes.resources/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/logical-nodes-03.png)
 
 Or 노드는 두 개의 Boolean 노드를 입력으로 사용합니다.
 
@@ -44,7 +44,7 @@ Or 노드는 두 개의 Boolean 노드를 입력으로 사용합니다.
 
 ## *Not* 노드
 
-![](logical-nodes.resources/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/logical-nodes-04.png)
 
 Not 노드는 부울을 입력으로 사용합니다. 입력 값을 확인하고 반대값을 반환합니다.
 

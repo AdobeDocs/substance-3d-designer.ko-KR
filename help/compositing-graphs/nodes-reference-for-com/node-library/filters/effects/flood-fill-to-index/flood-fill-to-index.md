@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색인으로 Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-index.resources/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 설명
 
-[Flood Fill에서 인덱스]를 선택하면 모든 Flood Fill 셀이 인덱스 번호에 따른 값으로 변환되며 왼쪽 상단에는 0부터 시작합니다. 정규화된 형태(0.0 ~ 1.0, Flood Fill으로 찾은 셀 수만큼 나누기)로 또는 HDR, 언클램프된 값(0 ~ n, n은 셀 수임)으로 회색 음영 색조를 반환하는 데 사용할 수 있습니다.
+[Flood Fill에서 인덱스]를 선택하면 모든 Flood Fill 셀이 인덱스 번호에 따른 값으로 변환되며 왼쪽 상단에는 0부터 시작합니다. 이는 정규화된 형태(0.0 내지 1.0, Flood Fill에 의해 발견되는 수의 셀들로 나누기)로 또는 HDR, 언클램핑된 값(0 내지 n, 여기서 n은 셀의 수임)으로 회색 음영 색조를 반환하는데 사용될 수 있다.
 
 또한 색인에 Flood Fill을 사용하면 [값](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)이 사용되므로 발견된 모양의 양과 선택적 내부 데이터 테이블이 반환됩니다.
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-index.resources/flood-fill-ex02.jpg" />
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
         </td>
     </tr>
 </table>

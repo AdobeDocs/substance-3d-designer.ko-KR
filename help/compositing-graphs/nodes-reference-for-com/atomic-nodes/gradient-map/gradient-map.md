@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그레이디언트 맵
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="200px"}
+![원자 노드: 그레이디언트 맵](gradient-map.resources/gradient-map-01.png "원자 노드: 그레이디언트 맵"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ ht-degree: 2%
 * <b>그레이디언트 편집기</b> 단추에서 LMB를 클릭합니다.
 * 그레이디언트 막대의 핀에서 LMB 를 두 번 클릭합니다. 그러면 클릭한 핀의 값을 직접 편집할 수 있도록 그레이디언트 편집기에서 해당 핀이 자동으로 선택됩니다.
 
-![그레이디언트 편집기](gradient-map.resources/image2017-2-17-16-13-5.png "그레이디언트 편집기")
+![그레이디언트 편집기](gradient-map.resources/gradient-map-02.png "그레이디언트 편집기")
 
 ### 그레이디언트 핀 편집
 
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 첫 번째 핀과 마지막 핀 앞뒤에 있는 그라디언트 부분은 각각 해당 핀의 색상으로 설정됩니다.
 
-![그레이디언트 편집기 - 그레이디언트 보기](gradient-map.resources/image2017-2-17-17-27-46.png "그레이디언트 편집기 - 그레이디언트 보기")
+![그레이디언트 편집기 - 그레이디언트 보기](gradient-map.resources/gradient-map-03.png "그레이디언트 편집기 - 그레이디언트 보기")
 
 핀 편집에 사용할 수 있는 컨트롤은 다음과 같습니다.
 
@@ -105,7 +105,7 @@ ht-degree: 2%
 </td>
 <td style="border: 0;" valign="top">
 
-![그레이디언트 편집기 - 핀 추가](gradient-map.resources/move-pin.gif "그레이디언트 편집기 - 핀 추가")
+![그레이디언트 편집기 - 핀 추가](gradient-map.resources/gradient-map-04.gif "그레이디언트 편집기 - 핀 추가")
 
 </td>
 </tr>
@@ -119,14 +119,14 @@ ht-degree: 2%
 
 LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 드래그하여 이동합니다.
 
-핀을 선택하고 <b>Position</b> 매개 변수를 사용하여 숫자 값으로 그룹의 위치를 설정할 수도 있습니다. 위치는 [0;1] 범위의 값입니다. 여기서 0은 그레이디언트의 시작이고 1은 그레이디언트의 끝입니다.
+핀을 선택하고 <b>Position</b> 매개 변수를 사용하여 숫자 값으로 핀의 위치를 설정할 수도 있습니다. 위치는 [0;1] 범위의 값입니다. 여기서 0은 그레이디언트의 시작이고 1은 그레이디언트의 끝입니다.
 
-![그레이디언트 편집기 - 핀 위치 매개 변수](gradient-map.resources/image2015-8-27-13-56-2.png "그레이디언트 편집기 - 핀 위치 매개 변수")
+![그레이디언트 편집기 - 핀 위치 매개 변수](gradient-map.resources/gradient-map-05.png "그레이디언트 편집기 - 핀 위치 매개 변수")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![그레이디언트 편집기 - 이동 핀](gradient-map.resources/movepin2.gif "그레이디언트 편집기 - 이동 핀")
+![그레이디언트 편집기 - 이동 핀](gradient-map.resources/gradient-map-06.gif "그레이디언트 편집기 - 이동 핀")
 
 </td>
 </tr>
@@ -134,8 +134,8 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
 여러 핀을 선택하면 *동시에* 이동할 수 있습니다. 하나 이상의 핀이 이동할 때 그레이디언트의 끝과 닿는 경우, 이동에 사용한 마우스 버튼에 따라 다음 두 가지 비헤이비어를 사용할 수 있습니다.
 
-* <b>LMB:</b> 핀은 끝에 남아 있습니다. 즉, 해당 위치에 도달하고 상대 위치가 변경되면 해당 위치에 쌓입니다.
-* <b>MMB:</b> 핀은 그레이디언트의 다른 쪽 끝으로 다시 반복됩니다. 즉, 상대 위치가 변경되지 않았음을 의미합니다.
+* <b>LMB:</b> 핀은 끝에 남아 있습니다. 즉, 핀이 도달할 때 해당 위치에 쌓이고 상대 위치가 변경됨을 의미합니다.
+* <b>MMB:</b> 핀은 그레이디언트의 다른 쪽 끝으로 다시 돌아갑니다. 즉, 상대 위치가 변경되지 않았음을 의미합니다.
 
 <table>
 <tr style="border: 0;">
@@ -148,7 +148,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </td>
 <td style="border: 0;" valign="top">
 
-![그레이디언트 편집기 - 핀 삭제](gradient-map.resources/removepin.gif "그레이디언트 편집기 - 핀 삭제")
+![그레이디언트 편집기 - 핀 삭제](gradient-map.resources/gradient-map-07.gif "그레이디언트 편집기 - 핀 삭제")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </td>
 <td style="border: 0;" valign="top">
 
-![그레이디언트 편집기: 위치 반전](gradient-map.resources/invert.gif "그레이디언트 편집기: 위치 반전")
+![그레이디언트 편집기: 위치 반전](gradient-map.resources/gradient-map-08.gif "그레이디언트 편집기: 위치 반전")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </td>
 <td style="border: 0;" valign="top">
 
-![그레이디언트 편집기 - 모두 지우기](gradient-map.resources/remove.gif "그레이디언트 편집기 - 모두 지우기")
+![그레이디언트 편집기 - 모두 지우기](gradient-map.resources/gradient-map-09.gif "그레이디언트 편집기 - 모두 지우기")
 
 </td>
 </tr>
@@ -194,7 +194,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
 <b>채도 감소</b>
 
-이 버튼은 선택한 핀에 설정된 색상의 채도를 낮춥니다.
+이 단추는 선택한 핀에 설정된 색상의 채도를 낮춥니다.
 
 ### 보간 모드
 
@@ -206,7 +206,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 +++
 
 +++평면 접선
-핀이 곡선의 포인트인 경우 그레이디언트를 베지어 곡선으로 전환하려고 할 때 이 모드에서는 이러한 포인트가 수평 접선이 있도록 설정합니다.
+그레이디언트 사이를 핀이 곡선의 점인 베지어 곡선으로 전환하려고 할 때 이 모드에서는 이러한 점이 수평 접선을 갖도록 설정합니다.
 
 그러면 매끄러운 단계 보간을 연상시키는 전환이 발생합니다.
 
@@ -222,15 +222,15 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 +++
 
 +++보간 없음
-색상은 핀의 위치에서만 변경되고, 그레이디언트 막대를 따라 다음 핀까지 일정하게 유지됩니다.
+색상은 핀 위치에서만 변경되고, 그레이디언트 막대를 따라 다음 핀 때까지 일정하게 유지됩니다.
 
-그러면 색상 간에 뚜렷한 차이가 나타나며 해당 핀이 설정한 색상만 그레이디언트에 나타납니다.
+그러면 색상 간에 뚜렷한 차이가 나타나며 핀에서 설정한 색상만 그레이디언트에 나타납니다.
 
 +++
 
 ### 색상 피커
 
-![그라디언트 편집기 - 색상 피커](gradient-map.resources/image2017-2-17-18-21-29.png "그라디언트 편집기 - 색상 피커")
+![그라디언트 편집기 - 색상 피커](gradient-map.resources/gradient-map-10.png "그라디언트 편집기 - 색상 피커")
 
 [색상 피커]를 사용하면 다음과 같은 여러 가지 방법으로 색상을 설정할 수 있습니다.
 
@@ -245,7 +245,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![색상 피커 - 그라디언트 영역 및 색조 막대](gradient-map.resources/colorpalette.gif "색상 피커 - 그라디언트 영역 및 색조 막대")
+  ![색상 피커 - 그라디언트 영역 및 색조 막대](gradient-map.resources/gradient-map-11.gif "색상 피커 - 그라디언트 영역 및 색조 막대")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![색상 피커 - RGB, HSV 및 Alpha 슬라이더](gradient-map.resources/image2017-2-17-18-31-41.png "색상 피커 - RGB, HSV 및 Alpha 슬라이더")
+  ![색상 피커 - RGB, HSV 및 Alpha 슬라이더](gradient-map.resources/gradient-map-12.png "색상 피커 - RGB, HSV 및 Alpha 슬라이더")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![색상 피커 - 화면에서 선택](gradient-map.resources/pick.gif "색상 피커 - 화면에서 선택")
+  ![색상 피커 - 화면에서 선택](gradient-map.resources/gradient-map-13.gif "색상 피커 - 화면에서 선택")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![색상 피커 - 색상 되돌리기](gradient-map.resources/image2015-8-27-14-40-39.png "색상 피커 - 색상 되돌리기")
+![색상 피커 - 색상 되돌리기](gradient-map.resources/gradient-map-14.png "색상 피커 - 색상 되돌리기")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![색상 피커 - 단추](gradient-map.resources/invert2.gif "색상 피커 - 단추")
+![색상 피커 - 단추](gradient-map.resources/gradient-map-15.gif "색상 피커 - 단추")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
 [그레이디언트 스포이드]는 참조 사진에 선을 그리는 것만으로도 복잡한 그레이디언트를 만들 수 있으므로 이 노드가 제공하는 가장 유용한 기능 중 하나입니다.
 
-![그레이디언트 편집기 - 그레이디언트 선택기](gradient-map.resources/pickgradient.gif "그레이디언트 편집기 - 그레이디언트 선택기")
+![그레이디언트 편집기 - 그레이디언트 선택기](gradient-map.resources/gradient-map-16.gif "그레이디언트 편집기 - 그레이디언트 선택기")
 
 <b>정밀도</b> 슬라이더를 사용하면 키 수를 늘리거나 줄여 새로 만든 그레이디언트를 조정하는 데 도움이 됩니다. 해당 값이 낮을수록 선택한 값과 더 정확하게 일치합니다.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 대칭 슬라이스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](symmetry-slice.resources/mirror-2.png){width="128px"}
+![](symmetry-slice.resources/symmetry-slice-01.png){width="128px"}
 
 <b>필터</b>:
 
@@ -50,7 +50,7 @@ ht-degree: 6%
 | <b>대칭 모드</b> <i>0 - 6</i> | 형상 대칭/선 대칭복사를 선택합니다. 옵션은 [가로], [세로], [왼쪽 대각선], [오른쪽 대각선], [세로 반전], [모퉁이] 및 [대각선 모퉁이]입니다. |
 | <b>전송 모드</b> <i>0 - 6</i> | 혼합 모드. 옵션은 다음과 같습니다. |
 | <b>혼합</b> <i>0.0 - 1.0</i> | 원본 이미지를 결과에 다시 혼합으로 맞춥니다. |
-| <b>측면 뒤집기</b> <i>거짓/참</i> | 원점을 대칭 이동합니다. 즉, 작업의 원점 면이 반전됩니다. 예를 들어, 왼쪽에서 오른쪽 대칭은 오른쪽에서 왼쪽이 된다. |
+| <b>측면 뒤집기</b> <i>거짓/참</i> | 원점을 대칭 이동합니다. 즉, 작업의 원점 면이 반전됩니다. 예를 들어 [왼쪽에서 오른쪽으로] 대칭은 [오른쪽에서 왼쪽으로]가 됩니다. |
 | <b>측면 뒤집기2</b> <i>거짓/참</i> | 대칭 모드가 5 또는 6인 경우에만 사용됩니다. 모퉁이 원점을 뒤집습니다. |
 
 ## 예
@@ -58,7 +58,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="symmetry-slice.resources/symslice.png" />
+            <img src="symmetry-slice.resources/symmetry-slice-02.png" />
         </td>
     </tr>
 </table>

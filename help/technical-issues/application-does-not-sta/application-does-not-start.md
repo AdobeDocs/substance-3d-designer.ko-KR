@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 애플리케이션이 시작되지 않음
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Steam에서 Designer을 시작하는 Linux 사용자는 아래와 같이 Designe
 
 이 작업이 완료되면 향후 모든 세션에서 일반적으로 Steam을 통해 Designer을 시작할 수 있습니다.
 
-![Steam 실행 옵션](application-does-not-start.resources/steam_linux_launch_option.jpg "Steam 실행 옵션")
+![Steam 실행 옵션](application-does-not-start.resources/application-does-not-start-01.jpg "Steam 실행 옵션")
 
 
 

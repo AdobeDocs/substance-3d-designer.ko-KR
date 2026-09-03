@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 주석
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![댓글 아이콘](comment.resources/graphatomic-comment_1.png "댓글 아이콘")
+![댓글 아이콘](comment.resources/comment-01.png "댓글 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![댓글: 상위 댓글](comment.resources/graph-comment_parented.gif "댓글: 상위 댓글")
+![댓글: 상위 댓글](comment.resources/comment-02.gif "댓글: 상위 댓글")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 1%
 
 ## HTML 서식
 
-HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 서식은 주석의 <b>설명</b> 속성에서 ![](comment.resources/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 사용하여 전환됩니다.
+HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 서식은 주석의 <b>설명</b> 속성에서 ![](comment.resources/comment-03.png) <b>HTML 태그</b> 단추를 사용하여 전환됩니다.
 
 >[!TIP]
 >
 > [프레임](../../../../interface/the-graph-view/graph-items/frame/frame.md) 설명서의 <b>설명</b> 섹션에서 이 기능에 대해 자세히 알아보십시오.
 
-![주석: HTML 마크업](comment.resources/graph-comment_html-markup.gif "주석: HTML 마크업")
+![주석: HTML 마크업](comment.resources/comment-04.gif "주석: HTML 마크업")

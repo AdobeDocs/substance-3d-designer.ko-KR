@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래프 인스턴스 및 하위 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 그래프 인스턴스 및 하위 그래프
 
-![](graph-instances-sub-graphs.resources/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 그래프 인스턴스는 <b>다른 그래프를 참조</b>하는 노드입니다. 호스트 그래프에서 인스턴스 노드가 참조하는 그래프를 호스트 그래프의 <b>하위 그래프</b>이라고 할 수 있다.
 

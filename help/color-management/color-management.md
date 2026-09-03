@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 1%
@@ -152,18 +152,18 @@ Designer에서 <b>레거시</b> 모드를 사용하는 경우 색상 관리가 *
 > 
 > 특히 **파일 이름**&#x200B;을 사용하여 적절한 색상 공간을 *자동으로* 설정할 수 있습니다. 파일 이름의 색상 공간 이름은 OpenColorIO 구성 파일의 *이름*&#x200B;과 일치해야 합니다(예: *myImage\_utility - linear -srgb.png*&#x200B;는 *유틸리티 - Linear - sRGB* 색상 공간으로 설정됩니다).
 
-![비트맵 색상 공간 설정](color-management.resources/2019-3-0-bitmap-clr-space.png "비트맵 색상 공간 설정")
+![비트맵 색상 공간 설정](color-management.resources/color-management-01.png "비트맵 색상 공간 설정")
 
 ## 출력 내보내기
 
 <b>출력 내보내기</b> 대화 상자를 사용하는 경우 *각* 출력에 대해 <b>색상 공간</b>(OCIO)을 할당하거나 <b>ICC 프로필</b>(Adobe ACE)을 연결할 수 있습니다.\
 Designer은 이미지 파일을 저장하기 전에 이미지를 지정된 색상 공간으로 *변환*&#x200B;합니다.
 
-![출력 내보내기 대화 상자](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "출력 내보내기 대화 상자"){width="512px"}
+![출력 내보내기 대화 상자](color-management.resources/color-management-02.png "출력 내보내기 대화 상자"){width="512px"}
 
 [2D 보기](../interface/2d-view/2d-view.md)에서 *저장됨* 이미지에 색상 공간(OCIO)을 할당하거나 ICC 프로필(Adobe ACE)을 연결할 수도 있습니다.
 
-![2D 보기 내보내기 옵션](color-management.resources/2019-3-0-clr-mgt-save-image.png "2D 보기 내보내기 옵션")
+![2D 보기 내보내기 옵션](color-management.resources/color-management-03.png "2D 보기 내보내기 옵션")
 
 ## 2D 및 3D 보기
 
@@ -171,7 +171,7 @@ Designer은 이미지 파일을 저장하기 전에 이미지를 지정된 색�
 
 색상 관리를 *전환*&#x200B;하고 표시 도구 모음의 드롭다운 메뉴를 사용하여 언제든지 보기에 대한 *표시 변형*&#x200B;을 변경할 수 있습니다.
 
-![2D 보기의 색상 공간 설정](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "2D 보기의 색상 공간 설정"){width="512px"}
+![2D 보기의 색상 공간 설정](color-management.resources/color-management-04.png "2D 보기의 색상 공간 설정"){width="512px"}
 
 ### 라이브러리 HDRI 환경
 
@@ -180,7 +180,7 @@ Designer과 함께 제공되는 HDRI 환경은 <b>선형 sRGB</b> 색상 공간�
 
 이 경우 3D 보기 패널 <b>환경</b> 메뉴에서 사용할 수 있는 환경 속성에서 라이브러리 HDRI 환경의 색상 공간을 *수동으로* 설정해야 합니다.
 
-![3D 보기 환경의 색상 공간 설정](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "3D 보기 환경의 색상 공간 설정"){width="512px"}
+![3D 보기 환경의 색상 공간 설정](color-management.resources/color-management-05.png "3D 보기 환경의 색상 공간 설정"){width="512px"}
 
 ## 색상 변환 노드
 
@@ -211,7 +211,7 @@ Designer과 함께 제공되는 HDRI 환경은 <b>선형 sRGB</b> 색상 공간�
 
 이는 색상 관리나 [Substance 3D 에셋](https://substance3d.adobe.com/assets) 라이브러리에서 *만든* 그래프를 사용하여 작업할 때 유용합니다.
 
-![라이브러리의 색상 변환 노드](color-management.resources/2019-3-0-clr-mgt-nodes.png "라이브러리의 색상 변환 노드"){width="512px"}
+![라이브러리의 색상 변환 노드](color-management.resources/color-management-06.png "라이브러리의 색상 변환 노드"){width="512px"}
 
 ## 알려진 제한 사항
 

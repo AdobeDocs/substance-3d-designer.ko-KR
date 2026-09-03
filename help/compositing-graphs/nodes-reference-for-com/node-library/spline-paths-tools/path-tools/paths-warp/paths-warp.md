@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
-description: 경로 뒤틀기 노드를 사용하면 곡선 및 유기적인 패턴을 만들기 위해 텍스처를 경로 곡선을 따라 뒤틀기 할 수 있습니다.
+description: 경로 뒤틀기 노드를 사용하면 곡선 및 유기적인 패턴을 만들기 위해 경로 곡선을 따라 텍스처를 뒤틀 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Warp
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 뒤틀기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](paths-warp.resources/paths-warp-icon.png "노드 아이콘")
+![노드 아이콘](paths-warp.resources/paths-warp-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -74,11 +74,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/paths-warp-03.jpg" alt="PathsWarp-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/paths-warp-04.jpg" alt="PathsWarp-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](paths-warp.resources/PathsWarp-Demo1.gif "노드 예 1")
+![노드 예 1](paths-warp.resources/paths-warp-05.gif "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">

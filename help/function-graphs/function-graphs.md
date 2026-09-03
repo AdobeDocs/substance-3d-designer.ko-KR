@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 함수 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](function-graphs.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### 단순 함수
 
-![](function-graphs.resources/lerpfunction_1.png)
+![](function-graphs.resources/function-graphs-02.png)
 
 노출된 매개 변수 컨텍스트의 단순 함수입니다. 0에서 1(이해하기 쉬운 범위)까지 지정되는 &quot;강도&quot;라는 입력 부동 소수점 값을 가져와서 0.1 - 0.8의 설정된 범위로 다시 매핑합니다. 즉, 사용자가 [강도]를 0으로 설정하면 내부 0.1이 사용되고, Ui를 1로 설정하면 0.8이 사용되며, 그 사이의 값은 선형적으로 보간됩니다. 이 유형의 함수는 [매개 변수를 노출](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)할 때 일반적으로 사용되지만 사용자 지정 함수를 사용할 때 사용됩니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 고급 기능
 
-![](function-graphs.resources/pixel-function_1.png){width="545px"}
+![](function-graphs.resources/function-graphs-03.png){width="545px"}
 
 이 고급 기능은 두 번째 회색 음영 마스크 입력의 강도를 기반으로 색상 맵 입력의 색조를 조정하는 [픽셀 프로세서](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)의 내부 작업을 보여 줍니다.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 연산자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 연산자 노드를 사용하면 입력 노드에서 고전적인 수학 연산을 수행할 수 있습니다.
 
-![](operator-nodes.resources/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/operator-nodes-01.png)
 
 >[!NOTE]
 >

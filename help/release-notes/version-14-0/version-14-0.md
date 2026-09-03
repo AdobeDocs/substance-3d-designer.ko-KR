@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *출시일: 2024년 7월 30일*
 
-![](version-14-0.resources/2024-BannerRN.png)
+![](version-14-0.resources/version-14-0-01.png)
 
 ## 새 콘텐츠
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 * <b>색상 조정 전용 노드: </b>노드 <b>(</b>[색상 정량화](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>대<b> </b>이미지의 색상 수를 줄이고 팔레트에서 팔레트를 추출해 내 색상 팔레트를 만들기 위한 도구 노드 모음([보기](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [만들기](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [수정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>색상 팔레트)와 ID 맵을 사용하여 다른 이미지에 적용할 색상 팔레트([색상 팔레트 적용](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). 또한 ID 맵을 회색 음영 마스크로 변환하기 위한 [회색 음영을 마스킹하는 ID](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 노드를 찾을 수 있습니다. 이 전체 노드 세트를 사용하면 색상을 사용하여 스타일화 효과를 만드는 데 필요한 모든 것을 얻을 수 있습니다.
 
-![](version-14-0.resources/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
 
-![색상 정량화 2](version-14-0.resources/GIF3_2.gif){zoomable="yes"}
+![색상 정량화 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
 
 * <b>구와하라 필터</b>: 스타일화를 통해 더 나아가고 싶다면 [비등방성 구와하라 색상](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [회색 음영](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md) 필터 덕분에 약간의 회화적인 효과를 생성할 수 있습니다. 세부 사항에서는 이미지의 세부 사항에 맞는 비등방성 방향 흐림 효과를 적용합니다. 그 결과 내부 모양 방향으로 흐른 것처럼 보이는 이미지가 만들어집니다.
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="version-14-0.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="version-14-0.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="version-14-0.resources/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="version-14-0.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 * <b>2D 보기: </b>[2D 보기](../../interface/2d-view/2d-view.md)에서 바둑판식 표시를 사용하도록 설정하면 원래 타일에 없는 픽셀에도 값을 가져올 수 있습니다. [샘플링](../../glossary/glossary.md)과 타일 간 값 전환을 확인하는 데 많은 도움이 됩니다.
 
-![2d 보기](version-14-0.resources/2dview.gif){width="320px" zoomable="yes"}
+![2d 보기](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
 
 * <b>그레이디언트 맵</b>: 마우스 가운데 버튼을 클릭하여 모든 [그레이디언트 키](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)를 왼쪽 또는 오른쪽으로 이동하여 모든 키 사이의 간격을 유지합니다.
 * <b>매개 변수</b>: 이제 매개 변수를 통해 사용자 지정 함수를 삽입하기 위해 함수 편집 위젯을 사용할 수 있습니다. [Substance 함수 그래프](../../function-graphs/the-function-graph/the-function-graph.md)를 사용하여 매개 변수를 구동하려는 사용자 지정 도구를 만드는 강력한 솔루션입니다.
@@ -146,12 +146,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![함수 편집](version-14-0.resources/functionedit.png){zoomable="yes"}
+![함수 편집](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![함수 2](version-14-0.resources/functionedit2.png){zoomable="yes"} 편집
+![함수 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"} 편집
 
 </td>
 </tr>

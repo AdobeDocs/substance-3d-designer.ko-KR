@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 매퍼
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![모양 매퍼 - 아이콘](shape-mapper.resources/shape_mapper.png "모양 매퍼 - 아이콘"){width="200px"}
+![모양 매퍼 - 아이콘](shape-mapper.resources/shape-mapper-01.png "모양 매퍼 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 

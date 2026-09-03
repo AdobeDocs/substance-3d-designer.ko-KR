@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 사용자 정의 컨텐츠 및 필터 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 즉, 하나 이상의 프로젝트 파일을 사용하여 <b>라이브러리</b>에 콘텐츠를 추가해야 하는 폴더와 해당 콘텐츠를 정렬하고 구성하는 범주 및 필터를 설정할 수 있습니다.
 
-![라이브러리의 사용자 지정 콘텐츠](managing-custom-content-and-filters.resources/library-filters.png "라이브러리의 사용자 지정 콘텐츠")
+![라이브러리의 사용자 지정 콘텐츠](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-01.png "라이브러리의 사용자 지정 콘텐츠")
 
 ## 그래프 특성
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 범주(폴더) 및 필터는 다음 단추를 사용하여 만들고 편집합니다.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) 폴더 추가:</b> 라이브러리 보기에서 확장 가능한 폴더를 만듭니다. 하위 폴더를 만들 수 *없습니다*.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-02.png) 폴더 추가:</b> 라이브러리 보기에서 확장 가능한 폴더를 만듭니다. 하위 폴더를 만들 수 *없습니다*.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) 필터 추가:</b> 선택한 폴더 내에 새 필터를 추가합니다. 기존 기본 폴더에 필터를 추가할 수 *없습니다*.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-03.png) 필터 추가:</b> 선택한 폴더 내에 새 필터를 추가합니다. 기존 기본 폴더에 필터를 추가할 수 *없습니다*.
 
-<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) 항목 편집:</b> 현재 선택한 폴더 또는 필터를 편집합니다. 기본 폴더 및 필터의 속성은 *편집할 수 없습니다*.
+<b>![](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-04.png) 항목 편집:</b> 현재 선택한 폴더 또는 필터를 편집합니다. 기본 폴더 및 필터의 속성은 *편집할 수 없습니다*.
 
 폴더 또는 필터를 *제거*&#x200B;하려면 해당 폴더 또는 필터를 *마우스 오른쪽 단추로 클릭*&#x200B;하고 상황에 맞는 메뉴에서 <b>제거</b> 옵션을 선택합니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 > *올바른 프로젝트*&#x200B;를 편집하기 위해 이러한 설정을 올바르게 설정하는 것이 *매우*&#x200B;중요합니다!
 
-![사용자 지정 필터 버전](managing-custom-content-and-filters.resources/library-filters-edit.png "사용자 지정 필터 버전")
+![사용자 지정 필터 버전](managing-custom-content-and-filters.resources/managing-custom-content-and-filters-05.png "사용자 지정 필터 버전")
 
 **필터**&#x200B;의 필터링 목적을 달성하려면 일반적으로 *조건*&#x200B;을 설정해야 합니다. 이러한 조건은 다음 기준을 사용하여 구성됩니다.
 

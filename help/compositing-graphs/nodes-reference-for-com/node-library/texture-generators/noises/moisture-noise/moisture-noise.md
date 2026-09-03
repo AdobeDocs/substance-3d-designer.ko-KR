@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 습기 소음 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![습기 소음 1 - 아이콘](moisture-noise.resources/moisture_noise_1.png "습기 소음 1 - 아이콘"){width="200px"}
+![습기 소음 1 - 아이콘](moisture-noise.resources/moisture-noise-01.png "습기 소음 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -75,12 +75,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 1](moisture-noise.resources/moisture_noise_1_1.png "습기 소음 1 - 예 1"){zoomable="yes"}
+![습기 소음 1 - 예 1](moisture-noise.resources/moisture-noise-02.png "습기 소음 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "습기 소음 1 - 예 2"){zoomable="yes"}
+![습기 소음 1 - 예 2](moisture-noise.resources/moisture-noise-03.gif "습기 소음 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "습기 소음 1 - 예 3"){zoomable="yes"}
+![습기 소음 1 - 예 3](moisture-noise.resources/moisture-noise-04.gif "습기 소음 1 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "습기 소음 1 - 예 4"){zoomable="yes"}
+![습기 소음 1 - 예 4](moisture-noise.resources/moisture-noise-05.gif "습기 소음 1 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 패치로 만들기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-patch.resources/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](make-it-tile-patch.resources/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
 <b>내부:</b> 필터 > 타일링
 
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 이 노드는 그리드 기반 세미 랜덤 타일러입니다. 입력 패치를 적용하고 스탬프를 찍어내 설정에 따라 너무 많은 반복 없이 타일링 이미지로 변환하려고 시도합니다.
 
-텍스처 패치가 작고 대규모 타일링 텍스처를 만들려는 경우에 유용합니다.
+텍스처 패치가 작아 더 큰 규모의 타일링 텍스처를 만들려는 경우에 유용합니다.
 
 이 사진은 주로 가장자리를 수정하는 [Make-It-Tile 사진](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)과는 다릅니다.
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-patch.resources/patch-ex.gif" />
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 평면 투영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-projection-01.png)![](3d-planar-projection.resources/3d-planar-projection-02.png)
 
 <b>내부:</b> 메시 기반 생성기 > 유틸리티
 
@@ -74,7 +74,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
+            <img src="3d-planar-projection.resources/3d-planar-projection-03.gif" />
         </td>
     </tr>
 </table>

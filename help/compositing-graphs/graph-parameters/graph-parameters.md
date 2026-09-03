@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래프 매개변수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![기본 매개 변수](graph-parameters.resources/doc-graph-props-base-params.png "기본 매개 변수"){width="512px" zoomable="yes"}
+![기본 매개 변수](graph-parameters.resources/graph-parameters-01.png "기본 매개 변수"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>출력 크기</b> | 이 매개 변수를 사용하면 그래프에서 이미지의 *기본 해상도*&#x200B;를 선택할 수 있습니다.  사용: <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> 크기를 조정할 때 높이 및 폭 값이 일치하도록 단추를 잠그고 이미지의 정사각형을 유지합니다.<br><br>*기본값: (0,0) - 부모에 대한 상대* [자세히 알아보기](../../compositing-graphs/output-size/output-size.md) |
+| <b>출력 크기</b> | 이 매개 변수를 사용하면 그래프에서 이미지의 *기본 해상도*&#x200B;를 선택할 수 있습니다.  사용: <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> 크기를 조정할 때 높이 및 폭 값이 일치하도록 단추를 잠그고 이미지의 정사각형을 유지합니다.<br><br>*기본값: (0,0) - 부모에 대한 상대* [자세히 알아보기](../../compositing-graphs/output-size/output-size.md) |
 | <b>출력 형식</b> | 다음 옵션에서 그래프의 *기본 비트 심도*&#x200B;을(를) 선택할 수 있습니다.<ul data-preserve-html="true"><li data-preserve-html="true">8비트</li><li data-preserve-html="true">16비트</li><li data-preserve-html="true">HDR 낮은 정밀도 16F(16비트 부동 소수점)</li><li data-preserve-html="true">HDR High Precision 32F(32비트 부동 소수점)</li></ul>*기본값: 채널당 8비트 - 부모에 대한 상대* |
 | <b>픽셀 크기</b> | 픽셀 크기를 정의합니다. **폭** 및 **Height** 값을 모두 **1**(으)로 설정하는 것이 좋습니다.*기본값: (1,1) - 부모 기준* |
 | <b>타일링 모드</b> | 다음 옵션에서 그래프의 기본 *타일링 모드*&#x200B;를 정의합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">타일링하지 않음</li> <li data-preserve-html="true">수평 타일링</li> <li data-preserve-html="true">수직 타일링</li> <li data-preserve-html="true">H+V 타일링(즉, 수평 및 수직)</li> </ul>*기본값: H 및 V 타일링 - 부모를 기준으로* |
-| <b>임의 시드</b> | 그래프의 기본 *임의 시드*&#x200B;를 정의합니다.  사용: <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> 임의의 시드에 새 임의의 값을 할당하는 단추입니다.<br><br>*기본값: 0 - 부모에 대한 상대* |
+| <b>임의 시드</b> | 그래프의 기본 *임의 시드*&#x200B;를 정의합니다.  사용: <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> 임의의 시드에 새 임의의 값을 할당하는 단추입니다.<br><br>*기본값: 0 - 부모에 대한 상대* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![그래프 특성](graph-parameters.resources/doc-graph-props-attributes.png "그래프 특성"){zoomable="yes"}
+![그래프 특성](graph-parameters.resources/graph-parameters-04.png "그래프 특성"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![입력 매개 변수](graph-parameters.resources/doc-graph-props-input-parameters.png "입력 매개 변수"){zoomable="yes"}
+![입력 매개 변수](graph-parameters.resources/graph-parameters-05.png "입력 매개 변수"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![입력](graph-parameters.resources/doc-graph-props-inputs.png "입력"){zoomable="yes"}
+![입력](graph-parameters.resources/graph-parameters-06.png "입력"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![출력](graph-parameters.resources/doc-graph-props-outputs.png "출력"){zoomable="yes"}
+![출력](graph-parameters.resources/graph-parameters-07.png "출력"){zoomable="yes"}
 
 </td>
 </tr>

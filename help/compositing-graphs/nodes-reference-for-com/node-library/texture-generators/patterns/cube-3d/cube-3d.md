@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Cube 3D
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d.resources/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -55,7 +55,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cube-3d.resources/cube3d-ex.gif" />
+            <img src="cube-3d.resources/cube-3d-02.gif" />
         </td>
     </tr>
 </table>

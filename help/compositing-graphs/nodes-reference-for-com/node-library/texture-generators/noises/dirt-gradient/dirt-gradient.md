@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Dirt 그라디언트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 그레이디언트 - 아이콘](dirt-gradient.resources/dirt_gradient.png "Dirt 그레이디언트 - 아이콘"){width="200px"}
+![Dirt 그레이디언트 - 아이콘](dirt-gradient.resources/dirt-gradient-01.png "Dirt 그레이디언트 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 그레이디언트 - 예 1](dirt-gradient.resources/dirt_gradient_1.png "Dirt 그레이디언트 - 예 1"){zoomable="yes"}
+![Dirt 그레이디언트 - 예 1](dirt-gradient.resources/dirt-gradient-02.png "Dirt 그레이디언트 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 그레이디언트 - 예 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dirt 그레이디언트 - 예 2"){zoomable="yes"}
+![Dirt 그레이디언트 - 예 2](dirt-gradient.resources/dirt-gradient-03.gif "Dirt 그레이디언트 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 그레이디언트 - 예 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dirt 그레이디언트 - 예 3"){zoomable="yes"}
+![Dirt 그레이디언트 - 예 3](dirt-gradient.resources/dirt-gradient-04.gif "Dirt 그레이디언트 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 그레이디언트 - 예 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt 그레이디언트 - 예 4"){zoomable="yes"}
+![Dirt 그레이디언트 - 예 4](dirt-gradient.resources/dirt-gradient-05.gif "Dirt 그레이디언트 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

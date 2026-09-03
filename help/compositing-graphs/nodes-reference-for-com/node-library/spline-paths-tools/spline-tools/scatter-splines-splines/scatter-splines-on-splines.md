@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인의 산란 스플라인
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 아이콘](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "스플라인의 산란 스플라인: 아이콘")
+![스플라인의 산란 스플라인: 아이콘](scatter-splines-on-splines.resources/scatter-splines-on-splines-01.png "스플라인의 산란 스플라인: 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-[![비디오 스플라인 노드](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![비디오 스플라인 노드](scatter-splines-on-splines.resources/scatter-splines-on-splines-02.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -162,12 +162,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 예 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "스플라인의 산란 스플라인: 예 1"){zoomable="yes"}
+![스플라인의 산란 스플라인: 예 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-03.png "스플라인의 산란 스플라인: 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 예 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "스플라인의 산란 스플라인: 예 1"){zoomable="yes"}
+![스플라인의 산란 스플라인: 예 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-04.png "스플라인의 산란 스플라인: 예 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 예 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "스플라인의 산란 스플라인: 예 3"){zoomable="yes"}
+![스플라인의 산란 스플라인: 예 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-05.png "스플라인의 산란 스플라인: 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 예 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "스플라인의 산란 스플라인: 예 4"){zoomable="yes"}
+![스플라인의 산란 스플라인: 예 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-06.png "스플라인의 산란 스플라인: 예 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 렌더링 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "스플라인의 산란 스플라인: 렌더링 1"){zoomable="yes"}
+![스플라인의 산란 스플라인: 렌더링 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-07.png "스플라인의 산란 스플라인: 렌더링 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인: 렌더링 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "스플라인의 산란 스플라인: 렌더링 2"){zoomable="yes"}
+![스플라인의 산란 스플라인: 렌더링 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-08.png "스플라인의 산란 스플라인: 렌더링 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![스플라인의 산란 스플라인: 렌더링 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "스플라인의 산란 스플라인: 렌더링 3"){zoomable="yes"}
+![스플라인의 산란 스플라인: 렌더링 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-09.png "스플라인의 산란 스플라인: 렌더링 3"){zoomable="yes"}

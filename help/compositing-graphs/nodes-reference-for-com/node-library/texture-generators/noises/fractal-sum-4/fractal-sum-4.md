@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프랙탈 합산 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![프랙탈 합산 4 - 아이콘](fractal-sum-4.resources/fractal_sum_4.png "프랙탈 합산 4 - 아이콘"){width="200px"}
+![프랙탈 합산 4 - 아이콘](fractal-sum-4.resources/fractal-sum-4-01.png "프랙탈 합산 4 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 4 - 예 1](fractal-sum-4.resources/fractal_sum_4_1.png "프랙탈 합산 4 - 예 1"){zoomable="yes"}
+![프랙탈 합산 4 - 예 1](fractal-sum-4.resources/fractal-sum-4-02.png "프랙탈 합산 4 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 4 - 예 2](fractal-sum-4.resources/noise_fractal_sum_4_v2_speed0.6_aniso0.gif "프랙탈 합산 4 - 예 2"){zoomable="yes"}
+![프랙탈 합산 4 - 예 2](fractal-sum-4.resources/fractal-sum-4-03.gif "프랙탈 합산 4 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

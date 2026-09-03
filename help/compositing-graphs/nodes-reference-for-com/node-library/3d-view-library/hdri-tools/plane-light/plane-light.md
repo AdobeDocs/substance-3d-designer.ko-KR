@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: 직접 조명 제어를 위해 평면 조명 노드를 사용하여 HDRI 환경에 평면 광원을 추가합니다.
+description: 직접 조명 제어를 위해 평면 광원 노드를 사용하여 평면 광원을 HDRI 환경에 추가합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 평면 라이트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plane-light.resources/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/plane-light-01.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -89,7 +89,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plane-light.resources/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-02.gif" />
         </td>
     </tr>
 </table>

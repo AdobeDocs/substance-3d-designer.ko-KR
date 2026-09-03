@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 선택
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](paths-select.resources/paths-select-icon.png "노드 아이콘")
+![노드 아이콘](paths-select.resources/paths-select-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -75,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
       <br><i>이후</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
       <br><i>이후</i>
     </td>
   </tr>

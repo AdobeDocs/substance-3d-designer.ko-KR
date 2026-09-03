@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
 breadcrumb-title: ''
-description: 텍스처에서 3D 깊이 효과를 만들기 위해 높이 맵을 기반으로 모양을 돌출시키려면 높이 돌출 노드를 사용합니다.
+description: 텍스처에서 3D와 같은 깊이 효과를 만들기 위해 높이 돌출 노드를 사용하여 Height 맵을 기반으로 모양을 돌출시킵니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Height Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 높이 돌출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-extrude.resources/height-extrude.png){width="200px"}
+![](height-extrude.resources/height-extrude-01.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -52,5 +52,5 @@ ht-degree: 3%
 | <b>Height 크기</b> <i>0.0 - 2.0</i> | 입력 Height 값에 전역 계수를 적용합니다. |
 | <b>세로 오프셋</b> <i>-1.0 - 1.0</i> | 최종 출력을 위 또는 아래로 이동합니다. |
 | <b>지표</b> <i>끄기/켜기</i> | Ground가 꺼져 있으면 지면과 같은 평면이 아니라 입력이 0인 검정 배경이 표시됩니다. |
-| <b>표준 형식</b> <i>DirectX/OpenGL</i> | <b>표준 형식</b> 매개 변수는 노멀 맵의 y 좌표를 반전합니다. |
+| <b>표준 형식</b> <i>DirectX/OpenGL</i> | <b>표준 형식</b> 매개 변수는 표준 맵의 y 좌표를 반전합니다. |
 | <b>표준 강도</b> <i>0.0 - 256.0</i> | <b>표준</b> 노드의 <b>강도</b> 매개 변수와 동일합니다. 회전하는 동안 충돌이 없는 표준이 되도록 이를 256으로 설정하십시오. |

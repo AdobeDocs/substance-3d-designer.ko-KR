@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 *출시일: 2023년 6월 6일*
 
-![패스를 사용하는 재질](version-13-0.resources/Paths2.png "패스를 사용하는 재질")
+![패스를 사용하는 재질](version-13-0.resources/version-13-0-01.png "패스를 사용하는 재질")
 
 *Celine Dameron[&#128279;](https://www.artstation.com/cline)*&#x200B;의 아트워크
 
@@ -39,7 +39,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 이러한 모든 노드는 많은 가능성을 제공하며 많은 크리에이티브 응용 프로그램을 가질 것입니다. [패스 및 자유 곡선 도구 작업](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)에 대한 섹션을 살펴보고 이 도구 집합에 익숙해지도록 이해하기 위한 중요한 개념에 대해 알아보세요.
 
-![스플라인을 사용하는 재질](version-13-0.resources/Splines.png "스플라인을 사용하는 재질")
+![스플라인을 사용하는 재질](version-13-0.resources/version-13-0-02.png "스플라인을 사용하는 재질")
 
 [루이스 멜린](https://www.artstation.com/troglodette)*의*&#x200B;아트워크
 
@@ -61,22 +61,22 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 큐빅](version-13-0.resources/SplineCubic-Demo.gif "스플라인 큐빅")
+![스플라인 큐빅](version-13-0.resources/version-13-0-03.gif "스플라인 큐빅")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 폴리 이차](version-13-0.resources/SplinePolyQuadratic-Demo.gif "스플라인 폴리 이차")
+![스플라인 폴리 이차](version-13-0.resources/version-13-0-04.gif "스플라인 폴리 이차")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 원](version-13-0.resources/SplineCircle-Demo.gif "스플라인 원")
+![스플라인 원](version-13-0.resources/version-13-0-05.gif "스플라인 원")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 브리지 목록](version-13-0.resources/SplineBridge-List_Demo.gif "스플라인 브리지 목록")
+![스플라인 브리지 목록](version-13-0.resources/version-13-0-06.gif "스플라인 브리지 목록")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 2D 변형](version-13-0.resources/Spline2DTransform-Demo1.gif "스플라인 2D 변형")
+![스플라인 2D 변형](version-13-0.resources/version-13-0-07.gif "스플라인 2D 변형")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 뒤틀기](version-13-0.resources/SplineWarp-Demo.gif "스플라인 뒤틀기")
+![스플라인 뒤틀기](version-13-0.resources/version-13-0-08.gif "스플라인 뒤틀기")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 샘플 Thickness](version-13-0.resources/SplineSampleThickness-Demo.gif "스플라인 샘플 Thickness")
+![스플라인 샘플 Thickness](version-13-0.resources/version-13-0-09.gif "스플라인 샘플 Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -119,28 +119,28 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 마지막 범주는 스플라인을 기반으로 최종 모양 또는 패턴을 만드는 것입니다. 가장 먼저 떠오르는 아이디어는 스플라인을 따라 주어진 모양을 반복하는 것입니다. [스플라인 상의 산란](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) 노드를 사용하면 많은 매개 변수를 사용하여 분포(회전, 비율 조정, 오프셋, 색상, 마스크 등)를 완벽하게 제어할 수 있습니다.
 
-[스플라인 채우기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> 덕분에 </b>노드, 닫힌 스플라인에서 패턴을 쉽게 만들 수 있습니다. 또한 높은 수준의 제어와 정밀도로 모든 텍스처를 스플라인에 매핑하고 싶다면 [스플라인 매퍼](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) 노드가 자동으로 만들어집니다.
+[스플라인 채우기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> 덕분에 </b>노드, 닫힌 스플라인에서 패턴을 쉽게 만들 수 있습니다. 또한 텍스처를 스플라인에 높은 수준의 컨트롤과 정밀도로 매핑하고자 한다면 [스플라인 매퍼](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) 노드가 만들어집니다.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 회색 음영 산란](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "스플라인 회색 음영 산란")
+![스플라인 회색 음영 산란](version-13-0.resources/version-13-0-10.gif "스플라인 회색 음영 산란")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 채우기](version-13-0.resources/SplineFill-Demo.gif "스플라인 채우기")
+![스플라인 채우기](version-13-0.resources/version-13-0-11.gif "스플라인 채우기")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 매퍼 색상](version-13-0.resources/SplineMapperColor-Demo.gif "스플라인 매퍼 색상")
+![스플라인 매퍼 색상](version-13-0.resources/version-13-0-12.gif "스플라인 매퍼 색상")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 플로우 매퍼](version-13-0.resources/SplineFlowMapper-Demo.gif "스플라인 플로우 매퍼")
+![스플라인 플로우 매퍼](version-13-0.resources/version-13-0-13.gif "스플라인 플로우 매퍼")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![패스에 마스크 적용](version-13-0.resources/MaskToPaths-Demo2.gif "패스에 마스크 적용")
+![패스에 마스크 적용](version-13-0.resources/version-13-0-14.gif "패스에 마스크 적용")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![패스에 마스크 적용 2](version-13-0.resources/MaskToPaths-Demo1.gif "패스에 마스크 적용 2")
+![패스에 마스크 적용 2](version-13-0.resources/version-13-0-15.gif "패스에 마스크 적용 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Substance 엔진 v9는 또한 다음과 같은 개선 사항을 제공합니다.
 
 이 새로운 기능은 전용 [튜토리얼](https://www.adobe.com/go/designer-tutorial-portals)에서 자세히 설명합니다.
 
-![포털 노드](version-13-0.resources/PortalNodeFinal.gif "포털 노드")
+![포털 노드](version-13-0.resources/version-13-0-16.gif "포털 노드")
 
 ## 홈 화면
 
@@ -216,9 +216,9 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * 새로운 기능을 소개하거나 빠른 팁을 발견하는 튜토리얼과 같은 학습 리소스에 대한 링크를 찾을 수 있는 학습 페이지.
 * 새로운 기능 화면, 정보 화면, Substance 3D 웹 사이트, 지원 커뮤니티 포럼 등에 바로 연결됩니다.
 
-![홈 화면 - 홈](version-13-0.resources/HomeScreen.png "홈 화면 - 홈")
+![홈 화면 - 홈](version-13-0.resources/version-13-0-17.png "홈 화면 - 홈")
 
-![홈 화면 - 학습](version-13-0.resources/LearnPage.png "홈 화면 - 학습")
+![홈 화면 - 학습](version-13-0.resources/version-13-0-18.png "홈 화면 - 학습")
 
 ## 새 언어
 
@@ -281,7 +281,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * [엔진] 그래디언트에 단색 모드 추가
 * [엔진] 함수 그래프의 Atomic pow() 노드
 * [엔진] Sampler 노드에 테두리 배치 옵션(가장자리로 클램프/반복)을 추가합니다.
-* [엔진] 뒤틀기 및 방향 뒤틀기 노드에서 가장 가까운 샘플링
+* [엔진] 뒤틀기 및 방향성 뒤틀기 노드에서 가장 가까운 샘플링
 * [엔진] 색상 입력을 위해 선명 효과 필터에 &quot;펀치 스루 알파&quot; 모드를 추가합니다.
 * [엔진] FxMap: 반구 모르플렛
 * [엔진] 함수 그래프의 Atomic Get/Set 작업
@@ -296,7 +296,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 
 ### 수정 사항
 
-* [3D 보기] 장면 통계에서 긴 문자열의 표시가 잘립니다(macOS만 해당).
+* [3D 보기] 장면 통계에서 긴 문자열 표시가 잘립니다(macOS만 해당).
 * [API] &#39;structure::Structure&#39; 모듈이 API 참조에 계속 포함되어 있습니다.
 * [API] MDL 그래프의 점 노드에 정의나 속성이 없습니다.
 * [API] 함수 노드의 매개 변수를 설정할 때 잘못된 동작이 발생함

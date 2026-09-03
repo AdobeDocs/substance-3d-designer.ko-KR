@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 수평선 똑바로 배치하기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](straighten-horizon.resources/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon-01.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 병합 목록
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-merge-list.resources/spline-merge-list-icon.png "노드 아이콘")
+![노드 아이콘](spline-merge-list.resources/spline-merge-list-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -82,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -112,4 +112,4 @@ ht-degree: 1%
 </tr>
 </table>
 
-![노드 데모](spline-merge-list.resources/SplineMergeList-Demo.gif "노드 데모")
+![노드 데모](spline-merge-list.resources/spline-merge-list-06.gif "노드 데모")

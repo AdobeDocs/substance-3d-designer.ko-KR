@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프에서 상속
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 [Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)의 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)에서 상속이 적용되는 방법과 상속이 그래프의 출력에 미치는 영향에 대해 설명합니다.
 
-![상속 메서드](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "상속 메서드"){width="1400px"}
+![상속 메서드](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-01.jpg "상속 메서드"){width="1400px"}
 
 ## 개요
 
@@ -38,7 +38,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![&#39;Absolute&#39; 상속 메서드 아이콘](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-absolute.png "&#39;Absolute&#39; 상속 메서드 아이콘"){width="128px"}
+![&#39;Absolute&#39; 상속 메서드 아이콘](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-02.png "&#39;Absolute&#39; 상속 메서드 아이콘"){width="128px"}
 
 <b>절대</b>
 
@@ -47,7 +47,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 </td>
 <td style="border: 0;" valign="top">
 
-![&#39;Relative to input&#39; 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "&#39;Relative to input&#39; 상속 메서드에 대한 아이콘"){width="128px"}
+![&#39;Relative to input&#39; 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "&#39;Relative to input&#39; 상속 메서드에 대한 아이콘"){width="128px"}
 
 <b>입력 기준</b>
 
@@ -56,7 +56,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 </td>
 <td style="border: 0;" valign="top">
 
-![부모 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "부모 상속 메서드에 대한 아이콘"){width="128px"}
+![부모 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "부모 상속 메서드에 대한 아이콘"){width="128px"}
 
 <b>부모에 대한 상대</b>
 
@@ -66,7 +66,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 </tr>
 </table>
 
-![상속 메서드 데모](inheritance-in-substance-compositing-graphs.resources/inheritance-overview.gif "상속 메서드 데모")
+![상속 메서드 데모](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-05.gif "상속 메서드 데모")
 
 상속 메서드는 노드의 [기본 매개 변수](../../compositing-graphs/graph-parameters/graph-parameters.md)에 적용됩니다. 이 매개 변수는 모든 노드에서 해당 동작의 *기본 측면*&#x200B;을 제어하는 공통 매개 변수 집합입니다. 이러한 매개 변수에는 다음이 포함됩니다.
 
@@ -86,8 +86,8 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 
 >[!NOTE]
 >
-> **출력 크기:** ![](inheritance-in-substance-compositing-graphs.resources/props-output-size-lock.jpg) 잠금 단추를 사용하여 Height 값이 너비 값과 *일치*&#x200B;하도록 합니다.\
-> **임의 시드:** ![](inheritance-in-substance-compositing-graphs.resources/prop-randomise.jpg) 단추를 사용하여 임의 시드에 새 임의 값을 할당합니다.
+> **출력 크기:** ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-06.jpg) 잠금 단추를 사용하여 Height 값이 너비 값과 *일치*&#x200B;하도록 합니다.\
+> **임의 시드:** ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-07.jpg) 단추를 사용하여 임의 시드에 새 임의 값을 할당합니다.
 
 ## 변경
 
@@ -96,7 +96,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 [속성] 패널에서 노드 속성의 [기본 매개 변수](../../compositing-graphs/graph-parameters/graph-parameters.md) 섹션에 나열된 모든 매개 변수에는 해당 레이블 반대쪽에 (아이콘) <b>상속 메서드 설정</b> 드롭다운 단추가 있습니다.\
 이 단추를 사용하여 매개변수에 사용할 상속 방법을 선택할 수 있습니다.
 
-![상속 메서드 변경](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "상속 메서드 변경"){width="512px"}
+![상속 메서드 변경](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-08.gif "상속 메서드 변경"){width="512px"}
 
 대부분의 경우 *노드*&#x200B;의 기본 매개 변수는 노드를 함께 체인화하는 절차적 동작을 활용하기 위해 *입력에 상대적인*(으)로 설정되며, *그래프*&#x200B;의 기본 매개 변수는 *부모에 상대적인*(으)로 설정되므로 전체 매개 변수는 그래프가 사용되는 컨텍스트에 맞게 조정할 수 있습니다.
 
@@ -146,7 +146,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![&#39;Relative to input&#39; 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-input.png "&#39;Relative to input&#39; 상속 메서드에 대한 아이콘"){width="128px"}
+![&#39;Relative to input&#39; 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "&#39;Relative to input&#39; 상속 메서드에 대한 아이콘"){width="128px"}
 
 <b>입력 기준</b>
 
@@ -155,7 +155,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 </td>
 <td style="border: 0;" valign="top">
 
-![부모 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/ds-inheritance-relative-to-parent.png "부모 상속 메서드에 대한 아이콘"){width="128px"}
+![부모 상속 메서드에 대한 아이콘](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "부모 상속 메서드에 대한 아이콘"){width="128px"}
 
 <b>부모에 대한 상대</b>
 
@@ -180,17 +180,17 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![기본 입력 색상/회색 음영](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-both.png){width="48px"}
+![기본 입력 색상/회색 음영](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-09.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![기본 입력 색상](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-color.png){width="48px"}
+![기본 입력 색상](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-10.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![기본 입력 회색 음영](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input-grayscale.png){width="48px"}
+![기본 입력 회색 음영](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-11.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 </td>
 <td style="border: 0;" valign="top">
 
-![입력 커넥터 형식](inheritance-in-substance-compositing-graphs.resources/inheritance-primary-input.jpg "입력 커넥터 형식")
+![입력 커넥터 형식](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-12.jpg "입력 커넥터 형식")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 
 **예제 A**
 
-![상속 다이어그램 A](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-a.png "상속 다이어그램 A"){zoomable="yes"}
+![상속 다이어그램 A](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-13.png "상속 다이어그램 A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **예제 B**
 
-![상속 다이어그램 B](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-b.png "상속 다이어그램 B"){zoomable="yes"}
+![상속 다이어그램 B](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-14.png "상속 다이어그램 B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 
 **예제 C**
 
-![상속 다이어그램 C](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-c.png "상속 다이어그램 C"){zoomable="yes"}
+![상속 다이어그램 C](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-15.png "상속 다이어그램 C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **예제 D**
 
-![상속 다이어그램 D](inheritance-in-substance-compositing-graphs.resources/inheritance-schematic-d.png "상속 다이어그램 D"){zoomable="yes"}
+![상속 다이어그램 D](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-16.png "상속 다이어그램 D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 
 [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) 노드는 매우 자주 사용되기 때문에 매우 취약합니다. <b>배경</b> 입력은 기본 입력입니다.
 
-![출력 크기 상속](inheritance-in-substance-compositing-graphs.resources/inheritance-blend.jpg "출력 크기 상속"){width="512px"}
+![출력 크기 상속](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-17.jpg "출력 크기 상속"){width="512px"}
 
 두 입력을 혼합하는 순서에 주의해야 합니다. 필요한 혼합 모드가 가능하게 하는 경우 그래프를 아래로 유지하려는 해상도와 정밀도가 배경 입력에 연결되어야 합니다. 그렇지 않은 경우 블렌드 노드의 베이스 매개변수와 상속 방법을 조정하여 보정할 수 있습니다.

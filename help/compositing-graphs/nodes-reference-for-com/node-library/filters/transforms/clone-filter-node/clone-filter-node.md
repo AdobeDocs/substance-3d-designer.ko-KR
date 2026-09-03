@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 복제(필터 노드)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-4.png)
+![](clone-filter-node.resources/clone-filter-node-01.png)
 
 <b>필터</b>:
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 설명
 
-복제 입력 이미지를 지정한 위치로 한 번 이동합니다. 조잡한 &quot;복제 도장&quot; 도구로 작동할 수 있습니다.
+입력 이미지를 지정한 위치로 한 번 복제합니다. 조잡한 &quot;복제 도장&quot; 도구로 작동할 수 있습니다.
 
 원하는 결과를 얻기 위해 약간의 주의가 필요합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-example.png" />
+            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
         </td>
     </tr>
 </table>

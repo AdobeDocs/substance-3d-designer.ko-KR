@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 색상 산란
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](scatter-on-spline-color.resources/scatter-on-spline-color-icon.png "노드 아이콘")
+![노드 아이콘](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "노드 아이콘")
 
 시작: 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -117,9 +117,9 @@ ht-degree: 0%
 | <b>입력 샘플링 모드 크기 조정</b> <i>텍스처 공간</i> | 비율 맵의 값을 스플라인에 매핑하는 방법:<br>*- 텍스처 공간*: 값은 텍스처의 UV 좌표를 사용하여 텍스처에 배치할 경우 스플라인에 적용됩니다. 이는 스플라인의 &#39;제자리&#39;,<br>*- 스플라인을 따라 수평*&#x200B;에 값을 효과적으로 적용합니다. 값은 인코딩된 스플라인의 좌표에 직접 적용됩니다(스플라인 좌표 입력 참조). 여기서 각 행은 위에서 아래로 다른 스플라인에 적용됩니다.<br>*- Hor. 스플라인을 따라(랜드). 오프셋 X)*: 값은 인코딩된 스플라인의 좌표에 직접 적용됩니다(스플라인 좌표 입력 참조). 각 스플라인(즉, 스플라인 좌표의 각 행)에 대한 배율 맵의 임의 수평 오프셋은 <br>*- Hor입니다. 스플라인을 따라(랜드). 오프셋 Y)*: 이 값은 인코딩된 스플라인의 좌표에 직접 적용됩니다(스플라인 좌표 입력 참조). 각 스플라인(즉, 스플라인 좌표의 각 행)에 대한 비율 맵의 임의 수직 오프셋은 다음과 같습니다. |
 | <b>감쇠 시작/종료</b> <i>Float2</i> | 패턴 크기를 조정할 때 스플라인의 중간점에서 시작 및 끝까지의 거리를 나타내는 인자입니다.<br>스플라인의 가장자리에 가까운 패턴의 크기가 줄어듭니다. |
 | <b>위치</b> |  |
-| <b>로컬 오프셋</b> <i>Float2</i> | 스플라인의 탄젠트(평행) 및 수직(수직)을 따라 패턴 위치에 오프셋을 적용합니다. |
+| <b>로컬 오프셋</b> <i>부동2</i> | 스플라인의 탄젠트(평행) 및 수직(수직)을 따라 패턴 위치에 오프셋을 적용합니다. |
 | <b>로컬 오프셋 무작위</b> <i>Float2</i> | 스플라인의 탄젠트(평행) 및 수직(수직)을 따라 패턴의 위치에 추가 임의 오프셋을 적용합니다. |
-| <b>로컬 오프셋 임의 가운데</b> <i>Float2</i> | 스플라인의 탄젠트(평행) 및 수직(수직)을 따라 로컬 오프셋 무작위(Local Offset Random) 매개변수에 의해 적용된 무작위 오프셋의 중심을 오프셋합니다. |
+| <b>로컬 오프셋 임의 가운데</b> <i>부동2</i> | 스플라인의 탄젠트(평행) 및 수직(수직)을 따라 로컬 오프셋 무작위(Local Offset Random) 매개변수에 의해 적용된 무작위 오프셋의 중심을 오프셋합니다. |
 | <b>로컬 오프셋 시작/끝 감쇠</b> <i>Float2</i> | 패턴에 위치 오프셋을 적용할 때 스플라인의 중간점부터 시작점 및 끝점까지의 거리의 인자입니다.<br>스플라인의 가장자리에 가까운 패턴의 오프셋이 줄어듭니다. |
 | <b>Thickness에 의한 로컬 오프셋 감쇠</b> <i>부동</i> | 패턴에 오프셋을 적용할 때 스플라인 Thickness의 요소<br>낮은 Thickness의 스플라인 부분에서 중복에 대한 오프셋이 줄어듭니다. |
 | <b>스플라인 오프셋</b> <i>부동</i> | 스플라인을 따라 패턴에 위치 오프셋을 적용합니다. |
@@ -136,7 +136,7 @@ ht-degree: 0%
 | <b>배경색</b> <i>Float4</i> | 출력 이미지의 배경 색상입니다. |
 | <b>혼합 모드</b> <i>정수</i> | 배경과 다른 겹치는 패턴이 모두 있는 패턴의 색상을 혼합하는 방법:<br>*- 추가*: 색상을 함께 추가합니다.<br>** Alpha 혼합*: 패턴의 알파 채널을 사용하여 간단한 투명도 혼합을 적용합니다. 맨 앞에 마지막으로 그린 패턴, |
 | <b>색상 모드</b> <i>정수</i> | 각 패턴의 색상을 선택하는 혼합 방법:<br>*- 기본 색상*: 기본 색상이 모든 패턴에 적용됩니다.<br>**&#x200B;위치*: 텍스처 공간에서 패턴의 위치는 X 및 Y 좌표가 각각 빨강 및 녹색 채널에 매핑되도록 색상을 제어하는 데 사용됩니다. |
-| <b>모양 기본 색상</b> <i>Float4</i> | 패턴의 기본 색상. |
+| <b>모양 기본 색상</b> <i>부동4</i> | 패턴의 기본 색상. |
 | <b>색상 입력 승수</b> <i>부동</i> | 색상 맵 입력의 강도를 제어합니다. 이 지도는 패턴의 현재 색상에 대한 승수 역할을 한다.<br>이 지도의 효과는 &#39;색상&#39; 그룹의 다른 매개 변수와 결합됩니다.<br>참고: 출력 색상은 모든 색상 승수의 가중 결과입니다. |
 | <b>색상 맵 입력 샘플링 모드</b> <i>정수</i> | 색상 맵의 값을 스플라인에 매핑하는 방법:<br>*- 텍스처 공간*: 값은 텍스처의 UV 좌표를 사용하여 텍스처에 배치할 경우 스플라인에 적용됩니다. 이는 스플라인의 &#39;제자리&#39;,<br>*- 스플라인을 따라 수평*&#x200B;에 값을 효과적으로 적용합니다. 값은 인코딩된 스플라인의 좌표에 직접 적용됩니다(스플라인 좌표 입력 참조). 여기서 각 행은 위에서 아래로 다른 스플라인에 적용됩니다.<br>*- Hor. 스플라인을 따라(랜드). 오프셋 X)*: 값은 인코딩된 스플라인의 좌표에 직접 적용됩니다(스플라인 좌표 입력 참조). 각 스플라인(즉, 스플라인 좌표의 각 행)에 대한 색상 맵의 임의 수평 오프셋은 <br>*- Hor입니다. 스플라인을 따라(랜드). 오프셋 Y)*: 이 값은 인코딩된 스플라인의 좌표에 직접 적용됩니다(스플라인 좌표 입력 참조). 각 스플라인의 색상 맵(즉, 스플라인 좌표의 각 행)에서 임의의 수직 오프셋이 사용됩니다. |
 | <b>무작위 색상</b> <i>Float4</i> | HSV 공간의 패턴 색상 및 해당 알파에 지정된 값까지의 임의 오프셋을 적용합니다.<br>*참고:* 출력 색상은 모든 색상 승수의 가중 결과입니다. |
@@ -167,11 +167,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](scatter-on-spline-color.resources/ScatterOnSplineGrayscale-Demo.gif "노드 예 1")
+![노드 예 1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](scatter-on-spline-color.resources/ScatterOnSplineColor-Demo.gif "노드 예 2")
+![노드 예 2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "노드 예 2")
 
 </td>
 </tr>

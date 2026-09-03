@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 라인 라이트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](line-light.resources/panorama-line-light.png){width="200px"}
+![](line-light.resources/line-light-01.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 |  |  |
 |:---|:---|
-| <b>위치 모드</b> <i>지상/천장, 원점으로부터의 거리, 세계 위치</i> | 세 가지 배치 모드 중에서 선택합니다. 2D 보기에서 지면/천장 및 원점으로부터의 거리 지원 조작, World 위치는 속성을 통해서만 변경할 수 있지만 보다 정확한 배치를 지원합니다. |
+| <b>위치 모드</b> <i>지상/천장, 원점으로부터의 거리, 세계 위치</i> | 세 가지 배치 모드 중에서 선택합니다. 2D 보기에서 바닥/천장 및 원점으로부터의 거리 지원 조작, 세계 위치는 속성을 통해서만 변경할 수 있지만 더 정확한 배치를 지원합니다. |
 | <b>지표 격자 표시</b> <i>거짓/참</i> | 디버그 그라운드 그리드를 그릴 수 있도록 하는 도우미 함수입니다. 공간에서 선의 위치를 추정하는 데 도움이 됩니다. |
 | <b>위치 좌표</b> |  |
 | <b>위쪽 벡터</b> <i>Z 위로, Y 위로</i> | 세계 위치 모드에서만 좌표계의 방향을 결정합니다. |
@@ -91,7 +91,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="line-light.resources/line-light-ex.gif" />
+            <img src="line-light.resources/line-light-02.gif" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 브리지 매퍼 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "노드 아이콘")
+![노드 아이콘](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -79,9 +79,9 @@ ht-degree: 1%
 |:---|:---|
 | <b>세그먼트 양</b> <i>정수</i> | 스플라인은 이미지 좌표가 통과하기 전에 세그먼트로 단순화됩니다. 선분의 양이 많을수록 커브를 따라 매핑이 더 매끄러워집니다. |
 | <b>UV 스트레치 줄이기</b> <i>부울</i> | 스플라인 간의 거리가 균일하지 않을 때 이미지 좌표를 한 스플라인에서 다음 스플라인으로 보간하여 스플라인의 거리를 최소화하는 방법을 조정합니다. |
-| <b>UV 비율</b> <i>Float2</i> | 이미지 좌표의 비율을 조정합니다. 값이 높을수록 타일이 촘촘하게 배치된 이미지가 더 많아집니다. |
+| <b>UV 비율</b> <i>부동2</i> | 이미지 좌표의 비율을 조정합니다. 값이 높을수록 타일이 촘촘하게 배치된 이미지가 더 많아집니다. |
 | <b>UV 회전</b> <i>부동</i> | 해당 중심을 중심으로 이미지 좌표를 회전합니다. |
-| <b>배경색</b> <i>Float4</i> | 출력 이미지의 배경 색상입니다. |
+| <b>배경색</b> <i>부동4</i> | 출력 이미지의 배경 색상입니다. |
 
 ## 예
 
@@ -92,11 +92,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "노드 예 2")
+![노드 예 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "노드 예 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "노드 예 1")
+![노드 예 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "노드 예 2")
+![노드 예 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "노드 예 2")
 
 </td>
 </tr>

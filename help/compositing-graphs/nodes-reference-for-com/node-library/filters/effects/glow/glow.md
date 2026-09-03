@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 광선
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](glow.resources/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-01.png){width="128px"}
 
-![](glow.resources/glow-3.png){width="128px"}
+![](glow.resources/glow-02.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -61,7 +61,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="glow.resources/glow-ex.png" />
+            <img src="glow.resources/glow-03.png" />
         </td>
     </tr>
 </table>

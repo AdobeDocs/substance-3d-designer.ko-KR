@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 그래프 만들기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 이 페이지에서는 Substance 3D Designer에서 MDL 재질을 제작하기 위해 MDL 그래프를 만드는 과정을 설명합니다.
 
-![MDL 그래프 생성 경로](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "MDL 그래프 생성 경로")
+![MDL 그래프 생성 경로](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "MDL 그래프 생성 경로")
 
 *Designer 인터페이스에서 새 MDL 그래프를 만드는 경로*
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 다음 방법 중 하나를 사용하여 MDL 그래프를 생성할 수 있습니다.
 
 * *기본 메뉴 막대*&#x200B;에서 **파일 > 새로 만들기 > MDL 그래프** 옵션을 선택합니다.
-* *기본 도구 모음*&#x200B;에서 ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **MDL 그래프 추가** 단추를 클릭합니다.
+* *기본 도구 모음*&#x200B;에서 ![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png) **MDL 그래프 추가** 단추를 클릭합니다.
 * **탐색기** 패널에서 *기존 패키지*&#x200B;를 마우스 오른쪽 단추로 클릭하고 **새로 만들기 > MDL 그래프** 옵션을 선택합니다.
 
 **새 MDL 그래프** 대화 상자가 표시됩니다(아래 참조).
 
-![새 MDL 그래프 대화 상자](creating-an-mdl-graph.resources/mdl-templates.png "새 MDL 그래프 대화 상자")
+![새 MDL 그래프 대화 상자](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "새 MDL 그래프 대화 상자")
 
 *새 MDL 그래프 대화 상자*
 
@@ -59,10 +59,10 @@ ht-degree: 0%
 
 템플릿 목록은 **프로젝트** 콤보 상자 옆에 있는 *단추*&#x200B;를 사용하여 다른 모드로 표시할 수 있습니다.
 
-* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)최근에 사용한 표시**: *최근 항목에서 최근 항목* 순으로 마지막으로 사용한 템플릿이 표시되도록 목록을 필터링합니다. 최상위 항목은 최근 항목입니다.
-* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)그래프 표시**: 템플릿은 *레이블 전용*&#x200B;으로 표시됩니다. 템플릿 디렉터리의 [Substance 3D](https://www.adobe.com/kr/products/substance3d/3d-augmented-reality.html) 파일 순서대로 표시됩니다.
-* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)Substance 3D 파일 표시**: 템플릿은 해당 레이블에 따라 템플릿 디렉터리의 파일 순서대로 *해당 템플릿이 속한 Substance 3D 파일의 하위 항목*&#x200B;으로 표시됩니다.
-* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)표시 디렉터리**: 템플릿은 해당 레이블에 의해 템플릿의 디렉터리에 있는 파일 순서대로 *자신이 속한 디렉터리의 자식*(으)로 표시됩니다.
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)최근에 사용한 표시**: *최근 항목에서 최근 항목* 순으로 마지막으로 사용한 템플릿이 표시되도록 목록을 필터링합니다. 최상위 항목은 최근 항목입니다.
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)그래프 표시**: 템플릿은 *레이블 전용*&#x200B;으로 표시됩니다. 템플릿 디렉터리의 [Substance 3D](https://www.adobe.com/kr/products/substance3d/3d-augmented-reality.html) 파일 순서대로 표시됩니다.
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)Substance 3D 파일 표시**: 템플릿은 해당 레이블에 따라 템플릿 디렉터리의 파일 순서대로 *해당 템플릿이 속한 Substance 3D 파일의 하위 항목*&#x200B;으로 표시됩니다.
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)표시 디렉터리**: 템플릿은 해당 레이블에 의해 템플릿의 디렉터리에 있는 파일 순서대로 *자신이 속한 디렉터리의 자식*(으)로 표시됩니다.
 
 ### 속성
 

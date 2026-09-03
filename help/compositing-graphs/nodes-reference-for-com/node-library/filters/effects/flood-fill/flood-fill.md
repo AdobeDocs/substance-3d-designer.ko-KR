@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill.resources/floodfill.png){width="128px"}
+![](flood-fill.resources/flood-fill-01.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -62,10 +62,10 @@ Flood Fill은 기본 이진 타일 텍스처에 훨씬 더 많은 변형을 추�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill.resources/flood-ex2.png" />
+            <img src="flood-fill.resources/flood-fill-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill.resources/flood-ex1.png" />
+            <img src="flood-fill.resources/flood-fill-03.png" />
         </td>
     </tr>
 </table>

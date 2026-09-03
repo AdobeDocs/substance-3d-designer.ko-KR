@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height에 표준
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-to-height.resources/normal-to-height.png){width="128px"}
+![](normal-to-height.resources/normal-to-height-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -56,7 +56,7 @@ Normalmap 소스만 있지만 Heightmap과 결합하는 작업을 수행하려�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-to-height.resources/normal2heightex.png" />
+            <img src="normal-to-height.resources/normal-to-height-02.png" />
         </td>
     </tr>
 </table>

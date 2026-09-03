@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-transform.html"
 breadcrumb-title: ''
-description: 벡터 방향을 올바르게 유지하면서 표준 맵에 변형을 적용하려면 [표준 변형] 노드를 사용합니다.
+description: 벡터 방향을 올바르게 유지하면서 노멀 맵에 변환을 적용하려면 일반 변환 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 표준 변형
+title: Normal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 3%
@@ -18,13 +18,13 @@ ht-degree: 3%
 ---
 
 
-# 표준 변형
+# Normal
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-transform.resources/normal-transform.png){width="128px"}
+![](normal-transform.resources/normal-transform-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 설명
 
-원자 변환 2D 노드와 마찬가지로, 탄젠트 공간을 파괴하지 않고 정규맵을 변환할 수 있지만 즉석에서 다시 계산되어 항상 정확한 정규맵을 생성합니다.
+원자 변환 2D 노드와 유사하게, 이것은 탄젠트-공간을 파괴하지 않고 노말맵의 변환을 허용하지만, 대신 그것은 항상 정확한 노말맵으로 재계산된다.
 
 </td>
 </tr>

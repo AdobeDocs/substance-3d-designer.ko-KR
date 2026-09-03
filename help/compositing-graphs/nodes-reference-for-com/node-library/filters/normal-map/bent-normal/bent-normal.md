@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 노멀 구부리기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![구부러진 표준 노드 아이콘](bent-normal.resources/rt-bent-normal.png "구부러진 표준 노드 아이콘")
+![구부러진 표준 노드 아이콘](bent-normal.resources/bent-normal-01.png "구부러진 표준 노드 아이콘")
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -62,7 +62,7 @@ Height 맵 입력을 기반으로 [구부러진 표준 맵]을 생성합니다. 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
+            <img src="bent-normal.resources/bent-normal-02.jpg" />
         </td>
     </tr>
 </table>

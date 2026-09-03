@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 베벨 매끄럽게
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![비등방성 구와하라 회색 음영 아이콘](bevel-smooth.resources/bevel_smooth.png "비등방성 구와하라 회색 음영 아이콘"){width="200px"}
+![비등방성 구와하라 회색 음영 아이콘](bevel-smooth.resources/bevel-smooth-01.png "비등방성 구와하라 회색 음영 아이콘"){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -87,12 +87,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![베벨 매끄럽게: 예 1](bevel-smooth.resources/bevel_smooth_example_1.gif "베벨 매끄럽게: 예 1"){width="1024px" zoomable="yes"}
+![베벨 매끄럽게: 예 1](bevel-smooth.resources/bevel-smooth-02.gif "베벨 매끄럽게: 예 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![베벨 매끄럽게: 예 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "베벨 매끄럽게: 예 8"){width="1024px" zoomable="yes"}
+![베벨 매끄럽게: 예 8](bevel-smooth.resources/bevel-smooth-03.jpg "베벨 매끄럽게: 예 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -105,11 +105,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel-smooth-04.jpg" alt="bevel_smooth_example_4_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel-smooth-05.jpg" alt="bevel_smooth_example_4_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -121,11 +121,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel-smooth-06.jpg" alt="bevel_smooth_example_2_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel-smooth-07.jpg" alt="bevel_smooth_example_2_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel-smooth-08.jpg" alt="bevel_smooth_example_3_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel-smooth-09.jpg" alt="bevel_smooth_example_3_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -158,11 +158,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel-smooth-10.jpg" alt="bevel_smooth_example_5_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel-smooth-11.jpg" alt="bevel_smooth_example_5_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -175,11 +175,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel-smooth-12.jpg" alt="bevel_smooth_example_7_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel-smooth-13.jpg" alt="bevel_smooth_example_7_after">
       <br><i>이후</i>
     </td>
   </tr>

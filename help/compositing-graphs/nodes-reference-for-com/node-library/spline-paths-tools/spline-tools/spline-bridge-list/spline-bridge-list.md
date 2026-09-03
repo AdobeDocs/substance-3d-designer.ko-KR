@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 브리지(목록)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-bridge-list.resources/spline-bridge-list-icon.png "노드 아이콘")
+![노드 아이콘](spline-bridge-list.resources/spline-bridge-list-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -80,8 +80,8 @@ ht-degree: 0%
 | <b>입력 스플라인이 닫혔습니다</b> <i>부울</i> | 입력 스플라인의 첫 번째와 마지막 포인트를 단일 포인트로 처리할지 여부를 제어합니다. 그러면 첫 번째와 마지막 통과 스플라인이 중복되지 않습니다. |
 | <b>방향 뒤집기</b> <i>부울</i> | 스플라인의 방향을 반전합니다. |
 | <b>Bridge 스플라인 닫기</b> <i>부울</i> | 통과 스플라인을 확장하여 입력 목록의 첫 번째 스플라인에 다시 연결합니다. |
-| <b>첫 번째 브리지 스플라인 오프셋</b> <i>Float2</i> | 횡단된 모든 스플라인의 시작 부분에 오프셋을 적용합니다. 값은 입력 스플라인의 정규화된 길이입니다.통과된 스플라인의 시작 또는 끝 부분을 만나는 생성된 스플라인은 <br>남아 있습니다. |
-| <b>마지막 브리지 스플라인 오프셋</b> <i>Float2</i> | 횡단된 모든 스플라인의 끝에 오프셋을 적용합니다. 값은 입력 스플라인의 정규화된 길이입니다.통과된 스플라인의 시작 또는 끝 부분을 만나는 생성된 스플라인은 <br>남아 있습니다. |
+| <b>첫 번째 브리지 스플라인 오프셋</b> <i>부동2</i> | 횡단된 모든 스플라인의 시작 부분에 오프셋을 적용합니다. 값은 입력 스플라인의 정규화된 길이입니다.통과된 스플라인의 시작 또는 끝 부분을 만나는 생성된 스플라인은 <br>남아 있습니다. |
+| <b>마지막 브리지 스플라인 오프셋</b> <i>부동2</i> | 횡단된 모든 스플라인의 끝에 오프셋을 적용합니다. 값은 입력 스플라인의 정규화된 길이입니다.통과된 스플라인의 시작 또는 끝 부분을 만나는 생성된 스플라인은 <br>남아 있습니다. |
 | <b>임의 오프셋 범위</b> <i>정수</i> | 스플라인에 적용된 임의 오프셋에 사용되는 최대 거리입니다.<br><br>- <i>부모 스플라인:</i> 부모 스플라인의 전체 길이가 사용됩니다. 겹칠 수 있습니다.<br>- <i>간격:</i> 브리지 스플라인 사이의 간격이 사용됩니다. 이 문제는 중복됩니다. 이 거리는 브리지 스플라인의 양이 증가함에 따라 감소합니다. |
 | <b>임의 오프셋 시작</b> <i>부동</i> | 브리지 스플라인의 시작 위치에 적용되는 임의 오프셋에 대한 승수입니다. 여기서 최대 거리는 <b>임의 오프셋 범위</b> 매개 변수로 지정됩니다. |
 | <b>임의 오프셋 종료</b> <i>부동</i> | 브리지 스플라인의 끝 위치에 적용되는 임의 오프셋에 대한 승수입니다. 여기서 최대 거리는 <b>임의 오프셋 범위</b> 매개 변수로 지정됩니다. |
@@ -113,11 +113,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "노드 예 2")
+![노드 예 2](spline-bridge-list.resources/spline-bridge-list-04.gif "노드 예 2")
 
 </td>
 </tr>
 </table>
 
-![그래프의 노드](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "그래프의 노드")
+![그래프의 노드](spline-bridge-list.resources/spline-bridge-list-05.jpg "그래프의 노드")

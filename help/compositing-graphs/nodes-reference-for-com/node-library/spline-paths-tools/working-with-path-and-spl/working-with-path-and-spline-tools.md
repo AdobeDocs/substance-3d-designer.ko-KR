@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 자유 곡선 도구 작업
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![패스 다각형 출력](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "패스 다각형 출력")
+![패스 다각형 출력](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "패스 다각형 출력")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![2D 보기의 스플라인 큐빅](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "2D 보기의 스플라인 큐빅")
+![2D 보기의 스플라인 큐빅](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "2D 보기의 스플라인 큐빅")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 이 두 가지 설정 중 하나를 권장 상태로 변경하면 성능이 크게 향상됩니다.
 
-![라이브러리의 경로 도구](working-with-path-and-spline-tools.resources/PathsTools.jpg "라이브러리의 경로 도구")
+![라이브러리의 경로 도구](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "라이브러리의 경로 도구")
 
 ## 경로 도구
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 또는 [패스에 마스크 적용](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 노드를 사용하여 회색 음영 이미지에서 패스를 추출할 수 있습니다.\
 이는 현재 복잡한 모양을 만드는 유일한 방법이며 [Substance 그래프 노드](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)의 전체 라이브러리를 활용하여 패스로 변환될 모양을 만들 수 있습니다.
 
-![경로 생성 노드](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "경로 생성 노드"){width="600px"}
+![경로 생성 노드](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "경로 생성 노드"){width="600px"}
 
 ### 패스 편집
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![미리 보기 경로 노드](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "미리 보기 경로 노드")
+![미리 보기 경로 노드](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "미리 보기 경로 노드")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 <b>마스크 > 패스에 마스크 > 스플라인에 패스</b>
 
-![스플라인 경로](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "스플라인 경로")
+![스플라인 경로](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "스플라인 경로")
 
 ### 경로 형식 사양
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 이 사양을 사용하여 이 형식을 사용하여 고유한 노드를 만들고 [패스 정점 프로세서](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 노드를 최대한 활용할 수 있습니다.
 
-![라이브러리의 자유 곡선 도구](working-with-path-and-spline-tools.resources/SplineTools.jpg "라이브러리의 자유 곡선 도구")
+![라이브러리의 자유 곡선 도구](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "라이브러리의 자유 곡선 도구")
 
 ## 자유 곡선 도구
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 이는 [스플라인 브리지(목록)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [스플라인 브리지 매퍼](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) 및 [스플라인 병합 목록](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)과 같이 스플라인을 함께 결합해야 하는 노드에 영향을 줍니다.
 
-![링크 만들기 모드로 스플라인 추가](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "링크 만들기 모드로 스플라인 추가")
+![링크 만들기 모드로 스플라인 추가](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "링크 만들기 모드로 스플라인 추가")
 
 ### 스플라인 입력 및 출력
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 노드에서 출력 미리 보기](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "스플라인 노드에서 출력 미리 보기")
+![스플라인 노드에서 출력 미리 보기](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "스플라인 노드에서 출력 미리 보기")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![선분으로 렌더링된 스플라인](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "선분으로 렌더링된 스플라인")
+![선분으로 렌더링된 스플라인](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "선분으로 렌더링된 스플라인")
 
 </td>
 </tr>

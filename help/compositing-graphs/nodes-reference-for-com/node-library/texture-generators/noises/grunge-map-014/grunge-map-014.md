@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 지도 014
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-014.resources/grungemap-014.png){width="128px"}
+![](grunge-map-014.resources/grunge-map-014-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -56,7 +56,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-014.resources/grungemap-014-ex.gif" />
+            <img src="grunge-map-014.resources/grunge-map-014-02.gif" />
         </td>
     </tr>
 </table>

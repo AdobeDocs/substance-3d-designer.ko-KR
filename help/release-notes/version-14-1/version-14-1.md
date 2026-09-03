@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 *출시일: 2025년 1월 14일*
 
-![스플라인에 스플라인 산란](version-14-1.resources/fond.png)
+![스플라인에 스플라인 산란](version-14-1.resources/version-14-1-01.png)
 
 ## 스플라인 및 패스 업데이트
 
@@ -34,12 +34,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 애니메이션의 산란 스플라인 1](version-14-1.resources/spline1.gif){zoomable="yes"}
+![스플라인 애니메이션의 산란 스플라인 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인의 산란 스플라인 2](version-14-1.resources/spline2.gif){zoomable="yes"}
+![스플라인의 산란 스플라인 2](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 깔끔하고 읽기 쉬운 그래프를 유지하는 데 열중하면 [노드 정렬 도구](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)가 만들어졌으며 완전히 개선되었습니다! 이제 노드를 수평 또는 수직으로 균일하게 배치할 수 있으며 노드를 정렬하면 노드를 깔끔하게 쌓아 겹치는 부분을 방지할 수 있습니다. Cherry on top: 두 기능 모두 노드의 실제 크기를 고려합니다!
 
-![노드 정렬](version-14-1.resources/alignment.gif){zoomable="yes"}
+![노드 정렬](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
 
 ## 파라미터 복사/붙여넣기
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 2D 보기의 새로운 [색상 Sampler 도구](../../interface/2d-view/color-sampler/color-sampler.md)를 사용하면 선택한 픽셀에 핀을 놓아 해당 픽셀의 값을 추적할 수 있습니다. 이 기능은 그래프에서 여러 노드에 걸쳐 동일한 픽셀의 정보를 항상 보고 있는지 확인하는 데 매우 유용합니다. 정보 패널을 열어 도구에 액세스하고 사용해 보십시오!
 
-![색상 샘플러: 도구 사용](version-14-1.resources/color-sampler-demo.gif "색상 샘플러: 도구 사용"){width="640px" zoomable="yes"}
+![색상 샘플러: 도구 사용](version-14-1.resources/version-14-1-05.gif "색상 샘플러: 도구 사용"){width="640px" zoomable="yes"}
 
 ## 검색 개선 사항
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 * Node Finder 툴을 활성화하면 검색 필드에 포커스가 자동으로 설정됩니다.
 * 도구 모음의 레이아웃이 공간을 절약하도록 다시 고려되었습니다.
 
-![검색 도구 모음](version-14-1.resources/search-53.png){width="640px"}
+![검색 도구 모음](version-14-1.resources/version-14-1-06.png){width="640px"}
 
 ## 비디오
 
@@ -78,12 +78,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![스플라인의 비디오 산란 스플라인](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![스플라인의 비디오 산란 스플라인](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![비디오 사용자 경험 기능](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![비디오 사용자 경험 기능](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

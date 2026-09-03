@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 매개변수 노출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 이 페이지에서는 노출을 시작하는 데 필요한 모든 개념을 설명합니다. 이 페이지에서 계속하기 전에 먼저 Graph 인스턴스의 정의[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 알아보는 것이 좋습니다. 또한 Publish과 내보내기의 차이점과 관련 파일 유형을 [파악하는 것이 좋습니다.](../../../getting-started/overview/overview.md)
 
-![단순화된 매개 변수 노출](exposing-a-parameter.resources/parameters-5.png "단순화된 매개 변수 노출")
+![단순화된 매개 변수 노출](exposing-a-parameter.resources/exposing-a-parameter-01.png "단순화된 매개 변수 노출")
 
 *\*위의 점선으로 된 투명한 선은 연결의 추상적 표현입니다.\
 노출한 매개 변수에서 그래프 매개 변수로.*
@@ -44,7 +44,7 @@ ht-degree: 0%
 +++
 
 +++노출이 유용한 이유는 무엇입니까?
-***매개 변수를 노출하는 것은 Substance 3D Designer이 단순한 텍스처 편집기를 넘어 사용자 정의 가능한 동적 텍스처 생성 도구를 만들 수 있게 하는 것입니다*** **.** 노출을 하지 않으면 Substance 재질이 정적 텍스처와 크게 다르지 않을 것입니다. 사용자는 출력을 수정할 방법이 없습니다.
+***매개 변수를 노출하는 것은 Substance 3D Designer이 단순한 텍스처 편집기를 넘어서 사용자 정의 가능한 동적 텍스처 생성 도구를 만들 수 있게 하는 것입니다*** **.** 노출을 하지 않으면 Substance 재질이 정적 텍스처와 크게 다르지 않게 되므로 출력을 수정할 필요가 없습니다.
 
 +++
 
@@ -62,18 +62,18 @@ ht-degree: 0%
 
 현재 매개 변수를 노출하는 두 가지 기본 메서드가 있습니다. 하나의 방법은 단일 파라미터를 신속하게 노출하는 데 더 적합하고, 두 번째 방법은 하나의 스윕에서 여러 파라미터를 노출하는 데 더 적합하다.
 
-![단일 노출 메서드 연습](exposing-a-parameter.resources/single-expose2.gif "단일 노출 메서드 연습"){width="512px"}
+![단일 노출 메서드 연습](exposing-a-parameter.resources/exposing-a-parameter-02.gif "단일 노출 메서드 연습"){width="512px"}
 
 ### 단일 노출 방법
 
 1. 특정 매개 변수 탭 아래의 [속성](../../../interface/properties/properties.md) 패널에서 표시할 매개 변수를 찾습니다.
-1. ![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png) 드롭다운 옵션 단추를 클릭합니다.
-1. 첫 번째 옵션인 드롭다운 목록에서 ![](exposing-a-parameter.resources/image2020-9-17-15-37-7.png) <b>새 그래프 입력으로 표시</b>를 선택합니다.
+1. ![](exposing-a-parameter.resources/exposing-a-parameter-03.png) 드롭다운 옵션 단추를 클릭합니다.
+1. 첫 번째 옵션인 드롭다운 목록에서 ![](exposing-a-parameter.resources/exposing-a-parameter-04.png) <b>새 그래프 입력으로 표시</b>를 선택합니다.
 1. <b>매개 변수 노출</b> 대화 상자가 나타나면 매개 변수 속성을 원하는 대로 설정합니다.
 
    적어도 <b>식별자</b> 및 <b>레이블</b>을 변경하는 것이 좋습니다.
 1. <b>확인</b>을 눌러 확인
-1. 매개 변수의 이름이 *파랑*&#x200B;이 되고 ![](exposing-a-parameter.resources/image2020-9-17-15-35-46.png)이(가) 됩니다.\
+1. 매개 변수의 이름이 *파랑*&#x200B;이 되고 ![](exposing-a-parameter.resources/exposing-a-parameter-05.png)이(가) 됩니다.\
    <b> 매개 변수 함수 편집</b> 단추가 드롭다운 옵션 옆에 표시되어 매개 변수가 표시되는지 확인합니다.
 
 >[!NOTE]
@@ -81,20 +81,20 @@ ht-degree: 0%
 > 대부분의 숫자 필드는 *기본 수식*&#x200B;을 입력으로 지원합니다(예: `17+3.5`, `7/3`, `(4+2)*3`). 수식을 확인하려면 *Enter*&#x200B;을(를) 누르면 결과가 필드에 입력됩니다. 공식이 유효하지 않으면 필드가 이전 값으로 되돌아갑니다.\
 > [속성](../../../interface/properties/properties.md) 도크와 같은 응용 프로그램의 다른 부분에 있는 일부 숫자 필드도 이 기능을 지원합니다.
 
-![일괄 노출 메서드 연습](exposing-a-parameter.resources/batch-expose-2.gif "일괄 노출 메서드 연습"){width="512px"}
+![일괄 노출 메서드 연습](exposing-a-parameter.resources/exposing-a-parameter-06.gif "일괄 노출 메서드 연습"){width="512px"}
 
 ### 일괄 노출 방법
 
 하나의 매개 변수를 노출할 때 이 방법은 이전보다 약간 느려집니다. 여러 매개 변수를 노출할 때는 훨씬 빠릅니다.
 
-1. 단일 매개 변수를 찾는 대신 <b>특정 매개 변수</b> 탭의 오른쪽 상단에서 ![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png) <b>다중 노출</b> 단추를 찾습니다.
+1. 단일 매개 변수를 찾는 대신 <b>특정 매개 변수</b> 탭의 오른쪽 상단에서 ![](exposing-a-parameter.resources/exposing-a-parameter-07.png) <b>다중 노출</b> 단추를 찾습니다.
 1. 드롭다운 메뉴에서 <b>일괄 노출 매개 변수...</b>을 선택합니다.
 1. 노드의 모든 <b>특정 매개 변수</b>를 표시할 수 있는 <b>일괄 노출</b> 대화 상자가 나타납니다
 1. <b>모두</b>, <b>없음</b> 또는 특정 확인란을 사용하여 표시할 매개 변수를 결정합니다.
 1. 목록의 <b>그래프 입력 식별자</b> 열 아래에 있는 매개 변수 이름을 클릭하여 이름을 변경합니다.
 1. 목록의 <b>그래프 입력 그룹</b> 열 아래에 있는 <b>그룹 이름</b>을 클릭하여 하나의 특정 매개 변수에 (하위) 그룹을 추가합니다.
 1. 아래쪽에 있는 <b>그래프 입력 식별자</b> 및 <b>그래프 입력 그룹</b> 입력 상자를 사용하여 표시된 모든 매개 변수에 접두사, 접미사 및 입력 그룹을 한 번에 추가합니다. 이러한 모든 값은 매개 변수별 설정의 맨 위에 적용됩니다.
-1. <b>확인</b>을 클릭하여 선택한 모든 매개 변수를 확인하고 표시합니다. 이제 매개 변수 이름에 *파랑*&#x200B;이 표시되어 매개 변수가 노출되었음을 확인할 수 있으며 ![](exposing-a-parameter.resources/image2020-9-17-15-35-46.png) <b>함수 편집</b> 단추가 표시됩니다.
+1. <b>확인</b>을 클릭하여 선택한 모든 매개 변수를 확인하고 표시합니다. 이제 매개 변수 이름에 *파랑*&#x200B;이 표시되어 매개 변수가 노출되었음을 확인할 수 있으며 ![](exposing-a-parameter.resources/exposing-a-parameter-05.png) <b>함수 편집</b> 단추가 표시됩니다.
 
 ## 제한 사항
 
@@ -115,9 +115,9 @@ ht-degree: 0%
 | 노드 | 매개변수 |
 | --- | --- |
 | 모든 노드 | 타일링 모드 픽셀 비율 |
-| [균일한 색상](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | 색상 모드 |
+| [균일 색상](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | 색상 모드 |
 | [픽셀 프로세서](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | 색상 모드 |
-| [혼합](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 혼합 모드 Alpha 혼합 자르기 영역 |
+| [혼합](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | 혼합 모드 알파 혼합 자르기 영역 |
 | [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | 혼합 모드 |
 | [사분면](../../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | 패턴 입력 이미지 알파 입력 이미지 필터링 |
 
@@ -127,19 +127,19 @@ ht-degree: 0%
 
 노출된 매개 변수의 옵션을 변경하려면 다음 작업을 수행하십시오.
 
-1. 이미 표시된 매개 변수 옆의 드롭다운 옵션 단추 ![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png)을(를) 클릭합니다.
-1. ![](exposing-a-parameter.resources/image2020-9-17-15-37-7.png)<b> 노출된 그래프 입력 편집</b>을(를) 선택합니다. 그러면 그래프 속성의 관련 항목으로 바로 이동합니다
+1. 이미 표시된 매개 변수 옆의 드롭다운 옵션 단추 ![](exposing-a-parameter.resources/exposing-a-parameter-03.png)을(를) 클릭합니다.
+1. ![](exposing-a-parameter.resources/exposing-a-parameter-04.png)<b> 노출된 그래프 입력 편집</b>을(를) 선택합니다. 그러면 그래프 속성의 관련 항목으로 바로 이동합니다
 1. 그래프의 빈 영역을 두 번 클릭하여 그래프 속성으로 이동한 다음 <b>입력 매개 변수</b> 목록에서 매개 변수를 찾습니다
 1. <b>탐색기</b>에서 그래프를 한 번 클릭한 다음 <b>입력 매개 변수</b> 목록에서 매개 변수를 찾습니다.
 
-![입력 매개 변수](exposing-a-parameter.resources/input-parameters-2.png "입력 매개 변수"){width="512px"}
+![입력 매개 변수](exposing-a-parameter.resources/exposing-a-parameter-08.png "입력 매개 변수"){width="512px"}
 
 ### 입력 매개 변수
 
 노출된 모든 매개변수가 입력 매개변수(Input Parameters) 탭에 나열됩니다. 다음 속성은 기본 편집기 유형의 부동 소수점 및 정수와 같은 대부분의 일반적인 경우에 사용할 수 있습니다.
 
-1. <b>식별자</b>: 이 매개 변수의 고유 식별자입니다. 공백 또는 특수 문자는 사용할 수 없습니다.
-1. <b>레이블</b>: UI 전용 레이블. 레이블이 정의되지 않은 경우 UI에 식별자가 표시됩니다. 공백 및 특수 문자를 포함할 수 있습니다.
+1. <b>식별자</b>: 이 매개 변수의 고유한 식별자. 공백 또는 특수 문자는 사용할 수 없습니다.
+1. <b>레이블</b>: UI 전용 레이블. 정의된 레이블이 없는 경우 식별자가 UI에 표시됩니다. 공백 및 특수 문자를 포함할 수 있습니다.
 1. <b>그룹</b>: 매개 변수의 긴 목록을 정리하고 관리할 수 있도록 매개 변수를 축소 가능한 섹션으로 그룹화합니다. 매개 변수는 *정확히 같은* 그룹 이름을 공유하는 경우 함께 그룹화됩니다. `/` 문자를 사용하여 *하위 그룹*&#x200B;을(를) 만듭니다(예: `My Group/My Sub-group`).
 1. <b>설명</b>: 설명을 위한 텍스트 필드이며 도구 설명으로 사용됩니다.
 1. <b>유형/편집기</b>: 데이터 유형과 UI 편집기 유형을 설정합니다. 특정 편집기는 특정 데이터 형식(예: Integer에 대해서만 드롭다운 목록)에만 사용할 수 있습니다. *편집기를 변경하면 대부분 기본값이 지워집니다.*
@@ -151,7 +151,7 @@ ht-degree: 0%
 1. <b>사용자 데이터: </b>사용자 지정 사용자 데이터로, 어떤 목적으로든 사용할 수 있습니다.
 1. <b>보이는 경우</b>: 외부 조건에 따라 매개 변수를 표시하거나 숨기는 특수 식 시스템입니다. [다음 경우 표시: 입력, 출력 및 매개 변수의 표시 여부 제어](../../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md) 참조
 
-![정수 매개 변수의 드롭다운 목록 편집기](exposing-a-parameter.resources/dropdown.gif "정수 매개 변수의 드롭다운 목록 편집기"){width="512px"}
+![정수 매개 변수의 드롭다운 목록 편집기](exposing-a-parameter.resources/exposing-a-parameter-09.gif "정수 매개 변수의 드롭다운 목록 편집기"){width="512px"}
 
 #### 드롭다운 목록
 
@@ -163,13 +163,13 @@ ht-degree: 0%
 * 세 번째 확인란을 사용하면 한 항목을 기본적으로 선택된 항목으로 표시할 수 있습니다.
 * X가 항목을 삭제하고 +가 항목을 추가합니다.
 
-![입력 매개 변수 순서 변경](exposing-a-parameter.resources/reorder-2.gif "입력 매개 변수 순서 변경"){width="512px"}
+![입력 매개 변수 순서 변경](exposing-a-parameter.resources/exposing-a-parameter-10.gif "입력 매개 변수 순서 변경"){width="512px"}
 
 #### 재주문
 
 어두운 스트라이프 핸들을 목록에서 입력 매개 변수 이름 왼쪽으로 드래그하여 놓으면 매개 변수 순서를 손쉽게 변경할 수 있습니다. 그룹화 매개 변수는 순서에 영향을 줄 수 있습니다.
 
-![입력 매개 변수 미리 보기](exposing-a-parameter.resources/parameter-preview-2.gif "입력 매개 변수 미리 보기"){width="512px"}
+![입력 매개 변수 미리 보기](exposing-a-parameter.resources/exposing-a-parameter-11.gif "입력 매개 변수 미리 보기"){width="512px"}
 
 ### 매개 변수 미리 보기
 
@@ -187,15 +187,15 @@ ht-degree: 0%
 >
 > 미리 보기 모드는 [게시된 Substance 3D 에셋(SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)의 경험을 가능한 한 정확하게 나타내는 것을 목표로 합니다. 따라서 *정적 매개 변수가 목록에 없는 경우*&#x200B;와 같이 이 페이지에 나열된 제한 사항이 이 모드에 적용됩니다.
 
-![입력 매개 변수 복사 및 붙여넣기](exposing-a-parameter.resources/copy-paste-params-2.gif "입력 매개 변수 복사 및 붙여넣기"){width="512px"}
+![입력 매개 변수 복사 및 붙여넣기](exposing-a-parameter.resources/exposing-a-parameter-12.gif "입력 매개 변수 복사 및 붙여넣기"){width="512px"}
 
 ### 매개변수 복사-붙여넣기
 
 그래프 간에 매개변수를 복사하여 붙여넣을 수 있습니다.
 
-복사 단추 ![](exposing-a-parameter.resources/image2019-9-19-11-3-49.png)을(를) 사용하여 단일 매개 변수를 복사할 수 있습니다. 매개 변수 메뉴 ![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png)을(를) 통해 여러 매개 변수를 복사할 수 있습니다. 모든 입력을 복사하려면 입력 복사 를 선택합니다.
+복사 단추 ![](exposing-a-parameter.resources/exposing-a-parameter-13.png)을(를) 사용하여 단일 매개 변수를 복사할 수 있습니다. 매개 변수 메뉴 ![](exposing-a-parameter.resources/exposing-a-parameter-07.png)을(를) 통해 여러 매개 변수를 복사할 수 있습니다. 모든 입력을 복사하려면 입력 복사 를 선택합니다.
 
-매개 변수 메뉴 ![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png)에서 입력 ![](exposing-a-parameter.resources/image2020-9-17-16-43-15.png) 붙여넣기를 선택하여 하나 이상의 매개 변수를 붙여넣습니다.
+매개 변수 메뉴 ![](exposing-a-parameter.resources/exposing-a-parameter-07.png)에서 입력 ![](exposing-a-parameter.resources/exposing-a-parameter-14.png) 붙여넣기를 선택하여 하나 이상의 매개 변수를 붙여넣습니다.
 
 실제 노출된 매개 변수 자체가 아닌 값을 전송하려는 경우 [매개 변수 사전 설정에 대해 읽어보십시오.](../../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
@@ -203,29 +203,29 @@ ht-degree: 0%
 
 매개 변수의 특성상, 입력 매개 변수에서 여러 노드를 제어할 수 있거나, 입력 매개 변수가 노드를 제어하지 않고 존재할 수 있는 경우, 누락된 매개 변수 또는 사용되지 않은 매개 변수에 문제가 발생할 수 있습니다. 다음은 일반적인 문제 및 해결 방법에 대해 설명합니다.
 
-![노드 매개 변수에 대한 오류](exposing-a-parameter.resources/parameter-error.gif "노드 매개 변수에 대한 오류"){width="512px"}
+![노드 매개 변수에 대한 오류](exposing-a-parameter.resources/exposing-a-parameter-15.gif "노드 매개 변수에 대한 오류"){width="512px"}
 
 ### 노드에서 끊어진 매개변수 추적
 
-그래프 보기의 위쪽 막대에 있는 노드 찾기 도구 ![](exposing-a-parameter.resources/image2019-9-19-14-15-53.png)을(를) 통해 각 노드에서 사용하는 매개 변수를 추적할 수 있습니다. 이 버튼을 클릭하면 특정 매개변수를 사용하여 노드를 찾을 수 있습니다.
+그래프 보기의 위쪽 막대에 있는 노드 찾기 도구 ![](exposing-a-parameter.resources/exposing-a-parameter-16.png)을(를) 통해 각 노드에서 사용하는 매개 변수를 추적할 수 있습니다. 이 버튼을 클릭하면 특정 매개변수를 사용하여 노드를 찾을 수 있습니다.
 
-노드에 실제 문제가 있는 경우 왼쪽 상단 모서리에 경고 배지 ![](exposing-a-parameter.resources/image2019-9-19-14-23-54.png)이(가) 표시됩니다. 배지 위로 마우스를 가져가면 추가 정보가 있는 도구 설명이 표시됩니다.
+노드에 실제 문제가 있는 경우 왼쪽 상단 모서리에 경고 배지 ![](exposing-a-parameter.resources/exposing-a-parameter-17.png)이(가) 표시됩니다. 배지 위로 마우스를 가져가면 추가 정보가 있는 도구 설명이 표시됩니다.
 
-문제를 재설정하고 제거하려면 수정하거나 재설정하려는 매개 변수에 대해 [함수 편집] 단추 옆에 있는 드롭다운 단추 ![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png)을(를) 클릭하고 ![](exposing-a-parameter.resources/image2020-9-17-16-56-18.png) <b>재설정을 선택합니다. </b>매개 변수를 이전에 표시되지 않은 상태로 되돌립니다. 그러면 파란색 이름이 회색으로 다시 바뀌어 이를 반영합니다.
+문제를 재설정하고 제거하려면 수정하거나 재설정하려는 매개 변수에 대해 [함수 편집] 단추 옆에 있는 드롭다운 단추 ![](exposing-a-parameter.resources/exposing-a-parameter-03.png)을(를) 클릭하고 ![](exposing-a-parameter.resources/exposing-a-parameter-18.png) <b>재설정을 선택합니다. </b>매개 변수를 이전에 표시되지 않은 상태로 되돌립니다. 그러면 파란색 이름이 회색으로 다시 바뀌어 이를 반영합니다.
 
-![사용하지 않는 입력 매개 변수 정리](exposing-a-parameter.resources/clean-inputs-2.gif "사용하지 않는 입력 매개 변수 정리"){width="512px"}
+![사용하지 않는 입력 매개 변수 정리](exposing-a-parameter.resources/exposing-a-parameter-19.gif "사용하지 않는 입력 매개 변수 정리"){width="512px"}
 
 ### 사용하지 않는 입력 매개 변수 정리
 
-입력 매개 변수의 트랙이 손실되고 어떤 매개 변수가 사용되는지 더 이상 알 수 없는 경우 작은 도구를 사용하여 정리할 수 있습니다. 입력 매개 변수 메뉴 단추 ![](exposing-a-parameter.resources/image2020-9-17-15-39-7.png)을(를) 클릭하고 <b>입력 정리</b>를 선택합니다.
+입력 매개 변수의 트랙이 손실되고 어떤 매개 변수가 사용되는지 더 이상 알 수 없는 경우 작은 도구를 사용하여 정리할 수 있습니다. 입력 매개 변수 메뉴 단추 ![](exposing-a-parameter.resources/exposing-a-parameter-07.png)을(를) 클릭하고 <b>입력 정리</b>를 선택합니다.
 
 사용하지 않은 모든 매개 변수를 나열하는 새 대화 상자가 나타납니다. 제거하거나 유지하려는 매개 변수를 선택하거나 선택 해제하고 [확인]을 클릭합니다. 대화 상자가 표시되지 않으면 현재 정리할 사용하지 않은 매개 변수가 없습니다.
 
-![매개 변수 제거](exposing-a-parameter.resources/delete-param-2.gif "매개 변수 제거"){width="512px"}
+![매개 변수 제거](exposing-a-parameter.resources/exposing-a-parameter-20.gif "매개 변수 제거"){width="512px"}
 
 ### 매개 변수 제거
 
 사용 중인 매개 변수를 실제로 제거하려면 두 가지 개별 단계가 필요합니다.
 
-1. 표시된 매개 변수가 있는 노드에서 함수 표시 단추의 오른쪽에 있는 드롭다운 화살표를 클릭하십시오. 이 단추는 파란색으로 표시됩니다. ![](exposing-a-parameter.resources/image2019-9-19-14-55-55.png). 그런 다음 &quot;기본값으로 재설정&quot;을 선택합니다. 이렇게 하면 이 한 노드에서 매개 변수 사용이 제거됩니다. 동일한 매개변수를 사용하는 다른 노드에 대해서도 반복합니다. &quot;기본값으로 재설정&quot;을 사용하면 매개 변수 위젯의 범위도 *소프트 범위*(으)로 재설정됩니다.
+1. 표시된 매개 변수가 있는 노드에서 함수 표시 단추의 오른쪽에 있는 드롭다운 화살표를 클릭하십시오. 이 단추는 파란색으로 표시됩니다. ![](exposing-a-parameter.resources/exposing-a-parameter-21.png). 그런 다음 &quot;기본값으로 재설정&quot;을 선택합니다. 이렇게 하면 이 한 노드에서 매개 변수 사용이 제거됩니다. 동일한 매개변수를 사용하는 다른 노드에 대해서도 반복합니다. &quot;기본값으로 재설정&quot;을 사용하면 매개 변수 위젯의 범위도 *소프트 범위*(으)로 재설정됩니다.
 1. 그래프의 입력 매개변수(Input Parameters) 목록에서 매개변수 항목 오른쪽의 X 를 클릭합니다. 그러면 매개변수가 완전히 삭제됩니다. 노드가 이 매개 변수를 사용하려고 하면 경고 배지가 나타납니다(위 참조).

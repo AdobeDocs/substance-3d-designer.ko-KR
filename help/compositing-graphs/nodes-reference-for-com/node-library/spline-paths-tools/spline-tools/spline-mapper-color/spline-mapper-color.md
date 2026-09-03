@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 매퍼 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-mapper-color.resources/spline-mapper-color-icon.png "노드 아이콘")
+![노드 아이콘](spline-mapper-color.resources/spline-mapper-color-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -112,11 +112,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/spline-mapper-color-02.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/spline-mapper-color-03.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "노드 예 2")
+![노드 예 2](spline-mapper-color.resources/spline-mapper-color-04.gif "노드 예 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "노드 예 3")
+![노드 예 3](spline-mapper-color.resources/spline-mapper-color-05.jpg "노드 예 3")
 
 </td>
 <td style="border: 0;" valign="top">

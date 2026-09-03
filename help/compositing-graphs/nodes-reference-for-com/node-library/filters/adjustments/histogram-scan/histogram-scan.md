@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
-description: 히스토그램 스캔 노드를 사용하면 텍스처 히스토그램을 스캔하고 분석하여 색상 교정 및 조정을 수행할 수 있습니다.
+description: '[막대 그래프 스캔] 노드를 사용하여 색상 교정 및 조정을 위한 텍스처 막대 그래프를 스캔하고 분석할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 막대 그래프 스캔
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-scan.resources/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -56,13 +56,13 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan.gif" />
+            <img src="histogram-scan.resources/histogram-scan-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan2.gif" />
+            <img src="histogram-scan.resources/histogram-scan-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan3.gif" />
+            <img src="histogram-scan.resources/histogram-scan-04.gif" />
         </td>
     </tr>
 </table>

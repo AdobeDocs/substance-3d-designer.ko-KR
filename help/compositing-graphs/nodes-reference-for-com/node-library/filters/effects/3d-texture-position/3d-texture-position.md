@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 텍스처 위치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -46,10 +46,10 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
         </td>
     </tr>
 </table>

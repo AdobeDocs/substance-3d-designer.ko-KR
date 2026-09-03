@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 함수 만들기 및 편집
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## 함수 만들기
 
-함수를 만들려면 함수 아이콘 ![](create-and-edit-a-function.resources/image2017-3-7-17-10-8.png)을(를) 클릭하고 &quot;**빈 함수**&quot;을(를) 선택하면 됩니다.
+함수를 만들려면 함수 아이콘 ![](create-and-edit-a-function.resources/create-and-edit-a-function-01.png)을(를) 클릭하고 &quot;**빈 함수**&quot;을(를) 선택하면 됩니다.
 
-![](create-and-edit-a-function.resources/image2017-3-7-17-8-37.png)
+![](create-and-edit-a-function.resources/create-and-edit-a-function-02.png)
 
 ## 함수 편집
 
 함수를 만든 후에는 함수 아이콘을 다시 클릭하거나 드롭다운 목록에서 편집을 선택하여 수정할 수 있습니다.
 
-![](create-and-edit-a-function.resources/image2017-3-7-17-11-42.png)
+![](create-and-edit-a-function.resources/create-and-edit-a-function-03.png)
 
 그런 다음 그래프의 함수 모드로 들어갑니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 그래프를 마우스 오른쪽 단추로 클릭하고 &quot;요소 추가&quot;를 선택하거나 스페이스바를 눌러 노드를 만들 수 있습니다.
 
-![](create-and-edit-a-function.resources/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](create-and-edit-a-function.resources/create-and-edit-a-function-04.png){width="600px"}
 
 ## 출력 설정
 

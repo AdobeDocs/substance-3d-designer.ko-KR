@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/home.html"
 breadcrumb-title: ''
-description: Substance 3D Designer을 사용하여 노드 기반의 워크플로로 프로시저 재질, 텍스처 및 3D 에셋을 제작하는 방법에 대해 알아봅니다.
+description: Substance 3D Designer을 사용하여 절차 재질, 텍스처, 3D 에셋을 노드 기반 워크플로우로 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
 helpx_description: Designer > User guide
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer 사용 안내서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,9 +20,9 @@ ht-degree: 89%
 
 # Substance 3D Designer 사용 안내서
 
-![Substance 3D Designer 주 창](home.resources/sdsummerinterface.jpg "Substance 3D Designer 주 창")
+![Substance 3D Designer 주 창](home.resources/home-01.jpg "Substance 3D Designer 주 창")
 
-[Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)는 재질 제작 소프트웨어입니다. 이 기능을 사용하면 노드 그래프를 사용하여 프로시저 패턴 및 노이즈에서 텍스처를 생성하고 비트맵을 조작할 수 있습니다.
+[Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)는 재질 제작 소프트웨어입니다. 이 기능을 사용하면 노드 그래프를 사용하여 절차 패턴 및 노이즈에서 텍스처를 생성하고 비트맵을 조작할 수 있습니다.
 
 Designer에서 사용되는 단어나 개념이 익숙하지 않습니까? [용어집](../glossary/glossary.md)으로 이동하여 알아보세요.
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height 맵 주파수 매퍼
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper.png){width="128px"}
+![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper-01.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -52,7 +52,7 @@ Heightmap의 주파수를 두 개의 별도 맵으로 나눕니다. 한 맵에�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="height-map-frequencies-mapper.resources/heightmap-frequencies.png" />
+            <img src="height-map-frequencies-mapper.resources/height-map-frequencies-mapper-02.png" />
         </td>
     </tr>
 </table>

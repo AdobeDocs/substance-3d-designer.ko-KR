@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 다각형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](paths-polygon.resources/paths-polygon-icon.png "노드 아이콘")
+![노드 아이콘](paths-polygon.resources/paths-polygon-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -63,12 +63,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "노드 예 1")
+![노드 예 1](paths-polygon.resources/paths-polygon-02.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "노드 예 2")
+![노드 예 2](paths-polygon.resources/paths-polygon-03.jpg "노드 예 2")
 
 </td>
 </tr>

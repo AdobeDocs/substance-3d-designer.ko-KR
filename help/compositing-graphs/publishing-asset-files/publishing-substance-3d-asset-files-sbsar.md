@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D 자산 파일(SBSAR) 게시
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 일반적으로 비트맵 대신 Substance 3D 에셋을 사용하는 것이 좋습니다. 보다 유연하고 용량이 적기 때문입니다. Substance 3D [Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/ko/docs/substance-3d-sampler/using/home) 또는 [플레이어](https://helpx.adobe.com/substance-3d-player/home.html)에서 사용하는 경우 [&#39;보내기...&#39; 기능](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)을 사용하는 것이 더 빠릅니다.
 
-![SBSAR 파일 단순화](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "SBSAR 파일 단순화")
+![SBSAR 파일 단순화](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "SBSAR 파일 단순화")
 
 ## 개념 게시
 
@@ -55,14 +55,14 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-탐색기에서 패키지를 마우스 오른쪽 단추로 클릭하고 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **Publish .sbsar 파일...**, 대체 핫키 Ctrl+P를 선택합니다.
+탐색기에서 패키지를 마우스 오른쪽 단추로 클릭하고 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Publish .sbsar 파일...**, 대체 핫키 Ctrl+P를 선택합니다.
 
-대화 상자로 한 번 게시한 후 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar 파일을 이전 버전으로**&#x200B;을 사용하여 대화 상자를 보지 않고 게시 프로세스를 반복하고 동일한 설정으로 즉시 게시할 수도 있습니다.
+대화 상자로 한 번 게시한 후 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) **Publish .sbsar 파일을 이전 버전으로**&#x200B;을 사용하여 대화 상자를 보지 않고 게시 프로세스를 반복하고 동일한 설정으로 즉시 게시할 수도 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-탐색기의 상단 도구 모음에서 Publish 단추 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png)을(를) 클릭합니다.
+탐색기의 상단 도구 모음에서 Publish 단추 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png)을(를) 클릭합니다.
 
-대화 상자를 사용하여 게시한 후 Publish을 이전 버튼으로 사용 ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png)하여 대화 상자를 보지 않고 게시 프로세스를 반복할 수 있으며, 동일한 설정으로 즉시 게시할 수 있습니다.
+대화 상자를 사용하여 게시한 후 Publish을 이전 버튼으로 사용 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png)하여 대화 상자를 보지 않고 게시 프로세스를 반복할 수 있으며, 동일한 설정으로 즉시 게시할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 </td>
 <td style="border: 0;" valign="top">
 
-![에셋 게시 옵션](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "에셋 게시 옵션")
+![에셋 게시 옵션](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "에셋 게시 옵션")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ Substance 그래프를 게시할 때는 다음 사항에 유의하는 것이 좋
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
 
 </td>
 </tr>

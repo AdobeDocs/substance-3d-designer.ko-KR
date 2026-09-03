@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 변수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Substance 3D Designer에는 Numerics와 Booleans라는 두 가지 변수 패밀�
 >
 > Designer은 정수와 부동 소수점 사이를 명확하게 구분합니다. 기본적으로 이러한 정수 및 부동 소수점 사이를 함께 사용할 수는 없습니다.
 > 
-> *To Integer* 또는 To Float 노드를 사용하여 형식 변환을 수행할 수 있습니다.
+> *정수* 또는 부동 노드를 사용하여 형식 변환을 수행할 수 있습니다.
 
 ### 동일한 변수의 여러 숫자 값
 
@@ -61,7 +61,7 @@ Substance 3D Designer에는 Numerics와 Booleans라는 두 가지 변수 패밀�
 
 이렇게 하려면 다음 모든 숫자 값 중에서 선택할 수 있습니다.
 
-![](variables.resources/image2015-12-18-14-10-36.png)
+![](variables.resources/variables-01.png)
 
 ## 부울
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스마트 자동 타일
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](smart-auto-tile.resources/smart-auto-tile.png){width="128px"}
+![](smart-auto-tile.resources/smart-auto-tile-01.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 설명
 
-이 노드는 입력의 스마트 분석에 따라 Basecolor, Normal 및 Heightmaps의 비 타일링 세트를 타일링 버전으로 바꿉니다. [Make It Tile Photo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)과(와) 유사하지만, 모든 채널의 정보를 사용하여 가장 스마트하게 모든 것을 혼합하기 때문에 훨씬 더 향상되었습니다([복제 패치](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)와 유사한 기능). 또한 타일링 시 사용할 영역을 결정하는 내부 [자르기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) 기능이 있습니다. 이 기능을 제대로 이해하려면 [자르기 노드에 대해 자세히 읽기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)를 확인하세요.
+이 노드는 입력의 스마트 분석에 따라 Basecolor, Normal 및 Heightmaps의 비 타일링 세트를 타일링 버전으로 바꿉니다. [바둑판식 사진 만들기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)와 비슷하지만, 모든 채널의 정보를 사용하여 가장 스마트하게 모든 것을 혼합하기 때문에 훨씬 더 향상되었습니다([복제 패치](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)와 유사). 또한 타일링 시 사용할 영역을 결정하는 내부 [자르기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) 기능이 있습니다. 이 기능을 제대로 이해하려면 [자르기 노드에 대해 자세히 읽기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)를 확인하세요.
 
 이 노드를 사용하려면 먼저 자른 영역을 정의한 다음 가장자리 설정을 사용하여 타일 가장자리가 중앙에 혼합되는 방법을 결정합니다. 이 작업에 Treshold 매개 변수가 매우 중요합니다! 크고 균일한 영역은 이 효과와 잘 맞지 않는다는 점을 명심하십시오. 세부 사항 및 모양이 많을수록 더 많이 사용해야 합니다.
 

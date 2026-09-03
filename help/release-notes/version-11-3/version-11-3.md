@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ### 새로운 모델 그래프 기능
 
-![](version-11-3.resources/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 모델링 기능을 확장하기 위해 모델 그래프에 많은 개선 사항이 추가되었습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 1%
   * 입자 정리
   * 인스턴스의 입자
 
-  ![](version-11-3.resources/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>새 모델링 및 변형 노드</b>\
   더 복잡한 모양을 만들기 위해 새로운 노드가 더 추가되었습니다. 각 노드를 클릭하여 자세한 내용을 살펴보십시오.
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ### 상호 운용성 향상
 
-![](version-11-3.resources/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 다음과 같은 두 가지 새로운 가능성으로 Send-O 작업이 확장되었습니다.
 
@@ -71,24 +71,24 @@ ht-degree: 1%
 
 ### 기타
 
-![](version-11-3.resources/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 다양한 삶의 질 개선이 이루어졌습니다.
 
 * **입력 관련 입력**\
   이제 [입력 기준]에 설정된 그래프 입력은 기본적으로 상위 그래프 크기에 연결되지 않고 연결된 노드 크기를 상속합니다. 따라서 서로 다른 크기의 입력을 통해 서로 다른 해상도를 보다 쉽게 관리할 수 있습니다.
 
-  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **새 그래프 창**\
   새 그래프 창이 재구성되어 이제 특정 템플릿의 세부 사항을 더 잘 보고 기존 패키지에 새 그래프를 직접 만들 수 있습니다.
 
-  ![](version-11-3.resources/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **모든 패키지 닫기**\
   탐색기에서 많은 패키지를 관리하는 데 있어 번거로움을 줄여주는 작은 작업입니다. 현재 열려 있는 모든 패키지를 닫으려면 **파일** > **모두 닫기**&#x200B;를 사용하십시오.
 
-  ![](version-11-3.resources/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **현재 보기 최대화**\
   새 제목 표시줄 **아이콘** 또는 바로 가기 **SHIFT+스페이스바**&#x200B;를 사용하여 창을 전체 화면으로 확장합니다. 이는 부동 창에서도 사용할 수 있습니다.
@@ -98,16 +98,16 @@ ht-degree: 1%
 
 ### 콘텐츠
 
-![](version-11-3.resources/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 이 릴리스에서는 새 확산 노드를 추가하고 PBR 렌더링 노드를 개선합니다.
 
 * <b>확산 노드</b>\
   새로운 [확산 색상], [확산 회색 음영] 및 [확산] UV 노드를 사용하면 입력 마스크를 기반으로 부드러운 혼합 흐림 효과를 만들 수 있습니다.
 
-  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **개선된 PBR 렌더링 노드**\
   이 노드에는 다음과 같은 변경 사항이 있습니다.

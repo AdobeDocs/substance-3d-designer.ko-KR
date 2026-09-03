@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패키지 메타데이터
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ Python 플러그인을 개발하는 경우 테스트 및 디버깅을 위해 메
 
 1. 탐색기에서 패키지를 두 번 클릭하면 이 패키지의 속성 패널이 열립니다.
 
-   ![패키지 메타데이터](package-metadata.resources/empty.png "패키지 메타데이터")
+   ![패키지 메타데이터](package-metadata.resources/package-metadata-01.png "패키지 메타데이터")
 1. 전용 섹션인 &quot;메타데이터&quot;가 있습니다. 위의 캡처와 같이 사용자의 경우 비어 있을 수 있습니다.
 
    &quot;더하기&quot; 단추를 사용하여 새 메타데이터를 추가할 수 있습니다.
 
-   ![메타데이터 추가 단추](package-metadata.resources/hoveradd.png "메타데이터 추가 단추")
+   ![메타데이터 추가 단추](package-metadata.resources/package-metadata-02.png "메타데이터 추가 단추")
 1. 새 항목이 섹션에 나타납니다.
 
-   ![새 메타데이터](package-metadata.resources/newitem-1.png "새 메타데이터")
+   ![새 메타데이터](package-metadata.resources/package-metadata-03.png "새 메타데이터")
 1. &quot;키&quot; 필드와 &quot;값&quot; 필드가 있습니다. 둘 다 필요에 맞는 설정으로 설정할 수 있습니다. &quot;키&quot; 필드는 목록 전체에서 고유한 값을 가져야 합니다.
 
-   ![새 메타데이터 값](package-metadata.resources/newitemfilled.png "새 메타데이터 값")
+   ![새 메타데이터 값](package-metadata.resources/package-metadata-04.png "새 메타데이터 값")
 1. 항목의 &quot;유형&quot;을 선택할 수도 있습니다. 현재 &quot;String&quot; 또는 &quot;URL&quot;일 수 있습니다.
 
-   ![메타데이터 형식 변경](package-metadata.resources/typecombo.png "메타데이터 형식 변경")
+   ![메타데이터 형식 변경](package-metadata.resources/package-metadata-05.png "메타데이터 형식 변경")
 1. 여기서 &#39;URL&#39;은 패키지에 포함된 리소스에 대한 참조를 의미합니다. 이렇게 하려면 하드 드라이브에서 파일을 선택하고 탐색기의 패키지에 끌어다 놓습니다. 이미지와 같은 일반 리소스이거나 텍스트 파일과 같은 다른 파일일 수 있습니다.
 
-   ![패키지의 일반 리소스](package-metadata.resources/resourceinpackage.png "패키지의 일반 리소스")
+   ![패키지의 일반 리소스](package-metadata.resources/package-metadata-06.png "패키지의 일반 리소스")
 1. 파일이 패키지에 새 리소스로 표시됩니다.
 
    이제 패키지 속성 패널로 돌아가서 새 메타데이터를 만들고 적절한 키를 지정한 다음 유형으로 &quot;URL&quot;을 선택합니다. 그런 다음 &quot;...&quot; 아이콘을 선택합니다. &quot;값&quot; 필드에 있는 단추를 클릭하고 &quot;자원에서&quot;를 선택합니다. 마지막으로, 방금 전에 포함시킨 파일을 선택하고 다음을 확인합니다.
 
-   ![URL 메타데이터](package-metadata.resources/urlmetadata.gif "URL 메타데이터")
+   ![URL 메타데이터](package-metadata.resources/package-metadata-07.gif "URL 메타데이터")
 1. 이제 &quot;값&quot; 필드에 리소스의 &quot;URL&quot;이 저장되어 있는지 확인할 수 있습니다.
 
    항목 오른쪽의 &quot;X&quot; 버튼을 사용하여 메타데이터를 삭제할 수도 있습니다.
 
-   ![메타데이터 삭제](package-metadata.resources/hoverdelete.png "메타데이터 삭제")
+   ![메타데이터 삭제](package-metadata.resources/package-metadata-08.png "메타데이터 삭제")
 
 >[!NOTE]
 >

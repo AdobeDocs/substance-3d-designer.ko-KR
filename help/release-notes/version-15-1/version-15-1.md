@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 *출시일: 2025년 12월 11일*
 
-![배너 Designer 15.1](version-15-1.resources/bannerweb.png)
+![배너 Designer 15.1](version-15-1.resources/version-15-1-01.png)
 
 ## 그래프 생성 개선
 
@@ -36,13 +36,13 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 [자세히 알아보기](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![새 그래프 창 다시 구성](version-15-1.resources/newgraph.png){zoomable="yes"}
+![새 그래프 창 다시 구성](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
 
 ## 포함된 샘플
 
 새롭게 디자인된 그래프 만들기 창을 시작으로 다양한 [<b>샘플 재질</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)이 소프트웨어 내에 직접 추가되었습니다. 학습 리소스에 대한 액세스 권한 개선 요청에 대한 응답입니다.
 
-![샘플에 대한 새 그래프 만들기 창](version-15-1.resources/GraphSample.png){zoomable="yes"}
+![샘플에 대한 새 그래프 만들기 창](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
 
 이러한 요구를 충족하기 위해 직물(가죽 및 새틴 포함), 목재, 금속, 플라스틱, 세라믹 등과 같은 재료 샘플을 포함했습니다. 이러한 예는 프로젝트를 간편하게 시작하고 Substance 3D Designer에서 사용할 수 있는 기본 패밀리 노드를 익히는 데 도움이 되도록 고안되었습니다
 
@@ -54,7 +54,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 [자세히 알아보기](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![substance designer의 나무 샘플](version-15-1.resources/samplegraph.png){zoomable="yes"}
+![substance designer의 나무 샘플](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
 
 ## 새로운 노이즈
 
@@ -70,7 +70,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 예: [셀 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md) [구름 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [방향 스크래치](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [습기 노이즈 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![방향 장애 노이즈](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
+![방향 장애 노이즈](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
 
 ## 노드 메뉴의 계층
 
@@ -82,12 +82,12 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![범주 &#x200B;](version-15-1.resources/search1-2.png){zoomable="yes"}을(를) 사용하여 노드 검색
+![범주 &#x200B;](version-15-1.resources/version-15-1-06.png){zoomable="yes"}을(를) 사용하여 노드 검색
 
 </td>
 <td style="border: 0;" valign="top">
 
-![범주 2](version-15-1.resources/search2.png){zoomable="yes"}의 노드 검색
+![범주 2](version-15-1.resources/version-15-1-07.png){zoomable="yes"}의 노드 검색
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 ## 기본 출력
 
-노드에 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)이 여러 개 있으면 2D 보기나 노드 축소판으로 동시에 모든 출력을 표시할 수 없습니다. 이러한 시나리오에서는 첫 번째 연결된 핀을 활용하거나, 연결된 핀이 없는 경우 첫 번째 출력을 기본적으로 사용하는 것이 좋습니다.
+노드에 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)이 여러 개 있는 경우 2D 보기에 또는 노드 축소판으로 동시에 모두 표시할 수 없습니다. 이러한 시나리오에서는 첫 번째 연결된 핀을 활용하거나, 연결되지 않은 경우 기본적으로 첫 번째 출력을 활용하는 것이 좋습니다.
 
 그러나 이러한 접근 방식이 항상 최적의 결과를 낳는 것은 아닐 수 있다. 예를 들어, 일부 스플라인 노드에서 첫 번째 연결된 핀은 종종 스플라인 좌표 데이터를 나타내는데, 이 데이터는 미리 보기 목적으로는 적합하지 않습니다.
 
@@ -108,11 +108,11 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 <table>
   <tr>
     <td>
-      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="version-15-1.resources/defaultouput1.png" alt="기본 출력의 축소판은 항상 관련이 있습니다.">
+      <img src="version-15-1.resources/version-15-1-09.png" alt="기본 출력의 축소판은 항상 관련이 있습니다.">
       <br><i>이후</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 
 [자세히 알아보기](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![정의된 노드](version-15-1.resources/isdefined.png){zoomable="yes"}
+![정의된 노드](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
 
 ## 릴리스 정보
 
@@ -182,7 +182,7 @@ Substance Designer 15.1은 직접 샘플 액세스, 더 큰 창의적 가능성�
 * [베이커] UDIM: 베이킹할 UV 타일 목록을 정의합니다.
 * [베이커] bake sdk를 3.15.4로 업데이트합니다.
 * [3D 보기/SceneBrowser] 마우스 오른쪽 버튼을 클릭할 때 UsdPrimitive를 선택하지 마세요.
-* [ColorManagement] ACES 2.0 지원
+* [ColorManagement] ACE 2.0 지원
 * [합성 그래프] 출력 노드를 &quot;기본 출력&quot;으로 설정할 수 있습니다.
 * [밥솥] 함수 인스턴스의 연결되지 않은 입력에 대한 경고를 제거합니다†
 * [함수] Add isDefined 연산자

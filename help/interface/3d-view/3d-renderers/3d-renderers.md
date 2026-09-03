@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 렌더러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 패스트레이서</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -84,7 +84,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **샘플** 부동 | 이미지가 수렴된 것으로 간주되기 전에 계산할 픽셀의 샘플 수를 지정합니다. |
-| **앰비언트 오클루전 불투명도** 부동 | 앰비언트 오클루전 불투명도의 값을 지정합니다. |
+| **주변 오클루전 불투명도** 부동 | 앰비언트 오클루전 불투명도의 값을 지정합니다. |
 | **변위 사용** 부울 | 변위를 활성화할지 여부를 지정합니다. |
 | **변위 임계값** 부동 | GPU 테슬레이션을 활성화/비활성화하는 임계값을 설정합니다. |
 | **백페이스 컬링 사용** 부울 | 값이 참이면 카메라에서 멀리 향하는 법선이 있는 삼각형 메쉬를 컬링할 수 있습니다. 값이 false이면 백페이스 컬링이 비활성화됩니다. |
@@ -95,7 +95,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 | **래스터라이저 순서 독립 투명도 사용** 부울 | 투명 서피스를 렌더링할 때 해당 서피스의 순서를 고려하지 않습니다. 따라서 투명 표면을 더 빠르게 렌더링할 수 있어 어느 정도 정확도가 떨어집니다. |
 | **래스터라이저 SSS 사용** 부울 | 서브서피스 분산 효과를 전환합니다. |
 | **래스터라이저 SSS 샘플 수** 정수 | 서브서피스 산란을 렌더링하기 위해 픽셀당 얼마나 많은 샘플을 가져올지 지정합니다. |
-| **래스터라이저 누적 앤티앨리어싱 사용** 부울 | 각 픽셀의 로컬 평균 색상을 누적 계산하여 지터링 렌더링을 수행하고 계산하여 렌더링된 이미지의 Smoothness 또는 가장자리를 개선하는 누적 앤티앨리어싱을 토글합니다. 즉, 평균을 계산하기 위해 값을 누적합니다. |
+| **래스터라이저 누적 앤티 앨리어스 사용** 부울 | 각 픽셀의 로컬 평균 색상을 누적하여 렌더링 및 계산하여 렌더링된 이미지의 Smoothness 또는 가장자리를 개선하는 누적 앤티 앨리어스를 전환합니다. 즉, 평균을 계산하기 위해 값을 누적합니다. |
 | **래스터라이저 복셀 그리드 해상도** 정수 | 래스터라이저를 행진하는 복셀에 사용되는 복셀 그리드의 해상도를 지정합니다.   값이 높을수록 성능이 저하되면서도 더 정확한 그림자를 얻을 수 있습니다. |
 | **래스터라이저 IBL 런타임 샘플 수** 정수 | 기법이 `runtimeSampled`(으)로 설정된 경우 IBL에서 Specular 반사를 계산하는 데 사용되는 샘플 수를 지정합니다. |
 
@@ -111,7 +111,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 +++
 
-![래스터라이저 - 예 1](3d-renderers.resources/3dRendererRasterizer.jpg "래스터라이저 - 예 1"){zoomable="yes"}
+![래스터라이저 - 예 1](3d-renderers.resources/3d-renderers-04.jpg "래스터라이저 - 예 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -127,7 +127,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 | **백페이스 컬링 사용** 부울 | 값이 참이면 카메라에서 멀리 향하는 법선이 있는 삼각형 메쉬를 컬링할 수 있습니다. 값이 false이면 백페이스 컬링이 비활성화됩니다. |
 | **픽셀 순환 유형** 정수 | 대화형 렌더링을 위해 계산 해상도를 낮추는 데 사용할 기법을 지정합니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>순환 안 함:</i> 픽셀 순환을 사용하지 않고 각 전체 픽셀 샘플을 계산합니다.</li> <li data-preserve-html="true"><i>장치 최적 상태:</i> 렌더링에 사용된 장치를 기준으로 이상적인 픽셀 사이클링 해상도를 선택합니다.</li> <li data-preserve-html="true"><i>4x4:</i> 순환 패스당 1/16번째 픽셀을 샘플링합니다.</li> <li data-preserve-html="true"><i>8x8:</i> 주기당 1/64번째 픽셀을 샘플링합니다.</li><li data-preserve-html="true"><i>파랑 노이즈:</i> 객관적인 프레임 속도를 목표로 여러 픽셀을 적응적으로 샘플링하고 분할합니다.</li> </ul> |
 | **진단 모드** 정수 | 렌더링할 진단 모드를 지정합니다. |
-| **전송을 통해 배경 보기** 부울 | 트루 값은 투과 또는 굴절 개체를 통해 배경 이미지를 볼 수 있게 합니다.   이것이 거짓인 경우, 투과 객체들은 장면 환경의 굴절된 이미지를 보여줄 것이다. |
+| **전송을 통해 배경 보기** 부울 | 참값을 사용하면 투과 또는 굴절 개체를 통해 배경 이미지를 볼 수 있습니다.   이것이 거짓인 경우, 투과 오브젝트들은 장면 환경의 굴절된 이미지를 보여줄 것이다. |
 
 +++
 
@@ -145,7 +145,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 +++
 
-![GPU 경로 추적기 - 예 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
+![GPU 경로 추적기 - 예 1](3d-renderers.resources/3d-renderers-05.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -272,9 +272,9 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++
 
-+++ Specular 광택도
++++ Specular 광택
 
-Specular 광택도 모델에 대한 표준 PBR 자료. 확산, Specular 및 광택도 채널을 사용합니다.
+Specular 광택 모델을 위한 표준 PBR 재질입니다. [확산], [Specular] 및 [광택] 채널을 사용합니다.
 
 Height 시각화 방법에는 두 가지가 있습니다.
 
@@ -286,7 +286,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++ 밝지 않음
 
-조명을 표시하지 않고 텍스처 맵을 시각화하려면 디버그 셰이더를 비웁니다. &#39;color&#39; 채널만 사용합니다.
+조명 없는 텍스처 맵을 시각화하기 위한 비조명 디버그 셰이더. &#39;color&#39; 채널만 사용합니다.
 
 +++
 
@@ -296,4 +296,4 @@ Designer에서는 OpenGL 렌더러 [GLSLFX 파일 사용](../../../interface/3d-
 > 
 > 이 렌더러는 **사용되지 않음**&#x200B;입니다. 새 기능을 받지 않으며 이후 버전의 Designer에서 중단됩니다.
 
-![OpenGL - 예 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - 예 1"){zoomable="yes"}
+![OpenGL - 예 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - 예 1"){zoomable="yes"}

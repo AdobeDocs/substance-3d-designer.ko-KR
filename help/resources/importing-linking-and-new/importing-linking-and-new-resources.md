@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 가져오기, 연결, 새 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 2%
@@ -69,4 +69,4 @@ Designer에서 동시에 작업하는 동안 외부 편집기를 사용하여 �
 > 이러한 항목에 주의하고 *깨진 종속성을 예상*&#x200B;하는 데 필요한 작업을 수행하는 것이 좋습니다. 이는 패키지에서 항목을 삭제했을 때 발생할 수 있습니다.\
 > 이러한 작업에는 삭제 전에 이러한 리소스의 *모든 사용을 제거*&#x200B;하는 작업이 포함될 수 있습니다.
 
-![&#39;사용 중인 삭제된 리소스&#39; 경고](importing-linking-and-new-resources.resources/confirm-item-removal.png "&#39;사용 중인 삭제된 리소스&#39; 경고"){width="512px"}
+![&#39;사용 중인 삭제된 리소스&#39; 경고](importing-linking-and-new-resources.resources/importing-linking-and-new-resources-01.png "&#39;사용 중인 삭제된 리소스&#39; 경고"){width="512px"}

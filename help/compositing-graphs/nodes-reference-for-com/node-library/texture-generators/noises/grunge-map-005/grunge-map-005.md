@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-005.html"
 breadcrumb-title: ''
-description: '[그런지 맵 005] 노드를 사용하여 표면 세부 사항과 변경 사항을 재질에 추가하기 위한 프로시저 그런지를 만듭니다.'
+description: 그런지 맵 005 노드를 사용하여 표면에 디테일과 변형을 추가하기 위한 절차적 그런지 텍스처를 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 005
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 지도 005
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-map-005.resources/grungemap-005.png){width="128px"}
+![](grunge-map-005.resources/grunge-map-005-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-map-005.resources/grungemap-005-ex.gif" />
+            <img src="grunge-map-005.resources/grunge-map-005-02.gif" />
         </td>
     </tr>
 </table>

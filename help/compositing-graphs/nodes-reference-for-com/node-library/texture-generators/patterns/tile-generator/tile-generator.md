@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
-description: Tile Generator 노드를 사용하여 사용자 정의 가능한 크기, 오프셋 및 변형 컨트롤로 구성된 절차 타일 패턴을 만들 수 있습니다.
+description: Tile Generator 노드를 사용하여 사용자 정의 가능한 크기, 오프셋 및 변형 컨트롤로 프로시저 타일 패턴을 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Tile Generator
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-generator.resources/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -118,16 +118,16 @@ Tile Generator은 라이브러리에서 가장 진보된 노드 중 하나입니
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/tilesampler-ex.png" />
+            <img src="tile-generator.resources/tile-generator-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/image2020-9-17-14-50-18.png" />
+            <img src="tile-generator.resources/tile-generator-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/image2020-9-17-14-52-4.png" />
+            <img src="tile-generator.resources/tile-generator-04.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="tile-generator.resources/image2020-9-17-14-53-47.png" />
+            <img src="tile-generator.resources/tile-generator-05.png" />
         </td>
     </tr>
 </table>

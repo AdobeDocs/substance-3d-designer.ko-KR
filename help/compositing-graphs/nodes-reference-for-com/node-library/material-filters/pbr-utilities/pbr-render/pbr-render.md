@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render-01.png){width="250px"}
 
 <b>내부:</b> 재질 필터 > PBR 유틸리티
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 | <b>렌즈 Dirt 맵</b> <i>회색 음영 입력</i> | 렌즈 플레어 시 나타나는 렌즈에서의 Dirt에 대한 사용자 정의 맵 |
 | <b>렌즈 조리개 맵</b> <i>회색 음영 입력</i> | 초점이 맞지 않는 보케 모양을 재정의하는 데 사용할 수 있습니다. 대비가 많을수록 더 잘 보입니다. 텍스처 안의 원만 샘플링되므로 모든 모양이 원 안에 맞아야 한다는 점을 명심하십시오. |
 | <b>배경 입력</b> <i>색상 입력</i> | <b>배경 모드</b> 매개 변수를 <i>배경 입력</i>(으)로 설정한 경우 사용자 지정 맵이 배경으로 사용됩니다. |
-| <b>환경 맵</b> <i>색상 입력</i> | 조명을 계산하는 데 사용되는 환경 맵입니다. 구형으로 매핑되고 HDR에 있어야 합니다. |
+| <b>환경 맵</b> <i>색상 입력</i> | 조명을 계산하는 데 사용되는 환경 맵입니다. 구형 매핑 및 HDR이어야 합니다. |
 
 <a name="outputs"></a>
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 | <b>원시 조도</b> | 최종 렌더링<br><br><i>Alpha:</i> 불투명도 맵의 조도 데이터 |
 | <b>원시 Specular</b> | 최종 렌더링<br><br><i>Alpha:</i> Specular 그림자 맵의 Specular 데이터 |
 | <b>일반 월드 공간</b> | 최종 렌더링<br><br><i>Alpha:</i> 세계 공간 높이 맵의 세계 공간 표준 데이터 |
-| <b>일반 접선 공간</b> | 최종 렌더링<br><br><i>Alpha:</i> 접선 공간 높이 맵의 접선 공간 표준 데이터 |
+| <b>수직 탄젠트 공간</b> | 최종 렌더링<br><br><i>Alpha:</i> 접선 공간 높이 맵의 접선 공간 표준 데이터 |
 | <b>UV</b> | 최종 렌더링<br><br><i>Alpha:</i> 불투명도 맵의 UV 데이터 |
 
 <a name="parameters"></a>
@@ -114,11 +114,11 @@ ht-degree: 6%
 | <b>조리개 링</b> <i>0.0 - 1.0</i> | 보케 모양에 내부 그레이디언트를 추가합니다. |
 | <b>조리개 분수</b> <i>0.0 - 2.0</i> | 보크에 색수차를 추가합니다. |
 | <b>소용돌이치는 보케</b> <i>0.0 - 1.0</i> | 초점이 맞지 않는 보케 흐림 영역에 소용돌이 또는 회전하는 효과 유형을 추가합니다. |
-| <b>초점 모드</b> <i>자동, 지점</i> | 포커스가 미리 결정되거나 사용자 세트인지 설정합니다. 점 초점 을 사용하면 2D 보기 내에서 점을 이동하여 초점 거리를 결정할 수 있습니다. |
-| <b>초점</b> | 포커스가 포인트로 설정되어 있으면 해당 포인트를 이동할 수 있습니다. 2D 보기 기즈모가 있습니다. |
+| <b>초점 모드</b> <i>자동, 지점</i> | 포커스가 미리 결정되거나 사용자 세트인지 설정합니다. 점 초점 을 사용하면 2D 뷰에서 점을 이동하여 초점 거리를 확인할 수 있습니다. |
+| <b>초점</b> | 포커스가 포인트로 설정되어 있으면 해당 포인트를 이동할 수 있습니다. 2D 보기 gizmo가 있습니다. |
 | <b>초점 오프셋</b> <i>-0.5 - 0.5</i> | 포커스가 [자동]으로 설정되어 있으면 포커스를 앞뒤로 이동할 수 있습니다. |
 | <b>사용자 지정 조리개 맵 사용</b> <i>거짓/참</i> | 위의 조리개 설정을 재정의하고 조리개 맵 입력을 사용하여 보케 모양을 결정합니다. 입력이 필요합니다. |
-| <b>Post Effects</b> |  |
+| <b>포스트 효과</b> |  |
 | <b>포스트 효과 사용</b> <i>거짓/참</i> | 최종 렌더링에서 <i>모두</i> 후 효과를 전환합니다. |
 | <b>개화 강도</b> <i>0.0 - 2.0</i> | 흐림 효과의 강도를 설정합니다. |
 | <b>개화 임계값</b> <i>0.0 - 2.0</i> | 꽃이 나타나도록 낮은 임계값을 설정합니다. |
@@ -160,30 +160,30 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/pbr-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/pbr-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-05.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/pbr-render-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/pbr-render-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/pbr-render-09.jpg" />
         </td>
     </tr>
 </table>

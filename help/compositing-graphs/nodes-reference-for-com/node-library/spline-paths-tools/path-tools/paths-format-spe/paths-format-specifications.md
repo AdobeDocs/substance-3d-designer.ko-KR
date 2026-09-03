@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 형식 사양
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -32,14 +32,14 @@ ht-degree: 0%
 
 패스 문서는 각각 <b>32비트 부동 소수점 색상 텍스처</b>로 인코딩된 세그먼트 목록을 설명하는 패스 목록입니다.
 
-텍스처가 &#39;위&#39;(*$pos.y &lt; 0.5*) 부분과 &#39;아래&#39;(*$pos.y > 0.5*) 부분으로 분할됩니다.
+텍스처는 &#39;위&#39;(*$pos.y &lt; 0.5*) 부분과 &#39;아래&#39;(*$pos.y > 0.5*) 부분으로 분할됩니다.
 
 &#39;위&#39; 부분의 픽셀에 있는 모든 데이터는 의미상 &#39;아래&#39; 부분의 일치하는 픽셀과 밀접하게 관련되며, 그 반대의 경우도 마찬가지입니다.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![패스 다각형 인코딩 데이터](paths-format-specifications.resources/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
+![패스 다각형 인코딩 데이터](paths-format-specifications.resources/paths-format-specifications-01.jpg "패스 다각형 인코딩 데이터")
 
 </td>
 </tr>
@@ -58,7 +58,7 @@ ht-degree: 0%
 * <b>top[uv\_pos].XYZW</b>은(는) 위쪽 부분의 픽셀에 저장된 4개의 부동 소수점을 가리킵니다.\
   top[uv\_pos] == sample\_color(paths, uv\_pos)
 * <b>bottom[uv\_pos].XYZW</b>은(는) 아래 부분의 일치하는 픽셀에 저장된 4개의 부동 소수점을 가리킵니다.\
-  bottom[uv\_pos] == sample\_color(paths, uv\_pos + Float2(0, 0.5))
+  bottom[uv\_pos] == sample\_color(paths, uv\_pos + 부동2(0, 0.5))
 
 top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서의 의미 단위 U[uv\_pos]를 형성하고 있습니다.
 
@@ -77,7 +77,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 이 문서의 픽셀 크기입니다(예: 정확히 `Float2(1,1) / $size`).
 
-이 기능은 출력 크기가 다른 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에서 패스를 읽을 때 유용합니다.
+이는 출력 크기가 다른 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에서 패스를 읽을 때 유용합니다.
 
 <b>폭</b>
 
@@ -94,7 +94,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 <b>ZW</b>
 
-사용되지 않음, 부동2(0, 1)여야 함
+사용되지 않음. Float2(0, 1)여야 함
 
 +++
 
@@ -261,19 +261,19 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 +++
 
 +++sample_next, sample_prev
-최상위 부분 샘플링 값 `*sampled*` 및 해당 위치 `*sampled\_position*`이(가) 주어지면 다음(각각 이전) 정점 최상위 부분 샘플링 값을 반환하고 Float2 변수 `*next\_sampled\_pos*`을(를) 이 인접 영역의 위치(즉, &lt;returned value> = SampleColor(next\_sampled\_pos, image0))로 설정합니다. `*input0PixSize*`은(는) 패스의 픽셀 크기(top[(0,0)].YZ)와 같아야 합니다.
+최상위 부분 샘플링 값 `*sampled*` 및 해당 위치 `*sampled\_position*`이(가) 주어지면 다음(각각 이전) 정점 최상위 부분 샘플링 값을 반환하고, 부동2 변수 `*next\_sampled\_pos*`을(를) 이 인접 영역의 위치(즉, &lt;returned value> = SampleColor(next\_sampled\_pos, image0))로 설정합니다. `*input0PixSize*`은(는) 패스의 픽셀 크기(top[(0,0)].YZ)와 같아야 합니다.
 
 현재 픽셀(`*sampled*`)이 <b>시작</b> 정점이면 *샘플\_이전*&#x200B;은(는) 이 정점의 다음 동위 멤버를 반환합니다. 마찬가지로, <b>끝</b> 정점이면 *샘플\_다음*&#x200B;은(는) 이 정점의 다음 동위 멤버를 반환합니다(즉, 원하지 않는). 이 문제를 해결하려면 아래 `*sample\_next\_advanced*` 및 `*sample\_prev\_advanced*`을(를) 참조하십시오.
 
 <b>경로 정보는 단순하게 input0!</b>에 저장되어 있습니다. 또한 함수의 문서에서 설명하는 것과 달리 `*next\_sampled\_pos*`을(를) 미리 선언할 필요가 없습니다. `*[out]next\_sampled\_pos*`은(는) 이 두 번째 &quot;반환 값&quot;이 있음을 알리는 더미 매개 변수입니다.
 
-세 번째 반복 노드의 Iterations 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다. 사용 방법에 대한 예시.
+세 번째 반복 노드의 반복 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다(예: 사용 방법).
 
-![sample_next의 최소 사용 사례](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
+![sample_next의 최소 사용 사례](paths-format-specifications.resources/paths-format-specifications-02.png "sample_next의 최소 사용 사례")
 
 
 
-![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
+![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](paths-format-specifications.resources/paths-format-specifications-03.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
 
 
 
@@ -288,7 +288,7 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 `Write` 폴더 아래에서 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>을(를) 사용하여 <b>쓸 수 있는 Float4를 빌드하는 작은 도우미를 찾을 수 있습니다.
 
-실제로 [Fx-맵](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)은 그리기 전에 RGB에 Alpha을 곱하므로 이를 보정하기 위해 실제 값은 미리 곱해지지 않습니다. 예를 들어 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)에서 이러한 함수를 사용하려면, 사전 곱셈을 다시 적용하거나 사용자 지정 버전을 작성하는 것이 좋습니다(사용 사례에 더 최적화되어 사용하기 쉬움).
+실제로 [Fx-맵](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)은 그리기 전에 RGB에 Alpha을 곱하므로 이를 보정하기 위해 실제 값은 미리 곱해지지 않습니다. 예를 들어 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)에서 이러한 함수를 사용하려는 경우, 사전 곱셈을 다시 적용하거나 사용자 지정 버전(사용 사례에 더 최적화되어 사용하기 쉬움)을 작성하는 것이 좋습니다.
 
 +++document_header
 문서 헤더의 윗부분을 빌드하여 제공하는 경로 수를 선언합니다.
@@ -312,13 +312,13 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
 
-경로 헤더나 정점에 대한 하위 파트 작성기는 없습니다. 둘 다 상위 파트에 대한 두 링크를 인코딩하므로 이 함수는 기본적으로 두 Float2의 Vector Float4 생성자입니다. [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 사용하여 작성하는 경우 XYZ를 W로 나누는 것을 잊지 마십시오(W는 주소의 Y이므로 반드시 null이어야 함).
+경로 헤더나 정점에 대한 하위 구성 요소는 없습니다. 둘 다 상위 부분에 대한 두 링크를 인코딩하므로 이 함수는 기본적으로 두 부동2의 벡터 부동 소수점4 생성자가 됩니다. [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 사용하여 작성하는 경우 XYZ를 W로 나누는 것을 잊지 마십시오(W는 주소의 Y이므로 반드시 null이어야 함).
 
 [패스 다각형](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) 노드를 호스팅하는 <b>*패스\_다각형.sbs* </b> 패키지에서 이러한 함수를 사용하는 방법에 대한 적절한 예를 확인할 수 있습니다.
 
 ### 경로 처리 방법
 
-픽셀 프로세서 또는 Fx-Map을 사용하여 다음과 같은 장점과 단점이 있는 사용자 정의 처리를 구현할 수 있습니다.
+픽셀 프로세서 또는 Fx-Map을 사용하여 각각의 장점과 단점이 있는 맞춤형 처리를 구현할 수 있습니다.
 
 +++FX-Map
 일반적으로 전체 패스(또는 패스)에 대한 전역 지식이 필요한 고급 작업 또는 누적 패스(예: 데시메이션 또는 테셀레이션 후 정점을 다시 패킹)를 수행할 때는 [Fx-맵](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 기반 솔루션을 사용하는 것이 좋습니다. 또한 가장 쉽게 접근할 수 있으므로 처음으로 사용자 지정 처리를 하는 경우 Fx-Map을 사용할 수 있습니다. *속도가 느려질 수 있습니다*.
@@ -330,11 +330,11 @@ Fx-Map을 사용하여 경로를 읽고 쓰는 방법에 대한 아이디어를 
 +++
 
 +++픽셀 프로세서
-&quot;로컬&quot; 정보만 필요한 경우 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 솔루션이 적합합니다. 여기서 우리는 공간(요소 사이의 거리)이 아니라 위상적(함께 연결된 정점들)인 &quot;국지적&quot;을 의미한다. 이 방법은 Vertex Processor의 구현 방법입니다. 픽셀 프로세서는 제한된 양의 데이터만 액세스하는 동시에 각 픽셀의 기능이 병렬로 평가되기 때문에 일반적으로 이러한 작업을 위해 Fx-Map보다 빠릅니다. 현재 픽셀만 수정할 수 있으므로 구현 노력이 훨씬 더 중요할 수 있습니다.
+&quot;로컬&quot; 정보만 필요한 경우 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 솔루션이 적합합니다. 여기서 우리는 공간(요소 사이의 거리)이 아니라 위상적(함께 연결된 정점들)인 &quot;국지적&quot;을 의미한다. 이 방법은 Vertex Processor의 구현 방법입니다. 픽셀 프로세서는 각 픽셀의 기능이 병렬적으로 평가되는 반면 제한된 양의 데이터만 접근하기 때문에 이런 종류의 연산은 대개 Fx-Map보다 빠르다. 현재 픽셀만 수정할 수 있으므로 구현 노력이 훨씬 더 중요할 수 있습니다.
 
 구체적인 사용 사례에 따라 할 말이 너무 많기 때문에 자세히 알아보지는 않겠지만, 가장 먼저 해야 할 일은 여러분이 어디에 있는지 확인하는 것입니다.
 
-상단($pos.y &lt; 0.5) 또는 하단($pos.y > 0.5) 부분에 있습니까? 전용 변수(예: `*isTop*`)에서 `*vert.addr*` 부동2를 만들 때 해당 값은 위쪽 부분은 `*$pos*`이고 아래쪽 부분은 `$pos - (0,0.5)`임을 기억하는 것이 좋습니다.
+상단($pos.y &lt; 0.5) 또는 하단($pos.y > 0.5) 부분에 있습니까? 전용 변수(예: `*isTop*`)에서 `*vert.addr*` Float2를 만들 때 이 값은 위쪽 부분은 `*$pos*`이고 아래쪽 부분은 `$pos - (0,0.5)`임을 기억하는 것이 좋습니다.
 
 *vert.addr*&#x200B;에는 어떤 항목이 있습니까? 샘플을 채취하여 (W != 0)이 있는지 확인한 다음, 있다면 정확히 무엇인지 확인합니다. 헤더(W = 0.0625)(`*Read/is\_header*` 확인) 또는 정점(`Read/is\_vertex` 확인) 중 어느 것입니까? 헤더라면 문서 헤더일까요, 패스 헤더일까요? `*Read/current\_pixel\_is\_document\_header*`을(를) 사용하여 확인할 수 있습니다. 하나 또는 여러 개의 도우미 함수를 사용하여 관심 있는 내용을 일치시킵니다.
 

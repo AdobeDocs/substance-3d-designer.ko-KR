@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 출력 크기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> ![](output-size.resources/props-output-size-lock.jpg) 잠금 단추를 사용하여 Height 값이 너비 값과 *일치*&#x200B;하도록 합니다.
+> ![](output-size.resources/output-size-01.jpg) 잠금 단추를 사용하여 Height 값이 너비 값과 *일치*&#x200B;하도록 합니다.
 
 <table>
 <tr style="border: 0;">
@@ -98,7 +98,7 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 해당 항목을 클릭하여 노드 또는 그래프의 속성을 표시한 다음 [속성](../../interface/properties/properties.md) 패널에서 <b>기본 매개 변수</b> 섹션의 <b>출력 크기</b> 속성을 찾습니다. 상속 방법 드롭다운 메뉴를 클릭하고 원하는 상속 방법을 선택합니다.
 
-![출력 크기 상속 메서드](output-size.resources/change-mode.gif "출력 크기 상속 메서드"){width="512px"}
+![출력 크기 상속 메서드](output-size.resources/output-size-02.gif "출력 크기 상속 메서드"){width="512px"}
 
 ## 예제 문제
 
@@ -107,7 +107,7 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 +++문제 1
 **![(오류)](output-size.resources/error.svg) 문제**
 
-![문제 예 1](output-size.resources/problem2-bad.png "문제 예 1")
+![문제 예 1](output-size.resources/output-size-03.png "문제 예 1")
 
 
 
@@ -117,7 +117,7 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 **![(틱)](output-size.resources/check.svg) 솔루션**
 
-![문제 1 해결 방법 예시](output-size.resources/problem2-good.png "문제 1 해결 방법 예시")
+![문제 1 해결 방법 예시](output-size.resources/output-size-04.png "문제 1 해결 방법 예시")
 
 
 
@@ -128,17 +128,17 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 +++문제 2
 **![(오류)](output-size.resources/error.svg) 문제**
 
-![문제 예 2](output-size.resources/problem1-bad.png "문제 예 2")
+![문제 예 2](output-size.resources/output-size-05.png "문제 예 2")
 
 
 
-위의 경우 그래프가 *부모를 기준으로*&#x200B;로 설정되었음에도 불구하고 그래프의 출력으로 부모(1024\*1024)에 설정된 해상도와 다른 해상도(512\*512)가 발생하는 경우가 표시됩니다.
+위에 있는 경우 그래프가 *부모 대비*로 설정되었음에도 불구하고 그래프 출력이 부모(1024\*1024)에 설정된 해상도와 다른 해상도(512\* 512)를 초래하는 경우를 볼 수 있습니다.
 
 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드에서 문제가 발생했습니다. 기본적으로 *Absolute* 상속 메서드가 사용되며 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md)을 기반으로 512\*512가 해상도로 선택되었습니다. 연결된 노드는 *입력 관련*(으)로 설정되어 있으므로 비트맵 노드에서 출력 크기를 상속합니다.
 
 **![(틱)](output-size.resources/check.svg) 솔루션**
 
-![문제 2 해결 방법 예시](output-size.resources/problem1-good.png "문제 2 해결 방법 예시")
+![문제 2 해결 방법 예시](output-size.resources/output-size-06.png "문제 2 해결 방법 예시")
 
 
 
@@ -149,17 +149,17 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 +++문제 3
 **![(오류)](output-size.resources/error.svg) 문제**
 
-![문제 예 3](output-size.resources/problem3-bad.png "문제 예 3")
+![문제 예 3](output-size.resources/output-size-07.png "문제 예 3")
 
 
 
 위에서 해상도가 체인의 중간에서 훨씬 더 높게 이동하여 마스터에 의해 정의된 것보다 훨씬 더 높은 출력 해상도를 얻는 문제가 표시됩니다.
 
-이 문제는 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드에서 상대 수정자 3으로 인해 발생하여 출력이 8배 큽니다.
+이 문제는 [2D 변환](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드에서 상대 수정자 3으로 인해 발생하여 출력이 8배 큽니다.
 
 **![(틱)](output-size.resources/check.svg) 솔루션**
 
-![문제 3 해결 방법 예시](output-size.resources/problem3-good.png "문제 3 해결 방법 예시")
+![문제 3 해결 방법 예시](output-size.resources/output-size-08.png "문제 3 해결 방법 예시")
 
 
 

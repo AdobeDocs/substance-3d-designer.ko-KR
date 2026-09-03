@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
@@ -30,49 +30,49 @@ ht-degree: 1%
 
 그래프를 편집할 때는 여러 가지 가능성을 시험해 보고, 원하는 결과를 얻는 순간까지 다양한 노드를 플러그/플러그를 뽑아야 합니다. 그런 다음 그래프에 출력에 연결되지 않은 노드가 일부 있으므로 최종 결과에는 영향을 미치지 않습니다. 이 새로운 도구를 사용하면 그래프를 마무리하기 전에 이러한 노드를 자동으로 감지하고 삭제할 수 있습니다. 클리닝 툴은 매개 변수 기능도 선택적으로 검색하며, 그래프 보기 툴바의 전용 버튼을 통해 현재 그래프에서 실행하거나 탐색기 보기에서 선택한 그래프에서 실행할 수 있습니다.
 
-![](version-12-4.resources/final-clean.gif){width="640px"}
+![](version-12-4.resources/version-12-4-01.gif){width="640px"}
 
 ### 매개 변수 필드에 수식 입력
 
 특정 매개 변수 값을 입력하려는 경우 더 이상 계산기를 사용하거나 머릿속에서 계산할 필요가 없습니다. 이제 등록 정보 및 응용 프로그램의 다른 위치에서 매개 변수의 숫자 값을 설정할 때 추가, 구분, 복제 또는 빼기와 같은 기본 공식을 직접 입력할 수 있습니다.
 
-![](version-12-4.resources/final-formula.gif){width="640px"}
+![](version-12-4.resources/version-12-4-02.gif){width="640px"}
 
 ### 3D 보기의 빠른 액세스 단추
 
 [표시](../../interface/3d-view/3d-view.md) 메뉴에서 사용할 수 있는 모든 옵션(예: 와이어프레임, 격자, 테두리 상자 등)에 빠르게 액세스할 수 있도록 [3D 보기](../../interface/3d-view/3d-view.md)에 해당 추가 도구 모음을 추가했습니다 버튼을 켜거나 끌 수 있습니다. 또한 환경 맵을 표시하거나 숨기기 위한 토글을 추가했습니다.
 
-![](version-12-4.resources/final-3dview.gif){width="640px"}
+![](version-12-4.resources/version-12-4-03.gif){width="640px"}
 
 ### 임의화 생성을 위한 버튼
 
 이제 슬라이더를 이동하는 대신 새 버튼을 사용하여 그래프에 대한 임의 시드를 생성함으로써 다양한 변형을 빠르게 만들 수 있습니다.
 
-![](version-12-4.resources/final-seed.gif){width="640px"}
+![](version-12-4.resources/version-12-4-04.gif){width="640px"}
 
 ### 출력 크기 위젯에 대한 잠금
 
 이제 출력 크기의 폭과 Height을 잠가 두 값을 업데이트할 때마다 정확하게 조작하지 않고 정사각형 크기를 유지할 수 있습니다.
 
-![](version-12-4.resources/final-lock.gif){width="640px"}
+![](version-12-4.resources/version-12-4-05.gif){width="640px"}
 
 ### 이미지 입력을 색상/회색 음영으로 변환
 
 노드 컨텍스트 메뉴를 통해 [입력 색상](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)과 [입력 회색 음영](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 사이를 빠르게 전환합니다.
 
-![](version-12-4.resources/final-switch.gif){width="640px"}
+![](version-12-4.resources/version-12-4-06.gif){width="640px"}
 
 ### 그레이디언트 편집기를 표시할 때 클릭한 핀 선택
 
 속성 패널에서 핀을 클릭하여 그레이디언트를 편집하면 이제 표시된 [그레이디언트 편집기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)에서 해당 핀이 자동으로 선택됩니다.
 
-![](version-12-4.resources/final-gradient.gif){width="640px"}
+![](version-12-4.resources/version-12-4-07.gif){width="640px"}
 
 ### 다운스트림 노드 선택
 
 [노드 컨텍스트 메뉴](../../interface/the-graph-view/the-graph-view.md)의 새 항목으로 선택한 노드의 출력에 연결된 모든 노드를 직접 또는 간접적으로 선택합니다. 따라서 노드의 영향을 받는 모든 노드를 선택합니다. 그래프의 일부를 삭제하거나 그래프 레이아웃을 다시 작업하는 데 유용합니다.
 
-![](version-12-4.resources/final-downstream.gif){width="640px"}
+![](version-12-4.resources/version-12-4-08.gif){width="640px"}
 
 ## Python API 업데이트
 

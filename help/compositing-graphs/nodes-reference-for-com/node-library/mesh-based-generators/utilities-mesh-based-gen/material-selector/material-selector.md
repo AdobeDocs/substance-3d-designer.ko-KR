@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 재질 선택기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-selector.resources/material-selector.png){width="128px"}
+![](material-selector.resources/material-selector-01.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 유틸리티
 
@@ -59,7 +59,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-selector.resources/matselector-ex.png" />
+            <img src="material-selector.resources/material-selector-02.png" />
         </td>
     </tr>
 </table>

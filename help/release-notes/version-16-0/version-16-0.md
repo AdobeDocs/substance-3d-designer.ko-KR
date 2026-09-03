@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 16.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dd03ffc77a6d09c680dcf3e1fc204e4cb86cc336
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *출시일: 2026년 4월 14일*
 
-<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Substance 3D Designer 버전 16.0 배너" style="margin-top: 32px; margin-bottom: 32px">
+<img src="./version-16-0.resources/version-16-0-01.jpg" alt="Substance 3D Designer 버전 16.0 배너" style="margin-top: 32px; margin-bottom: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="모양 스플래터 v2: 포아송 분포" /><br><i>포아송 분포</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-02.gif" alt="모양 스플래터 v2: 포아송 분포" /><br><i>포아송 분포</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="모양 스플래터 v2: 균일 분포" /><br><i>균일 분포</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-03.gif" alt="모양 스플래터 v2: 균일 분포" /><br><i>균일 분포</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="밀도 맵" /><br><i>모양 스플래터 v2: 밀도 맵</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-04.gif" alt="밀도 맵" /><br><i>모양 스플래터 v2: 밀도 맵</i>
         </td>
     </tr>
 </table>
@@ -53,20 +53,20 @@ ht-degree: 0%
 
 흩어진 모양은 이제 모든 XYZ 축을 기준으로 이동, 회전 및 크기 조정이 가능한 **3D 개체**&#x200B;입니다.
 
-큐브, 구, 원기둥과 같은 **간단한 기본 모양** 또는 *Height 맵을 돌출시키거나* *3D SDF 모양을 제작하여&#x200B;**복잡한 사용자 정의 모양**&#x200B;을 사용하세요*. (자세한 내용은 아래를 참조하세요.)
+큐브, 구, 원기둥과 같은 **간단한 기본 모양** 또는 *높이 맵을 돌출*&#x200B;하거나 *3D SDF 모양을 제작*&#x200B;하여 형성된 **복잡한 사용자 정의 모양**&#x200B;을 사용합니다. (자세한 내용은 아래를 참조하세요.)
 
 이렇게 하면 보드 전체에 걸쳐 더 역동적이고, 더 다양하고, 더 믿을 수 있는 산산이 나타납니다. 또한 이제 3D 모양을 뒤집어 변형에 맞게 용도를 변경할 수 있습니다. (환경 예술가님, 고객님을 뵙겠습니다!)
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="모양 스플래터 v2: 무작위 3D 회전" /><br><i>임의 3D 회전</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-05.gif" alt="모양 스플래터 v2: 무작위 3D 회전" /><br><i>임의 3D 회전</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="모양 스플래터 v2: 모양 돌출" /><br><i>모양 돌출</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-07.gif" alt="모양 스플래터 v2: 모양 돌출" /><br><i>모양 돌출</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="모양 스플래터 v2: 3D SDF 모양" /><br><i>3D SDF 모양</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-08.jpg" alt="모양 스플래터 v2: 3D SDF 모양" /><br><i>3D SDF 모양</i>
         </td>
     </tr>
 </table>
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 모양 스플래터 v1 노드 패밀리와 마찬가지로 모양 스플래터 v2에는 자체 코호트의 동반 노드가 제공됩니다.
 
-[모양 스플래터 v2 매퍼](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) 노드를 사용하면 여러 텍스처를 매핑하기 위한 *삼면체 투영* 및 *재질 ID*&#x200B;를 지원하여 흩어진 3D 모양의 텍스처를 투영할 수 있습니다. 텍스처 오프셋 및 색상 변화에 대해 전역적으로 또는 모양별로 결과를 조정할 수 있습니다.\
+[모양 스플래터 v2 매퍼](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) 노드를 사용하면 여러 텍스처를 매핑하기 위한 *삼평면 투영* 및 *재질 ID*&#x200B;를 지원하여 흩어진 3D 모양에 텍스처를 투영할 수 있습니다. 결과는 텍스처 오프셋 및 색상 변경에 대해 전체적으로 또는 모양별로 조정할 수 있습니다.\
 다시 한 번 고급 사용자는 함수 그래프로 정의된 *사용자 지정 텍스처 매핑*&#x200B;을 설정할 수 있습니다.
 
 [마스킹할 모양 스플래터 v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)는 모양 및/또는 재질 ID의 특정 선택을 위한 마스크를 만들어 그래프 하류의 모양을 더 세분화하여 사용할 수 있습니다.
@@ -83,13 +83,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="모양 스플래터 v2 색상 매퍼: 삼면 매핑" /><br><i>삼평면 매핑</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" alt="모양 스플래터 v2 색상 매퍼: 삼면 매핑" /><br><i>삼평면 매핑</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="모양 스플래터 v2 색상 매퍼: 표준 매핑" /><br><i>표준 매핑</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" alt="모양 스플래터 v2 색상 매퍼: 표준 매핑" /><br><i>표준 매핑</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="모양 스플래터 v2 색상 매퍼: SDF 모양에서 재질 ID별 매핑" /><br><i>SDF 모양에서 재질 ID별 매핑</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" alt="모양 스플래터 v2 색상 매퍼: SDF 모양에서 재질 ID별 매핑" /><br><i>SDF 모양에서 재질 ID별 매핑</i>
         </td>
     </tr>
 </table>
@@ -102,7 +102,7 @@ ht-degree: 0%
             <p>사용자 정의 패턴은 모양 스플래터 v2 노드에 별도로 제공되거나 그리드 아틀라스에 압축되어 보다 학습되고 효율적인 워크플로우를 수행할 수 있습니다.</p><p>새로운 <a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">그리드 아틀라스</a> 노드 덕분에 패킹 패턴이 단순화되었습니다.</p>
         </td>
         <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="그리드 아틀라스 색상 노드" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-02.png" alt="그리드 아틀라스 색상 노드" />
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ ht-degree: 0%
             <p><b>녹슨 볼트</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">재질 샘플</a>을 사용하여 모양 스플래터 v2 노드 및 해당 기능을 사용할 수 있습니다.</p><p>그래프는 구조, 노드 설정 및 기법을 안내하기 위해 구성되고 주석이 달려 있습니다.</p><p>또한 <i>완전히 편집 가능한</i>이므로 샌드박스로 사용하여 모양 스플래터 v2 도구 세트를 더 자세히 이해할 수 있습니다. 원하는 만큼 샘플 그래프를 만들 수 있으므로 자유롭게 사용해 보세요!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
         </td>
     </tr>
 </table>
@@ -127,10 +127,10 @@ ht-degree: 0%
 <table>
     <tr style="vertical-align: top; width: 75%; border: 0">
         <td style="border: 0">
-            <p>Designer 16.0에는 SDF 함수 작성을 위한 방대한 노드 카탈로그를 사용하여 함수 그래프에 3D 모양을 생성하는 강력한 방법이 추가되었습니다.</p><p>서명된 거리 필드는 수학적으로 정의된 서피스에 대한 거리로 공간을 표현합니다. 다양한 연산자를 사용하여 이러한 표면이 변형되고 결합됨에 따라 복잡성이 증가하는 모양을 정의하는 데 사용할 수 있습니다.</p>
+            <p>Designer 16.0에는 SDF 함수 작성을 위한 방대한 노드 카탈로그를 사용하여 함수 그래프에 3D 모양을 생성하는 강력한 방법이 추가되었습니다.</p><p>서명된 거리 필드는 수학적으로 정의된 서피스에 대한 거리로 공간을 표현합니다. 이러한 표면은 다양한 연산자를 사용하여 결합되고 결합되므로 복잡도가 증가하는 모양을 정의하는 데 사용할 수 있습니다.</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="SDF 함수로 모양 만들기" />
+            <img src="./version-16-0.resources/version-16-0-02.gif" alt="SDF 함수로 모양 만들기" />
         </td>
     </tr>
 </table>
@@ -140,15 +140,15 @@ ht-degree: 0%
 SDF 함수는 다음 4개 범주의 [새 노드 집합](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)과 관련되어 있습니다.
 
 * **프리미티브**&#x200B;는 기본 구성 요소이며, 필요에 따라 조정할 수 있는 몇 가지 컨트롤을 사용하여 간단하게 조정할 수 있는 모양을 생성합니다.
-* **연산자**&#x200B;는 간단한 부울 연산자에서 형태, 셸 및 대칭에 이르기까지 노드에 따라 직접적이거나 복잡한 방식으로 모양을 결합하거나 복제하며, 어떤 종류의 3D 모양을 얻을 수 있는지 그 가능성을 극적으로 확장합니다
-* **변형**&#x200B;을 사용하면 모양의 위치, 회전 및 크기를 원하는 대로 조정할 수 있으며 굽히기, 비틀기 및 신장을 사용할 수 있습니다.
+* **연산자**&#x200B;는 노드에 따라 간단하거나 복잡한 방식으로 모양을 결합하거나 복제합니다. 단순한 부울 연산자에서 형태, 셸 및 대칭에 이르기까지, 이들은 어떤 종류의 3D 모양을 얻을 수 있는지 가능성을 극적으로 확장합니다
+* **모양 및 변형**&#x200B;을 사용하면 구부리기, 비틀기 및 신장을 통해 모양의 위치, 회전 크기를 조정할 수 있습니다.
 * **재질** 노드를 사용하면 [모양 스플래터 v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 노드 패밀리에서 모양을 마스킹하거나 색칠하는 데 사용할 수 있는 색상 및 재질 ID와 같은 몇 가지 기본 재질 특성을 설정할 수 있습니다.
 
 >[!INFO]
 > 
 > 이러한 SDF 함수 작업을 시작하려면 [노드 작업](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) 페이지로 이동하십시오.
 
-<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 함수 노드" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="SDF 함수 노드" />
 
 명확하고 읽기 쉬운 아이콘이 있는 경량 SDF 함수를 사용하면 3D 도구를 생각보다 쉽게 구축할 수 있습니다. 특히 도구 세트에 이 추가 기능을 사용하면 더욱 쉽습니다.
 
@@ -161,24 +161,24 @@ SDF 함수는 다음 4개 범주의 [새 노드 집합](../../function-graphs/no
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%; border: 0">
         <td style="text-align: center; width: 50%; border: 0; padding: 15px">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="예제 1" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-02.jpg" alt="예제 1" />
         </td>
         <td style="width: 50%; border: 0; padding: 0">
             <table>
                 <tr style="vertical-align: top; border: 0">
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="예제 1" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-03.jpg" alt="예제 1" />
                     </td>
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="예제 2" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-04.jpg" alt="예제 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top; border: 0; background: transparent">
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="예제 3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-05.jpg" alt="예제 3" />
                     </td>
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="예제 4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-06.jpg" alt="예제 4" />
                     </td>
                 </tr>
             </table>
@@ -193,22 +193,22 @@ SDF 함수는 다음 4개 범주의 [새 노드 집합](../../function-graphs/no
 
 이 재질 모델은 이제 애플리케이션 전체에서 지원되며, 새로운 렌더러(래스터라이저, GPU 패스트레이서)와 OpenGL 렌더러 모두에서 [전용 셰더](../../interface/3d-view/material-properties/material-properties.md#openpbr)가 제공됩니다.
 
-<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Substance 3D Designer에서의 OpenPBR 지원 및 다른 DCC와의 비교" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/version-16-0-03.gif" alt="Substance 3D Designer에서의 OpenPBR 지원 및 다른 DCC와의 비교" />
 
 새로운 그래프 템플릿으로 널리 채택된 업계 표준을 시작하거나 이제 OpenPBR 기반의 내장 재질 샘플을 살펴보십시오.
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR 틀" />
+            <img src="./version-16-0.resources/version-16-0-04.png" alt="OpenPBR 틀" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR 재료 샘플" />
+            <img src="./version-16-0.resources/version-16-0-05.png" alt="OpenPBR 재료 샘플" />
         </td>
     </tr>
 </table>
 
-OpenPBR 셰이더는 이제 3D 뷰의 기본값이 되며 기본적으로 이전 PBR 사용을 OpenPBR에 대응시켜 이전 버전의 그래프를 지원합니다.
+OpenPBR 셰이더는 이제 3D 보기의 기본값이 되었으며 기본적으로 이전 PBR 사용을 OpenPBR에 대응시켜 이전 버전의 그래프를 지원합니다.
 
 OpenPBR 셰이더는 얇은 필름, 얇은 벽 등의 기존 셰이더보다 더 많은 효과를 지원합니다. 마침내 굴절 효과를 비롯하여 모든 효과를 래스터화(래스터화, OpenGL)할 수 있습니다.
 
@@ -218,7 +218,7 @@ OpenPBR 셰이더는 얇은 필름, 얇은 벽 등의 기존 셰이더보다 더
             또한 3D 보기에서 보는 그래프가 그래프 재질 모델에 적절한 셰이더를 사용하도록 하는 Substance 그래프용 새로운 <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'재질 모델' 특성</a>을 통해 특정 셰이더와 관련된 워크플로우를 보다 쉽게 동기화할 수 있습니다.
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR 재료 샘플" />
+            <img src="./version-16-0.resources/version-16-0-06.png" alt="OpenPBR 재료 샘플" />
         </td>
     </tr>
 </table>
@@ -231,13 +231,13 @@ OpenPBR 셰이더는 얇은 필름, 얇은 벽 등의 기존 셰이더보다 더
 
 ## 3D 보기의 변위 컨트롤
 
-이제 3D 보기 도구 모음에서 사용할 수 있는 [새 변위 팝업](../../interface/3d-view/displacement/displacement.md)에서 직접 액세스하여 3D 보기에서 변위 및 쪽맞춤을 더 빠르고 쉽게 조정할 수 있습니다.
+이제 3D 보기 도구 모음에서 사용할 수 있는 [새로운 변위 팝업](../../interface/3d-view/displacement/displacement.md)에 직접 액세스하여 3D 보기에서 변위 및 쪽맞춤을 더 빠르고 쉽게 조정할 수 있습니다.
 
 재질 속성과 렌더러 설정에서 앞뒤로 반복하지 않고 **Height 비율**, **Height 수준** 및 **테셀레이션** 값을 조정합니다.
 
 이러한 컨트롤은 새로운 렌더러(래스터라이저, GPU 패스트레이서)와 OpenGL 렌더러 모두에 사용할 수 있습니다.
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D 보기의 변위 팝업" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/displacement-01.gif" alt="3D 보기의 변위 팝업" />
 
 장면에 여러 재질이 포함된 경우 <code>Shift를 누르고 미리 조정할 장면의 개체를 선택합니다</code> 이 효과를 클릭한 다음(래스터화 및 GPU 패스트레이서 전용) [장면] 브라우저에서 선택합니다.
 
@@ -257,7 +257,7 @@ OpenPBR 셰이더는 얇은 필름, 얇은 벽 등의 기존 셰이더보다 더
             <p>Substance 그래프의 상수 값에 더 쉽게 액세스할 수 있도록 각 유형의 간단한 값을 생성하기 위해 <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">새 노드</a>가 추가되었습니다.</p><p>라이브러리의 <b>값 &gt; 상수</b> 섹션에서 이러한 값을 모두 찾을 수 있습니다.</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="상수 &apos;Float&apos; 노드" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constant-02.png" alt="상수 &apos;부동&apos; 노드" />
         </td>
     </tr>
 </table>
@@ -268,7 +268,7 @@ OpenPBR 셰이더는 얇은 필름, 얇은 벽 등의 기존 셰이더보다 더
 사내 GPU 패스트레이서는 Designer에서 고품질 사실적 렌더링을 위해 선택한 렌더러입니다.
 
 Designer은 MDL에서 벗어나, 호환되고 널리 지원되는 재질 정의를 위해 선택하는 음영 언어인 MaterialX를 선호하고 있습니다.\
-MaterialX는 컴퓨터 그래픽 업계에서 빠르게 인기를 얻고 있으며 USD 파일로 운반할 수 있어 DCC와 렌더러 간 전체 장면의 휴대성이 향상되었습니다.
+MaterialX는 컴퓨터 그래픽 업계에서 빠르게 인기를 얻고 있으며 DCC와 렌더러 간 전체 화면 이동성을 위해 USD 파일로 전송할 수 있습니다.
 
 >[!NOTE]
 > 
@@ -352,7 +352,7 @@ macOS의 최소 지원 버전에 대한 요구 사항이 macOS 14 Sonoma로 업�
 
 * [2D 보기] 위젯의 폭이 작아질 때 막대 그래프 선택 범위가 유지되지 않습니다
 * [3D 내보내기] Designer에서 내보낸 메시가 usdview에서 동일하게 렌더링되지 않습니다
-* [3D 보기] 비udim 항목을 3D 보기에 할당하면 단일 타일 렌더링 모드가 사라집니다.
+* [3D 보기] 비-흐림 항목을 3D 보기에 할당하면 단일 타일 렌더링 모드가 해제됩니다.
 * [3D 보기] OCIO를 사용할 때 클램핑된 결과
 * [3D 보기] 특정 장면의 재정의되지 않은 재질에 그래프 텍스처를 적용할 때 충돌이 발생합니다
 * [3D 보기] 프레임 버퍼를 만들 때 충돌이 발생합니다.

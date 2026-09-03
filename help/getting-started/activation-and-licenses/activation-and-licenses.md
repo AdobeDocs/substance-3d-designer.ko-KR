@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 활성화 및 라이선스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 >
 > 활성화 마법사를 사용하여 라이선스 파일을 설치하려면 관리자로 Designer을 실행하고 안티바이러스를 일시적으로 비활성화해야 합니다.
 
-![활성화 마법사](activation-and-licenses.resources/activation-wizard.png "활성화 마법사")
+![활성화 마법사](activation-and-licenses.resources/activation-and-licenses-01.png "활성화 마법사")
 
 ### 수동 활성화
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 보기 - 변위 팝업
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
                 <li>테셀레이션</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D 보기의 변위 팝업" />
+            <img src="./displacement.resources/displacement-01.gif" alt="3D 보기의 변위 팝업" />
         </td>
     </tr>
 </table>
@@ -73,7 +73,7 @@ Substance 그래프가 자료에 연결되어 있고 해당 그래프는 다음�
 세분 값입니다.
 
 하위 분할은 상황에 따라 다릅니다. *불균일한 Height 값*을 가진 서체만 표시되도록 최적화되었습니다.
-*비플랫 Height 맵*&#x200B;은 매개 변수 값에 관계 없이 세분화됩니다.
+*평평하지 않은 높이 맵*&#x200B;은 매개 변수 값에 관계 없이 세분화됩니다.
 
 ### 재질당
 
@@ -90,7 +90,7 @@ Height 값 또는 텍스처.
 
 ### 래스터라이저/GPU 패스트레이서
 
-사용: <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="22" /> **렌더러 설정**
+사용: <img src="../3d-view.resources/3d-view-18.png" width="22" /> **렌더러 설정**
  그런 다음 속성 도크에서 **렌더링 설정 > 진단 모드**(으)로 이동하고 **와이어프레임을 선택합니다
  (월드 공간)** 옵션.
 

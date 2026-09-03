@@ -1,7 +1,7 @@
 ---
 title: 회색 음영 그리드 아틀라스
 description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > 생성기 > 패턴 > 회색 음영 그리드 아틀라스
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![회색 음영 그리드 아틀라스 아이콘](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "회색 음영 그리드 아틀라스")
+![회색 음영 그리드 아틀라스 아이콘](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "회색 음영 그리드 아틀라스")
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -75,5 +75,5 @@ ht-degree: 1%
 
 ## 예
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="그래프 컨텍스트에서 회색 음영 노드 그리드 아틀라스" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="그래프 컨텍스트에서 회색 음영 노드 그리드 아틀라스" style="width: 50%"><br>
 <i>그래프의 컨텍스트에서 회색 음영 노드 그리드 아틀라스</i>

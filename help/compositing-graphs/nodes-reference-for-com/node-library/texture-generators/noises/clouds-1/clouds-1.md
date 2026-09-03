@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 구름 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![구름 1 - 아이콘](clouds-1.resources/clouds_1.png "구름 1 - 아이콘"){width="200px"}
+![구름 1 - 아이콘](clouds-1.resources/clouds-1-01.png "구름 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![구름 1 - 예 1](clouds-1.resources/clouds_1_1.png "구름 1 - 예 1"){zoomable="yes"}
+![구름 1 - 예 1](clouds-1.resources/clouds-1-02.png "구름 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![구름 1 - 예 2](clouds-1.resources/noise_clouds_1_v2_speed0.6_aniso0.gif "구름 1 - 예 2"){zoomable="yes"}
+![구름 1 - 예 2](clouds-1.resources/clouds-1-03.gif "구름 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![구름 1 - 예 3](clouds-1.resources/noise_clouds_1_v2_speed0.6_aniso1.gif "구름 1 - 예 3"){zoomable="yes"}
+![구름 1 - 예 3](clouds-1.resources/clouds-1-04.gif "구름 1 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![구름 1 - 예 4](clouds-1.resources/noise_clouds_1_v2_speed0.3_aniso0.6.gif "구름 1 - 예 4"){zoomable="yes"}
+![구름 1 - 예 4](clouds-1.resources/clouds-1-05.gif "구름 1 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

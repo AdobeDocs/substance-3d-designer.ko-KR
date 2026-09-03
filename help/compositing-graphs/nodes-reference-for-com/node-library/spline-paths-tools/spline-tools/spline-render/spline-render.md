@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-render.resources/spline-render-icon.png "노드 아이콘")
+![노드 아이콘](spline-render.resources/spline-render-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="spline-render.resources/spline-render-02.jpg" alt="SplineRender-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="spline-render.resources/spline-render-03.jpg" alt="SplineRender-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="spline-render.resources/spline-render-05.jpg" alt="SplineRender-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="spline-render.resources/spline-render-04.jpg" alt="SplineRender-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-render.resources/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="spline-render.resources/spline-render-06.jpg" alt="SplineRender-Variant3">
       <br><i>이후</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-render.resources/SplineRender-Demo.gif "노드 예 1")
+![노드 예 1](spline-render.resources/spline-render-07.gif "노드 예 1")
 
 </td>
 </tr>

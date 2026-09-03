@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
 breadcrumb-title: ''
-description: 곡선 도로 및 패스 텍스처를 만들기 위해 아크 포장 노드를 사용하여 아크 모양 포장 패턴을 생성합니다.
+description: 호 포장 노드를 사용하여 곡선 도로와 패스 텍스처를 만들기 위한 호 모양의 포장 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 아크 포장
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](arc-pavement.resources/arcpavement-ex.png)
+![](arc-pavement.resources/arc-pavement-01.png)
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -67,7 +67,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="arc-pavement.resources/arcpavement-ex.png" />
+            <img src="arc-pavement.resources/arc-pavement-01.png" />
         </td>
     </tr>
 </table>

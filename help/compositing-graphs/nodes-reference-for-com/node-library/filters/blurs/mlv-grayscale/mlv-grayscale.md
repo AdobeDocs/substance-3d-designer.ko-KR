@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV 회색 음영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV 회색 음영: 아이콘](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV 회색 음영: 아이콘")
+![MLV 회색 음영: 아이콘](mlv-grayscale.resources/mlv-grayscale-01.png "MLV 회색 음영: 아이콘")
 
 <b>인:</b> 필터 > 흐림 효과
 
@@ -78,11 +78,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="MLV_Variant1A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>이후</i>
     </td>
   </tr>

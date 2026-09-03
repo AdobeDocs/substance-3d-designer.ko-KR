@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 그래프의 경고
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 그래프에서 이 함수의 예상 유형과 일치하는 유형의 값을 출력하는 노드를 선택한 다음 RMB를 클릭하고 상황에 맞는 메뉴에서 <b>루트로 설정</b> 옵션을 선택하거나 노드에서 LMB를 두 번 클릭합니다.\
 Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩니다.
 
-![&#39;출력 노드가 정의되지 않음&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-model-output.gif "&#39;출력 노드가 정의되지 않음&#39; 해결 방법")
+![&#39;출력 노드가 정의되지 않음&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "&#39;출력 노드가 정의되지 않음&#39; 해결 방법")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 하나 이상의 입력 값이 거부되었습니다.
 
@@ -47,7 +47,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 
 대상 매개 변수에 적합하도록 값을 조정합니다.
 
-![&#39;하나 이상의 입력 값이 거부됨&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-model-rejected-value.gif "&#39;하나 이상의 입력 값이 거부됨&#39; 해결 방법")
+![&#39;하나 이상의 입력 값이 거부됨&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "&#39;하나 이상의 입력 값이 거부됨&#39; 해결 방법")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 입력 값 없음
 
@@ -59,7 +59,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 
 노드 입력을 일치하는 유형의 다른 노드 출력 커넥터에 연결합니다.
 
-![&#39;입력 값 없음&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;입력 값 없음&#39; 해결 방법")
+![&#39;입력 값 없음&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;입력 값 없음&#39; 해결 방법")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 노드가 계산되지 않았습니다.
 
@@ -69,7 +69,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 
 그래프에서 업스트림으로 이동하여 노드가 유효한 출력을 제공하지 못하는 문제로 트리거된 경고를 확인합니다.
 
-![&#39;노드가 계산되지 않음&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "&#39;노드가 계산되지 않음&#39; 해결 방법")
+![&#39;노드가 계산되지 않음&#39; 해결 방법](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "&#39;노드가 계산되지 않음&#39; 해결 방법")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 참조된 데이터에 몇 가지 경고가 있습니다
 
@@ -85,7 +85,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 * 그래프의 경우 이 페이지의 다른 항목을 참조하십시오
 * 다른 유형의 리소스는 종속성 경고 페이지를 참조하십시오
 
-![&#39;참조된 데이터에 일부 경고 해결 방법이 있음](warnings-in-mdl-graphs.resources/warnings-model-referenced-data.gif "&#39;참조된 데이터에 일부 경고 해결 방법이 있음")
+![&#39;참조된 데이터에 일부 경고 해결 방법이 있음](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "&#39;참조된 데이터에 일부 경고 해결 방법이 있음")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 참조된 리소스를 찾을 수 없습니다.
 
@@ -106,7 +106,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 참조된 리소스는 [탐색기](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) 패널에서 찾은 다음 해당 <b>파일 경로</b> 특성에 저장된 위치에 있는지 확인하세요.\
 그렇지 않은 경우 탐색기의 리소스 항목에서 *RMB*&#x200B;을 클릭하고 컨텍스트 메뉴에서 <b>재배치...</b> 옵션을 선택하여 해당 리소스에 대해 유효한 새 대상 파일을 설정합니다.
 
-![&#39;참조된 리소스를 찾을 수 없음&#39; 솔루션](warnings-in-mdl-graphs.resources/warnings-model-referenced-resource.gif "&#39;참조된 리소스를 찾을 수 없음&#39; 솔루션")
+![&#39;참조된 리소스를 찾을 수 없음&#39; 솔루션](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "&#39;참조된 리소스를 찾을 수 없음&#39; 솔루션")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 소프트 범위에 값이 없습니다.
 
@@ -118,9 +118,9 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 
 >[!NOTE]
 >
-> 이 경고는 기본값을 포함하도록 소프트 범위를 *자동으로 조정*&#x200B;하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;의 데이터만 수정하면 이 경고가 트리거될 수 있습니다.
+> 이 경고는 기본값을 포함하도록 소프트 범위를 *자동으로 조정*&#x200B;하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;에서 데이터를 수정해야만 이 경고가 트리거될 수 있습니다.
 
-![&#39;소프트 범위에 값&#39; 솔루션이 포함되지 않음](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;소프트 범위에 값&#39; 솔루션이 포함되지 않음")
+![&#39;소프트 범위에 값&#39; 솔루션이 포함되지 않음](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;소프트 범위에 값&#39; 솔루션이 포함되지 않음")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 소프트 범위가 하드 범위를 벗어났습니다.
 
@@ -134,7 +134,7 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 >
 > 이 경고는 하드 범위에 완전히 포함되도록 소프트 범위를 *자동으로 조정*&#x200B;하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;의 데이터만 수정하면 이 경고가 트리거될 수 있습니다.
 
-![&#39;소프트 범위&#39;가 하드 범위&#39; 솔루션을 벗어났습니다](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;소프트 범위가 하드 범위&#39; 솔루션을 벗어났습니다")
+![&#39;소프트 범위&#39;가 하드 범위&#39; 솔루션을 벗어났습니다](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;소프트 범위가 하드 범위&#39; 솔루션을 벗어났습니다")
 
 ### ![(오류)](warnings-in-mdl-graphs.resources/error.svg) 값이 하드 범위를 벗어났습니다.
 
@@ -146,6 +146,6 @@ Substance 모델 그래프의 출력 노드에 *주황색* 색상이 지정됩�
 
 >[!NOTE]
 >
-> 이 경고는 하드 범위에 포함될 기본값을 *자동으로 조정*&#x200B;하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;의 데이터만 수정하면 이 경고가 트리거될 수 있습니다.
+> 이 경고는 하드 범위에 포함될 기본값을 *자동으로 조정*&#x200B;하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;에서 데이터를 수정해야만 이 경고가 트리거될 수 있습니다.
 
-![&#39;값이 하드 범위 솔루션을 벗어났습니다](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "&#39;값이 하드 범위 솔루션을 벗어났습니다")
+![&#39;값이 하드 범위 솔루션을 벗어났습니다](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "&#39;값이 하드 범위 솔루션을 벗어났습니다")

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 입력
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: 입력 색상](input.resources/comp_inputcolor_1.png "Atomic node: 입력 색상"){width="200px"}
+![Atomic node: 입력 색상](input.resources/input-01.png "Atomic node: 입력 색상"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![원자 노드: 입력 회색 음영](input.resources/comp_inputgrayscale_1.png "원자 노드: 입력 회색 음영"){width="200px"}
+![원자 노드: 입력 회색 음영](input.resources/input-02.png "원자 노드: 입력 회색 음영"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: 입력 값](input.resources/comp_inputnumeric_1.png "Atomic node: 입력 값"){width="200px"}
+![Atomic node: 입력 값](input.resources/input-03.png "Atomic node: 입력 값"){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Substance 그래프의 기본 입력](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substance 그래프의 기본 입력](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

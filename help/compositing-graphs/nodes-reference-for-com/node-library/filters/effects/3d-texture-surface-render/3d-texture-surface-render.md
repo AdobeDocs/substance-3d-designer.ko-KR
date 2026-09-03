@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 텍스처 표면 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3d-texture-surface-render-01.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -77,19 +77,19 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
+            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-06.png" />
         </td>
     </tr>
 </table>

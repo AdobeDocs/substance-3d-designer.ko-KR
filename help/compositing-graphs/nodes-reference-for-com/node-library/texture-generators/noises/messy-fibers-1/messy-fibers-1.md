@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 지저분한 섬유 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![너저분한 섬유 1 - 아이콘](messy-fibers-1.resources/messy_fibers_1.png "너저분한 섬유 1 - 아이콘"){width="200px"}
+![너저분한 섬유 1 - 아이콘](messy-fibers-1.resources/messy-fibers-1-01.png "너저분한 섬유 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![너저분한 섬유 1 - 아이콘](messy-fibers-1.resources/messy_fibers_1_1.png "너저분한 섬유 1 - 아이콘"){zoomable="yes"}
+![너저분한 섬유 1 - 아이콘](messy-fibers-1.resources/messy-fibers-1-02.png "너저분한 섬유 1 - 아이콘"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 1 - 예 2](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "지저분한 섬유 1 - 예 2"){zoomable="yes"}
+![지저분한 섬유 1 - 예 2](messy-fibers-1.resources/messy-fibers-1-03.gif "지저분한 섬유 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 1 - 예 3](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "지저분한 섬유 1 - 예 3"){zoomable="yes"}
+![지저분한 섬유 1 - 예 3](messy-fibers-1.resources/messy-fibers-1-04.gif "지저분한 섬유 1 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 1 - 예 4](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "지저분한 섬유 1 - 예 4"){zoomable="yes"}
+![지저분한 섬유 1 - 예 4](messy-fibers-1.resources/messy-fibers-1-05.gif "지저분한 섬유 1 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그래프 항목
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 7%
@@ -26,14 +26,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![점 노드 아이콘](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![점 노드 아이콘](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## 점 노드(포털도 포함)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![프레임 아이콘](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![프레임 아이콘](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## 프레임
 
@@ -60,14 +60,14 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![주석 아이콘](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![주석 아이콘](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## 주석
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![탐색 핀 아이콘](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![탐색 핀 아이콘](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## 고정
 

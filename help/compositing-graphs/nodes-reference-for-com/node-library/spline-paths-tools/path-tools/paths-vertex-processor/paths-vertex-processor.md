@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 정점 프로세서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](paths-vertex-processor.resources/paths-vertex-processor-icon.png "노드 아이콘")
+![노드 아이콘](paths-vertex-processor.resources/paths-vertex-processor-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 노드는 다음과 같이 사용해야 합니다.
 
 1. <b>정점별 함수 </b>매개 변수 함수 편집;
-1. <b>부동 가져오기2</b> 노드를 사용하여 *vertex.pos*, *prev.pos* 및/또는 *next.pos* 변수를 획득합니다
+1. <b>Get Float2</b> 노드를 사용하여 획득합니다. *vertex.pos*, *prev.pos* 및/또는 *next.pos* 변수
 1. 해당 값에 대해 몇 가지 작업을 수행합니다(예: 곱하기를 통해 패스 크기를 조절합니다).
 1. 계산 결과를 출력으로 설정합니다.
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 *prev.pos* 또는 *next.pos*&#x200B;을 쿼리하기 전에 적절한 <b>액세스된 이전 정점</b> 및 <b>액세스된 다음 정점</b> 값을 설정해야 합니다\
 입력 이미지를 추가하고 함수에서 샘플링할 수도 있습니다. 함수에서 샘플링하려면 먼저 입력을 연결해야 합니다. (첫 번째 입력은 *이미지 1*&#x200B;입니다!)\
-*prev[2].pos*(부동2), *next[2].pos*(부동2), *vertex.corner*(bool) 및 *path.id*(float) 변수에 액세스할 수도 있습니다.
+*prev[2].pos*(Float2), *next[2].pos*(Float2), *vertex.corner*(bool) 및 *path.id*(float) 변수에 액세스할 수도 있습니다.
 
 >[!TIP]
 >
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>경로</b> <i>색상</i> | 변형된 패스. [패스 미리 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)를 사용하여 결과가 어떻게 나타나는지 파악하거나 다른 패스 처리 노드를 사용하거나 [스플라인으로 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)에 입력하여 스플라인으로 추가로 처리할 수 있습니다. |
+| <b>경로</b> <i>색상</i> | 변환 경로. [패스 미리 보기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)를 사용하여 결과가 어떻게 나타나는지 파악하거나 다른 패스 처리 노드를 사용하거나 [스플라인으로 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)에 입력하여 스플라인으로 추가로 처리할 수 있습니다. |
 
 <a name="parameters"></a>
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "노드 예 2")
+![노드 예 2](paths-vertex-processor.resources/paths-vertex-processor-02.gif "노드 예 2")
 
 </td>
 <td style="border: 0;" valign="top">

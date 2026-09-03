@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 벡터 편집 도구
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/vector-editing-tools-01.png){width="512px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 > [새로 만들거나 가져온](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)인 *8비트* [벡터 그래픽 리소스](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)에 *만*&#x200B;을(를) 페인트할 수 있습니다.
 
-![새 SVG 리소스 대화 상자](vector-editing-tools.resources/2dview-new-vector-image.png "새 SVG 리소스 대화 상자"){width="512px"}
+![새 SVG 리소스 대화 상자](vector-editing-tools.resources/vector-editing-tools-02.png "새 SVG 리소스 대화 상자"){width="512px"}
 
 ## 벡터 편집 도구 사용
 
@@ -87,7 +87,7 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 **Adobe Illustrator** 사용자는 *내보내기 설정* SVG에 첨부된 이미지를 참조할 수 있습니다.
 
 +++Adobe Illustrator 내보내기 옵션
-![SVG을 위한 Illustrator 내보내기 옵션](vector-editing-tools.resources/demo-svg.png "SVG을 위한 Illustrator 내보내기 옵션")
+![SVG을 위한 Illustrator 내보내기 옵션](vector-editing-tools.resources/vector-editing-tools-03.png "SVG을 위한 Illustrator 내보내기 옵션")
 
 
 
@@ -109,7 +109,7 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 키보드 단축키를 사용하면 도구에 빠르게 액세스할 수 있으며 도구/함수 이름 뒤 괄호 사이에 아래와 같이 표시됩니다.
 
 +++색상 선택 항목
-![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) **색상 선택** *썸네일*&#x200B;을 사용하면 벡터 모양에 대한 *채우기* 및 *윤곽선* 색상을 정의할 수 있습니다. 다음 방법으로 각 색상에 대한 **색상 편집기**&#x200B;를 열 수 있습니다.
+![](vector-editing-tools.resources/vector-editing-tools-04.png)![](vector-editing-tools.resources/vector-editing-tools-05.png) **색상 선택** *썸네일*&#x200B;을 사용하면 벡터 모양에 대한 *채우기* 및 *윤곽선* 색상을 정의할 수 있습니다. 다음 방법으로 각 색상에 대한 **색상 편집기**&#x200B;를 열 수 있습니다.
 
 * **채우기 색상:** *채우기* 색상 축소판(맨 위)을 클릭하거나 캔버스에서 LMB를 두 번 클릭합니다
 
@@ -122,11 +122,11 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 +++
 
 +++변환
-![변형 도구](vector-editing-tools.resources/2dview-vectorediting-transformation.png "변형 도구"){width="512px"}
+![변형 도구](vector-editing-tools.resources/vector-editing-tools-06.png "변형 도구"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png) <b>변형</b> 도구(<b>V</b>)는 모양을 선택할 수 있으며, 모양을 선택하면 변형 기즈모에 포함됩니다. 이 gizmo를 사용하면 다음 작업을 수행할 수 있습니다.
+![](vector-editing-tools.resources/vector-editing-tools-07.png) <b>변형</b> 도구(<b>V</b>)는 모양을 선택할 수 있으며, 모양을 선택하면 변형 기즈모에 포함됩니다. 이 gizmo를 사용하면 다음 작업을 수행할 수 있습니다.
 
 <b>이동</b>: gizmo에서 LMB *내부*&#x200B;를 클릭하여 유지합니다.
 
@@ -137,11 +137,11 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 +++
 
 +++노드
-![노드 도구](vector-editing-tools.resources/2dview-vectorediting-node.png "노드 도구"){width="512px"}
+![노드 도구](vector-editing-tools.resources/vector-editing-tools-08.png "노드 도구"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>노드</b> 도구(<b>A</b>)를 사용하면 선택한 모양의 개별 정점(즉, 노드)을 선택하고 위치와 핸들을 편집하며 정점을 추가 및 제거할 수 있습니다. 모양을 선택하면 다음 작업을 수행할 수 있습니다.
+![](vector-editing-tools.resources/vector-editing-tools-09.png) <b>노드</b> 도구(<b>A</b>)를 사용하면 선택한 모양의 개별 정점(즉, 노드)을 선택하고 위치와 핸들을 편집하며 정점을 추가 및 제거할 수 있습니다. 모양을 선택하면 다음 작업을 수행할 수 있습니다.
 
 <b>정점 추가:</b> 모양 윤곽선에 Ctrl+LMB
 
@@ -160,11 +160,11 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 +++
 
 +++모양
-![모양 도구](vector-editing-tools.resources/2dview-vectorediting-main.png "모양 도구"){width="512px"}
+![모양 도구](vector-editing-tools.resources/vector-editing-tools-01.png "모양 도구"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png) <b>모양</b> 도구(<b>M</b>)는 현재 *채우기* 색상을 사용하여 다음과 같은 기본 모양 세트를 제공합니다.
+![](vector-editing-tools.resources/vector-editing-tools-10.png) <b>모양</b> 도구(<b>M</b>)는 현재 *채우기* 색상을 사용하여 다음과 같은 기본 모양 세트를 제공합니다.
 
 * <b>사각형;</b>
 
@@ -179,11 +179,11 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 +++
 
 +++펜
-![펜 도구](vector-editing-tools.resources/2dview-vectorediting-pen.png "펜 도구"){width="512px"}
+![펜 도구](vector-editing-tools.resources/vector-editing-tools-11.png "펜 도구"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b>펜</b> 도구(<b>P</b>)를 사용하면 현재 *채우기* 색상을 사용하여 새 사용자 지정 모양을 그릴 수 있습니다. 두 가지 모드를 사용할 수 있습니다.
+![](vector-editing-tools.resources/vector-editing-tools-12.png) <b>펜</b> 도구(<b>P</b>)를 사용하면 현재 *채우기* 색상을 사용하여 새 사용자 지정 모양을 그릴 수 있습니다. 두 가지 모드를 사용할 수 있습니다.
 
 <b>패스 </b> 모드에서 모양은 *한 번에 한 정점씩* 그려집니다. 다음과 같은 컨트롤을 사용할 수 있습니다.
 
@@ -208,17 +208,17 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 +++
 
 +++돌출
-![돌출 도구](vector-editing-tools.resources/2dview-vectorediting-extrude.png "돌출 도구"){width="512px"}
+![돌출 도구](vector-editing-tools.resources/vector-editing-tools-13.png "돌출 도구"){width="512px"}
 
 
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **돌출** 도구(E) *선택한*&#x200B;그리기 모드&#x200B;*를 사용하여 경로를 따라 그려진*&#x200B;설정된 직경&#x200B;*의 모양을 함께 추가*&#x200B;하고, 옵션 도구 모음에 설정된 *병합 모드*&#x200B;를 따라 캔버스에 결과를 적용합니다.
+![](vector-editing-tools.resources/vector-editing-tools-14.png) **돌출** 도구(E) *선택한*&#x200B;그리기 모드&#x200B;*를 사용하여 경로를 따라 그려진*&#x200B;설정된 직경&#x200B;*의 모양을 함께 추가*&#x200B;하고, 옵션 도구 모음에 설정된 *병합 모드*&#x200B;를 따라 캔버스에 결과를 적용합니다.
 
 다음 *그리기 모드*&#x200B;를 사용할 수 있습니다.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png) **자유형**: LMB를 누른 상태에서 캔버스를 가로질러 펜을 드래그하여&#x200B;*직접 모양을 그립니다*. 선이 끝나면 모양이 함께 추가됩니다.
+![](vector-editing-tools.resources/vector-editing-tools-15.png) **자유형**: LMB를 누른 상태에서 캔버스를 가로질러 펜을 드래그하여&#x200B;*직접 모양을 그립니다*. 선이 끝나면 모양이 함께 추가됩니다.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png) **다각형**: LMB를 클릭하여 각도를 추가하여 *한 번에 한 개의 면*&#x200B;에 모양을 그립니다. Enter 키를 누르면 모양이 함께 추가됩니다.
+![](vector-editing-tools.resources/vector-editing-tools-16.png) **다각형**: LMB를 클릭하여 각도를 추가하여 *한 번에 한 개의 면*&#x200B;에 모양을 그립니다. Enter 키를 누르면 모양이 함께 추가됩니다.
 
 다음과 같은 매개 변수를 사용하여 그려진 모양을 제어할 수 있습니다.
 
@@ -228,19 +228,19 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 
 그리기가 완료되면 모양이 함께 추가되고 사용 가능한 *병합 모드* 중 하나를 사용하여 현재 선택한 모양과 병합됩니다.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png) **병합 안 함**: 선택한 모양의 *위*&#x200B;에 *별도의 개체*(으)로 그려집니다.
+![](vector-editing-tools.resources/vector-editing-tools-17.png) **병합 안 함**: 선택한 모양의 *위*&#x200B;에 *별도의 개체*(으)로 그려집니다.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png) **통합**: 선택한 모양에 모양이 *추가*&#x200B;되었습니다.
+![](vector-editing-tools.resources/vector-editing-tools-18.png) **통합**: 선택한 모양에 모양이 *추가*&#x200B;되었습니다.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png) **빼기**: 모양이 선택한 모양의 *잘라내기*&#x200B;입니다.
+![](vector-editing-tools.resources/vector-editing-tools-19.png) **빼기**: 모양이 선택한 모양의 *잘라내기*&#x200B;입니다.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png) **교차**: 새 모양과 선택한 모양의 *겹치는* 부분만 남아 있습니다.
+![](vector-editing-tools.resources/vector-editing-tools-20.png) **교차**: 새 모양과 선택한 모양의 *겹치는* 부분만 남아 있습니다.
 
 +++
 
 ## 모양 작업
 
-![모양 작업](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "모양 작업"){width="512px"}
+![모양 작업](vector-editing-tools.resources/vector-editing-tools-21.png "모양 작업"){width="512px"}
 
 위에 나열된 도구 외에도 RMB를 클릭할 때 사용할 수 있는 컨텍스트 메뉴를 사용하여 *선택한 모양*&#x200B;에 대해 여러 작업을 수행할 수 있습니다. 이러한 작업은 거의 모두 키보드 단축키(아래 괄호 안)를 사용하며 다음 범주로 구성되어 있습니다.
 

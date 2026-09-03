@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모피 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-2.resources/fur-2.png){width="128px"}
+![](fur-2.resources/fur-2-01.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-2.resources/fur-2-ex.gif" />
+            <img src="fur-2.resources/fur-2-02.gif" />
         </td>
     </tr>
 </table>

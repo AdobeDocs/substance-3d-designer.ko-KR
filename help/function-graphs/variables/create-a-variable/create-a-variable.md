@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 변수 만들기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Set 노드 사용은 다음과 같습니다.
 >
 > 만들 변수가 여러 개인 경우 *Set* 및 *Sequence* 노드 만들기 작업을 반복하고 마지막 시퀀스 노드를 출력 노드로 설정하십시오.
 > 
-> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

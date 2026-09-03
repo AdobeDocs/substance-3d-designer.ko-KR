@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 브리지 매퍼 회색 음영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "노드 아이콘")
+![노드 아이콘](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -91,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "노드 예 2")
+![노드 예 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "노드 예 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "노드 예 1")
+![노드 예 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "노드 예 2")
+![노드 예 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "노드 예 2")
 
 </td>
 </tr>

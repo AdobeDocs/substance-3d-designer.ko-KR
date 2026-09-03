@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비트맵에서 재질 조명으로
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bitmap-to-material-light.resources/b2m-light.png)
+![](bitmap-to-material-light.resources/bitmap-to-material-light-01.png)
 
 <b>내부:</b>개 재질 필터 > 한 번 클릭
 
@@ -47,7 +47,7 @@ PBR이 교정되는 완벽한 재질을 만들지는 않지만 이미지가 하�
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 이 그룹에서 재질 채널을 켜거나 끕니다. 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 |
+| <b>채널</b> | 이 그룹에서 재질 채널을 켜거나 끕니다. 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도] 맵을 사용하는 경우 |
 | <b>전역</b> |  |
 | <b>깊이 균형</b> <i>-1.0 - 1.0</i> | Heightmap에 대한 편향/이동을 설정합니다. |
 | <b>확산</b> |  |
@@ -71,7 +71,7 @@ PBR이 교정되는 완벽한 재질을 만들지는 않지만 이미지가 하�
 | <b>Specular level </b> <i>0.0 - 1.0</i> | Specular 해석에 대한 입력 레벨을 설정합니다. |
 | <b>Specular level 아웃</b> <i>0.0 - 1.0</i> | Specular의 출력 레벨을 수정합니다. |
 | <b>금속 Specular 영향</b> <i>0.0 - 1.0</i> | Specular 맵에 대한 선택적 금속 입력의 영향을 결정합니다. |
-| <b>광택</b> |  |
+| <b>광택도</b> |  |
 | <b>광택도 수준 </b> <i>0.0 - 1.0</i> | 광택도 해석에 대한 입력 레벨을 설정합니다. |
 | <b>광택도 수준 초과</b> <i>0.0 - 1.0</i> | 광택도 출력 레벨을 수정합니다. |
 | <b>금속 광택도 영향</b> <i>0.0 - 1.0</i> | 광택도 맵에 대한 선택적 금속 입력의 영향을 결정합니다. |

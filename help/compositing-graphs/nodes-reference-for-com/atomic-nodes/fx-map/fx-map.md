@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ''
-description: FX-Map 노드를 사용하여 절차 패턴과 효과를 만들기 위해 텍스처에 함수 그래프를 적용합니다.
+description: FX-Map 노드를 사용하여 텍스처에 함수 그래프를 적용하여 프로시저 패턴 및 효과를 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="200px"}
+![Atomic node: FX-Map](fx-map.resources/fx-map-01.png "Atomic node: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 </tr>
 </table>
 
-[픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)와 마찬가지로 이 노드의 동작과 출력을 결정하는 함수를 정의하고 만드는 것은 사용자의 몫입니다.
+[픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)과 마찬가지로 이 노드의 동작 및 출력을 결정하는 함수를 정의하고 만드는 것은 사용자의 몫입니다.
 
 <table>
 <tr style="border: 0;">
@@ -77,7 +77,7 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 | --- | --- |
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. 색상은 회색 음영보다 훨씬 느립니다. |
 | <b>배경</b> *Float/Float4* | 결과를 합성할 배경 시작 색상을 설정합니다. |
-| <b>렌더링 영역</b> *Float4* | FX-Map의 각 면에 시작 픽셀 범위를 설정하여 늘이기 효과를 낼 수 있습니다. |
+| <b>렌더링 영역</b> *Float4* | FX 맵의 각 면에 대해 시작 픽셀 범위를 설정하여 [FX 맵] 효과를 설정할 수 있습니다. |
 | <b>타일링 영역</b> *Float4* | FX-맵의 타일링 거리를 오프셋할 수 있습니다. |
 | <b>외부 도태</b> *부울* | 표준 범위를 벗어나는 패턴을 [컬링](../../../../glossary/glossary.md)하여 최적화를 수행합니다. |
 | <b>거칠음</b> *부동* | 깊이 및 불투명도 승수로 작동합니다. FX-맵 혼합 프로세스에 바이어스를 적용합니다. |
@@ -102,4 +102,4 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 
 ## 예
 
-![](fx-map.resources/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

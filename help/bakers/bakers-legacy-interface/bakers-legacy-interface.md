@@ -10,10 +10,10 @@ helpx_tags: ""
 title: Bakers 레거시 인터페이스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 4%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -24,25 +24,25 @@ ht-degree: 4%
 
 ## 개요
 
-![](bakers-legacy-interface.resources/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-01.png)
 
 베이커 패널은 4부분으로 나누어져 있습니다:
 
 ### 1: 장면
 
-![](bakers-legacy-interface.resources/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-02.png)
 
 베이킹 프로세스에 관여하는 메쉬의 부분을 정의할 수 있습니다.
 
 버전 6의 새로운 기능, 재료 별로 선택할 수도 있습니다.
 
-![](bakers-legacy-interface.resources/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-03.png)
 
 ### 제빵사
 
-![](bakers-legacy-interface.resources/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-04.png)
 
-![](bakers-legacy-interface.resources/image2017-3-13-9-47-47.png) 단추를 눌러 원하는 베이커를 처리 목록에 추가할 수 있습니다
+![](bakers-legacy-interface.resources/bakers-legacy-interface-05.png) 단추를 눌러 원하는 베이커를 처리 목록에 추가할 수 있습니다
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ ht-degree: 4%
 
 베이커 레이아웃에서 &quot;+&quot;를 클릭하면 스택에 베이커를 추가할 수 있습니다(원하는 수의 베이커를 스택에 배치할 수 있습니다).
 
-.![](bakers-legacy-interface.resources/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/bakers-legacy-interface-06.png)
 
-![](bakers-legacy-interface.resources/image2017-3-13-9-54-33.png)을 눌러 목록에서 굽기 프로세스를 제거할 수 있습니다
+![](bakers-legacy-interface.resources/bakers-legacy-interface-07.png)을 눌러 목록에서 굽기 프로세스를 제거할 수 있습니다
 
-베이킹 프로세스를 선택하고 ![](bakers-legacy-interface.resources/image2017-3-13-9-55-33.png)을(를) 사용하여 베이킹 프로세스 목록의 순서를 바꿀 수 있습니다
+베이킹 프로세스를 선택하고 ![](bakers-legacy-interface.resources/bakers-legacy-interface-08.png)을(를) 사용하여 베이킹 프로세스 목록의 순서를 바꿀 수 있습니다
 
 ### 3: 베이커 매개 변수
 
-![](bakers-legacy-interface.resources/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-09.png)
 
 이 섹션에는 현재 선택한 제빵사의 특정 옵션이 표시됩니다.
 
 ### 4: 공통 매개변수
 
-![](bakers-legacy-interface.resources/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-10.png)
 
 제빵사 간에 공유되는 매개 변수를 표시합니다.
 
@@ -82,4 +82,4 @@ ht-degree: 4%
 
 버전 6의 새로운 기능: 이제 취소 버튼을 사용하여 베이킹 프로세스를 취소할 수 있습니다.
 
-![](bakers-legacy-interface.resources/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/bakers-legacy-interface-11.png)

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프 만들기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </td>
   <td style="border: 0;" valign="top">
 
-  ![새 Substance 그래프 대화 상자 - 홈 화면에서 만들기](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "새 Substance 그래프 대화 상자 - 홈 화면에서 만들기"){zoomable="yes"}
+  ![새 Substance 그래프 대화 상자 - 홈 화면에서 만들기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-01.png "새 Substance 그래프 대화 상자 - 홈 화면에서 만들기"){zoomable="yes"}
 
   </td>
   </tr>
@@ -54,7 +54,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </td>
   <td style="border: 0;" valign="top">
 
-  ![새 Substance 그래프 대화 상자 - 탐색기에서 만들기](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "새 Substance 그래프 대화 상자 - 탐색기에서 만들기"){zoomable="yes"}
+  ![새 Substance 그래프 대화 상자 - 탐색기에서 만들기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-02.png "새 Substance 그래프 대화 상자 - 탐색기에서 만들기"){zoomable="yes"}
 
   </td>
   </tr>
@@ -65,12 +65,12 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  기본 도구 모음에서 ![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png) <b>새 Substance 그래프</b> 단추를 클릭합니다.
+  기본 도구 모음에서 ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-03.png) <b>새 Substance 그래프</b> 단추를 클릭합니다.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![새 Substance 그래프 대화 상자 - 기본 도구 모음에서 만들기](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "새 Substance 그래프 대화 상자 - 기본 도구 모음에서 만들기"){zoomable="yes"}
+  ![새 Substance 그래프 대화 상자 - 기본 도구 모음에서 만들기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-04.png "새 Substance 그래프 대화 상자 - 기본 도구 모음에서 만들기"){zoomable="yes"}
 
   </td>
   </tr>
@@ -86,7 +86,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainMenu.png)
+  ![](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-05.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
 
 새 Substance 그래프를 만드는 데 사용된 방법에 관계없이 항상 새 그래프를 구성할 수 있는 <b>새 Substance 그래프</b> 대화 상자가 표시됩니다.
 
-![새 Substance 그래프 대화 상자 - 재질](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "새 Substance 그래프 대화 상자 - 재질"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 재질](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-06.png "새 Substance 그래프 대화 상자 - 재질"){zoomable="yes"}
 
 ### 템플릿
 
@@ -139,7 +139,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 썸네일 카드](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "새 Substance 그래프 대화 상자 - 썸네일 카드")
+![새 Substance 그래프 대화 상자 - 썸네일 카드](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-07.png "새 Substance 그래프 대화 상자 - 썸네일 카드")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 모든 샘플은 [OpenPBR 재질 모델](../../interface/3d-view/material-properties/material-properties.md#openpbr)을 기반으로 합니다.
 
-![재질 샘플 - 홈 화면 배너](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "재질 샘플 - 홈 화면 배너"){zoomable="yes"}
+![재질 샘플 - 홈 화면 배너](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-08.png "재질 샘플 - 홈 화면 배너"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 </td>
 <td style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 템플릿 도구 설명](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "새 Substance 그래프 대화 상자 - 템플릿 도구 설명"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 템플릿 도구 설명](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-09.png "새 Substance 그래프 대화 상자 - 템플릿 도구 설명"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 보기 모드](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "새 Substance 그래프 대화 상자 - 보기 모드"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 보기 모드](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-10.png "새 Substance 그래프 대화 상자 - 보기 모드"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++보기 모드
-![새 Substance 그래프 대화 상자 - 축소판 보기](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "새 Substance 그래프 대화 상자 - 축소판 보기"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 축소판 보기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-11.png "새 Substance 그래프 대화 상자 - 축소판 보기"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 템플릿 유형의 미리보기 또는 아이콘을 제공하는 축소판이 있는 카드
 
-![새 Substance 그래프 대화 상자 - 목록 보기](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-list.png "새 Substance 그래프 대화 상자 - 목록 보기"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 목록 보기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-12.png "새 Substance 그래프 대화 상자 - 목록 보기"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 템플릿은 레이블로만 나열됩니다.
 
-![새 Substance 그래프 대화 상자 - 패키지 보기](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-packages.png "새 Substance 그래프 대화 상자 - 패키지 보기"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 패키지 보기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-13.png "새 Substance 그래프 대화 상자 - 패키지 보기"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 패키지 파일 항목에 마우스를 가져다 대어 전체 경로가 있는 도구 설명을 표시합니다.
 
-![새 Substance 그래프 대화 상자 - 디렉터리 보기](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-directories.png "새 Substance 그래프 대화 상자 - 디렉터리 보기"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 디렉터리 보기](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-14.png "새 Substance 그래프 대화 상자 - 디렉터리 보기"){zoomable="yes"}
 
 
 
@@ -252,7 +252,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 물음표 아이콘에 마우스를 가져다 대고 이 페이지로 바로 연결되는 버튼과 함께 도구 설명을 표시하면 필요에 따라 이 설명서를 다시 참조할 수 있습니다.
 
-![새 Substance 그래프 대화 상자 - 도움말 도구 설명](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipHelp.png "새 Substance 그래프 대화 상자 - 도움말 도구 설명"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 도움말 도구 설명](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-15.png "새 Substance 그래프 대화 상자 - 도움말 도구 설명"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 범주별 필터링](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "새 Substance 그래프 대화 상자 - 범주별 필터링"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 범주별 필터링](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-16.png "새 Substance 그래프 대화 상자 - 범주별 필터링"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 템플릿 범주 설정](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "새 Substance 그래프 대화 상자 - 템플릿 범주 설정"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 템플릿 범주 설정](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-17.png "새 Substance 그래프 대화 상자 - 템플릿 범주 설정"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![새 Substance 그래프 대화 상자 - 프로젝트 파일로 필터링](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "새 Substance 그래프 대화 상자 - 프로젝트 파일로 필터링"){zoomable="yes"}
+![새 Substance 그래프 대화 상자 - 프로젝트 파일로 필터링](creating-a-substance-compositing-graph.resources/creating-a-substance-compositing-graph-18.png "새 Substance 그래프 대화 상자 - 프로젝트 파일로 필터링"){zoomable="yes"}
 
 </td>
 </tr>
