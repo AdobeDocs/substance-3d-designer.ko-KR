@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
 description: 재질 색상 혼합 노드를 사용하여 복합 재질 효과를 만들기 위해 재질 간에 색상 채널을 혼합합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 재질 색상 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-color-blend.resources/material-color-blend-01.png){width="128px"}
+![](../../../../../../assets/material-color-blend.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 혼합
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 예를 들어 [금속/거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
+| <b>채널</b> | 예를 들어 [금속/거칠음] 대신 [Specular/광택도 맵]을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
 | <b>확산</b> |  |
 | <b>색상</b> <i>(색상 값)</i> | 확산 채널 위에서 혼합할 색상 값입니다. |
 | <b>불투명도</b> <i>0.0 - 1.0</i> | 전경과 배경 간 불투명도 혼합. |
@@ -75,8 +75,8 @@ ht-degree: 2%
 | <b>금속</b> | [확산] 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 혼합합니다. |
 | <b>Specular level</b> | [확산] 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 혼합합니다. |
 | <b>주변 오클루전</b> | [확산] 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 혼합합니다. |
-| <b>Height</b> | [확산] 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 혼합합니다. |
-| <b>불투명도</b> | [확산] 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 혼합합니다. |
+| <b>Height</b> | 혼합 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 확산 합니다. |
+| <b>불투명도</b> | 혼합 그룹에서와 같은 옵션을 사용하여 이 채널 위에 단색을 확산 합니다. |
 | <b>색상 ID 마스크</b> <i>거짓/참</i> | 회색 음영 마스크 대신 색상 ID 마스크를 사용합니다. 이 옵션은 한 가지 색상에만 적용됩니다!<br><br>아래 옵션을 모두 사용할 수 있습니다. |
 | <b>색상</b> <i>(색상 값)</i> | 선택하여 흰색으로 변환할 색상입니다. |
 | <b>허용량</b> <i>0.01 - 1.0</i> | 선택한 색상이 인접 색상으로 혼합되는 정도입니다. |

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
-description: 재질 혼합 노드를 사용하면 복합 재질 효과를 만드는 데 사용할 마스크를 사용하여 전체 재질을 혼합할 수 있습니다.
+description: '[재질] 혼합 노드를 사용하면 복합 재질 효과를 만드는 데 사용할 마스크를 사용하여 전체 재질을 혼합할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 재질 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-blend.resources/material-blend-01.png){width="128px"}
+![](../../../../../../assets/material-blend.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 혼합
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 설명
 
-재질 혼합은 [원자 혼합 노드](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)에 해당하는 다중 채널의 전체 재질 혼합입니다. 회색 음영 마스크를 기반으로 하거나 선택적으로 색상 ID 마스크의 단일 색상을 기반으로 두 가지 전체 재질(가능한 모든 채널)을 혼합합니다.
+재질 혼합은 [원자 혼합 노드](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)에 해당하는 다중 채널 전체 재질입니다. 회색 음영 마스크를 기반으로 하거나 선택적으로 색상 ID 마스크의 단일 색상을 기반으로 두 가지 전체 재질(가능한 모든 채널)을 혼합합니다.
 
-이 노드는 두 재질을 혼합하고 회색 음영 맵을 만들지만 전체 색상 ID는 베이킹하지 않으려는 경우에 유용합니다. 색상 ID 베이크가 있고 두 개 이상의 재질을 혼합하려는 경우 [다중 재질 혼합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)을 사용하는 것이 좋습니다.
+이 노드는 두 재질을 혼합하고 회색 음영 맵을 만들지만 전체 색상 ID는 베이킹하지 않으려는 경우에 유용합니다. Color ID 베이크가 있고 두 가지 이상의 재질을 혼합하려면 [다중 재질 혼합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)를 사용하는 것이 좋습니다.
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ ht-degree: 6%
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 예를 들어 [금속/거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
+| <b>채널</b> | 예를 들어 [금속/거칠음] 대신 [Specular/광택도 맵]을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
 | <b>확산</b> |  |
 | <b>불투명도</b> <i>0.0 - 1.0</i> | 전경과 배경 간 불투명도 혼합 |
 | <b>혼합 모드</b> <i>표준, 추가, 빼기, 곱하기, 추가/하위, 최대, 최소, 스위치</i> |  |
@@ -83,7 +83,7 @@ ht-degree: 6%
 | <b>Specular level</b> |  |
 | <b>불투명도</b> <i>0.0 - 1.0</i> | 전경과 배경 간 불투명도 혼합 |
 | <b>혼합 모드</b> <i>표준, 추가, 빼기, 곱하기, 추가/하위, 최대, 최소, 스위치</i> |  |
-| <b>주변 오클루전</b> |  |
+| <b>앰비언트 오클루전</b> |  |
 | <b>불투명도</b> <i>0.0 - 1.0</i> | 전경과 배경 간 불투명도 혼합 |
 | <b>혼합 모드</b> <i>표준, 추가, 빼기, 곱하기, 추가/하위, 최대, 최소, 스위치</i> |  |
 | <b>Height</b> |  |
