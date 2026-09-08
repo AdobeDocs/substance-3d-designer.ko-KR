@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ''
 description: '[표준] 노드를 사용하면 표면 세부 사항 및 조명을 제어하기 위한 표준 맵 텍스처를 처리하고 조작할 수 있습니다.'
 helpx_creative_field: ""
