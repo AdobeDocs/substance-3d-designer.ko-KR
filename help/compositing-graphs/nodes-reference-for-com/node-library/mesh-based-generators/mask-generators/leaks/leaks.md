@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
 breadcrumb-title: ''
 description: 누수 노드를 사용하여 메시 형상을 기반으로 물 얼룩과 유체 효과를 생성하는 누수 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 누출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks-01.png){width="128px"}
+![](../../../../../../assets/leaks.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 마스크 생성기
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 |:---|:---|
 | <b>위치</b> <i>회색 음영 입력</i> | 줄무늬 방향에 사용되는 구워진 위치 맵입니다. 필수! |
 | <b>곡률</b> <i>회색 음영 입력</i> | 줄무늬 배치에 사용되는 베이킹된 맵. 필수! |
-| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. 권장되지만 대신 플랫 화이트를 사용할 수 있습니다. |
+| <b>앰비언트 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. 권장되지만 대신 플랫 화이트를 사용할 수 있습니다. |
 | <b>일반 월드 공간</b> <i>색상 입력</i> | Baked World Space Normalmap, 줄무늬 연출에 사용됨. 필수! |
 | <b>변형 마스크</b> <i>회색 음영 입력</i> | 변형 마스크(선택 사항)는 재정의를 True로 설정하여 활성화합니다. |
 | <b>마스크(선택 사항)</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. |
@@ -74,7 +74,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-02.gif" />
+            <img src="../../../../../../assets/leaks-ex.gif" />
         </td>
     </tr>
 </table>
