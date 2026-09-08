@@ -58,6 +58,6 @@ Designer에는 각각 다른 목적을 가진 3개의 계층 또는 구성 파�
 1. <b>프로젝트 파일에 추가할 설정을 식별하고 그룹화합니다.</b> 이는 모든 스튜디오마다 다르며 어느 정도의 계획이 필요합니다!\
    대부분의 경우 최소한 두 개의 프로젝트가 정의되어야 합니다. 하나는 기본 템플릿, 셰이더 파일, 베이킹 설정과 같은 전역 스튜디오 전체 기본값용이고 다른 하나는 라이브러리 콘텐츠와 같은 더 구체적인 콘텐츠용입니다. 동시에 실행되는 서로 다른 프로젝트가 있는 경우 각각에 대해 여러 프로젝트 구성(총 3개 이상)을 만들 수 있습니다.
 1. <b>관련 [SBSPRJ 파일](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)을 만들고 해당 파일과 내용을 버전 제어 아래에 배치합니다.</b> *별도의 저장소*&#x200B;를 만들어 실제 프로젝트 콘텐츠 및 리소스(3D 모델, 텍스처, 코드)에서 Designer 파이프라인 및 라이브러리 콘텐츠를 분리하는 것이 좋습니다.
-1. <b>모든 프로젝트 파일을 나열하는 [ SBSCFG configuration](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) 파일을 만들고 버전 제어 아래에 둡니다</b>. 프로젝트가 여러 개인 경우에는 모든 프로젝트에 대해 구성을 만들 수 있습니다.
+1. <b>모든 프로젝트 파일을 나열하는 [&#x200B; SBSCFG configuration](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) 파일을 만들고 버전 제어 아래에 둡니다</b>. 프로젝트가 여러 개인 경우에는 모든 프로젝트에 대해 구성을 만들 수 있습니다.
 1. <b>모든 사용자의 [User\_Preferences.xml](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)을 관련 구성 파일을 참조하도록 설정합니다.</b>\
    모든 사용자가 이를 수동으로 수행하도록 하거나 XML 파일에 줄을 삽입하여 스크립트를 작성할 수 있습니다. [관련 페이지의 추가 정보](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md).
