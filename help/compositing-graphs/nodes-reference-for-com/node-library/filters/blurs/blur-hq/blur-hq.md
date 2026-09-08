@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## 설명
 
-결과에 고품질 가우시안 흐림 효과를 적용합니다. [표준 원자 상자 흐림 효과](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)보다 훨씬 좋은 품질
+결과에 고품질 가우시안 흐림 효과를 적용합니다. [표준 원자 상자 흐림 효과](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)보다 훨씬 좋은 품질
 
 중요: 입력에 적합한 버전을 사용해야 합니다. 색상 입력에는 &quot;Blur HQ&quot;를 사용하고 회색 음영 입력에는 &quot;Blur HQ Grayscale&quot;을 사용합니다.
 
