@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
 breadcrumb-title: ''
 description: 텍스처에서 3D와 같은 깊이 효과를 만들기 위해 높이 돌출 노드를 사용하여 Height 맵을 기반으로 모양을 돌출시킵니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 높이 돌출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-extrude.resources/height-extrude-01.png){width="200px"}
+![](../../../../../../assets/height-extrude.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 설명
 
-높이 돌출은 입력 높이 맵에서 3D Z 깊이를 렌더링합니다. [모양 돌출](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) 및 [큐브 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)와 마찬가지로 이 도구를 사용하면 2D 보기에서 카메라를 회전할 수 있습니다. 평면 높이 맵에서 3D 회전 모양을 만드는 제네레이터 역할을 하는 것이 주요 목표입니다. 그런 다음 이러한 모양을 [모양 튀김](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)과 함께 사용할 수 있습니다.
+높이 돌출이 입력 Height 맵에서 3D Z 깊이를 렌더링합니다. [모양 돌출](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) 및 [큐브 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)와 마찬가지로 이 도구를 사용하면 2D 보기에서 카메라를 회전할 수 있습니다. 평면 높이 맵에서 3D 회전 모양을 만드는 제네레이터 역할을 하는 것이 주요 목표입니다. 그런 다음 이러한 모양을 [모양 튀김](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md)과 함께 사용할 수 있습니다.
 
 [모양 돌출](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)의 주된 차이점은 입력 맵이 이진 &quot;알파&quot; 형식의 맵이 아니라 전체 범위의 회색 음영 맵이어야 한다는 것입니다. 즉, 돌출 Height(유기적이고 복잡한 모양)은 더 잘 제어할 수 있지만 경사 프로파일(단단한 표면, 단순한 모양)은 제어할 수 없습니다.
 

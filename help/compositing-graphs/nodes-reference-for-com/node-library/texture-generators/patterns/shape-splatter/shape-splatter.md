@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
-description: 모양 스플래터 노드를 사용하여 절차 패턴과 세부 사항을 만들기 위해 텍스처 간에 모양을 산란 합니다.
+description: 모양 튄 노드를 사용하여 텍스처 간에 모양을 산란 하면 프로시저 패턴 및 세부 정보를 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 튀김
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter.resources/shape-splatter-01.png){width="128px"}
+![](../../../../../../assets/shape-splatter.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -33,9 +33,9 @@ ht-degree: 7%
 
 ## 설명
 
-함께 제공되는 노드 [모양 튄 혼합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [모양 튄 마스크](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) 및 [모양 튄 데이터 추출](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md)과 함께 사용하도록 설계된 매우 복잡한 노드입니다. [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)와 유사한 다단계 시스템을 통해 [타일 Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) 또는 [생성기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)와 유사한 방식으로, 그러나 모든 단계를 제어할 수 있는 동적이고 비파괴적인 프로세스를 통해 모양을 튀기는 데 사용됩니다. Flood Fill이 외부 소스에서 기본 입력 맵을 가져오는 반면, 모양 스플래터는 [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)의 고급 버전처럼 맵과 후속 데이터를 한 번에 생성합니다.
+함께 제공되는 노드 [모양 튄 혼합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [마스킹할 모양 튄 노드](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) 및 [모양 튄 데이터 추출](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md)과 함께 사용하도록 설계된 매우 복잡한 노드입니다. [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)와 유사한 다단계 시스템을 통해 [타일 Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) 또는 [생성기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)와 유사한 방식으로, 그러나 모든 단계를 제어할 수 있는 동적이고 비파괴적인 프로세스를 통해 모양을 튀기는 데 사용됩니다. Flood Fill이 외부 소스에서 기본 입력 맵을 가져오는 반면, 모양 스플래터는 [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)의 고급 버전처럼 맵과 후속 데이터를 한 번에 생성합니다.
 
-주요 목적은 Height 맵에 모양을 배치할 수 있도록 하고 그 위에 있는 모양을 배치한 다음 스플래터 데이터에서 다양한 맵을 생성하는 것입니다. 예를 들어 풍경에 바위, 잔가지, 나뭇잎 등을 배치합니다. 그런 다음 서로 다른 맵을 Height, 표준, 기본 색상, 거칠기 및 기타 채널에 사용할 수 있으며 모든 맵은 여전히 동일한 공유 스플래터 데이터를 기반으로 합니다.
+주요 목적은 높이 맵에 모양을 배치할 수 있도록 한 다음 스플래터 데이터에서 다양한 맵을 생성하는 것입니다. 예를 들어 풍경에 바위, 잔가지, 나뭇잎 등을 배치합니다. 그런 다음 서로 다른 맵을 Height, 표준, 기본 색상, 거칠기 및 기타 채널에 사용할 수 있으며 모든 맵은 여전히 동일한 공유 스플래터 데이터를 기반으로 합니다.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ ht-degree: 7%
 | <b>회전</b> |  |
 | <b>회전</b> <i>0.0 - 1.0</i> | 모든 타일을 전역적으로 회전합니다. |
 | <b>회전 무작위</b> <i>0.0 - 1.0</i> | 타일당 임의로 회전합니다. |
-| <b>배경에서 회전 경사</b> <i>0.0 - 1.0</i> | [배경 맵 경사] (계산된 표준)를 사용하여 타일을 회전합니다. 경사 위나 아래를 가리키는 모양을 만드는 데 사용할 수 있습니다. |
+| <b>배경에서 회전 경사</b> <i>0.0 - 1.0</i> | [배경 맵 경사](계산된 표준)를 사용하여 타일을 회전합니다. 경사 위나 아래를 가리키는 모양을 만드는 데 사용할 수 있습니다. |
 | <b>회전 맵 승수</b> <i>0.0 - 1.0</i> | 타일 단위 회전에 대한 회전 맵 효과의 혼합. |
 | <b>벡터 맵 멀티플라이어</b> <i>0.0 - 1.0</i> | 타일 단위 회전에 대한 회전 맵 효과의 혼합. |
 | <b>Height</b> |  |
@@ -109,4 +109,4 @@ ht-degree: 7%
 | <b>마스킹</b> |  |
 | <b>무작위 마스크</b> <i>0.0 - 1.0</i> | 타일을 임의로 숨깁니다. 이 값이 높을수록 타일이 더 많이 사라집니다. |
 | <b>마스크 무작위 맵 승수</b> <i>0.0 - 1.0</i> | 타일 숨기기를 시작할 때 마스크 맵을 검색합니다. |
-| <b>배경에서 마스크 경사</b> <i>-1.0 - 1.0</i> | [배경 맵 경사] (계산된 표준)를 사용하여 타일을 숨깁니다. |
+| <b>배경에서 마스크 경사</b> <i>-1.0 - 1.0</i> | [배경 맵 경사](계산된 표준)를 사용하여 타일을 숨깁니다. |
