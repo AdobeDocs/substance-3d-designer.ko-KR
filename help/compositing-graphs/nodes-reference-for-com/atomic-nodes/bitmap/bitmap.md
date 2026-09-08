@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ''
-description: 비트맵 노드를 사용하여 비트맵 이미지를 가져와 Substance 합성 그래프의 텍스처로 사용할 수 있습니다.
+description: 비트맵 텍스처를 사용하여 비트맵 이미지를 가져와 Substance 합성 그래프의 노드로 사용할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비트맵
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 비트맵](../../../../assets/comp_bitmap.png "Atomic node: 비트맵"){width="200px"}
+![Atomic node: 비트맵](bitmap.resources/comp_bitmap.png "Atomic node: 비트맵"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -72,7 +72,7 @@ ht-degree: 1%
 > * 비트맵 노드는 색상이나 회색 음영을 반환할 수 있지만 리소스가 회색 음영 비트맵인 경우에도 기본적으로 색상이 사용됩니다. 이는 그래프 성능과 복잡성에 영향을 줄 수 있으므로 필요한 경우 항상 &#39;회색 음영&#39; [색상 모드](#parameters)로 전환해야 합니다.
 > * 비트맵 노드를 삭제해도 [패키지](../../../../glossary/glossary.md)에서 [비트맵 리소스](../../../../resources/bitmap-resource/bitmap-resource.md)은(는) 삭제되지 않으며 [탐색기](../../../../interface/the-explorer-window/the-explorer-window.md)에서 수동으로 삭제해야 합니다.
 > * 반면에 탐색기에서 [비트맵 리소스](../../../../resources/bitmap-resource/bitmap-resource.md)을 삭제할 때는 주의해야 합니다. 이 리소스는 캐시에 유지되므로 해당 세션의 그래프에서 계속 작동하지만 다음에 [패키지](../../../../glossary/glossary.md)를 로드할 때 리소스가 누락된 것으로 표시됩니다.
-> * Substance 그래프가 [조리](../../../../glossary/glossary.md)되면 비트맵 해상도는 원래 크기를 기반으로 하지 않고 그래프 내의 해상도로 고정됩니다. 비트맵 노드의 &#39;Output size&#39; [기본 매개 변수](../../../../glossary/glossary.md)이(가) &#39;Absolute&#39; [상속 메서드](../../../../glossary/glossary.md)을(를) 사용하고, 노드 뒤에 &#39;Relative to parent&#39;로 설정된 [Transform 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드(즉, 호스트 그래프의 해상도)를 사용하는 것이 좋습니다.
+> * Substance 그래프가 [조리](../../../../glossary/glossary.md)되면 비트맵 해상도는 원래 크기를 기반으로 하지 않고 그래프 내의 해상도로 고정됩니다. 비트맵 노드의 &#39;출력 크기&#39; [기본 매개 변수](../../../../glossary/glossary.md)에서 &#39;Absolute&#39; [상속 방법](../../../../glossary/glossary.md)을 사용하고, 노드 뒤에 [노드를 D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)(상대 부모)로 설정)(즉, 호스트 그래프의 해상도)하도록 설정하는 것이 좋습니다.
 
 <table>
 <tr style="border: 0;">
