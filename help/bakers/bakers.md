@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 베이커를 사용하여 메시 기반 정보를 텍스처 파일로 계산하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 굽기에 대해 자세히 알아보려면 [굽기 설명서](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)를 살펴보세요.
+> 굽기에 대해 자세히 알아보려면 [굽기 설명서](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/home)를 살펴보세요.
 
 <table>
 <tr style="border: 0;">
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ### HD 메시
 
-이 패널은 하이 폴리 메쉬 목록 및 관련 설정을 제어합니다. 자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
+이 패널은 하이 폴리 메쉬 목록 및 관련 설정을 제어합니다. 자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
 
 ![HD 메시](bakers.resources/sd-high.png "HD 메시")
 
 ### 기본값
 
-자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
+자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
 
 ![기본값](bakers.resources/sd-default-values.png "기본값")
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 목록에서 베이커를 클릭하면 베이커 매개변수 보기가 특정 매개변수로 업데이트됩니다.
 
-특정 매개 변수에 대한 자세한 내용은 [베이커 설정](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)을 참조하세요.
+특정 매개 변수에 대한 자세한 내용은 [베이커 설정](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/bakers-settings)을 참조하세요.
 
 ![베이커 렌더링 목록](bakers.resources/sd-baker-list.png "베이커 렌더링 목록")
