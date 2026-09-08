@@ -1,7 +1,7 @@
 ---
 title: 모양 튀김 v2
 description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > 생성기 > 패턴 > 모양 스프터 v2
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![모양 스플래터 v2 아이콘](shape-splatter-v2.resources/shape-splatter-v2-01.png "모양 스플래터 v2")
+![모양 스플래터 v2 아이콘](shape-splatter-v2.resources/shape-splatter-v2.png "모양 스플래터 v2")
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -84,8 +84,8 @@ ht-degree: 0%
 | <b>Splatter UVW</b> | <b>R</b> - 모양의 UV 구성 요소<br><b>G</b> - 모양의 UV 구성 요소<br><b>B</b> - 모양의 Height. (W)<br><b>A</b> - 압축된 데이터:<br> - <i>정수 부분:</i> 모양의 고유 식별자입니다. (ID)<br> - <i>분수 부분:</i>은(는) <b>모양 유형</b>에 따라 다릅니다. 재질 ID(SDF/기본 형식인 경우), 패턴 ID*(패턴 입력/그리드 아틀라스인 경우).<br><br><b>*:</b> 패턴 ID는 목록/아틀라스에 있는 모양의 인덱스입니다. |
 | <b>스플래터 데이터 1</b> | <b>R</b> - 개체 공간에서 모양 표면상의 위치의 X 구성 요소입니다.<br><b>G</b> - 개체 공간에서 모양 표면상의 위치의 Y 구성 요소입니다.<br><b>B</b> - 개체 공간에서 모양 표면상의 위치의 Z 구성 요소입니다.<br><b>A</b> - 압축된 데이터:<br> - <i>정수 부분:</i> 데이터 2/3 출력에서 모양의 데이터에 대한 UV 좌표의 U 구성 요소입니다.<br> - <i>분수 부분:</i> 데이터 2/3 출력의 모양 데이터에 대한 UV 좌표의 V 구성 요소입니다.<br> - <i>서명:</i> 모양을 배경 Height과 혼합하기 위한 이진 마스크입니다. |
 | <b>스플래터 데이터 2</b> | <b>R</b> - 모양의 3D 회전의 X 구성 요소.<br><b>G</b> - 모양의 3D 회전의 Y 구성 요소.<br><b>B</b> - 모양의 3D 회전의 Z 구성 요소.<br><b>A</b> - 모양의 회전이 정상적으로 이루어집니다.<br><br>모든 회전은 회전 수로 정의됩니다. |
-| <b>스플래터 데이터 3</b> | <b>R</b> - 셰이프 위치의 X 구성 요소입니다.<br><b>G</b> - 셰이프 위치의 Y 구성 요소입니다.<br><b>B</b> - 셰이프의 균형을 유지합니다.<br><b>A</b> - 압축된 데이터:<br> - <i>정수 부분:</i> 셰이프의 고유 식별자입니다.<br> - <i>분수 부분:</i>원본 아틀라스에 있는 도형 패턴의 인덱스입니다. 그리드 아틀라스 패턴 유형을 사용하는 경우 |
-| <b>스플래터 데이터 4</b> | <i>픽셀 1</i><br><b>R</b> - 데이터 2/3 출력 이미지의 X 크기<br><b>G</b> - 데이터 2/3 출력 이미지의 Y 크기<br><b>B</b> - 데이터 4 출력 이미지의 X 크기<br><b>A</b> - 데이터 4 출력 이미지의 Y 크기.<br><br><i>픽셀 2</i><br><b>R</b> - 모양 유형입니다. (E.g. 큐브, 원통, ...)<br><b>G</b> - 압축된 데이터:<br> - <i>절대 값:</i> 패턴 입력 번호입니다.<br> - <i>서명:</i> 출력 표준 맵의 표준 형식입니다. (양수: DirectX/음수: OpenGL)<br><b>B</b> - 그리드 아틀라스의 X 크기. (즉, 열의 양)<br><b>A</b> - 그리드 아틀라스의 Y 크기입니다. (예: 행의 양) |
+| <b>스플래터 데이터 3</b> | <b>R</b> - 도형 위치의 X 구성 요소입니다.<br><b>G</b> - 도형 위치의 Y 구성 요소입니다.<br><b>B</b> - 도형의 오프셋은 정규입니다.<br><b>A</b> - 압축된 데이터:<br> - <i>정수 부분:</i> 도형의 고유 식별자.<br> - <i>분수 부분:</i>원본 아틀라스에 있는 도형 패턴의 인덱스입니다. 그리드 아틀라스 패턴 유형을 사용하는 경우 |
+| <b>스플래터 데이터 4</b> | <i>픽셀 1</i><br><b>R</b> - 데이터 2/3 출력 이미지의 X 크기<br><b>G</b> - 데이터 2/3 출력 이미지의 Y 크기<br><b>B</b> - 데이터 4 출력 이미지의 X 크기<br><b>A</b> - 데이터 4 출력 이미지의 Y 크기.<br><br><i>픽셀 2</i><br><b>R</b> - 모양 유형입니다. (E.g. 큐브, 원통, ...)<br><b>G</b> - 압축된 데이터:<br> - <i>절대 값:</i> 패턴 입력 번호입니다.<br> - <i>서명:</i> 출력 노멀 맵의 표준 형식입니다. (양수: DirectX/음수: OpenGL)<br><b>B</b> - 그리드 아틀라스의 X 크기. (즉, 열의 양)<br><b>A</b> - 그리드 아틀라스의 Y 크기입니다. (예: 행의 양) |
 
 <a name="parameters"></a>
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 |                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>위치 분포 모드</b> *정수* | 공간에 모양을 배포하는 방법:<br><br>- <b>2D 격자:</b> 단순한 균일 격자.<br>- <b>포아송 디스크:</b> 사용 가능한 공간을 사용하는 동안 겹치지 않도록 격자의 셀을 임의로 오프셋하는 것을 목표로 하는 시뮬레이션입니다.<br>- <b>균일:</b> 지정된 수의 모양에 대한 균일 분포입니다. 더 많은 계산 작업이 필요합니다.<br>- <b>사용자 지정 함수:</b> 함수의 분포를 정의하는 함수 그래프를 작성하십시오. 사용 가능한 변수는 노드 설명에 나열됩니다. |
-| <b>위치 함수</b> *Float2* | 모양의 분포를 정의하는 데 사용되는 함수 그래프입니다.<br><br>그래프는 이미지에서 모양의 XY 정규화된 위치에 대한 Float2 값을 출력합니다.<br><br>사용 가능한 변수:<br> - <code>shape.id</code> (부동) 모양의 고유 식별자입니다.<br> - <code>모양.양</code> (Float) <b>Amount</b> 매개 변수로 지정된 모양의 양입니다. |
+| <b>위치 함수</b> *부동2* | 모양의 분포를 정의하는 데 사용되는 함수 그래프입니다.<br><br>그래프는 이미지에서 모양의 XY 정규화된 위치에 대한 부동2 값을 출력합니다.<br><br>사용 가능한 변수:<br> - <code>shape.id</code> (부동) 모양의 고유 식별자입니다.<br> - <code>모양.양</code> (Float) <b>Amount</b> 매개 변수로 지정된 모양의 양입니다. |
 | <b>X 양</b> *정수* | 분포 눈금선에 있는 열의 양입니다.<br><br>즉, X축에서 생성된 모양의 양입니다. |
 | <b>Y 양</b> *정수* | 분포 표의 행 수<br><br>즉, Y축에서 생성된 도형의 양입니다. |
 | <b>금액</b> *정수* | 생성된 모양의 양입니다. |
@@ -111,7 +111,7 @@ ht-degree: 0%
 | <b>모양 돌출 샘플</b> *정수* | 입력 패턴의 돌출을 그리기 위해 수행되는 샘플의 양입니다.<br><br>많은 양은 일부 성능을 희생하면서 더 부드럽고 더 정의된 돌출을 만듭니다. |
 | <b>패턴 함수</b> *부동* | 3D 평면 SDF에 매핑된 패턴을 계산하는 데 사용되는 작성된 Substance 함수 그래프입니다.<br><br>이러한 패턴은 <b>모양 돌출 사용</b>을 사용하여 돌출할 수도 있습니다. |
 | <b>패턴 SDF 함수</b> *부동* | 공간에서 3D 개체의 표면을 설명하는 부호 있는 거리 필드(SDF)를 작성하는 Substance 함수 그래프입니다.<br><br>라이브러리에서 [SDF 함수](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)의 기본 제공 컬렉션을 검색하여 사용 가능한 <i>연산자</i> 및 <i>변형</i>을 사용하여 여러 SDF <i>프리미티브</i>를 결합하여 복잡한 개체를 제작합니다.<br><br>SDF 모양은 완전히 프로시저가며 동적으로 조정할 수 있으므로 흩어져 있는 각 모양이 <i>고유</i>되도록 설정할 수 있습니다.<br><br>SDF 함수 결과를 시각화하려면 [3D 뷰어](../../../filters/effects/3d-viewer/3d-viewer.md) 노드를 사용하세요.<br><br><i>참고:</i> SDF 함수에 임의성을 적용하려면 &#39;무작위&#39;가 아닌 [해시](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#random) 노드를 사용하세요. |
-| <b>SDF 경계 프레임 크기</b> *부동3* | SDF 모양의 최대 테두리 상자(Bbox) 크기를 정의하며, 이 크기는 2D Bbox를 계산하는 데 사용됩니다.<br><br>모양은 2D Bbox 테두리 내에서만 그려지고 나머지는 트리밍됩니다. |
+| <b>SDF 경계 프레임 크기</b> *Float3* | SDF 모양의 최대 테두리 상자(Bbox) 크기를 정의하며, 이 크기는 2D Bbox를 계산하는 데 사용됩니다.<br><br>모양은 2D Bbox 테두리 내에서만 그려지고 나머지는 트리밍됩니다. |
 | <b>컷아웃 사용</b> *부울* | <b>컷아웃 임계값</b> 아래의 모든 값을 무시하는 패턴 트리밍을 전환합니다. 이렇게 하면 원하는 패턴 실루엣만 사용됩니다. |
 | <b>컷아웃 임계값</b> *부동* | 패턴 값이 트리밍되는 회색 음영 값입니다. 즉, 패턴의 실루엣에 대한 경계로 사용되는 값입니다. |
 | <b>정규화된 워크플로</b> *부울* | 켜짐 인 경우 모양의 Height을 자동으로 조정하여 크기를 늘리거나 줄일 때 <i>원래 비율을 유지합니다</i>.<br><br>끄면 도형의 Height이 원래 비율과 관계없이 이미지의 전체 Height 범위로 표시됩니다.<br><br>모양 Height은 <b>Height 비율</b> 매개 변수를 사용하여 수동으로 조정할 수 있습니다. |
@@ -145,8 +145,8 @@ ht-degree: 0%
 | <b>표준을 따르는 오프셋</b> *부동* | 법선(즉, 로컬 Z축)을 따라 모양을 변위합니다. |
 | <b>보통 무작위 오프셋</b> *부동* | 모양에 표준선을 따라 임의의 양의 변위를 추가합니다.<br><br>지정된 값까지 임의의 양이 양수 또는 음수이거나 음수일 수 있습니다. |
 | <b>벡터 맵 변위</b> *부동* | <b>벡터 맵</b>의 RGB 값을 모양의 XYZ 좌표에 각각 추가하여 모양에 적용된 변위의 요소입니다.<br><br>변위는 이미지의 가장 긴 변의 인자로 표시됩니다.<br>예: RGB 값(0.5, 0.5, 0)은 X축과 Y축을 따라 크기의 절반으로 모양을 변위합니다.<br><br>매개 변수 값 1.0은 전체 값이 추가되었음을 의미합니다. |
-| <b>벡터 변위 멀티플라이어</b> *Float3* | <b>벡터 맵 변위</b>을(를) 축당 별도의 계수로 조정합니다. 여기서 0.0은 해당 축에 적용되는 변위가 없음을 의미합니다. |
-| <b>전역 오프셋</b> *Float2* | 각 모양의 위치에 적용된 오프셋 <i>after</i> 모든 Height 오프셋, 임의 오프셋 및 기타 변위가 적용됩니다.<br><br>이것은 이 매개 변수를 사용하여 모양을 이동하면 위치, 방향 및 크기가 수정되지 않는다는 것을 의미합니다. |
+| <b>벡터 변위 멀티플라이어</b> *부동3* | <b>벡터 맵 변위</b>을(를) 축당 별도의 계수로 조정합니다. 여기서 0.0은 해당 축에 적용되는 변위가 없음을 의미합니다. |
+| <b>전역 오프셋</b> *부동2* | 각 모양의 위치에 적용된 오프셋 <i>after</i> 모든 Height 오프셋, 임의 오프셋 및 기타 변위가 적용됩니다.<br><br>이것은 이 매개 변수를 사용하여 모양을 이동하면 위치, 방향 및 크기가 수정되지 않는다는 것을 의미합니다. |
 | <b>선 위치 오프셋</b> *부동* | <b>선 위치 오프셋 모드</b>에 따라 격자의 모양 선에 적용되는 오프셋입니다. |
 | <b>선 위치 오프셋 모드</b> *정수* | 도형에 <b>선 위치 오프셋</b>을 적용하는 방법입니다.<br><br>모든</b> 메서드는 이미지의 가장 긴 쪽(즉 텍스처 공간에서)에 대한 인수로 오프셋을 적용합니다.<br>- <b>모두 - 가로:</b> 행 인덱스의 인수로 오프셋 값을 행별 가로로 점진적으로 추가합니다.<br>- <b>모두 - 세로:</b> 열 인덱스의 인수로 오프셋 값을 열별 세로로 점진적으로 추가합니다.<b><br><br>Quincunx</b> 메서드는 모양의 셀 크기에 대한 인수로 오프셋을 적용합니다.<br>- <b>Quincunx - Horizontal:</b> 오프셋 값을 다른 행마다 균일하게 추가합니다.<br>- <b>Quincunx - Vertical:</b> 오프셋 값을 다른 열마다 균일하게 추가합니다.<b> |
 | <b>피벗 위치(로컬)</b> *Float3* | 모양의 로컬 공간에서 피벗의 위치를 조정하며, 이는 변형의 원점에 영향을 줍니다. (예: 위치 오프셋, 회전 및 크기 조절)<br><br>예를 들어, Z 피벗 위치를 조정하여 모양을 기준선을 중심으로 회전시킵니다. |
@@ -174,29 +174,29 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>포아송 분포</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>포아송 분포</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>균일 분포</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>균일 분포</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>밀도 맵</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>임의 3D 회전</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>경사 회전</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>모양 돌출</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>밀도 맵</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>3D SDF 모양</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>임의 3D 회전</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>경사 회전</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>모양 돌출</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>3D SDF 모양</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

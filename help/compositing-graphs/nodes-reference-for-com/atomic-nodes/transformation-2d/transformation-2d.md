@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: 변환 2D 노드를 사용하여 평행 이동, 회전 및 비율 조정을 비롯한 2D 변환을 텍스처에 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 변환
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 변환 2D](transformation-2d.resources/transformation-2d-01.png "Atomic node: 변환 2D"){width="200px"}
+![Atomic node: 변환 2D](../../../../assets/comp_transformation_1.png "Atomic node: 변환 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 5%
 > 
 > &#39;타일링 모드&#39; [기본 매개 변수](../../../../glossary/glossary.md)의 [상속 메서드](../../../../glossary/glossary.md)를 &#39;절대&#39;로 설정한 다음 매개 변수 값을 &#39;타일링 없음&#39;으로 설정할 수 있습니다.
 > 
-> ![](transformation-2d.resources/transformation-2d-02.png)
+> ![](../../../../assets/tilingmode.png)
 
 >[!NOTE]
 >

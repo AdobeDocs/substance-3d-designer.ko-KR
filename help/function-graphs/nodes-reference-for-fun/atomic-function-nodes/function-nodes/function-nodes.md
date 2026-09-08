@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 함수 노드에 액세스하여 사용자 정의 함수 그래프를 호출하고 실행합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 함수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -27,7 +27,7 @@ ht-degree: 5%
 ## 노드 목록
 
 +++Pow
-![Pow 노드 아이콘](function-nodes.resources/function-nodes-01.jpg "Pow 노드 아이콘")
+![Pow 노드 아이콘](../../../../assets/Pow_Node.jpg "Pow 노드 아이콘")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2Pow 노드 아이콘](function-nodes.resources/function-nodes-02.jpg "2Pow 노드 아이콘")
+![2Pow 노드 아이콘](../../../../assets/2Pow_Node.jpg "2Pow 노드 아이콘")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++제곱근
-![정사각형 루트 노드 아이콘](function-nodes.resources/function-nodes-03.jpg "정사각형 루트 노드 아이콘")
+![정사각형 루트 노드 아이콘](../../../../assets/SquareRoot_Node.jpg "정사각형 루트 노드 아이콘")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++지수
-![지수 노드 아이콘](function-nodes.resources/function-nodes-04.jpg "지수 노드 아이콘")
+![지수 노드 아이콘](../../../../assets/Exponential_Node.jpg "지수 노드 아이콘")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++대수
-![로그 노드 아이콘](function-nodes.resources/function-nodes-05.jpg "로그 노드 아이콘")
+![로그 노드 아이콘](../../../../assets/Logarithm_Node.jpg "로그 노드 아이콘")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++밑이 2인 로그
-![로그 기본 2 노드 아이콘](function-nodes.resources/function-nodes-06.jpg "로그 기본 2 노드 아이콘")
+![로그 기본 2 노드 아이콘](../../../../assets/LogarithmBase2_Node.jpg "로그 기본 2 노드 아이콘")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++절대치
-![절대 노드 아이콘](function-nodes.resources/function-nodes-07.jpg "절대 노드 아이콘")
+![절대 노드 아이콘](../../../../assets/Absolute_Node.jpg "절대 노드 아이콘")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 +++
 
 +++상한
-![Ceil 노드 아이콘](function-nodes.resources/function-nodes-08.jpg "Ceil 노드 아이콘")
+![Ceil 노드 아이콘](../../../../assets/Ceil_Node.jpg "Ceil 노드 아이콘")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 +++
 
 +++내림
-![플로어 노드 아이콘](function-nodes.resources/function-nodes-09.jpg "플로어 노드 아이콘")
+![플로어 노드 아이콘](../../../../assets/Floor_Node.jpg "플로어 노드 아이콘")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 +++
 
 +++선형 보간
-![선형 보간 노드 아이콘](function-nodes.resources/function-nodes-10.jpg "선형 보간 노드 아이콘")
+![선형 보간 노드 아이콘](../../../../assets/LinearInterpolation_Node.jpg "선형 보간 노드 아이콘")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++최소
-![최소 노드 아이콘](function-nodes.resources/function-nodes-11.jpg "최소 노드 아이콘")
+![최소 노드 아이콘](../../../../assets/Minimum_Node.jpg "최소 노드 아이콘")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++최대
-![최대 노드 아이콘](function-nodes.resources/function-nodes-12.jpg "최대 노드 아이콘")
+![최대 노드 아이콘](../../../../assets/Maximum_Node.jpg "최대 노드 아이콘")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++코사인
-![코사인 노드 아이콘](function-nodes.resources/function-nodes-13.jpg "코사인 노드 아이콘")
+![코사인 노드 아이콘](../../../../assets/Cosine_Node.jpg "코사인 노드 아이콘")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++사인
-![사인 노드 아이콘](function-nodes.resources/function-nodes-14.jpg "사인 노드 아이콘")
+![사인 노드 아이콘](../../../../assets/Sine_Node.jpg "사인 노드 아이콘")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++탄젠트
-![접선 노드 아이콘](function-nodes.resources/function-nodes-15.jpg "접선 노드 아이콘")
+![접선 노드 아이콘](../../../../assets/Tangent_Node.jpg "접선 노드 아이콘")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++아크탄젠트 2
-![아크 탄젠트 2 노드 아이콘](function-nodes.resources/function-nodes-16.jpg "아크 탄젠트 2 노드 아이콘")
+![아크탄젠트 2 노드 아이콘](../../../../assets/ArcTangent2_Node.jpg "아크탄젠트 2 노드 아이콘")
 
 
 
@@ -177,20 +177,20 @@ ht-degree: 5%
 +++
 
 +++데카르트식
-![절대 노드 아이콘](function-nodes.resources/function-nodes-07.jpg "절대 노드 아이콘")
+![절대 노드 아이콘](../../../../assets/Absolute_Node.jpg "절대 노드 아이콘")
 
 
 
 극좌표를 직교좌표로 변환합니다.
 
-<b>Arc tangent 2 </b>함수의 역수입니다. <b>Length \* Float2(cos(Angle), sin(Angle).</b>
+<b>Arc tangent 2 </b>함수의 역수입니다. <b>길이 \* 부동2(cos(각도), sin(각도).</b>
 
 극좌표는 원점으로부터의 거리와 수평으로부터의 라디안 각도입니다.
 
 +++
 
 +++임의
-![임의 노드 아이콘](function-nodes.resources/function-nodes-17.jpg "임의 노드 아이콘")
+![임의 노드 아이콘](../../../../assets/Random_Node.jpg "임의 노드 아이콘")
 
 
 

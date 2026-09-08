@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 다양한 미리 보기 품질과 성능을 위해 3D 보기에서 래스터라이저와 패스파트레서 렌더러 중 하나를 선택합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 렌더러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 패스트레이서</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -73,7 +73,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 >[!TIP]
 >
-> 프로젝트 설정[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)의 &quot;3D 보기&quot; 섹션에서 새 3D 보기를 시작할 때 기본적으로 사용되는 렌더러를 선택할 수 있습니다.
+> 프로젝트 설정](../../../interface/preferences-window/project-settings/project-settings.md)의 [&quot;3D 보기&quot; 섹션에서 새 3D 보기를 시작할 때 기본적으로 사용되는 렌더러를 선택할 수 있습니다.
 
 <a name="rasterizer"></a>
 
@@ -111,7 +111,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 +++
 
-![래스터라이저 - 예 1](3d-renderers.resources/3d-renderers-04.jpg "래스터라이저 - 예 1"){zoomable="yes"}
+![래스터라이저 - 예 1](../../../assets/3dRendererRasterizer.jpg "래스터라이저 - 예 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 +++
 
-![GPU 경로 추적기 - 예 1](3d-renderers.resources/3d-renderers-05.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
+![GPU 경로 추적기 - 예 1](../../../assets/3dRendererPathtracer.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -178,7 +178,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 <b>테셀레이션 + 변위</b> - 형상을 세분화하고 정점을 표준을 따라 배치합니다.
 
-Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
+Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
 
 +++
 
@@ -296,4 +296,4 @@ Designer에서는 OpenGL 렌더러 [GLSLFX 파일 사용](../../../interface/3d-
 > 
 > 이 렌더러는 **사용되지 않음**&#x200B;입니다. 새 기능을 받지 않으며 이후 버전의 Designer에서 중단됩니다.
 
-![OpenGL - 예 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - 예 1"){zoomable="yes"}
+![OpenGL - 예 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - 예 1"){zoomable="yes"}

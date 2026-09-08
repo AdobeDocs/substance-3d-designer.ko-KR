@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 환경 설정 창에 액세스하여 애플리케이션 설정 및 비헤이비어를 사용자 정의합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 환경 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 환경 설정 창
 
-![환경 설정 창](preferences-window.resources/preferences-window-01.png "환경 설정 창")
+![환경 설정 창](../../assets/image2021-6-22-20-56-1.png "환경 설정 창")
 
 이 페이지에는 <b>환경 설정</b> 창과 모든 설정이 표시됩니다.
 
@@ -157,14 +157,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![직접 편집 사용 안 함](preferences-window.resources/preferences-window-02.gif "직접 편집 사용 안 함")
+![직접 편집 사용 안 함](../../assets/substance3ddesigner_incontext_no.gif "직접 편집 사용 안 함")
 
 *참조 열기*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![직접 편집 사용](preferences-window.resources/preferences-window-03.gif "직접 편집 사용")
+![직접 편집 사용](../../assets/substance3ddesigner_incontext_yes.gif "직접 편집 사용")
 
 *컨텍스트에서 참조 열기*
 
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>GPU 광선 추적</b>  *기본값: 선택됨* | 선택하면 [호환 베이커](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/features/gpu-raytracing)에 대해 GPU에서 광선 추적이 수행됩니다.   다음 GPU 광선 추적 백엔드가 NVIDIA GPU 아키텍처에 따라 기본값이 됩니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: 튜링 이상</li> <li data-preserve-html="true"><i>옵션</i>: Pascal 및 Maxwell</li> </ul>  **참고:** GPU 기반 베이커에 대한 자세한 내용은 [Substance 베이커](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/home) 설명서의 [GPU 광선 추적](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/features/gpu-raytracing) 섹션에서 확인할 수 있습니다.  **팁:** 응용 프로그램을 시작할 때 다음 *명령줄 인수*&#x200B;를 사용하여 다른 GPU 광선 추적 백엔드를 *강제*&#x200B;할 수 있습니다. <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Nvidia 튜링 또는 이후 GPU에서 Optix 강제 사용</li> <li data-preserve-html="true"><code>—force-dxr</code> : Nvidia Pascal GPU의 DXR 강제 사용</li> </ul> |
+| <b>GPU 광선 추적</b>  *기본값: 선택됨* | 선택하면 [호환 베이커](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)에 대해 GPU에서 광선 추적이 수행됩니다.   다음 GPU 광선 추적 백엔드가 NVIDIA GPU 아키텍처에 따라 기본값이 됩니다.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>: 튜링 이상</li> <li data-preserve-html="true"><i>옵션</i>: Pascal 및 Maxwell</li> </ul>  **참고:** GPU 기반 베이커에 대한 자세한 내용은 [Substance 베이커](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) 설명서의 [GPU 광선 추적](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) 섹션에서 확인할 수 있습니다.  **팁:** 응용 프로그램을 시작할 때 다음 *명령줄 인수*&#x200B;를 사용하여 다른 GPU 광선 추적 백엔드를 *강제*&#x200B;할 수 있습니다. <ul data-preserve-html="true"> <li data-preserve-html="true"><code>—force-optix</code> : Nvidia 튜링 또는 이후 GPU에서 Optix 강제 사용</li> <li data-preserve-html="true"><code>—force-dxr</code> : Nvidia Pascal GPU의 DXR 강제 사용</li> </ul> |
 
 ## 라이브러리
 
