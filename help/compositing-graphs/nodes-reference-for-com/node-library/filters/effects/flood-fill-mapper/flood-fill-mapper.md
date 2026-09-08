@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
 breadcrumb-title: ''
 description: Flood Fill 매퍼 노드를 사용하여 텍스처 처리에 플러드 필 알고리즘을 사용하여 연결된 영역 간에 값을 매핑합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Flood Fill 매퍼
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
+![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
 
 <b>인:</b> 필터 > 효과
 
@@ -101,10 +101,10 @@ Flood Fill 매퍼를 사용하면 기존 패턴 또는 텍스처를 [Flood Fill]
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
+            <img src="../../../../../../assets/floodfill-mapper-ex01.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
+            <img src="../../../../../../assets/floodfill-mapper-ex02.jpg" />
         </td>
     </tr>
 </table>
