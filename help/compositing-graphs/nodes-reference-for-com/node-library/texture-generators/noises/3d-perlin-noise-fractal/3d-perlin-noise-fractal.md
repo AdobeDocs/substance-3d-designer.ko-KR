@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
 breadcrumb-title: ''
 description: 3D Perlin Noise Fractal node를 사용하여 3D 공간에 프랙탈 Perlin 노이즈 패턴을 생성하여 자세한 볼륨 텍스처를 생성합니다.
 helpx_creative_field: ""
