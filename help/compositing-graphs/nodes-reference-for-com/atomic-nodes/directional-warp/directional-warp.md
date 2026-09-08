@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: 방향성 뒤틀기 노드를 사용하여 흐름 및 동작 효과를 만들기 위한 텍스처에 방향 왜곡을 적용합니다.
 helpx_creative_field: ""

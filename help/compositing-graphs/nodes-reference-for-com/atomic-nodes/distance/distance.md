@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ''
 description: 거리 노드를 사용하여 모양에서 마스크 및 절차 효과를 만들기 위한 거리 맵을 계산합니다.
 helpx_creative_field: ""
