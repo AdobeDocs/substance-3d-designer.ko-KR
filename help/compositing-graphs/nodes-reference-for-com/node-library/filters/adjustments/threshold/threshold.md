@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
 breadcrumb-title: ''
 description: '[한계값] 노드를 사용하여 회색 음영 텍스처를 마스크 만들기의 한계값에 따라 흑백으로 변환합니다.'
 helpx_creative_field: ""
