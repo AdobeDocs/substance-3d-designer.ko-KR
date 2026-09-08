@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
 breadcrumb-title: ''
 description: 페인트 마모 노드를 사용하여 메시 형상을 기반으로 사실적인 페인트 치핑 효과를 생성하는 페인트 마모 마스크를 생성합니다.
 helpx_creative_field: ""
