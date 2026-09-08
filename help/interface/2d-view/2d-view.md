@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 2D 보기를 사용하여 재질 그래프에서 텍스처 출력을 미리 보고 검사할 수 있습니다.
 helpx_creative_field: ""

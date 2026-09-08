@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Substance 합성 그래프의 출력 크기 설정을 구성하여 텍스처 해상도 및 품질을 제어합니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: 그래프 인스턴스 및 하위 그래프를 사용하여 재사용 가능한 그래프 구성 요소 및 모듈식 재질 워크플로우를 생성합니다.
 helpx_creative_field: ""

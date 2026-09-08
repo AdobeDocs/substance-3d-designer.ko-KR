@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 그래프에 주석을 추가하여 워크플로우를 문서화하고 노드 연결을 설명합니다.
 helpx_creative_field: ""

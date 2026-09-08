@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 변수를 사용하여 값을 효율적으로 저장하고 다시 사용하는 방법을 알아봅니다.
 helpx_creative_field: ""

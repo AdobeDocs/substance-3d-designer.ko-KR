@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/color-management/spot-colors-pantone.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 Pantone 별색을 사용하여 인쇄 및 디자인 작업 과정에서 정확한 색상 일치를 하는 방법을 살펴보세요.
 helpx_creative_field: ""

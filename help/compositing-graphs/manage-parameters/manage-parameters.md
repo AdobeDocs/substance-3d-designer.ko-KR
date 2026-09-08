@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: 더 나은 워크플로우 구성을 위해 Substance 합성 그래프에서 매개변수를 관리하고 구성하는 방법을 알아봅니다.
 helpx_creative_field: ""
