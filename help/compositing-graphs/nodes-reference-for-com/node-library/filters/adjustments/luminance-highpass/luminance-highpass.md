@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: '[광도 하이패스] 노드를 사용하면 텍스처에서 높은 주파수 광도 세부 사항을 추출하여 표면 세부 사항을 향상시킬 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 광도 하이패스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](luminance-highpass.resources/luminance-highpass-01.png){width="128px"}
+![](../../../../../../assets/luminance-highpass.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -54,7 +54,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="luminance-highpass.resources/luminance-highpass-02.png" />
+            <img src="../../../../../../assets/luminance-highpass-example.png" />
         </td>
     </tr>
 </table>

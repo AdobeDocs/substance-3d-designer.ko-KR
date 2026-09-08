@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
 breadcrumb-title: ''
 description: '[색상으로 마스크] 노드를 사용하여 특정 색상을 마스크로 변환하여 선택 처리 및 마스크 효과를 만들 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 마스킹할 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![마스킹할 색상 - 아이콘](color-to-mask.resources/color-to-mask-01.png "마스킹할 색상 - 아이콘"){width="200px"}
+![마스킹할 색상 - 아이콘](../../../../../../assets/color_to_mask.png "마스킹할 색상 - 아이콘"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 

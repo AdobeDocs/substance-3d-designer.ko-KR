@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: '[하이 패스] 노드를 사용하면 텍스처에서 높은 주파수의 세부 사항을 추출하여 선명 효과 및 세부 사항 향상 효과를 만들 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 하이패스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](highpass.resources/highpass-01.png){width="128px"}
+![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
 
-![](highpass.resources/highpass-02.png){width="128px"}
+![](../../../../../../assets/high-pass.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -57,10 +57,10 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-03.gif" />
+            <img src="../../../../../../assets/highpass.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-04.png" />
+            <img src="../../../../../../assets/highpass-example.png" />
         </td>
     </tr>
 </table>

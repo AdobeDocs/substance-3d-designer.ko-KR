@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
 description: '[색상 팔레트 수정] 노드를 사용하여 텍스처에서 추출한 색상 팔레트를 조정하고 변형합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 색상 팔레트 수정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![색상 아이콘 정량화](modify-color-palette.resources/modify-color-palette-01.png "색상 아이콘 정량화"){width="200px"}
+![색상 아이콘 정량화](../../../../../../assets/ModifyColorPalette.png "색상 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -82,18 +82,18 @@ ID 맵의 색인을 팔레트의 색상 색인과 일치시켜 색상을 선택�
 
 ## 예
 
-![색상 팔레트 수정: 예 1](modify-color-palette.resources/modify-color-palette-02.png "색상 팔레트 수정: 예 1"){zoomable="yes"}
+![색상 팔레트 수정: 예 1](../../../../../../assets/modify_color_palette_example_1.png "색상 팔레트 수정: 예 1"){zoomable="yes"}
 
-![색상 팔레트 수정: 예 2](modify-color-palette.resources/modify-color-palette-03.png "색상 팔레트 수정: 예 2"){zoomable="yes"}
+![색상 팔레트 수정: 예 2](../../../../../../assets/modify_color_palette_example_3.png "색상 팔레트 수정: 예 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
+      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
+      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>이후</i>
     </td>
   </tr>
