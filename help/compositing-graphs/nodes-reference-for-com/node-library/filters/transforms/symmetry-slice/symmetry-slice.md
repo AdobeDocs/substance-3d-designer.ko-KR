@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
 breadcrumb-title: ''
 description: 대칭 슬라이스(Slide Slice) 노드를 사용하면 대칭복사된 패턴과 효과를 생성하기 위해 대칭 축을 따라 텍스처를 슬라이스할 수 있습니다.
 helpx_creative_field: ""

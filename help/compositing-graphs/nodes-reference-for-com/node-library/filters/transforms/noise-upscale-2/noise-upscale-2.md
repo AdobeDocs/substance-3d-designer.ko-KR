@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
 breadcrumb-title: ''
 description: '[노이즈 업스케일 2] 노드를 사용하면 더 큰 크기에서 텍스처 품질을 유지하기 위해 노이즈 기반 보간을 사용하여 텍스처를 업스케일할 수 있습니다.'
 helpx_creative_field: ""
