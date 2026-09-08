@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-warp.html"
 breadcrumb-title: ''
 description: 벡터 뒤틀기 노드를 사용하면 유동적이고 유기적인 왜곡 효과를 만들기 위해 벡터 필드를 사용하여 텍스처를 뒤틀 수 있습니다.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 벡터 뒤틀기는 [뒤틀기](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) 및 [방향 뒤틀기](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)와 유사한 고급 왜곡 효과로, 주요 차이점은 회색 음영 맵이 아닌 (색상) 벡터 비트맵으로 구동된다는 것입니다. 이것은 그것이 원자 마디의 사촌들보다 더 강력하고 다재다능하다는 것을 의미한다.
 
-벡터맵은 정규맵과 유사하지만 정규화할 필요는 없으며 R 및 Green (X 및 Y) 채널만 사용됩니다. 파란색 및 Alpha 채널은 원하는 경우 검은색으로 남겨둘 수 있습니다. 좋은 벡터 맵을 구성하는 것은 이 노드를 사용하는 데 있어 가장 큰 문제가 될 수 있습니다. [회색 음영 맵을 표준으로 변환](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)하거나 채널을 [RGBA 병합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md)과 결합하여 맵을 구성할 수 있습니다. 또는 [&quot;흐름 맵&quot;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting)과 같은 것도 사용할 수 있습니다.
+벡터맵은 정규맵과 유사하지만 정규화할 필요는 없으며 R 및 Green (X 및 Y) 채널만 사용됩니다. 파란색 및 Alpha 채널은 원하는 경우 검은색으로 남겨둘 수 있습니다. 좋은 벡터 맵을 구성하는 것은 이 노드를 사용하는 데 있어 가장 큰 문제가 될 수 있습니다. [회색 음영 맵을 표준으로 변환](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)하거나 채널을 [RGBA 병합](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md)과 결합하여 맵을 구성할 수 있습니다. 또는 [&quot;흐름 맵&quot;](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/painting/advanced-channel-painting/flow-map-painting)과 같은 것도 사용할 수 있습니다.
 
 이 왜곡은 표준 뒤틀기 노드가 노드를 잘라내지 않고 방향이 다양한 매우 특정 노드를 수행하려는 경우에 유용할 수 있습니다.
 

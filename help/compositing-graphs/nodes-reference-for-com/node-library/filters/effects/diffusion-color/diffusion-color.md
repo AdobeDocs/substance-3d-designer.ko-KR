@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: '[확산 색상] 노드를 사용하여 매끄러운 색상 혼합 및 전환을 만들기 위한 색상 확산 효과를 적용합니다.'
 helpx_creative_field: ""

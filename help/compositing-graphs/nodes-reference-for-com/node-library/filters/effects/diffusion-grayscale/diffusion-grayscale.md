@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
 breadcrumb-title: ''
 description: '[확산 회색 음영] 노드를 사용하면 부드러운 색상 전환과 혼합을 위해 회색 음영 확산 효과를 적용할 수 있습니다.'
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
 breadcrumb-title: ''
 description: '[모자이크] 노드를 사용하면 텍스처를 픽셀화된 블록과 패턴으로 분할하여 모자이크 타일 효과를 만들 수 있습니다.'
 helpx_creative_field: ""
