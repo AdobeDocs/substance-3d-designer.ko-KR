@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-004.html"
 breadcrumb-title: ''
 description: 그런지 맵 004 노드를 사용하여 풍화 및 마모된 텍스처 효과를 추가하기 위한 프로시저 그런지 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""

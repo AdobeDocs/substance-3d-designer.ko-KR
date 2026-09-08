@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
 breadcrumb-title: ''
 description: 가우시안 노이즈 노드를 사용하여 유기적인 텍스처와 변형을 만들기 위한 가우시안 분산 노이즈 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
