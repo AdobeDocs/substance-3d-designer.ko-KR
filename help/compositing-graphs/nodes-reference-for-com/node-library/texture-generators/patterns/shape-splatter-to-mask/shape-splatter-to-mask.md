@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 설명
 
-패턴 ID를 기반으로 [모양 튄 ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) 데이터를 흑백 마스크로 변환합니다. 예를 들어 특정 유형의 패턴만 마스크를 만들 수 있습니다. 패턴 ID 범위를 선택하고 일부 모양을 임의로 숨길 수 있는 추가 옵션이 있습니다.
+패턴 ID를 기반으로 [모양 튄 &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) 데이터를 흑백 마스크로 변환합니다. 예를 들어 특정 유형의 패턴만 마스크를 만들 수 있습니다. 패턴 ID 범위를 선택하고 일부 모양을 임의로 숨길 수 있는 추가 옵션이 있습니다.
 
 </td>
 </tr>
