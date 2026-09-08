@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 앰비언트 오클루전(HBAO)(필터 노드)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-01.png){width="128px"}
+![](../../../../../../assets/hbao.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -60,10 +60,10 @@ Heightmap을 입력으로 받아 앰비언트 오클루전 맵을 생성합니�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-02.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-11-11-1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-hbao-filter-node.resources/ambient-occlusion-hbao-filter-node-03.png" />
+            <img src="../../../../../../assets/image2021-6-18-11-11-22.png" />
         </td>
     </tr>
 </table>

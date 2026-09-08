@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 고정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![탐색 핀 아이콘](navigation-pin.resources/navigation-pin-01.png "탐색 핀 아이콘")
+![탐색 핀 아이콘](../../../../assets/graphatomic-pin_1.png "탐색 핀 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,4 +78,4 @@ ht-degree: 1%
 
 현재 확대/축소 레벨에서 뷰포트에 핀이 배치됩니다.
 
-![핀: 핀으로 이동](navigation-pin.resources/navigation-pin-02.gif "핀: 핀으로 이동")
+![핀: 핀으로 이동](../../../../assets/graph-pin_jumping.gif "핀: 핀으로 이동")

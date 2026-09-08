@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
 breadcrumb-title: ''
-description: 유기적인 텍스처 효과를 위해 프로시저 변형을 사용하여 무작위 타일 패턴을 만들 때 [타일 무작위] 노드를 사용합니다.
+description: 유기적인 텍스처 효과에 대해 절차적 변형을 사용하여 무작위 타일 패턴을 만들려면 [타일 무작위] 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 무작위
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random-01.png){width="128px"}
+![](../../../../../../assets/tile-random.png){width="128px"}
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 |:---|:---|
 | <b>X 양</b> <i>1 - 64</i> | 패턴의 X-반복의 양입니다. |
 | <b>Y 양</b> <i>1 - 64</i> | 패턴의 Y-반복의 양입니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 | <b>패턴</b> |  |
 | <b>패턴</b> <i>패턴 입력, 정사각형, 디스크, 포물면, 벨, 가우스, 가시, 피라미드, 벽돌, 그라데이션, 파도, 하프 벨, 고정된 벨, 초승달, 캡슐, 원뿔</i> | 사용할 패턴 모양을 선택합니다. |
 | <b>이미지 입력 필터링(엔진 > v4)</b> <i>쌍선형 + 밉맵, 쌍선형, 최근접</i> |  |
@@ -106,7 +106,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-02.png" />
+            <img src="../../../../../../assets/tile-random-1.png" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 셀 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![셀 1 - 아이콘](cells-1.resources/cells-1-01.png "셀 1 - 아이콘"){width="200px"}
+![셀 1 - 아이콘](../../../../../../assets/cells_1.png "셀 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 1](cells-1.resources/cells-1-02.png "셀 1 - 예 1"){zoomable="yes"}
+![셀 1 - 예 1](../../../../../../assets/cells_1_1.png "셀 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 2](cells-1.resources/cells-1-03.gif "셀 1 - 예 2"){zoomable="yes"}
+![셀 1 - 예 2](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.3.gif "셀 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 3](cells-1.resources/cells-1-04.gif "셀 1 - 예 3"){zoomable="yes"}
+![셀 1 - 예 3](../../../../../../assets/noise_cells_1_v2_speed0.5_aniso0.6.gif "셀 1 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![셀 1 - 예 4](cells-1.resources/cells-1-05.gif "셀 1 - 예 4"){zoomable="yes"}
+![셀 1 - 예 4](../../../../../../assets/noise_cells_1_v2_speed0.3_aniso0.6.gif "셀 1 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,16 +1,16 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
 breadcrumb-title: ''
-description: 모양 스플래터 혼합 노드를 사용하여 복잡한 절차 패턴을 만들기 위해 여러 모양 스플래터를 혼합합니다.
+description: 모양 튄 혼합 노드를 사용하여 여러 모양 스플래터를 혼합하면 복잡한 프로시저 패턴을 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 모양 스플래터 블렌드
+title: 모양 튀김 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 14%
@@ -18,13 +18,13 @@ ht-degree: 14%
 ---
 
 
-# 모양 스플래터 블렌드
+# 모양 튀김 혼합
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter-blend.resources/shape-splatter-blend-01.png){width="128px"}
+![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 

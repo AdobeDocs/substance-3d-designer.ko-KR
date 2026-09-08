@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 샘플러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Sampler 노드
 
-![Sampler 노드](sampler-nodes.resources/sampler-nodes-01.png "Sampler 노드")
+![Sampler 노드](../../../../assets/image2016-1-12-14-45-43.png "Sampler 노드")
 
 이러한 노드는 제공된 2D 좌표에서 입력 이미지의 값을 샘플링합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![픽셀 좌표](sampler-nodes.resources/sampler-nodes-02.png "픽셀 좌표")
+![픽셀 좌표](../../../../assets/samplercoords.png "픽셀 좌표")
 
 </td>
 </tr>

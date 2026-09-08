@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Voronoi Fractal
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-voronoi-fractal.resources/3d-voronoi-fractal-01.png){width="200px"}
+![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 |:---|:---|
 | <b>반전</b> <i>부울</i> | 출력 이미지를 반전합니다. |
 | <b>크기 조절</b> <i>부동</i> | 프랙탈 3D 보로노이 노이즈의 크기를 제어합니다.<br><br><i>참고</i>: <i>모든 축</i>에서 <b>타일링</b>을 사용하도록 설정한 경우 크기 조정이 <i>단계</i>입니다. 이것은 예상된 일입니다. |
-| <b>크기</b> <i>Float3</i> | 프랙탈 3D 보로노이 노이즈의 크기를 <b>X</b>, <b>Y</b> 및 <b>Z</b> 축으로 제어합니다. 균일하지 않은 값으로 <i>균등 없는 값</i>이 발생합니다.<br><br><i>참고</i>: <b>타일링</b>이 <i>모든 축</i>에서 활성화되면 크기 조정이 <i>단계</i>입니다. 이것은 예상된 일입니다. |
-| <b>오프셋</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 프랙탈 3D 보로노이 노이즈의 <i>위치</i>에 오프셋을 적용합니다. |
-| <b>장애</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축의 각 노이즈 지점에 적용된 <i>임의 오프셋</i>의 강도입니다. |
+| <b>크기</b> <i>부동3</i> | 프랙탈 3D 보로노이 노이즈의 크기를 <b>X</b>, <b>Y</b> 및 <b>Z</b> 축으로 제어합니다. 균일하지 않은 값으로 <i>균등 없는 값</i>이 발생합니다.<br><br><i>참고</i>: <b>타일링</b>이 <i>모든 축</i>에서 활성화되면 크기 조정이 <i>단계</i>입니다. 이것은 예상된 일입니다. |
+| <b>오프셋</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 프랙탈 3D 보로노이 노이즈의 <i>위치</i>에 오프셋을 적용합니다. |
+| <b>장애</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축의 각 노이즈 지점에 적용된 <i>임의 오프셋</i>의 강도입니다. |
 | <b>왜곡 강도</b> <i>부동</i> | 프랙탈 3D 보로노이 노이즈에 적용된 <i>뒤틀기 효과</i>의 강도를 제어합니다. |
 | <b>왜곡 배율 배율</b> <i>부동</i> | <b>왜곡 강도</b>로 제어되는 뒤틀기 효과에 사용되는 <i>변형 패턴</i>의 비율을 제어합니다. |
 | <b>최소 수준</b> <i>정수</i> | 프랙탈 패턴에 사용된 최소 <i>반복 수준</i>입니다. 최소/최대 범위가 넓으면 더 많은 주파수 범위에서 변동이 있는 <i>더 풍부한 패턴</i>이 만들어집니다. |
@@ -77,24 +77,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-02.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant6.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-03.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-04.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant4.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-05.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-06.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3d-voronoi-fractal-07.jpg" />
+            <img src="../../../../../../assets/3dvoronoifractal-variant3.jpg" />
         </td>
     </tr>
 </table>

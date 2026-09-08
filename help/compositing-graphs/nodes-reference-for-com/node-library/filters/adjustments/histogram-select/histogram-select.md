@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
-description: 막대 그래프 선택 노드를 사용하여 텍스처 막대 그래프에서 특정 범위를 선택하고 추출하여 지정된 조정을 수행합니다.
+description: '[막대 그래프 선택] 노드를 사용하여 대상 조정을 위한 텍스처 막대 그래프에서 특정 범위를 선택하고 추출할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 막대 그래프 선택
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-select.resources/histogram-select-01.png){width="128px"}
+![](../../../../../../assets/histogram-select.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -56,7 +56,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-select.resources/histogram-select-02.gif" />
+            <img src="../../../../../../assets/histoselect-ex.gif" />
         </td>
     </tr>
 </table>

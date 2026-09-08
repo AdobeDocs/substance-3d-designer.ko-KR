@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 구성 목록 - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG 파일 아이콘](configuration-list-sbscfg.resources/configuration-list-sbscfg-01.png "SBSCFG 파일 아이콘")
+![SBSCFG 파일 아이콘](../../assets/sbscfg.png "SBSCFG 파일 아이콘")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 강조 표시된 섹션은 구성 파일과 관련된 부분으로, 위에서 정의한 SBSCFG 파일에 저장된 목록에 더 많은 프로젝트를 추가하기만 하면 됩니다.
 
-![프로젝트 설정](configuration-list-sbscfg.resources/configuration-list-sbscfg-02.png "프로젝트 설정")
+![프로젝트 설정](../../assets/config-ui.png "프로젝트 설정")
 
 ### XML로 외부 편집
 

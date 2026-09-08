@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 환경 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 환경 설정 창
 
-![환경 설정 창](preferences-window.resources/preferences-window-01.png "환경 설정 창")
+![환경 설정 창](../../assets/image2021-6-22-20-56-1.png "환경 설정 창")
 
 이 페이지에는 <b>환경 설정</b> 창과 모든 설정이 표시됩니다.
 
@@ -157,14 +157,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![직접 편집 사용 안 함](preferences-window.resources/preferences-window-02.gif "직접 편집 사용 안 함")
+![직접 편집 사용 안 함](../../assets/substance3ddesigner_incontext_no.gif "직접 편집 사용 안 함")
 
 *참조 열기*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![직접 편집 사용](preferences-window.resources/preferences-window-03.gif "직접 편집 사용")
+![직접 편집 사용](../../assets/substance3ddesigner_incontext_yes.gif "직접 편집 사용")
 
 *컨텍스트에서 참조 열기*
 

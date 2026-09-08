@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방사광
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
+![](../../../../../../assets/rt-irradiance.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 설명
 
-환경 맵 및 발광 맵으로부터 생성된 Height 맵 입력에 광선 추적형 조도를 생성한다. 조명을 그래프 내의 텍스처로 &quot;굽기&quot;하는 데 사용할 수 있습니다. 가짜 전역 조명 및 광선에 사용됩니다.이 노드는 계산 시간으로 인해 CPU(SSE) 엔진과 함께 사용하면 안 됩니다. 두 개의 맵을 반환합니다. 조도가 재료 입력에 적용되는 한 개의 조도 출력과 계산된 조도 값만 포함하는 한 개의 원시 조도 맵을 반환합니다.
+환경 맵 및 방출 맵에서 생성된 높이 맵 입력에 광선 추적형 방사능을 생성합니다. 그래프 내의 텍스처에 조명을 &quot;굽는&quot; 데 사용할 수 있습니다. 가짜 전역 조명 및 광선에 사용됩니다.이 노드는 계산 시간으로 인해 CPU(SSE) 엔진과 함께 사용하면 안 됩니다. 두 개의 맵을 반환합니다. 조도가 재료 입력에 적용되는 한 개의 조도 출력과 계산된 조도 값만 포함하는 한 개의 원시 조도 맵을 반환합니다.
 
 </td>
 </tr>
@@ -46,8 +46,8 @@ ht-degree: 4%
 |  |  |
 |:---|:---|
 | <b>Height</b> <i>회색 음영 입력</i> | Height은 재료 슬롯에서 유일한 필수 입력입니다. 그것이 없으면, 그 노드는 제대로 기능하지 않을 것이다. |
-| <b>발광</b> <i>색상 입력</i> | 방출은 순수한 검정에서 빛을 방출하지 않고 다른 색상 값에서도 빛을 방출하는 형식이어야 합니다. Alpha은 무시됩니다. 결과를 보려면 이 슬롯 또는 환경 슬롯에 연결해야 합니다. |
-| <b>환경</b> <i>색상 입력</i> | 조도를 계산하는 HDR 조명 환경. 결과를 확인하려면 이 슬롯 또는 방출 슬롯에 연결해야 합니다. |
+| <b>방출</b> <i>색상 입력</i> | 방출은 순수한 검정에서 빛을 방출하지 않고 다른 색상 값에서도 빛을 방출하는 형식이어야 합니다. Alpha은 무시됩니다. 결과를 보려면 이 슬롯 또는 환경 슬롯에 연결해야 합니다. |
+| <b>환경</b> <i>색상 입력</i> | HDR 조명 환경을 사용하여 조도를 계산합니다. 결과를 보려면 이 슬롯 또는 방출 슬롯에 연결해야 합니다. |
 
 <a name="parameters"></a>
 
@@ -70,13 +70,13 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
+            <img src="../../../../../../assets/rt-irr-03-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
+            <img src="../../../../../../assets/rt-irr-01-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
+            <img src="../../../../../../assets/rt-irr-02-1.jpg" />
         </td>
     </tr>
 </table>

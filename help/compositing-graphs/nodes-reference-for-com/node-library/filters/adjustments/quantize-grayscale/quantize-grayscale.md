@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 회색 음영 정량화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![회색 음영 아이콘 정량화](quantize-grayscale.resources/quantize-grayscale-01.png "회색 음영 아이콘 정량화"){width="200px"}
+![회색 음영 아이콘 정량화](../../../../../../assets/quantize-grayscale.png "회색 음영 아이콘 정량화"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -52,6 +52,6 @@ ht-degree: 1%
 
 ## 예
 
-![예 1](quantize-grayscale.resources/quantize-grayscale-02.gif "예 1")
+![예 1](../../../../../../assets/quantizegrayscale.gif "예 1")
 
-![예 2](quantize-grayscale.resources/quantize-grayscale-03.png "예 2")
+![예 2](../../../../../../assets/quantizegrayscale.png "예 2")

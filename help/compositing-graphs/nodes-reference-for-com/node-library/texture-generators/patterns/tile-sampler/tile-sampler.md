@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
+![](../../../../../../assets/tile-sampler.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>예는 입력 맵(패턴 분포, 크기 조절, 회전)에 의해 매개 변수가 제어되는 방법을 보여 줍니다.</i>
+            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>예는 입력 맵(패턴 분포, 크기 조절, 회전)에 의해 매개 변수가 제어되는 방법을 보여 줍니다.</i>
         </td>
     </tr>
 </table>

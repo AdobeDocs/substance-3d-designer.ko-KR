@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 다마스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-damas.resources/grunge-damas-01.jpg){width="200px"}
+![](../../../../../../assets/grungedamas.jpg){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 노이즈
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 2%
 | <b>균형</b> <i>부동</i> | 어두운 값과 밝은 값 간의 균형을 조정합니다. |
 | <b>대비</b> <i>부동</i> | 이미지의 대비를 조정합니다. |
 | <b>반전</b> <i>부울</i> | `1-x` 작업을 사용하여 이미지의 출력을 반전합니다. |
-| <b>비정사각형 확장</b> <i>부울</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>부울</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 | <b>고급</b> |  |
 | <b>왜곡</b> <i>부동</i> | 패턴의 왜곡 양을 조정합니다. |
 | <b>사업부</b> <i>정수</i> | 패턴의 분할 또는 그레이디언트 반복의 양을 조정합니다. |
@@ -61,7 +61,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-damas.resources/grunge-damas-02.jpg" />
+            <img src="../../../../../../assets/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>

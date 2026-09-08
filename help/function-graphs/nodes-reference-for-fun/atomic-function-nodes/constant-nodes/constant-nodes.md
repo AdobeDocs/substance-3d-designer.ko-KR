@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 상수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![정수 형식 아이콘](constant-nodes.resources/constant-nodes-01.png "정수 형식 아이콘")
+![정수 형식 아이콘](../../../../assets/fn-constant-integer.png "정수 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 형식 아이콘](constant-nodes.resources/constant-nodes-02.png "Integer2 형식 아이콘")
+![Integer2 형식 아이콘](../../../../assets/fn-constant-integer2.png "Integer2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2는 일반적으로 사용되지 않지만 예를 들어 [Tile Generator
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 형식 아이콘](constant-nodes.resources/constant-nodes-03.png "Integer3 형식 아이콘")
+![Integer3 형식 아이콘](../../../../assets/fn-constant-integer3.png "Integer3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer3 노드는 (X, Y, Z) 성분을 갖는 정적 3-성분 정수 벡터를 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 형식 아이콘](constant-nodes.resources/constant-nodes-04.png "Integer4 형식 아이콘")
+![Integer4 형식 아이콘](../../../../assets/fn-constant-integer4.png "Integer4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 유형 아이콘](constant-nodes.resources/constant-nodes-05.png "부동 유형 아이콘")
+![부동 유형 아이콘](../../../../assets/fn-constant-float.png "부동 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,12 +140,12 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 2 형식 아이콘](constant-nodes.resources/constant-nodes-06.png "부동 2 형식 아이콘")
+![부동 2 형식 아이콘](../../../../assets/fn-constant-float2.png "부동 2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>부동2</b>
+<b>Float2</b>
 
 부동2 노드는 정적 2-성분 부동 벡터를 생성한다. 구성 요소의 이름은 X, Y입니다. 부동 2는 매우 일반적이며 [샘플링 좌표](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 및 [변환 오프셋](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)에 사용됩니다.
 
@@ -157,12 +157,12 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 3 형식 아이콘](constant-nodes.resources/constant-nodes-07.png "부동 3 형식 아이콘")
+![부동 3 형식 아이콘](../../../../assets/fn-constant-float3.png "부동 3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>부동3</b>
+<b>Float3</b>
 
 부동3 노드는 정적 3-성분 부동 벡터를 생성한다. 구성 요소의 이름은 X,Y,Z입니다. 부동 3은 일반적이지 않으며, 주로 [3D 배율 좌표](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)를 나타내는 데 사용되며, Alpha 데이터 없이 색상을 더 간단하게 저장할 수 있는 방법입니다.<b>\
 </b>
@@ -175,12 +175,12 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 4 형식 아이콘](constant-nodes.resources/constant-nodes-08.png "부동 4 형식 아이콘")
+![부동 4 형식 아이콘](../../../../assets/fn-constant-float4.png "부동 4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>부동4</b>
+<b>Float4</b>
 
 부동 4는 정적 4 구성 요소 부동 Vector.Components 이름은 X,Y,Z,W입니다. 부동 4는 [색상 정보를 저장하고 설정하는 기본 방법이므로 매우 일반적입니다. 여기서 XYZW 데이터는 RGBA 값을 나타냅니다.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>
@@ -197,7 +197,7 @@ Substance 함수 그래프에는 부울과 문자열이라는 두 개의 추가 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부울 유형 아이콘](constant-nodes.resources/constant-nodes-09.png "부울 유형 아이콘")
+![부울 유형 아이콘](../../../../assets/fn-constant-boolean.png "부울 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance 함수 그래프에는 부울과 문자열이라는 두 개의 추가 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![문자열 유형 아이콘](constant-nodes.resources/constant-nodes-10.png "문자열 유형 아이콘")
+![문자열 유형 아이콘](../../../../assets/fn-constant-string.png "문자열 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

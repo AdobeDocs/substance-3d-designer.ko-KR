@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 재질 메쉬 데이터 블렌더
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
+![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 유틸리티
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 이 노드는 구운 데이터를 기반으로 세부 사항을 훨씬 더 쉽게 추가할 수 있도록 하기 위한 것입니다. 입력 베이킹된 맵을 기반으로 입력 전체 재질을 수정할 수 있는 슬라이더가 많이 제공됩니다. 사용할 수 있는 옵션이 많으므로 다양하게 실험해 보십시오.
 
-곡률 또는 기타 맵을 기반으로 가장자리 강조 효과를 추가하거나, 일부 AO에서 확산/기본 색상으로 혼합하거나, 곡률 및/또는 AO를 기반으로 Specular 오클루전을 추가하는 등의 작업을 수행하는 데 유용합니다.
+곡률 또는 기타 맵을 기반으로 가장자리 강조 효과를 추가하거나, 일부 AO에서 확산/기본 색상과 혼합하거나, 곡률 및/또는 AO를 기반으로 Specular 오클루전을 추가하는 등의 작업을 수행하는 데 유용합니다.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ ht-degree: 8%
 |  |  |
 |:---|:---|
 | <b>전체 재질 입력(&quot;재질&quot; 그룹)</b> | 재질 맵의 전체 세트입니다.<br><br>이 노드는 이 노드를 수정한 다음 출력으로 다시 반환합니다. |
-| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
+| <b>앰비언트 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
 | <b>곡률</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
 | <b>Height</b> <i>회색 음영 입력</i> |  |
 | <b>표준</b> <i>색상 입력</i> |  |
@@ -91,7 +91,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
+            <img src="../../../../../../assets/blenddata-ex.gif" />
         </td>
     </tr>
 </table>

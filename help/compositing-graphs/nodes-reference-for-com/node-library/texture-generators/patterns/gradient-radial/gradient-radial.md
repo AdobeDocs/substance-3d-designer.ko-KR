@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방사형 그레이디언트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-radial.resources/gradient-radial-01.png){width="128px"}
+![](../../../../../../assets/gradient-radial.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -48,4 +48,4 @@ ht-degree: 1%
 | <b>모양</b> <i>원뿔, 반구</i> | 전환 프로필을 결정합니다. Cone은 선명한 선형 전환이며, Hemisphere는 부드럽고 중앙이 둥글습니다. |
 | <b>지점 1</b> | 그레이디언트의 중심점입니다. 흰색으로 시작합니다. |
 | <b>지점 2</b> | 반경 포인트를 사용하여 그레이디언트의 범위를 결정합니다. 끝 검정. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정합니다. |

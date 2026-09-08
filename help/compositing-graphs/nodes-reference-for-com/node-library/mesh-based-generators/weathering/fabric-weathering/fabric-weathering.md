@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 섬유 풍화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fabric-weathering.resources/fabric-weathering-01.png){width="128px"}
+![](../../../../../../assets/fabric-weathering.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 풍화
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 |  |  |
 |:---|:---|
-| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
+| <b>앰비언트 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
 | <b>일반 월드 공간</b> <i>색상 입력</i> |  |
 | <b>마스크</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크&quot; 매개 변수로 전환할 수 있습니다. |
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도] 맵을 사용하는 경우 이 그룹의 재질 채널을 켜거나 끕니다. |
 | <b>고급</b> |  |
 | <b>표준 형식</b> <i>DirectX, OpenGL</i> | 서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다). |
 | <b>마스크</b> <i>거짓/참</i> | 마스크 맵 사용을 설정하거나 해제합니다. |
@@ -88,7 +88,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fabric-weathering.resources/fabric-weathering-02.gif" />
+            <img src="../../../../../../assets/fabric-ex.gif" />
         </td>
     </tr>
 </table>
