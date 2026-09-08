@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-1.html"
 breadcrumb-title: ''
 description: 메시 1 노드를 사용하여 기하학적 및 그리드 기반 텍스처를 만들기 위한 기본 메시 패턴을 생성합니다.
 helpx_creative_field: ""

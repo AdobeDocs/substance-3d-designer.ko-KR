@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
 breadcrumb-title: ''
 description: 원형 그레이디언트 노드를 사용하여 원형 색상 전환 및 효과를 위한 방사형 그레이디언트를 만듭니다.
 helpx_creative_field: ""

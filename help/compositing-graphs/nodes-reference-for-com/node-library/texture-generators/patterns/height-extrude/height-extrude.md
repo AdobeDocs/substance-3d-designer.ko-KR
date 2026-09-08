@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
 breadcrumb-title: ''
 description: 텍스처에서 3D와 같은 깊이 효과를 만들기 위해 높이 돌출 노드를 사용하여 Height 맵을 기반으로 모양을 돌출시킵니다.
 helpx_creative_field: ""

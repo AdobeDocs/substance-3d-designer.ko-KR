@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
 description: 모양 튄 노드를 사용하여 텍스처 간에 모양을 산란 하면 프로시저 패턴 및 세부 정보를 만들 수 있습니다.
 helpx_creative_field: ""
