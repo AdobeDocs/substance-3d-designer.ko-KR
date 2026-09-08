@@ -37,7 +37,7 @@ ht-degree: 0%
 
 생성된 패스의 시작 위치와 목록에서 해당 순서를 제어할 수 있습니다.
 
-생성된 경로는 전용 노드(예: [경로 2D}경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), {2 변환 경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md), [스플라인 경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드를 사용하여 스플라인으로 변환되어 모양을 매핑하거나 산란으로 지정할 수 있습니다.[
+생성된 경로는 전용 노드(예: [경로 2D&rbrace;경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), &lbrace;2 변환 경로[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md), [스플라인 경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드를 사용하여 스플라인으로 변환되어 모양을 매핑하거나 산란으로 지정할 수 있습니다.
 
 </td>
 </tr>
