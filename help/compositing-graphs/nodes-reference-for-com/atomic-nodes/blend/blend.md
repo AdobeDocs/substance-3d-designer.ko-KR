@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 혼합](../../../../assets/comp_blend_1.png "Atomic node: 혼합"){width="200px"}
+![Atomic node: 혼합](blend.resources/comp_blend_1.png "Atomic node: 혼합"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
-> 혼합 노드에는 연결에 따라 회색 음영과 색상 간에 전환하는 동적 입력이 있습니다.<b> 혼합 노드는 같은 유형</b>의 두 입력만 혼합할 수 있습니다.
+> 혼합 노드에는 연결에 따라 회색 음영과 색상 사이를 전환하는 동적 입력이 있습니다.<b> 혼합 노드는 같은 유형</b>의 두 입력만 혼합할 수 있습니다.
 > 
 > 색상과 회색 음영 입력을 전경과 배경에 연결하면 빨간색 연결 점선이 표시되어 계산 오류가 있음을 나타냅니다.
 > 

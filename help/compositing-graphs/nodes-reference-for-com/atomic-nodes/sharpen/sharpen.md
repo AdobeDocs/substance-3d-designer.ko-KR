@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 선명하게 하기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![선명 효과 노드 아이콘](../../../../assets/sharpen-4.png "선명 효과 노드 아이콘")
+![선명 효과 노드 아이콘](sharpen.resources/sharpen-4.png "선명 효과 노드 아이콘")
 
 <b>내부:</b> 원자 노드
 
@@ -56,4 +56,4 @@ ht-degree: 4%
 
 ## 예
 
-![선명 효과 노드 - 예 1](../../../../assets/sharpen-ex.png "선명 효과 노드 - 예 1")
+![선명 효과 노드 - 예 1](sharpen.resources/sharpen-ex.png "선명 효과 노드 - 예 1")

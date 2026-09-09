@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 그래프
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -24,14 +24,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 [Substance 그래프](https://substance3d.adobe.com/)는 Substance 3D Designer에서 만든 주요 그래프 유형입니다. 그 목적은 설정된 해상도, 색상 또는 모양에 제한되지 않는 <b>2D 이미지 데이터를 생성하고 처리하는 것</b>입니다. 이 제품은 정적인 사전 설정 결과뿐만 아니라 매우 다양한 이미지 처리 및 생성 도구입니다.
 
-간단한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 직접 생성하지 않는 필터, 여러 채널이 있는 완전한 프로시저 자료 형태로 결과물이 나올 수 있다.
+단순한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 자체 생성하지 않는 필터 또는 여러 채널이 있는 완전한 절차 자료 형태로 결과를 얻을 수 있습니다.
 
 Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-started/overview/overview.md)이며 다양한 작업 과정에서 내보내고 사용할 수 있습니다.
 
@@ -44,7 +44,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-
 아래에서 일반적인 사용 사례의 몇 가지 예를 확인할 수 있습니다.
 
 +++단순 도형
-![Substance 그래프의 단순 모양](../assets/simpleshape.png "Substance 그래프의 단순 모양"){width="512px"}
+![Substance 그래프의 단순 모양](substance-compositing-graphs.resources/simpleshape.png "Substance 그래프의 단순 모양"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-
 +++
 
 +++조정 필터
-![Substance 그래프의 조정 필터](../assets/simplefilter.png "Substance 그래프의 조정 필터"){width="512px"}
+![Substance 그래프의 조정 필터](substance-compositing-graphs.resources/simplefilter.png "Substance 그래프의 조정 필터"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../getting-
 +++
 
 +++완전 재질
-![Substance 그래프의 전체 재질](../assets/simplematerial.png "Substance 그래프의 전체 재질"){width="512px"}
+![Substance 그래프의 전체 재질](substance-compositing-graphs.resources/simplematerial.png "Substance 그래프의 전체 재질"){width="512px"}
 
 
 

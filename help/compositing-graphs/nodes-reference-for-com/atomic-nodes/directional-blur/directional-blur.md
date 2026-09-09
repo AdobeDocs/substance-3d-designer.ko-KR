@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방향성 흐림 효과
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 방향 흐림 효과](../../../../assets/comp_dirmotionblur_1.png "원자 노드: 방향 흐림 효과"){width="200px"}
+![원자 노드: 방향 흐림 효과](directional-blur.resources/comp_dirmotionblur_1.png "원자 노드: 방향 흐림 효과"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ ht-degree: 9%
 
 <b>방향 흐림</b>
 
-![방향 흐림 효과 비교](../../../../assets/dirblur-01.png "방향 흐림 효과 비교"){zoomable="yes"}
+![방향 흐림 효과 비교](directional-blur.resources/dirblur-01.png "방향 흐림 효과 비교"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>비등방성 흐림 효과</b>
 
-![비등방성 흐림 효과 비교](../../../../assets/aniso-01.png "비등방성 흐림 효과 비교"){zoomable="yes"}
+![비등방성 흐림 효과 비교](directional-blur.resources/aniso-01.png "비등방성 흐림 효과 비교"){zoomable="yes"}
 
 </td>
 </tr>

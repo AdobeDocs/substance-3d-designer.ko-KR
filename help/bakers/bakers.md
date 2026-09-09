@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 베이커
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -35,13 +35,13 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-3D 장면 리소스의 컨텍스트 메뉴에서 ![&#39;베이크 모드 정보&#39; 옵션](../assets/sd-mesh-right-click.png " 3D 장면 리소스의 컨텍스트 메뉴에서 ") &#39;베이크 모드 정보&#39; 옵션
+3D 장면 리소스의 컨텍스트 메뉴에서 ![&#39;베이크 모드 정보&#39; 옵션](bakers.resources/sd-mesh-right-click.png " 3D 장면 리소스의 컨텍스트 메뉴에서 ") &#39;베이크 모드 정보&#39; 옵션
 
 </td>
 </tr>
 </table>
 
-![베이킹 창](../assets/sd-window-overview.png "베이킹 창")
+![베이킹 창](bakers.resources/sd-window-overview.png "베이킹 창")
 
 ## 개요
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-mesh-selection.png)
+![](bakers.resources/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-output.png)
+![](bakers.resources/sd-output.png)
 
 </td>
 </tr>
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 이 패널은 하이 폴리 메쉬 목록 및 관련 설정을 제어합니다. 자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
 
-![HD 메시](../assets/sd-high.png "HD 메시")
+![HD 메시](bakers.resources/sd-high.png "HD 메시")
 
 ### 기본값
 
 자세한 내용은 [공통 매개 변수](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/common-parameters)를 참조하십시오.
 
-![기본값](../assets/sd-default-values.png "기본값")
+![기본값](bakers.resources/sd-default-values.png "기본값")
 
 ### 베이커 렌더링 목록 및 설정
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 특정 매개 변수에 대한 자세한 내용은 [베이커 설정](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/bakers-settings)을 참조하세요.
 
-![베이커 렌더링 목록](../assets/sd-baker-list.png "베이커 렌더링 목록")
+![베이커 렌더링 목록](bakers.resources/sd-baker-list.png "베이커 렌더링 목록")
