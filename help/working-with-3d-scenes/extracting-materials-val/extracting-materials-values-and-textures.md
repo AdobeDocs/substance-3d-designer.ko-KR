@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: 3D 장면에서 재질 속성을 추출하여 재질 제작 워크플로를 위한 Substance 그래프에 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 재질 값 및 텍스처 추출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![텍스처 입력에서 그래프 만들기 - &#39;3D 보기&#39; 뷰포트에서 작업](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "텍스처 입력에서 그래프 만들기 - &#39;3D 보기&#39; 뷰포트에서 작업"){zoomable="yes"}
+![텍스처 입력에서 그래프 만들기 - &#39;3D 보기&#39; 뷰포트에서 작업](../../assets/createGraphFromTexturesActionViewport.png "텍스처 입력에서 그래프 만들기 - &#39;3D 보기&#39; 뷰포트에서 작업"){zoomable="yes"}
 
 *3D 보기 뷰포트에서 동작*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![텍스처 입력에서 그래프 만들기 - &#39;재질&#39; 메뉴의 작업](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "텍스처 입력에서 그래프 만들기 - &#39;재질&#39; 메뉴의 작업"){zoomable="yes"}
+![텍스처 입력에서 그래프 만들기 - &#39;재질&#39; 메뉴의 작업](../../assets/createGraphFromTexturesActionMaterials.png "텍스처 입력에서 그래프 만들기 - &#39;재질&#39; 메뉴의 작업"){zoomable="yes"}
 
 *재질 메뉴의 동작*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![텍스처 입력에서 그래프 만들기 - &#39;속성&#39; 도크에서 작업](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "텍스처 입력에서 그래프 만들기 - &#39;속성&#39; 도크에서 작업"){zoomable="yes"}
+![텍스처 입력에서 그래프 만들기 - &#39;속성&#39; 도크에서 작업](../../assets/createGraphFromTexturesActionProps.png "텍스처 입력에서 그래프 만들기 - &#39;속성&#39; 도크에서 작업"){zoomable="yes"}
 
 *속성 도크의 동작*
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![재질 텍스처에서 그래프 만들기 결과](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "재질 텍스처에서 그래프 만들기 결과"){zoomable="yes"}
+![재질 텍스처에서 그래프 만들기 결과](../../assets/createGraphFromTexturesResult.png "재질 텍스처에서 그래프 만들기 결과"){zoomable="yes"}
 
 *재질 텍스처에서 그래프를 만든 결과*
 
 +++데모
-![텍스처 입력에서 그래프 만들기 - 데모](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "텍스처 입력에서 그래프 만들기 - 데모"){zoomable="yes"}
+![텍스처 입력에서 그래프 만들기 - 데모](../../assets/createGraphFromTextures.gif "텍스처 입력에서 그래프 만들기 - 데모"){zoomable="yes"}
 
 
 
@@ -97,16 +97,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> *포함된 텍스처*&#x200B;를 사용하는 형식(예: USDZ)의 경우 텍스처를 추출하여 디스크에 복사해야 합니다. 이로 인해 텍스처를 추출해야 하는 위치를 선택하는 추가 단계가 발생합니다.
+> *포함된 텍스처*&#x200B;를 사용하는 형식(예: USDZ)의 경우 텍스처를 추출하여 디스크에 복사해야 합니다. 이로 인해 텍스처를 추출해야 하는 위치를 선택하는 추가 단계가 진행됩니다.
 
-## 추출 텍스처
+## 텍스처 추출
 
 &#39;그래프로 텍스처 추출&#39; 작업은 재질이 사용하는 텍스처에 대해 기존 그래프에 새 비트맵 노드를 만듭니다.
 
 이 작업을 사용할 때 몇 가지 사항이 발생합니다.
 
-* 재질이 사용하는 텍스처에 대해 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md)가 만들어져 &#39;Resources&#39; 폴더 아래의 재질 이름을 딴 폴더에 배치됩니다.
-* 선택한 그래프에서 해당 비트맵 리소스에 대해 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 텍스처가 만들어지고 해당 노드를 사용하여 material 속성 이후에 구성된 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드에 자동으로 연결됩니다.
+* 재질에 사용되는 텍스처에 대해 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md)가 만들어져 &#39;Resources&#39; 폴더 아래의 재질 이름을 딴 폴더에 배치됩니다.
+* 선택한 그래프에서 해당 비트맵 리소스에 대해 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드가 만들어지고 해당 텍스처를 사용하여 재질 속성 이후에 구성된 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드에 자동으로 연결됩니다.
 
 재질 속성 *에 대해 구성된 출력이 그래프에 이미 있는 경우* *노드가 만들어지지 않고* 비트맵 리소스 만들기만 수행됩니다.
 
@@ -116,14 +116,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![그래프로 텍스처 추출 - 속성 도크에서 동작](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "그래프로 텍스처 추출 - 속성 도크에서 동작"){zoomable="yes"}
+![그래프에 텍스처 추출 - 속성 도크에서 작업](../../assets/extractTextureAction.png "그래프에 텍스처 추출 - 속성 도크에서 작업"){zoomable="yes"}
 
 속성 도크의 재질 속성에 대한 작업
 
 </td>
 <td style="border: 0;" valign="top">
 
-![그래프에 텍스처 추출 - &#39;대상 그래프 선택&#39; 대화 상자](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "그래프에 텍스처 추출 - &#39;대상 그래프 선택&#39; 대화 상자"){zoomable="yes"}
+![그래프에 텍스처 추출 - &#39;대상 그래프 선택&#39; 대화 상자](../../assets/extractTextureSelectGraph.png "그래프에 텍스처 추출 - &#39;대상 그래프 선택&#39; 대화 상자"){zoomable="yes"}
 
 &#39;대상 그래프 선택&#39; 대화 상자
 
@@ -136,12 +136,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![텍스처 추출 결과](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "텍스처 추출 결과"){zoomable="yes"}
+![텍스처 추출 결과](../../assets/extractTextureResult.png "텍스처 추출 결과"){zoomable="yes"}
 
-텍스처 추출 결과
+텍스처 추출의 결과
 
 +++데모
-![그래프에 텍스처 추출 - 데모](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "그래프에 텍스처 추출 - 데모"){zoomable="yes"}
+![그래프에 텍스처 추출 - 데모](../../assets/extractTextureToGraph.gif "그래프에 텍스처 추출 - 데모"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![그래프에 값 추출 - 속성 도크에서 작업](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "그래프에 값 추출 - 속성 도크에서 작업"){zoomable="yes"}
+![그래프에 값 추출 - 속성 도크에서 작업](../../assets/extractValueAction.png "그래프에 값 추출 - 속성 도크에서 작업"){zoomable="yes"}
 
 속성 도크의 재질 속성에 대한 작업
 
 </td>
 <td style="border: 0;" valign="top">
 
-![그래프에 값 추출 - &#39;대상 그래프 선택&#39; 대화 상자](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "그래프에 값 추출 - &#39;대상 그래프 선택&#39; 대화 상자"){zoomable="yes"}
+![그래프에 값 추출 - &#39;대상 그래프 선택&#39; 대화 상자](../../assets/extractValueSelectGraph.png "그래프에 값 추출 - &#39;대상 그래프 선택&#39; 대화 상자"){zoomable="yes"}
 
 &#39;대상 그래프 선택&#39; 대화 상자
 
 </td>
 <td style="border: 0;" valign="top">
 
-![그래프로 값 추출 - 값 프로세서 노드 함수의 상수 노드](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "그래프로 값 추출 - 값 프로세서 노드 함수의 상수 노드"){zoomable="yes"}
+![그래프로 값 추출 - 값 프로세서 노드 함수의 상수 노드](../../assets/extractValueResult2.png "그래프로 값 추출 - 값 프로세서 노드 함수의 상수 노드"){zoomable="yes"}
 
 값 프로세서 노드 함수의 상수 노드
 
@@ -192,12 +192,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![값 추출 결과](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "값 추출 결과"){zoomable="yes"}
+![값 추출 결과](../../assets/extractValueResult.png "값 추출 결과"){zoomable="yes"}
 
 값 추출 결과
 
 +++데모
-![그래프에 값 추출 - 데모](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "그래프에 값 추출 - 데모"){zoomable="yes"}
+![그래프에 값 추출 - 데모](../../assets/extractValueToGraph.gif "그래프에 값 추출 - 데모"){zoomable="yes"}
 
 
 

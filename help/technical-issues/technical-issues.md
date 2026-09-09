@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 기술 문제에 대한 문제 해결 안내서를 찾아 문제를 빠르게 해결하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 기술 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Designer에는 충돌 및 버그를 직접 보고하는 방법이 포함됩니�
 </td>
 <td style="border: 0;" valign="top">
 
-![충돌 보고서 대화 상자](technical-issues.resources/technical-issues-01.png "충돌 보고서 대화 상자"){zoomable="yes"}
+![충돌 보고서 대화 상자](../assets/crash-reporter-2.png "충돌 보고서 대화 상자"){zoomable="yes"}
 
 *확대하려면 클릭*
 
@@ -91,7 +91,7 @@ Designer에서는 언제든지 버그를 신고할 수 있습니다. 기본 메�
 </td>
 <td style="border: 0;" valign="top">
 
-![버그 보고서 대화 상자](technical-issues.resources/technical-issues-02.png "버그 보고서 대화 상자"){zoomable="yes"}
+![버그 보고서 대화 상자](../assets/bug-reporter.png "버그 보고서 대화 상자"){zoomable="yes"}
 
 *확대하려면 클릭*
 
