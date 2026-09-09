@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: 다양한 왜곡 효과를 만들기 위해 Non Uniform Directional Warp 노드를 사용하여 균일하지 않은 방향 뒤틀기를 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Non Uniform Directional Warp
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-color.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-grayscale.png)
 
 <b>인:</b> 필터 > 효과
 

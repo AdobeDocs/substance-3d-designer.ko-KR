@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: '[그레이디언트 Flood Fill] 노드를 사용하여 부드러운 색상 전환을 만들기 위해 그레이디언트 값으로 영역을 채웁니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그레이디언트로 Flood Fill
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/floodfill-to-gradient.png){width="128px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 설명
 
-[임의 그레이디언트(임의 그레이디언트)로 &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)Flood Fill 타일이 임의로 기울어진 높이 맵을 만드는 데 매우 유용합니다.
+[임의 그레이디언트(임의 그레이디언트)로 ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)Flood Fill 타일이 임의로 기울어진 높이 맵을 만드는 데 매우 유용합니다.
 
 </td>
 </tr>
@@ -68,10 +68,10 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodgradient-ex2.png" />
+            <img src="flood-fill-to-gradient.resources/floodgradient-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodgradient-ex1.png" />
+            <img src="flood-fill-to-gradient.resources/floodgradient-ex1.png" />
         </td>
     </tr>
 </table>

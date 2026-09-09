@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
 description: 복잡한 왜곡 패턴을 만들기 위해 여러 방향으로 뒤틀기 효과를 적용하려면 [다중 방향 뒤틀기] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 다중 방향 뒤틀기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-color.png)![](multi-directional-warp.resources/multi-directional-warp-grayscalepng.png)
 
 <b>인:</b> 필터 > 효과
 
