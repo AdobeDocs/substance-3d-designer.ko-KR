@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: '[횡단면] 노드를 사용하여 자르기 및 분할 효과를 위한 Height 맵을 기반으로 횡단면 마스크를 만듭니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 횡단면
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![&#39;횡단면&#39; 노드 아이콘](../../../../../../assets/cross-section-2.png "&#39;횡단면&#39; 노드 아이콘"){width="200px"}
+![&#39;횡단면&#39; 노드 아이콘](cross-section.resources/cross-section-2.png "&#39;횡단면&#39; 노드 아이콘"){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -69,10 +69,10 @@ ht-degree: 0%
 
 ## 예
 
-![횡단면: 예 1](../../../../../../assets/cross-section-example-01.gif "횡단면: 예 1")
+![횡단면: 예 1](cross-section.resources/cross-section-example-01.gif "횡단면: 예 1")
 
-![횡단면: 예 2](../../../../../../assets/cross-section-example-02.gif "횡단면: 예 2")
+![횡단면: 예 2](cross-section.resources/cross-section-example-02.gif "횡단면: 예 2")
 
-![횡단면: 예 3](../../../../../../assets/cross-section-example-03.png "횡단면: 예 3")
+![횡단면: 예 3](cross-section.resources/cross-section-example-03.png "횡단면: 예 3")
 
-![횡단면: 예 4](../../../../../../assets/cross-section-example-04.png "횡단면: 예 4")
+![횡단면: 예 4](cross-section.resources/cross-section-example-04.png "횡단면: 예 4")
