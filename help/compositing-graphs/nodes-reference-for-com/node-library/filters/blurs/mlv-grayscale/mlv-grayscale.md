@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: MLV 회색 음영 흐림 효과 필터를 사용하면 역동적인 모양을 위해 회색 음영 텍스처에 동작 흐림 효과를 적용할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV 회색 음영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV 회색 음영: 아이콘](../../../../../../assets/MLV_Grayscale_Icon.png "MLV 회색 음영: 아이콘")
+![MLV 회색 음영: 아이콘](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV 회색 음영: 아이콘")
 
 <b>인:</b> 필터 > 흐림 효과
 
@@ -78,11 +78,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="MLV_Variant1A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ MLV는 <b>&#39;최소 분산 평균&#39;</b>을(를) 나타냅니다. 이 필터
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
       <br><i>이후</i>
     </td>
   </tr>
