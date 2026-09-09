@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: 비균일 흐림 효과 노드를 사용하면 비등방성 효과를 내기 위해 X 방향과 Y 방향으로 강도를 달리하는 흐림 효과를 적용할 수 있습니다.
 helpx_creative_field: ""

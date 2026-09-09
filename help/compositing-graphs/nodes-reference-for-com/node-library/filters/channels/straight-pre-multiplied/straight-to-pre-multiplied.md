@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
 description: 합성을 위해 알파 채널을 스트레이트 포맷에서 미리 곱하기 포맷으로 변환하려면 [스트레이트 미리 곱하기 노드로] 노드를 사용합니다.
 helpx_creative_field: ""

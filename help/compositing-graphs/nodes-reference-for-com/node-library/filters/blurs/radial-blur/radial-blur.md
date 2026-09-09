@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/radial-blur.html"
 breadcrumb-title: ''
 description: 방사형 흐림 효과 노드를 사용하면 중심점에서 방사형 흐림 효과를 적용하여 동작 및 확대/축소 효과를 만들 수 있습니다.
 helpx_creative_field: ""
