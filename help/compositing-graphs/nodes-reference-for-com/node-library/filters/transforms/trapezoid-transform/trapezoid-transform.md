@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/trapezoid-transform.html"
 breadcrumb-title: ''
 description: 사다리꼴 왜곡 텍스처에 사다리꼴 원근감 노드를 사용하여 사다리꼴 교정 효과를 적용합니다.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 사다리꼴 변형
+title: 사다리꼴
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 6%
@@ -18,15 +18,15 @@ ht-degree: 6%
 ---
 
 
-# 사다리꼴 변형
+# 사다리꼴
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trapeze-transform.png){width="128px"}
+![](trapezoid-transform.resources/trapeze-transform.png){width="128px"}
 
-![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
+![](trapezoid-transform.resources/trapeze-transform-grayscale.png){width="128px"}
 
 <b>필터</b>:
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/trapeze-example.gif" />
+            <img src="trapezoid-transform.resources/trapeze-example.gif" />
         </td>
     </tr>
 </table>

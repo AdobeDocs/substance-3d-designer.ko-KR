@@ -1,16 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
-description: 원근 교정 및 뒤틀기를 위해 4차원 변형을 텍스처에 적용하려면 [4차원 변형] 노드를 사용합니다.
+description: 원근감 교정 및 뒤틀기 텍스처에 사각형 변환을 적용하려면 쿼드형 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 쿼드 변형
+title: Quad
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -18,15 +18,15 @@ ht-degree: 2%
 ---
 
 
-# 쿼드 변형
+# Quad
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform.png){width="128px"}
 
 <b>필터</b>:
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 설명
 
-모퉁이점과의 상호 작용을 통해 쿼드 모양의 변형을 허용하는 특별한 변형 노드. 매우 구체적인 변형 작업을 직접 수행할 수 있습니다.
+4개 꼭지점 모양의 변환을 허용하는 특별한 꼭지점 노드 핸즈온 방식으로 변환을 사용할 수 있습니다.
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/quad-example.gif" />
+            <img src="quad-transform.resources/quad-example.gif" />
         </td>
     </tr>
 </table>
