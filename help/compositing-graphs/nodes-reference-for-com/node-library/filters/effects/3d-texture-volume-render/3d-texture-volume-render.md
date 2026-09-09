@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
 breadcrumb-title: ''
 description: 3D 텍스처 볼륨 렌더링 노드를 사용하여 3D 데이터에서 텍스처 및 안개 효과를 만들기 위한 볼륨 노드를 렌더링합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 텍스처 볼륨 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -70,39 +70,39 @@ ht-degree: 0%
 | <b>페더</b> <i>부동</i> | <b>밀도</b> 입력에 의해 제공된 값과 <i>내부</i> 거리 필드 값을 곱합니다.<br>이는 볼륨의 외부 한계에서 안쪽으로 <i>페이딩 그레이디언트</i>의 너비를 효과적으로 조정합니다. |
 | <b>밝은 색상 모드</b> <i>정수</i> | 직접 조명의 색상을 얻는 방법을 설정합니다.<br>- <i>온도(켈빈)</i>: 색상은 빛의 온도로부터 발생하며, 여기서 <i>더 낮음</i> 값은 <i>더 따뜻함</i> 색상<br>- <i>RGB 색상</i>: RGB 값을 사용하여 색상을 정의합니다. |
 | <b>빛 온도(켈빈)</b> <i>부동</i> | <i>색상</i>에 영향을 주는 직접 조명의 온도입니다. <i>더 낮음</i> 값을 사용하면 <i>더 따뜻한</i> 색상이 됩니다.<br>유용한 값:<br>1800K - 촛불<br>2800K - 백열등<br>5500K - 일광<br>6200K - 자연색<br>7000K - 흐린 하늘<br><i>참고</i>: 이 매개 변수는 <b>조명 색상 모드</b> 매개 변수가 <i>온도(켈빈)</i>로 설정된 경우에만 사용할 수 있습니다. |
-| <b>밝은 색상</b> <i>Float3</i> | 직접 조명의 색상입니다.<br><i>참고</i>: 이 매개 변수는 <b>조명 색상 모드</b> 매개 변수가 <i>RGB 색상</i>(으)로 설정된 경우에만 사용할 수 있습니다. |
+| <b>밝은 색상</b> <i>부동3</i> | 직접 조명의 색상입니다.<br><i>참고</i>: 이 매개 변수는 <b>조명 색상 모드</b> 매개 변수가 <i>RGB 색상</i>(으)로 설정된 경우에만 사용할 수 있습니다. |
 | <b>조명 강도</b> <i>부동</i> | 직접 조명의 강도입니다. |
-| <b>주변 색상</b> <i>Float3</i> | 주변 스카이라이트의 색상입니다. |
+| <b>주변 색상</b> <i>부동3</i> | 주변 스카이라이트의 색상입니다. |
 | <b>주변 강도</b> <i>부동</i> | 주변 스카이라이트의 강도입니다. |
-| <b>알베도</b> <i>Float3</i> | 볼륨의 알베도 색상입니다. |
+| <b>알베도</b> <i>부동3</i> | 볼륨의 알베도 색상입니다. |
 | <b>배경 모드</b> <i>정수</i> | <b>배경색</b>:<br>- <i>음영</i>에 따라 렌더링된 장면의 배경 음영 방법: 색상은 직접 조명의 <i>색상</i> 및 <i>강도</i><br>- <i>일정한 색상</i>에 영향을 받습니다. 색상은 직접 조명의 <i>에 관계없이</i> 균일하게 적용됩니다. |
-| <b>배경색</b> <i>Float4</i> | 렌더링된 장면의 배경을 채우는 데 사용되는 색상입니다. |
+| <b>배경색</b> <i>부동4</i> | 렌더링된 장면의 배경을 채우는 데 사용되는 색상입니다. |
 | <b>디더링</b> <i>부동</i> | 음영을 매끄럽게 하는 데 사용되는 <i>파랑 노이즈 디더링</i>의 강도를 조정합니다. |
 | <b>기준 평면 사용</b> <i>부울</i> | <i>True</i>일 때 <i>무한</i> 기준 평면을 렌더링합니다. 모양을 둘러싸는 <i>단위 육면체</i>가 이 평면에 있습니다. |
 | <b>무한 평면</b> <i>부울</i> | 지표 평면을 <i>수평선으로 무한히 확장</i>하도록 설정합니다.<br><i>참고</i>: 이 매개 변수는 <b>지표 평면 사용</b> 매개 변수가 <i>True</i>(으)로 설정된 경우에만 사용할 수 있습니다. |
-| <b>지표 평면 크기</b> <i>Float2</i> | 지표 평면의 크기를 조정합니다.<br><i>참고</i>: 이 매개 변수는 <b>지표 평면 사용</b> 매개 변수가 <i>True</i>(으)로 설정되어 있고 <b>무한 평면</b> 매개 변수가 <i>False</i>(으)로 설정되어 있는 경우에만 사용할 수 있습니다. |
+| <b>지표 평면 크기</b> <i>부동2</i> | 지표 평면의 크기를 조정합니다.<br><i>참고</i>: 이 매개 변수는 <b>지표 평면 사용</b> 매개 변수가 <i>True</i>(으)로 설정되어 있고 <b>무한 평면</b> 매개 변수가 <i>False</i>(으)로 설정되어 있는 경우에만 사용할 수 있습니다. |
 
 ## 예
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

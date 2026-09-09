@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: 3D 텍스처 위치 노드를 사용하여 공간 효과 및 매핑을 만들기 위한 3D 텍스처의 위치 정보를 추출할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 텍스처 위치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -46,10 +46,10 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
         </td>
     </tr>
 </table>
