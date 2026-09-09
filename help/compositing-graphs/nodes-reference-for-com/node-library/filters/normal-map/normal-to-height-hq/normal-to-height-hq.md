@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
 breadcrumb-title: ''
 description: Height HQ에 수직 노드를 사용하면 표면 세부 정보 추출을 위해 노멀 맵을 고품질 높이 맵으로 변환할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height HQ에 수직
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
+![](normal-to-height-hq.resources/normal-to-height-hq.png){width="128px"}
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -58,7 +58,7 @@ Normalmap 소스만 있지만 Heightmap과 결합하는 작업을 수행하려�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/normal2height-hq-ex.png" />
+            <img src="normal-to-height-hq.resources/normal2height-hq-ex.png" />
         </td>
     </tr>
 </table>
