@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
 breadcrumb-title: ''
 description: '[회색 음영 색상 Flood Fill]를 사용하여 연결된 영역을 회색 음영 색상으로 채워 단색 패턴을 만듭니다.'
 helpx_creative_field: ""
