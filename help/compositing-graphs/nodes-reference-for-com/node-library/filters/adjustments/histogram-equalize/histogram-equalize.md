@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: 히스토그램 균일화 노드를 사용하여 대비 및 밝기를 개선하기 위해 픽셀 강도를 재분포합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 막대 그래프 균일화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![막대 그래프 균일화: 아이콘](../../../../../../assets/histogram_equalize.png "막대 그래프 균일화: 아이콘"){width="200px"}
+![막대 그래프 균일화: 아이콘](histogram-equalize.resources/histogram_equalize.png "막대 그래프 균일화: 아이콘"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -69,44 +69,44 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![막대 그래프 균일화: 예 1](../../../../../../assets/histogram_equalize_example_3.png "막대 그래프 균일화: 예 1"){zoomable="yes"}
+![막대 그래프 균일화: 예 1](histogram-equalize.resources/histogram_equalize_example_3.png "막대 그래프 균일화: 예 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![막대 그래프 균일화: 예 2](../../../../../../assets/histogram_equalize_example_5.png "막대 그래프 균일화: 예 2"){zoomable="yes"}
+![막대 그래프 균일화: 예 2](histogram-equalize.resources/histogram_equalize_example_5.png "막대 그래프 균일화: 예 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>이후</i>
     </td>
   </tr>
 </table>
 
-![막대 그래프 균일화: 예 3](../../../../../../assets/histogram_equalize_example_6.png "막대 그래프 균일화: 예 3"){zoomable="yes"}
+![막대 그래프 균일화: 예 3](histogram-equalize.resources/histogram_equalize_example_6.png "막대 그래프 균일화: 예 3"){zoomable="yes"}
