@@ -28,7 +28,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 ![패스를 사용하는 재질](../../assets/Paths2.png "패스를 사용하는 재질")
 
-*Celine Dameron](https://www.artstation.com/cline)*&#x200B;의 아트워크[
+*Celine Dameron[&#128279;](https://www.artstation.com/cline)*&#x200B;의 아트워크
 
 ## 새 콘텐츠
 
@@ -150,7 +150,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 [패스에 마스크 적용](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 노드를 사용하면 회색 음영 패턴의 테두리를 세그먼트 목록 형태로 추출할 수 있습니다.
 
-그런 다음 필요에 따라 조정하도록 {2Path 2D}경로 1} 또는 {2Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 해당 경로를 처리할 수 있습니다.  [](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)[그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
+그런 다음 필요에 따라 조정하도록 {2Path 2D}경로 1&rbrace; 또는 &lbrace;2Paths Warp[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 해당 경로를 처리할 수 있습니다.  [&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
 
 <table>
 <tr style="border: 0;">
