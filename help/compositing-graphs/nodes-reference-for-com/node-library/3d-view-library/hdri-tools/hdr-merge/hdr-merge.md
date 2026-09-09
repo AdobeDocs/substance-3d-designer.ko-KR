@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
 description: HDR 병합 노드를 사용하여 합성 환경 맵을 만들기 위해 여러 HDR 이미지를 단일 파노라마로 병합합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HDR 병합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-merge.png){width="200px"}
+![](hdr-merge.resources/hdr-merge.png){width="200px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 

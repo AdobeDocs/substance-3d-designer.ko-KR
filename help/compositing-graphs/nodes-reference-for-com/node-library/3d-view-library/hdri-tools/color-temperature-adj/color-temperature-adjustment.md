@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
 breadcrumb-title: ''
 description: Color Temperature Adjustment 노드를 사용하여 HDRI 환경의 색상 온도를 조정하여 따뜻한 조명 효과 또는 차가운 조명 효과를 줄 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Color Temperature Adjustment
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustement.png){width="250px"}
 
 <b>내부:</b> 3D 보기 > HDRI 도구
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 설명
 
-입력 이미지의 색상 균형을 조정합니다. 사진의 흰색 균형 조정과 유사합니다. 키를 사용하지 않는 HDR 이미지의 색상을 따뜻하게 하거나 차갑게 하는 데 사용할 수 있습니다.
+입력 이미지의 색상 균형을 조정합니다. 사진의 흰색 균형 조정과 유사합니다. 키를 벗어난 HDR 이미지의 색상을 따뜻하게 하거나 차갑게 하는 데 사용할 수 있습니다.
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/color-tempadjust-ex.gif" />
+            <img src="color-temperature-adjustment.resources/color-tempadjust-ex.gif" />
         </td>
     </tr>
 </table>
