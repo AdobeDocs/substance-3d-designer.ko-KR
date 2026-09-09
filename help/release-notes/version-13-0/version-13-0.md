@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 새 노드, Substance 엔진 9.0 및 포털 노드에 대해 알아보려면 Substance 3D Designer 버전 13.0의 릴리스 정보를 검토하십시오.
 helpx_creative_field: ""

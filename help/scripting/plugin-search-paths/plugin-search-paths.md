@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 플러그인 검색 경로를 구성하여 Python 플러그인이 위치한 위치를 지정합니다.
 helpx_creative_field: ""

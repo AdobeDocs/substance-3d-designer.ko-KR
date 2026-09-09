@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: Substance 그래프 매개 변수가 예상대로 작동하지 않는 문제를 해결하고 해결 방법을 찾으십시오.
 helpx_creative_field: ""
