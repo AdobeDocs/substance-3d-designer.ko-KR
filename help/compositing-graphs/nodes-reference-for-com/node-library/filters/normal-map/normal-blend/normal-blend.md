@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 표준 혼합
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend.png){width="128px"}
 
 <b>내부:</b> 필터 > 노멀 맵
 
@@ -65,7 +65,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/normalblend-ex.gif" /><br><i>(.gif 형식은 예제에서 디더링을 도입하며 응용 프로그램 내 결과는 매끄럽습니다.)</i>
+            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(.gif 형식은 예제에서 디더링을 도입하며 응용 프로그램 내 결과는 매끄럽습니다.)</i>
         </td>
     </tr>
 </table>

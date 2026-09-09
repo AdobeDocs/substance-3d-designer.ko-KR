@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 빠른 반응 확산
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![반응 확산 노드 아이콘](../../../../../../assets/reaction-diffusion.png "반응 확산 노드 아이콘")
+![반응 확산 노드 아이콘](reaction-diffusion-fast.resources/reaction-diffusion.png "반응 확산 노드 아이콘")
 
 <b>인:</b> 필터 > 효과
 
@@ -74,17 +74,17 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![예 1](../../../../../../assets/reactdiff03.png "예 1")
+![예 1](reaction-diffusion-fast.resources/reactdiff03.png "예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 2](../../../../../../assets/reactdiff02.png "예 2")
+![예 2](reaction-diffusion-fast.resources/reactdiff02.png "예 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![예 3](../../../../../../assets/reactdiff01.gif "예 3")
+![예 3](reaction-diffusion-fast.resources/reactdiff01.gif "예 3")
 
 </td>
 </tr>

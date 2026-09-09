@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
 breadcrumb-title: ''
-description: 매끄러운 전환을 위해 벡터 필드를 사용하여 두 입력 간의 텍스처를 모핑하려면 벡터 모핑 노드를 사용합니다.
+description: 벡터 형태 노드를 사용하면 부드러운 전환을 위해 벡터 필드를 사용하여 두 입력 간의 텍스처를 모핑할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 벡터 형태
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-grayscale.png)![](vector-morph.resources/vector-morph.png)
 
 <b>인:</b> 필터 > 효과
 

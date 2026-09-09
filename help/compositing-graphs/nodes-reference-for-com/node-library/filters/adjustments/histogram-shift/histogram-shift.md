@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
-description: '[막대 그래프 이동] 노드를 사용하면 명도 및 대비 범위를 조정하기 위해 텍스처의 막대 그래프 분포를 변경할 수 있습니다.'
+description: '[막대 그래프 이동] 노드를 사용하여 명도 및 대비 범위를 조정하기 위한 텍스처에서 막대 그래프 분포를 변경할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Shift
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 히스토그램 이동
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-1.png){width="128px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -54,10 +54,10 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-shift.gif" />
+            <img src="histogram-shift.resources/histogram-shift.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-shift2.gif" />
+            <img src="histogram-shift.resources/histogram-shift2.gif" />
         </td>
     </tr>
 </table>

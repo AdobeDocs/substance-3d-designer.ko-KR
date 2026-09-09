@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 주변 오클루전(RTAO)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO 노드 아이콘](../../../../../../assets/rt-ao.png "RTAO 노드 아이콘")
+![RTAO 노드 아이콘](ambient-occlusion-rtao.resources/rt-ao.png "RTAO 노드 아이콘")
 
 <b>인:</b> 필터 > 효과
 
@@ -62,10 +62,10 @@ Height 맵 입력을 기반으로 앰비언트 오클루전 맵을 생성합니�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2021-6-18-11-7-48.png" />
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2021-6-18-11-9-0-1.png" />
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
         </td>
     </tr>
 </table>

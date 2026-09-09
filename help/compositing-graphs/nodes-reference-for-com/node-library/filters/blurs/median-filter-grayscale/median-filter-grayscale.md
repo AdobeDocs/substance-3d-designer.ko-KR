@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 중간 필터 회색 음영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![중간 필터 회색 음영: 아이콘](../../../../../../assets/MedianFilter_Icon_Grayscale.png "중간 필터 회색 음영: 아이콘")
+![중간 필터 회색 음영: 아이콘](median-filter-grayscale.resources/MedianFilter_Icon_Grayscale.png "중간 필터 회색 음영: 아이콘")
 
 <b>인:</b> 필터 > 흐림 효과
 
@@ -75,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -88,11 +88,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
       <br><i>이후</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="median-filter-grayscale.resources/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
       <br><i>이후</i>
     </td>
   </tr>

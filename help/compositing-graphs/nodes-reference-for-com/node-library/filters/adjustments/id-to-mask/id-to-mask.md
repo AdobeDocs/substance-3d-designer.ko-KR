@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 회색 음영 마스크 ID
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![회색 음영 아이콘을 마스킹하는 ID](../../../../../../assets/IDToMask.png "회색 음영 아이콘을 마스킹하는 ID"){width="200px"}
+![회색 음영 아이콘을 마스킹하는 ID](id-to-mask.resources/IDToMask.png "회색 음영 아이콘을 마스킹하는 ID"){width="200px"}
 
 <b>내부:</b> 필터 > 조정
 
@@ -72,11 +72,11 @@ ID 맵은 전체(예를 들어, 모양)의 일부인 픽셀들이 모두 동일�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>이후</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ ID 맵은 전체(예를 들어, 모양)의 일부인 픽셀들이 모두 동일�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![마스킹할 ID: 예 2](../../../../../../assets/id_to_mask_example_2.gif "마스킹할 ID: 예 2"){zoomable="yes"}
+![마스킹할 ID: 예 2](id-to-mask.resources/id_to_mask_example_2.gif "마스킹할 ID: 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![마스킹할 ID: 예 3](../../../../../../assets/id_to_mask_example_3.png "마스킹할 ID: 예 3"){zoomable="yes"}
+![마스킹할 ID: 예 3](id-to-mask.resources/id_to_mask_example_3.png "마스킹할 ID: 예 3"){zoomable="yes"}
 
 </td>
 </tr>

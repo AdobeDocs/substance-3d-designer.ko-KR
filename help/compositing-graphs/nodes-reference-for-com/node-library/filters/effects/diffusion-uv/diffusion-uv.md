@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 확산 UV
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 예를 들어 U 좌표 값이 한 픽셀에서는 0.1이고 다른 픽셀에서는 0.8이면 *좌표 타일링*&#x200B;이 가정되므로 평균값은 0.45가 아니라 0.95가 됩니다. 이는 실제 픽셀 위치와는 별개입니다. 좌표 값은 이미지 전체에서 동일한 방식으로 처리됩니다.
 
-이 필터를 *텍스처 변형*&#x200B;에 사용할 때 원치 않는 결과가 발생할 수 있습니다. 이 경우 마스크가 &#39;곡선/점 제어&#39;를 *텍스처 길이의 절반 이하*&#x200B;로 정의하는지 확인합니다.
+이 필터를 *텍스처 변형*&#x200B;에 사용할 때 원치 않는 결과가 발생할 수 있습니다. 이 경우 마스크가 &#39;곡선/점 제어&#39;를 *텍스처 길이의 절반 이하*&#x200B;로 정의하는지 확인하십시오.
 
 </td>
 </tr>
@@ -69,18 +69,18 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
         </td>
     </tr>
 </table>

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
-description: 3D 텍스처 표면 렌더링 노드를 사용하여 3D 데이터에서 표면 텍스처를 렌더링하여 절차적 표면 효과를 만들 수 있습니다.
+description: 3D 텍스처 표면 렌더링 노드를 사용하여 3D 데이터에서 프로시저 표면 효과를 만들기 위한 표면 텍스처를 렌더링합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 텍스처 표면 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -33,14 +33,14 @@ ht-degree: 0%
 
 ## 설명
 
-**3D 텍스처 표면 렌더링** 노드는 **3D 거리 필드** 이미지 입력에서 해당 *거리 필드*&#x200B;를 사용하여 *3D 텍스처*&#x200B;로 설명된 모양의 표면을 렌더링합니다.
+**3D 텍스처 표면 렌더링** 노드는 **3D 거리 필드** 이미지 입력에서 해당 *거리 필드*&#x200B;를 사용하여 *3D 텍스처*&#x200B;에서 설명하는 모양의 표면을 렌더링합니다.
 
 표면은 *단위 큐브*&#x200B;의 경계 내에 표시됩니다. 조명은 무한 구에 매핑된 **환경** 입력 이미지를 사용하여 계산됩니다.
 
 >[!NOTE]
 >
-> 거리 필드는 256개의 슬라이스로 구성된 **16x16** 격자가 있는 모양을 설명하는 **4096x4096** 텍스처여야 합니다.\
-> [3D 텍스처 SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) 노드를 사용하여 256개 조각의 3D 텍스처에 대한 거리 필드를 계산할 수 있습니다.
+> 거리 필드는 256개의 슬라이스로 구성된 **16x16** 격자가 있는 모양을 설명하는 **4096x4096** 텍스처가 되어야 합니다.\
+> [3D 텍스처 SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) 노드를 사용하여 256개의 슬라이스로 구성된 3D 텍스처에 대한 거리 필드를 계산할 수 있습니다.
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>출력 해상도</b> <i>정수2</i> | <b>X</b> 및 <b>Y</b>의 출력 이미지 해상도이며, <i>2의 제곱</i>으로 표시됩니다. |
-| <b>카메라 위치</b> <i>Float2</i> | 모양 주위의 카메라 위치입니다.<br>노드를 선택하면 카메라의 <b>2D 보기</b>에서 <i>궤도</i>까지 위치 기즈모를 사용할 수 있습니다. |
+| <b>카메라 위치</b> <i>부동2</i> | 모양 주위의 카메라 위치입니다.<br>노드를 선택하면 카메라의 <b>2D 보기</b>에서 <i>궤도</i>까지 위치 기즈모를 사용할 수 있습니다. |
 | <b>카메라 거리</b> <i>부동</i> | 카메라에서 모양까지의 거리입니다. |
 | <b>카메라 FOV</b> <i>부동</i> | <i>도</i>의 카메라 시야입니다. |
 | <b>알베도</b> <i>Float3</i> | 모양 표면의 알베도 색상입니다. |
@@ -77,19 +77,19 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant2.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant3.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-variant4.jpg" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesurfacerender-node.png" />
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
         </td>
     </tr>
 </table>

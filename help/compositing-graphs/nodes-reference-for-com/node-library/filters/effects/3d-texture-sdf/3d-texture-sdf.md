@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 3D 텍스처 PDF
+title: 3D 텍스처 SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# 3D 텍스처 PDF
+# 3D 텍스처 SDF
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
 
 <b>인:</b> 필터 > 효과
 
@@ -61,13 +61,13 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-variant.jpg" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-variant2.jpg" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-node.png" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
         </td>
     </tr>
 </table>

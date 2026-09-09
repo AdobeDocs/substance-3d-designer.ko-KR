@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-normal-blender.html"
 breadcrumb-title: ''
-description: Height 표준 블렌더 노드를 사용하여 서피스 세부 정보를 결합하기 위해 Height과 노멀 맵을 블렌딩합니다.
+description: Height 표준 블렌더 노드를 사용하여 표면 세부 정보를 결합하기 위해 Height과 표준 맵을 블렌딩합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Height 표준 블렌더
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: 67f8f59bf50387b87e9009b042f269208c665c65
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender.png){width="128px"}
 
 <b>내부:</b> 필터 > 노멀 맵
 

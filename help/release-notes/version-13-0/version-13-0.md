@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 *출시일: 2023년 6월 6일*
 
-![패스를 사용하는 재질](version-13-0.resources/version-13-0-01.png "패스를 사용하는 재질")
+![패스를 사용하는 재질](../../assets/Paths2.png "패스를 사용하는 재질")
 
 *Celine Dameron[&#128279;](https://www.artstation.com/cline)*&#x200B;의 아트워크
 
@@ -39,7 +39,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 이러한 모든 노드는 많은 가능성을 제공하며 많은 크리에이티브 응용 프로그램을 가질 것입니다. [패스 및 자유 곡선 도구 작업](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)에 대한 섹션을 살펴보고 이 도구 집합에 익숙해지도록 이해하기 위한 중요한 개념에 대해 알아보세요.
 
-![스플라인을 사용하는 재질](version-13-0.resources/version-13-0-02.png "스플라인을 사용하는 재질")
+![스플라인을 사용하는 재질](../../assets/Splines.png "스플라인을 사용하는 재질")
 
 [루이스 멜린](https://www.artstation.com/troglodette)*의*&#x200B;아트워크
 
@@ -61,22 +61,22 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 큐빅](version-13-0.resources/version-13-0-03.gif "스플라인 큐빅")
+![스플라인 큐빅](../../assets/SplineCubic-Demo.gif "스플라인 큐빅")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 폴리 이차](version-13-0.resources/version-13-0-04.gif "스플라인 폴리 이차")
+![스플라인 폴리 이차](../../assets/SplinePolyQuadratic-Demo.gif "스플라인 폴리 이차")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 원](version-13-0.resources/version-13-0-05.gif "스플라인 원")
+![스플라인 원](../../assets/SplineCircle-Demo.gif "스플라인 원")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 브리지 목록](version-13-0.resources/version-13-0-06.gif "스플라인 브리지 목록")
+![스플라인 브리지 목록](../../assets/SplineBridge-List_Demo.gif "스플라인 브리지 목록")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 2D 변형](version-13-0.resources/version-13-0-07.gif "스플라인 2D 변형")
+![스플라인 2D 변형](../../assets/Spline2DTransform-Demo1.gif "스플라인 2D 변형")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 뒤틀기](version-13-0.resources/version-13-0-08.gif "스플라인 뒤틀기")
+![스플라인 뒤틀기](../../assets/SplineWarp-Demo.gif "스플라인 뒤틀기")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 샘플 Thickness](version-13-0.resources/version-13-0-09.gif "스플라인 샘플 Thickness")
+![스플라인 샘플 Thickness](../../assets/SplineSampleThickness-Demo.gif "스플라인 샘플 Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![스플라인 회색 음영 산란](version-13-0.resources/version-13-0-10.gif "스플라인 회색 음영 산란")
+![스플라인 회색 음영 산란](../../assets/ScatterOnSplineGrayscale-Demo.gif "스플라인 회색 음영 산란")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 채우기](version-13-0.resources/version-13-0-11.gif "스플라인 채우기")
+![스플라인 채우기](../../assets/SplineFill-Demo.gif "스플라인 채우기")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 매퍼 색상](version-13-0.resources/version-13-0-12.gif "스플라인 매퍼 색상")
+![스플라인 매퍼 색상](../../assets/SplineMapperColor-Demo.gif "스플라인 매퍼 색상")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![스플라인 플로우 매퍼](version-13-0.resources/version-13-0-13.gif "스플라인 플로우 매퍼")
+![스플라인 플로우 매퍼](../../assets/SplineFlowMapper-Demo.gif "스플라인 플로우 매퍼")
 
 </td>
 </tr>
@@ -150,18 +150,18 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 [패스에 마스크 적용](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 노드를 사용하면 회색 음영 패턴의 테두리를 세그먼트 목록 형태로 추출할 수 있습니다.
 
-그런 다음 필요에 따라 조정하도록 [경로 2D 변환](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) 또는 [경로 뒤틀기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 이러한 경로를 처리할 수 있습니다.  그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
+그런 다음 필요에 따라 조정하도록 {2Path 2D}경로 1&rbrace; 또는 &lbrace;2Paths Warp[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 해당 경로를 처리할 수 있습니다.  [&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![패스에 마스크 적용](version-13-0.resources/version-13-0-14.gif "패스에 마스크 적용")
+![패스에 마스크 적용](../../assets/MaskToPaths-Demo2.gif "패스에 마스크 적용")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![패스에 마스크 적용 2](version-13-0.resources/version-13-0-15.gif "패스에 마스크 적용 2")
+![패스에 마스크 적용 2](../../assets/MaskToPaths-Demo1.gif "패스에 마스크 적용 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -186,16 +186,16 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 위에 나열된 모든 새 노드는 새 Substance 엔진 버전을 기반으로 하며 주요 새 기능 <b>루프</b>를 최대한 활용하고 있습니다.
 
-루프는 [Substance 함수 그래프](../../function-graphs/function-graphs.md) 내에서만 사용되며 [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), [Fx-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 또는 [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)에서 구현할 가능성이 높습니다. 물론 루프를 사용하면 조건이 준수될 때까지 여러 번 함수를 쉽게 반복할 수 있다. 이렇게 하면 그래프를 밝게 하고 정확도를 높이는 데 도움이 됩니다.
+루프는 [Substance 함수 그래프](../../function-graphs/function-graphs.md) 내에서만 사용되며 [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), [Fx-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 또는 [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)에서 구현할 수 있습니다. 물론 루프를 사용하면 조건이 준수될 때까지 여러 번 함수를 쉽게 반복할 수 있다. 이렇게 하면 그래프를 밝게 하고 정확도를 높이는 데 도움이 됩니다.
 
 이 전용 [자습서](https://www.youtube.com/watch?v=Ggoy8G90oDI)는 루프 작업을 시작하는 데 도움이 됩니다.
 
 Substance 엔진 v9는 또한 다음과 같은 개선 사항을 제공합니다.
 
-* [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드의 그레이디언트 편집기에서 새 단색 모드(즉, 보간이 전혀 없음)
+* [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드의 그레이디언트 편집기에서 새 단색 모드(예: 보간이 전혀 없음)
 * Substance 함수 그래프의 Atomic Pow() 노드
 * Sampler 노드에 테두리 배치 옵션(클램프를 가장자리로 이동하고 반복) 추가
-* [뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) 및 [방향 뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) 노드에서 가장 가까운 샘플링
+* [뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) 및 [방향성 뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) 노드에서 가장 가까운 샘플링
 
 ## 포털 노드
 
@@ -205,7 +205,7 @@ Substance 엔진 v9는 또한 다음과 같은 개선 사항을 제공합니다.
 
 이 새로운 기능은 전용 [튜토리얼](https://www.adobe.com/go/designer-tutorial-portals)에서 자세히 설명합니다.
 
-![포털 노드](version-13-0.resources/version-13-0-16.gif "포털 노드")
+![포털 노드](../../assets/PortalNodeFinal.gif "포털 노드")
 
 ## 홈 화면
 
@@ -216,9 +216,9 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * 새로운 기능을 소개하거나 빠른 팁을 발견하는 튜토리얼과 같은 학습 리소스에 대한 링크를 찾을 수 있는 학습 페이지.
 * 새로운 기능 화면, 정보 화면, Substance 3D 웹 사이트, 지원 커뮤니티 포럼 등에 바로 연결됩니다.
 
-![홈 화면 - 홈](version-13-0.resources/version-13-0-17.png "홈 화면 - 홈")
+![홈 화면 - 홈](../../assets/HomeScreen.png "홈 화면 - 홈")
 
-![홈 화면 - 학습](version-13-0.resources/version-13-0-18.png "홈 화면 - 학습")
+![홈 화면 - 학습](../../assets/LearnPage.png "홈 화면 - 학습")
 
 ## 새 언어
 
@@ -281,7 +281,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * [엔진] 그래디언트에 단색 모드 추가
 * [엔진] 함수 그래프의 Atomic pow() 노드
 * [엔진] Sampler 노드에 테두리 배치 옵션(가장자리로 클램프/반복)을 추가합니다.
-* [엔진] 뒤틀기 및 방향성 뒤틀기 노드에서 가장 가까운 샘플링
+* [엔진] 뒤틀기 및 방향 뒤틀기 노드에서 가장 가까운 샘플링
 * [엔진] 색상 입력을 위해 선명 효과 필터에 &quot;펀치 스루 알파&quot; 모드를 추가합니다.
 * [엔진] FxMap: 반구 모르플렛
 * [엔진] 함수 그래프의 Atomic Get/Set 작업
@@ -296,7 +296,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 
 ### 수정 사항
 
-* [3D 보기] 장면 통계에서 긴 문자열 표시가 잘립니다(macOS만 해당).
+* [3D 보기] 장면 통계에서 긴 문자열의 표시가 잘립니다(macOS만 해당).
 * [API] &#39;structure::Structure&#39; 모듈이 API 참조에 계속 포함되어 있습니다.
 * [API] MDL 그래프의 점 노드에 정의나 속성이 없습니다.
 * [API] 함수 노드의 매개 변수를 설정할 때 잘못된 동작이 발생함
@@ -308,7 +308,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * [Graph] &#39;Enter&#39; 키를 사용할 때 &#39;Expose parameter&#39; 대화 상자에 포커스가 잘못 설정됩니다.
 * [그래프] 컨텍스트 편집에서 비트맵을 사용한 막대 그래프 스캔에서 잘못된 결과 발생
 * [로컬라이제이션] 다양한 클리핑 문제 해결
-* [Parameters] 입력 매개 변수를 삭제할 때 충돌이 발생합니다
+* [Parameters] 입력 매개 변수를 삭제할 때 충돌
 * [Publish] 폴더의 그래프가 게시된 패키지의 루트로 이동됨
-* [Resources] 디스크에서 로드된 리소스를 업데이트할 때 충돌이 발생합니다
+* [리소스] 디스크에서 로드된 리소스를 업데이트할 때 충돌 발생
 * [VisibleIf] 조건부 가시성 평가에서 회귀 수정

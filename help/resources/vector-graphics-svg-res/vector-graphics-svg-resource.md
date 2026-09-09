@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 벡터 그래픽(SVG) 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 * 획이 지원되지만 1픽셀 폭의 획이 생성되고 획 스타일링은 무시됩니다.
 * 파선 스타일은 확실히 깨집니다.
 * 텍스트를 렌더링할 패스/윤곽선으로 변환해야 합니다.
-* [복합 경로](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)는 지원되지 않습니다.
+* [복합 경로](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)는 지원되지 않습니다.
 * 그레이디언트와 같은 고급 기능은 지원되지 않습니다.
 * CSS 속성의 스타일 요소는 지원되지 않습니다.
 
@@ -87,7 +87,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 > 대지는 생성된 SVG 파일의 결과에 영향을 줄 수 있습니다. 일부 Illustrator 파일 템플릿은 여러 개의 아트보드를 소개합니다.\
 > 아트보드를 하나만 제대로 자르고 SVG으로 저장할 때 아트보드 창에서 선택하도록 합니다.
 
-![Illustrator SVG 내보내기 옵션](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
+![Illustrator SVG 내보내기 옵션](../../assets/svg-export-options-ai.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
 
 ### 잉크스케이프
 
