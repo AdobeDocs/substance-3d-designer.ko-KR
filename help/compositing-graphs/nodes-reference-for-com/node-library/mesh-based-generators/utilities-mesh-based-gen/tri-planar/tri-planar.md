@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/tri-planar.html"
 breadcrumb-title: ''
 description: 3개의 평면 노드를 사용하여 3개의 직교 평면에서 텍스처를 투영하여 복잡한 지오메트리에 대한 원활한 텍스처 매핑을 수행할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 삼중 평면
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/triplanar-1.png){width="128px"}
+![](tri-planar.resources/triplanar-1.png){width="128px"}
 
-![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/triplanar-grayscale.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 유틸리티
 

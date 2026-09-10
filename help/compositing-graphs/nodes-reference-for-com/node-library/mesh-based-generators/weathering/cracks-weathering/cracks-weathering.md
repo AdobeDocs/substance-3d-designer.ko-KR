@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
 breadcrumb-title: ''
 description: 균열 풍화 노드를 사용하여 메쉬 곡률과 응력점을 기반으로 재료에 균열 패턴을 추가합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 균열 웨더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 풍화
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cracks-ex.gif" />
+            <img src="cracks-weathering.resources/cracks-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rock-weathering.html"
 breadcrumb-title: ''
 description: 암석 풍화 노드를 사용하여 사실적인 침식 효과를 위해 메쉬 형상을 기반으로 암석 표면에 풍화 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 암석 풍화
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 16%
@@ -24,7 +24,7 @@ ht-degree: 16%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 풍화
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 
 |  |  |
 |:---|:---|
-| <b>주변 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
+| <b>앰비언트 오클루전</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
 | <b>곡률</b> <i>회색 음영 입력</i> | 내부 효과 및 마스크에 사용되는 베이킹된 맵. |
 | <b>일반 WS</b> <i>색상 입력</i> | 내부 효과 및 마스크에 사용되는 Baked World Space Normalmap |
 | <b>마스크</b> <i>회색 음영 입력</i> | 노드의 효과를 마스킹하는 데 사용되는 마스크 슬롯입니다. &quot;마스크&quot; 매개 변수로 전환할 수 있습니다. |
@@ -54,7 +54,7 @@ ht-degree: 16%
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도] 맵을 사용하는 경우 이 그룹의 재질 채널을 켜거나 끕니다. |
 | <b>고급</b> |  |
 | <b>표준 형식</b> <i>DirectX, OpenGL</i> | 서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다). |
 | <b>마스크</b> <i>거짓/참</i> | 마스크 맵 사용을 설정하거나 해제합니다. |
@@ -86,7 +86,7 @@ ht-degree: 16%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rock-ex.gif" />
+            <img src="rock-weathering.resources/rock-ex.gif" />
         </td>
     </tr>
 </table>
