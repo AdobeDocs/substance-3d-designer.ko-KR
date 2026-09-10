@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
 description: 스플라인 2d를 변환, 스플라인 변환 및 배율 조정과 함께 사용하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 2D 변형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-2d-transform-icon.png "노드 아이콘")
+![노드 아이콘](spline-2d-transform.resources/spline-2d-transform-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>방향 뒤집기</b> <i>부울</i> | 스플라인의 방향을 반전합니다. |
-| <b>매트릭스 변환</b> <i>Float4</i> | 스플라인에 적용된 변형 행렬<br>2D 보기 매개 변수를 편집하는 세 가지 모드를 사용할 수 있습니다.<br><br>- <i>변형 기즈모</i>: 스플라인 2Spline d 노드를 선택할 때 기즈모 변환에 표시되는 핸들의 조정&rbrace;- 4 노드 선택 시 <br>;스플라인의 회전 <i>회전 제어/개별 회전 제어</i>: 스플라인의 회전 및 개별 회전 제어. 값은 항상 현재 변환에 상대적으로 적용됩니다. 예를 들어, 50% 너비를 두 번 적용하면 25% 너비가 됩니다.<br>- <i>행렬 값</i>: [행렬 값 편집] 버튼을 클릭하여 행렬의 원시 숫자 값을 직접 입력합니다. |
+| <b>매트릭스 변환</b> <i>Float4</i> | 스플라인에 적용된 변형 행렬<br>2D 보기 매개 변수를 편집하는 세 가지 모드를 사용할 수 있습니다.<br><br>- <i>변형 기즈모</i>: 스플라인 2Spline d 노드를 선택할 때 기즈모 변환에 표시되는 핸들의 조정}- 4 노드 선택 시 <br>;스플라인의 회전 <i>회전 제어/개별 회전 제어</i>: 스플라인의 회전 및 개별 회전 제어. 값은 항상 현재 변환에 상대적으로 적용됩니다. 예를 들어, 50% 너비를 두 번 적용하면 25% 너비가 됩니다.<br>- <i>행렬 값</i>: [행렬 값 편집] 버튼을 클릭하여 행렬의 원시 숫자 값을 직접 입력합니다. |
 | <b>오프셋</b> <i>Float2</i> | X(가로) 및 Y(세로)의 스플라인에 위치 오프셋을 적용합니다. |
 | <b>미리 보기</b> |  |
 | <b>방향 도우미 표시</b> <i>부울</i> | 미리 보기 출력에서 스플라인의 시작 부분에 점을 표시하고 끝 부분에 화살표를 표시합니다. |
@@ -85,11 +85,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -101,11 +101,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -119,7 +119,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/Spline2DTransform-Demo1.gif "노드 예 1")
+![노드 예 1](spline-2d-transform.resources/Spline2DTransform-Demo1.gif "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
