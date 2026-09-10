@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
 breadcrumb-title: ''
 description: Dirt 5 노드를 사용하여 풍화 및 오래된 표면 세부 사항을 만들기 위한 고급 Dirt 패턴을 생성합니다.
 helpx_creative_field: ""
