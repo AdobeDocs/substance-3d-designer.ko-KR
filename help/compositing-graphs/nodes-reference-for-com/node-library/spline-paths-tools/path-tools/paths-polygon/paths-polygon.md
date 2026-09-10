@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: '[패스 다각형] 노드를 사용하여 기하학적 패턴 생성을 위해 정점 데이터에서 다각형 패스를 만듭니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 다각형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/paths-polygon-icon.png "노드 아이콘")
+![노드 아이콘](paths-polygon.resources/paths-polygon-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -63,12 +63,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "노드 예 1")
+![노드 예 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/PathsPolygon_Variant2.jpg "노드 예 2")
+![노드 예 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "노드 예 2")
 
 </td>
 </tr>

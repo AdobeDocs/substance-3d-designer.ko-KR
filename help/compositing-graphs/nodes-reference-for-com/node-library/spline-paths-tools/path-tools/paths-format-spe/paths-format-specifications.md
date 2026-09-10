@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 breadcrumb-title: ''
 description: 패스 및 스플라인 노드에서 사용하는 패스 형식 사양 및 데이터 구조에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 형식 사양
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![패스 다각형 인코딩 데이터](../../../../../../assets/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
+![패스 다각형 인코딩 데이터](paths-format-specifications.resources/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 이 문서에 정의된 마지막 정점의 주소입니다. 새 데이터를 추가하는 데 유용합니다.
 
-따라서 실제로 마지막 정점의 주소보다 스캔라인 순서로 더 큰 주소일 수 있습니다. 범위: &rbrack;0, 1[×]0,.5&lbrack;
+따라서 실제로 마지막 정점의 주소보다 스캔라인 순서로 더 큰 주소일 수 있습니다. 범위: ]0, 1[×]0,.5[
 
 <b>ZW</b>
 
@@ -101,7 +101,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 ### 패스 머리글
 
 문서 머리글 바로 다음에 경로 수 = top[(0,0)].X 경로 헤더가 시맨틱 단위로 하나씩 옵니다.\
-E.g. 문서에 3개의 경로가 있는 경우 해당 경로는 U[(0,1)\*pixel\_size], U[(0,2)\*pixel\_size] 및 U[(0,3)\*pixel\_size] (픽셀\_size = top[(0,0)].YZ 포함)에 저장됩니다.
+E.g. 문서에 3개의 경로가 있는 경우 해당 경로는 U[(0,1)\*pixel\_size], U[(0,2)\*pixel\_size] 및 U[(0,3)\*pixel\_size](픽셀\_size = top[(0,0)].YZ 포함)에 저장됩니다.
 
 한 픽셀 행에 포함할 수 있는 것보다 많은 패스가 있는 경우 나머지 패스-헤더는 다음 행 중 하나에 스캔라인 순서로 기록됩니다.\
 Null 경로 헤더(`top[...].XYZW = Float4(0,0,0,0)`)를 사용할 수 있습니다. 이러한 경로는 하나의 빈 경로로 허용됩니다.
@@ -269,11 +269,11 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 세 번째 반복 노드의 Iterations 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다. 사용 방법에 대한 예시.
 
-![sample_next의 최소 사용 사례](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
+![sample_next의 최소 사용 사례](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
 
 
 
-![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
+![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
 
 
 
