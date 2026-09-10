@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
 breadcrumb-title: ''
 description: 그런지 맵 015 노드를 사용하여 표면에 대한 디테일과 마모 효과를 재료에 추가하는 프로시저 그런지를 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 지도 015
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-015.png){width="128px"}
+![](grunge-map-015.resources/grungemap-015.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 설명
 
-이렇게 하면 복잡하고 결합된 노이즈맵이 생성됩니다. 이 방법은 세부 절차로서 매우 유용할 수 있지만 성능이 매우 집중되어 생성이 느리다는 점을 명심하십시오.
+이렇게 하면 복잡하고 결합된 노이즈맵이 생성됩니다. 이 기능은 프로시저 세부 정보로 매우 유용할 수 있지만, 이러한 기능은 성능이 매우 집약적이므로 생성하는 속도가 느립니다.
 
 </td>
 </tr>
@@ -49,14 +49,14 @@ ht-degree: 7%
 | <b>대비</b> <i>0.0 - 1.0</i> | 결과의 대비를 조정합니다. |
 | <b>반전</b> <i>거짓/참</i> | 결과를 반전합니다. |
 | <b>브러시 패턴</b> <i>0.0 - 1.0</i> | 브러시 알파로 사용할 경우에 사용하도록 가장자리 주위에 마스크를 추가합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 
 ## 예
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-015-ex.gif" />
+            <img src="grunge-map-015.resources/grungemap-015-ex.gif" />
         </td>
     </tr>
 </table>
