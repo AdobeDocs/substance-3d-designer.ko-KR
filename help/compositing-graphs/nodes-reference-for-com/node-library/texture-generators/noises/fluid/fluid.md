@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
 breadcrumb-title: ''
 description: 유체 노드를 사용하여 액체 및 물 표면 텍스처 효과를 만들기 위한 유체와 같은 노이즈 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 유체
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fluid.png){width="128px"}
+![](fluid.resources/fluid.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -58,7 +58,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fluid-ex.gif" />
+            <img src="fluid.resources/fluid-ex.gif" />
         </td>
     </tr>
 </table>

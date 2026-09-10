@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
 description: 프랙탈 합산 1 노드를 사용하면 여러 옥타브를 합하여 세부 텍스처를 만들어 프랙탈 노이즈 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프랙탈 합산 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![프랙탈 합산 1 - 아이콘](../../../../../../assets/fractal_sum_1.png "프랙탈 합산 1 - 아이콘"){width="200px"}
+![프랙탈 합산 1 - 아이콘](fractal-sum-1.resources/fractal_sum_1.png "프랙탈 합산 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 1 - 예 1](../../../../../../assets/fractal_sum_1_1.png "프랙탈 합산 1 - 예 1"){zoomable="yes"}
+![프랙탈 합산 1 - 예 1](fractal-sum-1.resources/fractal_sum_1_1.png "프랙탈 합산 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![프랙탈 합산 1 - 예 2](../../../../../../assets/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "프랙탈 합산 1 - 예 2"){zoomable="yes"}
+![프랙탈 합산 1 - 예 2](fractal-sum-1.resources/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "프랙탈 합산 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
