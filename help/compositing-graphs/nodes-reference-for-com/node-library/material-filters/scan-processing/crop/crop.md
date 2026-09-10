@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
-description: 자르기 노드를 사용하여 스캔한 재료 및 텍스처를 처리하기 위해 특정 영역으로 재료 출력을 자릅니다.
+description: 자르기 노드를 사용하여 스캔한 재질 및 텍스처를 처리하기 위해 특정 영역으로 재질 출력을 자릅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 자르기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 3%
@@ -24,9 +24,9 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-10.png){width="128px"}
+![](crop.resources/crop-10.png){width="128px"}
 
-![](../../../../../../assets/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-grayscale.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 
@@ -54,6 +54,6 @@ ht-degree: 3%
 |:---|:---|
 | <b>입력 크기</b> <i>0 - 8192</i> | 이미지의 해상도와 비율을 입력합니다. 정사각형이 아닌 이미지에 매우 중요합니다. |
 | <b>배경</b> <i>(색상 값) / (회색 음영 값)</i> | [자르기]로 가려지지 않은 영역의 배경에 균일한 값 |
-| <b>변형</b> <i>(변환 행렬)</i> | 결과를 회전하고 크기를 조절합니다. 캔버스와 직접 상호 작용하여 결과를 수정할 수 있습니다. |
+| <b>변환</b> <i>(변환 행렬)</i> | 결과를 회전하고 크기를 조절합니다. 캔버스와 직접 상호 작용하여 결과를 수정할 수 있습니다. |
 | <b>오프셋</b> <i>0.0 - 1.0</i> | 결과를 이동하거나 변환합니다. 캔버스와 직접 상호 작용하여 결과를 수정할 수 있습니다. |
 | <b>일반(색상 버전에만 해당)</b> <i>거짓/참</i> | 입력을 정규맵으로 처리할지 여부를 지정합니다. |

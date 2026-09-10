@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
 breadcrumb-title: ''
 description: 다중 복제 패치 노드를 사용하여 스캔한 재료 가공물을 복구하기 위해 여러 텍스처 채널을 복제하고 패치합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 다중 복제 패치
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 스캔 처리
 

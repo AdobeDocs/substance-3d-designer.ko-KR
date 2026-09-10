@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
 breadcrumb-title: ''
 description: 회전, 비율 조정, 오프셋 등의 재질 출력에 변환을 적용하려면 [자료] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -7,10 +7,10 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 물약
+title: 재질 변형
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 ---
 
 
-# 물약
+# 재질 변형
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-transforms.png){width="128px"}
+![](material-transform.resources/material-transforms.png){width="128px"}
 
 <b>재질 필터:</b> 변환 >
 
@@ -50,4 +50,4 @@ ht-degree: 2%
 | <b>변환</b> <i>(변환 행렬)</i> | 결과를 회전하고 크기를 조절합니다. 이동/패닝은 오프셋 매개 변수를 통해 수행됩니다 |
 | <b>오프셋</b> <i>-0.5 - 0.5</i> | 결과를 이동하거나 변환합니다. 변형 컨트롤이 있으면 캔버스와 직접 상호 작용하여 결과를 수정할 수 있습니다. |
 | <b>표준 형식</b> | DirectX 및 OpenGL 형식(녹색으로 뒤집기) 중에서 선택합니다. |
-| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도] 맵을 사용하는 경우 이 그룹의 재질 채널을 켜거나 끕니다. |
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
