@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: 모발 및 섬유 효과를 만드는 사용자 정의 가능한 속성을 가진 고급 모피 텍스처를 생성하려면 Fur 3 노드를 사용하십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모피 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-3.png){width="128px"}
+![](fur-3.resources/fur-3.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -55,7 +55,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fur-3-ex.gif" />
+            <img src="fur-3.resources/fur-3-ex.gif" />
         </td>
     </tr>
 </table>

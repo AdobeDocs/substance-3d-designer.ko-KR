@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: '[그런지 Damas] 노드를 사용하여 화려한 풍화된 표면 세부 사항을 만들기 위한 대마스크와 같은 그런지 패턴을 생성합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그런지 다마스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 2%
 | <b>균형</b> <i>부동</i> | 어두운 값과 밝은 값 간의 균형을 조정합니다. |
 | <b>대비</b> <i>부동</i> | 이미지의 대비를 조정합니다. |
 | <b>반전</b> <i>부울</i> | `1-x` 작업을 사용하여 이미지의 출력을 반전합니다. |
-| <b>비정사각형 확장</b> <i>부울</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>부울</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 | <b>고급</b> |  |
 | <b>왜곡</b> <i>부동</i> | 패턴의 왜곡 양을 조정합니다. |
 | <b>사업부</b> <i>정수</i> | 패턴의 분할 또는 그레이디언트 반복의 양을 조정합니다. |
@@ -61,7 +61,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>

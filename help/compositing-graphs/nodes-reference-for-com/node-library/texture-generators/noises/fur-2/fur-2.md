@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
 breadcrumb-title: ''
 description: 모피 2 노드를 사용하면 모발 및 섬유 재료를 시뮬레이션하는 개선된 컨트롤이 있는 모피 텍스처를 만들 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모피 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-2.png){width="128px"}
+![](fur-2.resources/fur-2.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fur-2-ex.gif" />
+            <img src="fur-2.resources/fur-2-ex.gif" />
         </td>
     </tr>
 </table>
