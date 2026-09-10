@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 주름진
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -50,14 +50,14 @@ ht-degree: 8%
 | <b>크기 조절</b> <i>1 - 8</i> | 효과의 전체 배율을 설정합니다. |
 | <b>뒤틀기 강도</b> <i>0.0 - 128.0</i> | 벤드/뒤틀기 효과의 강도를 설정합니다. |
 | <b>장애</b> <i>0.0 - 100.0</i> | 노이즈를 생성하는 데 사용된 레이어를 약간 오프셋하여 변형을 추가합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 
 ## 예
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/creased-ex.gif" />
+            <img src="creased.resources/creased-ex.gif" />
         </td>
     </tr>
 </table>

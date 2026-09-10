@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 보로노이
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 잡음
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 |:---|:---|
 | <b>반전</b> <i>부울</i> | 출력 이미지를 반전합니다. |
 | <b>크기 조절</b> <i>부동</i> | 3D 보로노이 노이즈의 크기를 제어합니다.<br><br><i>참고</i>: <i>모든 축</i>에서 <b>타일링</b>을 사용하도록 설정한 경우 크기 조정이 <i>단계</i>입니다. 이것은 예상된 일입니다. |
-| <b>크기</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축의 3D 보로노이 노이즈 크기를 제어합니다. 균일하지 않은 값으로 <i>균등 없는 값</i>이 발생합니다.<br><br><i>참고</i>: <b>타일링</b>이 <i>모든 축</i>에서 활성화되면 크기 조정이 <i>단계</i>입니다. 이것은 예상된 일입니다. |
-| <b>오프셋</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 3D 보로노이 노이즈의 <i>위치</i>에 오프셋을 적용합니다. |
-| <b>장애</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축의 각 노이즈 지점에 적용된 <i>임의 오프셋</i>의 강도입니다. |
+| <b>크기</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축의 3D 보로노이 노이즈 크기를 제어합니다. 균일하지 않은 값으로 <i>균등 없는 값</i>이 발생합니다.<br><br><i>참고</i>: <b>타일링</b>이 <i>모든 축</i>에서 활성화되면 크기 조정이 <i>단계</i>입니다. 이것은 예상된 일입니다. |
+| <b>오프셋</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 3D 보로노이 노이즈의 <i>위치</i>에 오프셋을 적용합니다. |
+| <b>장애</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축의 각 노이즈 지점에 적용된 <i>임의 오프셋</i>의 강도입니다. |
 | <b>왜곡 강도</b> <i>부동</i> | 3D 보로노이 노이즈에 적용된 <i>뒤틀기 효과</i>의 강도를 제어합니다. |
 | <b>왜곡 배율 배율</b> <i>부동</i> | <b>왜곡 강도</b>로 제어되는 뒤틀기 효과에 사용되는 <i>변형 패턴</i>의 비율을 제어합니다. |
 | <b>둥근 곡선</b> <i>부동</i> | <i>경사</i>을(를) 소음의 각 지점 주위에 반올림하여 <i>볼록</i>.<br><br><i>참고</i>: 이 매개 변수는 <b>Style</b> 매개 변수가 <i>Edge</i>(으)로 설정된 경우 사용할 수 없습니다. |
@@ -71,24 +71,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>

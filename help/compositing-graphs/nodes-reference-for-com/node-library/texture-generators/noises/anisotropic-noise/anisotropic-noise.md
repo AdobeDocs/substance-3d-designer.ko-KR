@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비등방성 노이즈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![비등방성 노이즈 - 아이콘](../../../../../../assets/anisotropic_noise_v2.png "비등방성 노이즈 - 아이콘"){width="200px"}
+![비등방성 노이즈 - 아이콘](anisotropic-noise.resources/anisotropic_noise_v2.png "비등방성 노이즈 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -71,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![비등방성 노이즈 - 예 1](../../../../../../assets/anisotropic_noise_v2_1.png "비등방성 노이즈 - 예 1"){zoomable="yes"}
+![비등방성 노이즈 - 예 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "비등방성 노이즈 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![비등방성 노이즈 - 예 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "비등방성 노이즈 - 예 2"){zoomable="yes"}
+![비등방성 노이즈 - 예 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "비등방성 노이즈 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 채우기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-fill-icon.png "노드 아이콘")
+![노드 아이콘](spline-fill.resources/spline-fill-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -72,11 +72,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -85,7 +85,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/SplineFill-Demo.gif "노드 예 2")
+![노드 예 2](spline-fill.resources/SplineFill-Demo.gif "노드 예 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 미리 보기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/preview-paths-icon.png "노드 아이콘")
+![노드 아이콘](preview-paths.resources/preview-paths-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -66,12 +66,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "노드 예 1")
+![노드 예 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "노드 예 2")
+![노드 예 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "노드 예 2")
 
 </td>
 </tr>

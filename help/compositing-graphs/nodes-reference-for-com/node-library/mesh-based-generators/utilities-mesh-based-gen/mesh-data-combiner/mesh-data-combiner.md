@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 메쉬 데이터 결합기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fbf066c7185f74dcbf35156afc3873d192f77abc
+source-git-commit: 1ea5f4e048a3b4591bf71d9b18707837dac1bf6f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner.png){width="128px"}
 
 <b>내부:</b> 메시 기반 생성기 > 유틸리티
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>주변 오클루전</b> <i>거짓/참</i> |  |
+| <b>앰비언트 오클루전</b> <i>거짓/참</i> |  |
 | <b>UV 마스크</b> <i>거짓/참</i> |  |
 | <b>곡률</b> <i>거짓/참</i> |  |
 | <b>Height</b> <i>거짓/참</i> |  |

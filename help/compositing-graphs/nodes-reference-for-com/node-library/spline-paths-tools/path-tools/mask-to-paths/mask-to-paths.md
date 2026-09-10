@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
-description: '[패스에 마스크 적용] 노드를 사용하여 마스크 텍스처를 패스 데이터로 변환하여 프로시저 패스를 만들 수 있습니다.'
+description: 마스크-패스 노드를 사용하면 마스크 텍스처를 패스 데이터로 변환하여 패스를 계속 생성할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Mask to Paths
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스에 마스크 적용
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/mask-to-paths-icon.png "노드 아이콘")
+![노드 아이콘](mask-to-paths.resources/mask-to-paths-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 패스 도구
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 생성된 패스의 시작 위치와 목록에서 해당 순서를 제어할 수 있습니다.
 
-생성된 경로는 전용 노드(예: [경로 2D&rbrace;경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), &lbrace;2 변환 경로[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md), [스플라인 경로](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드를 사용하여 스플라인으로 변환되어 모양을 매핑하거나 산란으로 지정할 수 있습니다.
+생성된 패스는 전용 노드(예: [패스 2D 변형](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), [패스 뒤틀기](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md))를 사용하여 추가로 처리하거나 [스플라인 패스](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드를 사용하여 스플라인으로 변환하여 모양을 매핑하거나 산란에 사용할 수 있습니다.
 
 </td>
 </tr>
@@ -92,11 +92,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/MaskToPaths-Demo2.gif "노드 예 2"){zoomable="yes"}
+![노드 예 2](mask-to-paths.resources/MaskToPaths-Demo2.gif "노드 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/MaskToPaths-Demo1.gif "노드 예 1"){zoomable="yes"}
+![노드 예 1](mask-to-paths.resources/MaskToPaths-Demo1.gif "노드 예 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 3: 시작 모드](../../../../../../assets/MaskToPaths-Demo3.gif "노드 예 3: 시작 모드"){zoomable="yes"}
+![노드 예 3: 시작 모드](mask-to-paths.resources/MaskToPaths-Demo3.gif "노드 예 3: 시작 모드"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 3: 순서 지정 모드](../../../../../../assets/MaskToPaths-Demo4.gif "노드 예 3: 순서 지정 모드"){zoomable="yes"}
+![노드 예 3: 순서 지정 모드](mask-to-paths.resources/MaskToPaths-Demo4.gif "노드 예 3: 순서 지정 모드"){zoomable="yes"}
 
 </td>
 </tr>

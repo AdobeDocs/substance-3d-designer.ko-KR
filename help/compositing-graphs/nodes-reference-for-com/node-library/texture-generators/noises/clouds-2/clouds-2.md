@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
 breadcrumb-title: ''
-description: Clouds 2 노드를 사용하여 대기 및 부피 텍스처 효과를 생성하기 위한 중간 구름 패턴을 생성합니다.
+description: Clouds 2 노드를 사용하여 대기 및 부피 텍스처 효과를 만들기 위한 중간 구름 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 2
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 구름 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![구름 2 - 아이콘](../../../../../../assets/clouds_2.png "구름 2 - 아이콘"){width="200px"}
+![구름 2 - 아이콘](clouds-2.resources/clouds_2.png "구름 2 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![구름 2 - 예 1](../../../../../../assets/clouds_2_1.png "구름 2 - 예 1"){zoomable="yes"}
+![구름 2 - 예 1](clouds-2.resources/clouds_2_1.png "구름 2 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![구름 2 - 예 2](../../../../../../assets/noise_clouds_2_v2_speed0.6_aniso0.gif "구름 2 - 예 2"){zoomable="yes"}
+![구름 2 - 예 2](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif "구름 2 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![구름 2 - 예 3](../../../../../../assets/noise_clouds_2_v2_speed0.6_aniso1.gif "구름 2 - 예 3"){zoomable="yes"}
+![구름 2 - 예 3](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif "구름 2 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![구름 2 - 예 4](../../../../../../assets/noise_clouds_2_v2_speed0.3_aniso0.6.gif "구름 2 - 예 4"){zoomable="yes"}
+![구름 2 - 예 4](clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif "구름 2 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

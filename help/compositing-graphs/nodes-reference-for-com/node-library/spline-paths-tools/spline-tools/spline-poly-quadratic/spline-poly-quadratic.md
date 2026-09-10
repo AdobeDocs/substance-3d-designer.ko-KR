@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인(폴리 이차)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-poly-quadratic-icon.png "노드 아이콘")
+![노드 아이콘](spline-poly-quadratic.resources/spline-poly-quadratic-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | <b>정사각형이 아닌 수정</b> <i>부울</i> | 점의 위치와 Thickness을 조정하여 정사각형이 아닌 해상도에서 스플라인 모양을 유지합니다.<br>균일 배포에도 영향을 줍니다. |
 | <b>전역 Smoothness 조정</b> <i>부동</i> | 모든 점의 Smoothness 값에 균일한 오프셋을 적용합니다.<br>결과 Smoothness 값이 [0;1] 범위로 고정되어 있습니다. |
 | <b>포인트 속성</b> |  |
-| <b>p# 속성</b> <i>Float3</i> | p# 지점의 속성을 설정합니다.<br>- <i>Height:</i> 값이 낮을수록 위치가 더 낮거나 더 깊은 지점의 Height을 조정합니다.<br>- <i>Smoothness:</i> p#에서 스플라인의 매끄러움 시작을 오프셋합니다. 여기서 0의 값은 하드 궤적을 만들고 1은 완전히 매끄러운 궤적을 만듭니다.<br>- <i>Thickness:</i> p#에서 스플라인의 Thickness을 조정합니다. Thickness은 특정 스플라인 노드에서 사용됩니다. |
+| <b>p# 속성</b> <i>부동3</i> | p# 지점의 속성을 설정합니다.<br>- <i>Height:</i> 값이 낮을수록 위치가 더 낮거나 더 깊은 지점의 Height을 조정합니다.<br>- <i>Smoothness:</i> p#에서 스플라인의 매끄러움 시작을 오프셋합니다. 여기서 0의 값은 하드 궤적을 만들고 1은 완전히 매끄러운 궤적을 만듭니다.<br>- <i>Thickness:</i> p#에서 스플라인의 Thickness을 조정합니다. Thickness은 특정 스플라인 노드에서 사용됩니다. |
 | <b>점 좌표</b> |  |
 | <b>p#</b> <i>Float2</i> | 텍스처 공간에서 p# 점의 위치를 설정합니다. |
 | <b>미리 보기</b> |  |
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -128,7 +128,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "노드 예 2")
+![노드 예 2](spline-poly-quadratic.resources/SplinePolyQuadratic-Demo.gif "노드 예 2")
 
 </td>
 </tr>

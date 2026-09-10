@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR 렌더링
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render.png){width="250px"}
 
 <b>내부:</b> 재질 필터 > PBR 유틸리티
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 설명
 
-이미지 기반 조명(IBL)을 사용하여 구, 평면 또는 원통에 PBR 재질을 렌더링합니다. 이것은 노드 내의 렌더링 엔진으로, 썸네일, 미리 보기 또는 2D 에셋을 생성하는 데 매우 유용할 수 있습니다. 3D 보기처럼 렌더링되는 것이 아니라 그래프에서 실제 텍스처가 생성되는 것입니다.
+이미지 기반 조명(IBL)을 사용하여 구, 평면 또는 원통에 PBR 재질을 렌더링합니다. 이것은 노드 내의 렌더링 엔진으로, 썸네일, 미리 보기 또는 2D 에셋을 생성하는 데 매우 유용할 수 있습니다. 이는 3D 보기처럼 렌더링이 아니라 그래프에서 실제 텍스처가 생성되는 것입니다.
 
 이 노드에는 적어도 전체 PBR 자료가 꽂혀 있어야 합니다. [PBR 렌더링 생성 모드]를 사용하여 재질을 링크에 연결하는 것이 좋습니다. 또한 조명을 계산하려면 렌더링에 구형에서 래핑하지 않은 HDRI 환경이 필요합니다. 테스트용 재질은 PBR 재질에서 찾을 수 있으며, 환경 맵은 라이브러리의 [3D 보기에서 찾을 수 있습니다.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
@@ -55,9 +55,9 @@ ht-degree: 6%
 |:---|:---|
 | <b>재료 채널 입력</b> | 여러 재질 입력을 사용하여 지오메트리 위에 재질을 렌더링합니다. <br><br>- 기본 색상<br>- 표준<br>- 방출<br>- 거칠기<br>- 금속성<br>- Specular level<br>- Height<br>- 앰비언트 오클루전<br>- 불투명 마스크<br>- 비등방성 레벨<br>- 비등방성 각도<br>- 반투명도<br>- 분산 거리 비율 |
 | <b>렌즈 Dirt 맵</b> <i>회색 음영 입력</i> | 렌즈 플레어 시 나타나는 렌즈에서의 Dirt에 대한 사용자 정의 맵 |
-| <b>렌즈 조리개 맵</b> <i>회색 음영 입력</i> | 초점이 맞지 않는 보케 모양을 재정의하는 데 사용할 수 있습니다. 대비가 많을수록 더 잘 보입니다. 텍스처 안의 원만 샘플링되므로 모든 모양이 원 안에 맞아야 한다는 점을 명심하십시오. |
+| <b>렌즈 조리개 맵</b> <i>회색 음영 입력</i> | 초점이 맞지 않는 보케 모양을 재정의하는 데 사용할 수 있습니다. 대비가 많을수록 더 잘 보입니다. 텍스처 내의 원만 샘플링되므로 모든 모양이 원 내에 맞아야 한다는 점을 명심하십시오. |
 | <b>배경 입력</b> <i>색상 입력</i> | <b>배경 모드</b> 매개 변수를 <i>배경 입력</i>(으)로 설정한 경우 사용자 지정 맵이 배경으로 사용됩니다. |
-| <b>환경 맵</b> <i>색상 입력</i> | 조명을 계산하는 데 사용되는 환경 맵입니다. 구형 매핑 및 HDR이어야 합니다. |
+| <b>환경 맵</b> <i>색상 입력</i> | 조명을 계산하는 데 사용되는 환경 맵입니다. 구형으로 매핑되고 HDR에 있어야 합니다. |
 
 <a name="outputs"></a>
 
@@ -69,7 +69,7 @@ ht-degree: 6%
 | <b>원시 조도</b> | 최종 렌더링<br><br><i>Alpha:</i> 불투명도 맵의 조도 데이터 |
 | <b>원시 Specular</b> | 최종 렌더링<br><br><i>Alpha:</i> Specular 그림자 맵의 Specular 데이터 |
 | <b>일반 월드 공간</b> | 최종 렌더링<br><br><i>Alpha:</i> 세계 공간 높이 맵의 세계 공간 표준 데이터 |
-| <b>수직 탄젠트 공간</b> | 최종 렌더링<br><br><i>Alpha:</i> 접선 공간 높이 맵의 접선 공간 표준 데이터 |
+| <b>일반 접선 공간</b> | 최종 렌더링<br><br><i>Alpha:</i> 접선 공간 높이 맵의 접선 공간 표준 데이터 |
 | <b>UV</b> | 최종 렌더링<br><br><i>Alpha:</i> 불투명도 맵의 UV 데이터 |
 
 <a name="parameters"></a>
@@ -160,30 +160,30 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-v2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
         </td>
     </tr>
 </table>

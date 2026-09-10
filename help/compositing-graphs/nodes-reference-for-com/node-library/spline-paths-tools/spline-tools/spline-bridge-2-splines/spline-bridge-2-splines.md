@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
-description: 스플라인 브리지 노드를 사용하여 끊김 없는 연결을 만들기 위해 두 스플라인 사이의 텍스처를 연결합니다.
+description: 스플라인 브리지 노드를 사용하여 끊김 없는 연결을 만들기 위해 두 스플라인 사이에 텍스처를 연결합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (2 Splines)
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 브리지(스플라인 2개)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-bridge-2splines-icon.png "노드 아이콘")
+![노드 아이콘](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "노드 예 2")
+![노드 예 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "노드 예 2")
 
 </td>
 </tr>

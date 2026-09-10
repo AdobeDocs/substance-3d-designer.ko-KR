@@ -10,7 +10,7 @@ helpx_tags: ""
 title: DIRT 5
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 5 - 아이콘](../../../../../../assets/dirt_5.png "Dirt 5 - 아이콘"){width="200px"}
+![Dirt 5 - 아이콘](dirt-5.resources/dirt_5.png "Dirt 5 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 5 - 예 1](../../../../../../assets/dirt_5_1.png "Dirt 5 - 예 1"){zoomable="yes"}
+![Dirt 5 - 예 1](dirt-5.resources/dirt_5_1.png "Dirt 5 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 5 - 예 2](../../../../../../assets/noise_dirt_5_v2_speed0.6_aniso0.gif "Dirt 5 - 예 2"){zoomable="yes"}
+![Dirt 5 - 예 2](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso0.gif "Dirt 5 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 5 - 예 3](../../../../../../assets/noise_dirt_5_v2_speed0.6_aniso1.gif "Dirt 5 - 예 3"){zoomable="yes"}
+![Dirt 5 - 예 3](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso1.gif "Dirt 5 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 5 - 예 4](../../../../../../assets/noise_dirt_5_v2_speed0.3_aniso0.6.gif "Dirt 5 - 예 4"){zoomable="yes"}
+![Dirt 5 - 예 4](dirt-5.resources/noise_dirt_5_v2_speed0.3_aniso0.6.gif "Dirt 5 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

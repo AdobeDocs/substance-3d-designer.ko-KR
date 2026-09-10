@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 포인트 목록
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/point-list-icon.png "노드 아이콘")
+![노드 아이콘](point-list.resources/point-list-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -93,12 +93,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/PointList-Variant1.jpg "노드 예 1")
+![노드 예 1](point-list.resources/PointList-Variant1.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/PointList-Demo1.gif "노드 예 2")
+![노드 예 2](point-list.resources/PointList-Demo1.gif "노드 예 2")
 
 </td>
 </tr>

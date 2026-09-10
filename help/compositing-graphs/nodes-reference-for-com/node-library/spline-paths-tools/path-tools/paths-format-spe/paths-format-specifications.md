@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 패스 형식 사양
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![패스 다각형 인코딩 데이터](../../../../../../assets/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
+![패스 다각형 인코딩 데이터](paths-format-specifications.resources/PathsPolygon_Data.jpg "패스 다각형 인코딩 데이터")
 
 </td>
 </tr>
@@ -269,11 +269,11 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 세 번째 반복 노드의 Iterations 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다. 사용 방법에 대한 예시.
 
-![sample_next의 최소 사용 사례](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
+![sample_next의 최소 사용 사례](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
 
 
 
-![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
+![미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용](paths-format-specifications.resources/paths-spec_fxmap-sample-next_01.png "미리 보기 경로(path_trace)에서 sample_next의 대/소문자 사용")
 
 
 

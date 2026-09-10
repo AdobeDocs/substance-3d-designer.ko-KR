@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
-description: 스플라인 매퍼 색상 노드를 사용하여 사용자 정의 가능한 매개 변수로 스플라인 패스를 따라 색상 텍스처를 매핑합니다.
+description: 스플라인 매퍼 색상 텍스처를 사용하여 사용자 정의 가능한 매개 변수로 스플라인 패스를 따라 색상 노드를 매핑합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 매퍼 색상
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-mapper-color-icon.png "노드 아이콘")
+![노드 아이콘](spline-mapper-color.resources/spline-mapper-color-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 설명
 
-입력 스플라인을 따라 뻗은 기본 모양에 입력 색상 이미지를 매핑합니다.
+입력 스플라인을 따라 기본 입력 색상 이미지에 늘리다를 매핑합니다.
 
 프리미티브 모양은 평면, 반원통 또는 원통일 수 있습니다. 실린더들은 스플라인을 따라 꼬여져서 그에 따라 맵핑된 이미지를 변형시킬 수 있다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | <b>스플라인 데이터</b> <i>색상</i> | 색상 이미지의 RGBA 채널에 인코딩된 입력 스플라인의 추가 데이터입니다.<br><b>R</b> - 탄젠트 X<br><b>G</b> - 탄젠트 Y<br><b>B</b> - 미사용<br><b>A</b> - 미사용 |
 | <b>스플라인 양</b> <i>정수</i> | 입력 스플라인의 수입니다. |
 | <b>색상 맵</b> <i>색상</i> | 입력 스플라인을 따라 매핑해야 하는 입력 색상 이미지입니다. |
-| <b>Height 맵</b> <i>회색 음영</i> | 입력 스플라인을 따라 매핑해야 하는 입력 회색 음영 높이 맵입니다. |
+| <b>높이 맵</b> <i>회색 음영</i> | 입력 스플라인을 따라 매핑해야 하는 입력 회색 음영 높이 맵입니다. |
 | <b>Twist Curve</b> <i>회색 음영</i> | 첫 번째 픽셀 행 값을 사용하여 곡선을 설명하는 이미지입니다.<br><b>모양</b> 매개 변수를 <i>반원통</i> 또는 <i>원통</i>(으)로 설정하면 이 입력을 사용하여 모양 주변의 UV 비틀기를 제어합니다. 이 효과는 <b>비틀기 UV 곡선 승수</b> 매개 변수를 사용하여 제어됩니다.<br>곡선은 스플라인을 따라 회전하는 양에 대한 프로파일을 제공합니다. 여기서 행의 첫 번째 픽셀은 스플라인이 시작될 때의 회전이고 마지막 픽셀은 끝의 회전입니다. 회색 음영 값은 회전 수를 나타냅니다.<br>곡선을 만드는 데 [곡선](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) 노드를 사용할 수 있습니다. |
 
 <a name="outputs"></a>
@@ -112,11 +112,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="spline-mapper-color.resources/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/SplineMapperColor-Demo.gif "노드 예 2")
+![노드 예 2](spline-mapper-color.resources/SplineMapperColor-Demo.gif "노드 예 2")
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "노드 예 3")
+![노드 예 3](spline-mapper-color.resources/SplineMapperColor-Variant1-After1.jpg "노드 예 3")
 
 </td>
 <td style="border: 0;" valign="top">

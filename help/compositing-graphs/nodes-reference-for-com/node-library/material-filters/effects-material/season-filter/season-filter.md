@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 계절 필터
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/default-icon.png){width="128px"}
+![](season-filter.resources/default-icon.png){width="128px"}
 
 <b>내부:</b> 재질 필터 > 효과
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도] 맵을 사용하는 경우 이 그룹의 재질 채널을 켜거나 끕니다. |
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
 | <b>고급</b> |  |
 | <b>표준 형식</b> <i>DirectX, OpenGL</i> | 서로 다른 표준 맵 포맷 사이를 전환합니다(녹색 채널을 반전합니다). |
 | <b>마스크</b> <i>거짓/참</i> | 마스크 맵 사용을 설정하거나 해제합니다. |

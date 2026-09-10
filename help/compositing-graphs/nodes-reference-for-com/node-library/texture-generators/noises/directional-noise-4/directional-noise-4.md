@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
 breadcrumb-title: ''
-description: 방향 노이즈 4 노드를 사용하여 비등방성 텍스처를 만들기 위한 4옥타브가 있는 방향 노이즈 패턴을 생성합니다.
+description: 방향 노이즈 4 노드를 사용하여 4옥타브가 있는 방향 노이즈 패턴을 만들어 비등방성 텍스처를 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 4
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방향 노이즈 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![방향 노이즈 4 - 아이콘](../../../../../../assets/directional_noise_4.png "방향 노이즈 4 - 아이콘"){width="200px"}
+![방향 노이즈 4 - 아이콘](directional-noise-4.resources/directional_noise_4.png "방향 노이즈 4 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![방향 노이즈 4 - 예 1](../../../../../../assets/directional_noise_4_1.png "방향 노이즈 4 - 예 1"){zoomable="yes"}
+![방향 노이즈 4 - 예 1](directional-noise-4.resources/directional_noise_4_1.png "방향 노이즈 4 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향 노이즈 4 - 예 2](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso0.gif "방향 노이즈 4 - 예 2"){zoomable="yes"}
+![방향 노이즈 4 - 예 2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "방향 노이즈 4 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![방향 노이즈 4 - 예 3](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso1.gif "방향 노이즈 4 - 예 3"){zoomable="yes"}
+![방향 노이즈 4 - 예 3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "방향 노이즈 4 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향 노이즈 4 - 예 4](../../../../../../assets/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "방향 노이즈 4 - 예 4"){zoomable="yes"}
+![방향 노이즈 4 - 예 4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "방향 노이즈 4 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

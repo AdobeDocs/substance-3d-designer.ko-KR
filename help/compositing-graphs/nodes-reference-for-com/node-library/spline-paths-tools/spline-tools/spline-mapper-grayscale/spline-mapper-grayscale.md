@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 매퍼 회색 음영
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-mapper-grayscale-icon.png "노드 아이콘")
+![노드 아이콘](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "노드 예 2")
+![노드 예 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "노드 예 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "노드 예 3")
+![노드 예 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "노드 예 3")
 
 </td>
 <td style="border: 0;" valign="top">

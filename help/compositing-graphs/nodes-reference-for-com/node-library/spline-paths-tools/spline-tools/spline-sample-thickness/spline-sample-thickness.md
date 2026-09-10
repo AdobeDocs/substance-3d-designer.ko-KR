@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
 breadcrumb-title: ''
-description: 스플라인 샘플 Thickness 노드를 사용하여 절차 효과를 위해 스플라인을 따라 Thickness 값을 샘플링합니다.
+description: 스플라인 샘플 Thickness 노드를 사용하여 프로시저 효과를 위해 스플라인을 따라 Thickness 값을 샘플링합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 샘플 Thickness
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-sample-thickness-icon.png "노드 아이콘")
+![노드 아이콘](spline-sample-thickness.resources/spline-sample-thickness-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## 설명
 
-입력 스플라인에 입력 Thickness 맵을 매핑하여 입력 스플라인의 Thickness을 수정합니다.
+입력 두께 맵을 해당 스플라인에 매핑하여 입력 스플라인의 Thickness을 수정합니다.
 
-혼합 모드와 해당 효과의 불투명도를 변경하여 매핑된 Height 맵의 효과를 조정할 수 있습니다.
+혼합 모드와 해당 효과의 불투명도를 변경하여 매핑된 높이 맵의 효과를 조정할 수 있습니다.
 
 </td>
 </tr>
@@ -51,7 +51,7 @@ ht-degree: 0%
 | <b>스플라인 코드</b> <i>색상</i> | 색상 이미지의 RGBA 채널로 인코딩된 입력 스플라인의 좌표:<br><b>R</b> - X 위치<br><b>G</b> - Y 위치<br><b>B</b> - Height<br><b>A</b> - 압축된 데이터:<br> - 기호: 스플라인이 닫힘(네거티브) 또는 열림(포지티브);<br> - 절대값: Thickness + 1. |
 | <b>스플라인 데이터</b> <i>색상</i> | 색상 이미지의 RGBA 채널에 인코딩된 입력 스플라인의 추가 데이터입니다.<br><b>R</b> - 탄젠트 X<br><b>G</b> - 탄젠트 Y<br><b>B</b> - 미사용<br><b>A</b> - 미사용 |
 | <b>스플라인 양</b> <i>정수</i> | 입력 스플라인의 수입니다. |
-| <b>Thickness 맵</b> <i>회색 음영</i> | 입력 스플라인의 Thickness을 변경하는 데 사용되는 입력 회색 음영 이미지입니다. |
+| <b>두께 맵</b> <i>회색 음영</i> | 입력 스플라인의 Thickness을 변경하는 데 사용되는 입력 회색 음영 이미지입니다. |
 
 <a name="outputs"></a>
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "노드 예 1")
+![노드 예 1](spline-sample-thickness.resources/SplineSampleThickness-Variant1-After1.jpg "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![노드 예 2](../../../../../../assets/SplineSampleThickness-Demo.gif "노드 예 2")
+![노드 예 2](spline-sample-thickness.resources/SplineSampleThickness-Demo.gif "노드 예 2")
 
 </td>
 </tr>
