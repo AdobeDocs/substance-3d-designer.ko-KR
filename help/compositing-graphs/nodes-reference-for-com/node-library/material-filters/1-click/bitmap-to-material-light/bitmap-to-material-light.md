@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비트맵에서 재질 조명으로
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/b2m-light.png)
 
 <b>내부:</b>개 재질 필터 > 한 번 클릭
 
@@ -71,7 +71,7 @@ PBR이 교정되는 완벽한 재질을 만들지는 않지만 이미지가 하�
 | <b>Specular level </b> <i>0.0 - 1.0</i> | Specular 해석에 대한 입력 레벨을 설정합니다. |
 | <b>Specular level 아웃</b> <i>0.0 - 1.0</i> | Specular의 출력 레벨을 수정합니다. |
 | <b>금속 Specular 영향</b> <i>0.0 - 1.0</i> | Specular 맵에 대한 선택적 금속 입력의 영향을 결정합니다. |
-| <b>광택</b> |  |
+| <b>광택도</b> |  |
 | <b>광택도 수준 </b> <i>0.0 - 1.0</i> | 광택도 해석에 대한 입력 레벨을 설정합니다. |
 | <b>광택도 수준 초과</b> <i>0.0 - 1.0</i> | 광택도 출력 레벨을 수정합니다. |
 | <b>금속 광택도 영향</b> <i>0.0 - 1.0</i> | 광택도 맵에 대한 선택적 금속 입력의 영향을 결정합니다. |
@@ -79,7 +79,7 @@ PBR이 교정되는 완벽한 재질을 만들지는 않지만 이미지가 하�
 | <b>거칠음 수준</b> <i>0.0 - 1.0</i> | 거칠기 해석의 입력 레벨을 설정합니다. |
 | <b>거칠기 레벨 아웃</b> <i>0.0 - 1.0</i> | 거칠기 출력 레벨을 수정합니다. |
 | <b>금속 거칠기 영향</b> <i>0.0 - 1.0</i> | 광택도 맵에 대한 선택적 금속 입력의 영향을 결정합니다. |
-| <b>주변 오클루전</b> |  |
+| <b>앰비언트 오클루전</b> |  |
 | <b>확산 앰비언트 오클루전</b> <i>0.0 - 1.0</i> | 생성된 AO의 혼합을 확산 출력으로 변환합니다. |
 | <b>앰비언트 오클루전 스프레드</b> <i>0.0 - 1.0</i> | AO를 얼마나 많이 생성할지 설정합니다. |
 | <b>앰비언트 오클루전 조명 거리</b> <i>0.0 - 1.0</i> | AO &quot;깊이&quot; 해석을 설정합니다. 스프레드가 큰 경우에는 영향이 적습니다. |
