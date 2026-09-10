@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: 스플라인 선택(Spline Select) 노드를 사용하여 그래프의 스플라인 경로를 기반으로 특정 영역을 선택하고 마스킹합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 스플라인 선택
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![노드 아이콘](../../../../../../assets/spline-select-icon.png "노드 아이콘")
+![노드 아이콘](spline-select.resources/spline-select-icon.png "노드 아이콘")
 
 <b>인:</b> 스플라인 및 패스 도구 > 자유 곡선 도구
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>이후</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>이전</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>이후</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![노드 예 1](../../../../../../assets/SplineSelect-Demo.gif "노드 예 1")
+![노드 예 1](spline-select.resources/SplineSelect-Demo.gif "노드 예 1")
 
 </td>
 <td style="border: 0;" valign="top">
