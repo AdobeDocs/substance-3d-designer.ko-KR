@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 파이프라인 및 프로젝트 설정을 구성하여 워크플로 및 출력을 최적화합니다.
 helpx_creative_field: ""
