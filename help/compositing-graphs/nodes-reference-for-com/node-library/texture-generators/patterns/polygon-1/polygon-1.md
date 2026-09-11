@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
 breadcrumb-title: ''
 description: 다각형 1 노드를 사용하여 기하학적 텍스처의 면 및 속성을 사용자 정의할 수 있는 기본 다각형 패턴을 생성합니다.
 helpx_creative_field: ""
