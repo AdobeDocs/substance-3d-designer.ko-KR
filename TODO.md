@@ -1,8 +1,8 @@
 ---
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 # 도도
@@ -22,7 +22,7 @@ ht-degree: 11%
   * 금속/금속
   * HDR
   * 반사
-  * Height 맵
+  * 높이 맵
   * 불투명도
   * 절두체
   * 접선 공간
@@ -33,7 +33,6 @@ ht-degree: 11%
 
 ## 수정 사항
 
-* [출력 노드](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)에서 끊어진 링크 및 서식 지정
 * 노드 페이지의 첫 번째 예제 이미지에 대한 링크 수정(예: 새 소음)
 * [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)에 &#39;Negative integer&#39; 항목 및 끊어진 링크가 없습니다.
 

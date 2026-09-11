@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 보기, 패널, 사용자 정의 옵션 등 Substance 3D Designer 작업 영역 인터페이스에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 작업 영역
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 1%
 
 ---
@@ -105,18 +105,18 @@ Designer의 기본 도킹 레이아웃은 다음과 같습니다.
 
 ## 2D 보기
 
-[2D 보기](../interface/2d-view/2d-view.md)는 가장 간단한 미리 보기 도구입니다. 그래프와 긴밀하게 함께 작동합니다. 그래프 뷰에서 노드를 두 번 클릭하면 2D 보기에 시각적 결과가 표시됩니다.
+[2D 보기](../interface/2d-view/2d-view.md)는 가장 간단한 미리 보기 도구입니다. 그래프와 긴밀하게 함께 작동합니다. 그래프 뷰에서 노드를 두 번 클릭하면 2D 뷰에 시각적 결과가 표시됩니다.
 
 ![2D 보기](interface.resources/2d-view-1.jpg "2D 보기")
 
 ## 3D 보기
 
-[3D 보기](../interface/3d-view/3d-view.md)은(는) 가장 인터랙티브하고 고급 미리 보기 창입니다. 2D 보기와 달리 이 렌더러는 전체 재질을 렌더링하는 데 여러 가지 다른 출력 맵을 사용합니다. 즉, [기본 색상], [표준] 및 [거칠음]과 같이 표시되는 모든 채널이 표시됩니다.
+[3D 보기](../interface/3d-view/3d-view.md)는 가장 인터랙티브하고 진보된 미리 보기 창입니다. 2D 보기와 달리 이 보기에서는 다양한 출력 맵을 사용하여 전체 재질을 렌더링합니다. 즉, [기본 색상], [표준] 및 [거칠음]과 같이 표시되는 모든 채널이 표시됩니다.
 
 ![3D 보기](interface.resources/3dview-3.jpg "3D 보기")
 
 ## 라이브러리
 
-[라이브러리 도킹](../interface/the-library/the-library.md)에서는 기본적으로 Designer 라이브러리에 포함된 모든 콘텐츠와 [사용자 지정 콘텐츠](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)에 액세스할 수 있습니다. 라이브러리에 있는 Atomic Nodes와 Instance Nodes의 차이점을 더 잘 이해하려면 [Nodes 개요](https://helpx.adobe.com/substance-designer/using/nodes-overview.html)를 읽어 보십시오.
+[라이브러리 도킹](../interface/the-library/the-library.md)에서는 기본적으로 Designer 라이브러리에 포함된 모든 콘텐츠와 [사용자 지정 콘텐츠](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)에 액세스할 수 있습니다.
 
 ![라이브러리](interface.resources/library-3.jpg "라이브러리")
