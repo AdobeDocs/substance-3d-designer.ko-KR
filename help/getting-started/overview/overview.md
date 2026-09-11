@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에 대한 개요를 보고 프로시저 재질 및 텍스처를 만들기 위한 기능에 대해 알아보십시오.
+description: Substance 3D Designer에 대한 개요를 보고 절차 자료 및 텍스처를 만들기 위한 기능에 대해 알아보십시오.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 개요
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 2%
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 # 개요
 
-[Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)은(는) 프로시저 생성, 매개 변수화 및 비파괴 워크플로에 중점을 둔 노드 기반 인터페이스에서 2D 텍스처, 재질 및 필터를 만들기 위한 애플리케이션입니다. Substance 3D 생태계에서 가장 오래 실행되는 애플리케이션이며, 이를 통해 만들어진 리소스는 가장 다재다능하고 역동적입니다.
+[Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)은 노드 기반의 인터페이스에서 2D 텍스처, 재질 및 필터를 만들기 위한 응용 프로그램이며 절차적 생성, 매개변수화 및 비파괴적 워크플로에 중점을 둡니다. Substance 3D 생태계에서 가장 오래 실행되는 애플리케이션이며, 이를 통해 만들어진 리소스는 가장 다재다능하고 역동적입니다.
 
 다른 애플리케이션과 비교한 내용은 다음과 같습니다.
 
-|  | <div><img alt="Substance 3D Sampler 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Sampler 아이콘" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer 아이콘" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Sampler 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D Sampler 아이콘" width="64px"/></div>  Substance 3D Sampler | <div><img alt="Substance 3D Painter 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D Painter | <div><img alt="Substance 3D Designer 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer 아이콘" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>학습 곡선</b> | 저 | 중 | 높음 |
 | <b>작성자 자료</b> | 예 | 예 | 예 |
@@ -32,13 +32,13 @@ ht-degree: 2%
 | <b>작성자 필터, 패턴 및 효과</b> | 아니요 | 제한됨 | 예 |
 | <b>파라메트릭 콘텐츠 내보내기</b> | 아니요 | 아니요 | 예 |
 
-\*: 변위 전용입니다. [3D 보기](../../interface/3d-view/3d-view.md) 섹션의 <b>장면 내보내기</b> 기능을 참조하세요.
+\*: 변위 전용입니다. [3D 보기](../../interface/3d-view/3d-view.md) 섹션의 <b>장면 내보내기</b> 기능을 확인하세요.
 
 요컨대, Substance 3D Designer은 사용 가능한 가장 기술적이고 진보된 텍스처링 애플리케이션으로 간주되어야 합니다.
 
-거의 모든 사용 사례 또는 시나리오에 대한 콘텐츠를 작성할 수 있습니다. 이는 UV 매핑된 메쉬의 고유한 재질/텍스처 집합과 같은 단일 유형의 출력으로 제한되지 않지만 훨씬 더 확장된 사용 집합에 대한 콘텐츠를 만들 수 있음을 의미합니다.
+거의 모든 사용 사례 또는 시나리오에 대한 콘텐츠를 작성할 수 있습니다. 이는 UV 매핑된 메쉬의 고유한 재질/텍스처 세트와 같은 단일 출력 유형에 제한되지 않지만 훨씬 더 확장된 사용 세트를 위한 콘텐츠를 만들 수 있음을 의미합니다.
 
-예를 들어 Painter 및 Sampler의 프로시저 스마트 콘텐츠 대부분은 Designer에서 작성 및 내보내졌습니다. 브러시 Alpha, 생성기, 필터 및 기본 재질과 같은 기능은 모두 Designer에서 작성할 수 있습니다.
+예를 들어 Painter 및 Sampler에서 대부분의 절차적 스마트 콘텐츠는 Designer에서 제작되고 내보내졌습니다. 브러시 Alpha, 생성기, 필터 및 기본 재질과 같은 기능은 모두 Designer에서 작성할 수 있습니다.
 
 ## 워크플로
 
@@ -60,7 +60,7 @@ Substance 3D Designer은 노드 기반의 편집기로 다양한 복잡성으로
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### Substance 3D 파일
 
@@ -71,18 +71,18 @@ Substance 파일은 Designer의 **기본 소스 파일**&#x200B;입니다. Subst
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Substance 3D 에셋
 
 *(\*.SBSAR)*
 
-Substance 아카이브는 <b>개 컴파일되고 </b>개의 Substance 파일이 최적화되었습니다. 계산 속도가 훨씬 빠르며 참조 문제 없이 쉽게 공유할 수 있습니다. 매개 변수를 계속 변경할 수 있지만 그래프를 편집하면 <b>잠김</b>됩니다. Substance 아카이브는 모든 Substance 3D 응용 프로그램과 Autodesk 3DS Max &amp; Maya, Unreal Engine 또는 Unity Engine과 같은 [Substance 3D 통합](https://experienceleague.adobe.com/ko/docs/substance-3d/ecosystem/home)이 있는 모든 응용 프로그램(일부는 외부 플러그인과 함께)에서 사용할 수 있습니다.
+Substance 아카이브는 <b>개 컴파일되고 </b>개의 Substance 파일이 최적화되었습니다. 계산 속도가 훨씬 빠르며 참조 문제 없이 쉽게 공유할 수 있습니다. 매개 변수를 계속 변경할 수 있지만 그래프를 편집하면 <b>잠김</b>됩니다. Substance 아카이브는 모든 Substance 3D 응용 프로그램과 Autodesk 3DS Max &amp; Maya, Unreal Engine 또는 Unity Engine과 같은 [Substance 3D 통합](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)이 있는 모든 응용 프로그램(일부는 외부 플러그인과 함께)에서 사용할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### 정적 파일
 
@@ -104,7 +104,7 @@ Substance 3D 파일에는 다양한 용도로 사용되는 다양한 리소스�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -154,7 +154,7 @@ Substance 그래프를 사용하면 *2D 이미지 데이터*&#x200B;를 생성 �
 다음과 같은 리소스 유형이 있습니다.
 
 * [비트맵](../../resources/bitmap-resource/bitmap-resource.md)
-* [벡터 그래픽(SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [벡터 그래픽 (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [3D 장면](../../resources/3d-scene-resource/3d-scene-resource.md)
 * [글꼴](../../resources/font-resource/font-resource.md)
 * [AxF 파일](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: 모든 기능에 액세스하기 위해 Substance 3D Designer을 활성화하고 라이선스를 관리하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 활성화 및 라이선스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 에디션 | 활성화 프로세스 |
 | --- | --- |
-| Creative Cloud 데스크톱 | [HelpX 설명서](https://helpx.adobe.com/kr/support/substance-3d-designer.html)의 전용 페이지를 참조하십시오. 문제가 있는 경우 [Creative Cloud 설명서](https://helpx.adobe.com/kr/creative-cloud/user-guide.html)에서 추가 답변을 제공할 수 있습니다. |
+| Creative Cloud 데스크톱 | [HelpX 설명서](https://helpx.adobe.com/support/substance-3d-designer.html)의 전용 페이지를 참조하십시오. 문제가 있는 경우 [Creative Cloud 설명서](https://helpx.adobe.com/creative-cloud/user-guide.html)에서 추가 답변을 제공할 수 있습니다. |
 | 증기 | Steam 라이브러리에서 직접 제품을 실행합니다. |
 | Substance(독립 실행형) | 아래에 설명된 활성화 프로세스를 참조하십시오. |
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 활성화 마법사를 사용하여 라이선스 파일을 설치하려면 관리자로 Designer을 실행하고 안티바이러스를 일시적으로 비활성화해야 합니다.
+> 활성화 마법사와 함께 라이선스 파일을 설치하려면 Designer을 관리자로 실행하고 안티바이러스를 일시적으로 비활성화해야 합니다.
 
-![활성화 마법사](../../assets/activation-wizard.png "활성화 마법사")
+![활성화 마법사](activation-and-licenses.resources/activation-wizard.png "활성화 마법사")
 
 ### 수동 활성화
 

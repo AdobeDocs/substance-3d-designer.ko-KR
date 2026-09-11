@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
-description: 처음부터 끝까지 Substance 3D Designer에서 프로시저 재질을 만드는 필수 작업 과정에 대해 알아봅니다.
+description: 처음부터 끝까지 Substance 3D Designer에서 절차 자료를 만드는 필수 작업 과정에 대해 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 워크플로우 개요
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer은 노드 기반의 편집기입니다. 즉, 거의 모든
 
 [그래프 유형](#graph-types)
 
-![데이터 흐름이 단순화됨](../../assets/graph-direction.png "데이터 흐름이 단순화됨")
+![데이터 흐름이 단순화됨](workflow-overview.resources/graph-direction.png "데이터 흐름이 단순화됨")
 
 ## 노드 기반 워크플로우
 
@@ -40,7 +40,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 주요 이점은 작업 과정이 <b>비선형</b>이 된다는 것입니다. 기록 스택으로 이동하는 수동으로 수행되는 작업과 달리, 언제든지 노드를 교체하거나 수정할 수 있습니다. 이미지의 결과에 영향을 주는 첫 번째 [대비] 조정이 끝까지 너무 많았다고 판단되면 나중에 수행한 모든 작업을 잃지 않고 뒤로 돌아가 조정하거나 완전히 잘라낼 수 있습니다.
 
-![그래프 인스턴스 단순화](../../assets/sub-graph.png "그래프 인스턴스 단순화")
+![그래프 인스턴스 단순화](workflow-overview.resources/sub-graph.png "그래프 인스턴스 단순화")
 
 ## 그래프 인스턴스 작업 과정
 
@@ -48,7 +48,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)의 그래프 인스턴스에 대한 자세한 내용은 설명서에 [전용 섹션](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)이 있습니다.
 
-![그래프 매개 변수 단순화](../../assets/parameters-5.png "그래프 매개 변수 단순화")
+![그래프 매개 변수 단순화](workflow-overview.resources/parameters-5.png "그래프 매개 변수 단순화")
 
 ## 사용자 정의 매개 변수
 
@@ -62,7 +62,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 [Substance 그래프](https://substance3d.adobe.com/)는 Substance 3D Designer에서 만든 주요 그래프 유형입니다. 그 목적은 설정된 해상도, 색상 또는 모양에 제한되지 않는 <b>2D 이미지 데이터를 생성하고 처리하는 것</b>입니다. 이 제품은 정적인 사전 설정 결과뿐만 아니라 매우 다양한 이미지 처리 및 생성 도구입니다.
 
-단순한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 자체 생성하지 않는 필터 또는 여러 채널이 있는 완전한 절차 자료 형태로 결과를 얻을 수 있습니다.
+간단한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 직접 생성하지 않는 필터, 여러 채널이 있는 완전한 프로시저 자료 형태로 결과물이 나올 수 있다.
 
 Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getting-started/overview/overview.md)이며 다양한 작업 과정에서 내보내고 사용할 수 있습니다.
 
@@ -84,7 +84,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 아래에서 일반적인 사용 사례의 몇 가지 예를 확인할 수 있습니다.
 
 +++단순 도형
-![Substance 그래프의 단순 모양](../../assets/simpleshape.png "Substance 그래프의 단순 모양"){width="512px"}
+![Substance 그래프의 단순 모양](workflow-overview.resources/simpleshape.png "Substance 그래프의 단순 모양"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 +++
 
 +++조정 필터
-![Substance 그래프의 조정 필터](../../assets/simplefilter.png "Substance 그래프의 조정 필터"){width="512px"}
+![Substance 그래프의 조정 필터](workflow-overview.resources/simplefilter.png "Substance 그래프의 조정 필터"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 +++
 
 +++완전 재질
-![Substance 그래프의 전체 재질](../../assets/simplematerial.png "Substance 그래프의 전체 재질"){width="512px"}
+![Substance 그래프의 전체 재질](workflow-overview.resources/simplematerial.png "Substance 그래프의 전체 재질"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -129,7 +129,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 
 함수 <b>이미지 데이터(전체 픽셀 집합) 대신 단일 값 </b>(정수, 부동 소수점, 벡터)을 처리합니다. 함수도 노드 네트워크가 있는 그래프이지만 [사용된 노드](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)와 인터페이스는 [일반 Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)와 다릅니다. 작업 과정은 완전히 <b>수학적 작업</b>을 기반으로 하며 이미지 미리 보기 축소판을 표시하지 않으므로 Substance 3D Designer에서 <b>훨씬 더 고급 작업 방법</b>이 됩니다.
 
-함수는 다양한 컨텍스트에서 사용할 수 있으며, 주로 [노출된 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하고, [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작을 작성하고, Substance 그래프에서 [값](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)을 사용하는 것입니다.
+함수는 다양한 컨텍스트에서 사용할 수 있으며, 주로 [노출된 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하고, [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작을 작성하고, Substance 그래프에서 [값](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)을 사용하는 것입니다.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 다음은 Substance 함수 그래프에 대한 일반적인 사용 사례의 몇 가지 예입니다.
 
 +++단순 함수
-![단순 함수 그래프](../../assets/lerpfunction.png "단순 함수 그래프"){width="256px"}
+![단순 함수 그래프](workflow-overview.resources/lerpfunction.png "단순 함수 그래프"){width="256px"}
 
 
 
@@ -151,13 +151,13 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 +++
 
 +++고급 기능
-![고급 함수](../../assets/pixel-function.png "고급 함수"){width="512px"}
+![고급 함수](workflow-overview.resources/pixel-function.png "고급 함수"){width="512px"}
 
 
 
 이 고급 기능은 두 번째 회색 음영 마스크 입력의 강도를 기반으로 색상 맵 입력의 색조를 조정하는 [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)의 내부 작업을 보여 줍니다.
 
-시스템 &quot;$pos&quot; 변수로 두 입력을 모두 샘플링한 다음 Alpha을 제거하고, 색상 값을 HSL로 변환하고, 샘플링된 회색 음영 값과 곱하여 색조 구성 요소를 수정합니다. 그런 다음 벡터를 다시 어셈블하고 HSL을 다시 RGB으로 변환한 다음 최종 출력을 위해 Alpha을 다시 추가합니다.
+시스템 &quot;$pos&quot; 변수로 두 입력을 모두 샘플링한 다음 Alpha을 제거하고, 색상 값을 HSL으로 변환하고, 샘플링된 회색 음영 값과 곱하여 색조 구성 요소를 수정합니다. 그런 다음 벡터를 다시 어셈블하고 HSL을 다시 RGB으로 변환한 다음 최종 출력을 위해 Alpha을 다시 추가합니다.
 
 의사 코드에서는 이 함수가 한 줄에 맞지 않는 훨씬 더 복잡한 함수일 것이다.
 
