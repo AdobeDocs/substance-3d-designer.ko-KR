@@ -7,7 +7,7 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 사다리꼴
+title: 사다리꼴 변형
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
@@ -18,7 +18,7 @@ ht-degree: 6%
 ---
 
 
-# 사다리꼴
+# 사다리꼴 변형
 
 <table>
 <tr style="border: 0;">

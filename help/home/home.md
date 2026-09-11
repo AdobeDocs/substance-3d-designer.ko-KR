@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer 사용 안내서
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # Substance 3D Designer 사용 안내서
 
-![Substance 3D Designer 주 창](../assets/sdsummerinterface.jpg "Substance 3D Designer 주 창")
+![Substance 3D Designer 주 창](home.resources/sdsummerinterface.jpg "Substance 3D Designer 주 창")
 
 [Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)는 재질 제작 소프트웨어입니다. 이 기능을 사용하면 노드 그래프를 사용하여 절차 패턴 및 노이즈에서 텍스처를 생성하고 비트맵을 조작할 수 있습니다.
 

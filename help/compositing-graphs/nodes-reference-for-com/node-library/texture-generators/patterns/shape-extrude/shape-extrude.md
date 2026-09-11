@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html"
 breadcrumb-title: ''
-description: 모양 돌출 노드를 사용하여 Substance 3D Designer 텍스처에서 모양을 돌출시키고 3D 같은 깊이 효과를 만듭니다.
+description: Substance 3D Designer 텍스처에서 모양 돌출 노드를 사용하여 모양을 돌출시키고 3D 같은 깊이 효과를 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 모양 돌출
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-1.png" />
         </td>
     </tr>
 </table>

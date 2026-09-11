@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 함수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 5%
@@ -20,14 +20,14 @@ ht-degree: 5%
 
 # 함수 노드
 
-함수 노드는 입력 값을 자신이 나타내는 수학적 함수에 따라 변형한다.
+함수 변환은 그들이 나타내는 수학적 입력 값에 따른 함수이다.
 
 입력 커넥터는 일반적으로 유형이 지정되지 않았지만 모든 값 유형을 지원하지는 않습니다.
 
 ## 노드 목록
 
 +++Pow
-![Pow 노드 아이콘](../../../../assets/Pow_Node.jpg "Pow 노드 아이콘")
+![Pow 노드 아이콘](function-nodes.resources/Pow_Node.jpg "Pow 노드 아이콘")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 +++
 
 +++2Pow
-![2Pow 노드 아이콘](../../../../assets/2Pow_Node.jpg "2Pow 노드 아이콘")
+![2Pow 노드 아이콘](function-nodes.resources/2Pow_Node.jpg "2Pow 노드 아이콘")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 5%
 +++
 
 +++제곱근
-![정사각형 루트 노드 아이콘](../../../../assets/SquareRoot_Node.jpg "정사각형 루트 노드 아이콘")
+![정사각형 루트 노드 아이콘](function-nodes.resources/SquareRoot_Node.jpg "정사각형 루트 노드 아이콘")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 +++
 
 +++지수
-![지수 노드 아이콘](../../../../assets/Exponential_Node.jpg "지수 노드 아이콘")
+![지수 노드 아이콘](function-nodes.resources/Exponential_Node.jpg "지수 노드 아이콘")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 +++
 
 +++대수
-![로그 노드 아이콘](../../../../assets/Logarithm_Node.jpg "로그 노드 아이콘")
+![로그 노드 아이콘](function-nodes.resources/Logarithm_Node.jpg "로그 노드 아이콘")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 5%
 +++
 
 +++밑이 2인 로그
-![로그 기본 2 노드 아이콘](../../../../assets/LogarithmBase2_Node.jpg "로그 기본 2 노드 아이콘")
+![로그 기본 2 노드 아이콘](function-nodes.resources/LogarithmBase2_Node.jpg "로그 기본 2 노드 아이콘")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
 +++
 
 +++절대치
-![절대 노드 아이콘](../../../../assets/Absolute_Node.jpg "절대 노드 아이콘")
+![절대 노드 아이콘](function-nodes.resources/Absolute_Node.jpg "절대 노드 아이콘")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 +++
 
 +++상한
-![Ceil 노드 아이콘](../../../../assets/Ceil_Node.jpg "Ceil 노드 아이콘")
+![Ceil 노드 아이콘](function-nodes.resources/Ceil_Node.jpg "Ceil 노드 아이콘")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 +++
 
 +++내림
-![플로어 노드 아이콘](../../../../assets/Floor_Node.jpg "플로어 노드 아이콘")
+![Floor 노드 아이콘](function-nodes.resources/Floor_Node.jpg "Floor 노드 아이콘")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 +++
 
 +++선형 보간
-![선형 보간 노드 아이콘](../../../../assets/LinearInterpolation_Node.jpg "선형 보간 노드 아이콘")
+![선형 보간 노드 아이콘](function-nodes.resources/LinearInterpolation_Node.jpg "선형 보간 노드 아이콘")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 +++
 
 +++최소
-![최소 노드 아이콘](../../../../assets/Minimum_Node.jpg "최소 노드 아이콘")
+![최소 노드 아이콘](function-nodes.resources/Minimum_Node.jpg "최소 노드 아이콘")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 +++
 
 +++최대
-![최대 노드 아이콘](../../../../assets/Maximum_Node.jpg "최대 노드 아이콘")
+![최대 노드 아이콘](function-nodes.resources/Maximum_Node.jpg "최대 노드 아이콘")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 5%
 +++
 
 +++코사인
-![코사인 노드 아이콘](../../../../assets/Cosine_Node.jpg "코사인 노드 아이콘")
+![코사인 노드 아이콘](function-nodes.resources/Cosine_Node.jpg "코사인 노드 아이콘")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 5%
 +++
 
 +++사인
-![사인 노드 아이콘](../../../../assets/Sine_Node.jpg "사인 노드 아이콘")
+![사인 노드 아이콘](function-nodes.resources/Sine_Node.jpg "사인 노드 아이콘")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 +++
 
 +++탄젠트
-![접선 노드 아이콘](../../../../assets/Tangent_Node.jpg "접선 노드 아이콘")
+![접선 노드 아이콘](function-nodes.resources/Tangent_Node.jpg "접선 노드 아이콘")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++아크탄젠트 2
-![아크탄젠트 2 노드 아이콘](../../../../assets/ArcTangent2_Node.jpg "아크탄젠트 2 노드 아이콘")
+![아크 탄젠트 2 노드 아이콘](function-nodes.resources/ArcTangent2_Node.jpg "아크 탄젠트 2 노드 아이콘")
 
 
 
@@ -177,20 +177,20 @@ ht-degree: 5%
 +++
 
 +++데카르트식
-![절대 노드 아이콘](../../../../assets/Absolute_Node.jpg "절대 노드 아이콘")
+![절대 노드 아이콘](function-nodes.resources/Absolute_Node.jpg "절대 노드 아이콘")
 
 
 
 극좌표를 직교좌표로 변환합니다.
 
-<b>Arc tangent 2 </b>함수의 역수입니다. <b>길이 \* 부동2(cos(각도), sin(각도).</b>
+<b>Arc tangent 2 </b>함수의 역수입니다. <b>Length \* Float2(cos(Angle), sin(Angle).</b>
 
 극좌표는 원점으로부터의 거리와 수평으로부터의 라디안 각도입니다.
 
 +++
 
 +++임의
-![임의 노드 아이콘](../../../../assets/Random_Node.jpg "임의 노드 아이콘")
+![임의 노드 아이콘](function-nodes.resources/Random_Node.jpg "임의 노드 아이콘")
 
 
 

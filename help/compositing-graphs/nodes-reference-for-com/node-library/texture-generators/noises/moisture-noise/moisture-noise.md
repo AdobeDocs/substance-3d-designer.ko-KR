@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 습기 소음 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![습기 소음 1 - 아이콘](../../../../../../assets/moisture_noise_1.png "습기 소음 1 - 아이콘"){width="200px"}
+![습기 소음 1 - 아이콘](moisture-noise.resources/moisture_noise_1.png "습기 소음 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -62,11 +62,11 @@ ht-degree: 1%
 | <b>장애 속도</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
 | <b>장애 비등방성</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 방향 범위를 제어합니다. 값이 높을수록 방향이 더 좁고 정의됩니다.    방향은 <b>장애 비등방성 각도</b> 매개 변수에 의해 제어됩니다. |
 | <b>장애 비등방성 각도</b> <i>부동</i> | <b>장애 비등방성</b> 매개 변수가 0이 아닌 경우 <b>장애</b> 매개 변수에 의해 적용된 변위의 방향을 제어합니다. |
-| <b>패턴 크기</b> <i>Float2</i> | 분산 패턴 크기에 대한 승수입니다. 여기서 1.0은 원래 분산 크기입니다. |
+| <b>패턴 크기</b> <i>부동2</i> | 분산 패턴 크기에 대한 승수입니다. 여기서 1.0은 원래 분산 크기입니다. |
 | <b>패턴 각도</b> <i>부동</i> | 흩어져 있는 패턴의 방향을 설정하는 데 사용되는 각도로, 회전 수이며 수평 오른쪽부터 시작합니다. |
 | <b>패턴 각도 무작위</b> <i>부동</i> | <b>패턴 각도</b> 값에 적용되는 최대 무작위 변형 양(회전 수)입니다. |
 | <b>전역 불투명도</b> <i>부동</i> | 노이즈의 모든 구성 요소에 대한 불투명도입니다. 여기서 0.0은 기본 회색, 1.0은 구성 요소에 의해 적용된 전체 더하기 또는 빼기의 결과입니다. |
-| <b>타일 오프셋</b> <i>Float2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
+| <b>타일 오프셋</b> <i>부동2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
 | <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예
@@ -75,12 +75,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 1](../../../../../../assets/moisture_noise_1_1.png "습기 소음 1 - 예 1"){zoomable="yes"}
+![습기 소음 1 - 예 1](moisture-noise.resources/moisture_noise_1_1.png "습기 소음 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 2](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "습기 소음 1 - 예 2"){zoomable="yes"}
+![습기 소음 1 - 예 2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "습기 소음 1 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 3](../../../../../../assets/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "습기 소음 1 - 예 3"){zoomable="yes"}
+![습기 소음 1 - 예 3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "습기 소음 1 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![습기 소음 1 - 예 4](../../../../../../assets/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "습기 소음 1 - 예 4"){zoomable="yes"}
+![습기 소음 1 - 예 4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "습기 소음 1 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>

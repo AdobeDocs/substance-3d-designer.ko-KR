@@ -32,7 +32,7 @@ ht-degree: 3%
 | --- | --- | --- |
 | $size | 실수2 | 현재 노드의 크기를 픽셀 단위로 반환합니다.   *Relative to...* [상속 메서드](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 설정된 [출력 크기](../../../compositing-graphs/output-size/output-size.md) 매개 변수에 사용되는 경우 *상속된 값*&#x200B;을 반환합니다. |
 | $sizelog2 | 실수2 | 위와 같이, 그러나 크기가 2의 제곱 값으로 반환됩니다(예: 2048\*2048 이미지의 경우 `$sizelog2`이(가) 11을 반환합니다).   *Relative to...* [상속 메서드](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 설정된 [출력 크기](../../../compositing-graphs/output-size/output-size.md) 매개 변수에 사용되는 경우 *상속된 값*&#x200B;을 반환합니다. |
-| $pixelratio | 정수 | 현재 노드 픽셀 비율에 해당하는 정수 값을 반환합니다(상속되거나 절대적인 값). 0: 스트레치 1: 정사각형 |
+| $pixelratio | 정수 | 현재 노드 픽셀 비율(상속된 값 또는 절대 값)에 해당하는 정수 값을 반환합니다. 0: 늘리다 1: 정사각형 |
 | $tiling | 정수 | 현재 노드 타일링 모드(상속 또는 절대)에 해당하는 정수 값을 반환합니다. 0: 타일링 없음 1: 수평 타일링 2: 수직 타일링 3: H 및 V 타일링 |
 | $physicalsize | 실수3 | [그래프의](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>물리적 크기</b> 속성 값을 반환합니다. |
 | $uvtile | 정수2 | UDIM 워크플로우를 사용할 때 이 변수는 U와 V의 현재 udim 인덱스를 반환합니다.   예를 들어, 타일(1003)의 경우 (2, 0), 타일(1118)의 경우 (7, 11)... |

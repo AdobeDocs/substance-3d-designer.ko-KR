@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 샘플러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Sampler 노드
 
-![Sampler 노드](../../../../assets/image2016-1-12-14-45-43.png "Sampler 노드")
+![Sampler 노드](sampler-nodes.resources/image2016-1-12-14-45-43.png "Sampler 노드")
 
 이러한 노드는 제공된 2D 좌표에서 입력 이미지의 값을 샘플링합니다.
 
 <b>회색 샘플링</b>은(는) 회색 음영 이미지에서 <b>위치</b> 입력의 광도 값을 샘플링하여 <b>부동</b> 값으로 출력합니다.
 
-<b>샘플 색상</b>은 색상 이미지에서 <b>위치 </b>에서 RGBA 값을 샘플링하여 <b>Float4</b> 값으로 출력합니다. 여기서 R,G,B 및 A 구성 요소는 각각 X, Y, Z 및 W 구성 요소에 매핑됩니다.
+<b>샘플 색상</b>은 색상 이미지에서 <b>위치 </b>에서 RGBA 값을 샘플링하여 <b>부동4</b> 값으로 출력합니다. 여기서 R,G,B 및 A 구성 요소는 각각 X, Y, Z 및 W 구성 요소에 매핑됩니다.
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ ht-degree: 1%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![픽셀 좌표](../../../../assets/samplercoords.png "픽셀 좌표")
+![픽셀 좌표](sampler-nodes.resources/samplercoords.png "픽셀 좌표")
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> <b>위치</b> 입력은 이미지의 X 및 Y 좌표가 각각 값의 X 및 Y 구성 요소에 매핑되는 Float2 값이어야 합니다
+> <b>위치</b> 입력은 이미지의 X 및 Y 좌표가 각각 값의 X 및 Y 구성 요소에 매핑되는 부동2 값이어야 합니다
 
 ## 매개변수
 

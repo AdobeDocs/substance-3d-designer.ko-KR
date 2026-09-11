@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 입력
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -46,51 +46,6 @@ ht-degree: 0%
 
 입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)또는 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)를 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 파라미터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 속성
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 상속
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 통합 속성
-
-</td>
-</tr>
-</table>
-
 ## 매개변수
 
 기본적으로 아무 것도 연결되어 있지 않으면 [입력 색상] 또는 [회색 음영]이 검정을 반환합니다. 다른 기본값을 설정하거나 기존 [비트맵 리소스](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)를 [탐색기](../../../../interface/the-explorer-window/the-explorer-window.md)에서 그래프의 입력 노드로 드래그하여 이 데이터를 슬롯에서 미리 볼 수 있습니다. 이 옵션은 색상 및 회색 음영 입력에만 사용할 수 있습니다. 다른 컨텍스트에서 사용할 경우 기본값은 지속적이며 미리 보기 비트맵은 다른 컨텍스트에서는 모두 삭제됩니다.
@@ -116,21 +71,21 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 여러 입력이 있는 경우 이러한 입력에서 그래프가 [기본 매개 변수를 상속](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)하는 방법에 주의해야 합니다.\
 기본 매개 변수에는 특히 <b>출력 크기</b>, <b>출력 형식</b> 및 <b>타일링 모드</b>가 포함됩니다.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+입력을 [기본 입력](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 정의할 수 있습니다. 그러면 이 입력은 상속 메서드가 *부모에 대해*(으)로 설정된 모든 입력의 특성을 구동합니다. 입력 노드에서 기본적으로 설정된 *상속 메서드*&#x200B;입니다.
 
-[![Substance 그래프의 기본 입력](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![Substance 그래프의 기본 입력](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-입력을 [기본 입력](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 정의할 수 있습니다. 그러면 이 입력은 상속 메서드가 *부모에 대해*(으)로 설정된 모든 입력의 특성을 구동합니다. 입력 노드에서 기본적으로 설정된 *상속 메서드*&#x200B;입니다.
 
 노드에서 *RMB*&#x200B;을 클릭하고 컨텍스트 메뉴에서 <b>기본 입력으로 설정</b> 옵션을 선택하여 입력 노드를 그래프의 기본 입력으로 설정할 수 있습니다.\
 노드의 기본 입력은 커넥터에서 *작은 어두운 점*&#x200B;으로 표시됩니다(이 섹션 옆의 예에서 빨간색으로 동그라미 표시됨).
@@ -145,7 +100,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 입력 노드에 대한 *입력 기준* 상속 메서드는 [Substance 3D 에셋(SBSAR)](https://helpx.adobe.com/kr/substance-3d-assets.html)에서 *지원되지 않음*&#x200B;입니다. 패키지를 게시하기 전에 모든 입력 노드의 상속 메서드를 *부모에 대한 상대*(으)로 설정하십시오.
+> 입력 노드에 대한 *입력 기준* 상속 메서드는 [Substance 3D 에셋(SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)에서 *지원되지 않음*&#x200B;입니다. 패키지를 게시하기 전에 모든 입력 노드의 상속 메서드를 *부모에 대한 상대*(으)로 설정하십시오.
 
 ## 통합 특성
 

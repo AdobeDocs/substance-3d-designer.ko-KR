@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 라이브러리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ NVIDIA의 [vMaterials](https://developer.nvidia.com/vmaterials) 라이브러리�
 </td>
 <td style="border: 0;" valign="top">
 
-![라이브러리의 MDL 리소스](../../assets/mdl-library.png "라이브러리의 MDL 리소스")
+![라이브러리의 MDL 리소스](mdl-library.resources/mdl-library.png "라이브러리의 MDL 리소스")
 
 라이브러리, vMaterials 라이브러리, 사용자 정의 콘텐츠의 *&quot;mdl&quot; 섹션이 프레임됨*
 
@@ -71,6 +71,6 @@ NVIDIA의 [vMaterials](https://developer.nvidia.com/vmaterials) 라이브러리�
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * [MDL 그래프](../../mdl-graphs/mdl-graphs.md)를 로드했습니다.
 
-![3D 보기에서 MDL 재질](../../assets/mdl-apply-in-3dview-material-list.png "3D 보기에서 MDL 재질")
+![3D 보기에서 MDL 재질](mdl-library.resources/mdl-apply-in-3dview-material-list.png "3D 보기에서 MDL 재질")
 
 *3D 보기의 MDL 재질*

@@ -24,7 +24,7 @@ ht-degree: 2%
 
 이러한 모든 노드에는 [베이킹된 맵](../../../../../bakers/bakers.md)이(가) 없는 [베이킹된 맵](../../../../../bakers/bakers.md)이(가) 필요하므로 많은 결과가 없습니다.
 
-주요 용도는 [다중 채널 재질](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)과 함께 이러한 마스크 생성기를 사용하는 것입니다. 마스크가 생성되면 [재질 혼합](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)에 대한 혼합 마스크로 사용됩니다.
+주요 용도는 [다중 마스크 생성기 재질](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)과 함께 이러한 채널을 사용하는 것입니다. 마스크가 생성되면 [재질 혼합](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)의 혼합 마스크로 사용됩니다.
 
 이 범주의 몇 가지 흥미로운 노드는 다음과 같습니다.
 

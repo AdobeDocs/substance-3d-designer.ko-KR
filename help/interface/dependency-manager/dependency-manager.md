@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 종속성 관리자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 5%
@@ -24,4 +24,4 @@ ht-degree: 5%
 
 탐색기에서 패키지를 마우스 오른쪽 버튼으로 클릭하고 컨텍스트 메뉴에서 &#39;종속성 관리자&#39; 옵션을 선택하여 액세스할 수 있습니다.
 
-![종속성 관리자](../../assets/dependency-manager.png "종속성 관리자")
+![종속성 관리자](dependency-manager.resources/dependency-manager.png "종속성 관리자")

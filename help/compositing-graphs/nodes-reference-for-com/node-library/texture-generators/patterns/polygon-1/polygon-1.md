@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 다각형 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-1-1.png){width="128px"}
+![](polygon-1.resources/polygon-1-1.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -54,7 +54,7 @@ ht-degree: 7%
 | <b>그레이디언트</b> <i>거짓/참</i> | 단색 대신 그라디언트 분할 영역/삼각형을 생성합니다. 참고: 이 설정이 활성화된 경우 다각형 2와 비슷해집니다. |
 | <b>그레이디언트 반전</b> <i>거짓/참</i> | &quot;그레이디언트&quot;가 활성화된 경우 그레이디언트 방향을 뒤집습니다. |
 | <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 | <b>정사각형이 아닌 타일링</b> <i>거짓/참</i> | 비정사각형 확장 를 활성화하면 모양을 강제로 병합하지 않고 타일링합니다. |
 
 ## 예
@@ -62,7 +62,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/polygon-1-ex.gif" />
+            <img src="polygon-1.resources/polygon-1-ex.gif" />
         </td>
     </tr>
 </table>

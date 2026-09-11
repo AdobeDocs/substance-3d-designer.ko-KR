@@ -54,7 +54,7 @@ ht-degree: 0%
 +++
 
 +++노출을 하려면 수학을 알아야 하나요? Substance 함수 그래프를 이해하고 있어야 합니까?
-***노출 매개 변수를 잘 활용하거나 함수를 사용하는 데 수학적 지식이 필요하지 않습니다.***  처음 사용자는 [함수 그래프](../../../function-graphs/function-graphs.md)에서 수학적 연산을 거의 완전히 피할 수 있습니다. Integer, Float 및 Boolean과 같은 다양한 데이터 형식에 대한 [적절한 기본 지식만 사용하는 것이 좋습니다.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***노출 매개 변수를 잘 활용하거나 함수를 사용하는 데 수학적 지식이 필요하지 않습니다.***  처음 사용자는 [함수 그래프](../../../function-graphs/function-graphs.md)에서 수학적 연산을 거의 완전히 피할 수 있습니다. Integer, 부동, Boolean과 같은 여러 데이터 형식에 대한 [적절한 기본 지식만 사용하는 것이 좋습니다.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 각 노드의 출력이 가능하면 항상 캐시되기 때문입니다. 따라서 그래프가 더 위로 변경될수록 노출된 매개 변수 중 하나가 수정될 때마다 더 많은 출력을 처리해야 합니다. 노출된 노드가 그래프의 끝에 가까우면 노드와 출력 노드 사이에 있는 몇 개의 노드만 다시 계산해야 합니다.
 
-예를 들어 그래프의 시작 부분에서 균일한 색상을 변경하면 다음 노드가 모두 다시 계산됩니다. 출력 바로 앞에 있는 HSL 노드를 조정하면 이 노드만 다시 계산되어 그래프의 성능이 크게 향상됩니다.
+예를 들어 그래프의 시작 부분에서 균일 색상을 수정하면 다음 노드가 모두 다시 계산됩니다. 출력 바로 앞에 있는 HSL 노드를 조정하면 이 노드만 다시 계산되어 그래프의 성능이 크게 향상됩니다.
 
 다음 지침에 유의하십시오.
 
@@ -141,7 +141,7 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 
 >[!WARNING]
 >
-> [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드를 &quot;부모에 상대적으로&quot;로 설정하고 그래프를 Substance 3D 에셋(SBSAR)에 [게시](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)하면 원본 크기 대신 **256x256**&#x200B;의 해상도로 비트맵이 저장됩니다. 대신 비트맵 노드의 [상속 메서드](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)&#39; [출력 크기](../../compositing-graphs/output-size/output-size.md)&#39;을(를) &#39;절대&#39;로 유지하고 비트맵 노드 바로 뒤에 &#39;부모 대비&#39;로 설정된 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드를 사용하는 것이 좋습니다.
+> [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드를 &quot;부모에 상대적으로&quot;로 설정하고 그래프를 Substance 3D 에셋(SBSAR)에 [게시](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)하면 원본 크기 대신 **256x256**&#x200B;의 해상도로 비트맵이 저장됩니다. 대신 비트맵 노드 [출력 크기](../../compositing-graphs/output-size/output-size.md)의 [상속 메서드](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)를 &#39;절대&#39;로 유지하고 비트맵 노드 바로 뒤에 &#39;부모 기준&#39;으로 설정된 [2D 변환](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드를 사용하는 것이 좋습니다.
 
 ![포함된 비트맵 최적화 1](performance-optimization-guidelines.resources/input-1.jpg "포함된 비트맵 최적화 1")
 

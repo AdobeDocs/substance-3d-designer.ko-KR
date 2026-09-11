@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![구름 1 - 아이콘](clouds-1.resources/clouds_1.png "구름 1 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

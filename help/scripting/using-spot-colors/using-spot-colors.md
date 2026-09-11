@@ -24,11 +24,11 @@ ht-degree: 0%
 
 이 클래스를 사용하면 색상 책과 별색을 나열하고 특정 별색 또는 지정된 RGB 색상과 가장 가까운 별색을 찾을 수 있습니다.
 
-<b>OpenColorIO</b>를 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
+<b>OpenColorIO</b>을(를) 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
 
 >[!IMPORTANT]
 >
-> <b>OpenColorIO</b>를 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
+> <b>OpenColorIO</b>을(를) 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
 
 ```
 import sd 

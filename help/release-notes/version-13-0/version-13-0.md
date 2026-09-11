@@ -150,7 +150,7 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 [패스에 마스크 적용](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 노드를 사용하면 회색 음영 패턴의 테두리를 세그먼트 목록 형태로 추출할 수 있습니다.
 
-그런 다음 필요에 따라 조정하도록 {2Path 2D}경로 1&rbrace; 또는 &lbrace;2Paths Warp[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 해당 경로를 처리할 수 있습니다.  [&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
+그런 다음 필요에 따라 조정하도록 [경로 2D 변환](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) 또는 [경로 뒤틀기](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 노드를 사용하여 이러한 경로를 처리할 수 있습니다.  그리고 [스플라인으로 패스](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 노드 덕분에 패스를 스플라인으로 변환할 수 있으므로 분산과 같이 이전에 언급한 스플라인 전용의 모든 노드를 활용할 수 있습니다.
 
 <table>
 <tr style="border: 0;">
@@ -186,16 +186,16 @@ Substance 3D Designer의 이번 13.0.0 릴리스는 엄청난 양의 새로운 �
 
 위에 나열된 모든 새 노드는 새 Substance 엔진 버전을 기반으로 하며 주요 새 기능 <b>루프</b>를 최대한 활용하고 있습니다.
 
-루프는 [Substance 함수 그래프](../../function-graphs/function-graphs.md) 내에서만 사용되며 [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), [Fx-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 또는 [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)에서 구현할 수 있습니다. 물론 루프를 사용하면 조건이 준수될 때까지 여러 번 함수를 쉽게 반복할 수 있다. 이렇게 하면 그래프를 밝게 하고 정확도를 높이는 데 도움이 됩니다.
+루프는 [Substance 함수 그래프](../../function-graphs/function-graphs.md) 내에서만 사용되며 [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), [Fx-맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 또는 [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)에서 구현할 가능성이 높습니다. 물론 루프를 사용하면 조건이 준수될 때까지 여러 번 함수를 쉽게 반복할 수 있다. 이렇게 하면 그래프를 밝게 하고 정확도를 높이는 데 도움이 됩니다.
 
 이 전용 [자습서](https://www.youtube.com/watch?v=Ggoy8G90oDI)는 루프 작업을 시작하는 데 도움이 됩니다.
 
 Substance 엔진 v9는 또한 다음과 같은 개선 사항을 제공합니다.
 
-* [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드의 그레이디언트 편집기에서 새 단색 모드(예: 보간이 전혀 없음)
+* [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드의 그레이디언트 편집기에서 새 단색 모드(즉, 보간이 전혀 없음)
 * Substance 함수 그래프의 Atomic Pow() 노드
 * Sampler 노드에 테두리 배치 옵션(클램프를 가장자리로 이동하고 반복) 추가
-* [뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) 및 [방향성 뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) 노드에서 가장 가까운 샘플링
+* [뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) 및 [방향 뒤틀기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) 노드에서 가장 가까운 샘플링
 
 ## 포털 노드
 
@@ -249,7 +249,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * [Content] 스플라인 추가 노드
 * [Content] 스플라인 선택 노드
 * [Content] 스플라인 병합 목록 노드
-* [Content] 스플라인 2D 변형 노드
+* [내용] 스플라인 2D 노드
 * [Content] 스플라인 뒤틀기 노드
 * [Content] 스플라인 샘플 Height 노드
 * [Content] 스플라인 샘플 Thickness 노드
@@ -265,14 +265,14 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * [콘텐츠] UV 매퍼 회색 음영 노드
 * [Content] 스플라인 노드에 대한 경로
 * [Content] 경로 노드에 마스크 적용
-* [Content] 패스 2D 변형 노드
+* [Content 2D 변환] 노코드
 * [Content] 패스 다각형 노드
 * [Content] 패스 미리 보기 노드
 * [Content] 경로 뒤틀기 노드
 * [Content] Paths 노드 선택
 * [Content] 패스 정점 프로세서 노드
 * [Content] 패스 정점 프로세서 단순 노드
-* [Content] 패스 노드에서 4중 변환
+* [Content] 경로 노드에서 쿼드 변환
 * [내용] 광선 추적형 주변광 오클루전 v2
 * [내용] 광선 추적형 구부러짐 수직 v2
 * [내용] 광선 추적형 그림자 v2
@@ -308,7 +308,7 @@ Designer을 시작하면 다른 Adobe 제품에서와 같이 완전히 새로운
 * [Graph] &#39;Enter&#39; 키를 사용할 때 &#39;Expose parameter&#39; 대화 상자에 포커스가 잘못 설정됩니다.
 * [그래프] 컨텍스트 편집에서 비트맵을 사용한 막대 그래프 스캔에서 잘못된 결과 발생
 * [로컬라이제이션] 다양한 클리핑 문제 해결
-* [Parameters] 입력 매개 변수를 삭제할 때 충돌
+* [Parameters] 입력 매개 변수를 삭제할 때 충돌이 발생합니다
 * [Publish] 폴더의 그래프가 게시된 패키지의 루트로 이동됨
-* [리소스] 디스크에서 로드된 리소스를 업데이트할 때 충돌 발생
+* [Resources] 디스크에서 로드된 리소스를 업데이트할 때 충돌이 발생합니다
 * [VisibleIf] 조건부 가시성 평가에서 회귀 수정

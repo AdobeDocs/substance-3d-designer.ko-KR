@@ -189,7 +189,7 @@ UI는 약간 수정되었지만 가장 눈에 띄는 것은 개선된 파일 > �
 * [매개 변수] 드롭다운 Integer1 매개 변수에 음수 값을 사용하면 인스턴스에서 일관되지 않은 동작이 발생합니다
 * [매개 변수] 각도 위젯에서 값을 늘리는 동안 문제가 발생했습니다.
 * [그래프] 2D 또는 3D 보기에서 출력을 표시할 때 타이밍 문제가 발생합니다.
-* [국제화] 일부 특정 문자가 파일 식별자에서 공백으로 변경됩니다.
+* [국제화] 파일 식별자에서 일부 특정 문자가 공백으로 변경됨
 * [Preferences] &#39;User project&#39; 파일 레이블이 일본어에서 다시 변환되지 않습니다.
 * [Python API] SDUIMgr.getCurrentGraphSelectedNodes() 메서드를 실행하는 동안 RecursionError 발생
 * [Python API] SDApplication.getPath(SDApplicationPath.InstallationDir)가 아무 것도 반환하지 않음

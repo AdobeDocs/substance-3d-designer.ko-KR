@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 breadcrumb-title: ''
-description: 패스와 자유 곡선 도구를 사용하여 그래프에 절차 패턴과 유기적인 모양을 만드는 방법을 살펴보세요.
+description: 패스 및 자유 곡선 도구를 사용하여 그래프에서 프로시저 패턴과 유기적인 모양을 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools
 helpx_experience_level: ""
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 도구 집합의 노드 중 상당수는 컨트롤 기즈모를 사용하여 [2D 보기](../../../../../interface/2d-view/2d-view.md)에서 직접 편집할 수 있는 기능을 제공합니다. 이러한 기즈모에는 위치 기즈모와 변환 행렬이 포함된다.
 
-예를 들어 [스플라인(큐빅)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) 또는 [스플라인(폴리 쿼드라틱)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)과 같은 스플라인 생성 노드를 사용하면 스플라인의 제어점을 이동할 수 있습니다. 패스의 경우 [패스의 쿼드 변환](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)을 선택하면 유사한 컨트롤이 있습니다.
+예를 들어 [스플라인(큐빅)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md) 또는 [스플라인(폴리 쿼드라틱)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)과 같은 스플라인 생성 노드를 사용하면 스플라인의 제어점을 이동할 수 있습니다. 선택한 경우 [패스에 유사한 경로](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)가 있습니다.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
-description: 스플라인 브리지 노드를 사용하여 끊김 없는 연결을 만들기 위해 두 스플라인 사이에 텍스처를 연결합니다.
+description: 스플라인 브리지 노드를 사용하여 끊김 없는 연결을 만들기 위해 두 스플라인 사이의 텍스처를 연결합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (2 Splines)
 helpx_experience_level: ""

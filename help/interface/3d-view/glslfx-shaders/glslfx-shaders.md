@@ -7,7 +7,7 @@ helpx_description: Designer > Interface > 3D View > GLSLFX Shaders
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: GLSLFX 셰이더
+title: GLSLFX Shaders
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
@@ -18,7 +18,7 @@ ht-degree: 1%
 ---
 
 
-# GLSLFX 셰이더
+# GLSLFX Shaders
 
 GLSLFX 파일은 응용 프로그램과 glsl 셰이더 파일 간의 브리지를 만듭니다.\
 이렇게 하면 코드를 수정하지 않고도 모든 glsl 셰이더를 사용할 수 있습니다.
@@ -48,7 +48,7 @@ XML 루트 노드 요소의 이름은 <b>glslfx</b>입니다.
 
 #### 기법
 
-기법을 설명하는 XML 요소입니다. 기법은 현재 FX의 변형입니다. GLSLFX에는 여러 기법이 포함될 수 있지만 적어도 하나의 기법이 정의되어야 합니다.
+기법을 설명하는 XML 요소입니다. 기법은 현재 FX의 변형입니다. GLSLFX에는 여러 기술이 포함될 수 있지만 적어도 하나의 기술을 정의해야 합니다.
 
 형상은 응용 프로그램에서 정의한 기술 중 하나로 렌더링됩니다.
 
@@ -99,7 +99,7 @@ XML 요소 정의:
 
 * 유형: GLSL 셰이더 유형;
 
-* filename: glsl 셰이더 파일의 경로입니다. GLSLFX 파일에 대해 절대 또는 상대일 수 있습니다.
+* filename: glsl 셰이더 파일의 경로입니다. GLSLFX 파일에 대해 절대 경로나 상대 경로일 수 있습니다.
 
 * primitiveType: 프리미티브를 렌더링하는 메서드입니다.
 
@@ -133,10 +133,10 @@ OpenGL 상태의 일부를 설정할 수 있습니다.
 <b>특성:</b>
 
 * 이름: 설정할 속성의 이름입니다. 이름은 OpenGL 함수 또는 glEnum 이름을 기반으로 합니다.
-  * 구문 열거형: 소문자에는 &#39;GL\_&#39; 접두사가 없습니다. 예: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;
+  * 구문 열거형: 소문자에는 &#39;GL\_&#39; 접두사가 없습니다. 예: glEnable(GL\_혼합\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;
   * 함수 구문: &#39;gl&#39; 접두사가 없는 경우에는 소문자로, 모든 단어가 &#39;\_&#39; 문자로 구분됩니다. 예: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
-* 구문 열거형: 소문자에는 &#39;GL\_&#39; 접두사가 없습니다. 예: glEnable(GL\_BLEND\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;
+* 구문 열거형: 소문자에는 &#39;GL\_&#39; 접두사가 없습니다. 예: glEnable(GL\_혼합\_ENABLE) => &quot;&quot;, glDisable(GL\_CULL\_FACE) => &quot;&quot;
 
 * 함수 구문: &#39;gl&#39; 접두사가 없는 경우에는 소문자로, 모든 단어가 &#39;\_&#39; 문자로 구분됩니다. 예: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) => &quot;&quot;
 
@@ -288,7 +288,7 @@ GL\_깊이\_첨부 파일 => &#39;깊이&#39;
 | --- | --- |
 | 위치 | 정점 위치(float3) |
 | 표준 | 꼭지점 표준(float3) |
-| texcoord[0..N] | 정점 텍스처 좌표 버퍼 N(float2) |
+| texcoord[0..N] | 교점 텍스처 좌표 버퍼 N(float2) |
 | tangent[0..N] | 정점 탄젠트 버퍼 N(float4) |
 | 이진[0..N] | 정점 이항 버퍼 N (float4) |
 
@@ -339,7 +339,7 @@ GL\_깊이\_첨부 파일 => &#39;깊이&#39;
 | --- | --- |
 | 산만해 | 확산 맵 |
 | 불투명도 | 불투명도 맵 |
-| 배출 | 발광 지도 |
+| 배출 | 방출 맵 |
 | 양쪽융기 | 앰비언트 오클루전 맵 |
 | 주변 | 앰비언트 맵 |
 | 마스크 | 마스크 맵 |
@@ -724,7 +724,7 @@ vec3 newTangent = normalize(interpolate3D(oTCS\_Tangent[0].xyz, oTCS\_Tangent[1]
 vec3 newBinormal = normalize(interpolate3D(oTCS\_Binormal[0].xyz, oTCS\_Binormal[1].xyz, oTCS\_Binormal[2].xyz, uvw));\
 vec2 newUV = interpolate2D(oTCS\_UV[0], oTCS\_UV[1], oTCS\_UV[2], uvw);
 
-float heightTexSample = texture(heightMap, newUV \&#42; tiling).x \&#42; 2.0 - 1.0;\
+float heightTexSample = 텍스처(heightMap, newUV \&#42; 타일링).x \&#42; 2.0 - 1.0;\
 newPos += newNormal \&#42; heightTexSample \&#42; heightMapScale;
 
 vec4 obj\_pos = vec4(newPos, 1);\
@@ -872,7 +872,7 @@ vec3 누적NormalOS = normalOS;
 float a = dot(normalOS,-pointToCameraDirWS);\
 vec3 s = vec3(dot(pointToCameraDirWS,tangentOS), dot(pointToCameraDirWS,binormalOS), a);\
 vec2 uv = enableTilingInFS == 0 ? iFS\_UV : (iFS\_UV \&#42; 타일링);\
-float Height = texture2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
+float Height = 텍스처2D(heightMap,uv).x \&#42; 2.0 - 1.0 ;\
 부동 시차 = 시차\_모드 == 0 ? (tessellationFactor / 100000.f + heightMapScale / 500.f) : (heightMapScale / 50.f);\
 uv +=(Height \&#42; s.xy \&#42; 시차) ;
 
@@ -899,7 +899,7 @@ cumulatedNormalOS = normalOS;
 vec3 cumulatedNormalWS = normalVecOSToWS(cumulatedNormalOS);
 
 // ------------------------------------------\
-// 확산 및 Specular 계산
+// 컴퓨팅 확산 및 Specular
 
 // Light 0 기여도\
 vec3 diffContrib = vec3(0, 0, 0);\
@@ -914,9 +914,9 @@ phong\_음영(Lamp1Color, cumulatedNormalWS, pointToLight1DirWS, pointToCameraDi
 diffContrib += diffContrib2;\
 specContrib += specContrib2;
 
-vec4 diffuseColor = texture2D(diffuseMap,uv);
+vec4 diffuseColor = 텍스처2D(diffuseMap,uv);
 
-vec3 specularColor = texture2D(specularMap,uv).rgb;\
+vec3 specularColor = 텍스처2D(specularMap,uv).rgb;\
 vec3 R = reflect(pointToCameraDirWS,cumulatedNormalWS);\
 vec3 reflColor = Kr \&#42; textureCube(environmentMap,R.xyz).bgr;
 
@@ -933,7 +933,7 @@ FallofRefl=1.0;
 vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 
 // ------------------------------------------\
-vec3 emissive = texture2D(emissiveMap,uv).xyz;
+vec3 방출 = 텍스처2D(emissiveMap,uv).xyz;
 
 vec3 finalcolor = Ambiant\_final\
 &#x200B;+ specularColor\&#42;specContrib\
@@ -942,7 +942,7 @@ vec3 finalcolor = Ambiant\_final\
 &#x200B;+ 방출;
 
 // 최종 색상\
-vec4 finalColor4 = vec4(finalcolor, texture2D(opacityMap,uv));
+vec4 finalColor4 = vec4(finalcolor, 텍스처2D(opacityMap,uv));
 
 gl\_FragColor = finalColor4;\
 &rbrace;

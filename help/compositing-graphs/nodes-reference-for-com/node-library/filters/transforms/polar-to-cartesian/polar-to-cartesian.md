@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
-description: 극좌표에서 직각좌표로 텍스처를 변환하려면 극좌표에서 직각좌표로 노드를 사용합니다.
+description: 극좌표에서 직교점으로 텍스처를 변환하려면 극좌표에서 직교점으로 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Polar to Cartesian
 helpx_experience_level: ""

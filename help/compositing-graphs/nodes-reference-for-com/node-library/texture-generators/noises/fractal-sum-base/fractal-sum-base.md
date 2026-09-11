@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![프랙탈 합산 기반 - 아이콘](fractal-sum-base.resources/fractal_sum_base.png "프랙탈 합산 기반 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

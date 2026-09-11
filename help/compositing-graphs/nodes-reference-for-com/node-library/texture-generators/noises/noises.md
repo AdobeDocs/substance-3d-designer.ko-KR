@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에서 노이즈 생성기 노드에 액세스하여 텍스처 생성 및 변형을 위한 절차적 노이즈 패턴을 만듭니다.
+description: Substance 3D Designer의 노이즈 생성기 노드에 액세스하여 텍스처 생성 및 변형을 위한 프로시저 노이즈 패턴을 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # 노이즈
 
-노이즈는 유기적이고 혼란스러워 보이는 절차 그래픽입니다. 노이즈로 생성된 출력은 [패턴 범주](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)의 인위적인 모양과는 매우 다릅니다.
+소음은 유기적이고 혼란스러워 보이는 프로시저 그래픽입니다. 노이즈로 생성된 출력은 [패턴 범주](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)의 인위적인 모양과는 매우 다릅니다.
 
 [Substance 3D Designer](https://www.adobe.com/kr/products/substance3d-designer.html)의 노이즈를 그릿, Dirt, 무작위 성장, 모든 종류의 미세한 변형 레이어 등에 대한 시작점 또는 세부 레이어로 사용할 수 있습니다.
 

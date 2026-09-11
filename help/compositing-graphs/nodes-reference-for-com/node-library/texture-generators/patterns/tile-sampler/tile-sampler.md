@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 타일 Sampler
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 |:---|:---|
 | <b>X 양</b> <i>0 - 64</i> | 패턴의 X-반복의 양입니다. |
 | <b>Y 양</b> <i>0 - 64</i> | 패턴의 Y-반복의 양입니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 | <b>패턴</b> |  |
 | <b>패턴</b> <i>패턴 입력, 정사각형, 디스크, 포물면, 벨, 가우스, 가시, 피라미드, 벽돌, 그라데이션, 파도, 하프 벨, 릿지 벨, 초승달, 캡슐, 원뿔</i> | 사용할 패턴 모양을 선택합니다. |
 | <b>패턴 입력 번호</b> <i>1 - 6</i> | 임의로 선택할 수 있는 사용자 정의 패턴의 양입니다. |
@@ -122,7 +122,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>예는 입력 맵(패턴 분포, 크기 조절, 회전)에 의해 매개 변수가 제어되는 방법을 보여 줍니다.</i>
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>예는 입력 맵(패턴 분포, 크기 조절, 회전)에 의해 매개 변수가 제어되는 방법을 보여 줍니다.</i>
         </td>
     </tr>
 </table>

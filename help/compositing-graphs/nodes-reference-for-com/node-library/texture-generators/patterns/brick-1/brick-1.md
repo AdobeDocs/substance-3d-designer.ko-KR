@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 벽돌 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 10%
@@ -24,7 +24,7 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-1.png){width="128px"}
+![](brick-1.resources/brick-1.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -48,14 +48,14 @@ ht-degree: 10%
 | <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
 | <b>가장자리 매끄러움</b> <i>0.0 - 1.0</i> | 거친 가장자리와 매끄러운 가장자리 사이의 혼합. |
 | <b>간격 너비</b> <i>0.0 - 1.0</i> | 간격(간격 크기)을 설정합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 
 ## 예
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-1-ex.gif" />
+            <img src="brick-1.resources/brick-1-ex.gif" />
         </td>
     </tr>
 </table>

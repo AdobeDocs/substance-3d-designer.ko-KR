@@ -362,9 +362,9 @@ RGB 색조 육각형
 
 RGB 밝기 평균
 
-RGB 밝기 bi-hexcone
+RGB 밝기 바이 헥스콘
 
-RGB 밝기 hexcone
+RGB 밝기 헥스콘
 
 RGB 밝기 루마 Rec.601
 
@@ -383,7 +383,7 @@ RGB에서 HCL로
 
 HSI로 RGB
 
-HSL로 RGB
+HSL에 RGB
 
 HSV로 RGB
 
@@ -393,7 +393,7 @@ sRGB를 선형으로 변경
 
 온도 - RGB
 
-ACES 토네마퍼
+ACE 토네마퍼
 
 애그스 토네마퍼(약 x)
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프로젝트 설정
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Substance 3D Designer을 사용하면 *프로젝트당* 환경 설정을 만들�
 >
 > **프로덕션 파이프라인**&#x200B;에서 Substance 3D Designer을 설정하고 통합하는 방법에 대한 자세한 내용은 설명서의 [파이프라인 및 프로젝트 구성](../../../pipeline-and-project-con/pipeline-and-project-configuration.md) 섹션을 참조하여 *적극 권장되는*&#x200B;입니다.
 
-![프로젝트 설정](../../../assets/2019-3-0-prefs-proj-01.png "프로젝트 설정"){zoomable="yes"}
+![프로젝트 설정](project-settings.resources/2019-3-0-prefs-proj-01.png "프로젝트 설정"){zoomable="yes"}
 
 ## 구성
 
@@ -81,7 +81,7 @@ Designer에서 작업 환경에 사용할 여러 프로젝트 파일을 가져�
 
 이러한 설정을 사용하여 *추가* 및 *편집* 별칭을 만들 수 있습니다. 별칭이 적용되면 다음 구문을 사용하여 매핑된 경로를 *대체*&#x200B;합니다. <b>://</b>.
 
-예: *myFolder* 폴더의 *myResource* 리소스가 *C:/Users/user/Documents* 위치에 있으면 이 위치를 *myalias*&#x200B;에 매핑하면 해당 리소스가 속한 SBS 패키지와 *응용 프로그램에서* myalias://myFolder/myResource *경로가 사용됩니다.*
+예: *myFolder* 폴더의 *myResource* 리소스가 *C:/Users/user/Documents* 위치에 있으면 이 위치를 *myalias*&#x200B;에 매핑하면 해당 리소스가 속한 SBS 패키지가 *및* 응용 프로그램에서 *myalias://myFolder/myResource* 경로가 사용됩니다.
 
 *기본값: sbs; sd-3dview-shapes; sd-3dview-maps; sd-3dview-shaders(기본 프로젝트)*
 
@@ -97,7 +97,7 @@ Designer에서 작업 환경에 사용할 여러 프로젝트 파일을 가져�
 | <b>기본 리소스 이름</b> | 이 설정을 사용하면 출력 이미지 파일에 사용할 기본 **명명 템플릿**&#x200B;을 설정할 수 있습니다. [베이킹 창](../../../bakers/bakers.md)에서 사용할 수 있는 별칭은 여기에서 사용할 수도 있습니다(예: *$(mesh)*, *$(bakername)*, *$(udim)*, *$(custom)*)<br><br>*기본값: $(mesh)\_$(bakername)* |
 | <b>기본 사전 설정</b> | [베이킹 창](../../../bakers/bakers.md)을 열 때 이 옵션을 사용하여 사전 설정 *JSON* 파일을 가리키면 특정 베이커 및 설정으로 **이미 구성**&#x200B;할 수 있습니다. 이 파일은 필요에 따라 설정한 후 베이킹 창에서 내보낼 수 있습니다&#x200B;<br><br>*기본값: 없음* |
 | <b>이름 필터링 모드</b> | 낮은 폴리 및 높은 폴리 장면 개체를 일치시키는 데 사용해야 하는 장면 개체:<ul data-preserve-html="true"> <li data-preserve-html="true">형상 이름: 메쉬 형상 개체의 이름을 사용합니다.</li> <li data-preserve-html="true">마스터 이름(레거시): 메시 지오메트리 개체의 마스터 이름을 사용합니다(Designer 버전 14.1 이하에서와 동일함)</li> </ul>*기본값: 도형 이름* |
-| <b>리소스 이름 매크로</b> | *$(bakername)* 별칭 대신 [각 제빵사](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/bakers-settings)에 고유한 문자열을 사용할 수 있습니다.  모든 제빵사의 출력 이미지 이름에 ***$(사용자 지정)*** 별칭이 사용되면 목록의 해당 제빵사와 일치하는 문자열로 대체됩니다. 제빵사에 해당하는 목록의 셀이 비어 있으면 *$(사용자 지정)* 별칭이 이 이 제빵사에 대해 *교체되지 않습니다*. 예: &#39;Curvature Map From Mesh&#39; 제빵사에 할당된 &#39;c-mesh&#39; 값이 자동으로 *t\_mymesh\_&#x200B;**$(사용자 지정)***의 이름을 *t\_mymesh\_&#x200B;**c-mesh***(Mesh Baker에서 Curvature의 출력 *만&#x200B;*<br><br>*기본값: 없음*(으)로 바꿉니다. |
+| <b>리소스 이름 매크로</b> | *$(bakername)* 별칭 대신 [각 제빵사](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/bakers-settings)에 고유한 문자열을 사용할 수 있습니다.  모든 제빵사의 출력 이미지 이름에 ***$(사용자 지정)*** 별칭이 사용되면 목록의 해당 제빵사와 일치하는 문자열로 대체됩니다. 제빵사에 해당하는 목록의 셀이 비어 있으면 *$(사용자 지정)* 별칭이 이 이 제빵사에 대해 *교체되지 않습니다*. 예: &#39;메시 기준 곡률 맵&#39; 제빵사에 할당된 &#39;c-mesh&#39; 값이 자동으로 *t\_mymesh\_&#x200B;**$(사용자 지정)***의 이름을 *t\_mymesh\_&#x200B;**c-mesh***(메시 제빵사의 곡률 출력에 대해) *만&#x200B;*<br><br>*기본값: 없음* |
 | <b>하위 메시 이름 필터</b> | [베이커](../../../bakers/bakers.md)에서 **이름별 일치** 옵션을 사용할 때 정의된 **접미사** 이전의 해당 부분 이름이 *동일*&#x200B;한 경우 메시 저해상도 및 고해상도 버전의 부분이 *일치*&#x200B;됩니다. 이 설정을 사용하여 특정 워크플로우에 맞게 고유 접미사를 설정할 수 있습니다. 메시 일부를 일치시키면 레이가 베이킹 작업에서 원치 않는 형상을 무시하게 할 수 있습니다.예: *body.fbx* 메시의 *body-torso&#x200B;**\_low*** 개체는 *body\_high.fbx의* body-torso **\_high**&#x200B;***개체와 일치합니다.* *이러한 개체가 이 메시*에 있는 경우&#x200B;*. 기본값: \_low(낮은 폴리 메시) / \_high(높은 폴리 메시)*마찬가지로**&#x200B;이면&#x200B;**은 이름이 정의된**&#x200B;접미사&#x200B;**를 포함하는 메시 부분, [특정 베이커](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/bakers-settings)에 대해 *선택적으로 무시*할 수 있습니다 &#x200B;** 뒷면 무시** 옵션<br><br>*&#x200B;기본값: \_ignorebf *<br><br>*&#x200B;참고:* 뒷면 무시 및 낮은/높은 다중 메시 접미사는 *임의의 순서로 조합할 수 있습니다*(예: *body-torso\_low\_ignorebf*) |
 
 ### 색상 관리
@@ -174,9 +174,9 @@ Substance 3D Designer은 <b>Url</b> 목록에 추가하는 폴더에 있는 모�
 
 >[!WARNING]
 >
-> [Perforce](https://www.perforce.com/)은(는) 현재 버전 컨트롤에서 지원되는 *전용* 도구입니다.
+> [Perforce](https://www.perforce.com/)은(는) 현재 버전 제어에 지원되는 *전용* 도구입니다.
 
-[버전 컨트롤](../../../interface/preferences-window/version-control/version-control.md) 페이지를 참조하십시오.
+[버전 제어](../../../interface/preferences-window/version-control/version-control.md) 페이지를 참조하십시오.
 
 **이것을 어떻게 사용하시겠습니까?**
 
@@ -187,7 +187,7 @@ Designer의 프로젝트 파일(\*.sbsprj)에서*&#x200B;프로젝트별*인 모
 * 앨리어스
 * 3D 보기 설정
 * 베이킹 설정
-* [버전 컨트롤 설정](../../../interface/preferences-window/version-control/version-control.md)
+* [버전 제어 설정](../../../interface/preferences-window/version-control/version-control.md)
 
 모든 경로는 프로젝트 파일(.spspsprj)을 기준으로 *상대*&#x200B;에 저장됩니다. 따라서 Perforce의 프로젝트 파일과 같은 위치에 다음과 같은 하위 폴더 트리를 사용하여 **라이브러리** 폴더를 가질 수 있습니다.
 

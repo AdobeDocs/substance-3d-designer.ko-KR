@@ -77,7 +77,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 이 문서의 픽셀 크기입니다(예: 정확히 `Float2(1,1) / $size`).
 
-이는 출력 크기가 다른 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에서 패스를 읽을 때 유용합니다.
+이 기능은 출력 크기가 다른 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)에서 패스를 읽을 때 유용합니다.
 
 <b>폭</b>
 
@@ -94,7 +94,7 @@ top[uv\_pos]와 bottom[uv\_pos]가 함께 8개의 플로트로 구성된 문서�
 
 <b>ZW</b>
 
-사용되지 않음. Float2(0, 1)여야 함
+사용되지 않음, 부동2(0, 1)여야 함
 
 +++
 
@@ -261,13 +261,13 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 +++
 
 +++sample_next, sample_prev
-최상위 부분 샘플링 값 `*sampled*` 및 해당 위치 `*sampled\_position*`이(가) 주어지면 다음(각각 이전) 정점 최상위 부분 샘플링 값을 반환하고 Float2 변수 `*next\_sampled\_pos*`을(를) 이 인접 영역의 위치(즉, &lt;returned value> = SampleColor(next\_sampled\_pos, image0))로 설정합니다. `*input0PixSize*`은(는) 패스의 픽셀 크기(top[(0,0)].YZ)와 같아야 합니다.
+최상위 부분 샘플링 값 `*sampled*` 및 해당 위치 `*sampled\_position*`이(가) 주어지면 다음(각각 이전) 정점 최상위 부분 샘플링 값을 반환하고, 부동2 변수 `*next\_sampled\_pos*`을(를) 이 인접 영역의 위치(즉, &lt;returned value> = SampleColor(next\_sampled\_pos, image0))로 설정합니다. `*input0PixSize*`은(는) 패스의 픽셀 크기(top[(0,0)].YZ)와 같아야 합니다.
 
 현재 픽셀(`*sampled*`)이 <b>시작</b> 정점이면 *샘플\_이전*&#x200B;은(는) 이 정점의 다음 동위 멤버를 반환합니다. 마찬가지로, <b>끝</b> 정점이면 *샘플\_다음*&#x200B;은(는) 이 정점의 다음 동위 멤버를 반환합니다(즉, 원하지 않는). 이 문제를 해결하려면 아래 `*sample\_next\_advanced*` 및 `*sample\_prev\_advanced*`을(를) 참조하십시오.
 
 <b>경로 정보는 단순하게 input0!</b>에 저장되어 있습니다. 또한 함수의 문서에서 설명하는 것과 달리 `*next\_sampled\_pos*`을(를) 미리 선언할 필요가 없습니다. `*[out]next\_sampled\_pos*`은(는) 이 두 번째 &quot;반환 값&quot;이 있음을 알리는 더미 매개 변수입니다.
 
-세 번째 반복 노드의 Iterations 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다. 사용 방법에 대한 예시.
+세 번째 반복 노드의 반복 매개 변수에서 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)을(를) 확인할 수 있습니다(예: 사용 방법).
 
 ![sample_next의 최소 사용 사례](paths-format-specifications.resources/paths-spec_fxmap-sample-next_02.png "sample_next의 최소 사용 사례")
 
@@ -286,7 +286,7 @@ if |top[vert\_addr].W| = 1, bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 ### &#39;쓰기&#39; 함수
 
-`Write` 폴더 아래에서 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>을(를) 사용하여 <b>쓸 수 있는 Float4를 빌드하는 작은 도우미를 찾을 수 있습니다.
+`Write` 폴더 아래에서 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>에서 <b>쓸 수 있는 부동4를 빌드하는 작은 도우미를 찾을 수 있습니다.
 
 실제로 [Fx-맵](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)은 그리기 전에 RGB에 Alpha을 곱하므로 이를 보정하기 위해 실제 값은 미리 곱해지지 않습니다. 예를 들어 [픽셀 프로세서](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)에서 이러한 함수를 사용하려면, 사전 곱셈을 다시 적용하거나 사용자 지정 버전을 작성하는 것이 좋습니다(사용 사례에 더 최적화되어 사용하기 쉬움).
 

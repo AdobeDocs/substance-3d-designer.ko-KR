@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 반복 노드
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Quadrant 노드에서 사용할 수 있는 모든 동적 기능은 반복 노드
 
 통과 이미지는 반복 매개 변수의 설정과 관계없이 항상 그대로 통과됩니다.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

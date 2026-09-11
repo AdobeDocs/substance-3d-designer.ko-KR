@@ -31,19 +31,19 @@ ht-degree: 0%
 
 Substance 3D Designer은 [X-Rite의 모양 eXchange 형식을 지원합니다.](https://www.xrite.com/axf) 이 형식을 만든 사람은 다음과 같이 설명합니다.
 
-&#39;AxF 파일은 디지털 디자인 워크플로 전반에 걸쳐 복잡한 재질 특성을 캡처, 저장, 편집 및 전달하는 데 사용됩니다. AxF는 PLM(Product Lifecycle Management), CAD(Computer-Aided Design) 및 최첨단 렌더링 응용 프로그램에서 색상, 텍스처, 광택, 굴절, 투명도, 특수 효과(반짝거림) 및 반사 속성과 같은 모든 관련 모양 데이터를 저장하고 공유할 수 있는 표준 방법을 제공합니다.
+&#39;AxF 파일은 디지털 디자인 워크플로 전반에 걸쳐 복잡한 재질 특성을 캡처, 저장, 편집 및 전달하는 데 사용됩니다. AxF는 PLM(Product Lifecycle Management), CAD(Computer-Aided Design) 및 최신 렌더링 응용 프로그램에서 색상, 텍스처, 광택, 굴절, 반투명도, 특수 효과(반짝거림) 및 반사 속성과 같은 모든 관련 모양 데이터를 저장하고 공유할 수 있는 표준 방법을 제공합니다.
 
 </td>
 </tr>
 </table>
 
-간단히 말해, AxF 파일은 X-Rite의 TAC7 스캐너 하드웨어에 의해 추출된 수많은 텍스처를 호스팅하고, 그 재료의 추가 특성을 설명하는 메타데이터와 함께 호스팅합니다. 즉, AxF는 단순한 텍스처 데이터 이상의 역할을 합니다. 음영 속성도 함께 제공됩니다.
+간단히 말해, AxF 파일은 X-Rite의 TAC7 스캐너 하드웨어에 의해 추출된 여러 텍스처를 호스팅하며, 자료의 추가 특성을 설명하는 메타데이터와 함께 호스팅합니다. 즉, AxF는 단순한 텍스처 데이터 이상의 의미를 갖고 있으며 음영 속성도 갖고 있습니다.
 
 AxF 파일을 패키지 [리소스](../../resources/resources.md)(으)로 가져오지 *못했습니다*. 대신 [가져오기 프로세스](#import)에는 AxF 파일에서 텍스처와 메타데이터를 추출한 다음 이를 사용하여 [전용 템플릿](#graph-templates)에서 만든 그래프를 준비하는 작업이 포함됩니다.
 
 사용 가능한 템플릿은 두 가지 AxF 워크플로우를 대상으로 합니다.
 
-* <b>AxF 파일의 SVBRDF 자료를 PBR 자료로 변환</b>;
+* <b>AxF 파일의 SVBRDF 재질을 PBR 재질로 변환</b>;
 * SVBRDF 재질을 <b>편집</b>하고 기존 AxF 파일에 새 레이어로 [내보내기](#export)합니다.
 
 >[!NOTE]
@@ -143,7 +143,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 두 가지 유형의 Substance 그래프 템플릿을 사용할 수 있습니다.
 
-<b>금속 거칠기에 대한 AxF</b> 및 Specular 광도에 대한 <b>AxF</b>은(는) AxF 재질을 표준 PBR 모델에 매핑할 수 있는 *변환* 템플릿입니다.\
+<b>금속 거칠기에 대한 AxF</b> 및 Specular에 대한 <b>AxF</b>은(는) AxF 재질을 표준 PBR 모델에 매핑할 수 있는 *변환* 템플릿입니다.\
 그런 다음 기본 3D 보기 셰이더와 함께 사용하거나 Designer, [Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html)에서 제작되거나 [3D 에셋](https://substance3d.adobe.com/assets/) 라이브러리에서 얻은 다른 PBR 자료와 결합할 수 있습니다.
 
 <b>AxF to AxF</b>은(는) AxF 재질을 제자리에서 편집하고 이러한 변경 내용을 기존 AxF 파일의 새 레이어로 내보낼 수 있는 *통과* 템플릿입니다. 자세한 내용은 아래의 AxF 파일 내보내기 를 참조하십시오.
@@ -163,9 +163,9 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 <b>템플릿</b> 목록에 추가된 모든 Substance 그래프 템플릿에 대해 다음 추가 작업이 수행됩니다.
 
-AxF 파일에서 추출한 텍스처의 *식별자*&#x200B;와 *용도*&#x200B;가 일치하는 [<b>입력</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드의 경우 해당 입력 노드는 해당 텍스처를 참조하는 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드로 대체됩니다.
+AxF 파일에서 추출한 텍스처의 *식별자*&#x200B;과 *사용량*&#x200B;이 일치하는 [<b>입력</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 텍스처의 경우 해당 입력 노드는 해당 노드를 참조하는 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드로 대체됩니다.
 
-그래프의 <b>해상도</b> 속성(즉, 출력 크기)은 추출된 *가장 큰* 텍스처의 해상도와 같거나 그 위의 2의 거듭제곱으로 자동으로 설정됩니다.
+그래프의 <b>해상도</b> 속성(즉, 출력 크기)은 추출된 *가장 큰* 텍스처의 해상도와 같거나 그 위의 2의 거듭제곱으로 자동 설정됩니다.
 
 이전 작업이 적용된 후에 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드의 <b>해상도</b> 속성(즉, 출력 크기)이 그래프와 일치하도록 자동으로 설정됩니다.
 
@@ -179,7 +179,7 @@ AxF 파일의 자료에서 추출한 *메타데이터*&#x200B;가 그래프의 <
 >
 > 이 초기 구성 후에는 그래프 매개 변수의 기본값을 수정해서는 안 됩니다.
 > 
-> 이러한 속성은 텍스처의 값을 올바르게 해석하는 데 필수적인 음영 속성을 지정합니다.
+> 이러한 속성은 음영의 값을 올바르게 해석하기 위해 반드시 필요한 텍스처 속성을 지정합니다.
 > 
 > 따라서 이러한 설정을 변경하면 [3D 보기](../../interface/3d-view/3d-view.md)에서 재질을 시각화할 때 렌더링이 잘못됩니다.
 

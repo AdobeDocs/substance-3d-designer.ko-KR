@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
 breadcrumb-title: ''
-description: 재질 조정 블렌드 노드를 사용하여 재질 간에 재질 조정을 블렌딩하여 합성 효과를 미세 조정합니다.
+description: 재질 조정 혼합 노드를 사용하여 합성 효과를 미세하게 조정하기 위해 재질 간 재질 조정을 혼합합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 재질 조정 블렌드
+title: 자재 조정 혼합
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# 재질 조정 블렌드
+# 자재 조정 혼합
 
 <table>
 <tr style="border: 0;">
@@ -58,11 +58,11 @@ ht-degree: 2%
 |:---|:---|
 | <b>채널</b> | 이 그룹에서 재질 채널을 켜거나 끕니다. 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도 맵]을 사용하는 경우.<br><br>이렇게 하면 채널의 관련 그룹 모양이 활성화되고 비활성화됩니다. |
 | <b>확산</b> | 마스크에 의해 정의된 영역에서 확산 채널에 대한 조정 작업을 수행합니다. |
-| <b>기본 색상</b> | 마스크에 의해 정의된 영역의 [기준 색상] 채널에서 조정 작업을 수행합니다. |
+| <b>기본 색상</b> | 마스크에 의해 정의된 영역에서 기본 색상 채널에 대한 조정 작업을 수행합니다. |
 | <b>표준</b> |  |
 | <b>강도</b> <i>0.0 - 1.0</i> | 표준 강도를 낮춥니다. |
 | <b>Specular</b> | 마스크에 의해 정의된 영역에서 Specular 채널에 대한 조정 작업을 수행합니다. |
-| <b>발광</b> | 마스크에 의해 정의된 영역에서 Emissive 채널에 대한 조정 작업을 수행합니다. |
+| <b>방출</b> | 마스크에 의해 정의된 영역에서 Emissive 채널에 대한 조정 작업을 수행합니다. |
 | <b>광택</b> | 마스크에 의해 정의된 영역의 [광도] 채널에서 조정 작업을 수행합니다. |
 | <b>거칠음</b> | 마스크에 의해 정의된 영역에서 [거칠음] 채널에 대한 조정 작업을 수행합니다. |
 | <b>금속</b> | 마스크에 의해 정의된 영역의 금속 채널에 대해 조정 작업을 수행합니다. |

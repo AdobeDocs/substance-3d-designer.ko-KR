@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
 breadcrumb-title: ''
-description: 앨리어싱 아티팩트를 줄이기 위해 텍스처에 [빠른 대략의 앤티 앨리어싱]을 적용하려면 FXAA 노드를 사용합니다.
+description: FXAA 노드를 사용하여 앨리어싱 아티팩트를 줄이기 위해 텍스처에 [빠른 근사값] 앤티 앨리어싱을 적용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > FXAA
 helpx_experience_level: ""

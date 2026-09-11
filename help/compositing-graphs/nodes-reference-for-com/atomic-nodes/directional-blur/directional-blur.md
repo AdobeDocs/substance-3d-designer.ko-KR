@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
-description: 동작 흐림 효과 및 줄무늬 효과를 만들기 위해 방향 흐림 효과 노드를 사용하여 특정 방향으로 흐림 효과를 적용합니다.
+description: 방향 흐림 노드를 사용하여 동작 흐림 효과 및 줄무늬 효과를 만들기 위해 특정 방향으로 흐림 효과를 적용할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -112,7 +112,7 @@ ht-degree: 9%
 |  |  |
 | --- | --- |
 | <b>강도</b> *부동* | 흐림 반경(픽셀 단위)을 설정합니다. |
-| <b>각도</b> *부동* | 회전 수에 따른 흐림 효과의 방향은 시계 방향으로, 수평(예: 방향 벡터 (1, 0))부터 시작됩니다. |
+| <b>각도</b> *부동* | 흐림 효과의 회전 수 방향은 가로로 시작하여 시계 방향으로, 즉 방향 벡터 (1, 0)입니다. |
 
 ## 입력 커넥터
 

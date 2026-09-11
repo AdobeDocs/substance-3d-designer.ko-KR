@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/auto-levels.html"
 breadcrumb-title: ''
-description: '[자동 레벨] 노드를 사용하면 최적의 명도 및 대비 분포를 위해 텍스처 레벨을 자동으로 조정할 수 있습니다.'
+description: '[자동 레벨] 노드를 사용하면 최적의 밝기 및 대비 분포를 위해 텍스처 레벨을 자동으로 조정할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Auto Levels
 helpx_experience_level: ""

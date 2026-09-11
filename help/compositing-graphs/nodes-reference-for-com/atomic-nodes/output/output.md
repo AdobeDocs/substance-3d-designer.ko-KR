@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 출력
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
 ![Atomic node: 출력](output.resources/comp_output_1.png "Atomic node: 출력"){width="200px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 출력 노드는 Substance 그래프의 <b>결과</b>를 지정하거나 출력 노드가 두 개 이상 있는 경우 결과 중 하나를 지정합니다.
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 특성
 
-|  |  |
-| --- | --- |
-| <b>식별자</b> *문자열* | 출력의 고유 식별자입니다. 이 속성은 비워 둘 수 없으며 특수 문자 또는 공백을 포함할 수 없습니다.   이 식별자는 노드의 레이블인 &#39;Label&#39; 속성이 공백으로 남아 있을 때 사용됩니다. [내보낸 텍스처](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)의 이름을 지정하는 데 사용할 수도 있습니다. |
+|                             |                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>식별자</b> *문자열* | 출력의 고유 식별자. 이 속성은 비워 둘 수 없으며 특수 문자 또는 공백을 포함할 수 없습니다.   식별자의 레이블은 &#39;Label&#39; 속성이 공백으로 남아 있는 상태로 사용됩니다. [내보낸 텍스처](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)의 이름을 지정하는 데에도 사용할 수 있습니다. |
 | <b>설명</b> *문자열* | 출력의 도구 설명으로 사용되는 선택적 설명은 Substance 그래프입니다. |
 | <b>레이블</b> *문자열* | 출력 노드 및 이 그래프를 나타내는 [인스턴스 노드](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)의 해당 커넥터에 대한 레이블로 사용됩니다. 레이블에는 공백 및 특수 문자가 포함될 수 있습니다. |
 | <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
@@ -61,21 +61,23 @@ ht-degree: 0%
 
 따라서 [비트맵 내보내기](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)의 형식에는 영향을 주지 않습니다. 또한 Designer에서는 <b>Usage</b> 특성만 사용됩니다. 자세한 내용은 아래를 참조하세요.
 
-<b>사용</b>
++++ 사용
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>구성 요소</b> *문자열* | AxF 작업 과정에서 일부 텍스처 채널을 적절한 SVBRDF 셰이더 입력에 매핑하는 데 사용됩니다. |
-| <b>사용</b> *문자열* | 출력 노드의 유형 및 사용을 정의합니다. 이 속성은 다음을 추진하는 데 중요합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">일부 [Substance 생성 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)를 사용할 때 링크 그래프의 노드 연결 </li> <li data-preserve-html="true">3D 보기의 셰이더에 텍스처 연결(아래 &#39;[3D 보기의 사용 역할 정보](#usages-role-3dview)&#39; 참조)</li> <li data-preserve-html="true">통합/플러그인의 자료에 텍스처 연결</li> </ul> |
+| <b>사용</b> *문자열* | 출력 노드의 유형 및 사용을 정의합니다. 이 속성은 다음을 추진하는 데 중요합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">일부 [Substance 생성 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)를 사용할 때 링크 그래프의 노드 연결 </li> <li data-preserve-html="true">3D 보기의 셰이더에 대한 텍스처 연결(아래: &#39;[3D 보기에서의 사용 역할 정보](#about-the-role-of-usages-in-the-3d-view)&#39; 참조)</li> <li data-preserve-html="true">통합/플러그인의 자료에 텍스처 연결</li> </ul> |
 | <b>색상 공간</b> *문자열* | 이 출력을 해석해야 하는 색상 공간을 설정합니다. 다른 응용 프로그램의 일부 통합에서 사용되며 Designer에는 영향을 주지 않습니다. |
 
-### 3D 뷰의 사용 역할 정보
++++
 
-그래프 출력이 종종 특정 텍스처 채널에 대한 최종 결과인 경우가 많기 때문에, 출력은 3D 뷰에서 사용되는 셰이더의 적절한 샘플러로 자동으로 전송될 수 있다.
+### 3D 보기에서 사용의 역할에 대해
 
-실제로 3D 보기에서 <b>사용</b> 속성이 *샘플러 사용과 일치*&#x200B;하는 출력이 해당 샘플러에 연결됩니다. 예를 들어 `basecolor` 사용이 포함된 출력이 3D 뷰 셰이더의 `basecolor` 샘플러에 연결됩니다. [3D 보기](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion) 페이지의 [3D 보기](../../../../interface/3d-view/3d-view.md) 섹션에서 자세히 알아보십시오.
+그래프 출력이 종종 특정 텍스처 채널에 대한 최종 결과물이기 때문에, 출력은 3D 보기에 사용되는 셰이더의 적절한 샘플러로 자동으로 전송될 수 있다.
 
-[그래프 보기](../../../../interface/the-graph-view/the-graph-view.md)의 빈 영역에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>3D 보기에서 출력 보기</b> 옵션을 선택하여 모든 출력을 *일치하는 사용*&#x200B;이 포함된 3D 보기 샘플러에 연결합니다.
+실제로 3D 보기에서 <b>사용</b> 속성이 *샘플러 사용과 일치*&#x200B;하는 출력이 해당 샘플러에 연결됩니다. 예를 들어 `basecolor` 사용이 포함된 출력이 3D 보기 셰이더의 `basecolor` 샘플러에 연결됩니다. (자세히 알아보기: [3D 보기에서 데이터 보기](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view))
+
+[그래프 보기](../../../../interface/the-graph-view/the-graph-view.md)의 빈 영역에서 RMB를 클릭하고 컨텍스트 메뉴에서 <b>3D 보기에서 출력 보기</b> 옵션을 선택하여 모든 출력을 *일치하는 사용*&#x200B;을(를) 가진 3D 보기 샘플러에 연결합니다.
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,7 @@ ht-degree: 0%
 그래프에 출력이 두 개 이상 있는 경우 이러한 출력 중 하나를 해당 그래프의 기본 출력으로 설정할 수 있습니다. 이 옵션은 다음 작업에 사용할 출력을 지정합니다.
 
 * 해당 그래프를 나타내는 인스턴스 노드의 축소판입니다
-* 2D 뷰에서 이러한 인스턴스 노드 보기
+* 2D 보기에서 이러한 인스턴스 노드 보기
 * 라이브러리에 있는 해당 그래프의 축소판([여기](../../../../interface/preferences-window/project-settings/project-settings.md)에서 내 리소스를 추가하는 방법에 대해 알아보기)
 
 이 기능을 사용하면 그래프가 노드로 시각화되는 방법과는 독립적으로 그래프 출력을 임의의 순서로 정렬할 수 있습니다.

@@ -35,7 +35,7 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: 혼합](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Atomic node: Blend](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [혼합](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: 엠보스](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
+[![원자 노드: 엠보스](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 [엠보스](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
@@ -176,7 +176,7 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: 픽셀 프로세서](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![원자 노드: 픽셀 프로세서](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [픽셀 프로세서](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 

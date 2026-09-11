@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 프레임
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![프레임 아이콘](../../../../assets/graphatomic-frame_1.png "프레임 아이콘")
+![프레임 아이콘](frame.resources/graphatomic-frame_1.png "프레임 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 <b>제목</b> 속성에 설정된 제목은 프레임의 왼쪽 위 모서리에 회색으로 표시됩니다.
 
-![프레임(기본 상태)](../../../../assets/graph-frames-default.png "프레임(기본 상태)")
+![프레임(기본 상태)](frame.resources/graph-frames-default.png "프레임(기본 상태)")
 
 
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 상단 표시줄 또는 제목을 드래그하여 프레임 이동
 
-![프레임(호버 상태)](../../../../assets/graph-frames-hover.png "프레임(호버 상태)")
+![프레임(호버 상태)](frame.resources/graph-frames-hover.png "프레임(호버 상태)")
 
 
 
@@ -68,7 +68,7 @@ ht-degree: 1%
 +++선택됨
 이 옵션을 선택하면 프레임의 제목과 윤곽선이 흰색으로 강조 표시됩니다. 윤곽선이 더 두꺼워집니다.
 
-![프레임(선택한 상태)](../../../../assets/graph-frames-selected.png "프레임(선택한 상태)")
+![프레임(선택한 상태)](frame.resources/graph-frames-selected.png "프레임(선택한 상태)")
 
 
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 이러한 점을 고려하면 키보드 단축키를 사용하여 프레임을 만들면 그래프 안의 컨텐츠를 훨씬 더 빠르게 프레임할 수 있습니다.
 
-![프레임: 만들기 방법](../../../../assets/graph-frames_creation.gif "프레임: 만들기 방법"){width="480px"}
+![프레임: 만들기 방법](frame.resources/graph-frames_creation.gif "프레임: 만들기 방법"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![프레임: 상호 작용 영역](../../../../assets/graph-frames_interaction-zones.png "프레임: 상호 작용 영역")
+![프레임: 상호 작용 영역](frame.resources/graph-frames_interaction-zones.png "프레임: 상호 작용 영역")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![프레임: 격자 물리기](../../../../assets/graph-frames_grid-snapping.gif "프레임: 격자 물리기")
+![프레임: 격자 물리기](frame.resources/graph-frames_grid-snapping.gif "프레임: 격자 물리기")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ ht-degree: 1%
 
 제목의 크기는 최소 화면 크기로 잠글 수 있으므로 그래프를 축소해도 읽을 수 있습니다. 이 작업은 [그래프 보기](../../../../interface/the-graph-view/the-graph-view.md) 도구 모음의 <b>정보</b> 드롭다운에서 &#39;프레임 제목&#39; 옵션을 선택하여 수행할 수 있습니다.
 
-![프레임: 제목](../../../../assets/graph_frames_title.gif "프레임: 제목"){width="640px"}
+![프레임: 제목](frame.resources/graph_frames_title.gif "프레임: 제목"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ ht-degree: 1%
 +++설명
 <b>설명</b>은(는) 프레임의 콘텐츠에 주석을 달 수 있는 선택적 추가 텍스트입니다.
 
-HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 서식은 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 클릭하여 전환할 수 있습니다.
+HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 서식은 ![](frame.resources/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 클릭하여 전환할 수 있습니다.
 
 아래의 설명 섹션에서 자세히 알아보십시오.
 
-![프레임: 설명](../../../../assets/graph-frames_description.gif "프레임: 설명"){width="640px"}
+![프레임: 설명](frame.resources/graph-frames_description.gif "프레임: 설명"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 색상의 알파 프레임은 프레임의 *불투명도*&#x200B;를 제어합니다. 여기서 0의 값을 지정하면 채널이 완전히 투명해집니다.
 
-![프레임: 색상](../../../../assets/graph-frames_colour.gif "프레임: 색상"){width="640px"}
+![프레임: 색상](frame.resources/graph-frames_colour.gif "프레임: 색상"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 </td>
 <td style="border: 0;" valign="top">
 
-![프레임(기본 설명)](../../../../assets/graph-frames-descr.png "프레임(기본 설명)"){zoomable="yes"}
+![프레임(기본 설명)](frame.resources/graph-frames-descr.png "프레임(기본 설명)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 ### HTML 서식
 
-프레임의 <b>설명</b> 속성에서 HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 동일한 속성에서 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 사용하여 서식을 사용하도록 설정해야 합니다.
+프레임의 <b>설명</b> 속성에서 HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 동일한 속성에서 ![](frame.resources/graph-frames_html-markup-button.png) <b>HTML 태그</b> 단추를 사용하여 서식을 사용하도록 설정해야 합니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![프레임(HTML 서식 설명)](../../../../assets/graph-frames-descr-html.png "프레임(HTML 서식 설명)"){zoomable="yes"}
+![프레임(HTML 서식 설명)](frame.resources/graph-frames-descr-html.png "프레임(HTML 서식 설명)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 따라서 노드의 중심점 위치는 *의도적으로 이동*&#x200B;될 때까지 변경하면 안 됩니다.
 
-![프레임 포함: 긴 노드](../../../../assets/frame_inclusion_node_tall.png "프레임 포함: 긴 노드")
+![프레임 포함: 긴 노드](frame.resources/frame_inclusion_node_tall.png "프레임 포함: 긴 노드")
 
 
 
@@ -297,11 +297,11 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 노드 아래에 표시된 배지, 커넥터 및 정보는 모두 무시됩니다.
 
-![프레임 포함: 고정 노드](../../../../assets/frame_inclusion_node_docked.png "프레임 포함: 고정 노드")
+![프레임 포함: 고정 노드](frame.resources/frame_inclusion_node_docked.png "프레임 포함: 고정 노드")
 
 
 
-![프레임 포함: 노드](../../../../assets/frame_inclusion_node.png "프레임 포함: 노드")
+![프레임 포함: 노드](frame.resources/frame_inclusion_node.png "프레임 포함: 노드")
 
 
 
@@ -312,7 +312,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 커넥터, 포털 아이콘 및 이름이 모두 무시됩니다.
 
-![프레임 포함: 점 노드](../../../../assets/frame_inclusion_dot.png "프레임 포함: 점 노드")
+![프레임 포함: 점 노드](frame.resources/frame_inclusion_dot.png "프레임 포함: 점 노드")
 
 
 
@@ -329,11 +329,11 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 
 
-![프레임 포함: 상위 주석](../../../../assets/frame_inclusion_comment_parented.png "프레임 포함: 상위 주석")
+![프레임 포함: 상위 주석](frame.resources/frame_inclusion_comment_parented.png "프레임 포함: 상위 주석")
 
 
 
-![프레임 포함: 주석](../../../../assets/frame_inclusion_comment.png "프레임 포함: 주석")
+![프레임 포함: 주석](frame.resources/frame_inclusion_comment.png "프레임 포함: 주석")
 
 
 
@@ -342,7 +342,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 +++핀
 핀 아이콘의 <b>팁</b>이(가) 사용되었습니다.
 
-![프레임 포함: 탐색 핀](../../../../assets/frame_inclusion_pin.png "프레임 포함: 탐색 핀")
+![프레임 포함: 탐색 핀](frame.resources/frame_inclusion_pin.png "프레임 포함: 탐색 핀")
 
 
 
@@ -355,7 +355,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 제목이 무시됩니다.
 
-![프레임 포함: 중첩된 프레임](../../../../assets/frame_inclusion_frame.png "프레임 포함: 중첩된 프레임")
+![프레임 포함: 중첩된 프레임](frame.resources/frame_inclusion_frame.png "프레임 포함: 중첩된 프레임")
 
 
 
@@ -363,7 +363,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 ## 콘텐츠에 크기 맞추기
 
-![프레임: 내용에 맞추기](../../../../assets/graph-frames_fit-size-to-content.png "프레임: 내용에 맞추기")
+![프레임: 내용에 맞추기](frame.resources/graph-frames_fit-size-to-content.png "프레임: 내용에 맞추기")
 
 그래프를 조정할 때 프레임이 더 이상 내용에 맞게 조정되지 않을 수 있습니다. 이 경우 중간 격자 셀 1개의 패딩으로 프레임의 위치와 크기를 그 내용에 맞게 자동 조절하는 것이 가능하다.
 
@@ -386,14 +386,14 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 </td>
 <td style="border: 0;" valign="top">
 
-![프레임: 내용에 크기 맞추기(설명 포함)](../../../../assets/graph-frames_fit-description.png "프레임: 내용에 크기 맞추기(설명 포함)")
+![프레임: 내용에 크기 맞추기(설명 포함)](frame.resources/graph-frames_fit-description.png "프레임: 내용에 크기 맞추기(설명 포함)")
 
 </td>
 </tr>
 </table>
 
 +++예
-![프레임: 콘텐츠(GIF)에 크기 맞추기](../../../../assets/graph-frames_fit-size-to-content.gif "프레임: 콘텐츠(GIF)에 크기 맞추기"){width="640px"}
+![프레임: 콘텐츠(GIF)에 크기 맞추기](frame.resources/graph-frames_fit-size-to-content.gif "프레임: 콘텐츠(GIF)에 크기 맞추기"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 
 ## 자동 확장
 
-![프레임: 자동 확장](../../../../assets/graph-frames_auto-expand.png "프레임: 자동 확장")
+![프레임: 자동 확장](frame.resources/graph-frames_auto-expand.png "프레임: 자동 확장")
 
 그래프가 커지면 프레임의 내용을 다시 정렬해야 할 수 있습니다. 노드들은 추가들을 위한 공간을 만들기 위해 시프트될 수 있거나 콘텐츠는 가독성을 증진하기 위해 더 멀리 이격될 필요가 있을 수 있다.
 
@@ -416,7 +416,7 @@ HTML 태그를 사용하여 텍스트 서식을 지정할 수 있습니다. 이 
 > 이동 중에 <b>Shift</b> 키를 누르거나 놓아 프레임의 자동 조정을 트리거하거나 취소할 수 있지만, 이동을 완료할 때 *반드시*&#x200B;를 유지해야 조정을 효과적으로 적용할 수 있습니다.
 
 +++예
-![프레임: 자동 확장(GIF)](../../../../assets/graph-frames_auto-expand.gif "프레임: 자동 확장(GIF)"){width="640px"}
+![프레임: 자동 확장(GIF)](frame.resources/graph-frames_auto-expand.gif "프레임: 자동 확장(GIF)"){width="640px"}
 
 
 

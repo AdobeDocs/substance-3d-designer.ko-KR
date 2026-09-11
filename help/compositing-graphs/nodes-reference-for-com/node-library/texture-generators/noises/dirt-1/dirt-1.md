@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![Dirt 1 - 아이콘](dirt-1.resources/dirt_1.png "Dirt 1 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 노이즈
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

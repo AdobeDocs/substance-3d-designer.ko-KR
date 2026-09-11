@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 치조골
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-1.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -48,14 +48,14 @@ ht-degree: 7%
 | <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
 | <b>그레이디언트 칠 셀</b> <i>거짓/참</i> | 선명한 가장자리로 전환하여 가장자리가 선명한 육각형 타일을 만듭니다. |
 | <b>간격 너비</b> <i>0.0 - 1.0</i> | 위 옵션이 &quot;거짓&quot;으로 설정된 경우에만 작동합니다. 간격 크기를 변경합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 
 ## 예
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/alveolus.gif" />
+            <img src="alveolus.resources/alveolus.gif" />
         </td>
     </tr>
 </table>

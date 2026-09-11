@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 렌더러
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 7%
@@ -38,11 +38,11 @@ ht-degree: 7%
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 패스트레이서</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>래스터라이저</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -84,7 +84,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 |                                                                 |                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **샘플** 부동 | 이미지가 수렴된 것으로 간주되기 전에 계산할 픽셀의 샘플 수를 지정합니다. |
-| **주변 오클루전 불투명도** 부동 | 앰비언트 오클루전 불투명도의 값을 지정합니다. |
+| **앰비언트 오클루전 불투명도** 부동 | 앰비언트 오클루전 불투명도의 값을 지정합니다. |
 | **변위 사용** 부울 | 변위를 활성화할지 여부를 지정합니다. |
 | **변위 임계값** 부동 | GPU 테슬레이션을 활성화/비활성화하는 임계값을 설정합니다. |
 | **백페이스 컬링 사용** 부울 | 값이 참이면 카메라에서 멀리 향하는 법선이 있는 삼각형 메쉬를 컬링할 수 있습니다. 값이 false이면 백페이스 컬링이 비활성화됩니다. |
@@ -111,7 +111,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 +++
 
-![래스터라이저 - 예 1](../../../assets/3dRendererRasterizer.jpg "래스터라이저 - 예 1"){zoomable="yes"}
+![래스터라이저 - 예 1](3d-renderers.resources/3dRendererRasterizer.jpg "래스터라이저 - 예 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 +++
 
-![GPU 경로 추적기 - 예 1](../../../assets/3dRendererPathtracer.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
+![GPU 경로 추적기 - 예 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU 경로 추적기 - 예 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -210,7 +210,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++ 랑베르
 
-매우 간단한 람베르트 조명 셰이더는 확산 채널만 지원합니다. 이전 포인트 라이트 시스템을 사용하며 HDR 이미지 조명을 지원하지 않습니다.
+매우 간단한 램버트 조명 셰이더로, 확산 채널만 지원합니다. 이전 포인트 라이트 시스템을 사용하지만 HDR 이미지 조명은 지원하지 않습니다.
 
 +++
 
@@ -236,21 +236,9 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++
 
-+++ 금속 거칠음
++++ 금속 거칠기
 
-금속 거칠음 모델에 대한 표준 PBR 재료입니다. [기본 색상], [금속] 및 [거칠음] 채널을 사용합니다.
-
-Height 시각화 방법에는 두 가지가 있습니다.
-
-<b>시차 오클루전</b> - 지역화된 UV 변형 및 오클루전을 통해 형상을 수정하지 않고 Height 변위를 위조합니다.
-
-<b>테셀레이션 + 변위</b> - 형상을 세분화하고 정점을 표준을 따라 배치합니다.
-
-+++
-
-+++ 금속 거칠음 - 코팅
-
-금속 거칠음 모델을 위한 코팅된 PBR 재질 [기본 색상], [금속 색상] 및 [거칠음] 채널과 추가 [코트] 채널을 사용합니다.
+금속 거칠기 모델에 대한 표준 PBR 재료입니다. 기본 색상, 금속 및 거칠음 채널을 사용합니다.
 
 Height 시각화 방법에는 두 가지가 있습니다.
 
@@ -260,9 +248,9 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++
 
-+++ 금속 거칠음 - SSS
++++ 금속 거칠기 - 코팅
 
-금속 거칠기 모델에 대한 서브 표면-산란 PBR 재료. [기본 색상], [금속 거칠음] 및 [거칠음] 채널과 추가 [분산] 채널을 사용합니다.
+금속 거칠기 모델을 위한 코팅된 PBR 재료입니다. 기본 색상, 금속 및 거칠기 채널과 추가 &quot;코트&quot; 채널을 사용합니다.
 
 Height 시각화 방법에는 두 가지가 있습니다.
 
@@ -272,9 +260,21 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++
 
-+++ Specular 광택
++++ 금속 거칠기 - SSS
 
-Specular 광택 모델을 위한 표준 PBR 재질입니다. [확산], [Specular] 및 [광택] 채널을 사용합니다.
+금속 거칠기 모델에 대한 서브 표면-산란 PBR 재료. [기본 색상], [금속] 및 [거칠음] 채널과 추가 [분산] 채널을 사용합니다.
+
+Height 시각화 방법에는 두 가지가 있습니다.
+
+<b>시차 오클루전</b> - 지역화된 UV 변형 및 오클루전을 통해 형상을 수정하지 않고 Height 변위를 위조합니다.
+
+<b>테셀레이션 + 변위</b> - 형상을 세분화하고 정점을 표준을 따라 배치합니다.
+
++++
+
++++ Specular 광택도
+
+Specular 광택도 모델에 대한 표준 PBR 자료. 확산, Specular 및 광택도 채널을 사용합니다.
 
 Height 시각화 방법에는 두 가지가 있습니다.
 
@@ -286,7 +286,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++ 밝지 않음
 
-조명 없는 텍스처 맵을 시각화하기 위한 비조명 디버그 셰이더. &#39;color&#39; 채널만 사용합니다.
+조명을 표시하지 않고 텍스처 맵을 시각화하려면 디버그 셰이더를 비웁니다. &#39;color&#39; 채널만 사용합니다.
 
 +++
 
@@ -296,4 +296,4 @@ Designer에서는 OpenGL 렌더러 [GLSLFX 파일 사용](../../../interface/3d-
 > 
 > 이 렌더러는 **사용되지 않음**&#x200B;입니다. 새 기능을 받지 않으며 이후 버전의 Designer에서 중단됩니다.
 
-![OpenGL - 예 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - 예 1"){zoomable="yes"}
+![OpenGL - 예 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - 예 1"){zoomable="yes"}

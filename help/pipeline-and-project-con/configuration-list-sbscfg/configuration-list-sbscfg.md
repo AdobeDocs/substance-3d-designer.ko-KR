@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 구성 목록 - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -26,12 +26,12 @@ ht-degree: 0%
 
 구성 파일은 프로젝트 목록과 엔진 호환성 모드만 포함하므로 [프로젝트 구성 파일](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)보다 훨씬 간단합니다. 단일 프로젝트 파일보다 상위 수준의 프로젝트/환경 구성 목록으로 사용됩니다.
 
-서로 다른 환경에 대해 여러 구성을 가질 수 있으며, 이러한 파일은 SBSPRJ 파일과 함께 버전 제어 하에 유지할 수 있습니다.
+서로 다른 환경에 대해 여러 구성을 가질 수 있으며, 이러한 파일은 SBSPRJ 파일과 함께 버전 컨트롤 상태로 유지될 수 있습니다.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG 파일 아이콘](../../assets/sbscfg.png "SBSCFG 파일 아이콘")
+![SBSCFG 파일 아이콘](configuration-list-sbscfg.resources/sbscfg.png "SBSCFG 파일 아이콘")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 강조 표시된 섹션은 구성 파일과 관련된 부분으로, 위에서 정의한 SBSCFG 파일에 저장된 목록에 더 많은 프로젝트를 추가하기만 하면 됩니다.
 
-![프로젝트 설정](../../assets/config-ui.png "프로젝트 설정")
+![프로젝트 설정](configuration-list-sbscfg.resources/config-ui.png "프로젝트 설정")
 
 ### XML로 외부 편집
 

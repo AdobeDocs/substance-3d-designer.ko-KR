@@ -130,7 +130,7 @@ outColor = vec4(myColor.rgb, 1.0);
 
 ### 새 텍스처 조회 함수 사용
 
-새로운 버전의 음영 언어를 사용하여 텍스처 조회 API가 단순화되고 확장되었습니다.
+음영 언어의 새로운 버전으로 텍스처 조회 API가 단순화 및 확장되었습니다.
 
 `texture1D()`, `texture2D()`, `texture3D()` 및 `textureCube()` 함수는 모두 `texture()`의 오버로드가 됩니다.\
 마찬가지로 `texture2DLod()`은(는) `textureLod()`이(가) 되고 `texture2DGrad()`은(는) `textureGrad()`이(가) 됩니다.

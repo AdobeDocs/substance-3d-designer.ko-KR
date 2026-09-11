@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
-description: 3D 텍스처 위치 노드를 사용하여 공간 효과 및 매핑을 만들기 위한 3D 텍스처의 위치 정보를 추출할 수 있습니다.
+description: 3D 텍스처 위치 노드를 사용하여 공간 효과 및 매핑을 만들기 위해 3D 텍스처에서 위치 정보를 추출할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 3%
 
 ## 설명
 
-**3D 텍스처 위치** 노드는 단위 큐브의 *위치 분할 영역*&#x200B;을 생성합니다.
+**3D 텍스처 위치** 노드는 단위 큐브의 *위치 슬라이스*&#x200B;를 생성합니다.
 
-이를 사용하여 3D 노이즈나 기능을 *3D 텍스처 아틀라스*&#x200B;로 만들 수 있습니다.
+이것은 3D 노이즈나 기능을 *3D 텍스처 아틀라스*&#x200B;로 굽는 데 사용할 수 있습니다.
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 베이킹 문제
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![(오류)](../../assets/error.svg) 문제</b>
+<b>![(오류)](baking-issues.resources/error.svg) 문제</b>
 
 &#39;Match&#39; 옵션을 &#39;By mesh name&#39;으로 설정하면 일치하는 내용이 적용되지 않거나 모든 장면 개체에서 일관되게 적용되지 않습니다.
 
-<b>![(틱)](../../assets/check.svg) 권장 단계</b>
+<b>![(틱)](baking-issues.resources/check.svg) 권장 단계</b>
 
 Designer 버전 14.1 이하에서 하위 폴리 및 상위 폴리 개체는 해당 *상위* 개체의 이름을 사용하여 일치했습니다. 대부분의 경우 상위 개체가 변형됩니다.
 
@@ -45,7 +45,7 @@ Designer 15.0부터 *기하 도형* 개체의 이름이 직접 사용됩니다.
 </td>
 <td style="border: 0;" valign="top">
 
-![장면 트리에 있는 기하 도형 개체와 그 부모](../../assets/sceneTree_objectsName.png "장면 트리에 있는 기하 도체와 그 부모"){zoomable="yes"}
+![장면 트리에 있는 기하 도형 개체와 그 부모](baking-issues.resources/sceneTree_objectsName.png "장면 트리에 있는 기하 도체와 그 부모"){zoomable="yes"}
 
 </td>
 </tr>

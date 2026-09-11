@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![방향 노이즈 1 - 아이콘](directional-noise-1.resources/directional_noise_1.png "방향 노이즈 1 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

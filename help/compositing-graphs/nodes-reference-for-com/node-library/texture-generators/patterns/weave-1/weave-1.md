@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-1.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에서 직조 1 노드를 사용하여 기본 직조 직물 패턴과 섬유 텍스처를 만듭니다.
+description: Substance 3D Designer에서 Weave 1 노드를 사용하여 기본 직조 직물 패턴과 섬유 텍스처를 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave 1
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 위브
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-1.png){width="128px"}
+![](weave-1.resources/weave-1.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -47,14 +47,14 @@ ht-degree: 7%
 |:---|:---|
 | <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
 | <b>45도 회전</b> <i>거짓/참</i> |  |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 
 ## 예
 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/weave-1-ex.gif" />
+            <img src="weave-1.resources/weave-1-ex.gif" />
         </td>
     </tr>
 </table>

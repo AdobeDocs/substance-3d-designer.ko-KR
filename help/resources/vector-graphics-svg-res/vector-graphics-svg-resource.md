@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
-description: 절차 재질 제작을 위해 Substance 3D Designer에서 SVG 벡터 그래픽을 가져와 리소스로 사용합니다.
+description: 프로시저 재질 제작을 위해 Substance 3D Designer에서 SVG 벡터 그래픽을 리소스로 가져와서 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 벡터 그래픽(SVG) 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # 벡터 그래픽(SVG) 리소스
 
-Substance 3D Designer은 Scalable Vector 그래픽 형식을 통해 제한된 형식의 Vector 그래픽을 지원합니다. SVG 파일을 다양한 방법으로 리소스로 가져와 그래프의 리소스로 사용할 수 있습니다.
+Substance 3D Designer은 확장 가능한 벡터 그래픽 형식을 통해 제한된 형식의 벡터 그래픽을 지원합니다. SVG 파일을 다양한 방법으로 리소스로 가져와 그래프의 리소스로 사용할 수 있습니다.
 
 SVG 파일 [은(는) 원자성 SVG 노드를 통해 만들거나 편집할 수 있습니다.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 또한 [UV에서 SVG 베이커로](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)하여 만들 수 있습니다.
 
@@ -46,7 +46,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 | 작성자 | [라이브러리](../../interface/the-library/the-library.md)에서 [리소스 정렬 및 큐레이션](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)에 사용됩니다. |
 | 작성자 URL | [라이브러리](../../interface/the-library/the-library.md)에서 [리소스 정렬 및 큐레이션](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)에 사용됩니다. |
 | 태그 | [라이브러리](../../interface/the-library/the-library.md)에서 [리소스 정렬 및 큐레이션](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)에 사용됩니다. |
-| 사용자 데이터 | 추가 데이터(선택 사항)이며 벡터 그래픽에는 사용되지 않습니다. |
+| 사용자 데이터 | 벡터 그래픽에 사용되지 않는 선택적 추가 데이터입니다. |
 | 라이브러리에 표시 | [SVG 보기](../../interface/the-library/the-library.md)에서 라이브러리 리소스를 숨길지 여부를 결정합니다. |
 | 벡터 그래픽 품질 | 렌더링 품질에 영향을 줍니다. 범위는 선형적이지 않으며 최고 품질은 0.5이다. |
 
@@ -60,7 +60,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 * 획이 지원되지만 1픽셀 폭의 획이 생성되고 획 스타일링은 무시됩니다.
 * 파선 스타일은 확실히 깨집니다.
 * 텍스트를 렌더링할 패스/윤곽선으로 변환해야 합니다.
-* [복합 경로](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths)는 지원되지 않습니다.
+* [복합 경로](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html)는 지원되지 않습니다.
 * 그레이디언트와 같은 고급 기능은 지원되지 않습니다.
 * CSS 속성의 스타일 요소는 지원되지 않습니다.
 
@@ -87,7 +87,7 @@ SVG 스토리지는 링크되어 있는지 또는 가져왔는지에 따라 달�
 > 대지는 생성된 SVG 파일의 결과에 영향을 줄 수 있습니다. 일부 Illustrator 파일 템플릿은 여러 개의 아트보드를 소개합니다.\
 > 아트보드를 하나만 제대로 자르고 SVG으로 저장할 때 아트보드 창에서 선택하도록 합니다.
 
-![Illustrator SVG 내보내기 옵션](../../assets/svg-export-options-ai.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
+![Illustrator SVG 내보내기 옵션](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Illustrator SVG 내보내기 옵션"){width="512px"}
 
 ### 잉크스케이프
 

@@ -1,6 +1,6 @@
 ---
 title: 늘이기
-description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > SDF 함수 > 변형 > 연장
+description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > SDF 함수 노드 라이브러리 > 노드 라이브러리 > 확장
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '132'
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ![늘이기 아이콘](./3d-sdf-transform-elongate.png "늘이기")
 
-<b>내부:</b> SDF 함수 > 변형
+<b>SDF 함수:</b> 변환 >
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

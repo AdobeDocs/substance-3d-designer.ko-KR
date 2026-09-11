@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # SDF 함수 작업
 
-버전 16.0.0에서 Substance 3D Designer은 절차적 3D 모양을 만들고 조작하는 데 사용할 수 있는 강력한 노드 세트를 만들어 SDF 함수를 제작하도록 도입했습니다.
+버전 16.0.0에서 Substance 3D Designer은 프로시저 3D 모양을 만들고 조작하는 데 사용할 수 있는 강력한 노드 세트를 만들어 SDF 함수를 제작했습니다.
 
 SDF 함수는 SDF 함수 세트에서 사용 가능한 SDF 노드를 결합하는 Substance 함수 그래프로, 도구를 지원하는 노드의 전용 매개 변수에 적용됩니다.
 
@@ -46,7 +46,7 @@ SDF 함수는 SDF 함수 세트에서 사용 가능한 SDF 노드를 결합하�
 
 이러한 기능은 드로잉 서피스, 그림자 캐스팅, 컨투어 마스킹, 충돌 감지 등과 같은 컴퓨터 그래픽에 많은 응용 프로그램을 가지고 있습니다.
 
-Substance 3D Designer에서는 SDF 함수를 사용하여 3D 모양을 절차적으로 만들고 조작합니다.
+Substance 3D Designer에서는 SDF 함수를 사용하여 3D 모양을 프로시저로 만들고 조작합니다.
 
 ### SDF 함수 출력 및 사용 목적
 
@@ -343,7 +343,7 @@ Material ID는 Shape 스플래터 v2 컴패니언 노드에서 활용할 수 있
             <p><b>녹슨 볼트</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">재료 샘플</a>은 모양 스플래터 v2 노드의 컨텍스트에서 적용된 SDF 함수로 이동할 수 있습니다.</p><p>그래프는 구조, 노드 설정 및 SDF 함수 설정을 단계별로 안내하기 위해 구성 및 주석 처리됩니다.</p><p>또한 <i>완전히 편집 가능한</i>이므로 샌드박스로 사용하여 모양 스플래터 v2와 SDF 함수 도구 세트를 더 자세히 이해할 수 있습니다. 원하는 만큼 샘플 그래프를 만들 수 있으므로 자유롭게 사용해 보세요!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 뷰어 노드의 테두리 프레임 기능(SDF 함수)." />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 뷰어 노드의 경계 프레임 기능(SDF 함수)" />
         </td>
     </tr>
 </table>

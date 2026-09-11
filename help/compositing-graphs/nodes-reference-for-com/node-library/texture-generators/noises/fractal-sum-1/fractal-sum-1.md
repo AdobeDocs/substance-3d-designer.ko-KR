@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
 breadcrumb-title: ''
-description: 프랙탈 합산 1 노드를 사용하면 여러 옥타브를 합하여 세부 텍스처를 만들어 프랙탈 노이즈 패턴을 생성할 수 있습니다.
+description: 프랙탈 합산 1 노드를 사용하여 세부 텍스처를 만들기 위해 여러 옥타브를 합산하여 프랙탈 노이즈 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 1
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![프랙탈 합산 1 - 아이콘](fractal-sum-1.resources/fractal_sum_1.png "프랙탈 합산 1 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 노이즈
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
