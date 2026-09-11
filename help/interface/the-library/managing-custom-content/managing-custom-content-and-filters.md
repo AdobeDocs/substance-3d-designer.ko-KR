@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: 체계적인 에셋 액세스를 위해 Substance 3D Designer Library에서 사용자 정의 콘텐츠 및 필터를 관리하는 방법을 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 사용자 정의 컨텐츠 및 필터 관리
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 즉, 하나 이상의 프로젝트 파일을 사용하여 <b>라이브러리</b>에 콘텐츠를 추가해야 하는 폴더와 해당 콘텐츠를 정렬하고 구성하는 범주 및 필터를 설정할 수 있습니다.
 
-![라이브러리의 사용자 지정 콘텐츠](../../../assets/library-filters.png "라이브러리의 사용자 지정 콘텐츠")
+![라이브러리의 사용자 지정 콘텐츠](managing-custom-content-and-filters.resources/library-filters.png "라이브러리의 사용자 지정 콘텐츠")
 
 ## 그래프 특성
 
@@ -57,11 +57,11 @@ ht-degree: 0%
 
 범주(폴더) 및 필터는 다음 단추를 사용하여 만들고 편집합니다.
 
-<b>![](../../../assets/library-icon-new-folder.png) 폴더 추가:</b> 라이브러리 보기에서 확장 가능한 폴더를 만듭니다. 하위 폴더를 만들 수 *없습니다*.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) 폴더 추가:</b> 라이브러리 보기에서 확장 가능한 폴더를 만듭니다. 하위 폴더를 만들 수 *없습니다*.
 
-<b>![](../../../assets/library-icon-new-filter.png) 필터 추가:</b> 선택한 폴더 내에 새 필터를 추가합니다. 기존 기본 폴더에 필터를 추가할 수 *없습니다*.
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) 필터 추가:</b> 선택한 폴더 내에 새 필터를 추가합니다. 기존 기본 폴더에 필터를 추가할 수 *없습니다*.
 
-<b>![](../../../assets/library-icon-edit.png) 항목 편집:</b> 현재 선택한 폴더 또는 필터를 편집합니다. 기본 폴더 및 필터의 속성은 *편집할 수 없습니다*.
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) 항목 편집:</b> 현재 선택한 폴더 또는 필터를 편집합니다. 기본 폴더 및 필터의 속성은 *편집할 수 없습니다*.
 
 폴더 또는 필터를 *제거*&#x200B;하려면 해당 폴더 또는 필터를 *마우스 오른쪽 단추로 클릭*&#x200B;하고 상황에 맞는 메뉴에서 <b>제거</b> 옵션을 선택합니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 > *올바른 프로젝트*&#x200B;를 편집하기 위해 이러한 설정을 올바르게 설정하는 것이 *매우*&#x200B;중요합니다!
 
-![사용자 지정 필터 버전](../../../assets/library-filters-edit.png "사용자 지정 필터 버전")
+![사용자 지정 필터 버전](managing-custom-content-and-filters.resources/library-filters-edit.png "사용자 지정 필터 버전")
 
 **필터**&#x200B;의 필터링 목적을 달성하려면 일반적으로 *조건*&#x200B;을 설정해야 합니다. 이러한 조건은 다음 기준을 사용하여 구성됩니다.
 
@@ -97,8 +97,8 @@ Condition 키워드 맨 오른쪽에 있는 &#39;**+**&#39; 및 &#39;**x**&#39; 
 
 * 기본 라이브러리에 대한 일반 규칙은 <b>폴더</b>가 <b>범주</b> 특성에 나열되는 반면 <b>필터</b> 이름은 <b>태그</b> 특성에 의해 결정됩니다
 * *명시적으로*&#x200B;하려는 경우를 제외하고 기본 라이브러리와 혼합되는 사용자 지정 노드를 만들지 마십시오. 일치하는 경우 노드 *will*&#x200B;이(가) 기본 필터 아래에 표시되므로 이를 방지하려면 *다른 태그 지정/이름 지정 시스템*&#x200B;을 사용해야 합니다
-* *고유*, *프로젝트당* 식별자 사용. 모든 프로젝트에서 *일관성*&#x200B;을 유지하는 한 <b>설명</b>, <b>범주</b> 또는 <b>사용자 데이터</b>와 같이 원하는 위치에 배치할 수 있습니다. 이렇게 하면 *프로젝트별* 콘텐츠를 훨씬 쉽게 검색하고 필터링할 수 있습니다.
-* <b>작성자</b> 특성을 사용하여 버전 컨트롤 기록을 뒤질 필요 없이 콘텐츠를 처음 담당하는 사람을 추적합니다
+* *고유*, *프로젝트당* 식별자를 사용하십시오. 모든 프로젝트에서 *일관성*&#x200B;을 유지하는 한 <b>설명</b>, <b>범주</b> 또는 <b>사용자 데이터</b>와 같이 원하는 위치에 배치할 수 있습니다. 이렇게 하면 *프로젝트별* 콘텐츠를 훨씬 쉽게 검색하고 필터링할 수 있습니다.
+* <b>작성자</b> 특성을 사용하여 버전 제어 레코드를 뒤질 필요 없이 콘텐츠를 처음 담당하는 사람을 추적합니다
 * <b>아이콘</b>을 효율적으로 만드는 방법은 그래프 특성 [아이콘](../../../compositing-graphs/graph-parameters/graph-parameters.md)의 <b>생성</b> 옵션을 사용하거나 그래프 [템플릿](../../../interface/preferences-window/project-settings/project-settings.md)을 만들어 생성하는 것입니다. 이렇게 하면 일관성을 보장하고 파일 작성 작업을 저장할 수 있습니다. 모든 기본 라이브러리 아이콘은 이러한 방식으로 Designer 내에서 만들어졌습니다.
 
 ### 다양한 범위의 컨텐츠 관리
