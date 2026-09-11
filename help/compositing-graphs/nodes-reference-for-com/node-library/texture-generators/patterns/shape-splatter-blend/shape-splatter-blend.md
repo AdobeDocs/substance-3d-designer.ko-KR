@@ -33,7 +33,7 @@ ht-degree: 14%
 
 ## 설명
 
-[모양 튄 ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) 데이터를 입력으로 사용하여 색상 또는 회색 음영 맵을 생성합니다.
+[모양 튄 &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) 데이터를 입력으로 사용하여 색상 또는 회색 음영 맵을 생성합니다.
 
 </td>
 </tr>

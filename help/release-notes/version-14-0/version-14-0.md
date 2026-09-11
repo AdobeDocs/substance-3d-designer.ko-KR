@@ -198,7 +198,7 @@ ht-degree: 0%
 * [Content] Substance 함수 그래프에서 &#39;Negate Float1&#39; 노드 사용 안 함
 * [Content] &quot;Quantize Color&quot;의 이름을 &quot;Quantize Color(Simple)&quot;로 바꿉니다
 * [2D 보기] 0-1 범위를 벗어나는 픽셀에 대한 값을 [정보] 패널에 표시합니다.
-* [Engine][Text] 일부 글꼴에 대한 새로운 커닝
+* [Engine]&#x200B;[Text] 일부 글꼴에 대한 새로운 커닝
 * [그래프] 인컨텍스트 에디션을 사용하는 동안 심층 하위 그래프 편집 시 무효화 시간을 개선합니다.
 * [링커] SBSASM에서 비트맵을 복제하지 않습니다.
 * [Parameters] 모든 입력 매개 변수 형식에 대해 새 &quot;function&quot; 위젯을 추가합니다.

@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 설명
 
-[변환 2D{1의 사각형이 아닌 안전한 버전. ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)정사각형이 아닌 비율을 자동으로 감지하여 정사각형이 아닌 캔버스에 이미지를 입력할 수 있습니다.
+[변환 2D&lbrace;1의 사각형이 아닌 안전한 버전. &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)정사각형이 아닌 비율을 자동으로 감지하여 정사각형이 아닌 캔버스에 이미지를 입력할 수 있습니다.
 
 몇 가지 설정을 올바르게 설정해야 하므로 이 노드를 최대한 활용하려면 [그래프 매개 변수](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)를 완전히 이해해야 합니다.
 

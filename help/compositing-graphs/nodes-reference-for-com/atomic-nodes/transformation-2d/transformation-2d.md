@@ -39,7 +39,7 @@ Photoshop의 변환(Ctrl-T) 또는 Substance 3D Painter의 2D 매핑 조작기�
 
 이것은 매우 유용하고 널리 적용되는 노드로서 타일링을 증가시키고, 특정 위치에 타일링을 제거하고, 이미지를 배치하거나, 입력을 분쇄하는 등의 작업을 할 수 있습니다.
 
-그러나 특정 응용 프로그램에 대해 완벽한 일치는 될 수 없으므로 다음 노드가 관심 있을 수 있습니다. [Safe](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), {non-Square[Quad](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), {quad[ 및 {quad{trapezoid](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).[](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
+그러나 특정 응용 프로그램에 대해 완벽한 일치는 될 수 없으므로 다음 노드가 관심 있을 수 있습니다. [Safe](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), &lbrace;non-Square[Quad](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), &lbrace;quad[&#x200B; 및 &lbrace;quad&lbrace;trapezoid](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md)
 
 <table>
 <tr style="border: 0;">

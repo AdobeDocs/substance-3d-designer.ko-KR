@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # 자료
 
-이 범주는 전체 다중 채널 재료를 위한 노드를 포함합니다. 지금은 [재료가 ](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)만 포함되어 있습니다.
+이 범주는 전체 다중 채널 재료를 위한 노드를 포함합니다. 지금은 [재료가 &#x200B;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)만 포함되어 있습니다.

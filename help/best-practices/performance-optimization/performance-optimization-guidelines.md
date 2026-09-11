@@ -134,7 +134,7 @@ Substance 엔진 CPU 버전(SSE2) *은(는) 실제로 16비트 색상 또는 8�
 ### 포함 비트맵에 대한 크기 최적화
 
 [비트맵](../../resources/bitmap-resource/bitmap-resource.md)의 [출력 크기](../../compositing-graphs/output-size/output-size.md)는 기본적으로 [&#39;절대&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 설정되어 있습니다. 즉, 비트맵이 노드 체인을 통해 출력에 연결되면 최종 출력이 포함된 비트맵의 크기가 됩니다.\
-비트맵 뒤에 삽입한 노드의 출력 크기는 입력 &#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)에 대해 [&#39;(으)로 설정됩니다. 즉, 비트맵 크기도 노드에 고유하고 노드 체인에서 출력으로 이 크기를 전달합니다. 이 문제를 해결하려면 비트맵의 출력 크기를 [&#39;부모 항목&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)으로 설정하도록 비트맵의 다음 노드를 설정해야 합니다.
+비트맵 뒤에 삽입한 노드의 출력 크기는 입력 &#39;[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)에 대해 &#39;(으)로 설정됩니다. 즉, 비트맵 크기도 노드에 고유하고 노드 체인에서 출력으로 이 크기를 전달합니다. 이 문제를 해결하려면 비트맵의 출력 크기를 [&#39;부모 항목&#39;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)으로 설정하도록 비트맵의 다음 노드를 설정해야 합니다.
 
 그래프가 동적 해상도로 설정된 경우 포함된 비트맵의 출력 크기를 부모를 기준으로 변경할 수 있습니다.\
 이렇게 하면 마스터 그래프를 기반으로 비트맵 크기가 변경되므로 그래프가 비트맵에서 필요한 해상도보다 더 높은 해상도를 처리할 수 없게 됩니다.
