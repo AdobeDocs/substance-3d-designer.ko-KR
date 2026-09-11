@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: 3D 볼륨 마스크 노드를 사용하여 고급 재질 효과를 위해 3D 위치를 기반으로 볼륨 마스크를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 볼륨 마스크
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
 
 <b>내부:</b> 생성기 > 패턴
 
@@ -55,11 +55,11 @@ ht-degree: 1%
 |:---|:---|
 | <b>모양</b> <i>정수</i> | 표시되어야 하는 기본 모양:<br><br>- *큐브*<br>- *실린더*<br>- *구* |
 | <b>크기 조절</b> <i>부동</i> | 모든 축에 *균일하게*&#x200B;을(를) 적용한 프리미티브 *전역* 비율을 정의합니다. |
-| <b>크기</b> <i>Float3</i> | 각 축에 있는 모양의 크기를 정의합니다. |
+| <b>크기</b> <i>부동3</i> | 각 축에 있는 모양의 크기를 정의합니다. |
 | <b>위치 입력</b> <i>정수</i> | **위치** 입력을 통해 *공간을 나타내는* 방법:<br><br>- *UV 위치*: *UV 맵*&#x200B;을 사용하십시오. X/Y(U/V) 좌표는 각각 R/G 채널에 맵핑된다. Z축은 *직교 정방향* 벡터로 가정합니다.<br>- *세계 공간 위치*: *위치 맵*&#x200B;을 사용하여 3D 공간의 기본 위치를 매핑합니다. X/Y/Z 좌표는 각각 R/G/B 채널에 맵핑된다. |
-| <b>UV 위치</b> <i>Float2</i> | UV 공간에서 기본 위치의 위치&#x200B;<br><br>*참고*: 이 매개 변수는 **위치 입력** 매개 변수가 *UV 위치*(으)로 설정된 경우에만 사용할 수 있습니다. |
-| <b>위치</b> <i>Float3</i> | 월드 공간에서 기본 위치 <br><br>*참고*: 이 매개 변수는 **위치 입력** 매개 변수가 *세계 공간 위치*(으)로 설정된 경우에만 사용할 수 있습니다. |
-| <b>회전</b> <i>Float3</i> | 월드 공간에서 모양의 회전을 정의합니다. |
+| <b>UV 위치</b> <i>부동2</i> | UV 공간에서 기본 위치의 위치&#x200B;<br><br>*참고*: 이 매개 변수는 **위치 입력** 매개 변수가 *UV 위치*(으)로 설정된 경우에만 사용할 수 있습니다. |
+| <b>위치</b> <i>부동3</i> | 월드 공간에서 기본 위치 <br><br>*참고*: 이 매개 변수는 **위치 입력** 매개 변수가 *세계 공간 위치*(으)로 설정된 경우에만 사용할 수 있습니다. |
+| <b>회전</b> <i>부동3</i> | 월드 공간에서 모양의 회전을 정의합니다. |
 | <b>페더 폭</b> <i>부동</i> | 프리미티브 표면의 안쪽으로 *페이딩 그레이디언트*&#x200B;의 폭을 조정합니다. |
 
 ## 예
@@ -67,16 +67,16 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
 breadcrumb-title: ''
 description: 파형 1 노드를 사용하면 유기 텍스처 및 프로시저 변형을 만들기 위한 파형 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 파형 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![파형 1 - 아이콘](../../../../../../assets/waveform_01_v2.png "파형 1 - 아이콘"){width="200px"}
+![파형 1 - 아이콘](waveform-1.resources/waveform_01_v2.png "파형 1 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![파형 1 - 예 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "파형 1 - 예 1"){zoomable="yes"}
+![파형 1 - 예 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "파형 1 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
