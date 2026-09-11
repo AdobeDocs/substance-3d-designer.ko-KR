@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: FXMaps의 Quadrant 노드를 사용하여 텍스처를 4개의 섹션으로 나누어 타일 패턴 및 변형을 만듭니다.
 helpx_creative_field: ""
