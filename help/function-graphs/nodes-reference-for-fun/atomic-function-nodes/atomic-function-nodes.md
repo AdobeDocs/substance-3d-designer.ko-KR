@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
 breadcrumb-title: ''
 description: 사용자 정의 함수 구축을 위한 Substance 함수 그래프에서 가장 작은 노드 단위인 원자 함수 노드에 대해 알아봅니다.
 helpx_creative_field: ""

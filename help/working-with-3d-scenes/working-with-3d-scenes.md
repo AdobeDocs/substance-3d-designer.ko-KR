@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 3D 장면을 가져와 편집하고 사용하여 재질을 미리 보고 테스트하는 방법을 살펴보세요.
 helpx_creative_field: ""

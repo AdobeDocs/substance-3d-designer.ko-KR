@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: 체커 1 노드를 사용하여 테스트 및 텍스처를 위한 사용자 정의 가능한 타일 크기와 색상으로 바둑판 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""

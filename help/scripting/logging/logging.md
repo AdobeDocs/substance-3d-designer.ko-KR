@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 플러그인에 로그인하여 디버깅 및 모니터링하는 방법을 알아봅니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 스크립팅에서 별색을 사용하여 특수화된 색상 작업 과정을 만드는 방법을 살펴보세요.
 helpx_creative_field: ""

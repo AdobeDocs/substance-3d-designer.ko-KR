@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 상속이 Substance 합성 그래프에서 작동하여 재사용 가능한 그래프 계층 및 변형을 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

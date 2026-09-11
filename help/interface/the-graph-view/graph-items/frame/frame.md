@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 그래프 보기의 프레임을 사용하여 노드를 정리하고 그룹화하여 시각적으로 더 명확하게 보일 수 있습니다.
 helpx_creative_field: ""

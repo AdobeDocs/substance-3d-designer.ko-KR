@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/packaging-plugins.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/packaging-plugins.html"
 breadcrumb-title: ''
 description: 배포 및 설치를 위해 Substance 3D Designer용 Python 플러그인을 패키징하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

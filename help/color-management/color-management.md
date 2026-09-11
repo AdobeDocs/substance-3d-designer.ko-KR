@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: 색상 공간, 프로필 및 별색 작업 과정을 포함하여 Substance 3D Designer의 색상 관리에 대해 알아봅니다.
 helpx_creative_field: ""

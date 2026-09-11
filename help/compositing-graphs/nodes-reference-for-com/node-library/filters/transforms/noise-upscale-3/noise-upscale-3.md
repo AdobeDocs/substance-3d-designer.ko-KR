@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
 breadcrumb-title: ''
 description: 높은 해상도에서 세부 정보를 유지하려면 노이즈 업스케일 3 텍스처를 고급 노이즈 기반 알고리즘을 사용하여 노드를 업스케일하십시오.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/best-practices.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 모범 사례 안내서에 액세스하여 워크플로우를 최적화하고 효율적인 재질을 만드십시오.
 helpx_creative_field: ""

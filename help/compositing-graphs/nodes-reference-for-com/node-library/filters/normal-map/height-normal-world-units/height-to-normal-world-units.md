@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
 description: '[Height에서 일반 세계 단위로] 노드를 사용하면 정확한 세부 정보를 위해 세계 단위 비율을 사용하여 높이 맵을 노멀 맵으로 변환할 수 있습니다.'
 helpx_creative_field: ""

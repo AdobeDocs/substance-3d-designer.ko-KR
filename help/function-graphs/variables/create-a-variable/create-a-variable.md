@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 재사용 가능한 값과 매개 변수에 대한 사용자 정의 변수를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""

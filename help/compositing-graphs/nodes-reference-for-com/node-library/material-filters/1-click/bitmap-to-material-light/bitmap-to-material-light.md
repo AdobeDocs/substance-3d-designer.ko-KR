@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
 breadcrumb-title: ''
 description: '[비트맵 대 재질 조명] 노드를 사용하면 비트맵 이미지를 빠른 작업 과정에 최적화된 조명이 있는 재질로 빠르게 변환할 수 있습니다.'
 helpx_creative_field: ""

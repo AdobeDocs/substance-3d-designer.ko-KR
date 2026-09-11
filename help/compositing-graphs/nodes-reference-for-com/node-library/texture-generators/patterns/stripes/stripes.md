@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
 breadcrumb-title: ''
 description: Stripe 노드를 사용하여 텍스처를 만들 수 있는 사용자 정의 가능한 폭, 간격 및 방향을 가진 스트라이프 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""

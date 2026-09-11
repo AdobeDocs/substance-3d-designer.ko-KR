@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
 breadcrumb-title: ''
 description: 효율적인 개발을 위해 Visual Studio 코드를 사용하여 Substance 3D Designer Python 플러그인을 디버깅하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

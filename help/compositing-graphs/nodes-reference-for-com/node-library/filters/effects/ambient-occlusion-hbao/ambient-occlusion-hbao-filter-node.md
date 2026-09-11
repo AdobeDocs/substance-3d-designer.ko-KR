@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
 description: 앰비언트 오클루전 HBAO 필터 노드를 사용하면 사실적인 음영을 위해 수평선 기반 알고리즘을 사용하여 앰비언트 오클루전 맵을 생성할 수 있습니다.
 helpx_creative_field: ""

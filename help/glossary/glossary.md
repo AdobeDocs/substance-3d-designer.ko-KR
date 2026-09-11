@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 용어집에 액세스하여 용어, 개념 및 기술 용어에 대한 정의를 찾습니다.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene" data-preserve-html="true"></span>3D 장면</b> | 3D 공간의 시각화를 표현하고 애니메이션을 적용하는 데 관련된 개체 및 데이터 컬렉션입니다.<ul data-preserve-html="true"> <li data-preserve-html="true">[망](#mesh)</li> <li data-preserve-html="true">[재질](#material)</li> <li data-preserve-html="true">카메라</li> <li data-preserve-html="true">조명</li> <li data-preserve-html="true">애니메이션</li> <li data-preserve-html="true">시뮬레이션</li> <li data-preserve-html="true">...</li> </ul>3D 장면을 저장하기 위해 [많이 사용되는 파일 형식](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html)으로는 Pixar의 [USD](#usd)과 Autodesk의 FBX가 있습니다. 모든 파일 형식은 이러한 구성 요소를 지원하지 않습니다 |
+| <b><span id="three-d-scene" data-preserve-html="true"></span>3D 장면</b> | 3D 공간의 시각화를 표현하고 애니메이션을 적용하는 데 관련된 개체 및 데이터 컬렉션입니다.<ul data-preserve-html="true"> <li data-preserve-html="true">[망](#mesh)</li> <li data-preserve-html="true">[재질](#material)</li> <li data-preserve-html="true">카메라</li> <li data-preserve-html="true">조명</li> <li data-preserve-html="true">애니메이션</li> <li data-preserve-html="true">시뮬레이션</li> <li data-preserve-html="true">...</li> </ul>3D 장면을 저장하기 위해 [많이 사용되는 파일 형식](https://www.adobe.com/kr/products/substance3d/discover/3d-files-formats.html)으로는 Pixar의 [USD](#usd)과 Autodesk의 FBX가 있습니다. 모든 파일 형식은 이러한 구성 요소를 지원하지 않습니다 |
 
 ## A
 

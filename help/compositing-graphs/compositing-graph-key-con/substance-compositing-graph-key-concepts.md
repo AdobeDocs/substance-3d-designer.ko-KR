@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
 breadcrumb-title: ''
 description: 노드, 연결 및 작업 과정 기초를 포함하여 Substance 합성 그래프의 주요 개념에 대해 알아보십시오.
 helpx_creative_field: ""

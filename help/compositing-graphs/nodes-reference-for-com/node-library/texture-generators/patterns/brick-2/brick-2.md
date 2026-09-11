@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
 breadcrumb-title: ''
 description: 브릭 2 노드를 사용하면 사실적인 벽돌 텍스처를 만들기 위한 향상된 컨트롤을 통해 고급 브릭 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""

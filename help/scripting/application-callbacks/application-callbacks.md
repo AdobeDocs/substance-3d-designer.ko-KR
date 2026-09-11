@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/application-callbacks.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/application-callbacks.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 플러그인의 애플리케이션 콜백을 사용하여 애플리케이션 이벤트에 응답하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: 텍스처 기반의 재질 제작을 위해 Substance 3D Designer에서 비트맵 리소스를 가져오고 만들고 사용하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

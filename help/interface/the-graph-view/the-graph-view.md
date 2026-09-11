@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 그래프 보기를 사용하여 노드 기반의 재질 그래프를 만들고 편집하는 방법을 알아봅니다.
 helpx_creative_field: ""

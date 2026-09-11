@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 스크립트의 그래프와 노드 선택에 액세스하고 조작하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

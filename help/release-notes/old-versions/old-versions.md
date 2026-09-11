@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/old-versions.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/old-versions.html"
 breadcrumb-title: ''
 description: 이전 버전의 Substance 3D Designer에 대한 릴리스 정보에 액세스하여 기록 기능 및 변경 사항을 검토하십시오.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: 3D 보기에서 재질 속성을 구성하여 Substance 재질이 3D 오브젝트에 표시되는 방식을 미리 보고 조정합니다.
 helpx_creative_field: ""
@@ -202,7 +202,7 @@ ASM(Adobe Standard Material) 모델은 Designer 11.2에 도입되어 Designer의
 Designer이 새로운 기본 모델로 OpenPBR으로 이동했지만 ASM은 여전히 포함되어 있으며 해당 속성도 공유됩니다
 래스터라이저에서 GPU 패스트레이서, OpenGL [3D 렌더러](../3d-renderers/3d-renderers.md)를 건너뜁니다.
 
-모델은 [여기](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 문서화되어 있습니다.
+모델은 [여기](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 문서화되어 있습니다.
 
 <a name="usdpreviewsurface"></a>
 

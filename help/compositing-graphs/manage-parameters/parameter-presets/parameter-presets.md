@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 매개 변수 사전 설정을 만들고 사용하여 매개 변수 구성을 저장하고 적용하는 방법을 알아봅니다.
 helpx_creative_field: ""

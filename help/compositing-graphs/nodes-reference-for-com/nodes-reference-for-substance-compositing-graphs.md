@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Designer의 Substance 합성 그래프에 대한 전체 노드 참조에 액세스하여 사용 가능한 모든 노드에 대해 알아보십시오.
 helpx_creative_field: ""

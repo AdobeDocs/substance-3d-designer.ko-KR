@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: 방향 흐림 노드를 사용하여 동작 흐림 효과 및 줄무늬 효과를 만들기 위해 특정 방향으로 흐림 효과를 적용할 수 있습니다.
 helpx_creative_field: ""

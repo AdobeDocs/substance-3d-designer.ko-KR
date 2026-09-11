@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 효과적인 재질 생성을 위해 Substance 합성 그래프에서 값 유형 및 데이터 처리에 대해 알아봅니다.
 helpx_creative_field: ""

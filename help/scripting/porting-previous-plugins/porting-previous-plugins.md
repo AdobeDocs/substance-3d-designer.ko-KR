@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/porting-previous-plugins.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/porting-previous-plugins.html"
 breadcrumb-title: ''
 description: 플러그인을 이전 버전의 Substance Designer에서 현재 Python API로 연결하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""

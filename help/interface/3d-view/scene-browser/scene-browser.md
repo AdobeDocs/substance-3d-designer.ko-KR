@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: '[장면 브라우저]를 사용하여 뷰포트에서 3D 장면 요소, 재질 및 개체를 탐색하고 관리합니다.'
 helpx_creative_field: ""

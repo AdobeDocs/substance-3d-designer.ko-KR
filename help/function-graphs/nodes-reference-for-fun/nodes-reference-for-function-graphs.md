@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 사용할 수 있는 모든 노드에 대한 전체 참조 안내서에 액세스합니다.
 helpx_creative_field: ""

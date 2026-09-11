@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 FXMaps를 사용하여 프로시저 패턴 생성을 위해 텍스처에 함수 그래프를 적용하는 방법을 살펴보세요.
 helpx_creative_field: ""
