@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 [속성] 패널을 사용하여 노드 속성 및 그래프 매개 변수를 보고 편집합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 속성
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![속성 도킹](../../assets/image2020-11-9-13-49-48.png "속성 도킹")
+![속성 도킹](properties.resources/image2020-11-9-13-49-48.png "속성 도킹")
 
 </td>
 </tr>
