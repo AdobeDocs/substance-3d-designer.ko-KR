@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 빠른 액세스 버튼
 
-![](the-main-toolbar.resources/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N)[새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
+![](the-main-toolbar.resources/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N) [새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
 
 ![](the-main-toolbar.resources/open.png) <b>열기...:</b>(Ctrl+O) 기존 [Substance 패키지(.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md)를 엽니다.
 
