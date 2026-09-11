@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-switch.html"
 breadcrumb-title: ''
 description: 입력 마스크나 조건을 기준으로 여러 재질 간에 전환하려면 재질 전환 노드를 사용합니다.
 helpx_creative_field: ""
@@ -45,5 +45,5 @@ ht-degree: 2%
 
 |  |  |
 |:---|:---|
-| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택도] 맵을 사용하는 경우 이 그룹의 재질 채널을 켜거나 끕니다. |
+| <b>채널</b> | 예를 들어 [금속]/[거칠음] 대신 [Specular/광택] 맵을 사용하는 경우 이 그룹에서 재질 채널을 켜거나 끌 수 있습니다. |
 | <b>전환</b> <i>거짓/참</i> | 자재 1 또는 2를 반품하려면 전환합니다. |

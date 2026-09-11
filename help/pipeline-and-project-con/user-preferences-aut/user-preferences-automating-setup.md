@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 사용자 환경 설정을 자동화하여 워크플로우 구성을 간소화하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -194,7 +194,7 @@ def SetConfigurationFile(p_ConfigPath):
 ```
 
 
-## 명령줄 인수 바로 가기
+## 명령줄 인수 단축키
 
 훨씬 더 간단한 방법으로 Designer에서는 &quot;—config-file&quot;(선택 사항) 인수를 통해 시작할 때 특정 SBSCFG를 사용하도록 할 수 있습니다.
 

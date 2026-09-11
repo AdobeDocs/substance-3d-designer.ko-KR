@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
 breadcrumb-title: ''
-description: 셀 1 노드를 사용하여 유기적이고 생물학적인 텍스처 효과를 만들기 위한 기본 세포 패턴을 생성합니다.
+description: 셀 1 노드를 사용하여 유기적 및 생물학적 텍스처 효과를 만들기 위한 기본 세포 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 1
 helpx_experience_level: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![셀 1 - 아이콘](cells-1.resources/cells_1.png "셀 1 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -63,12 +63,12 @@ ht-degree: 1%
 | <b>장애 비등방성</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 방향 범위를 제어합니다. 값이 높을수록 방향이 더 좁고 정의됩니다.    방향은 <b>장애 비등방성 각도</b> 매개 변수에 의해 제어됩니다. |
 | <b>장애 비등방성 각도</b> <i>부동</i> | &#39;Disorder 비등방성&#39; 매개 변수가 0이 아닌 경우 <b>Disorder</b> 매개 변수에 의해 적용된 변위의 방향을 제어합니다. |
 | <b>패턴</b> <i>정수</i> | 생성된 이미지에 흩어진 기본 모양입니다. |
-| <b>패턴 크기</b> <i>부동2</i> | 셀 내의 분산 패턴 크기에 대한 승수입니다. 여기서 1.0은 셀의 전체 범위입니다. |
+| <b>패턴 크기</b> <i>Float2</i> | 셀 내의 분산 패턴 크기에 대한 승수입니다. 여기서 1.0은 셀의 전체 범위입니다. |
 | <b>패턴 크기 조절</b> <i>부동</i> | <b>패턴 크기</b>에 대한 승수입니다. 여기서 1.0은 전체 크기입니다. |
 | <b>광도 무작위</b> <i>부동</i> | 셀에서 임의로 뺀 광도의 범위입니다. 여기서 1은 전체 범위입니다. |
 | <b>각도</b> <i>부동</i> | 셀의 방향을 설정하는 데 사용되는 각도로, 회전 수와 수평 오른쪽부터 시작하여 설정됩니다. |
 | <b>각도 무작위</b> <i>부동</i> | <b>각도</b> 값에 적용되는 최대 무작위 변형 양(회전 수)입니다. |
-| <b>타일 오프셋</b> <i>부동2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
+| <b>타일 오프셋</b> <i>Float2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
 | <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예

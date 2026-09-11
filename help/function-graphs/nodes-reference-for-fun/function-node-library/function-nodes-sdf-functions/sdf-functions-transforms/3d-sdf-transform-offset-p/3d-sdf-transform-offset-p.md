@@ -1,6 +1,6 @@
 ---
 title: 오프셋
-description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > SDF 함수 > 변형 > 오프셋 P
+description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 SDF 함수 > 노드 라이브러리 > 오프셋 P
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '142'
@@ -17,14 +17,14 @@ ht-degree: 1%
 
 ![오프셋 P 아이콘](./3d-sdf-transform-offset-p.png "오프셋 P")
 
-<b>내부:</b> SDF 함수 > 변형
+<b>SDF 함수:</b> 변환 >
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
-벡터를 따라 월드 공간을 오프셋합니다.<br>변환된 월드 위치를 대부분의 SDF 함수의 <b>P</b> 입력에 연결하여 이 변환된 월드 공간에서 정의할 수 있습니다.<br><br><i>팁:</i> P 변환을 연결할 수 있지만 결과는 작업 순서에 따라 달라집니다.
+벡터를 따라 월드 공간을 오프셋합니다.<br>출력 변환 위치를 대부분의 SDF 함수의 <b>P</b> 입력에 연결하여 이 월드 공간 팁에서 정의할 수 있습니다.<br><br><i>변환은 연결 상태이지만 작업의 순서에 따라 결과가 달라질 수 있습니다.</i>
 
 </td>
 </tr>

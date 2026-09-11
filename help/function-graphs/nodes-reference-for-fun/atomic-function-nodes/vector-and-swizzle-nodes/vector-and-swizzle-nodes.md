@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 벡터 및 스위즐 노드를 사용하여 벡터 데이터 및 구성 요소를 조작할 수 있습니다.
 helpx_creative_field: ""
@@ -81,11 +81,11 @@ Example on Left swaps는 첫 번째 예인 Integer 3부터 Integer(1) 순으로 
 스와이즐 노드는 다성분 벡터에서 성분을 분해하거나 분리하여 X, Y, Z, W 성분을 개별적으로 활용하고 스와이즈할 수 있도록 합니다. 다음 규칙 및 제한 사항이 적용됩니다.
 
 * 스위즐 노드에는 **한 개의 출력**&#x200B;만 있습니다.
-* 스위즐 노드 **입력**&#x200B;이 올바른 형식(Int 또는 Float)입니다.
+* 스위즐 노드 **입력**&#x200B;이 올바른 유형(Int 또는 부동)입니다.
 
 ### 구성 요소 분할
 
-스위즐의 가장 일반적인 경우는 Integer4를 4개의 개별 정수로 내리는 것과 같은 구성 요소를 분할하는 데 사용하는 것입니다. 제한 사항은 이를 위해 4개의 개별 스위즐 정수 노드가 필요하다는 것을 의미합니다.
+스위즐의 가장 일반적인 경우는 Integer4를 4개의 개별 정수로 내리는 것과 같은 구성 요소를 분할하는 데 사용하는 것입니다. 제한 사항은 이를 위해 4개의 별도 스위즐 정수 노드가 필요하다는 것을 의미합니다.
 
 두 개의 Integer2, 또는 Integer와 Integer3과 같은 Integer4에 대해서도 모든 결과에는 자체 노드가 필요하다는 점을 다시 염두에 두고 다른 종류의 분할이 가능합니다.
 
@@ -100,7 +100,7 @@ Example on Left swaps는 첫 번째 예인 Integer 3부터 Integer(1) 순으로 
 | --- | --- | --- | --- |
 | **스위즐 정수** | **스위즐** **정수2** | **스위즐** **정수3** | **스위즐** **정수4** |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="../../../../assets/fn-vector-swizzlefloat1.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="../../../../assets/fn-vector-swizzlefloat2.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="../../../../assets/fn-vector-swizzlefloat3.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="../../../../assets/fn-vector-swizzlefloat4.png"/></div> |
-| **회전** **부동** | **스위즐** **부동 소수점2** | **회전** **부동 소수점3** | **스위즐** **부동 소수점 4** |
+| **스위즐** **부동** | **스위즐** **부동2** | **스위즐** **부동 3** | **스위즐** **부동4** |
 
 </td>
 </tr>

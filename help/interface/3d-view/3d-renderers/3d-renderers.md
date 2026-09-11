@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 다양한 미리 보기 품질과 성능을 위해 3D 보기에서 래스터라이저와 패스파트레서 렌더러 중 하나를 선택합니다.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 >[!TIP]
 >
-> 프로젝트 설정[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)의 &quot;3D 보기&quot; 섹션에서 새 3D 보기를 시작할 때 기본적으로 사용되는 렌더러를 선택할 수 있습니다.
+> 프로젝트 설정](../../../interface/preferences-window/project-settings/project-settings.md)의 [&quot;3D 보기&quot; 섹션에서 새 3D 보기를 시작할 때 기본적으로 사용되는 렌더러를 선택할 수 있습니다.
 
 <a name="rasterizer"></a>
 
@@ -178,7 +178,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 <b>테셀레이션 + 변위</b> - 형상을 세분화하고 정점을 표준을 따라 배치합니다.
 
-Adobe Standard 자료는 설명서의 [이 섹션](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
+Adobe Standard Material은 설명서의 [이 섹션](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)에 자세히 설명되어 있습니다.
 
 +++
 
@@ -198,7 +198,7 @@ Height 시각화 방법에는 두 가지가 있습니다.
 
 +++ Blinn
 
-&quot;이전 - 세대&quot;, PBR이 아닌 올바른 셰이더입니다. [불투명도], [Specular] 및 [표준]과 같은 표준 채널 옆에 [확산], [Height] 및 [광택] 채널을 사용합니다.
+&quot;이전 - 세대&quot;, PBR이 아닌 올바른 셰이더입니다. [불투명도], [Specular] 및 [표준]과 같은 표준 채널 옆에 확산, Height 및 광택도 채널을 사용합니다.
 
 Height 시각화 방법에는 두 가지가 있습니다.
 

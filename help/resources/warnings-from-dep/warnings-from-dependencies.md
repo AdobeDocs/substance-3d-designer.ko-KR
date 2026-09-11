@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 리소스 종속성에서 경고가 발생한 경우 이를 해결하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -154,6 +154,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 이 경고는 연결된 리소스에서 검색된 UDIM을 *전용*&#x200B;에 나열하므로 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;의 데이터만 수정하면 이 경고가 트리거될 수 있습니다.
+> 이 경고는 연결된 리소스에서 검색된 UDIM을 *나열하므로* 사용자 인터페이스를 통해 트리거할 수 없습니다. Substance 3D 파일(SBS) *직접*&#x200B;에서 데이터를 수정해야만 이 경고가 트리거될 수 있습니다.
 
 ![&#39;잘못된 UV 타일&#39; 솔루션](../../assets/warnings-dep-udim-invalid.gif "&#39;잘못된 UV 타일&#39; 솔루션")

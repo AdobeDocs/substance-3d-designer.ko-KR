@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: 호환성과 성능을 위해 Substance 3D Designer 3D 보기에서 셰이더를 OpenGL 코어 프로필로 전환하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -130,7 +130,7 @@ outColor = vec4(myColor.rgb, 1.0);
 
 ### 새 텍스처 조회 함수 사용
 
-새로운 버전의 음영 언어를 사용하여 텍스처 조회 API가 단순화되고 확장되었습니다.
+음영 언어의 새로운 버전으로 텍스처 조회 API가 단순화 및 확장되었습니다.
 
 `texture1D()`, `texture2D()`, `texture3D()` 및 `textureCube()` 함수는 모두 `texture()`의 오버로드가 됩니다.\
 마찬가지로 `texture2DLod()`은(는) `textureLod()`이(가) 되고 `texture2DGrad()`은(는) `textureGrad()`이(가) 됩니다.

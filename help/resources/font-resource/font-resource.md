@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 글꼴 리소스를 가져와서 사용하여 텍스트에 텍스트와 타이포그래피를 추가할 수 있습니다.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 > **SBSAR의 글꼴**
 > 
-> 글꼴은 연결된 리소스에서나 시스템 설치 글꼴을 사용하는 것과 관계없이 항상 SBSAR에 포함됩니다. 이 방법의 장점은 설치할 필요가 없고, 종속성이 있는 SBS 파일을 내보낼 때 글꼴 파일을 함께 가져올 수 있다는 것입니다.
+> 글꼴은 연결된 리소스에서나 시스템 설치 글꼴을 사용하는 것과 관계없이 항상 SBSAR에 포함됩니다. 이 방법의 장점은 설치할 필요가 없다는 것이며, 종속성이 있는 SBS 파일을 내보낼 때 글꼴 파일이 제대로 포함되어 있는지 확인할 수 있습니다.
 
 ## 사용자 정의 글꼴 리소스 사용
 

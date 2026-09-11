@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 3D 보기를 사용하여 3D 개체에서 재질을 미리 보고 조명 조건을 테스트합니다.
 helpx_creative_field: ""
@@ -196,8 +196,8 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 그러나 원래 메쉬의 정점 법선이 새로 바뀐 모양과 일치하지 않을 수 있습니다. 즉, 바뀐 메쉬가 올바르게 렌더링되지 않을 수 있습니다. 다음 두 가지 방법으로 이를 관리할 수 있습니다.
 
-* 올바른 표준을 제공하는 메시 *표준 맵*&#x200B;을 사용하십시오.
-* 메시 표준 맵을 사용하여 내보낼 때 *메시 표준*&#x200B;을 다시 계산하십시오. 즉, 내보낸 메시에 표준 맵이 구워지며 표준 맵은 더 이상 필요하지 않습니다
+* 올바른 표준을 제공하는 메시 *노멀 맵*&#x200B;을(를) 사용하십시오.
+* 메시 표준 맵을 사용하여 내보낼 때 *메시 정규값 다시 계산*&#x200B;합니다. 즉, 내보낸 메시에 정규값이 구워지며 노멀 맵이 더 이상 필요하지 않습니다
 
 3D 보기 메시를 내보내려면 <b>장면 > 쪽맞춤 메시 내보내기...</b>(으)로 이동하여 표준 재계산에 대해 선택 사항을 설정한 다음 내보낸 메시의 위치, 이름 및 파일 형식을 선택합니다.
 
@@ -221,7 +221,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 >
 > **TDR(Windows만 해당)**
 > 
-> 이 기능을 사용하려면 Designer의 [기술 요구 사항](../../getting-started/system-requirements/system-requirements.md)에 명시된 대로 <b>TDR(Timeout Detection and Recovery)</b>이 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 값과 일치해야 합니다.
+> 이 기능을 사용하려면 Designer의 [기술 요구 사항](../../getting-started/system-requirements/system-requirements.md)에 명시된 대로 <b>TDR(Timeout Detection and Recovery)</b>이 설명서의 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 값과 일치해야 합니다.
 
 ## 메뉴 막대
 
@@ -305,7 +305,7 @@ Designer에는 기본적으로 사용할 수 있는 몇 가지 다른 [셰이더
 
 <b>정의 로드...: </b>(OpenGL 렌더러만 해당) 사용자 지정 [GLSLFX 셰이더](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)를 로드할 수 있습니다. 셰이더가 위의 목록에 추가됩니다.
 
-<b>공통 매개 변수 다시 설정:</b> 셰이더에서 공통적인 모든 매개 변수를 다시 설정합니다. 예를 들어 [래스터라이저/GPU 패스트레이서]와 OpenGL 렌더러 사이를 전환할 때 [Adobe 표준 재질](https://experienceleague.adobe.com/ko/docs/substance-3d/general-knowledge/asm/adobe-standard-material)의 여러 매개 변수 값이 전달됩니다.
+<b>공통 매개 변수 다시 설정:</b> 셰이더에서 공통적인 모든 매개 변수를 다시 설정합니다. 예를 들어 [래스터라이저/GPU 패스트레이서]와 OpenGL 렌더러 사이를 전환할 때 [Adobe 표준 재질](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)의 여러 매개 변수 값이 전달됩니다.
 
 <b>이름 바꾸기:</b> 이 재질의 레이블을 변경합니다.
 

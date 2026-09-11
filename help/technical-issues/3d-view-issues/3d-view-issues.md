@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
-description: 렌더링, 표시 및 성능 문제를 포함하여 Substance 3D Designer의 3D 보기 문제를 해결합니다.
+description: 렌더링, 표시 및 성능 문제를 포함한 Substance 3D Designer의 3D 보기 문제를 해결합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""

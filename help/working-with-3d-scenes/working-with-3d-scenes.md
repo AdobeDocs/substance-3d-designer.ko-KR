@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 3D 장면을 가져와 편집하고 사용하여 재질을 미리 보고 테스트하는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -66,17 +66,17 @@ USD 형식으로 내보낼 때 이 워크플로우는 완전히 <b>비파괴</b>
 
 ![3D 장면의 콘텐츠](../assets/loaded3DScene.png "3D 장면의 콘텐츠"){zoomable="yes"}
 
-Designer은 3D 장면에 USD 설명을 사용합니다. 해당 레이아웃은 장면 브라우저에서 탐색할 수 있으며, 각 [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) 유형에는 자체 아이콘(지오메트리, 재질, 셰이더, 카메라, 변환 등)이 있습니다.
+Designer은 3D 장면에 USD 설명을 사용합니다. 레이아웃은 장면 브라우저에서 탐색할 수 있으며, 각 [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) 유형에는 자체 아이콘(모양, 셰이더, 카메라, 변환 재질, ...)이 있습니다.
 
 [장면 브라우저](../interface/3d-view/scene-browser/scene-browser.md)를 사용하여 장면의 콘텐츠를 선택, 활성화 및 비활성화할 수 있습니다. 따라서 사용자 정의 3D 장면을 사용하여 작업할 때는 계속 표시되는 것이 좋습니다.
 
 ## 장면 불러오기
 
-3D 뷰에는 3D 장면을 로드하는 몇 가지 경로가 있습니다.
+3D 보기에 3D 장면을 로드하는 방법에는 여러 가지 경로가 있습니다.
 
-1. [패키지](../glossary/glossary.md)에서 [3D 장면 리소스](../resources/3d-scene-resource/3d-scene-resource.md)를 두 번 클릭하거나 3D 보기로 드래그합니다.
-1. [라이브러리](../interface/the-library/the-library.md)의 3D 장면 항목을 3D 보기로 드래그합니다([라이브러리에 자신의 콘텐츠를 추가한 경우](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)).
-1. 시스템의 파일 브라우저에서 3D 장면 파일을 3D 보기로 드래그합니다
+1. [패키지](../glossary/glossary.md)에서 [3D 장면 리소스](../resources/3d-scene-resource/3d-scene-resource.md)를 두 번 클릭하거나 3D 보기로 끌기
+1. [3D 보기](../interface/the-library/the-library.md)에서 라이브러리로 3D 장면 항목을 드래그합니다(라이브러리에 자신의 콘텐츠를 [추가한 경우](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)).
+1. 3D 장면 파일을 시스템의 파일 브라우저에서 3D 보기로 드래그합니다
 1. 3D 장면 상태 파일(SBSSCN)과 참조된 메시 불러오기
 
 장면 상태가 3D 장면 리소스와 장면 상태 파일에 기록되어 패키지에 저장되므로 메서드 1과 4만 사용하면 마지막으로 작업했을 때와 정확히 장면을 다시 로드할 수 있습니다. 방법 2와 방법 3은 장면을 다른 것과 같이 로드합니다.
@@ -121,7 +121,7 @@ Designer은 3D 장면에 USD 설명을 사용합니다. 해당 레이아웃은 �
 
 >[!NOTE]
 >
-> 3D 보기에서 장면 탐색 및 시각화는 [3D 보기 설명서](../interface/3d-view/3d-view.md)에서 다룹니다.
+> 3D 보기에서 장면을 탐색하고 시각화하는 방법은 [3D 보기 설명서](../interface/3d-view/3d-view.md)에서 다룹니다.
 
 <table>
 <tr style="border: 0;">

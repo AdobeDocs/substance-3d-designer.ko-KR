@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 벡터 편집 툴을 사용하여 SVG 그래픽을 만들어 단계적인 텍스처에 적용할 수 있습니다.
 helpx_creative_field: ""
@@ -201,7 +201,7 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 
 *현재* 정점에서 <b>모양 닫기</b>: Enter 키를 누르거나 현재 모양의 *첫 번째 정점*&#x200B;에서 LMB를 클릭합니다
 
-<b>자유형 </b> 모드에서 LMB를 누른 상태에서 캔버스를 가로질러 펜을 드래그하여 모양을 직접 그릴 수 있습니다.
+<b>자유형 </b>모드를 사용하면 LMB를 누른 상태에서 캔버스를 가로질러 펜을 드래그하여 직접 모양을 그릴 수 있습니다.
 
 정점은 선을 따라 *자동으로 배치*&#x200B;되므로 결과 패스는 가능한 한 획과 일치합니다. 모양이 선이 끝날 때 *자동으로 닫힘*&#x200B;되어 첫 번째 정점과 선의 마지막 정점을 연결합니다.
 
@@ -242,7 +242,7 @@ Designer 및 편집 도구의 최상의 호환성과 안정성을 위해 모든 
 
 ![모양 작업](../../../assets/2dview-vectorediting-shape-operations.png "모양 작업"){width="512px"}
 
-위에 나열된 도구 외에도 RMB를 클릭할 때 사용할 수 있는 컨텍스트 메뉴를 사용하여 *선택한 모양*&#x200B;에 대해 여러 작업을 수행할 수 있습니다. 이러한 작업은 거의 모두 키보드 단축키(아래 괄호 안)가 다음 범주로 구성되어 있습니다.
+위에 나열된 도구 외에도 RMB를 클릭할 때 사용할 수 있는 컨텍스트 메뉴를 사용하여 *선택한 모양*&#x200B;에 대해 여러 작업을 수행할 수 있습니다. 이러한 작업은 거의 모두 키보드 단축키(아래 괄호 안)를 사용하며 다음 범주로 구성되어 있습니다.
 
 +++모양 추가 및 제거
 <b>선택 영역 복사</b>(Ctrl+C): *선택한 모양을 클립보드에 복사*

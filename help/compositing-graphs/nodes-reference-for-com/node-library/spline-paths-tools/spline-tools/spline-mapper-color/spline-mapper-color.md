@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
 breadcrumb-title: ''
-description: 스플라인 매퍼 색상 텍스처를 사용하여 사용자 정의 가능한 매개 변수로 스플라인 패스를 따라 색상 노드를 매핑합니다.
+description: 스플라인 매퍼 색상 노드를 사용하여 사용자 정의 가능한 매개 변수로 스플라인 패스를 따라 색상 텍스처를 매핑합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 설명
 
-입력 스플라인을 따라 기본 입력 색상 이미지에 늘리다를 매핑합니다.
+입력 스플라인을 따라 뻗은 기본 모양에 입력 색상 이미지를 매핑합니다.
 
 프리미티브 모양은 평면, 반원통 또는 원통일 수 있습니다. 실린더들은 스플라인을 따라 꼬여져서 그에 따라 맵핑된 이미지를 변형시킬 수 있다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 | <b>스플라인 데이터</b> <i>색상</i> | 색상 이미지의 RGBA 채널에 인코딩된 입력 스플라인의 추가 데이터입니다.<br><b>R</b> - 탄젠트 X<br><b>G</b> - 탄젠트 Y<br><b>B</b> - 미사용<br><b>A</b> - 미사용 |
 | <b>스플라인 양</b> <i>정수</i> | 입력 스플라인의 수입니다. |
 | <b>색상 맵</b> <i>색상</i> | 입력 스플라인을 따라 매핑해야 하는 입력 색상 이미지입니다. |
-| <b>높이 맵</b> <i>회색 음영</i> | 입력 스플라인을 따라 매핑해야 하는 입력 회색 음영 높이 맵입니다. |
+| <b>Height 맵</b> <i>회색 음영</i> | 입력 스플라인을 따라 매핑해야 하는 입력 회색 음영 높이 맵입니다. |
 | <b>Twist Curve</b> <i>회색 음영</i> | 첫 번째 픽셀 행 값을 사용하여 곡선을 설명하는 이미지입니다.<br><b>모양</b> 매개 변수를 <i>반원통</i> 또는 <i>원통</i>(으)로 설정하면 이 입력을 사용하여 모양 주변의 UV 비틀기를 제어합니다. 이 효과는 <b>비틀기 UV 곡선 승수</b> 매개 변수를 사용하여 제어됩니다.<br>곡선은 스플라인을 따라 회전하는 양에 대한 프로파일을 제공합니다. 여기서 행의 첫 번째 픽셀은 스플라인이 시작될 때의 회전이고 마지막 픽셀은 끝의 회전입니다. 회색 음영 값은 회전 수를 나타냅니다.<br>곡선을 만드는 데 [곡선](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) 노드를 사용할 수 있습니다. |
 
 <a name="outputs"></a>
@@ -83,7 +83,7 @@ ht-degree: 0%
 |:---|:---|
 | <b>세그먼트 양</b> <i>정수</i> | 스플라인은 이미지 좌표가 통과하기 전에 선분으로 단순화됩니다.<br>선분의 양이 많을수록 곡선을 따라 매핑이 더 매끄러워집니다. |
 | <b>UV 자동 크기 조정</b> <i>부울</i> | 스플라인을 따라 매핑할 때 사각형 이미지가 유지되도록 좌표의 배율을 자동으로 조정합니다. |
-| <b>UV 비율</b> <i>Float2</i> | X(가로) 및 Y(세로)에서 매핑된 좌표의 크기를 조정합니다.<br>값이 높을수록 바둑판식 이미지가 더 조밀하게 표시됩니다. |
+| <b>UV 비율</b> <i>부동2</i> | X(가로) 및 Y(세로)에서 매핑된 좌표의 크기를 조정합니다.<br>값이 높을수록 바둑판식 이미지가 더 조밀하게 표시됩니다. |
 | <b>모드</b> <i>정수</i> | 이미지를 매핑할 스플라인을 선택하는 방법:<br>- <i>스플라인 목록 그리기</i>: 입력 목록의 모든 스플라인이 사용됩니다.<br>- <i>단일 스플라인 그리기</i>: 지정된 색인의 스플라인만 사용됩니다.<br>- <i>스플라인 범위 그리기</i>: 지정된 범위에 색인이 포함된 스플라인만 사용됩니다. |
 | <b>스플라인 색인 그리기</b> <i>정수</i> | (&#39;모드&#39;가 &#39;단일 스플라인 그리기&#39;로 설정된 경우 사용 가능) 이미지를 매핑해야 하는 스플라인의 인덱스입니다. |
 | <b>스플라인 범위 그리기</b> <i>정수2</i> | (&#39;모드&#39;가 &#39;스플라인 범위 그리기&#39;로 설정된 경우 사용 가능) 이미지를 매핑해야 하는 스플라인의 인덱스 범위입니다. |
@@ -100,7 +100,7 @@ ht-degree: 0%
 | <b>UV 곡선 오프셋 비틀기</b> <i>부동</i> | (&#39;모양&#39;이 &#39;반원통&#39; 또는 &#39;원통&#39;으로 설정되어 있을 때 사용 가능) Twist Curve에서 제공한 회전 값에 전역 오프셋을 회전 수로 적용합니다. |
 | <b>스플라인 Height 멀티플라이어</b> <i>부동</i> | Height 출력에 기여하는 스플라인 Height 입력의 강도를 조정합니다.<br>Height 조정은 누적됩니다. |
 | <b>입력 Height 승수</b> <i>부동</i> | Height 출력에 대한 높이 맵 입력의 기여도 강도를 조정합니다.<br>Height 조정은 누적됩니다. |
-| <b>배경색</b> <i>Float4</i> | 색상 출력의 배경 색상입니다. |
+| <b>배경색</b> <i>부동4</i> | 색상 출력의 배경 색상입니다. |
 | <b>정사각형이 아닌 수정</b> <i>부울</i> | 점의 위치와 Thickness을 조정하여 정사각형이 아닌 해상도에서 스플라인 모양을 유지합니다.<br>균일 배포에도 영향을 줍니다. |
 
 ## 예

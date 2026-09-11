@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에서 FXMaps가 함수 그래프를 텍스처에 적용하여 절차적 효과를 얻는 방법에 대해 알아봅니다.
+description: Substance 3D Designer에서 FXMaps가 함수 그래프를 텍스처에 프로시저로 적용하는 방법을 살펴보세요.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > How it works
 helpx_experience_level: ""

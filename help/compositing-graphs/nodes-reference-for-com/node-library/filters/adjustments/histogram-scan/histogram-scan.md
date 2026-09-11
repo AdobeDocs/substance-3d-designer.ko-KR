@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
 breadcrumb-title: ''
-description: '[막대 그래프 스캔] 노드를 사용하여 색상 교정 및 조정을 위한 텍스처 막대 그래프를 스캔하고 분석할 수 있습니다.'
+description: 히스토그램 스캔 노드를 사용하면 텍스처 히스토그램을 스캔하고 분석하여 색상 교정 및 조정을 수행할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
 helpx_experience_level: ""

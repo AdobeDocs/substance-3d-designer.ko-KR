@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
 breadcrumb-title: ''
 description: 지저분한 섬유 2 노드를 사용하여 직조 및 텍스타일 텍스처를 만들기 위한 중간 섬유 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ ht-degree: 1%
 | <b>각도</b> <i>부동</i> | 스레드의 방향을 설정할 때 사용되는 각도로, 회전 수와 수평 오른쪽부터 설정합니다. |
 | <b>각도 무작위</b> <i>부동</i> | <b>각도</b> 값에 적용되는 최대 무작위 변형 양(회전 수)입니다. |
 | <b>줄 번호</b> <i>부동</i> | 기본 스레드에 적용되는 타일링의 양이며 이 값이 높을수록 스레드가 더 조밀하고 얇아집니다. |
-| <b>타일 오프셋</b> <i>Float2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
+| <b>타일 오프셋</b> <i>부동2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
 | <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
-description: 산악 같은 텍스처를 만들기 위해 3D 공간에서 3D 리지 노이즈 프랙탈 노드를 사용하여 리지 프랙탈 노이즈 패턴을 생성합니다.
+description: '[3D 가장자리 노이즈 프랙탈 노드]를 사용하여 산과 같은 텍스처를 만들기 위해 3D 공간에 가장자리 거칠게 표시된 프랙탈 노이즈 패턴을 생성합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_experience_level: ""
@@ -53,8 +53,8 @@ ht-degree: 0%
 |:---|:---|
 | <b>반전</b> <i>부울</i> | 출력 이미지를 반전합니다. |
 | <b>크기 조절</b> <i>부동</i> | 프랙탈 3D 융기된 노이즈의 비율을 제어합니다. |
-| <b>크기</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 프랙탈 3D 융기된 노이즈의 크기를 제어합니다. 균일하지 않은 값을 입력하면 <i>분쇄</i> 효과가 발생합니다. |
-| <b>오프셋</b> <i>부동3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 프랙탈 3D 융기된 노이즈의 <i>위치</i>에 오프셋을 적용합니다. |
+| <b>크기</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 프랙탈 3D 융기된 노이즈의 크기를 제어합니다. 균일하지 않은 값을 사용하면 <i>스트레치 또는 스쿼싱</i> 효과가 발생합니다. |
+| <b>오프셋</b> <i>Float3</i> | <b>X</b>, <b>Y</b> 및 <b>Z</b> 축에서 프랙탈 3D 융기된 노이즈의 <i>위치</i>에 오프셋을 적용합니다. |
 | <b>왜곡 강도</b> <i>부동</i> | 프랙탈 3D 융기된 노이즈에 적용되는 <i>뒤틀기 효과</i>의 강도를 제어합니다. |
 | <b>왜곡 배율 배율</b> <i>부동</i> | <b>왜곡 강도</b>로 제어되는 뒤틀기 효과에 사용되는 <i>변형 패턴</i>의 비율을 제어합니다. |
 | <b>최소 수준</b> <i>정수</i> | 프랙탈 패턴에 사용된 최소 <i>반복 수준</i>입니다. 최소/최대 범위가 넓으면 더 많은 주파수 범위에서 변동이 있는 <i>더 풍부한 패턴</i>이 만들어집니다. |

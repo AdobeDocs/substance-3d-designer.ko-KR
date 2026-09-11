@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
 breadcrumb-title: ''
 description: Dirt 1 노드를 사용하여 풍화된 표면 세부 사항과 축적 효과를 만들기 위한 기본 Dirt 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![Dirt 1 - 아이콘](dirt-1.resources/dirt_1.png "Dirt 1 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 노이즈
+<b>내부:</b> 텍스처 생성기 > 잡음
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

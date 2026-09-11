@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 혼합 필터 노드에 액세스하여 다양한 혼합 모드와 작업을 사용하여 텍스처를 결합합니다.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # 혼합
 
-이 범주는 [원자 혼합 노드](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)의 확장입니다. 이 혼합 모드에는 표준 노드에 없는 보다 복잡한 확장 혼합 모드가 포함되어 있습니다.
+이 범주는 [원자 혼합 노드의 확장입니다.](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) 이 노드에는 표준 노드에 없는 확장되고 보다 복잡한 혼합 모드가 포함되어 있습니다.
 
 왼쪽의 <b>탐색 목록</b>을 사용하여 혼합 아래의 모든 노드를 찾아봅니다.
 

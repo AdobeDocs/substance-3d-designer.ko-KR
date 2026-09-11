@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 절차 텍스처 워크플로우를 구축하기 위해 Substance 합성 그래프를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
 
 새 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 만드는 프로세스를 시작하려면 다음 방법 중 하나를 사용할 수 있습니다.
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -242,7 +242,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 템플릿을 선택한 후 새로운 그래프에 대한 기본 정보를 설정할 수 있습니다. 그래프를 만든 후에는 언제든지 변경할 수 있습니다.
 
-<b>그래프 이름</b>: 그래프의 식별자입니다. 지정된 패키지에 대해 고유해야 하며 공백 및 일부 특수 문자는 포함할 수 없습니다.
+<b>그래프 이름</b>: 그래프의 식별자. 지정된 패키지에 대해 고유해야 하며 공백 및 일부 특수 문자는 포함할 수 없습니다.
 
 <b>크기</b>: 대부분의 노드의 출력 해상도를 제어하는 그래프의 부모 해상도 - 자세한 내용은 [출력 크기](../../compositing-graphs/output-size/output-size.md) 페이지를 참조하십시오. 폭과 Height은 기본적으로 함께 연결되어 있으며, 폭과 Height 콤보 상자 사이의 연결 버튼을 클릭하여 연결을 해제할 수 있습니다.
 

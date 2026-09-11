@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
-description: Tile Generator 노드를 사용하여 사용자 정의 가능한 크기, 오프셋 및 변형 컨트롤로 구성된 절차 타일 패턴을 만들 수 있습니다.
+description: Tile Generator 노드를 사용하여 사용자 정의 가능한 크기, 오프셋 및 변형 컨트롤로 프로시저 타일 패턴을 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator
 helpx_experience_level: ""
@@ -68,7 +68,7 @@ Tile Generator은 라이브러리에서 가장 진보된 노드 중 하나입니
 |:---|:---|
 | <b>X 양</b> <i>1 - 64</i> | 패턴의 X-반복의 양입니다. |
 | <b>Y 양</b> <i>1 - 64</i> | 패턴의 Y-반복의 양입니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 | <b>패턴</b> |  |
 | <b>패턴</b> <i>이미지 입력, 정사각형, 디스크, 포물면, 벨, 가우스, 가시, 피라미드, 벽돌, 그라데이션, 파도, 하프 벨, 고정된 벨, 초승달, 캡슐, 원뿔</i> | 사용할 패턴 모양을 선택합니다. |
 | <b>패턴 입력 번호</b> <i>1 - 6</i> | 사용할 서로 다른 이미지 입력 수입니다. 위에서 <i>이미지 입력</i>을 선택한 경우에만 사용할 수 있습니다. |

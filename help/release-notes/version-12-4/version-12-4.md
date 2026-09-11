@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 12.4의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 ![](../../assets/final-lock.gif){width="640px"}
 
-### 이미지 입력을 색상/회색 음영으로 변환
+### 회색 음영 - 색상 비율
 
 노드 컨텍스트 메뉴를 통해 [입력 색상](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)과 [입력 회색 음영](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 사이를 빠르게 전환합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ### 그레이디언트 편집기를 표시할 때 클릭한 핀 선택
 
-속성 패널에서 핀을 클릭하여 그레이디언트를 편집하면 이제 표시된 [그레이디언트 편집기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)에서 해당 핀이 자동으로 선택됩니다.
+핀 패널에서 핀을 클릭하여 그레이디언트를 편집하면 이제 표시된 [그레이디언트 편집기](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)에서 해당 속성이 자동으로 선택됩니다.
 
 ![](../../assets/final-gradient.gif){width="640px"}
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 ## Python API 업데이트
 
-이 12.4 버전은 Python API를 통해 Substance 모델 그래프에 대한 완전한 지원도 제공합니다. 이제 Substance 모델 그래프를 만들거나 편집하거나 평가하는 데 필요한 모든 도구가 있음을 의미합니다. 자세한 내용은 소프트웨어 도움말 메뉴에 나와 있는 설명서를 참조하십시오.
+이 12.4 버전은 Python API를 통해 Substance 모델 그래프도 완전히 지원합니다. 이제 Substance 모델 그래프를 만들거나 편집하거나 평가하는 데 필요한 모든 도구가 있음을 의미합니다. 자세한 내용은 소프트웨어 도움말 메뉴에 나와 있는 설명서를 참조하십시오.
 
 ## 릴리스 정보
 
@@ -86,20 +86,20 @@ ht-degree: 1%
 
 <b>추가됨:</b>
 
-* [3D 보기] 빠른 액세스 버튼을 추가하여 표시 옵션(와이어프레임, 환경 맵, 장면 상태 등) 설정
+* [3D 보기] 빠른 액세스 버튼을 추가하여 표시 옵션(와이어프레임, 환경 맵, 장면 상태 등)을 설정합니다.
 * [색상 관리] ACE 모드에서 구운 3D LUT의 품질 개선
 * [설명서] Substance 그래프용 샘플 프로젝트
 * [설명서] 함수 그래프에 대한 샘플 프로젝트
 * [탐색기] 위젯을 닫거나 무효화하지 않고 한 마스터에서 다른 마스터로 그래프 및 리소스를 이동할 수 있습니다.
-* [그레이디언트 편집기] 그레이디언트 편집기를 표시할 때 클릭한 핀을 선택합니다
+* [그레이디언트 편집기] 그레이디언트 편집기를 표시할 때 클릭된 핀 선택
 * [그래프] 노드의 컨텍스트 메뉴에서 옵션을 추가하여 모든 하위 노드를 선택합니다
 * [그래프] 그래프 도구를 정리하여 모든 그래프 유형 및 속성 그래프에서 사용하지 않는 노드를 감지하고 제거합니다
-* [그래프] 이미지 입력을 색상/회색 음영으로 변환
+* [그래프] 색상/그레이디언트에 대한 이미지 입력
 * [매개 변수] integer2 위젯에 잠금 추가
 * [매개 변수] 매개 변수로 기본 수식을 입력할 수 있습니다.
 * [Substance 모델] 값 노드의 값과 아이콘 간에 전환하려면 전환
 * [UI] 임의 시드가 필요한 경우 임의 값을 생성하는 버튼
-* [UI] [3D 보기]에서 현재 [장면 브라우저]에서 선택한 항목을 강조 표시합니다
+* [UI] [장면 브라우저]에서 현재 선택된 항목을 3D 보기에서 강조 표시합니다.
 * [UX] 값이 재설정될 때 슬라이더 범위 재설정
 * [API] 그래프 보기 도구 모음에 동작 추가 허용
 * [API] API에서 Substance 모델 그래프를 생성/편집/평가할 수 있습니다.
@@ -111,7 +111,7 @@ ht-degree: 1%
 * [3D 보기] 와이어프레임 표시 속성이 저장되지 않음
 * [Content] 방사형 흐림 효과 색상 매개 변수는 알파 채널에 영향을 주지 않습니다
 * [로컬라이제이션] 환경 OpenGL 속성에 추가 슬라이더와 단추가 표시됩니다.
-* [MDL]&#x200B;[Substance 모델] 노출된 노드를 삭제할 때 충돌이 발생합니다
+* [MDL][Substance 모델] 노출된 노드를 삭제할 때 충돌이 발생합니다
 * [환경 설정] 기본\_config 파일을 삭제해도 다시 생성되지 않습니다.
 * [Substance 모델] 인스턴스 레벨에서 표시되지 않는 재정렬 매개 변수 충돌
 * [API] SDProperty.getDefaultValue()가 거의 항상 None을 반환합니다.

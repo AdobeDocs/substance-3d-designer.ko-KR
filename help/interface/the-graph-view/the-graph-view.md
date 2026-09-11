@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 그래프 보기를 사용하여 노드 기반의 재질 그래프를 만들고 편집하는 방법을 알아봅니다.
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 <b>점 노드</b>를 사용하면 연결 경로를 변경하고 병합할 수 있으며, <b>포털</b>로 사용하여 길고 다루기 어려운 연결을 숨길 수 있습니다.
 
-<b>프레임</b>은 표시된 제목과 색상 코딩으로 노드를 그룹화하는 데 도움이 됩니다.
+<b>프레임</b>을 사용하면 표시된 제목과 색상 코딩으로 노드를 그룹화할 수 있습니다.
 
 <b>주석</b>을 사용하면 노드 또는 노드 그룹의 목적을 추적하고 다른 유용한 주석을 만들 수 있습니다.
 
@@ -207,7 +207,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 <b>2D 보기에서 출력 보기:</b> 노드의 출력 중 하나를 [2D 보기](../../interface/2d-view/2d-view.md)에 표시합니다. 아래의 [2D 보기와 상호 작용](#interacting-with-the-2d-view)을 참조하세요.
 
-<b>3D 보기에서 보기</b>: 사용을 일치시켜 모든 노드의 출력을 [3D 보기](../../interface/3d-view/3d-view.md)의 자료에 할당합니다. 아래의 [3D 보기와 상호 작용](#interacting-with-the-3d-view)을 참조하세요.
+<b>3D 보기에서 보기</b>: 사용을 일치시켜 모든 노드의 출력을 [3D 보기](../../interface/3d-view/3d-view.md)의 자료에 할당합니다. 아래의 [3D 보기와 상호 작용](#interacting-with-the-3d-view)을 참조하십시오.
 
 <b>3D 보기에서 보기 재설정:</b> [3D 보기에서 재질을 재설정하고](../../interface/3d-view/3d-view.md)의 사용을 일치시켜 해당 재질에 모든 노드의 출력을 할당합니다. 아래의 [3D 보기와 상호 작용](#interacting-with-the-3d-view)을 참조하십시오.
 
@@ -215,7 +215,7 @@ F 키를 사용하여 선택한 노드에 대해 <b>포커스</b>를 설정하�
 
 <b>주석 추가:</b> [주석](../../interface/the-graph-view/graph-items/graph-items.md) 그래프 개체를 만들고 이 노드에 부모로 지정합니다.
 
-<b>프레임 추가:</b> [프레임](../../interface/the-graph-view/graph-items/graph-items.md) 그래프 개체를 만들어 선택한 노드에 맞춥니다.
+<b>프레임 추가:</b> [프레임](../../interface/the-graph-view/graph-items/graph-items.md) 그래프 개체를 만들고 선택한 노드에 맞춥니다.
 
 <b>정보를 클립보드에 복사:</b> 노드의 고유 식별자(UID)를 클립보드에 복사합니다.
 

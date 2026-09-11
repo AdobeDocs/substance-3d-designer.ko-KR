@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: Substance 합성 그래프의 출력 크기 설정을 구성하여 텍스처 해상도 및 품질을 제어합니다.
 helpx_creative_field: ""
@@ -155,7 +155,7 @@ Output Size 속성이 *Relative to...* [inheritance 메서드](../../compositing
 
 위에서 해상도가 체인의 중간에서 훨씬 더 높게 이동하여 마스터에 의해 정의된 것보다 훨씬 더 높은 출력 해상도를 얻는 문제가 표시됩니다.
 
-이 문제는 [변환 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드에서 상대 수정자 3으로 인해 발생하여 출력이 8배 큽니다.
+이 문제는 [2D 변환](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드에서 상대 수정자 3으로 인해 발생하여 출력이 8배 큽니다.
 
 **![(틱)](../../assets/check.svg) 솔루션**
 

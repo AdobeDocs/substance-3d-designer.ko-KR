@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
 breadcrumb-title: ''
 description: Substance 3D Designer Python 스크립팅에서 별색을 사용하여 특수화된 색상 작업 과정을 만드는 방법을 살펴보세요.
 helpx_creative_field: ""
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 이 클래스를 사용하면 색상 책과 별색을 나열하고 특정 별색 또는 지정된 RGB 색상과 가장 가까운 별색을 찾을 수 있습니다.
 
-<b>OpenColorIO</b>를 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
+<b>OpenColorIO</b>을(를) 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
 
 >[!IMPORTANT]
 >
-> <b>OpenColorIO</b>를 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
+> <b>OpenColorIO</b>을(를) 사용할 때 Designer에서 별색을 *사용할 수 없음*&#x200B;합니다. 이 경우 app.getSpotColorLibrary()는 <b>없음</b>을 반환합니다.
 
 ```
 import sd 

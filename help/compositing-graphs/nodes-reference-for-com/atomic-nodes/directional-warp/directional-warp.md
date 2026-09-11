@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
-description: 방향성 뒤틀기 노드를 사용하여 흐름 및 동작 효과를 만들기 위한 텍스처에 방향 왜곡을 적용합니다.
+description: 방향 비틀기 노드를 사용하면 방향 왜곡을 텍스처 및 동작 효과에 적용할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
 helpx_experience_level: ""
@@ -80,7 +80,7 @@ ht-degree: 9%
 | --- | --- |
 | <b>강도</b> *부동* | 뒤틀기의 강도를 설정합니다. |
 | <b>뒤틀기 각도</b> *부동* | 뒤틀기 효과의 각도를 회전 수로 설정합니다. |
-| <b>입력 필터링 모드</b> *부울* | <b>입력</b>을 샘플링하는 데 가장 가까운 필터링을 사용할지 또는 쌍선형 필터링을 사용할지 여부를 제어합니다. |
+| <b>필터링 모드 입력</b> *부울* | <b>입력</b>을 샘플링하는 데 가장 가까운 필터링을 사용할지 또는 쌍선형 필터링을 사용할지 여부를 제어합니다. |
 | <b>강도 맵 오프셋</b> *부동* | <b>강도 입력</b> 이미지 값에서 이 값을 뺍니다. |
 
 ## 입력 커넥터
@@ -102,17 +102,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![방향 뒤틀기 - 예 1](directional-warp.resources/dir-warp.gif "방향 뒤틀기 - 예 1"){zoomable="yes"}
+![방향성 뒤틀기 - 예 1](directional-warp.resources/dir-warp.gif "방향성 뒤틀기 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향 뒤틀기 - 예 2](directional-warp.resources/dir-warp02.gif "방향 뒤틀기 - 예 2"){zoomable="yes"}
+![방향성 뒤틀기 - 예 2](directional-warp.resources/dir-warp02.gif "방향성 뒤틀기 - 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향 뒤틀기 - 예 3](directional-warp.resources/dir-warp03.gif "방향 뒤틀기 - 예 3"){zoomable="yes"}
+![방향성 뒤틀기 - 예 3](directional-warp.resources/dir-warp03.gif "방향성 뒤틀기 - 예 3"){zoomable="yes"}
 
 </td>
 </tr>

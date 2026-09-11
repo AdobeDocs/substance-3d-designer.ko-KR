@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
-description: 처음부터 끝까지 Substance 3D Designer에서 절차 자료를 만드는 필수 작업 과정에 대해 알아봅니다.
+description: 처음부터 끝까지 Substance 3D Designer에서 프로시저 재질을 만드는 필수 작업 과정에 대해 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""

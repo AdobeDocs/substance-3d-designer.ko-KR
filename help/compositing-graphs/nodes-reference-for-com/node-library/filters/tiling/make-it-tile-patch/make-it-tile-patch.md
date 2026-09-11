@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
 breadcrumb-title: ''
 description: Make It Tile Patch 노드를 사용하여 입력 이미지에서 매끄러운 타일링 텍스처를 패치하고 만들 수 있습니다.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 이 노드는 그리드 기반 세미 랜덤 타일러입니다. 입력 패치를 적용하고 스탬프를 찍어내 설정에 따라 너무 많은 반복 없이 타일링 이미지로 변환하려고 시도합니다.
 
-텍스처 패치가 작고 대규모 타일링 텍스처를 만들려는 경우에 유용합니다.
+텍스처 패치가 작아 더 큰 규모의 타일링 텍스처를 만들려는 경우에 유용합니다.
 
 이 사진은 주로 가장자리를 수정하는 [Make-It-Tile 사진](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)과는 다릅니다.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: 미리 만들어진 Substance 함수 그래프를 인스턴스 노드로 액세스하여 워크플로우 속도를 높이고 기능을 향상할 수 있습니다.
 helpx_creative_field: ""
@@ -362,9 +362,9 @@ RGB 색조 육각형
 
 RGB 밝기 평균
 
-RGB 밝기 bi-hexcone
+RGB 밝기 바이 헥스콘
 
-RGB 밝기 hexcone
+RGB 밝기 헥스콘
 
 RGB 밝기 루마 Rec.601
 
@@ -383,7 +383,7 @@ RGB에서 HCL로
 
 HSI로 RGB
 
-HSL로 RGB
+HSL에 RGB
 
 HSV로 RGB
 
@@ -393,7 +393,7 @@ sRGB를 선형으로 변경
 
 온도 - RGB
 
-ACES 토네마퍼
+ACE 토네마퍼
 
 애그스 토네마퍼(약 x)
 
@@ -465,15 +465,15 @@ vec2 회전(라디안)
 
 정규 분포
 
-무작위 균일 &lbrack;-1, 1&lbrack;
+무작위 균일 [-1, 1[
 
-무작위 균일 &lbrack;a, b&lbrack;
+무작위 균일 [a, b[
 
-무작위 균일 부동 소수점2 &lbrack;a, b&lbrack;
+무작위 균일 부동 소수점2 [a, b[
 
-무작위 균일 부동 소수점3 &lbrack;a, b&lbrack;
+무작위 균일 부동 소수점3 [a, b[
 
-무작위 균일 플로트4 &lbrack;a, b&lbrack;
+무작위 균일 플로트4 [a, b[
 
 </td>
 </tr>

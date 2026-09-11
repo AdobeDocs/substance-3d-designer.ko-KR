@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: 입력, 출력, 혼합 및 색상 조정을 포함한 기본 작업을 위해 Substance 3D Designer의 원자 노드에 액세스합니다.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: 혼합](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
+[![Atomic node: Blend](atomic-nodes.resources/comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 [혼합](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
@@ -58,7 +58,7 @@ ht-degree: 11%
 
 [![원자 노드: 방향 흐림 효과](atomic-nodes.resources/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[방향 흐림](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[방향 흐림](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -75,7 +75,7 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: 엠보스](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
+[![원자 노드: 엠보스](atomic-nodes.resources/comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 [엠보스](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
@@ -138,7 +138,7 @@ ht-degree: 11%
 
 [![원자 노드: 입력 회색 음영](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[회색 음영 입력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[회색 음영 입력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ ht-degree: 11%
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: 픽셀 프로세서](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+[![원자 노드: 픽셀 프로세서](atomic-nodes.resources/comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 
 [픽셀 프로세서](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
 

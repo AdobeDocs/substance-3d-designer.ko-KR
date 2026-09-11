@@ -148,7 +148,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float2</b>
+<b>부동2</b>
 
 부동2 노드는 (X, Y) 성분을 갖는 2-성분 벡터를 생성한다.
 
@@ -167,7 +167,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float3</b>
+<b>부동3</b>
 
 부동3 노드는 3-성분 (X, Y, Z) 벡터를 생성한다.
 
@@ -186,7 +186,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float4</b>
+<b>부동4</b>
 
 부동 4는 4-성분 (X, Y, Z, W) 벡터를 생성한다.
 

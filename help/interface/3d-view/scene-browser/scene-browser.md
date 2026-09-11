@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: '[장면 브라우저]를 사용하여 뷰포트에서 3D 장면 요소, 재질 및 개체를 탐색하고 관리합니다.'
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 개체를 선택하고 가시성을 전환하며 [장면 재정의](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)할 재질을 선택할 수 있는 컨트롤을 제공합니다.
 
-Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openusd.org/release/index.html)을(를) 사용하므로 해당 용어와 개념은 장면 트리에서 찾을 수 있습니다.
+Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openusd.org/release/index.html)을(를) 사용하므로 해당 용어와 개념이 장면 트리에서 찾을 수 있습니다.
 
 [3D 보기 장면 도구 모음](../../../interface/3d-view/3d-view.md)에서 전용 토글 버튼 ![](../../../assets/sceneBrowser-toggleButton.png)을(를) 클릭하여 표시합니다.
 
@@ -73,7 +73,7 @@ Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openu
 
 * <b>경로:</b> 장면에 있는 개체의 전체 경로입니다.
 * <b>TypeName:</b> 개체의 USD 형식입니다.
-* <b>설명서:</b> USD 장면 요소로 개체에 대한 자세한 정보입니다.
+* <b>설명서:</b> USD 장면 요소인 개체에 대한 자세한 정보입니다.
 
 메시에는 꼭지점 수, 얼굴 수 및 UV 수와 같은 추가 정보가 있습니다.
 

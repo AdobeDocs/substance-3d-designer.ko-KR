@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
 description: 텍스트 기반 패턴을 만들기 위해 텍스트 노드를 사용하여 사용자 정의 가능한 글꼴과 스타일로 텍스트 텍스처를 생성할 수 있습니다.
 helpx_creative_field: ""
@@ -85,10 +85,10 @@ Truetype(.ttf) 및 특정 Opentype 글꼴만 지원됩니다. 목록에서 누�
 | <b>글꼴</b> *문자열* | 텍스트를 렌더링하는 데 사용되는 글꼴 리소스입니다. |
 | <b>글꼴 크기</b> *부동* | 텍스트의 글꼴 크기(포인트 단위)입니다. |
 | <b>맞춤</b> *정수* | 텍스트 정렬을 왼쪽, 가운데(기본값) 또는 오른쪽으로 설정합니다. |
-| <b>변환</b> *Float4* | 렌더링된 텍스트에 적용된 2x2 변형 행렬입니다. |
-| <b>위치</b> *Float2* | 출력 이미지에서 텍스트의 위치입니다. |
-| <b>배경</b> *Float/Float4* | 출력 이미지의 배경색입니다. |
-| <b>글꼴 색상</b> *Float/Float4* | 텍스트의 색상입니다. |
+| <b>변환</b> *부동4* | 렌더링된 텍스트에 적용된 2x2 변형 행렬입니다. |
+| <b>위치</b> *부동2* | 출력 이미지에서 텍스트의 위치입니다. |
+| <b>배경</b> *부동/부동4* | 출력 이미지의 배경색입니다. |
+| <b>글꼴 색상</b> *부동/부동4* | 텍스트의 색상입니다. |
 
 ## 입력 커넥터
 

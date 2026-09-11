@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-2.html"
 breadcrumb-title: ''
-description: '[벽돌 2] 노드를 사용하면 사실적인 조적 텍스처를 만들기 위한 향상된 컨트롤을 사용하여 고급 벽돌 패턴을 생성할 수 있습니다.'
+description: 브릭 2 노드를 사용하면 사실적인 벽돌 텍스처를 만들기 위한 향상된 컨트롤을 통해 고급 브릭 패턴을 생성할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 2
 helpx_experience_level: ""
@@ -48,7 +48,7 @@ ht-degree: 10%
 | <b>타일링</b> <i>1 - 16</i> | 결과가 바둑판식으로 표시될 횟수를 설정합니다. |
 | <b>가장자리 매끄러움</b> <i>0.0 - 1.0</i> | 거친 가장자리와 매끄러운 가장자리 사이의 혼합. |
 | <b>간격 너비</b> <i>0.0 - 1.0</i> | 간격(간격 크기)을 설정합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 
 ## 예
 

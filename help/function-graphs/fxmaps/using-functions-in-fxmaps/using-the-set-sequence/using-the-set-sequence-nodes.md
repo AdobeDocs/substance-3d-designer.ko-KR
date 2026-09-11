@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
-description: FXMaps에서 SetSequence 노드를 사용하여 순차적 패턴 및 절차 변형을 만드는 방법을 알아봅니다.
+description: FXMaps에서 SetSequence 노드를 사용하여 순차적 패턴과 프로시저 변형을 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes
 helpx_experience_level: ""
@@ -105,7 +105,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-이 예제에서는 <b>시퀀스</b> 노드를 그래프의 출력으로 설정합니다. 따라서 함수의 출력은 <b>Float</b> 노드에서 출력하는 <b>0.5</b> 값입니다.
+이 예제에서는 <b>시퀀스</b> 노드를 그래프의 출력으로 설정합니다. 따라서 함수의 출력은 <b>부동</b> 노드에서 출력하는 <b>0.5</b> 값입니다.
 
 그러나 그 전에 `<b>myVariable</b>` 변수가 부동 소수점 값으로 <b>1.0</b>으로 설정됩니다. 그러면 이 변수는 노드의 컨텍스트에서 *다른 곳*&#x200B;에서 사용할 수 있습니다.
 

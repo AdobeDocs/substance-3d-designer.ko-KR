@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 상수 노드에 액세스하여 상수 값과 매개변수를 정의합니다.
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float2</b>
+<b>부동2</b>
 
 부동2 노드는 정적 2-성분 부동 벡터를 생성한다. 구성 요소의 이름은 X, Y입니다. 부동 2는 매우 일반적이며 [샘플링 좌표](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 및 [변환 오프셋](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)에 사용됩니다.
 
@@ -162,7 +162,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float3</b>
+<b>부동3</b>
 
 부동3 노드는 정적 3-성분 부동 벡터를 생성한다. 구성 요소의 이름은 X,Y,Z입니다. 부동 3은 일반적이지 않으며, 주로 [3D 배율 좌표](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)를 나타내는 데 사용되며, Alpha 데이터 없이 색상을 더 간단하게 저장할 수 있는 방법입니다.<b>\
 </b>
@@ -180,7 +180,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>Float4</b>
+<b>부동4</b>
 
 부동 4는 정적 4 구성 요소 부동 Vector.Components 이름은 X,Y,Z,W입니다. 부동 4는 [색상 정보를 저장하고 설정하는 기본 방법이므로 매우 일반적입니다. 여기서 XYZW 데이터는 RGBA 값을 나타냅니다.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>\
 </b>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-14-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 14.0의 릴리스 노트를 통해 새로운 노드, 그래프 탐색 및 성능 향상에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -45,7 +45,7 @@ ht-degree: 0%
 * [<b>곡률 매끄럽게</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): 이 새로운 버전은 이제 모든 타일링 모드를 올바르게 지원하고 두 개의 새로운 출력(볼록함 및 오목함)을 추가하며 정확도와 성능을 모두 향상합니다.
 * <b>[막대 그래프 균일화](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> 이 노드는 동일한 분포를 갖도록 값을 조정하여 회색 음영 이미지의 막대 그래프를 균일화합니다. 이 노드에는 이미지의 히스토그램을 출력하는 [히스토그램 렌더링](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)과 [히스토그램 계산](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b>이라는 두 개의 보조 노드가 있습니다. </b>히스토그램을 픽셀 행으로 인코딩합니다.
 * <b>[베벨 매끄럽게](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> 덕분에 마스크 테두리(바깥쪽, 안쪽 또는 둘 다)에서 그레이디언트나 플랫 색상을 그릴 수 있습니다. [방향 거리](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> 노드 </b>그래디언트도 특정 방향으로 그립니다.
-* <b>[표준 결합 해제](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> 이 노드는 [표준 결합](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) 노드의 반대이며, Height 맵에서 설명하는 표면 세부 정보를 표준 맵에서 제거합니다.
+* <b>[표준 결합 해제](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> 이 노드는 [표준 결합](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) 노드의 반대이며 높이 맵으로 설명하는 표면 세부 정보를 노멀 맵에서 제거합니다.
 
 <table>
 <tr style="border: 0;">
@@ -198,7 +198,7 @@ ht-degree: 0%
 * [Content] Substance 함수 그래프에서 &#39;Negate Float1&#39; 노드 사용 안 함
 * [Content] &quot;Quantize Color&quot;의 이름을 &quot;Quantize Color(Simple)&quot;로 바꿉니다
 * [2D 보기] 0-1 범위를 벗어나는 픽셀에 대한 값을 [정보] 패널에 표시합니다.
-* [Engine]&#x200B;[Text] 일부 글꼴에 대한 새로운 커닝
+* [Engine][Text] 일부 글꼴에 대한 새로운 커닝
 * [그래프] 인컨텍스트 에디션을 사용하는 동안 심층 하위 그래프 편집 시 무효화 시간을 개선합니다.
 * [링커] SBSASM에서 비트맵을 복제하지 않습니다.
 * [Parameters] 모든 입력 매개 변수 형식에 대해 새 &quot;function&quot; 위젯을 추가합니다.

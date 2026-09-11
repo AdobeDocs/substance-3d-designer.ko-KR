@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
-description: 클램프 노드를 사용하여 값 제한을 제어하기 위해 지정된 최소 및 최대 범위 내에서 텍스처 값을 클램프합니다.
+description: 지정된 최소 및 최대 범위 내에서 노드를 클램프하려면 클램프 값을 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## 설명
 
-입력 값을 정의된 한도로 클램프합니다.
+입력 값 정의
 
 </td>
 </tr>

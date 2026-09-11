@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 함수 노드에 액세스하여 사용자 정의 함수 그래프를 호출하고 실행합니다.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 함수 노드
 
-함수 노드는 입력 값을 자신이 나타내는 수학적 함수에 따라 변형한다.
+함수 변환은 그들이 나타내는 수학적 입력 값에 따른 함수이다.
 
 입력 커넥터는 일반적으로 유형이 지정되지 않았지만 모든 값 유형을 지원하지는 않습니다.
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 +++
 
 +++내림
-![플로어 노드 아이콘](../../../../assets/Floor_Node.jpg "플로어 노드 아이콘")
+![Floor 노드 아이콘](../../../../assets/Floor_Node.jpg "Floor 노드 아이콘")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 5%
 +++
 
 +++아크탄젠트 2
-![아크탄젠트 2 노드 아이콘](../../../../assets/ArcTangent2_Node.jpg "아크탄젠트 2 노드 아이콘")
+![아크 탄젠트 2 노드 아이콘](../../../../assets/ArcTangent2_Node.jpg "아크 탄젠트 2 노드 아이콘")
 
 
 
@@ -183,7 +183,7 @@ ht-degree: 5%
 
 극좌표를 직교좌표로 변환합니다.
 
-<b>Arc tangent 2 </b>함수의 역수입니다. <b>길이 \* 부동2(cos(각도), sin(각도).</b>
+<b>Arc tangent 2 </b>함수의 역수입니다. <b>Length \* Float2(cos(Angle), sin(Angle).</b>
 
 극좌표는 원점으로부터의 거리와 수평으로부터의 라디안 각도입니다.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: 베벨 매끄럽게 노드를 사용하여 모양과 패턴에 사실적인 표면을 만들기 위해 경사진 가장자리를 매끄럽게 만듭니다.
 helpx_creative_field: ""
@@ -78,7 +78,7 @@ ht-degree: 0%
 | <b>마스크 Smoothness</b> *부동* | 마스크에 적용된 매끄러움 강도입니다.   값은 흐림 효과의 반경이며, 1단위는 이미지의 1/256입니다. |
 | <b>마스크 오프셋</b> *부동* | 마스크 테두리를 안쪽 또는 바깥쪽으로 이동합니다. |
 | <b>마스크 임계값</b> *부동* | &#39;마스크 입력&#39; 이미지에서 마스크 테두리를 감지하는 데 사용되는 값입니다.   이 임계값 이상의 값은 마스크 모양의 *내부*&#x200B;이고, 아래의 값은 *외부*&#x200B;입니다. |
-| <b>크기 조절</b> *Float2* | 확장의 가로(X) 및 세로(Y) 거리를 조정합니다.   이러한 값은 &#39;최대 거리&#39; 매개 변수 값에 대한 승수입니다. |
+| <b>크기 조절</b> *부동2* | 확장의 가로(X) 및 세로(Y) 거리를 조정합니다.   이러한 값은 &#39;최대 거리&#39; 매개 변수 값에 대한 승수입니다. |
 | <b>거리 맵 승수</b> *정수* | &#39;최대 거리&#39;에 대한 &#39;거리 맵&#39;의 영향을 조정합니다. |
 
 ## 예

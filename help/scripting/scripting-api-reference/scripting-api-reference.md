@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: 플러그인 개발을 위해 전체 Substance 3D Designer Python 스크립팅 API 참조에 액세스합니다.
 helpx_creative_field: ""
@@ -136,7 +136,7 @@ UI 관리자를 사용하면 <b>메뉴</b>, <b>도킹</b>과 같은 Substance De
 
 * <b>핀</b>(*SDGraphObjectPin*)
 * <b>댓글</b>(*SDGraphObjectComment*)
-* <b>프레임</b> (*SDGraphObjectFrame*)
+* <b>프레임</b>(*SDGraphObjectFrame*)
 
 <b>생성</b> 방법에 대한 자세한 내용은 이러한 개체의 정적 메서드 &#39;*sNew()*&#39;을(를) 참조하십시오.
 
@@ -147,14 +147,14 @@ UI 관리자를 사용하면 <b>메뉴</b>, <b>도킹</b>과 같은 Substance De
 특정 <b>범주</b>에 속합니다(*SDPropertyCategory*).
 
 * <b>입력</b>: 개체의 입력 속성을 분류합니다. 일반적으로 <b>은(는) 현재 개체에서 수행하는 작업</b>에 영향을 줍니다.
-  * 예: Substance 그래프에서 Uniform Color 노드의 &#39;*color*&#39; 속성은 입력 속성입니다.
+  * 예: Substance 그래프에서 균일 색상 노드의 &#39;*color*&#39; 속성은 입력 속성입니다.
 * <b>출력</b>: 개체의 출력 속성을 분류합니다. 개체의 <b>결과</b>를 식별하는 데 사용됩니다.
 * <b>주석</b>: 개체에서 수행하는 <b>*작업에 영향을 주지* 않는</b> 속성을 분류합니다.
   * 예: 그래프의 &#39;*label*&#39;은(는) 그래프 계산에 영향을 주지 않으므로 주석 속성입니다.
 
 다음 <b>구성원</b>이 포함되어 있습니다.
 
-* <b>ID</b>: 해당 범주의 컨텍스트에 있는 속성의 식별자입니다.
+* <b>ID</b>: 이 범주의 컨텍스트에 있는 속성의 식별자;
 * <b>형식</b>: 현재 속성에서 지원하는 형식입니다. 일부 속성은 *여러* 형식(&#39;*int*&#39;, &#39;*float*&#39; 등)을 지원할 수 있습니다.
   * 예: &#39;*sbs::function::add*&#39; 노드의 입력 속성은 다른 형식을 지원할 수 있습니다. &#39;*int&#39;*, &#39;*int2&#39;*, &#39;*int3&#39;*, &#39;*int4&#39;*, &#39;*float&#39;*, &#39;*float2&#39;*, &#39;*float3&#39;*, &#39;*float4&#39; 등;*
 * <b>범주</b>: 속성이 속한 범주(입력, 출력, 주석);
@@ -180,7 +180,7 @@ UI 관리자를 사용하면 <b>메뉴</b>, <b>도킹</b>과 같은 Substance De
 
 형식(*SDType*)에는 다음과 같은 값 <b>type</b>의 정보가 포함됩니다.
 
-* <b>ID</b>: 형식의 식별자입니다.
+* <b>ID</b>: 형식의 식별자;
 * <b>한정자</b>: &#39;*SDTypeModifier&#39;* <b>열거형</b> 값 중 하나일 수 있는 형식 한정자:
   * *자동*;
   * *균일*: 값이 작업당 *한 번* 평가됩니다.
@@ -230,7 +230,7 @@ UI 관리자를 사용하면 <b>메뉴</b>, <b>도킹</b>과 같은 Substance De
 
 여기에는 다음이 포함됩니다.
 
-* 모듈 관리자(*SDModuleMgr*)의 컨텍스트에서 고유한 <b>식별자</b>(*ID*);
+* 모듈 관리자(*SDModuleMgr*)의 컨텍스트에서 고유한 <b>식별자</b>(*Id*);
 * <b>정의</b> 목록(*정의*);
 * <b>형식</b>(*SDType*)의 목록입니다.
 
@@ -240,7 +240,7 @@ UI 관리자를 사용하면 <b>메뉴</b>, <b>도킹</b>과 같은 Substance De
 
 여기에는 다음이 포함됩니다.
 
-* <b>ID</b>: 정의 식별자,
+* <b>ID</b>: 정의의 식별자;
 * <b>레이블</b>: 정의의 레이블;
 * <b>설명</b>: 정의에 대한 설명입니다.
 * <b>속성</b>: 사용 가능한 모든 속성 *범주*(*SDPropertyCategory*)의 속성입니다.

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에서 텍스처 기반의 재질 제작을 위해 비트맵 리소스를 가져오고 만들고 사용하는 방법을 알아봅니다.
+description: 텍스처 기반의 재질 제작을 위해 Substance 3D Designer에서 비트맵 리소스를 가져오고 만들고 사용하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Resources > Bitmap resource
 helpx_experience_level: ""
@@ -25,7 +25,7 @@ ht-degree: 2%
 비트맵은 Substance 3D Designer에서 가장 일반적인 그래프가 아닌 리소스 중 일부이며 일반적으로 다음 범주 중 하나에 사용됩니다.
 
 * [Designer에서 내부적으로 구워졌거나](../../bakers/bakers.md) 외부에서 다른 응용 프로그램에서 구워낸 베이킹된 맵.
-* 패턴, 그런지 맵 또는 데칼과 같은 보조 텍스처입니다.
+* 패턴, 그런지 맵 또는 데칼과 같은 보조 텍스처.
 * [비트맵 노드](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)를 사용하여 내부적으로 만들거나 외부 앱과 함께 만드는 혼합을 위한 간단한 회색 음영 마스크입니다.
 
 ## 비트맵 스토리지
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ### Substance 3D 파일(SBS)
 
-비트맵이 SBS에 저장되는 방법은 [연결할지 또는 가져오는지에 따라 다릅니다. 먼저 개념을 알고 있어야 합니다.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) 가져온 비트맵은 [비트맵 페인팅 도구](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)를 사용하여 편집할 수 있습니다.
+비트맵이 SBS에 저장되는 방법은 [연결할지 또는 가져오는지에 따라 다릅니다. 먼저 개념을 숙지해야 합니다.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) 가져온 비트맵은 [비트맵 페인팅 도구](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)를 사용하여 편집할 수 있습니다.
 
 SVG(벡터 그래픽) 리소스와 달리 비트맵은 새 리소스로 만들어지거나 가져오는 경우에도 항상 외부에 저장됩니다. 새 Substance 패키지의 경우 .SBS 파일이 디스크에 저장될 때까지 메모리에 저장됩니다. 디스크에 저장되면 비트맵은 SBS 파일 옆의 */resources* 폴더에 저장됩니다.
 
@@ -46,7 +46,7 @@ SVG(벡터 그래픽) 리소스와 달리 비트맵은 새 리소스로 만들�
 
 Substance 3D Designer에서는 비트맵의 데이터를 손쉽게 편집하고 다시 정렬할 수 있지만, 다음 사항에 유의하는 것이 좋습니다.
 
-* 해상도를 2의 강력으로 설정하십시오. 즉, <b>256, 512, 1024, 2048,</b> 등과 같은 표준 실시간 텍스처 크기를 따르십시오. Designer은 이 범위를 벗어나는 텍스처의 크기를 가장 가까운 일치 해상도로 다시 조정합니다. 정사각형 비율일 필요는 없습니다.
+* 해결 방법을 2단계 호환성으로 설정하면 <b>256, 512, 1024, 2048,</b> 등과 같은 표준 실시간 텍스처 크기를 따릅니다. Designer은 이 범위를 벗어나는 텍스처를 가장 근접한 일치 해상도로 다시 조정합니다. 정사각형 비율일 필요는 없습니다.
 * 지원되는 파일 유형은 다양하지만 용도에 가장 적합한 파일 유형을 선택하십시오. PNG 또는 TGA와 같은 <b>손실 없는 압축 또는 압축되지 않은 파일 유형</b>은(는) JPG 또는 DDS보다 더 좋은 품질을 제공합니다.
 * 색상, 회색 음영 또는 알파 채널이 필요한지 여부에 따라 <b>색상 모드를 올바르게 설정</b>해야 합니다.
 

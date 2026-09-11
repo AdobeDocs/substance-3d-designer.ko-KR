@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프에서 노드 가져오기 를 액세스하여 변수 값과 데이터를 검색합니다.
 helpx_creative_field: ""
@@ -81,7 +81,7 @@ Get 노드를 사용할 때마다 드롭다운 메뉴에서 사용 가능한 값
 >
 > 기본 제공 변수
 > 
-> 여러 &#39;Get&#39; 노드는 현재 컨텍스트에 따라 기존 값에 액세스할 수 있는 내장 변수를 제공합니다(예: 픽셀 프로세서의 현재 픽셀 위치, 노드의 현재 타일링 모드 등).
+> 여러 &#39;Get&#39; 노드는 현재 컨텍스트에 따라 기존 값에 액세스할 수 있는 내장 변수를 제공합니다(예: 노드의 현재 픽셀 위치, 픽셀 프로세서의 현재 타일링 모드 등).
 > 
 > 모든 기본 제공 변수는 [이 전용 페이지](../../../../function-graphs/variables/system-variables/system-variables.md)에 나열됩니다.
 

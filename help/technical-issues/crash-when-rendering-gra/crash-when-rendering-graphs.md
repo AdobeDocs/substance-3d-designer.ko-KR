@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에서 그래프를 렌더링할 때 발생하는 충돌 문제를 해결하고 이를 방지하기 위한 솔루션을 찾습니다.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## TDR(Windows만 해당)
 
-<b>[![(오류)](../../assets/error.svg)](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) 문제</b>
+<b>[![(오류)](../../assets/error.svg)](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) 문제</b>
 
 시스템의 <b>시간 제한 감지 및 복구(TDR)</b> 타이머가 *너무 짧아서* 그래픽 드라이버가 *다시 시작*&#x200B;되기 전에 Substance 3D Designer에서 현재 계산을 마칠 수 없습니다.
 
@@ -33,4 +33,4 @@ Substance 3D Designer에서 수행하는 계산은 매우 복잡할 수 있으�
 
 <b>![(틱)](../../assets/check.svg) 권장 단계</b>
 
-이러한 충돌을 방지하려면 TDR 타이머 값을 *증가*&#x200B;해야 합니다. Substance 3D Designer에도 적용되는 Substance 3D Painter 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)에 있는 지침을 따르면 이 작업을 수행할 수 있습니다.
+이러한 충돌을 방지하려면 TDR 타이머 값을 *증가*&#x200B;해야 합니다. Substance 3D Designer에도 적용되는 Substance 3D Painter 설명서의 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)에 있는 지침을 따르면 이 작업을 수행할 수 있습니다.

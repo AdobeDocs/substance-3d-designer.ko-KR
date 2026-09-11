@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
 breadcrumb-title: ''
 description: Clouds 3 노드를 사용하여 대기 및 부피 텍스처 효과를 만들기 위한 고급 클라우드 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![구름 3 - 아이콘](clouds-3.resources/clouds_3.png "구름 3 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

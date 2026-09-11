@@ -1,6 +1,6 @@
 ---
 title: 뒤집기
-description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 라이브러리 > SDF 함수 > 변형 > 뒤집기
+description: Designer > Substance 합성 그래프 > Substance 합성 그래프의 노드 참조 > 노드 합성 그래프 > SDF 함수 > 노드 라이브러리 > 뒤집기
 source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
 workflow-type: tm+mt
 source-wordcount: '119'
@@ -17,14 +17,14 @@ ht-degree: 3%
 
 ![아이콘 뒤집기](./3d-sdf-transform-flip.png "뒤집기")
 
-<b>내부:</b> SDF 함수 > 변형
+<b>SDF 함수:</b> 변환 >
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 설명
 
-입력 SDF 모양에 거울 변환을 적용합니다.<br>기본적으로 선택한 축에서 음수 배율을 수행합니다.
+입력 SDF 모양에 미러 변환을 적용합니다.<br>기본적으로 선택한 축에서 음수 배율을 수행합니다.
 
 </td>
 </tr>

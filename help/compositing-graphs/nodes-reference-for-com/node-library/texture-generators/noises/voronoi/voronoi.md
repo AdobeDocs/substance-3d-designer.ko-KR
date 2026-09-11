@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi.html"
 breadcrumb-title: ''
 description: 보로노이 노드를 사용하여 세포 텍스처 및 유기 물질 효과를 만들기 위한 보로노이 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ ht-degree: 0%
 | <b>Edge Thickness</b> <i>부동</i> | 보로노이 노이즈의 셀 사이에서 검출되는 가장자리의 Thickness을 조정합니다. 가장자리가 X, Y 및 Z축에서 검색되므로 일부 두께는 셀의 *깊이*&#x200B;에 따라 다른 것보다 빠르게 증가할 수 있습니다.<br><br>*참고*: 이 매개 변수는 **Style** 매개 변수가 *Edge*(으)로 설정된 경우에만 사용할 수 있습니다. |
 | <b>임의 색상 시드 모드</b> <i>정수</i> | 셀당 색상 선택에 대한 *임의 시드 획득*&#x200B;의 방법 설정:<br><br>- *전역 임의 시드*: 노드에서 *상속* 시드 사용<br>- *수동 시드*: *이산* 시드 사용&#x200B;<br><br>*참고*: 이 매개 변수는 **스타일** 매개 변수가 *임의 색상*(으)로 설정된 경우에만 사용할 수 있습니다. |
 | <b>임의 색상 시드</b> <i>정수</i> | 셀당 색상 선택에 사용해야 하는 이산 임의 시드.<br><br>*참고*: 이 매개 변수는 **Style** 매개 변수가 *임의 색상*(으)로 설정되고 **임의 색상 시드 모드** 매개 변수가 ***수동 시드***(으)로 설정된 경우에만 사용할 수 있습니다. |
-| <b>비정사각형 확장</b> <i>부울</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>부울</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 
 ## 예
 

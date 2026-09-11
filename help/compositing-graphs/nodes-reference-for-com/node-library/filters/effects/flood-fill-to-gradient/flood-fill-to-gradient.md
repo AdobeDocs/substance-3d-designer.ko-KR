@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
 breadcrumb-title: ''
 description: '[그레이디언트 Flood Fill] 노드를 사용하여 부드러운 색상 전환을 만들기 위해 그레이디언트 값으로 영역을 채웁니다.'
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 설명
 
-[임의 그레이디언트(임의 그레이디언트)로 &#x200B;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)Flood Fill 타일이 임의로 기울어진 높이 맵을 만드는 데 매우 유용합니다.
+[임의 그레이디언트(임의 그레이디언트)로 ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)Flood Fill 타일이 임의로 기울어진 높이 맵을 만드는 데 매우 유용합니다.
 
 </td>
 </tr>

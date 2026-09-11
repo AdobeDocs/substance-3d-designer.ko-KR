@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 워크플로우의 일반적인 도구와 명령에 액세스할 수 있는 Substance 3D Designer의 기본 도구 모음에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 빠른 액세스 버튼
 
-![](../../assets/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N) [새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
+![](../../assets/newsubstance.png) <b>새 Substance 그래프...:</b>(Ctrl+N)[새 그래프](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 창을 표시한 다음 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 사용하여 새 패키지를 만듭니다.
 
 ![](../../assets/open.png) <b>열기...:</b>(Ctrl+O) 기존 [Substance 패키지(.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md)를 엽니다.
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 <b>새로운 기능...:</b> Designer 최신 릴리스에 추가된 기능을 강조하는 화면을 표시합니다.
 
-<b>시작 화면...\*:</b> [Substance 3D 에코시스템](https://helpx.adobe.com/kr/substance-3d.html)에서 Designer의 목적과 위치를 통해 새로운 사용자를 안내하는 화면을 표시합니다.
+<b>시작 화면...\*:</b> [Substance 3D 에코시스템](https://helpx.adobe.com/substance-3d.html)에서 Designer의 목적과 위치를 통해 새로운 사용자를 안내하는 화면을 표시합니다.
 
 <b>파트너:</b> Designer의 파트너가 제공하는 타사 통합 고지 사항 및 고지 사항에 액세스할 수 있습니다.
 

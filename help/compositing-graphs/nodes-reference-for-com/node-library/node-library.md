@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에서 전체 노드 라이브러리에 액세스하여 절차 자료, 텍스처 및 효과를 생성합니다.
+description: Substance 3D Designer의 전체 노드 라이브러리에 액세스하여 프로시저 재질, 텍스처 및 효과를 제작합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library
 helpx_experience_level: ""
@@ -249,7 +249,7 @@ Designer의 라이브러리 패널에 현재 문서화되어 있는 것보다 �
 * [확산 회색 음영](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-grayscale/diffusion-grayscale.md)
 * [확산 UV](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/diffusion-uv/diffusion-uv.md)
 * [가장자리 감지](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)
-* [광택이 있는 엠보스](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)
+* [광택 있는 엠보스](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md)
 * [Extend Shape](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/extend-shape/extend-shape.md)
 * [Flood Fill](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)
 * [Flood Fill 매퍼](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-mapper/flood-fill-mapper.md)
@@ -290,7 +290,7 @@ Designer의 라이브러리 패널에 현재 문서화되어 있는 것보다 �
 * [보통 소벨](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
 * [Height에 표준](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
 * [Height HQ에 수직](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
-* [표준 변형](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
+* [Normal](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
 * [표준 벡터 회전](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)
 * [노멀 구부리기](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/bent-normal/bent-normal.md)
 
@@ -333,7 +333,7 @@ Designer의 라이브러리 패널에 현재 문서화되어 있는 것보다 �
 * [Snow 표지](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)
 * [수위](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)
 
-### 변형(재질)
+### 자료
 
 * [재질 변형](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/transforms-material/material-transform/material-transform.md)
 
@@ -418,7 +418,7 @@ Designer의 라이브러리 패널에 현재 문서화되어 있는 것보다 �
 * [재질 메쉬 데이터 블렌더](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)
 * [재질 선택기](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-selector/material-selector.md)
 * [메쉬 데이터 결합기](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/mesh-data-combiner/mesh-data-combiner.md)
-* [삼중 평면](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
+* [평면 3회](../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
 
 ## 3D 보기(라이브러리)
 

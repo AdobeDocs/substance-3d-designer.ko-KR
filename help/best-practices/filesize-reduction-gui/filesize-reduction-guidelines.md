@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: 성능 및 스토리지 요구 사항을 최적화하기 위해 Substance 그래프 파일 크기를 줄이기 위한 지침을 알아봅니다.
 helpx_creative_field: ""
@@ -98,7 +98,7 @@ SBSAR에 게시할 때 압축을 위해 &quot;자동&quot;, &quot;최고&quot; �
 >
 > **Jpeg 비트맵 형식**
 > 
-> [표준] 맵, [벡터 맵] 등과 같이 높은 정확도가 필요한 특수 맵은 표시 가능한 가공물이 많아지므로 Jpeg 압축으로 설정하면 안 됩니다.
+> 노멀 맵, 벡터 맵 등과 같이 높은 정확도가 필요한 특수 맵은 표시 가능한 가공물이 많아지므로 Jpeg 압축으로 설정하면 안 됩니다.
 
 | 소스 이미지 | 색상 TGA | 색상 JPG | 회색 음영 TGA | 회색 음영 JPG |
 | --- | --- | --- | --- | --- |

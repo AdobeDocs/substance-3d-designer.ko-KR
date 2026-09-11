@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
 description: 다양한 알고리즘을 사용하여 특정 범위 내에서 임의의 값을 생성하려면 임의 함수 노드를 사용합니다.
 helpx_creative_field: ""
@@ -32,15 +32,15 @@ ht-degree: 2%
 
 임의 이산 [a, b]
 
-무작위 균일 &lbrack;-1, 1&lbrack;
+무작위 균일 [-1, 1[
 
-무작위 균일 &lbrack;a, b&lbrack;
+무작위 균일 [a, b[
 
-무작위 균일 부동 소수점2 &lbrack;a, b&lbrack;
+무작위 균일 부동 소수점2 [a, b[
 
-무작위 균일 부동 소수점3 &lbrack;a, b&lbrack;
+무작위 균일 부동 소수점3 [a, b[
 
-무작위 균일 플로트4 &lbrack;a, b&lbrack;
+무작위 균일 플로트4 [a, b[
 
 </td>
 <td style="border: 0;" valign="top">

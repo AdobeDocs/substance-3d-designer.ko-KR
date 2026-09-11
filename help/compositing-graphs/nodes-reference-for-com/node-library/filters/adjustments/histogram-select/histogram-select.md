@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
 breadcrumb-title: ''
-description: '[막대 그래프 선택] 노드를 사용하여 대상 조정을 위한 텍스처 막대 그래프에서 특정 범위를 선택하고 추출할 수 있습니다.'
+description: 막대 그래프 선택 노드를 사용하여 텍스처 막대 그래프에서 특정 범위를 선택하고 추출하여 지정된 조정을 수행합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select
 helpx_experience_level: ""

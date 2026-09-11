@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
 breadcrumb-title: ''
 description: 함수 그래프에서 색상 변환 및 톤 매핑 작업을 수행하려면 색상 함수 노드를 사용합니다.
 helpx_creative_field: ""
@@ -63,9 +63,9 @@ RGB 색조 육각형
 
 RGB 밝기 평균
 
-RGB 밝기 bi-hexcone
+RGB 밝기 바이 헥스콘
 
-RGB 밝기 hexcone
+RGB 밝기 헥스콘
 
 RGB 밝기 루마 Rec. 601
 
@@ -84,7 +84,7 @@ RGB에서 HCL로
 
 HSI로 RGB
 
-HSL로 RGB
+HSL에 RGB
 
 HSV로 RGB
 
@@ -94,7 +94,7 @@ sRGB를 선형으로 변경
 
 색온도를 sRGB로
 
-ACES 토네마퍼
+ACE 토네마퍼
 
 AgX 토네마퍼
 

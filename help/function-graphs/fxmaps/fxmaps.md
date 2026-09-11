@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
 breadcrumb-title: ''
-description: Substance 3D Designer에서 FXMaps를 사용하여 절차 패턴 생성을 위해 텍스처에 함수 그래프를 적용하는 방법을 알아봅니다.
+description: Substance 3D Designer에서 FXMaps를 사용하여 프로시저 패턴 생성을 위해 텍스처에 함수 그래프를 적용하는 방법을 살펴보세요.
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > FXMaps
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # FXMaps
 
-**FX-Map 노드를 통해 절차 이미지를 만들 수 있습니다**. Substance 기술의 가장 강력한 기능 중 하나입니다.
+**FX-Map 노드를 통해 프로시저 이미지를 만들 수 있습니다**. Substance 기술의 가장 강력한 기능 중 하나입니다.
 
 FX-Map은 마코프 체인(Markov Chain)이라고 하는 특별한 유형의 그래프를 나타낸다. 마코프 체인은 이미지를 반복해서 복제하고 세분화하는 간단한 핵심 프로세스를 나타냅니다. 각 단계에서 이미지를 원하는 대로 회전, 변환 및 혼합할 수 있습니다. 그 결과는 단순한 패턴에서 복잡한 소음까지 무엇이든 될 수 있다. FX-Maps는 Substance 3D Designer과 함께 설치된 많은 샘플 Substance의 기반이 됩니다.
 
@@ -30,7 +30,7 @@ FX-Map 그래프를 보려면 [Substance 그래프](../../compositing-graphs/sub
 
 ## FX-Maps란 무엇입니까?
 
-FX-Maps의 가장 일반적인 사용은 줄무늬와 벽돌과 같은 반복적인 패턴과 펄린, 브라운, 가우시안 노이즈와 같은 노이즈입니다. 노이즈는 특히 Dirt, Dust, 콘크리트, 석조 표면, 액체 뿌리기 등과 같은 유기적이고 자연스러운 텍스처를 만드는 데 유용합니다.
+FX-Maps의 가장 일반적인 사용은 줄무늬와 벽돌과 같은 반복적인 패턴과 펄린, 브라운, 가우시안 노이즈와 같은 노이즈입니다. 소음은 Dirt, Dust, 콘크리트, 돌 표면, 액체 뿌리기 등과 같은 유기적이고 자연스러운 텍스처를 만드는 데 특히 유용합니다.
 
 FX-맵 그래프는 Substance 그래프와 같은 방식으로 작동하지 않습니다. Substance 그래프에서 각 노드는 독립적이며 전체 그래프에서 해당 위치를 알 수 없으며 이미지 데이터의 출처와 위치를 알 수 없습니다.
 
@@ -48,9 +48,9 @@ FX-맵 그래프는 Substance 그래프와 같은 방식으로 작동하지 않�
 
 ### 반복하기
 
-설정된 반복 횟수만큼 왼쪽 커넥터로 전달된 이미지 위에 오른쪽 커넥터로 전달된 이미지를 반복합니다.
+설정된 반복 수만큼 왼쪽 커넥터로 전달된 이미지 위에 오른쪽 커넥터로 전달된 이미지를 반복합니다.
 
-이 노드는 각 반복에서 입력 이미지를 어떤 방식으로 이동 또는 회전하기 위해 하나 이상의 동적 함수 그래프와 함께 가장 자주 사용됩니다.
+이 반복은 하나 이상의 동적 함수 그래프와 함께 각 노드에서 입력 이미지를 어떤 방식으로든 이동하거나 회전하는 데 가장 많이 사용됩니다.
 
 ### 전환
 

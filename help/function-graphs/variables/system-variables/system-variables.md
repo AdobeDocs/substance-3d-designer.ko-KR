@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 고급 워크플로우를 위해 Substance 3D Designer 함수 그래프에서 사용할 수 있는 내장 시스템 변수에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ ht-degree: 3%
 | --- | --- | --- |
 | $size | 실수2 | 현재 노드의 크기를 픽셀 단위로 반환합니다.   *Relative to...* [상속 메서드](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 설정된 [출력 크기](../../../compositing-graphs/output-size/output-size.md) 매개 변수에 사용되는 경우 *상속된 값*&#x200B;을 반환합니다. |
 | $sizelog2 | 실수2 | 위와 같이, 그러나 크기가 2의 제곱 값으로 반환됩니다(예: 2048\*2048 이미지의 경우 `$sizelog2`이(가) 11을 반환합니다).   *Relative to...* [상속 메서드](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 설정된 [출력 크기](../../../compositing-graphs/output-size/output-size.md) 매개 변수에 사용되는 경우 *상속된 값*&#x200B;을 반환합니다. |
-| $pixelratio | 정수 | 현재 노드 픽셀 비율에 해당하는 정수 값을 반환합니다(상속되거나 절대적인 값). 0: 스트레치 1: 정사각형 |
+| $pixelratio | 정수 | 현재 노드 픽셀 비율(상속된 값 또는 절대 값)에 해당하는 정수 값을 반환합니다. 0: 늘리다 1: 정사각형 |
 | $tiling | 정수 | 현재 노드 타일링 모드(상속 또는 절대)에 해당하는 정수 값을 반환합니다. 0: 타일링 없음 1: 수평 타일링 2: 수직 타일링 3: H 및 V 타일링 |
 | $physicalsize | 실수3 | [그래프의](../../../compositing-graphs/graph-parameters/graph-parameters.md) <b>물리적 크기</b> 속성 값을 반환합니다. |
 | $uvtile | 정수2 | UDIM 워크플로우를 사용할 때 이 변수는 U와 V의 현재 udim 인덱스를 반환합니다.   예를 들어, 타일(1003)의 경우 (2, 0), 타일(1118)의 경우 (7, 11)... |
@@ -62,5 +62,5 @@ ht-degree: 3%
 
 | 이름 | 유형 | 용도 |
 | --- | --- | --- |
-| $time | 부동 | 이 변수는 Substance 엔진 시작 이후 시간을 초 단위로 반환합니다. 이것은 경과시간에 따라 결과가 변해야 하는 그래프에 사용될 수 있다.  **참고:** 현재 Designer에서 이 값을 변경할 수 있는 방법은 없지만, Substance 엔진을 통합하는 애플리케이션은 이를 활용할 수 있습니다(예: 애니메이션의 경우 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html), [역동적인 획](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)의 경우 [Substance 3D Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home)). |
+| $time | 부동 | 이 변수는 Substance 엔진 시작 이후 시간을 초 단위로 반환합니다. 이것은 경과시간에 따라 결과가 변해야 하는 그래프에 사용될 수 있다.  **참고:** 현재 Designer에서 이 값을 변경할 수 있는 방법은 없지만, Substance 엔진을 통합하는 애플리케이션은 이를 활용할 수 있습니다(예: 애니메이션의 경우 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html), [역동적인 획](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)의 경우 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)). |
 | $normalformat | 정수 | 현재 환경에서 사용되는 일반 형식(예: DirectX 또는 OpenGL)입니다.  **참고:** 이 변수는 Designer에서 영향을 주지 않으며 Substance 엔진을 통합하는 다른 응용 프로그램에서 사용될 수 있습니다. |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 환경 설정에서 버전 제어 설정을 구성하여 Git 및 기타 시스템과 통합합니다.
 helpx_creative_field: ""
@@ -109,7 +109,7 @@ Designer에서 ![P4 설정: 인터프리터](../../../assets/p4v-project-setting
 
 1. 새 패키지 만들기
 1. 패키지를 &#39;작업 영역 경로&#39; 디렉터리에 저장
-1. 패키지에서 RMB 클릭: 이제 &#39;버전 컨트롤&#39; 하위 메뉴에 액세스할 수 있습니다.
+1. 패키지의 RMB를 클릭합니다. 이제 &#39;버전 제어&#39; 하위 메뉴에 액세스할 수 있습니다.
 1. 작업 영역에 있는 패키지 파일의 상태에 따라 다음과 같은 몇 가지 작업을 수행할 수 있습니다.
 
    * <b>추가:</b> 파일을 &#39;ToAdd&#39;로 표시
@@ -138,7 +138,7 @@ Designer에서 ![P4 설정: 인터프리터](../../../assets/p4v-project-setting
 >
 > 모든 동작이 다중 선택을 지원합니다.
 > 
-> 읽기 전용 파일 권한을 사용하여 수정을 제한하는 P4 및 기타 버전 컨트롤 도구의 경우, 사용자는 패키지를 수정하기 전에 먼저 체크아웃해야 합니다.
+> 읽기 전용 파일 권한을 사용하여 수정 사항을 제한하는 P4 및 기타 버전 제어 도구의 경우 사용자는 패키지를 수정하기 전에 먼저 체크아웃해야 합니다.
 > 
 > 읽기 전용 패키지 파일은 SD에서 수정할 수 없습니다.
 
