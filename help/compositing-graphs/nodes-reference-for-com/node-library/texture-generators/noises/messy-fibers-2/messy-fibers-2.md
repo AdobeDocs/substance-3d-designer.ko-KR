@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
 breadcrumb-title: ''
 description: 지저분한 섬유 2 노드를 사용하여 직조 및 텍스타일 텍스처를 만들기 위한 중간 섬유 패턴을 생성합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 지저분한 섬유 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![너저분한 섬유 2 - 아이콘](../../../../../../assets/messy_fibers_2.png "너저분한 섬유 2 - 아이콘"){width="200px"}
+![너저분한 섬유 2 - 아이콘](messy-fibers-2.resources/messy_fibers_2.png "너저분한 섬유 2 - 아이콘"){width="200px"}
 
 <b>내부:</b> 텍스처 생성기 > 노이즈
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 | <b>각도</b> <i>부동</i> | 스레드의 방향을 설정할 때 사용되는 각도로, 회전 수와 수평 오른쪽부터 설정합니다. |
 | <b>각도 무작위</b> <i>부동</i> | <b>각도</b> 값에 적용되는 최대 무작위 변형 양(회전 수)입니다. |
 | <b>줄 번호</b> <i>부동</i> | 기본 스레드에 적용되는 타일링의 양이며 이 값이 높을수록 스레드가 더 조밀하고 얇아집니다. |
-| <b>타일 오프셋</b> <i>부동2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
+| <b>타일 오프셋</b> <i>Float2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
 | <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 1](../../../../../../assets/messy_fibers_2_1.png "지저분한 섬유 2 - 예 1"){zoomable="yes"}
+![지저분한 섬유 2 - 예 1](messy-fibers-2.resources/messy_fibers_2_1.png "지저분한 섬유 2 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 2](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "지저분한 섬유 2 - 예 2"){zoomable="yes"}
+![지저분한 섬유 2 - 예 2](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "지저분한 섬유 2 - 예 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 3](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "지저분한 섬유 2 - 예 3"){zoomable="yes"}
+![지저분한 섬유 2 - 예 3](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "지저분한 섬유 2 - 예 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![지저분한 섬유 2 - 예 4](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "지저분한 섬유 2 - 예 4"){zoomable="yes"}
+![지저분한 섬유 2 - 예 4](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "지저분한 섬유 2 - 예 4"){zoomable="yes"}
 
 </td>
 </tr>
