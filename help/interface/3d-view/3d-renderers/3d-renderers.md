@@ -73,7 +73,7 @@ USD에 대한 의존도 덕분에 Adobe의 [USDFileFormat 플러그인](https://
 
 >[!TIP]
 >
-> 프로젝트 설정](../../../interface/preferences-window/project-settings/project-settings.md)의 [&quot;3D 보기&quot; 섹션에서 새 3D 보기를 시작할 때 기본적으로 사용되는 렌더러를 선택할 수 있습니다.
+> 프로젝트 설정[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)의 &quot;3D 보기&quot; 섹션에서 새 3D 보기를 시작할 때 기본적으로 사용되는 렌더러를 선택할 수 있습니다.
 
 <a name="rasterizer"></a>
 
