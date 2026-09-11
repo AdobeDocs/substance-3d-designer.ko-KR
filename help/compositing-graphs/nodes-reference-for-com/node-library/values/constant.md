@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 상수
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![정수 형식 아이콘](../../../../assets/fn-constant-integer.png "정수 형식 아이콘")
+![정수 형식 아이콘](constant.resources/fn-constant-integer.png "정수 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 형식 아이콘](../../../../assets/fn-constant-integer2.png "Integer2 형식 아이콘")
+![Integer2 형식 아이콘](constant.resources/fn-constant-integer2.png "Integer2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Integer2의 일반적인 사용 사례 중 하나는 [Tile Generator](../../../.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 형식 아이콘](../../../../assets/fn-constant-integer3.png "Integer3 형식 아이콘")
+![Integer3 형식 아이콘](constant.resources/fn-constant-integer3.png "Integer3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Integer3 노드는 (X, Y, Z) 성분을 갖는 정적 3-성분 정수 벡터를 �
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 형식 아이콘](../../../../assets/fn-constant-integer4.png "Integer4 형식 아이콘")
+![Integer4 형식 아이콘](constant.resources/fn-constant-integer4.png "Integer4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 유형 아이콘](../../../../assets/fn-constant-float.png "부동 유형 아이콘")
+![부동 유형 아이콘](constant.resources/fn-constant-float.png "부동 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,12 +143,12 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 2 형식 아이콘](../../../../assets/fn-constant-float2.png "부동 2 형식 아이콘")
+![부동 2 형식 아이콘](constant.resources/fn-constant-float2.png "부동 2 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>부동2</b>
+<b>Float2</b>
 
 부동2 노드는 (X, Y) 성분을 갖는 2-성분 벡터를 생성한다.
 
@@ -162,12 +162,12 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 3 형식 아이콘](../../../../assets/fn-constant-float3.png "부동 3 형식 아이콘")
+![부동 3 형식 아이콘](constant.resources/fn-constant-float3.png "부동 3 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>부동3</b>
+<b>Float3</b>
 
 부동3 노드는 3-성분 (X, Y, Z) 벡터를 생성한다.
 
@@ -181,12 +181,12 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부동 4 형식 아이콘](../../../../assets/fn-constant-float4.png "부동 4 형식 아이콘")
+![부동 4 형식 아이콘](constant.resources/fn-constant-float4.png "부동 4 형식 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>부동4</b>
+<b>Float4</b>
 
 부동 4는 4-성분 (X, Y, Z, W) 벡터를 생성한다.
 
@@ -202,7 +202,7 @@ Integer4 노드는 (X, Y, Z, W) 성분을 갖는 정적 4-성분 정수 벡터�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![부울 유형 아이콘](../../../../assets/fn-constant-boolean.png "부울 유형 아이콘")
+![부울 유형 아이콘](constant.resources/fn-constant-boolean.png "부울 유형 아이콘")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
