@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: 그래프 보기에서 탐색 핀을 사용하여 Substance 3D Designer 그래프의 여러 위치 사이를 빠르게 이동할 수 있습니다.
 helpx_creative_field: ""
