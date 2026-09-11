@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/what-is-a-function.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/what-is-a-function.html"
 breadcrumb-title: ''
 description: Substance 3D Designer에 포함된 기능을 알아보고 이를 사용하여 재사용 가능한 노드 네트워크를 만드는 방법을 살펴보세요.
 helpx_creative_field: ""

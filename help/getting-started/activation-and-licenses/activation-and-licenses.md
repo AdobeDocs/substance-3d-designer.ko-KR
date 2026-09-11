@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: 모든 기능에 액세스하기 위해 Substance 3D Designer을 활성화하고 라이선스를 관리하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 에디션 | 활성화 프로세스 |
 | --- | --- |
-| Creative Cloud 데스크톱 | [HelpX 설명서](https://helpx.adobe.com/support/substance-3d-designer.html)의 전용 페이지를 참조하십시오. 문제가 있는 경우 [Creative Cloud 설명서](https://helpx.adobe.com/creative-cloud/user-guide.html)에서 추가 답변을 제공할 수 있습니다. |
+| Creative Cloud 데스크톱 | [HelpX 설명서](https://helpx.adobe.com/kr/support/substance-3d-designer.html)의 전용 페이지를 참조하십시오. 문제가 있는 경우 [Creative Cloud 설명서](https://helpx.adobe.com/kr/creative-cloud/user-guide.html)에서 추가 답변을 제공할 수 있습니다. |
 | 증기 | Steam 라이브러리에서 직접 제품을 실행합니다. |
 | Substance(독립 실행형) | 아래에 설명된 활성화 프로세스를 참조하십시오. |
 
