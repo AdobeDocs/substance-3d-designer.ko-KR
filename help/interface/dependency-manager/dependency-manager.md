@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: Substance 3D Designer의 종속성 관리자를 사용하면 프로젝트의 리소스 종속성을 보고 관리할 수 있습니다.
 helpx_creative_field: ""
