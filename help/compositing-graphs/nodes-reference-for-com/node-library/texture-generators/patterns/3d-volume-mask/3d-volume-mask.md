@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: 3D 볼륨 마스크 노드를 사용하여 고급 재질 효과를 위해 3D 위치를 기반으로 볼륨 마스크를 만듭니다.
 helpx_creative_field: ""
