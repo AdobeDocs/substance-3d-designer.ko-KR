@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
 breadcrumb-title: ''
 description: 원형 그레이디언트 노드를 사용하여 원형 색상 전환 및 효과를 위한 방사형 그레이디언트를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 원형 그레이디언트
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-circular.png){width="128px"}
+![](gradient-circular.resources/gradient-circular.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -47,4 +47,4 @@ ht-degree: 1%
 |:---|:---|
 | <b>지점 1</b> | 그레이디언트를 중심으로 회전하는 첫 번째 점은 가운데에 있을 필요가 없습니다 |
 | <b>지점 2</b> | 그라디언트의 두 번째 지점인 |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정합니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정합니다. |

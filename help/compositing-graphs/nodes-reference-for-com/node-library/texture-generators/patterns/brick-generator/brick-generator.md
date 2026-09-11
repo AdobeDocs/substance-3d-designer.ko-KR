@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
 breadcrumb-title: ''
 description: '[브릭 생성기] 노드를 사용하여 사용자 정의 가능한 크기, 오프셋 및 모르타르 속성을 가진 절차적 브릭 패턴을 만듭니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 벽돌 생성기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: 827e738d5db4d64bf366d332a62a7bbd2fa840fc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator.png){width="128px"}
 
 <b>내부:</b> 텍스처 생성기 > 패턴
 
@@ -62,10 +62,10 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
         </td>
     </tr>
 </table>
