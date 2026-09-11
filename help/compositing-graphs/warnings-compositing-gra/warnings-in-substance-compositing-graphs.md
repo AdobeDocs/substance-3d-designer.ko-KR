@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: Substance 합성 그래프의 경고를 이해하고 일반적인 문제 및 오류를 해결하는 방법을 알아보십시오.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ E.g. 균일 색상[출력 색상], 픽셀 프로세서[픽셀당 함수]
 
 ### ![(오류)](warnings-in-substance-compositing-graphs.resources/error.svg) 참조 리소스를 찾을 수 없습니다.
 
-노드에서 참조하는 리소스를 [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 파일(SBS)에 저장된 경로에서 찾을 수 없습니다. 다음은 리소스를 참조하는 몇 가지 노드입니다.
+노드에서 참조하는 리소스를 [Substance 3D](https://www.adobe.com/kr/products/substance3d/3d-augmented-reality.html) 파일(SBS)에 저장된 경로에서 찾을 수 없습니다. 다음은 리소스를 참조하는 몇 가지 노드입니다.
 
 * [그래프 인스턴스](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 노드가 그래프를 참조합니다.
 * [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드가 [비트맵 리소스](../../resources/bitmap-resource/bitmap-resource.md)를 참조합니다.
