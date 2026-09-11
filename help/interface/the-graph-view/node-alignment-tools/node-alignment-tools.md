@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: 노드 정렬 도구를 사용하여 그래프 보기에서 노드를 정리 및 정렬하면 보다 깔끔하고 읽기 쉬운 그래프가 표시됩니다.
 helpx_creative_field: ""
