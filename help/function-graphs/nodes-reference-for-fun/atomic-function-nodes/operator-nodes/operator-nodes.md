@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 함수 그래프의 연산자 노드에 액세스하여 수학 및 논리 연산을 수행합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 연산자
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 연산자 노드를 사용하면 입력 노드에서 고전적인 수학 연산을 수행할 수 있습니다.
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/image2015-12-23-10-55-31.png)
 
 >[!NOTE]
 >
