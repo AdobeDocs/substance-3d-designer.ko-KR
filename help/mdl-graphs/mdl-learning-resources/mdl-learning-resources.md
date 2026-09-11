@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 학습 리소스
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -63,14 +63,14 @@ ht-degree: 0%
 
 ### MDL 말라카이트 재료 분해
 
-[이 문서](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)는 텍스처로만 구현할 수 없는 *더 정교한* 재질 제작을 안내합니다. 여기서는 MDL 그래프와 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md) 간의 시너지 효과를 활용하여 매우 효율적으로 좋은 결과를 얻을 수 있습니다.
+[이 문서](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown)는 텍스처를 통해서만 얻을 수 없는 *보다 정교한* 자료의 제작을 안내합니다. 여기서는 MDL 그래프와 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md) 간의 시너지 효과를 활용하여 매우 효율적으로 좋은 결과를 얻을 수 있습니다.
 
 &quot;이 서사 튜토리얼에서는 CD PROJECT RED의 선임 환경 아티스트인 [Mark Foreman](https://www.artstation.com/oggyart)이(가) Materialize Contest의 MDL 자료를 분해합니다! [Substance share](https://share-legacy.substance3d.com/libraries/4043)에서 마크의 자료를 다운로드할 수 있습니다.&quot;
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![MDL 말라카이트 재질](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![MDL 말라카이트 재질](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *이미지를 클릭하여 튜토리얼에 액세스하세요.*
 
