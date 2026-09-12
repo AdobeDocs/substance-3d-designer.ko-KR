@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 장면 내보내기
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 >
 > Designer에서 장면에 추가한 모든 항목은 내보낸 장면에 포함됩니다(기본 카메라, 기본 환경, 모든 재질 복사).
 
-![장면 내보내기 작업](../../assets/exportActions.png "장면 내보내기 작업"){zoomable="yes"}
+![장면 내보내기 작업](exporting-scenes.resources/exportActions.png "장면 내보내기 작업"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 </td>
 <td style="border: 0;" valign="top">
 
-![내보낸 장면 파일 - 병합됨](../../assets/exportFlattened.png "내보낸 장면 파일 - 병합됨"){zoomable="yes"}
+![내보낸 장면 파일 - 병합됨](exporting-scenes.resources/exportFlattened.png "내보낸 장면 파일 - 병합됨"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 </td>
 <td style="border: 0;" valign="top">
 
-![내보낸 장면 파일 - 레이어드](../../assets/exportLayered.png "내보낸 장면 파일 - 레이어드"){zoomable="yes"}
+![내보낸 장면 파일 - 레이어드](exporting-scenes.resources/exportLayered.png "내보낸 장면 파일 - 레이어드"){zoomable="yes"}
 
 </td>
 </tr>

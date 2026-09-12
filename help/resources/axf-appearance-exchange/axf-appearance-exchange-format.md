@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF(Appearance eXchange Format)
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,26 +24,26 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxF 파일 아이콘](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
+[![AxF 파일 아이콘](axf-appearance-exchange-format.resources/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 Substance 3D Designer은 [X-Rite의 모양 eXchange 형식을 지원합니다.](https://www.xrite.com/axf) 이 형식을 만든 사람은 다음과 같이 설명합니다.
 
-&#39;AxF 파일은 디지털 디자인 워크플로 전반에 걸쳐 복잡한 재질 특성을 캡처, 저장, 편집 및 전달하는 데 사용됩니다. AxF는 PLM(Product Lifecycle Management), CAD(Computer-Aided Design) 및 최신 렌더링 응용 프로그램에서 색상, 텍스처, 광택, 굴절, 반투명도, 특수 효과(반짝거림) 및 반사 속성과 같은 모든 관련 모양 데이터를 저장하고 공유할 수 있는 표준 방법을 제공합니다.
+&#39;AxF 파일은 디지털 디자인 워크플로 전반에 걸쳐 복잡한 재질 특성을 캡처, 저장, 편집 및 전달하는 데 사용됩니다. AxF는 PLM(Product Lifecycle Management), CAD(Computer-Aided Design) 및 최첨단 렌더링 응용 프로그램에서 색상, 텍스처, 광택, 굴절, 투명도, 특수 효과(반짝거림) 및 반사 속성과 같은 모든 관련 모양 데이터를 저장하고 공유할 수 있는 표준 방법을 제공합니다.
 
 </td>
 </tr>
 </table>
 
-간단히 말해, AxF 파일은 X-Rite의 TAC7 스캐너 하드웨어에 의해 추출된 여러 텍스처를 호스팅하며, 자료의 추가 특성을 설명하는 메타데이터와 함께 호스팅합니다. 즉, AxF는 단순한 텍스처 데이터 이상의 의미를 갖고 있으며 음영 속성도 갖고 있습니다.
+간단히 말해, AxF 파일은 X-Rite의 TAC7 스캐너 하드웨어에 의해 추출된 수많은 텍스처를 호스팅하고, 그 재료의 추가 특성을 설명하는 메타데이터와 함께 호스팅합니다. 즉, AxF는 단순한 텍스처 데이터 이상의 역할을 합니다. 음영 속성도 함께 제공됩니다.
 
 AxF 파일을 패키지 [리소스](../../resources/resources.md)(으)로 가져오지 *못했습니다*. 대신 [가져오기 프로세스](#import)에는 AxF 파일에서 텍스처와 메타데이터를 추출한 다음 이를 사용하여 [전용 템플릿](#graph-templates)에서 만든 그래프를 준비하는 작업이 포함됩니다.
 
 사용 가능한 템플릿은 두 가지 AxF 워크플로우를 대상으로 합니다.
 
-* <b>AxF 파일의 SVBRDF 재질을 PBR 재질로 변환</b>;
+* <b>AxF 파일의 SVBRDF 자료를 PBR 자료로 변환</b>;
 * SVBRDF 재질을 <b>편집</b>하고 기존 AxF 파일에 새 레이어로 [내보내기](#export)합니다.
 
 >[!NOTE]
@@ -64,7 +64,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 [홈 화면](../../interface/home-screen/home-screen.md)의 왼쪽 섹션에서 <b>AxF 가져오기...</b> 단추를 클릭합니다.
 
-![AxF: 홈 화면에서 가져오기 시작](../../assets/axf_home-screen.png "AxF: 홈 화면에서 가져오기 시작"){width="600px"}
+![AxF: 홈 화면에서 가져오기 시작](axf-appearance-exchange-format.resources/axf_home-screen.png "AxF: 홈 화면에서 가져오기 시작"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 [탐색기](../../interface/the-explorer-window/the-explorer-window.md)에서 패키지의 RMB를 클릭하고 패키지의 상황별 메뉴에서 <b>가져오기 > AxF</b>로 이동합니다.
 
-![AxF: Explorer에서 가져오기 시작](../../assets/axf_explorer.png "AxF: Explorer에서 가져오기 시작"){width="600px"}
+![AxF: Explorer에서 가져오기 시작](axf-appearance-exchange-format.resources/axf_explorer.png "AxF: Explorer에서 가져오기 시작"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 <b>메타데이터</b> 및 <b>속성</b>은 AxF 파일의 자료에서 추출한 데이터를 나열합니다. 이는 일부 Substance 그래프 템플릿 속성을 구성하는 방법에 영향을 줍니다(아래 [그래프 템플릿](#graph-templates) 섹션 참조).
 
-![AxF: 가져오기 대화 상자](../../assets/axf_import.png "AxF: 가져오기 대화 상자")
+![AxF: 가져오기 대화 상자](axf-appearance-exchange-format.resources/axf_import.png "AxF: 가져오기 대화 상자")
 
 ### 결과
 
@@ -110,7 +110,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: 가져오기 프로세스의 패키지 결과](../../assets/axf_package.png "AxF: 가져오기 프로세스의 패키지 결과")
+![AxF: 가져오기 프로세스의 패키지 결과](axf-appearance-exchange-format.resources/axf_package.png "AxF: 가져오기 프로세스의 패키지 결과")
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: 가져오기 대화 상자에 템플릿 추가](../../assets/axf_add-template.png "AxF: 가져오기 대화 상자에 템플릿 추가")
+![AxF: 가져오기 대화 상자에 템플릿 추가](axf-appearance-exchange-format.resources/axf_add-template.png "AxF: 가져오기 대화 상자에 템플릿 추가")
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 두 가지 유형의 Substance 그래프 템플릿을 사용할 수 있습니다.
 
-<b>금속 거칠기에 대한 AxF</b> 및 Specular에 대한 <b>AxF</b>은(는) AxF 재질을 표준 PBR 모델에 매핑할 수 있는 *변환* 템플릿입니다.\
+<b>금속 거칠기에 대한 AxF</b> 및 Specular 광도에 대한 <b>AxF</b>은(는) AxF 재질을 표준 PBR 모델에 매핑할 수 있는 *변환* 템플릿입니다.\
 그런 다음 기본 3D 보기 셰이더와 함께 사용하거나 Designer, [Sampler](https://www.adobe.com/kr/products/substance3d-sampler.html)에서 제작되거나 [3D 에셋](https://substance3d.adobe.com/assets/) 라이브러리에서 얻은 다른 PBR 자료와 결합할 수 있습니다.
 
 <b>AxF to AxF</b>은(는) AxF 재질을 제자리에서 편집하고 이러한 변경 내용을 기존 AxF 파일의 새 레이어로 내보낼 수 있는 *통과* 템플릿입니다. 자세한 내용은 아래의 AxF 파일 내보내기 를 참조하십시오.
@@ -151,7 +151,7 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance 그래프 템플릿](../../assets/axf-templates.png "AxF: Substance 그래프 템플릿")
+![AxF: Substance 그래프 템플릿](axf-appearance-exchange-format.resources/axf-templates.png "AxF: Substance 그래프 템플릿")
 
 </td>
 </tr>
@@ -163,9 +163,9 @@ AxF 파일 가져오기 워크플로우는 아래 두 가지 방법 중 하나�
 
 <b>템플릿</b> 목록에 추가된 모든 Substance 그래프 템플릿에 대해 다음 추가 작업이 수행됩니다.
 
-AxF 파일에서 추출한 텍스처의 *식별자*&#x200B;과 *사용량*&#x200B;이 일치하는 [<b>입력</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 텍스처의 경우 해당 입력 노드는 해당 노드를 참조하는 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드로 대체됩니다.
+AxF 파일에서 추출한 텍스처의 *식별자*&#x200B;와 *용도*&#x200B;가 일치하는 [<b>입력</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드의 경우 해당 입력 노드는 해당 텍스처를 참조하는 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드로 대체됩니다.
 
-그래프의 <b>해상도</b> 속성(즉, 출력 크기)은 추출된 *가장 큰* 텍스처의 해상도와 같거나 그 위의 2의 거듭제곱으로 자동 설정됩니다.
+그래프의 <b>해상도</b> 속성(즉, 출력 크기)은 추출된 *가장 큰* 텍스처의 해상도와 같거나 그 위의 2의 거듭제곱으로 자동으로 설정됩니다.
 
 이전 작업이 적용된 후에 [비트맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 노드의 <b>해상도</b> 속성(즉, 출력 크기)이 그래프와 일치하도록 자동으로 설정됩니다.
 
@@ -179,14 +179,14 @@ AxF 파일의 자료에서 추출한 *메타데이터*&#x200B;가 그래프의 <
 >
 > 이 초기 구성 후에는 그래프 매개 변수의 기본값을 수정해서는 안 됩니다.
 > 
-> 이러한 속성은 음영의 값을 올바르게 해석하기 위해 반드시 필요한 텍스처 속성을 지정합니다.
+> 이러한 속성은 텍스처의 값을 올바르게 해석하는 데 필수적인 음영 속성을 지정합니다.
 > 
 > 따라서 이러한 설정을 변경하면 [3D 보기](../../interface/3d-view/3d-view.md)에서 재질을 시각화할 때 렌더링이 잘못됩니다.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance 그래프 매개 변수](../../assets/axf_graph-props.png "AxF: Substance 그래프 매개 변수")
+![AxF: Substance 그래프 매개 변수](axf-appearance-exchange-format.resources/axf_graph-props.png "AxF: Substance 그래프 매개 변수")
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ AxF 파일의 자료에서 추출한 *메타데이터*&#x200B;가 그래프의 <
 >
 > 파일의 리소스에 대한 변경 내용이 *새 레이어*(으)로 추가됩니다. 즉, Designer에서 동일한 AxF 파일로 수행된 각 내보내기는 해당 파일 크기에 추가됩니다.
 
-![AxF 내보내기](../../assets/exportaxf.gif)
+![AxF 내보내기](axf-appearance-exchange-format.resources/exportaxf.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ AxF 파일의 자료에서 추출한 *메타데이터*&#x200B;가 그래프의 <
 
 <b>AxF</b> 내보내기 대화 상자는 <b>출력 내보내기</b> 대화 상자에서 전용 탭으로 사용할 수 있습니다.
 
-[그래프 보기](../../interface/the-graph-view/the-graph-view.md) 도구 모음에서 ![](../../assets/tools.jpg) <b>도구</b> 메뉴를 열고 <b>출력 내보내기...</b> 옵션을 선택하여 대화 상자를 표시한 다음 <b>AxF</b> 탭을 선택합니다.
+[그래프 보기](../../interface/the-graph-view/the-graph-view.md) 도구 모음에서 ![](axf-appearance-exchange-format.resources/tools.jpg) <b>도구</b> 메뉴를 열고 <b>출력 내보내기...</b> 옵션을 선택하여 대화 상자를 표시한 다음 <b>AxF</b> 탭을 선택합니다.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF: 그래프 보기 도구 모음의 내보내기 옵션](../../assets/axf_graph-export.png "AxF: 그래프 보기 도구 모음의 내보내기 옵션")
+![AxF: 그래프 보기 도구 모음의 내보내기 옵션](axf-appearance-exchange-format.resources/axf_graph-export.png "AxF: 그래프 보기 도구 모음의 내보내기 옵션")
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ AxF 파일의 자료에서 추출한 *메타데이터*&#x200B;가 그래프의 <
 >
 > 그래프 출력이 이 대화 상자에 나열되려면 해당 <b>그룹</b> 속성이 &#39;AxF&#39;로 설정되어 있어야 합니다.
 
-![AxF: 내보내기 대화 상자](../../assets/axf_export.png "AxF: 내보내기 대화 상자")
+![AxF: 내보내기 대화 상자](axf-appearance-exchange-format.resources/axf_export.png "AxF: 내보내기 대화 상자")
 
 매핑된 출력의 변경 사항을 포함하는 새 레이어로 대상 AxF 파일을 편집하려면 <b>내보내기 시작 </b>을(를) 클릭합니다.
 
@@ -258,7 +258,7 @@ AxF 파일의 자료에서 추출한 *메타데이터*&#x200B;가 그래프의 <
 
 또한 출력의 <b>그룹</b> 속성 *Must*&#x200B;이(가) &#39;AxF&#39;로 설정되어 있어야 AxF 내보내기 대화 상자에 나열됩니다(위 참조).
 
-![AxF: Substance 그래프의 출력 사용량](../../assets/axf_output_usage.png "AxF: Substance 그래프의 출력 사용량")
+![AxF: Substance 그래프의 출력 사용량](axf-appearance-exchange-format.resources/axf_output_usage.png "AxF: Substance 그래프의 출력 사용량")
 
 리소스는 특정 수의 채널을 갖는 텍스처(즉, 비트맵) 또는 유니폼(즉, 값)일 수 있다. 반드시 그래프 출력이 그 채널 개수와 정확히 일치해야 한다. 그렇지 않으면 내보내기 중에 해당 리소스에 오류가 발생하고 리소스가 변경되지 않습니다.
 
@@ -285,7 +285,7 @@ AxF 파일의 SVBRDF 자료를 표준 PBR 자료로 변환하려면 가져오기
 이 경우 3D 보기에서 **OpenGL 렌더러**&#x200B;를 사용하고 <code>AxF SVBRF를 선택해야 합니다</code> 셰이더.\
 그런 다음 가져오기 대화 상자에서 설정한 Substance 그래프를 끌어서 놓아 해당 출력을 셰이더에 연결할 수 있습니다.
 
-![AxF: 변환을 위해 보기](../../assets/axf-view-for-convert.gif "AxF: 변환을 위해 보기")
+![AxF: 변환을 위해 보기](axf-appearance-exchange-format.resources/axf-view-for-convert.gif "AxF: 변환을 위해 보기")
 
 +++
 
@@ -302,7 +302,7 @@ AxF 파일의 SVBRDF 자료를 표준 PBR 자료로 변환하려면 가져오기
 
 셰이더를 선택한 후 그래프의 빈 공간에서 RMB를 클릭하고 <b>3D 보기에서 출력 보기</b> 옵션을 선택하여 [3D 보기](../../interface/3d-view/3d-view.md)에서 출력을 시각화합니다.
 
-![AxF: SVBRDF GLSLFX 셰이더](../../assets/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX 셰이더"){width="600px"}
+![AxF: SVBRDF GLSLFX 셰이더](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX 셰이더"){width="600px"}
 
 이 셰이더는 현재 *진행 중인 작업*&#x200B;이며 일부 기능은 아직 지원되지 않습니다. 따라서 재료의 특성을 개괄적으로 설명할 수 있지만 세밀한 조정을 위해 사용해서는 안 됩니다 .
 
@@ -311,7 +311,7 @@ AxF 파일의 SVBRDF 자료를 표준 PBR 자료로 변환하려면 가져오기
 
 셰이더를 선택한 후 그래프의 빈 공간에서 RMB를 클릭하고 <b>3D 보기에서 출력 보기</b> 옵션을 선택하여 [3D 보기](../../interface/3d-view/3d-view.md)에서 출력을 시각화합니다.
 
-![AxF: 에디션 보기](../../assets/axf-view-for-edit.gif "AxF: 에디션 보기")
+![AxF: 에디션 보기](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF: 에디션 보기")
 <i>참고:</i> Iray 렌더러 및 MDL 지원이 버전 16.0.0의 Designer에서 <i>제거</i>되었으므로 끝날 때까지 Iray 렌더러로의 전환에서 비디오 부분을 무시하십시오.
 
 +++
