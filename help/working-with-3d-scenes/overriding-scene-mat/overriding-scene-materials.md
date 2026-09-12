@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: 3D 장면에서 기존 재질을 재정의하여 테스트 및 미리 보기를 위한 자체 Substance 재질로 대체합니다.
 helpx_creative_field: ""

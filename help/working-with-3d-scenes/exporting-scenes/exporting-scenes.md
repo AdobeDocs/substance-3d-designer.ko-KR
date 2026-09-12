@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ''
 description: '[3D 보기 장면] 메뉴의 [장면 내보내기] 동작을 사용하여 Designer에서 편집한 모든 내용을 포함한 3D 장면을 내보냅니다.'
 helpx_creative_field: ""
