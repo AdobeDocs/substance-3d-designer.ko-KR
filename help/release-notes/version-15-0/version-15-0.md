@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 버전 15.0의 릴리스 노트를 통해 새로운 3D 렌더러 및 기본 USD 지원에 대해 알아보십시오.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 버전 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *출시일: 2025년 7월 15일*
 
-![배너](../../assets/banner-47.png "버전 15.0 배너")
+![배너](version-15-0.resources/banner-47.png "버전 15.0 배너")
 
 ## 새로운 3D 렌더러
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 이 새 릴리스에서는 래스터화 모드(재질 작업 중에 실시간 미리 보기 가능)와 경로 추적기 모드(완벽하고 정확한 렌더링을 위해 광선 추적 모드)를 특징으로 하는 고급 [3D 렌더러](../../interface/3d-view/3d-renderers/3d-renderers.md)에 액세스할 수 있습니다. 이 새로운 렌더러는 래스터화 모드의 그림자와 같은 기능으로 기능을 개선하고, 품질 및 성능을 개선하며, [MaterialX](https://materialx.org/)과 같은 미래 기술을 지원하도록 설계되었습니다. Designer의 기존 OpenGL 및 Iray 렌더러를 보완하고 Substance 3D Viewer 및 Substance 3D Sampler에서 사용할 수 있는 렌더러와 맞춰서 에코시스템 전반에서 균일한 경험을 보장합니다.
 
-![래스터라이저의 그림자 및 투명도](../../assets/feature_1b.png)
+![래스터라이저의 그림자 및 투명도](version-15-0.resources/feature_1b.png)
 
 [3d 보기 도구 모음](../../interface/3d-view/3d-view.md)이 이 렌더러에서 사용할 수 있는 일부 새로운 기능에 빠르게 액세스할 수 있도록 업데이트되었습니다.
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 * <b>톤 매핑: </b>높은 동적 범위(HDR) 효과를 얻는 프로필이 있는 색상 범위.
 * <b>필드 깊이:</b>은(는) 카메라 렌즈의 초점 속성을 시뮬레이션합니다(래스터화기만 해당).
 
-![Designer 15.0에서 FX 게시](../../assets/postfx.gif)
+![Designer 15.0에서 FX 게시](version-15-0.resources/postfx.gif)
 
 ## 컨텍스트의 에셋 에디션
 
 재질 작업을 할 때 [특정 3D 장면의 컨텍스트에서 미리 볼 수 있습니다](../../working-with-3d-scenes/working-with-3d-scenes.md). 그래서 텍스처, 카메라 및 조명을 포함하여 전체 장면을 가져오고 렌더링할 수 있는 가능성을 추가했습니다. 그리고 이 장면이 MaterialX 셰이더를 참조하는 경우 래스터라이저를 사용하여 올바르게 렌더링됩니다!
 
-![Designer에서 로드 및 렌더링된 USD 장면](../../assets/feature_2.png)
+![Designer에서 로드 및 렌더링된 USD 장면](version-15-0.resources/feature_2.png)
 
 가져오고 나면 메시(SHIFT+클릭 또는 장면 브라우저 덕분에)를 선택하고 [재질을 재정의](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)하여 장면에서 작업할 수 있습니다. 그러면 다음을 수행할 수 있습니다.
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![혼합 노드](../../assets/blend.gif)
+![혼합 노드](version-15-0.resources/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![흐림 효과 노드](../../assets/blur.gif)
+![흐림 효과 노드](version-15-0.resources/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![거리 노드](../../assets/distance.gif)
+![거리 노드](version-15-0.resources/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 정사각형이 아닌 텍스처를 사용하여 작업해야 하는 경우 이 새로운 옵션이 제공됩니다. 3D 보기의 [재질 속성](../../interface/3d-view/material-properties/material-properties.md)에서 타일링을 제어하는 UV 옵션에서 이제 두 축에 대해 다른 값을 설정할 수 있습니다.
 
-![다른 U V 비율](../../assets/nonsquare.png){zoomable="yes"}
+![다른 U V 비율](version-15-0.resources/nonsquare.png){zoomable="yes"}
 
 ## 베이커
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 비디오
 
-[![Substance 3D Designer 업데이트: 새 렌더러, 포스트 FX 및 컨텍스트 편집 | Substance 3D](../../assets/video_15.png) Adobe](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designer 업데이트: 새 렌더러, 포스트 FX 및 컨텍스트 편집 | Substance 3D](version-15-0.resources/video_15.png) Adobe](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## 릴리스 정보
 
@@ -123,13 +123,13 @@ ht-degree: 0%
 * [3D 보기] 래스터화 및 패스파이어 모드를 사용하는 새로운 렌더러
 * [3D 보기] 선택 도구를 추가하여 3D 장면에서 개체를 선택합니다
 * [3D 보기] &quot;레이어가 있는 장면 내보내기...&quot;를 새로 추가합니다. &quot;장면&quot; 메뉴의 동작
-* [3D 보기] 새 도구 모음 단추 추가
-* [3D 보기] USD 장면에 포함된 여러 카메라 간에 전환할 수 있는 가능성 추가
-* [3D 보기] 뷰포트에서 &#39;F&#39; 키를 누를 때 선택한 오브젝트에 포커스를 두도록 허용
+* [3D 보기] 새 도구 모음 버튼 추가
+* [3D 보기] USD 장면에 포함된 여러 카메라 간에 전환할 가능성을 추가합니다.
+* [3D 보기] 뷰포트에서 &#39;F&#39; 키를 누를 때 선택한 오브젝트에 포커스를 맞출 수 있습니다.
 * [3D 보기] 기존 재질에서 Substance 합성 그래프를 생성할 수 있습니다
-* [3D 보기] 3D 보기에서 SBS Comp 그래프를 보내고 해당 고유 출력을 환경/파노라마 사용에 할당할 수 있도록 합니다.
+* [3D 보기] 3D 보기에서 SBS Comp 그래프를 보내고 고유한 출력을 환경/파노라마 사용에 할당할 수 있습니다.
 * [3D 보기] Esc 키를 눌러 현재 선택을 취소합니다
-* [3D 보기] 가져온 3D 장면을 텍스처로 표시
+* [3D 보기] 텍스처가 있는 가져온 3D 장면 표시
 * [3D 보기] X 및 Y 텍스처 반복 컨트롤 구분
 * [3D 보기] 그림자 활성화/비활성화
 * [3D 보기] 기준 평면 활성화/비활성화
@@ -142,17 +142,17 @@ ht-degree: 0%
 * [3D 보기] &quot;카메라/스크린샷 저장...&quot; 작업을 제거합니다. 및 &quot;스크린샷을 클립보드에 카메라/복사&quot;
 * [3D 보기] 메뉴 작업 &quot;재질/모두 다시 작성&quot;을 제거합니다.
 * [3D 보기] 기본 카메라 레이블의 접두어 &quot;Default&quot;를 제거합니다.
-* [3D 보기] 메뉴 동작 &quot;기본값으로 재설정&quot;을 재료 입력 속성 햄버거 메뉴의 마지막 동작으로 설정합니다
+* [3D 보기] 메뉴 동작 &quot;기본값으로 재설정&quot;을 재질 입력 속성 햄버거 메뉴의 마지막 동작으로 설정합니다
 * [3D 보기] 단축키 조정
-* [3D 보기] 실시간 모드에서 그림자 및 반투명도 지원
-* [3D 보기] 가져온 USD 장면에서 MaterialX 셰이더를 지원합니다
-* [3D 보기 / OpenGL] &quot;UV 비율 사용&quot; 매개 변수의 이름을 &quot;그래프에서 물리적 크기 사용&quot;으로 바꿉니다.
-* [3D 보기 / 포스트 효과] 흐림
-* [3D 보기 / 포스트 효과] 필드 깊이
-* [3D 보기 / 포스트 효과] 톤 매핑
-* [3D 보기 / 장면 브라우저] SceneBrowser에서 선택할 때 재질 속성을 표시할 수 있습니다.
+* [3D 보기] 실시간 모드에서 그림자 및 투명도 지원
+* [3D 보기] 가져온 USD 장면에서 MaterialX 셰이더를 지원합니다.
+* [3D 보기/OpenGL] &quot;UV 비율 사용&quot; 매개 변수의 이름을 &quot;그래프에서 물리적 크기 사용&quot;으로 바꿉니다.
+* [3D 보기/포스트 효과] 흐림
+* [3D 보기/포스트 효과] 필드 깊이
+* [3D 보기/포스트 효과] 톤 매핑
+* [3D 보기/장면 브라우저] SceneBrowser에서 재질 속성을 선택할 때 이 속성을 표시할 수 있습니다.
 * [3D 보기 / 장면 브라우저] &quot;재질&quot; 열 숨기기
-* [3D 보기 / 장면 브라우저] 미리 정의된 엔티티로 제어되는 USD 프리미티브를 굵게 표시합니다.
+* [3D 보기/장면 브라우저] 미리 정의된 엔티티로 제어되는 USD 프리미티브를 굵게 표시합니다.
 * [베이커] 트리 보기에서 &quot;모두 선택&quot;/&quot;모두 선택 해제&quot; 액션을 사용하여 컨텍스트 메뉴를 추가합니다
 * [베이커] 비트각 보간을 제어하는 옵션 추가
 * [베이커] GUI에 가로 분할자 추가
