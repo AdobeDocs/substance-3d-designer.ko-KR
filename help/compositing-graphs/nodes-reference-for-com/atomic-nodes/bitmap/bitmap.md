@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
 breadcrumb-title: ""
 description: 비트맵 노드를 사용하여 비트맵 이미지를 가져와 Substance 합성 그래프의 텍스처로 사용할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 비트맵
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 비트맵](bitmap.resources/comp_bitmap.png "Atomic node: 비트맵")
+![Atomic node: 비트맵](bitmap.resources/comp_bitmap.png "Atomic node: 비트맵"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="비트맵 도구 설명" /></div>
+<div data-preserve-html="true" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="비트맵 도구 설명" /></div>
 
 노드를 처음부터 만들거나 지원되는 형식의 [비트맵](../../../../glossary/glossary.md)을 그래프 보기로 놓아 만들 수 있습니다.
 

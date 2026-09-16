@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: 곡선 노드를 사용하면 정밀한 색상 및 밝기 제어를 위해 사용자 정의 가능한 곡선을 사용하여 텍스처 값을 조정할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 곡선
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선")
+![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="곡선 도구 설명" /></div>
+<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="곡선 도구 설명" /></div>
 
 대부분의 다른 노드와 달리 곡선 노드에는 슬라이더와 매개 변수가 있는 일반적인 표준 인터페이스가 없지만, 대신 완전한 곡선 편집기를 제공합니다. 사용 방법에 대해서는 아래의 확장 가능 섹션을 참조하십시오.
 

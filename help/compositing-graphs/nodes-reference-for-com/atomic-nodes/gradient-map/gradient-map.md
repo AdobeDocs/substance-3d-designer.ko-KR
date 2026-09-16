@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: 색상화 및 효과를 위해 그레이디언트 경사를 사용하여 회색 음영 값을 색상에 매핑하려면 [그레이디언트 맵] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 그레이디언트 맵
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵")
+![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map 도구 설명" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map 도구 설명" /></div>
 
 이 노드에서는 여러 색상을 정밀하게 매핑할 수 있는 기능이 풍부한 고급 그레이디언트 편집기를 제공합니다. 자세히 알아보려면 이 페이지의 [그레이디언트 편집기](#gradient-editor) 섹션으로 이동하십시오.
 

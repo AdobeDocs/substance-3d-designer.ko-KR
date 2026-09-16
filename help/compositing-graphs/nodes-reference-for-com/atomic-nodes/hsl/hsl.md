@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
 description: HSL 노드를 사용하여 색상 조작 및 교정을 위해 텍스처의 색조, 채도 및 밝기를 조정합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL")
+![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl 툴팁" /></div>
+<div data-preserve-html="true" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl 툴팁" /></div>
 
 
 

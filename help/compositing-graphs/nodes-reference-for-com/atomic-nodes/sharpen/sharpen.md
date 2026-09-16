@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
-description: 선명 효과 노드를 사용하면 텍스처 세부 사항과 가장자리를 개선하여 뚜렷하고 정의된 표면 세부 사항을 만들 수 있습니다.
+description: 선명 효과 노드를 사용하면 텍스처 세부 사항과 가장자리를 향상시켜 선명하고 정의된 표면 세부 사항을 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 선명하게 하기
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -37,9 +37,9 @@ ht-degree: 4%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="선명 효과 도구 설명" /></div>
+<div data-preserve-html="true" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="선명 효과 도구 설명" /></div>
 
-명칭은 다르지만 수학적으로는 Photoshop의 언샵 마스크와 매우 유사하다. 이것은 기초색 지도와 같은 것에는 효과적이지만, 노멀 맵과 금속 지도와 같은 지도에서는 피해야 한다.
+명칭은 다르지만 수학적으로는 Photoshop의 언샵 마스크와 매우 유사하다. 기본 색상 지도와 같은 것에는 효과적이지만 일반 지도나 금속 지도와 같은 지도에서는 피해야 합니다.
 
 ## 입력
 

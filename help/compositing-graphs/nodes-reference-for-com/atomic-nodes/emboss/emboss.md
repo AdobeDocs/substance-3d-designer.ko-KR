@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
-description: '[엠보스] 노드를 사용하면 표면 세부 사항에 깊이 및 부조를 추가하기 위해 텍스처에 엠보스 효과를 만들 수 있습니다.'
+description: 엠보스 노드를 사용하여 표면 세부 사항에 깊이 및 부조를 추가하기 위해 텍스처에 엠보싱 효과를 만듭니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 엠보스
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 9%
@@ -22,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![원자 노드: 엠보스](emboss.resources/comp_emboss_1.png "원자 노드: 엠보스")
+![Atomic node: 엠보스](emboss.resources/comp_emboss_1.png "Atomic node: 엠보스"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,9 +35,9 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="엠보스 툴팁" /></div>
+<div data-preserve-html="true" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="엠보스 툴팁" /></div>
 
-이 노드는 PBR 유사 프로젝트에 자주 사용되지 않지만 텍스처에 단순하고 구워진 조명을 원하는 특정 경우에 사용할 수 있습니다. 또는 [광택이 있는 엠보스](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) 및 [Uber 엠보스](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)는 유사하지만 더 광범위한 기능을 제공합니다.
+이 노드는 PBR 유사 프로젝트에 자주 사용되지 않지만 텍스처에 간단하고 구워진 조명을 원하는 특정 경우에 사용할 수 있습니다. 또는 [광택이 있는 엠보스](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) 및 [Uber 엠보스](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)은 유사하지만 더 광범위한 기능을 제공합니다.
 
 
 
@@ -47,8 +47,8 @@ ht-degree: 9%
 | --- | --- |
 | <b>강도</b> *부동* | 조명 효과의 전체 강도를 조정합니다.   &quot;Height&quot; 맵의 강도 및 조명 효과의 강도를 설정합니다 |
 | <b>조명 각도</b> *부동* | 조명이 시뮬레이션되는 각도를 설정합니다.   엠보싱 이미지의 밝은 영역의 조명 각도를 정의합니다 |
-| <b>강조 색상</b> *Float/Float4* | 조명 각도를 향하는 영역의 색상을 설정합니다.   입력 이미지가 색상인 경우 강조 표시의 색상을 설정합니다. |
-| <b>그림자 색상</b> *Float/Float4* | 밝은 각도에서 반대 방향으로 향하는 영역의 색상을 설정합니다.   엠보싱 이미지의 어두운 영역 색상을 설정합니다. |
+| <b>강조 색상</b> *부동/부동4* | 조명 각도를 향하는 영역의 색상을 설정합니다.   입력 이미지가 색상인 경우 강조 표시의 색상을 설정합니다. |
+| <b>그림자 색상</b> *부동/부동4* | 밝은 각도에서 반대 방향으로 향하는 영역의 색상을 설정합니다.   엠보싱 이미지의 어두운 영역 색상을 설정합니다. |
 
 ## 입력 커넥터
 

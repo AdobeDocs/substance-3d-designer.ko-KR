@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: 거리 노드를 사용하여 모양에서 마스크 및 절차 효과를 만들기 위한 거리 맵을 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 거리
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance")
+![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="거리 도구 설명" /></div>
+<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="거리 도구 설명" /></div>
 
 팽창하는 바깥쪽 페이드는 그것이 다른 전지를 만나자마자 종결될 것이다: 그것들은 결코 겹치지 않을 것이다. 내부적으로 실제로 거리를 계산하여 0.5보다 작은 픽셀까지의 거리를 표시하고 거리 노드를 클램프/최대값으로 설정합니다.
 

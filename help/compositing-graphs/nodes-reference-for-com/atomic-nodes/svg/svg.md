@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
 breadcrumb-title: ""
 description: SVG 노드를 사용하여 SVG 벡터 그래픽을 가져와 확장 가능한 그래픽 요소를 만들기 위한 텍스처로 렌더링합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: SVG
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG")
+![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="svg 툴팁" /></div>
+<div data-preserve-html="true" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svg 툴팁" /></div>
 
 노드를 처음부터 새로 만들거나 SVG 파일을 그래프 보기로 놓아 만들 수 있습니다.
 

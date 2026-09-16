@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: FX-Map 노드를 사용하여 텍스처에 함수 그래프를 적용하여 프로시저 패턴 및 효과를 만들 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: FX-Map
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map")
+![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map 툴팁" /></div>
+<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map 툴팁" /></div>
 
 [픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)과 마찬가지로 이 노드의 동작 및 출력을 결정하는 함수를 정의하고 만드는 것은 사용자의 몫입니다.
 

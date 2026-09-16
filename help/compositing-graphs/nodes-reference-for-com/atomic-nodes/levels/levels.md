@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
-description: '[레벨] 노드를 사용하여 색상 교정 및 개선을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
+description: '[레벨] 노드를 사용하여 색상 교정 및 향상을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 레벨
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels")
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 3%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></div>
+<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></div>
 
 Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값 변경에 대해 가장 정확하고 정확한 인터페이스를 제공하기 때문에 그래프에서 값을 다시 매핑하고 조정하는 데 매우 자주 사용됩니다.
 
@@ -64,10 +64,10 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 |  |  |
 | --- | --- |
-| <b>낮은 수준</b> *Float/Float4* | 입력 이미지의 저조도 레벨을 정의합니다. 입력 [낮음] 값을 다시 매핑하여 전체 검정색이 됩니다. |
-| <b>높은 수준</b> *Float/Float4* | 입력 이미지의 밝은 영역 레벨을 정의합니다.  입력 High 값을 전체 흰색으로 다시 매핑합니다. |
-| <b>중간 수준</b> *Float/Float4* | 입력 이미지의 중간 영역 레벨을 정의합니다.  입력 Mid 값을 중간 회색으로 다시 매핑합니다. |
-| <b>수평 아웃 낮음</b> *Float/Float4* | 출력 이미지의 저조도 레벨을 정의합니다.  제한을 설정하려면 출력 [검정] 값을 클램프합니다. |
+| <b>레벨 인 낮음</b> *부동/부동4* | 입력 이미지의 저조도 레벨을 정의합니다. 입력 [낮음] 값을 다시 매핑하여 전체 검정색이 됩니다. |
+| <b>레벨 인 높음</b> *부동/부동4* | 입력 이미지의 밝은 영역 레벨을 정의합니다.  입력 High 값을 전체 흰색으로 다시 매핑합니다. |
+| <b>레벨 인 중간</b> *부동/부동4* | 입력 이미지의 중간 영역 레벨을 정의합니다.  입력 Mid 값을 중간 회색으로 다시 매핑합니다. |
+| <b>수평 아웃 낮음</b> *부동/부동4* | 출력 이미지의 저조도 레벨을 정의합니다.  검정 값 설정 |
 | <b>레벨 아웃 높음</b> *부동/부동4* | 출력 이미지의 밝은 영역 레벨을 정의합니다.  클램프에서 흰색 값 설정 |
 | <b>중간 클램프</b> *부울* | 0 입력 값을 [1]로 변환한 후 계산합니다. |
 
