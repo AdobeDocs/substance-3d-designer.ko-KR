@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
-description: 균일 색상 노드를 사용하여 단색 채우기 및 기본 레이어를 만들기 위한 균일 색상 텍스처를 생성합니다.
+description: '[균일 색상] 노드를 사용하면 단색 채우기 및 기본 레이어를 만들기 위한 균일 색상 텍스처를 생성할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 균일 색상
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 7%
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 33.33%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: 균일 색상](uniform-color.resources/comp_uniform_1.png "Atomic node: 균일 색상"){width="100%"}
+![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 플랫 회색 음영 또는 색상 값을 생성합니다.
 
@@ -39,9 +39,9 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color 도구 설명" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 |  |  |
 | --- | --- |
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. |
-| <b>출력 색상</b> *부동/부동4* | 출력 이미지에 사용할 단색을 선택합니다.   &#39;색상&#39; 색상 모드를 사용하는 경우 알파 채널은 불투명도에 사용됩니다. 여기서 0은 완전히 투명하고 1은 완전히 불투명합니다. |
+| <b>출력 색상</b> *Float/Float4* | 출력 이미지에 사용할 단색을 선택합니다.   &#39;색상&#39; 색상 모드를 사용하는 경우 불투명도에 Alpha 채널이 사용됩니다. 0은 완전히 투명하고 1은 완전히 불투명합니다. |
 
 
 ## 예

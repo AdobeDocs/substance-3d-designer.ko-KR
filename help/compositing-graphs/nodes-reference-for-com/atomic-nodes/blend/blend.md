@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: 혼합 노드 를 사용하여 합성 효과를 만드는 다양한 혼합 모드를 사용하여 두 텍스처를 혼합합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 혼합
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 8%
@@ -20,14 +20,14 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 지정된 혼합 모드와 선택 사항인 마스크를 사용하여 두 이미지를 결합합니다.
 
@@ -39,13 +39,13 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="혼합 도구 설명" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="blend.resources/blend-tooltip.gif" alt="혼합 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-이 기능은 [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
+이 기능은 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
 
 >[!TIP]
 >
@@ -72,7 +72,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
-> 혼합 노드에는 연결에 따라 회색 음영과 색상 간에 전환하는 동적 입력이 있습니다.<b> 혼합 노드는 같은 유형</b>의 두 입력만 혼합할 수 있습니다.
+> 혼합 노드에는 연결에 따라 회색 음영과 색상 사이를 전환하는 동적 입력이 있습니다.<b> 혼합 노드는 같은 유형</b>의 두 입력만 혼합할 수 있습니다.
 > 
 > 색상과 회색 음영 입력을 전경과 배경에 연결하면 빨간색 연결 점선이 표시되어 계산 오류가 있음을 나타냅니다.
 > 

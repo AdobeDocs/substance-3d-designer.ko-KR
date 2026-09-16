@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: 고급 텍스처 조작을 위해 사용자 정의 표현식을 사용하여 개별 픽셀을 처리하려면 픽셀 프로세서 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 픽셀 프로세서
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: 픽셀 프로세서](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: 픽셀 프로세서"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 각 픽셀의 값이 지정된 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)의 결과인 이미지를 생성합니다.
 
@@ -41,9 +41,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="픽셀 프로세서 툴팁" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="픽셀 프로세서 툴팁" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 |  |  |
 | --- | --- |
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. |
-| <b>픽셀 단위 함수</b> *부동/부동4* | 출력 이미지의 픽셀당 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)가 평가되었습니다.   <b>$pos</b> 변수로 설정된 [Get 부동2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 노드를 사용하여 현재 픽셀의 [정규화](../../../../glossary/glossary.md) 위치에 액세스합니다. |
+| <b>픽셀 단위 함수</b> *Float/Float4* | 출력 이미지의 픽셀당 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)가 평가되었습니다.   <b>$pos</b> 변수로 설정된 [Get 부동2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 노드를 사용하여 현재 픽셀의 [정규화](../../../../glossary/glossary.md) 위치에 액세스합니다. |
 
 ## 입력 커넥터
 

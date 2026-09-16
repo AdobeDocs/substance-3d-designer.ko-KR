@@ -10,32 +10,30 @@ helpx_tags: ""
 title: 값 입력
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 1%
+source-wordcount: '803'
+ht-degree: 0%
 ---
 
 # 값 입력
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: 입력 값](input-value.resources/comp_inputnumeric_1.png "Atomic node: 입력 값"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
-
-## 설명
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 입력 노드는 그래프에 동적 슬롯을 만드는 특수한 유형의 노드로서, 그래프를 다른 컨텍스트에서 사용하면 모든 입력을 연결할 수 있습니다.
 
 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)와 달리 색상, 회색 음영 또는 값 입력을 명시적으로 배치해야 합니다. 자신에게 연결된 것에 따라 유형이 변하는 자신만의 &#39;불가지론적&#39; 입력을 만들 수 없다.
 
-입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 또는 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter))을 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
+입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 또는 [필터](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter))을 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
 
 참고 항목: [입력 색상](../input-color/input-color.md), [회색 음영 입력](../input-grayscale/input-grayscale.md)
 
@@ -45,9 +43,9 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-value.resources/input-value-tooltip.gif" alt="입력 값 도구 설명" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="입력 값 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -109,7 +107,7 @@ ht-degree: 1%
 
 ## 통합 특성
 
-입력은 3D 보기로 직접 전송되지 않지만 해당 사용 특성은 [Substance 3D Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home)에서 특정 맵으로 슬롯을 자동으로 채우는 데 사용됩니다(대부분 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)와 함께 사용됨).
+입력은 3D 보기로 직접 전송되지 않지만 해당 사용 특성은 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)에서 특정 맵으로 슬롯을 자동으로 채우는 데 사용됩니다(대부분 [필터](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)와 함께 사용됨).
 
 또한 올바른 입력 및 출력 슬롯과 일치하도록 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에서도 사용 특성이 사용됩니다.
 

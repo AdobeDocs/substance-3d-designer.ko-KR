@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: '[엠보스] 노드를 사용하면 표면 세부 사항에 깊이 및 부조를 추가하기 위해 텍스처에 엠보스 효과를 만들 수 있습니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 엠보스
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 9%
@@ -20,14 +20,14 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![원자 노드: 엠보스](emboss.resources/comp_emboss_1.png "원자 노드: 엠보스"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 지정된 광원의 방향에 따라 이미지에 있는 모양의 측면을 비춰 엠보싱 효과를 적용합니다.
 
@@ -39,9 +39,9 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="emboss.resources/emboss-tooltip.gif" alt="엠보스 툴팁" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="엠보스 툴팁" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -62,7 +62,7 @@ ht-degree: 9%
 
 |  |  |
 | --- | --- |
-| <b>입력</b> 기본 *회색 음영/색상* | 음영처리되지 않은 기본 색상을 제공합니다. 일종의 확산 색상 또는 기본 색상 텍스처로 볼 수 있습니다. |
+| <b>입력</b> 기본 *회색 음영/색상* | 음영처리되지 않은 기본 색상을 제공합니다. 일종의 확산 또는 기본 색상 텍스처로 볼 수 있습니다. |
 | <b>강도 입력</b> *회색 음영* | 표면의 조명을 계산하는 데 사용되는 높이 맵을 나타냅니다. 검정은 낮고 흰색은 높음 |
 
 

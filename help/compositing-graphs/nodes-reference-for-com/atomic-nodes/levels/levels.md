@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
-description: '[레벨] 노드를 사용하여 색상 교정 및 개선을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
+description: '[레벨] 노드를 사용하여 색상 교정 및 향상을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 레벨
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 3%
@@ -20,14 +20,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 이미지의 어두운 영역, 중간 톤, 밝은 영역에 대한 전역 색조 범위와 색상 균형을 조정합니다.
 
@@ -39,9 +39,9 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -72,10 +72,10 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 |  |  |
 | --- | --- |
-| <b>낮은 수준</b> *Float/Float4* | 입력 이미지의 저조도 레벨을 정의합니다. 입력 [낮음] 값을 다시 매핑하여 전체 검정색이 됩니다. |
-| <b>높은 수준</b> *Float/Float4* | 입력 이미지의 밝은 영역 레벨을 정의합니다.  입력 High 값을 전체 흰색으로 다시 매핑합니다. |
-| <b>중간 수준</b> *Float/Float4* | 입력 이미지의 중간 영역 레벨을 정의합니다.  입력 Mid 값을 중간 회색으로 다시 매핑합니다. |
-| <b>수평 아웃 낮음</b> *Float/Float4* | 출력 이미지의 저조도 레벨을 정의합니다.  제한을 설정하려면 출력 [검정] 값을 클램프합니다. |
+| <b>레벨 인 낮음</b> *부동/부동4* | 입력 이미지의 저조도 레벨을 정의합니다. 입력 [낮음] 값을 다시 매핑하여 전체 검정색이 됩니다. |
+| <b>레벨 인 높음</b> *부동/부동4* | 입력 이미지의 밝은 영역 레벨을 정의합니다.  입력 High 값을 전체 흰색으로 다시 매핑합니다. |
+| <b>레벨 인 중간</b> *부동/부동4* | 입력 이미지의 중간 영역 레벨을 정의합니다.  입력 Mid 값을 중간 회색으로 다시 매핑합니다. |
+| <b>수평 아웃 낮음</b> *부동/부동4* | 출력 이미지의 저조도 레벨을 정의합니다.  제한을 설정하려면 출력 [검정] 값을 클램프합니다. |
 | <b>수준 높음</b> *Float/Float4* | 출력 이미지의 밝은 영역 레벨을 정의합니다.  클램프에서 흰색 값 설정 |
 | <b>중간 클램프</b> *부울* | 0 입력 값을 [1]로 변환한 후 계산합니다. |
 

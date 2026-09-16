@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
-description: 회색 음영 전환 노드를 사용하여 다양한 변환 방법을 사용하여 색상 텍스처를 회색 음영으로 변환합니다.
+description: 다양한 변환 방법을 사용하여 색상 텍스처를 회색 음영으로 변환하려면 [회색 음영 변환] 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 회색 음영 전환
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 7%
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![원자 노드: 회색 음영 변환](grayscale-conversion.resources/comp_grayscaleconversion_1.png "원자 노드: 회색 음영 변환"){width="100%"}
 
 <b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 각 컬러 채널의 휘도를 측정하여 컬러 이미지를 회색조로 변환합니다.
 
@@ -39,9 +39,9 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="회색 음영 변환 도구 설명" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="회색 음영 변환 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -57,8 +57,8 @@ ht-degree: 7%
 
 |  |  |
 | --- | --- |
-| <b>채널 두께</b> *부동4* | 회색 음영 변환에 있는 각 RGBA 채널의 두께를 설정합니다.   기본적으로 RGB 채널 전체에서 균일 분할이 수행됩니다. |
-| <b>알파 병합</b> *부울* | 회색 음영 값에는 Alpha 정보를 포함할 수 없으므로 최종 회색 음영 결과에서 Alpha의 동작을 설정합니다.   *True*&#x200B;이면 입력 이미지의 알파 채널에 대해 회색 음영 변환이 곱해집니다 |
+| <b>채널 두께</b> *Float4* | 회색 음영 변환에 있는 각 RGBA 채널의 두께를 설정합니다.   기본적으로 RGB 채널 전체에서 균일 분할이 수행됩니다. |
+| <b>알파 병합</b> *부울* | 회색 음영 값에는 Alpha 정보를 포함할 수 없으므로 최종 회색 음영 결과에서 Alpha의 동작을 설정합니다.   *True*&#x200B;이면 회색 음영 변환이 입력 이미지의 Alpha 채널에 곱해집니다 |
 | <b>배경 값</b> *부동* | 입력에 알파 마스크가 있을 때 기본 배경 값을 설정합니다. 즉, 어떤 픽셀들이 투명도로 취급될 것인지를 결정한다.   *&#39;알파 병합&#39;이 &#39;True&#39;로 설정된 경우 사용할 수 있습니다.* |
 
 ## 입력 커넥터
