@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 방향 비틀기 노드를 사용하면 방향 왜곡을 텍스처 및 동작 효과에 적용할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 방향성 뒤틀기
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 9%
-
 ---
-
 
 # 방향성 뒤틀기
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![원자 노드: 방향 뒤틀기](directional-warp.resources/comp_directionalwarp_1.png "원자 노드: 방향 뒤틀기"){width="200px"}
+![원자 노드: 방향 뒤틀기](directional-warp.resources/comp_directionalwarp_1.png "원자 노드: 방향 뒤틀기"){width="100%"}
+
+**<b>내부:</b> 원자 노드**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 강도 맵에 따라 지정된 방향으로 픽셀을 변위하여 변형을 일으킬 수 있습니다.
 
@@ -37,42 +37,17 @@ ht-degree: 9%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="방향 비틀기 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 뒤틀기 노드는 매우 간단하지만 유용한 노드로서 다른 더 진보된 효과를 위한 훌륭한 기반이 된다. [경사 흐림](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) 및 [벡터 뒤틀기](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)와 같은 더 고급 대안이 있습니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -90,11 +65,6 @@ ht-degree: 9%
 | <b>입력</b> 기본 *회색 음영/색상* | 뒤틀기 효과를 적용해야 하는 회색 음영 또는 색상 입력 이미지입니다. |
 | <b>강도 입력</b> *회색 음영* | <b>입력</b> 이미지에 적용할 뒤틀기의 양을 정의하는 회색 음영 이미지입니다. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 
@@ -102,17 +72,17 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![방향성 뒤틀기 - 예 1](directional-warp.resources/dir-warp.gif "방향성 뒤틀기 - 예 1"){zoomable="yes"}
+![방향 뒤틀기 - 예 1](directional-warp.resources/dir-warp.gif "방향 뒤틀기 - 예 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향성 뒤틀기 - 예 2](directional-warp.resources/dir-warp02.gif "방향성 뒤틀기 - 예 2"){zoomable="yes"}
+![방향 뒤틀기 - 예 2](directional-warp.resources/dir-warp02.gif "방향 뒤틀기 - 예 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![방향성 뒤틀기 - 예 3](directional-warp.resources/dir-warp03.gif "방향성 뒤틀기 - 예 3"){zoomable="yes"}
+![방향 뒤틀기 - 예 3](directional-warp.resources/dir-warp03.gif "방향 뒤틀기 - 예 3"){zoomable="yes"}
 
 </td>
 </tr>

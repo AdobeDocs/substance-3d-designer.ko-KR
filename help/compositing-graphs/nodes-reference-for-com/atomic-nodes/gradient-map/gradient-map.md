@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 색상화 및 효과를 위해 그레이디언트 경사를 사용하여 회색 음영 값을 색상에 매핑하려면 [그레이디언트 맵] 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그레이디언트 맵
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 2%
-
 ---
-
 
 # 그레이디언트 맵
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="200px"}
+![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 사용자 지정 그레이디언트를 사용하여 이미지의 회색조 값을 재매핑합니다.
 
@@ -37,31 +37,17 @@ ht-degree: 2%
 </tr>
 </table>
 
-이 노드에서는 여러 색상을 정밀하게 매핑할 수 있는 기능이 풍부한 고급 그레이디언트 편집기를 제공합니다. 자세히 알아보려면 이 페이지의 [그레이디언트 편집기](#gradient-editor) 섹션으로 이동하십시오.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## 예
+이 노드에서는 여러 색상을 정밀하게 매핑할 수 있는 기능이 풍부한 고급 그레이디언트 편집기를 제공합니다. 자세히 알아보려면 이 페이지의 [그레이디언트 편집기](#gradient-editor) 섹션으로 이동하십시오.
 
-## 매개변수
+
 
 |  |  |
 | --- | --- |
@@ -86,11 +72,11 @@ ht-degree: 2%
 
 각 핀은 그레이디언트를 따라 해당 위치에 색상을 설정합니다.
 
-첫 번째 핀과 마지막 핀 앞뒤에 있는 그라디언트 부분은 각각 해당 핀의 색상으로 설정됩니다.
+첫 번째 핀과 마지막 핀 전후의 그레이디언트 부분은 해당 그레이디언트의 색상으로 각각 설정됩니다.
 
 ![그레이디언트 편집기 - 그레이디언트 보기](gradient-map.resources/image2017-2-17-17-27-46.png "그레이디언트 편집기 - 그레이디언트 보기")
 
-다음 컨트롤을 사용하여 핀을 편집할 수 있습니다.
+핀 편집에 사용할 수 있는 컨트롤은 다음과 같습니다.
 
 <table>
 <tr style="border: 0;">
@@ -98,7 +84,7 @@ ht-degree: 2%
 
 <b>핀 추가</b>
 
-그라디언트 또는 바로 아래에 있는 [LMB]를 클릭하여 그라디언트 막대에서 클릭한 위치에 핀을 추가합니다.
+그레이디언트 또는 바로 아래에 있는 [LMB]를 클릭하여 그레이디언트 막대에서 클릭한 위치에 핀을 추가합니다.
 
 새 핀은 해당 위치에서 그레이디언트의 색상으로 설정됩니다.
 
@@ -119,23 +105,23 @@ ht-degree: 2%
 
 LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 드래그하여 이동합니다.
 
-핀을 선택하고 <b>Position</b> 매개 변수를 사용하여 숫자 값으로 핀의 위치를 설정할 수도 있습니다. 위치는 [0;1] 범위의 값입니다. 여기서 0은 그레이디언트의 시작이고 1은 그레이디언트의 끝입니다.
+핀을 선택하고 <b>Position</b> 매개 변수를 사용하여 숫자 값으로 그룹의 위치를 설정할 수도 있습니다. 위치는 [0;1] 범위의 값입니다. 여기서 0은 그레이디언트의 시작이고 1은 그레이디언트의 끝입니다.
 
 ![그레이디언트 편집기 - 핀 위치 매개 변수](gradient-map.resources/image2015-8-27-13-56-2.png "그레이디언트 편집기 - 핀 위치 매개 변수")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![그레이디언트 편집기 - 핀 이동](gradient-map.resources/movepin2.gif "그레이디언트 편집기 - 핀 이동")
+![그레이디언트 편집기 - 이동 핀](gradient-map.resources/movepin2.gif "그레이디언트 편집기 - 이동 핀")
 
 </td>
 </tr>
 </table>
 
-여러 핀을 선택하면 모두 *동시에* 이동할 수 있습니다. 하나 이상의 핀이 이동할 때 그레이디언트의 끝과 닿는 경우에는 이동에 사용한 마우스 버튼에 따라 다음 두 가지 비헤이비어를 사용할 수 있습니다.
+여러 핀을 선택하면 *동시에* 이동할 수 있습니다. 하나 이상의 핀이 이동할 때 그레이디언트의 끝과 닿는 경우, 이동에 사용한 마우스 버튼에 따라 다음 두 가지 비헤이비어를 사용할 수 있습니다.
 
-* <b>LMB:</b> 핀은 끝에 남아 있습니다. 즉, 핀이 도달할 때 해당 위치에 쌓이고 상대 위치가 변경됨을 의미합니다.
-* <b>MMB:</b> 핀은 그레이디언트의 다른 쪽 끝으로 다시 돌아갑니다. 즉, 상대 위치가 변경되지 않았음을 의미합니다.
+* <b>LMB:</b> 핀은 끝에 남아 있습니다. 즉, 해당 위치에 도달하고 상대 위치가 변경되면 해당 위치에 쌓입니다.
+* <b>MMB:</b> 핀은 그레이디언트의 다른 쪽 끝으로 다시 반복됩니다. 즉, 상대 위치가 변경되지 않았음을 의미합니다.
 
 <table>
 <tr style="border: 0;">
@@ -143,7 +129,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
 <b>핀 삭제</b>
 
-핀을 선택하고 Delete 키를 누르거나 그라디언트 막대에서 핀을 드래그하여 삭제합니다.
+핀을 선택하고 Delete 키를 누르거나 핀을 그레이디언트 막대 밖으로 드래그하여 삭제합니다.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -194,19 +180,19 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
 <b>채도 감소</b>
 
-이 버튼은 선택한 핀에 설정된 색상의 채도를 낮춥니다.
+이 단추는 선택한 핀에 설정된 색상의 채도를 낮춥니다.
 
 ### 보간 모드
 
-핀을 설정한 후에는 사용 가능한 보간 모드를 사용하여 색상이 한 핀에서 다음 핀으로 전환하는 방법을 제어할 수 있습니다.
+핀이 설정되면 사용 가능한 보간 모드를 사용하여 색상이 한 핀에서 다음 모드로 전환하는 방법을 제어할 수 있습니다.
 
 +++선형
-기본 보간 모드: 각 핀 사이에 간단한 선형 보간을 적용하여 그레이디언트가 균일하게 진행되도록 합니다.
+기본 보간 모드: 각 핀 간에 간단한 선형 보간을 적용하여 그레이디언트가 균일하게 진행되도록 합니다.
 
 +++
 
 +++평면 접선
-핀이 곡선의 포인트인 경우 그레이디언트를 베지어 곡선으로 전환하려고 할 때 이 모드에서는 이러한 포인트가 수평 접선이 있도록 설정합니다.
+그레이디언트 사이를 핀이 곡선의 점인 베지어 곡선으로 전환하려고 할 때 이 모드에서는 이러한 점이 수평 접선을 갖도록 설정합니다.
 
 그러면 매끄러운 단계 보간을 연상시키는 전환이 발생합니다.
 
@@ -222,9 +208,9 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 +++
 
 +++보간 없음
-색상은 핀의 위치에서만 변경되고, 그레이디언트 막대를 따라 다음 핀까지 일정하게 유지됩니다.
+색상은 핀 위치에서만 변경되고, 그레이디언트 막대를 따라 다음 핀 때까지 일정하게 유지됩니다.
 
-그러면 색상 간에 뚜렷한 차이가 나타나며 해당 핀이 설정한 색상만 그레이디언트에 나타납니다.
+그러면 색상 간에 뚜렷한 차이가 나타나며 핀에서 설정한 색상만 그레이디언트에 나타납니다.
 
 +++
 
@@ -255,14 +241,14 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   RGB, HSV 및 Alpha 슬라이더를 사용하면 슬라이더를 조정하거나 해당 숫자 값을 직접 설정하여 색상을 정확하게 설정할 수 있습니다.
 
   또는 슬라이더 아래의 전용 입력 필드에서 hexcode를 사용합니다.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![색상 피커 - RGB, HSV 및 Alpha 슬라이더](gradient-map.resources/image2017-2-17-18-31-41.png "색상 피커 - RGB, HSV 및 Alpha 슬라이더")
 
@@ -289,7 +275,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 선택한 색상은 색상 썸네일의 위쪽에 미리 표시됩니다.\
 아래쪽 절반에는 이전에 사용한 색상이 표시됩니다. LMB를 더블 클릭하여 조정된 색상으로 되돌립니다.
@@ -303,11 +289,11 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </tr>
 </table>
 
-여러 핀을 선택하면 RGB, HSV 및 Alpha 슬라이더가 델타(Δ) 슬라이더로 바뀝니다. 즉, 각 핀의 값을 동일한 양만큼 오프셋하는 데 사용됩니다.
+여러 핀을 선택하면 RGB, HSV 및 Alpha 슬라이더가 델타(Δ) 슬라이더로 바뀝니다. 즉, 각 핀의 값을 같은 양만큼 오프셋하는 데 사용됩니다.
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 또한 색상 축소판 아래에서 버튼으로 사용할 수 있는 기능은 다음과 같습니다.
 
@@ -346,11 +332,6 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 | --- | --- |
 | <b>입력</b> *회색 음영* 기본 | 처리할 회색 음영 이미지. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영* |  |
 
 ## 예
 

@@ -1,50 +1,55 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-breadcrumb-title: ''
-description: 입력 노드를 사용하여 사용자가 표시하고 조정할 수 있는 Substance 그래프에 대한 입력 매개변수를 생성합니다.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input-grayscale.html"
+breadcrumb-title: ""
+description: '[입력] 회색 음영 노드를 사용하여 사용자가 표시하고 조정할 수 있는 Substance 그래프의 회색 음영 입력 매개 변수를 만듭니다.'
 helpx_creative_field: ""
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input grayscale
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 입력
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+title: 회색 음영 입력
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 0%
-
+source-wordcount: '804'
+ht-degree: 1%
 ---
 
-
-# 입력
+# 회색 음영 입력
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: 입력 색상](input.resources/comp_inputcolor_1.png "Atomic node: 입력 색상"){width="200px"}
+![원자 노드: 입력 회색 음영](input-grayscale.resources/comp_inputgrayscale_1.png "원자 노드: 입력 회색 음영"){width="100%"}
 
-</td>
-<td style="border: 0;" valign="top">
-
-![원자 노드: 입력 회색 음영](input.resources/comp_inputgrayscale_1.png "원자 노드: 입력 회색 음영"){width="200px"}
+<b>내부:</b> 원자 노드
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
-![Atomic node: 입력 값](input.resources/comp_inputnumeric_1.png "Atomic node: 입력 값"){width="200px"}
-
-</td>
-</tr>
-</table>
+## 설명
 
 입력 노드는 그래프에 동적 슬롯을 만드는 특수한 유형의 노드로서, 그래프를 다른 컨텍스트에서 사용하면 모든 입력을 연결할 수 있습니다.
 
 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)와 달리 색상, 회색 음영 또는 값 입력을 명시적으로 배치해야 합니다. 자신에게 연결된 것에 따라 유형이 변하는 자신만의 &#39;불가지론적&#39; 입력을 만들 수 없다.
 
-입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)또는 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)를 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
+입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 또는 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter))을 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
+
+참고 항목: [입력 색상](../input-color/input-color.md), [입력 값](../input-value/input-value.md)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="회색 음영 도구 설명 입력" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
 
 ## 매개변수
 
@@ -61,11 +66,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>식별자</b> *문자열* | 유일한 필수 고유 속성입니다. 공백을 포함할 수 없습니다.   이 레이블은 설정된 레이블이 없는 경우 입력에 레이블을 지정하고 다른 출력을 구분하는 데 사용됩니다. &quot;input\_1&quot;에 그대로 두지 마십시오. |
+| <b>식별자</b> *문자열* | 유일한 필수 고유 속성입니다. 공백을 포함할 수 없습니다. 이 레이블은 설정된 레이블이 없는 경우 입력에 레이블을 지정하고 다른 출력을 구분하는 데 사용됩니다. &quot;input\_1&quot;에 그대로 두지 마십시오. |
 | <b>설명</b> *문자열* | Designer 라이브러리 및 Painter 선반에 사용되는 선택적 설명입니다. |
-| <b>레이블</b> *문자열* | Designer 및 Painter UI에서 멋진 레이블 지정에 사용되는 UI 레이블 공백을 포함할 수 있습니다.   밑줄 대신 스페이스바를 사용하여 식별자와 유사한 이름으로 설정하는 것이 좋습니다. |
+| <b>레이블</b> *문자열* | Designer 및 Painter UI에서 멋진 레이블 지정에 사용되는 UI 레이블 공백을 포함할 수 있습니다. 밑줄 대신 스페이스바를 사용하여 식별자와 유사한 이름으로 설정하는 것이 좋습니다. |
 | <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 사용자 데이터(기본적으로 와일드카드 사용자 정의 데이터 필드)입니다. |
-| <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 입력을 함께 그룹화하는 데 사용되는 그룹 특성입니다.   동일한(대/소문자 구분) 그룹 속성을 가진 입력은 컴팩트 재질 모드에서 단일 연결로 표시됩니다. |
+| <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 입력을 함께 그룹화하는 데 사용되는 그룹 특성입니다. 동일한(대/소문자 구분) 그룹 속성을 가진 입력은 컴팩트 재질 모드에서 단일 연결로 표시됩니다. |
 
 ## 상속
 
@@ -74,14 +79,14 @@ ht-degree: 0%
 <td style="border: 0; vertical-align: top">
 
 여러 입력이 있는 경우 이러한 입력에서 그래프가 [기본 매개 변수를 상속](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)하는 방법에 주의해야 합니다.\
-기본 매개 변수에는 특히 <b>출력 크기</b>, <b>출력 형식</b> 및 <b>타일링 모드</b>가 포함됩니다.
+기본 매개 변수에는 특히 <b>출력 크기</b>, <b>출력 형식</b> 및 <b>타일링 모드</b>이 포함됩니다.
 
 입력을 [기본 입력](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 정의할 수 있습니다. 그러면 이 입력은 상속 메서드가 *부모에 대해*(으)로 설정된 모든 입력의 특성을 구동합니다. 입력 노드에서 기본적으로 설정된 *상속 메서드*&#x200B;입니다.
 
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Substance 그래프의 기본 입력](input.resources/node-primary-input.png)
+![Substance 그래프의 기본 입력](input-grayscale.resources/node-primary-input.png)
 
 </td>
 </tr>
@@ -112,6 +117,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>구성 요소</b> *문자열* | 이 옵션은 결과 입력에 실제로 있는 채널을 결정합니다.   이는 통합 및 그래프에서 더 이상 사용되지 않는 레거시 설정입니다. |
+| <b>구성 요소</b> *문자열* | 이 옵션은 결과 입력에 실제로 있는 채널을 결정합니다. 이는 통합 및 그래프에서 더 이상 사용되지 않는 레거시 설정입니다. |
 | <b>사용</b> *문자열* | 이 입력의 유형 또는 용도를 정의합니다. 다른 노드가 이 입력에 연결하는 방법을 나타냅니다. |
 | <b>색상 공간</b> *문자열* | 이 입력을 해석해야 하는 색상 공간을 설정합니다. |

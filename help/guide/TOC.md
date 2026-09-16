@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 21%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -33,7 +31,7 @@ ht-degree: 21%
   + 환경 설정{#preferences}
     + [환경 설정](/help/interface/preferences-window/preferences-window.md)
     + [프로젝트 설정](/help/interface/preferences-window/project-settings/project-settings.md)
-    + [버전 관리](/help/interface/preferences-window/version-control/version-control.md)
+    + [버전 컨트롤](/help/interface/preferences-window/version-control/version-control.md)
   + 탐색기{#explorer}
     + [탐색기](/help/interface/the-explorer-window/the-explorer-window.md)
     + [보내기... / 상호 운용성](/help/interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)
@@ -132,7 +130,9 @@ ht-degree: 21%
       + [값 프로세서](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [뒤틀기](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [출력](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [입력](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [색상 입력](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [회색 음영 입력](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [값 입력](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + 노드 라이브러리{#node-library}
       + [노드 라이브러리](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + 텍스처 생성기{#texture-generators}
@@ -394,7 +394,7 @@ ht-degree: 21%
           + [FXAA](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/fxaa/fxaa.md)
           + [광선](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
           + [모자이크](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/mosaic/mosaic.md)
-          + [다중 방향 뒤틀기](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
+          + [다방향 뒤틀기](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
           + [균일하지 않은 방향 뒤틀기](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)
           + [빠른 반응 확산](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
           + [RT 조도](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-irradiance/rt-irradiance.md)
@@ -421,7 +421,7 @@ ht-degree: 21%
           + [보통 소벨](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [Height에 표준](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [Height HQ에 수직](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
-          + [Normal](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
+          + [표준 변형](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
           + [표준 결합 해제](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md)
           + [표준 벡터 회전](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md)
         + 타일링{#tiling}
@@ -518,7 +518,7 @@ ht-degree: 21%
           + [가죽 마모](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [조명](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [마스크 작성기](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [금속 가장자리 귀](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [금속 가장자리 마모](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [페인트 마모](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [선택 Dirt](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [선블리치](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 고급 텍스처 조작을 위해 사용자 정의 표현식을 사용하여 개별 픽셀을 처리하려면 픽셀 프로세서 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 픽셀 프로세서
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 1%
-
 ---
-
 
 # 픽셀 프로세서
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: 픽셀 프로세서](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: 픽셀 프로세서"){width="200px"}
+![Atomic node: 픽셀 프로세서](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: 픽셀 프로세서"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 각 픽셀의 값이 지정된 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)의 결과인 이미지를 생성합니다.
 
@@ -39,31 +39,20 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="픽셀 프로세서 툴팁" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md)과(와) 마찬가지로 어떤 작업도 수행하려면 내부 기능을 설정해야 합니다. 픽셀 프로세서가 FX-Map과 다른 점은 패턴 모양과 배치를 제어하는 여러 기능을 통해 패턴 배치에만 초점을 맞추지 않는다는 것입니다. 대신, 단일 함수는 모든 픽셀에 대해 병렬로 실행되며, 여기서 각 픽셀은 그것의 이웃들의 계산 결과들을 인식하지 못한다.
 
 픽셀 프로세서는 단일 값에서만 실행되며 픽셀 프로세서에 비해 최적화를 제공할 수 있는 [값 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)과(와) 유사합니다.
 
 노드 기반 편집기에서 [셰이더](../../../../glossary/glossary.md) 함수를 만드는 데 사용되는 모든 사용자의 경우 픽셀 프로세서에서 익숙한 환경을 제공해야 합니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -75,20 +64,6 @@ ht-degree: 1%
 > 
 > 또한 [UV](../../../../glossary/glossary.md), [텍스처 샘플링](../../../../glossary/glossary.md) 및 벡터의 개념을 익히는 것이 좋습니다.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -103,11 +78,6 @@ ht-degree: 1%
 | --- | --- |
 | <b>입력 이미지 #</b> *회색 음영/색상* | [샘플 색상](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 또는 [샘플 회색 음영](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 노드를 사용하여 지정된 색인의 입력에 있는 값에 액세스합니다. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

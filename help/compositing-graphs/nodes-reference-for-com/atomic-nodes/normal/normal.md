@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: '[표준] 노드를 사용하면 표면 세부 사항 및 조명을 제어하기 위한 표준 맵 텍스처를 처리하고 조작할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 법선
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 8%
-
+source-wordcount: '220'
+ht-degree: 7%
 ---
-
 
 # 법선
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="200px"}
+![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 높이 맵으로 해석되는 회색 음영 이미지에서 일반 맵을 계산합니다.
 
@@ -37,42 +37,17 @@ ht-degree: 8%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="normal.resources/normal-tooltip.gif" alt="표준 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 이 노드는 실시간으로 사용할 수 있도록 Height 맵 입력을 일반 맵으로 변환하는 데 자주 사용되는 매우 유용한 노드입니다. [일반 소벨](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) 및 일반 세계 단위로의 Height에서 찾을 수 있는 대안이 있습니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -88,11 +63,6 @@ ht-degree: 8%
 | --- | --- |
 | <b>입력</b> *회색 음영* 기본 | Height 맵으로 해석되는 입력 이미지입니다. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *색상* |  |
 
 ## 예
 

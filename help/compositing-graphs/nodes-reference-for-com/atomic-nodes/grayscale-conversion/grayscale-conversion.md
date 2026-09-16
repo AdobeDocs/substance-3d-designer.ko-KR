@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 다양한 변환 방법을 사용하여 색상 텍스처를 회색 음영으로 변환하려면 [회색 음영 변환] 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 회색 음영 전환
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '278'
 ht-degree: 7%
-
 ---
-
 
 # 회색 음영 전환
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![원자 노드: 회색 음영 변환](grayscale-conversion.resources/comp_grayscaleconversion_1.png "원자 노드: 회색 음영 변환"){width="200px"}
+![원자 노드: 회색 음영 변환](grayscale-conversion.resources/comp_grayscaleconversion_1.png "원자 노드: 회색 음영 변환"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 각 컬러 채널의 휘도를 측정하여 컬러 이미지를 회색조로 변환합니다.
 
@@ -37,56 +37,21 @@ ht-degree: 7%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="회색 음영 변환 도구 설명" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 대부분의 노드는 회색 음영이나 색상으로 출력하도록 설정할 수 있습니다. 여기서 전자는 단순성과 성능을 위해 선호됩니다.
 
 실제로, [그레이디언트 맵](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 노드와 같은 노드를 사용하여 처음부터 회색 음영으로 작업하고 작업 과정 후반부에 이미지를 색상화하는 것이 좋습니다.
 
 즉, 일반적으로 회색 음영 변환 노드는 컬러 이미지를 회색 음영으로 변환할 경우에만 예약되어 있습니다. 이러한 경우 [회색 음영 변환 고급](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) 및 [색상을 마스크로 변환](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md)도 살펴봅니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 입력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -102,11 +67,6 @@ ht-degree: 7%
 | --- | --- |
 | <b>입력</b> 기본 *색상* | 처리할 색상 이미지입니다. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영* |  |
 
 ## 예
 

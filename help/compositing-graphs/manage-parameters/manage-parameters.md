@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 더 나은 워크플로우 구성을 위해 Substance 합성 그래프에서 매개변수를 관리하고 구성하는 방법을 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 파라미터 관리
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 3%
-
 ---
-
 
 # 파라미터 관리
 
@@ -165,11 +163,11 @@ ht-degree: 3%
 
 [그레이디언트 맵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[색상 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[색상 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[회색 음영 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[회색 음영 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designer 버전 12.4의 릴리스 노트를 검토하여 새로운 기능, 개선 사항 및 버그 수정에 대해 알아보십시오.
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 버전 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 1%
-
 ---
-
 
 # 버전 12.4
 
@@ -58,7 +56,7 @@ ht-degree: 1%
 
 ### 이미지 입력을 색상/회색 음영으로 변환
 
-노드 컨텍스트 메뉴를 통해 [입력 색상](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)과 [입력 회색 음영](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 사이를 빠르게 전환합니다.
+노드 컨텍스트 메뉴를 통해 [입력 색상](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)과 [입력 회색 음영](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) 사이를 빠르게 전환할 수 있습니다.
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 
@@ -106,12 +104,12 @@ ht-degree: 1%
 
 <b>고정:</b>
 
-* [3D 보기] &#39;DirectX 표준&#39; 속성 값이 렌더러 간에 공유되지 않습니다.
-* [3D 보기] 뷰포트가 작을 때 장면 통계 표시 확장
+* [3D 보기] &#39;DirectX 일반&#39; 속성 값이 렌더러 간에 공유되지 않습니다.
+* [3D 보기] 장면 통계 디스플레이는 늘리다 뷰포트가 작을 때
 * [3D 보기] 와이어프레임 표시 속성이 저장되지 않음
 * [Content] 방사형 흐림 효과 색상 매개 변수는 알파 채널에 영향을 주지 않습니다
 * [로컬라이제이션] 환경 OpenGL 속성에 추가 슬라이더와 단추가 표시됩니다.
-* [MDL]&#x200B;[Substance 모델] 노출된 노드를 삭제할 때 충돌이 발생합니다
+* [MDL]&#x200B;[Substance 모델] 노출된 노드를 삭제할 때 충돌
 * [환경 설정] 기본\_config 파일을 삭제해도 다시 생성되지 않습니다.
-* [Substance 모델] 인스턴스 레벨에서 표시되지 않는 재정렬 매개 변수 충돌
+* [Substance 모델] 충돌 레벨에서 나타나지 않는 인스턴스 재정렬 매개변수
 * [API] SDProperty.getDefaultValue()가 거의 항상 None을 반환합니다.

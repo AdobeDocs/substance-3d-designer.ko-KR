@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designer의 [속성] 패널을 사용하여 노드 속성 및 그래프 매개 변수를 보고 편집합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Properties
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 속성
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 
 # 속성
 
@@ -61,7 +59,7 @@ Substance 에코시스템의 주요 기능인 [매개 변수 노출](../../compo
 
 노드는 <b>특정 매개 변수</b> 또는<b> 인스턴스 매개 변수</b>(해당 매개 변수가 [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) 또는 [인스턴스](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)인지에 따라 다름)와 [값](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) 작업을 위한 <b>입력 값</b>을 제공합니다.
 
-[입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)과 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)원자성 노드는 가시성을 위해 <b>통합 특성</b> 및 <b>조건</b>을 사용하므로 예외입니다. 이러한 두 속성 집합은 [입력] 및 [출력] 아래의 [그래프] 속성에서 가운데에 액세스할 수도 있습니다.
+[입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 및 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 원자성 노드는 가시성을 위해 <b>통합 특성</b> 및 <b>조건</b>을 사용하므로 예외입니다. 이러한 두 속성 집합은 [입력] 및 [출력] 아래의 [그래프] 속성에서 가운데에 액세스할 수도 있습니다.
 
 그래프에는 몇 가지 추가 범주가 있습니다. <b>입력 매개 변수</b>에는 [노출된 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), <b>입력</b> 및 <b>출력</b>에는 입력 및 출력 노드의 모든 속성이 나열됩니다. [전용 페이지에서 자세히 설명된 모든 그래프 속성을 찾을 수 있습니다.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 

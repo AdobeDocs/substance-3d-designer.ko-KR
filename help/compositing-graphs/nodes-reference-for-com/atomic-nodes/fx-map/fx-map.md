@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: FX-Map 노드를 사용하여 텍스처에 함수 그래프를 적용하여 프로시저 패턴 및 효과를 만들 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: FX-Map
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 2%
-
+source-wordcount: '321'
+ht-degree: 1%
 ---
-
 
 # FX-Map
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="200px"}
+![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수 있으며, 매개 변수와 논리 함수 덕분에 각 패턴의 분포를 제어할 수 있습니다.
 
@@ -37,27 +37,16 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 </tr>
 </table>
 
-[픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)과 마찬가지로 이 노드의 동작 및 출력을 결정하는 함수를 정의하고 만드는 것은 사용자의 몫입니다.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map 툴팁" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+[픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)과 마찬가지로 이 노드의 동작 및 출력을 결정하는 함수를 정의하고 만드는 것은 사용자의 몫입니다.
+
 
 >[!TIP]
 >
@@ -67,9 +56,6 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 >
 > FX-Map 노드를 사용하기 전에 소프트웨어의 모든 측면을 잘 알고 있고 매개 변수에 대한 [수학 함수](../../../../function-graphs/function-graphs.md)를 만드는 데 문제가 없는 것이 좋습니다.
 
-## 예
-
-## 매개변수
 
 다른 노드와 달리 FX-Map의 대부분의 동작은 매개 변수에 의해 결정되지 않고 그 안에 있는 [FX-Map 함수](../../../../function-graphs/fxmaps/fxmaps.md)를 편집함으로써 결정됩니다.
 
@@ -94,11 +80,6 @@ FX-Map은 이미지나 패턴 입력을 반복해서 복제 및 세분화할 수
 | <b>배경</b> 기본 *회색 음영/색상* | 출력 이미지의 배경색입니다. |
 | <b>입력 이미지 #</b> *회색 음영/색상* |  |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

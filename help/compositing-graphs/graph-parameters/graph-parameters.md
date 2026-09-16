@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Designer에서 그래프 매개 변수를 만들고 관리하여 재질 속성과 비헤이비어를 제어하는 방법을 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그래프 매개변수
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 1%
-
 ---
-
 
 # 그래프 매개변수
 
@@ -143,7 +141,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-이 부분에서는 모든 그래프의 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드가 나열됩니다.
+이 부분에서는 모든 그래프의 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 노드가 나열됩니다.
 
 각 항목의 맨 왼쪽에 있는 핸들을 드래그하여 놓아 순서를 변경할 수 있습니다.
 

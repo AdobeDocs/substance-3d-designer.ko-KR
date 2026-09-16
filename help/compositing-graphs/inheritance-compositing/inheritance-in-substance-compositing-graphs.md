@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 상속이 Substance 합성 그래프에서 작동하여 재사용 가능한 그래프 계층 및 변형을 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 그래프에서 상속
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # Substance 그래프에서 상속
 
@@ -196,7 +194,7 @@ Substance 그래프의 모든 노드는 소스의 일부 매개 변수 값을 *�
 </tr>
 </table>
 
-해당 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드에서 **RMB**&#x200B;을 클릭하고 컨텍스트 메뉴에서 **기본 입력으로 설정** 옵션을 선택하여 입력 중 하나를 그래프의 **기본 입력**&#x200B;으로 설정할 수 있습니다.
+해당 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 노드에서 **RMB**&#x200B;을 클릭하고 컨텍스트 메뉴에서 **기본 입력으로 설정** 옵션을 선택하여 입력 중 하나를 그래프의 **기본 입력**&#x200B;으로 설정할 수 있습니다.
 
 </td>
 <td style="border: 0;" valign="top">

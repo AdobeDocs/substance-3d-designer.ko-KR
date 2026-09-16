@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 효과적인 재질 생성을 위해 Substance 합성 그래프에서 값 유형 및 데이터 처리에 대해 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 그래프 값
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 2%
-
 ---
-
 
 # Substance 그래프 값
 
@@ -32,10 +30,10 @@ ht-degree: 2%
 
 두 개의 새로운 Atomic Nodes가 Values와 함께 작동합니다.
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="값 프로세서 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="값 프로세서 노드 아이콘" width="100px"/></div>  <b>[값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)를 사용하면 원하는 수의 회색 음영 또는 색상 입력을 사용하고 이러한 입력을 기반으로 계산에서 단일 값을 반환할 수 있습니다. |
-| <div><img alt="값 입력 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="값 입력 노드 아이콘" width="100px"/></div>  **[값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)을 사용하면 명시적으로 값으로 정의된 하위 그래프에 입력 슬롯을 만들 수 있습니다. |
+| <div><img alt="값 입력 노드 아이콘" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="값 입력 노드 아이콘" width="100px"/></div>  **[입력 값](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | [값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)을 사용하면 명시적으로 값으로 정의된 하위 그래프에 입력 슬롯을 만들 수 있습니다. |
 
 또한 다른 노드에서는 특정 방식으로 이러한 문제를 처리합니다.
 
@@ -51,9 +49,9 @@ ht-degree: 2%
 
 [값]을 사용하는 것은 일반 Substance 그래프 작업과 약간 다릅니다.
 
-값 연결은 [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), [값 입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 또는 [하위 그래프](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에서만 수행할 수 있습니다. 즉, Value Processor는 Value 연결을 처음부터 만들 수 있는 유일한 방법이며 &quot;Static Value&quot; 노드 또는 이와 유사한 노드가 없습니다. 대신 값 프로세서를 만들고 정적 값을 배치하고 동일한 결과를 얻도록 출력으로 설정합니다.
+값 연결은 [값 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), [입력 값](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md) 또는 [하위 그래프](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)에서만 수행할 수 있습니다. 즉, Value Processor는 Value 연결을 처음부터 만들 수 있는 유일한 방법이며 &quot;Static Value&quot; 노드 또는 이와 유사한 노드가 없습니다. 대신 값 프로세서를 만들고 정적 값을 배치하고 동일한 결과를 얻도록 출력으로 설정합니다.
 
-값 프로세서는 단일 값만 반환할 수 있습니다. 여러 값을 반환하거나 값 집합 또는 그룹을 반환하려면 [하위 그래프](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)를 만들어야 합니다.
+값 프로세서는 단일 값만 반환할 수 있습니다. 여러 값을 반환하거나 값 집합 또는 그룹을 반환하려면 [하위 그래프](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)을 만들어야 합니다.
 
 값이 표시되거나 사용 중인 위치를 강조 표시하려면 값 입력 또는 값 출력이 있는 노드를 굵은 노란색 테두리로 강조 표시합니다.
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 그래프 인스턴스 및 하위 그래프를 사용하여 재사용 가능한 그래프 구성 요소 및 모듈식 재질 워크플로우를 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그래프 인스턴스 및 하위 그래프
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # 그래프 인스턴스 및 하위 그래프
 
@@ -42,7 +40,7 @@ Designer에서 노드 체인을 복제할 때마다 해당 체인을 하위 그�
 
 노드를 선택하고 컨텍스트 메뉴에서 &#39;선택 항목에서 그래프 만들기&#39;를 사용하여 노드를 새 그래프로 빠르게 분할할 수 있습니다. 그러면 새 그래프의 식별자를 설정하라는 메시지가 표시되며, 이 식별자는 고유해야 합니다.
 
-선택한 노드가 그래프의 다른 노드에 연결된 경우 이러한 연결을 하위 그래프로 전달하려면 새 그래프에 [입력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 및 [출력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드도 만들어야 합니다.
+선택한 노드가 그래프의 다른 노드에 연결된 경우 이러한 연결을 하위 그래프로 전달하려면 새 그래프에 [입력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 및 [출력](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드도 만들어야 합니다.
 
 또한 원래 노드를 새 그래프를 참조하는 인스턴스 노드로 바꾸는 작업은 나중에 수동으로 수행해야 합니다.
 
