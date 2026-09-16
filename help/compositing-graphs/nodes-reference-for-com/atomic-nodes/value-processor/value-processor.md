@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ""
-description: 값 프로세서 노드를 사용하면 사용자 정의 조정을 위한 수학 연산을 사용하여 텍스처 값을 처리하고 조작할 수 있습니다.
+description: 값 프로세서 노드를 사용하여 사용자 정의 조정을 위한 수학 연산을 사용하여 텍스처 값을 처리하고 조작할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 값 프로세서
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -20,22 +20,22 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: 값 프로세서](value-processor.resources/comp_valueprocessor_1.png "Atomic node: 값 프로세서"){width="20%"}
+![Atomic node: 값 프로세서](value-processor.resources/comp_valueprocessor_1.png "Atomic node: 값 프로세서")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)를 계산하고 결과를 출력합니다.
 
-이는 [픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)와 비슷하지만, 모든 픽셀에 대한 함수를 계산하지 않고 단일 값만 계산하여 Substance 그래프에서 [사용할 수 있게 한다는 점에서 차이가 있습니다](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+이는 [픽셀 프로세서](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)과 비슷하지만, 모든 픽셀에 대한 함수를 계산하지 않고 단일 값만 계산하여 Substance 그래프에서 [사용할 수 있게 한다는 점에서 차이가 있습니다](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="값 프로세서 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="값 프로세서 도구 설명" /></div>
 
 
 >[!TIP]

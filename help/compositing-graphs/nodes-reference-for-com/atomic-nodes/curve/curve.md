@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: 곡선 노드를 사용하면 정밀한 색상 및 밝기 제어를 위해 사용자 정의 가능한 곡선을 사용하여 텍스처 값을 조정할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 곡선
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선"){width="20%"}
+![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 사용자 지정 곡선을 사용하여 이미지의 값을 재매핑합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="곡선 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="곡선 도구 설명" /></div>
 
 대부분의 다른 노드와 달리 곡선 노드에는 슬라이더와 매개 변수가 있는 일반적인 표준 인터페이스가 없지만, 대신 완전한 곡선 편집기를 제공합니다. 사용 방법에 대해서는 아래의 확장 가능 섹션을 참조하십시오.
 
@@ -57,13 +57,13 @@ ht-degree: 2%
 
 점을 만들려면 곡선 보기의 아무 곳이나 두 번 클릭하면 됩니다.
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### 점 영향 제어
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 정확한 결과를 얻기 위해 곡선 노드는 각 점에 대해 서로 다른 모드를 제공합니다.
 
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 색상 노드를 입력하면 각 채널의 곡선을 조정할 수 있습니다.
 
@@ -123,7 +123,7 @@ RGB 곡선 모드에서 ![](curve.resources/image2017-2-17-14-55-0.png)을(를) 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 곡선 보기를 마우스 오른쪽 버튼으로 클릭하면 더 많은 옵션이 제공됩니다.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 변환 2D 노드를 사용하여 평행 이동, 회전 및 비율 조정을 비롯한 2D 변환을 텍스처에 적용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 2D 변환
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 5%
@@ -22,10 +22,10 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 변환 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: 변환 2D"){width="20%"}
+![Atomic node: 변환 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: 변환 2D")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 2D 변환 매트릭스를 이미지에 적용합니다(변환, 회전, 크기 조정, 대칭, 기울이기).
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d 도구 설명" /></div>
 
 이 노드는 매우 유용하고 널리 적용되는 노드로, 타일링 향상, 타일링 제거, 특정 위치에 이미지 배치, 입력 늘리기 또는 찌그러뜨리기 등을 수행할 수 있습니다.
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 > 
 > &#39;타일링 모드&#39; [기본 매개 변수](../../../../glossary/glossary.md)의 [상속 메서드](../../../../glossary/glossary.md)를 &#39;절대&#39;로 설정한 다음 매개 변수 값을 &#39;타일링 없음&#39;으로 설정할 수 있습니다.
 > 
-> ![](transformation-2d.resources/tilingmode.png){width="20%"}
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

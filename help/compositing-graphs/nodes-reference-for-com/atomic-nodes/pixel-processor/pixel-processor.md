@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: 고급 텍스처 조작을 위해 사용자 정의 표현식을 사용하여 개별 픽셀을 처리하려면 픽셀 프로세서 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 픽셀 프로세서
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -20,12 +20,12 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: 픽셀 프로세서](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: 픽셀 프로세서"){width="20%"}
+![Atomic node: 픽셀 프로세서](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: 픽셀 프로세서")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 각 픽셀의 값이 지정된 [Substance 함수 그래프](../../../../function-graphs/the-function-graph/the-function-graph.md)의 결과인 이미지를 생성합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="픽셀 프로세서 툴팁" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="픽셀 프로세서 툴팁" /></div>
 
 [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md)과(와) 마찬가지로 어떤 작업도 수행하려면 내부 기능을 설정해야 합니다. 픽셀 프로세서가 FX-Map과 다른 점은 패턴 모양과 배치를 제어하는 여러 기능을 통해 패턴 배치에만 초점을 맞추지 않는다는 것입니다. 대신, 단일 함수는 모든 픽셀에 대해 병렬로 실행되며, 여기서 각 픽셀은 그것의 이웃들의 계산 결과들을 인식하지 못한다.
 

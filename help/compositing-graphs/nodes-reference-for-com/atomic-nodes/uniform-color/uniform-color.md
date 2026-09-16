@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
-description: '[균일 색상] 노드를 사용하면 단색 채우기 및 기본 레이어를 만들기 위한 균일 색상 텍스처를 생성할 수 있습니다.'
+description: 균일 색상 노드를 사용하여 단색 채우기 및 기본 레이어를 만들기 위한 균일 색상 텍스처를 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 균일 색상
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color"){width="20%"}
+![Atomic node: 균일 색상](uniform-color.resources/comp_uniform_1.png "Atomic node: 균일 색상")
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color 도구 설명" /></div>
 
 
 >[!TIP]
@@ -53,7 +53,7 @@ ht-degree: 7%
 |  |  |
 | --- | --- |
 | <b>색상 모드</b> *부울* | 회색 음영과 색상 출력 이미지 사이를 전환합니다. |
-| <b>출력 색상</b> *Float/Float4* | 출력 이미지에 사용할 단색을 선택합니다.   &#39;색상&#39; 색상 모드를 사용하는 경우 불투명도에 Alpha 채널이 사용됩니다. 0은 완전히 투명하고 1은 완전히 불투명합니다. |
+| <b>출력 색상</b> *부동/부동4* | 출력 이미지에 사용할 단색을 선택합니다.   &#39;색상&#39; 색상 모드를 사용하는 경우 알파 채널은 불투명도에 사용됩니다. 여기서 0은 완전히 투명하고 1은 완전히 불투명합니다. |
 
 
 ## 예

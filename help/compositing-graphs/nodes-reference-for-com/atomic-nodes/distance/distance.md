@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: 거리 노드를 사용하여 모양에서 마스크 및 절차 효과를 만들기 위한 거리 맵을 계산합니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 거리
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="20%"}
+![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 마스크에서 가장 가까운 흰색 픽셀의 위치를 찾아 해당 위치에서 그레이디언트를 출력하거나 소스 이미지의 해당 위치에서 색상을 출력합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="거리 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="거리 도구 설명" /></div>
 
 팽창하는 바깥쪽 페이드는 그것이 다른 전지를 만나자마자 종결될 것이다: 그것들은 결코 겹치지 않을 것이다. 내부적으로 실제로 거리를 계산하여 0.5보다 작은 픽셀까지의 거리를 표시하고 거리 노드를 클램프/최대값으로 설정합니다.
 
@@ -70,17 +70,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="20%"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="20%"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="20%"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

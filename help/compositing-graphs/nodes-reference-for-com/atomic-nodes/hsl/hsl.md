@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ""
-description: HSL 노드를 사용하여 색상 조작 및 교정을 위한 텍스처의 색조, 채도 및 밝기를 조정합니다.
+description: HSL 노드를 사용하여 색상 조작 및 교정을 위해 텍스처의 색조, 채도 및 밝기를 조정합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL"){width="20%"}
+![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 색상 이미지의 색조, 채도 및 밝기를 조정합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl 툴팁" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl 툴팁" /></div>
 
 
 
@@ -47,7 +47,7 @@ ht-degree: 9%
 | --- | --- |
 | <b>색조</b> *부동* | 입력 이미지의 색상을 결정합니다.   0.5 미만의 값은 [색조]를 음수로 이동하고, 0.5 이상의 값은 색조를 양수로 이동합니다. |
 | <b>채도</b> *부동* | 입력 이미지 색상의 채도를 결정합니다.   0.5 미만의 값은 채도를 낮추고 0.5 이상의 값은 채도를 높입니다. |
-| <b>밝기</b> *부동* | 입력 이미지 값의 밝기를 0.5 미만으로 결정하고, 밝기를 0.5 이상으로 하면 값을 증가시킵니다. |
+| <b>밝기</b> *부동* | 입력 이미지의 밝기를 결정합니다. 값이 0.5 미만이면 밝기를 낮추고 값이 0.5 이상이면 높입니다. |
 
 ## 입력 커넥터
 

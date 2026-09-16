@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: '[레벨] 노드를 사용하여 색상 교정 및 개선을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 레벨
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -20,12 +20,12 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="20%"}
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 이미지의 어두운 영역, 중간 톤, 밝은 영역에 대한 전역 색조 범위와 색상 균형을 조정합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></div>
 
 Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값 변경에 대해 가장 정확하고 정확한 인터페이스를 제공하기 때문에 그래프에서 값을 다시 매핑하고 조정하는 데 매우 자주 사용됩니다.
 
@@ -47,14 +47,14 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 강조 표시된 노란색 버튼은 막대 그래프(위쪽) 값 슬라이더(아래쪽) 사이의 인터페이스를 전환합니다
 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png){width="20%"}
+![](levels.resources/levels-2-1.png)
 
 ![](levels.resources/levels-1-1.png)
 
@@ -68,7 +68,7 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 | <b>높은 수준</b> *Float/Float4* | 입력 이미지의 밝은 영역 레벨을 정의합니다.  입력 High 값을 전체 흰색으로 다시 매핑합니다. |
 | <b>중간 수준</b> *Float/Float4* | 입력 이미지의 중간 영역 레벨을 정의합니다.  입력 Mid 값을 중간 회색으로 다시 매핑합니다. |
 | <b>수평 아웃 낮음</b> *Float/Float4* | 출력 이미지의 저조도 레벨을 정의합니다.  제한을 설정하려면 출력 [검정] 값을 클램프합니다. |
-| <b>수준 높음</b> *Float/Float4* | 출력 이미지의 밝은 영역 레벨을 정의합니다.  클램프에서 흰색 값 설정 |
+| <b>레벨 아웃 높음</b> *부동/부동4* | 출력 이미지의 밝은 영역 레벨을 정의합니다.  클램프에서 흰색 값 설정 |
 | <b>중간 클램프</b> *부울* | 0 입력 값을 [1]로 변환한 후 계산합니다. |
 
 ## 사용 안내서

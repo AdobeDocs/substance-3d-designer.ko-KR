@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
-description: 동작 흐림 효과 및 줄무늬 효과를 만들기 위해 방향 흐림 효과 노드를 사용하여 특정 방향으로 흐림 효과를 적용합니다.
+description: 방향 흐림 노드를 사용하여 동작 흐림 효과 및 줄무늬 효과를 만들기 위해 특정 방향으로 흐림 효과를 적용할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 방향성 흐림 효과
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 8%
@@ -20,12 +20,12 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![원자 노드: 방향 흐림 효과](directional-blur.resources/comp_dirmotionblur_1.png "원자 노드: 방향 흐림 효과"){width="20%"}
+![원자 노드: 방향 흐림 효과](directional-blur.resources/comp_dirmotionblur_1.png "원자 노드: 방향 흐림 효과")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 강도 맵에 따라 지정된 방향으로 흐림 효과를 적용합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="방향 흐림 효과 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="방향 흐림 효과 도구 설명" /></div>
 
 흐림 효과와 유사하게 더 빠르고 낮은 품질의 작업이기도 합니다. 확장된 고품질 대안이 [비등방성 흐림 효과](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)에서 제공되며, 성능 절충이 가능합니다
 
@@ -50,7 +50,7 @@ ht-degree: 8%
 
 <b>방향 흐림</b>
 
-![방향 흐림 효과 비교](directional-blur.resources/dirblur-01.png "방향 흐림 효과 비교"){width="20%"}{zoomable="yes"}
+![방향 흐림 효과 비교](directional-blur.resources/dirblur-01.png "방향 흐림 효과 비교"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -69,7 +69,7 @@ ht-degree: 8%
 |  |  |
 | --- | --- |
 | <b>강도</b> *부동* | 흐림 반경(픽셀 단위)을 설정합니다. |
-| <b>각도</b> *부동* | 회전 수에 따른 흐림 효과의 방향은 시계 방향으로, 수평(예: 방향 벡터 (1, 0))부터 시작됩니다. |
+| <b>각도</b> *부동* | 흐림 효과의 회전 수 방향은 가로로 시작하여 시계 방향으로, 즉 방향 벡터 (1, 0)입니다. |
 
 ## 입력 커넥터
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: 뒤틀기 노드를 사용하여 텍스처에 왜곡 효과를 적용하여 뒤틀기 및 변위 효과를 만듭니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 뒤틀기
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 9%
@@ -22,10 +22,10 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 뒤틀기](warp.resources/comp_warp_1.png "Atomic node: 뒤틀기"){width="20%"}
+![Atomic node: 뒤틀기](warp.resources/comp_warp_1.png "Atomic node: 뒤틀기")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 별도의 그레이디언트 입력에서 계산된 기울기 정보에 따라 입력 이미지의 픽셀 값을 변위시켜 변형을 일으킵니다.
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="뒤틀기 도구 설명" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="뒤틀기 도구 설명" /></div>
 
 노드는 작업하기 약간 까다로울 수 있습니다. 효과의 결과는 그레이디언트 입력에 매우 크게 의존하기 때문입니다. 그레이디언트에 대한 작은 수정은 동일한 강도 값으로 큰 시각적 차이를 만들 수 있습니다. 이 노드의 [강도] 슬라이더뿐만 아니라 그레이디언트 입력의 [대비], [광도] 및 [비율]을 사용해 보십시오.
 
