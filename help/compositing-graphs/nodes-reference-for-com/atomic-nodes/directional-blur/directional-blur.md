@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: 동작 흐림 효과 및 줄무늬 효과를 만들기 위해 방향 흐림 효과 노드를 사용하여 특정 방향으로 흐림 효과를 적용합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 방향성 흐림 효과
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 8%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 8%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![원자 노드: 방향 흐림 효과](directional-blur.resources/comp_dirmotionblur_1.png "원자 노드: 방향 흐림 효과"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 8%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="방향 흐림 효과 도구 설명" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="방향 흐림 효과 도구 설명" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 흐림 효과와 유사하게 더 빠르고 낮은 품질의 작업이기도 합니다. 확장된 고품질 대안이 [비등방성 흐림 효과](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)에서 제공되며, 성능 절충이 가능합니다
 

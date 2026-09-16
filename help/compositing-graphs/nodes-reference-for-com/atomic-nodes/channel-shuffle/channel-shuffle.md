@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: 색상 효과를 만들고 채널을 바꾸기 위해 텍스처의 색상 채널을 재정렬하려면 [채널 재편성] 노드를 사용합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 채널 셔플
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: 채널 재편성](channel-shuffle.resources/comp_shuffle.png "Atomic node: 채널 재편성"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="채널 순서 섞기 도구 설명" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="채널 순서 섞기 도구 설명" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Alpha 재편에는 기본 옵션이 있지만 대부분의 경우 채널 패킹 또는 채널 채널을 분리하고 설정하는 경우 [RGBA 병합](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [RGBA 분할](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Alpha 병합](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) 및 [Alpha 분할](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md)을 사용하는 것이 더 빠릅니다. 이 옵션은 여러 매개 변수를 변경하지 않고 나중에 회색 음영으로 변환할 필요가 없는 기본 작업을 수행하도록 설정됩니다. 더 많은 혼합 옵션이 포함된 고급 버전을 원하는 경우에는 [채널 혼합](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md)을 참조하세요.
 

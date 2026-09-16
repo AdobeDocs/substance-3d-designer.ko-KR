@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: 회색 음영 전환 노드를 사용하여 다양한 변환 방법을 사용하여 색상 텍스처를 회색 음영으로 변환합니다.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 회색 음영 전환
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '278'
 ht-degree: 7%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![원자 노드: 회색 음영 변환](grayscale-conversion.resources/comp_grayscaleconversion_1.png "원자 노드: 회색 음영 변환"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 7%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="회색 음영 변환 도구 설명" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="회색 음영 변환 도구 설명" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 대부분의 노드는 회색 음영이나 색상으로 출력하도록 설정할 수 있습니다. 여기서 전자는 단순성과 성능을 위해 선호됩니다.
 

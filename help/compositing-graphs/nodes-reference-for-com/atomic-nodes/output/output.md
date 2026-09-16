@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
 breadcrumb-title: ""
 description: ""
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 출력
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width: 33.33%; vertical-align: top">
 
 ![Atomic node: 출력](output.resources/comp_output_1.png "Atomic node: 출력"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +37,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="output.resources/output-tooltip.gif" alt="출력 도구 설명" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="출력 도구 설명" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 마찬가지로 [게시된 SBSAR 파일](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)에 이 그래프가 포함되어 있으면 해당 파일은 파일을 사용하는 모든 통합 또는 플러그인에서 해당 이미지를 출력할 수 있습니다.
 
@@ -52,7 +60,7 @@ ht-degree: 0%
 | <b>식별자</b> *문자열* | 출력의 고유 식별자입니다. 이 속성은 비워 둘 수 없으며 특수 문자 또는 공백을 포함할 수 없습니다.   이 식별자는 노드의 레이블인 &#39;Label&#39; 속성이 공백으로 남아 있을 때 사용됩니다. [내보낸 텍스처](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)의 이름을 지정하는 데 사용할 수도 있습니다. |
 | <b>설명</b> *문자열* | 출력의 도구 설명으로 사용되는 선택적 설명은 Substance 그래프입니다. |
 | <b>레이블</b> *문자열* | 출력 노드 및 이 그래프를 나타내는 [인스턴스 노드](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)의 해당 커넥터에 대한 레이블로 사용됩니다. 레이블에는 공백 및 특수 문자가 포함될 수 있습니다. |
-| <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
+| <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
 | <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 출력을 함께 그룹화하는 데 사용되는 특성입니다.   &#39;Group&#39; 특성이 동일한 출력이 &#39;Compact Material&#39; 링크 생성 모드에서 단일 연결로 표시됩니다. |
 
 ## 통합 특성
@@ -66,12 +74,12 @@ ht-degree: 0%
 |                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>구성 요소</b> *문자열* | AxF 작업 과정에서 일부 텍스처 채널을 적절한 SVBRDF 셰이더 입력에 매핑하는 데 사용됩니다. |
-| <b>사용</b> *문자열* | 출력 노드의 유형 및 사용을 정의합니다. 이 속성은 다음을 추진하는 데 중요합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">일부 [Substance 생성 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)를 사용할 때 링크 그래프의 노드 연결 </li> <li data-preserve-html="true">3D 보기의 셰이더에 대한 텍스처 연결(아래: &#39;[3D 보기에서의 사용 역할 정보](#about-the-role-of-usages-in-the-3d-view)&#39; 참조)</li> <li data-preserve-html="true">통합/플러그인의 자료에 텍스처 연결</li> </ul> |
+| <b>사용</b> *문자열* | 출력 노드의 유형 및 사용을 정의합니다. 이 속성은 다음을 추진하는 데 중요합니다.<ul data-preserve-html="true"> <li data-preserve-html="true">일부 [Substance 생성 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)를 사용할 때 링크 그래프의 노드 연결 </li> <li data-preserve-html="true">3D 보기의 셰이더에 텍스처 연결(아래 &#39;[3D 보기의 사용 역할 정보](#about-the-role-of-usages-in-the-3d-view)&#39; 참조)</li> <li data-preserve-html="true">통합/플러그인의 자료에 텍스처 연결</li> </ul> |
 | <b>색상 공간</b> *문자열* | 이 출력을 해석해야 하는 색상 공간을 설정합니다. 다른 응용 프로그램의 일부 통합에서 사용되며 Designer에는 영향을 주지 않습니다. |
 
 +++
 
-### 3D 보기에서 사용의 역할에 대해
+### 3D 뷰의 사용 역할 정보
 
 그래프 출력이 종종 특정 텍스처 채널에 대한 최종 결과인 경우가 많기 때문에, 출력은 3D 뷰에서 사용되는 셰이더의 적절한 샘플러로 자동으로 전송될 수 있다.
 

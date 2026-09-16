@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
-description: 색상화 및 효과를 위해 그레이디언트 경사를 사용하여 회색 음영 값을 색상에 매핑하려면 [그레이디언트 맵] 노드를 사용합니다.
+description: 색상화 및 효과를 위해 그레이디언트 경사를 사용하여 회색 음영 값을 색상에 매핑하려면 그레이디언트 맵 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
 helpx_experience_level: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 그레이디언트 맵
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1160'
 ht-degree: 2%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="100%"}
+
+<b>내부:</b> 원자 노드
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map 도구 설명" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map 도구 설명" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 이 노드에서는 여러 색상을 정밀하게 매핑할 수 있는 기능이 풍부한 고급 그레이디언트 편집기를 제공합니다. 자세히 알아보려면 이 페이지의 [그레이디언트 편집기](#gradient-editor) 섹션으로 이동하십시오.
 
@@ -54,7 +62,7 @@ ht-degree: 2%
 그레이디언트 맵 노드의 <b>속성</b>에서 다음과 같은 방법으로 열 수 있습니다.
 
 * <b>그레이디언트 편집기</b> 단추에서 LMB를 클릭합니다.
-* 그레이디언트 막대의 핀에서 LMB 를 두 번 클릭합니다. 그러면 클릭한 핀의 값을 직접 편집할 수 있도록 그레이디언트 편집기에서 해당 핀이 자동으로 선택됩니다.
+* 그레이디언트 막대의 핀에서 [LMB]를 두 번 클릭합니다. 그러면 클릭한 핀이 그레이디언트 편집기에서 자동으로 선택되어 값을 직접 편집할 수 있습니다.
 
 ![그레이디언트 편집기](gradient-map.resources/image2017-2-17-16-13-5.png "그레이디언트 편집기")
 
@@ -240,7 +248,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
   또는 슬라이더 아래의 전용 입력 필드에서 hexcode를 사용합니다.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![색상 피커 - RGB, HSV 및 Alpha 슬라이더](gradient-map.resources/image2017-2-17-18-31-41.png "색상 피커 - RGB, HSV 및 Alpha 슬라이더")
 
@@ -281,7 +289,7 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 </tr>
 </table>
 
-여러 핀을 선택하면 RGB, HSV 및 Alpha 슬라이더가 델타(Δ) 슬라이더로 바뀝니다. 즉, 각 핀의 값을 같은 양만큼 오프셋하는 데 사용됩니다.
+여러 핀을 선택하면 RGB, HSV 및 Alpha 슬라이더가 델타(Δ) 슬라이더로 바뀝니다. 즉, 각 핀의 값을 동일한 양만큼 오프셋하는 데 사용됩니다.
 
 <table>
 <tr style="border: 0;">
