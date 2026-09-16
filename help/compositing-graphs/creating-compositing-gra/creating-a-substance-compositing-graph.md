@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+breadcrumb-title: ""
 description: Substance 3D Designer에서 절차 텍스처 워크플로우를 구축하기 위해 Substance 합성 그래프를 만드는 방법을 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 그래프 만들기
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 1%
-
 ---
-
 
 # Substance 그래프 만들기
 
@@ -28,7 +26,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
 
 새 [Substance 그래프](../../compositing-graphs/substance-compositing-graphs.md)를 만드는 프로세스를 시작하려면 다음 방법 중 하나를 사용할 수 있습니다.
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +42,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +58,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +74,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -106,7 +104,7 @@ Designer에서 텍스처 작성은 사전 제작된 템플릿 또는 빈 그래�
 
 ### 템플릿
 
-Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 있는 그래프 템플릿이 포함되어 있습니다. 여기에는 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드, 이러한 출력으로 값을 전달하는 간단한 노드(예: [균일한 색상](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) 및 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드)가 포함될 수 있습니다.
+Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 있는 그래프 템플릿이 포함되어 있습니다. 여기에는 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드, 이러한 출력으로 값을 전달하는 간단한 노드(예: [균일한 색상](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) 및 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 노드)가 포함될 수 있습니다.
 
 목록에서 템플릿을 두 번 클릭하거나 템플릿을 선택하고 <b>만들기</b> 단추를 클릭하여 해당 템플릿을 사용하여 새 Substance 그래프를 만듭니다. 기본적으로 새 그래프는 저장되지 않은 새 패키지에 배치됩니다.
 
@@ -242,7 +240,7 @@ Designer에는 더 빠르게 시작할 수 있도록 사전 구성된 노드가 
 
 템플릿을 선택한 후 새로운 그래프에 대한 기본 정보를 설정할 수 있습니다. 그래프를 만든 후에는 언제든지 변경할 수 있습니다.
 
-<b>그래프 이름</b>: 그래프의 식별자. 지정된 패키지에 대해 고유해야 하며 공백 및 일부 특수 문자는 포함할 수 없습니다.
+<b>그래프 이름</b>: 그래프의 식별자입니다. 지정된 패키지에 대해 고유해야 하며 공백 및 일부 특수 문자는 포함할 수 없습니다.
 
 <b>크기</b>: 대부분의 노드의 출력 해상도를 제어하는 그래프의 부모 해상도 - 자세한 내용은 [출력 크기](../../compositing-graphs/output-size/output-size.md) 페이지를 참조하십시오. 폭과 Height은 기본적으로 함께 연결되어 있으며, 폭과 Height 콤보 상자 사이의 연결 버튼을 클릭하여 연결을 해제할 수 있습니다.
 

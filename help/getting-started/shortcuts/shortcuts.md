@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+breadcrumb-title: ""
 description: Substance 3D Designer의 키보드 단축키를 사용하여 워크플로우 속도를 높이고 생산성을 향상할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 단축키
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 16%
-
 ---
-
 
 # 단축키
 
 이 페이지에서는 Substance 3D Designer에 대한 모든 단축키의 개요를 찾을 수 있습니다.
-
-## 목차
-
-[키맵](#keymaps)
-
-[단축키 목록](#shortcuts-lists)
 
 ## 키맵
 

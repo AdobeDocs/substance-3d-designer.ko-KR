@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: 처음부터 끝까지 Substance 3D Designer에서 절차 자료를 만드는 필수 작업 과정에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 워크플로우 개요
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: f475b696f2d3ff6c453c5dc27e5672d55d72116e
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 [Substance 그래프](https://substance3d.adobe.com/)는 Substance 3D Designer에서 만든 주요 그래프 유형입니다. 그 목적은 설정된 해상도, 색상 또는 모양에 제한되지 않는 <b>2D 이미지 데이터를 생성하고 처리하는 것</b>입니다. 이 제품은 정적인 사전 설정 결과뿐만 아니라 매우 다양한 이미지 처리 및 생성 도구입니다.
 
-간단한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 직접 생성하지 않는 필터, 여러 채널이 있는 완전한 프로시저 자료 형태로 결과물이 나올 수 있다.
+단순한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 자체 생성하지 않는 필터 또는 여러 채널이 있는 완전한 절차 자료 형태로 결과를 얻을 수 있습니다.
 
 Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getting-started/overview/overview.md)이며 다양한 작업 과정에서 내보내고 사용할 수 있습니다.
 
@@ -85,7 +85,7 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 
 ![Substance 그래프의 조정 필터](workflow-overview.resources/simplefilter.png "Substance 그래프의 조정 필터"){width="512px" zoomable="yes"}
 
-필터 그래프는 노멀 맵을 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(사용자 지정 미리 보기 포함)으로 취하고 [곡률을 변환](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)한 다음 [대비를 조정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)하여 최종 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)으로 볼록한 가장자리의 마스크를 만듭니다.
+필터 그래프는 노멀 맵을 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)(사용자 지정 미리 보기 포함)으로 취하고 [곡률을 변환](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)한 다음 [대비를 조정](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)하여 최종 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)으로 볼록한 가장자리의 마스크를 만듭니다.
 
 [막대 그래프]에 설정된 대비 값을 표시할 수 있으므로 동적 입력 슬롯과 결합하여 간단하지만 유용한 필터가 됩니다.
 

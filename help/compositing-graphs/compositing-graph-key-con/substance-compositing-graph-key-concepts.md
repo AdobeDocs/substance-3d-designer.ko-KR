@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+breadcrumb-title: ""
 description: 노드, 연결 및 작업 과정 기초를 포함하여 Substance 합성 그래프의 주요 개념에 대해 알아보십시오.
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Substance 그래프 주요 개념
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 1%
-
 ---
-
 
 # Substance 그래프 주요 개념
 
@@ -43,7 +41,7 @@ ht-degree: 1%
 * 출력은 <b>고유하게 이름 지정</b>될 수 있으며 이를 식별하도록 지정해야 합니다. 내보내는 데 도움이 됩니다.
 * 노드의 오른쪽에 있는 모든 커넥터는 실제로 출력입니다(&quot;자세한 정보는 하위 그래프 참조).
 
-[입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)은(는) 출력과 비슷합니다. 사용자 또는 다른 사용자가 자신의 데이터를 연결할 수 있는 빈 열린 슬롯입니다. 이 기능을 사용하면 입력 이미지를 수정하는 필터(예: 흐림 효과 또는 대비 조정)와 같이 사용자가 정의한 외부 이미지 데이터에 그래프를 생성할 수 있습니다.
+[입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)은(는) 출력과 비슷합니다. 사용자 또는 다른 사용자가 자신의 데이터를 연결할 수 있는 빈 열린 슬롯입니다. 이 기능을 사용하면 입력 이미지를 수정하는 필터(예: 흐림 효과 또는 대비 조정)와 같이 사용자가 정의한 외부 이미지 데이터에 그래프를 생성할 수 있습니다.
 
 다음은 입력에 대해 알아야 할 몇 가지 사항입니다.
 

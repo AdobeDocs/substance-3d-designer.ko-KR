@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+breadcrumb-title: ""
 description: Substance 3D Designer에서 표현식이 조건에 따라 매개 변수 표시 여부를 제어하는 경우 표시되는 방법을 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 표현식이 있는 경우 표시
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
-
 ---
-
 
 # 표현식이 있는 경우 표시
 
@@ -27,7 +25,7 @@ ht-degree: 1%
 이를 위해 다음 항목의 <b>보이는 경우</b> 속성에 *논리 식*&#x200B;을 입력할 수 있습니다.
 
 * 그래프의 [입력 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* 그래프의 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 노드;
+* 그래프의 [입력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 노드;
 * 그래프의 [출력](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 노드입니다.
 
 ![입력 매개 변수 표시 여부 전환](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "입력 매개 변수 표시 여부 전환"){width="512px"}
