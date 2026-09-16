@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+breadcrumb-title: ""
 description: '[레벨] 노드를 사용하여 색상 교정 및 개선을 위해 텍스처의 명도, 대비 및 색조 범위를 조정합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 레벨
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 4%
-
+source-wordcount: '549'
+ht-degree: 3%
 ---
-
 
 # 레벨
 
@@ -24,7 +22,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,33 +35,13 @@ ht-degree: 4%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="레벨 도구 설명" /></div>
+
 Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값 변경에 대해 가장 정확하고 정확한 인터페이스를 제공하기 때문에 그래프에서 값을 다시 매핑하고 조정하는 데 매우 자주 사용됩니다.
 
 중요한 노드이지만 일부 사용 사례에서는 인터페이스가 약간 번거로울 수 있으므로 대안을 위해 [자동 수준](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [대비/광도](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) 및 [막대 그래프 스캔](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)을 살펴보십시오.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 예
-
-## 매개변수
 
 이 노드에는 값을 조정할 수 있는 히스토그램과 슬라이더의 두 가지 인터페이스가 있습니다. &#39;특정 매개 변수&#39; 헤더 바의 맨 오른쪽 버튼을 사용하여 이 매개 변수 간에 전환할 수 있습니다.
 
@@ -76,7 +54,7 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-2-1.png){width="20%"}
 
 ![](levels.resources/levels-1-1.png)
 
@@ -129,11 +107,6 @@ Substance 3D Designer에서 가장 유용한 핵심 노드 중 하나이며, 값
 | --- | --- |
 | <b>입력</b> 기본 *회색 음영/색상* | 처리할 이미지. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

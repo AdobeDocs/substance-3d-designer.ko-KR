@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+breadcrumb-title: ""
 description: SVG 노드를 사용하여 SVG 벡터 그래픽을 확장 가능한 그래픽 요소를 만들기 위한 텍스처로 가져오고 렌더링합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 1%
-
+source-wordcount: '422'
+ht-degree: 0%
 ---
-
 
 # SVG
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="200px"}
+![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,27 +35,10 @@ ht-degree: 1%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="svg 툴팁" /></div>
+
 노드를 처음부터 새로 만들거나 SVG 파일을 그래프 보기로 놓아 만들 수 있습니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -79,20 +60,6 @@ ht-degree: 1%
 > 
 > [여기](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)에서 이러한 제한 사항에 대해 자세히 알아보세요.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 예
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -112,11 +79,6 @@ ht-degree: 1%
 | --- | --- |
 | <b>배경</b> 기본 *회색 음영/색상* | 벡터 모양으로 가려지지 않은 영역에서 사용할 출력 이미지의 배경색을 설정합니다.   *연결할 때 &#39;[배경색](#parameters)&#39; 매개 변수를 재정의합니다.* |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

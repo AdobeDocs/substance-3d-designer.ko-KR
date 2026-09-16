@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 출력
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # 출력
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomic node: 출력](output.resources/comp_output_1.png "Atomic node: 출력"){width="200px"}
+![Atomic node: 출력](output.resources/comp_output_1.png "Atomic node: 출력"){width="20%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -36,6 +34,8 @@ ht-degree: 0%
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="출력 도구 설명" /></div>
 
 마찬가지로 [게시된 SBSAR 파일](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)에 이 그래프가 포함되어 있으면 해당 파일은 파일을 사용하는 모든 통합 또는 플러그인에서 해당 이미지를 출력할 수 있습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 | <b>식별자</b> *문자열* | 출력의 고유 식별자. 이 속성은 비워 둘 수 없으며 특수 문자 또는 공백을 포함할 수 없습니다.   식별자의 레이블은 &#39;Label&#39; 속성이 공백으로 남아 있는 상태로 사용됩니다. [내보낸 텍스처](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)의 이름을 지정하는 데에도 사용할 수 있습니다. |
 | <b>설명</b> *문자열* | 출력의 도구 설명으로 사용되는 선택적 설명은 Substance 그래프입니다. |
 | <b>레이블</b> *문자열* | 출력 노드 및 이 그래프를 나타내는 [인스턴스 노드](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)의 해당 커넥터에 대한 레이블로 사용됩니다. 레이블에는 공백 및 특수 문자가 포함될 수 있습니다. |
-| <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
+| <b>사용자 데이터</b> *문자열* | 특정 필터링 작업에 사용할 수 있는 선택적 메타데이터입니다. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html)에서 이 데이터를 사용하여 [일부 기능을 구동](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)합니다. |
 | <b>그룹</b> *문자열* | Designer의 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에 대한 출력을 함께 그룹화하는 데 사용되는 특성입니다.   &#39;Group&#39; 특성이 동일한 출력이 &#39;Compact Material&#39; 링크 생성 모드에서 단일 연결로 표시됩니다. |
 
 ## 통합 특성

@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+breadcrumb-title: ""
 description: 혼합 노드 를 사용하여 합성 효과를 만드는 다양한 혼합 모드를 사용하여 두 텍스처를 혼합합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 혼합
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
-
+source-wordcount: '326'
+ht-degree: 8%
 ---
-
 
 # 혼합
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="200px"}
+![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,46 +35,15 @@ ht-degree: 9%
 </tr>
 </table>
 
-이 기능은 [Substance 3D Painter](https://www.adobe.com/kr/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="혼합 도구 설명" /></div>
+
+이 기능은 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 또는 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html)에서 상위 레이어에 설정한 혼합 모드를 통해 서로 혼합되는 두 개의 레이어를 포함하는 것과 비슷합니다.
 
 >[!TIP]
 >
 > [이 전용 페이지](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)의 혼합 노드에서 사용할 수 있는 혼합 모드에 대해 알아봅니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -103,11 +70,6 @@ ht-degree: 9%
 > 
 > 이는 신규 사용자가 색상 및 회색 음영 연결 문제를 겪는 가장 큰 이유입니다. 두 연결 모두 동일한 유형인지 확인하십시오!
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

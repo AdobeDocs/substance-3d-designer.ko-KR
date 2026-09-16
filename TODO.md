@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
-
+source-wordcount: '87'
+ht-degree: 13%
 ---
 # 도도
 
@@ -22,7 +21,7 @@ ht-degree: 12%
   * 금속/금속
   * HDR
   * 반사
-  * 높이 맵
+  * Height 맵
   * 불투명도
   * 절두체
   * 접선 공간
@@ -34,7 +33,6 @@ ht-degree: 12%
 ## 수정 사항
 
 * 노드 페이지의 첫 번째 예제 이미지에 대한 링크 수정(예: 새 소음)
-* [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)에 &#39;Negative integer&#39; 항목 및 끊어진 링크가 없습니다.
 
 ## 인스펙트
 

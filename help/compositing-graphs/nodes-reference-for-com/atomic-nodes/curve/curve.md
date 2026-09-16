@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+breadcrumb-title: ""
 description: 곡선 노드를 사용하면 정밀한 색상 및 밝기 제어를 위해 사용자 정의 가능한 곡선을 사용하여 텍스처 값을 조정할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 곡선
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '608'
 ht-degree: 2%
-
 ---
-
 
 # 곡선
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선"){width="200px"}
+![원자 노드: 곡선](curve.resources/comp_curve_1.png "원자 노드: 곡선"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,53 +35,13 @@ ht-degree: 2%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="곡선 도구 설명" /></div>
+
 대부분의 다른 노드와 달리 곡선 노드에는 슬라이더와 매개 변수가 있는 일반적인 표준 인터페이스가 없지만, 대신 완전한 곡선 편집기를 제공합니다. 사용 방법에 대해서는 아래의 확장 가능 섹션을 참조하십시오.
 
 [하지만 곡선 노드의 매개 변수를 하위 그래프에 노출할 수 없습니다](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). 여기서 유일한 옵션은 [다중 스위치](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)를 사용하여 다른 곡선 프로필 간에 전환하는 것입니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 매개변수
-
-### 곡선 편집기
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 입력 커넥터
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -99,7 +57,7 @@ ht-degree: 2%
 
 점을 만들려면 곡선 보기의 아무 곳이나 두 번 클릭하면 됩니다.
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### 점 영향 제어
 
@@ -259,11 +217,6 @@ X축 또는 Y축의 움직임을 제한합니다.
 | --- | --- |
 | <b>입력</b> 기본 *회색 음영/색상* | 처리할 이미지. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

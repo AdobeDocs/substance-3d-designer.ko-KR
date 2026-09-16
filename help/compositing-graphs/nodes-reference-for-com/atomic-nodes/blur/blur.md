@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
-description: '[흐림 효과] 노드를 사용하여 세부 사항을 매끄럽게 하고 소프트 포커스 효과를 만들기 위해 텍스처에 흐림 효과를 적용합니다.'
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+breadcrumb-title: ""
+description: '[흐림 효과] 노드를 사용하면 세부 사항을 매끄럽게 하고 소프트 포커스 효과를 만들기 위해 텍스처에 흐림 효과를 적용할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 흐림 효과
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 5%
-
 ---
-
 
 # 흐림 효과
 
@@ -24,7 +22,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![흐림 효과 노드 아이콘](blur.resources/blur-9.png){width="200px"}
+![흐림 효과 노드 아이콘](blur.resources/blur-9.png){width="20%"}
 
 **내부:** 원자 노드
 
@@ -42,6 +40,8 @@ ht-degree: 5%
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="흐림 효과 도구 설명" /></div>
 
 ## 매개변수
 

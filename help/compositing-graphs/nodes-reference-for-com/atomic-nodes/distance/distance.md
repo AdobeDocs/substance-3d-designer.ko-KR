@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+breadcrumb-title: ""
 description: 거리 노드를 사용하여 모양에서 마스크 및 절차 효과를 만들기 위한 거리 맵을 계산합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 거리
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '392'
 ht-degree: 8%
-
 ---
-
 
 # 거리
 
@@ -24,7 +22,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="200px"}
+![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ ht-degree: 8%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="거리 도구 설명" /></div>
+
 팽창하는 바깥쪽 페이드는 그것이 다른 전지를 만나자마자 종결될 것이다: 그것들은 결코 겹치지 않을 것이다. 내부적으로 실제로 거리를 계산하여 0.5보다 작은 픽셀까지의 거리를 표시하고 거리 노드를 클램프/최대값으로 설정합니다.
 
 선택적 소스 맵을 사용하면 보조 입력 맵의 텍스처와 셀을 결합할 수 있습니다.
@@ -45,40 +45,7 @@ ht-degree: 8%
 
 자세한 내용은 아래 [예](#examples)를 참조하세요.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -96,11 +63,6 @@ ht-degree: 8%
 | <b>마스크 입력</b> *회색 음영* 기본 | 거리 값을 계산해야 하는 테두리가 있는 회색 음영 마스크입니다.   이미지에서 0.5의 임계값을 사용하여 이진 마스크를 추출합니다. 이 임계값 위의 모든 값은 흰색이고 그 아래의 모든 값은 검정입니다. |
 | <b>원본 입력</b> *색상/회색 음영* | &#39;마스크 입력&#39;에서 가장 가까운 테두리의 픽셀 값을 복사해야 하는 선택적 회색 음영 이미지입니다. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *색상/회색 음영* |  |
 
 ## 예
 
@@ -108,17 +70,17 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="20%"}
 
 </td>
 </tr>

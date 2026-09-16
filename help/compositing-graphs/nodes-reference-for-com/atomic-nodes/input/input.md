@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+breadcrumb-title: ""
 description: 입력 노드를 사용하여 사용자가 표시하고 조정할 수 있는 Substance 그래프에 대한 입력 매개변수를 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 입력
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 
 # 입력
 
@@ -24,27 +22,31 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: 입력 색상](input.resources/comp_inputcolor_1.png "Atomic node: 입력 색상"){width="200px"}
+![Atomic node: 입력 색상](input.resources/comp_inputcolor_1.png "Atomic node: 입력 색상"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![원자 노드: 입력 회색 음영](input.resources/comp_inputgrayscale_1.png "원자 노드: 입력 회색 음영"){width="200px"}
+![원자 노드: 입력 회색 음영](input.resources/comp_inputgrayscale_1.png "원자 노드: 입력 회색 음영"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: 입력 값](input.resources/comp_inputnumeric_1.png "Atomic node: 입력 값"){width="200px"}
+![Atomic node: 입력 값](input.resources/comp_inputnumeric_1.png "Atomic node: 입력 값"){width="20%"}
 
 </td>
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-color-tooltip.gif" alt="입력 색상 도구 설명" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-grayscale-tooltip.gif" alt="회색 음영 도구 설명 입력" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-value-tooltip.gif" alt="입력 값 도구 설명" /></div>
+
 입력 노드는 그래프에 동적 슬롯을 만드는 특수한 유형의 노드로서, 그래프를 다른 컨텍스트에서 사용하면 모든 입력을 연결할 수 있습니다.
 
 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)와 달리 색상, 회색 음영 또는 값 입력을 명시적으로 배치해야 합니다. 자신에게 연결된 것에 따라 유형이 변하는 자신만의 &#39;불가지론적&#39; 입력을 만들 수 없다.
 
-입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)또는 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)를 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
+입력 노드는 [출력 노드](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)만큼 중요하지 않습니다. 입력이 필요 없는 완벽한 기능의 고급 그래프를 사용할 수 있습니다. 입력은 그래프 또는 노드 인스턴스의 결과를 외부 입력(예: Substance 3D Painter에 대한 [인스턴스](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)또는 [필터](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)를 만들 때)을 기반으로 하려는 경우에만 사용됩니다.
 
 ## 매개변수
 
@@ -74,14 +76,14 @@ ht-degree: 0%
 <td style="border: 0; vertical-align: top">
 
 여러 입력이 있는 경우 이러한 입력에서 그래프가 [기본 매개 변수를 상속](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)하는 방법에 주의해야 합니다.\
-기본 매개 변수에는 특히 <b>출력 크기</b>, <b>출력 형식</b> 및 <b>타일링 모드</b>가 포함됩니다.
+기본 매개 변수에는 특히 <b>출력 크기</b>, <b>출력 형식</b> 및 <b>타일링 모드</b>이 포함됩니다.
 
 입력을 [기본 입력](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)(으)로 정의할 수 있습니다. 그러면 이 입력은 상속 메서드가 *부모에 대해*(으)로 설정된 모든 입력의 특성을 구동합니다. 입력 노드에서 기본적으로 설정된 *상속 메서드*&#x200B;입니다.
 
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Substance 그래프의 기본 입력](input.resources/node-primary-input.png)
+![Substance 그래프의 기본 입력](input.resources/node-primary-input.png){width="20%"}
 
 </td>
 </tr>
@@ -104,7 +106,7 @@ ht-degree: 0%
 
 ## 통합 특성
 
-입력은 3D 보기로 직접 전송되지 않지만 해당 사용 특성은 [Substance 3D Painter](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/home)에서 특정 맵으로 슬롯을 자동으로 채우는 데 사용됩니다(대부분 [필터](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/effects/filter)와 함께 사용됨).
+입력은 3D 보기로 직접 전송되지 않지만 해당 사용 특성은 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)에서 특정 맵으로 슬롯을 자동으로 채우는 데 사용됩니다(대부분 [필터](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)와 함께 사용됨).
 
 또한 올바른 입력 및 출력 슬롯과 일치하도록 [링크 만들기 모드](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)에서도 사용 특성이 사용됩니다.
 

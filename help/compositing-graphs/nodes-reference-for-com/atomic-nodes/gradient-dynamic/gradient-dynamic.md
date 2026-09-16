@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+breadcrumb-title: ""
 description: 입력 매개 변수 및 값으로 제어할 수 있는 동적 그레이디언트를 만들려면 [그레이디언트(동적)] 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그래디언트(동적)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 9%
-
+source-wordcount: '310'
+ht-degree: 8%
 ---
-
 
 # 그래디언트(동적)
 
@@ -24,7 +22,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="200px"}
+![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,6 +35,8 @@ ht-degree: 9%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="그레이디언트 동적 도구 설명" /></div>
+
 이는 주로 색상에 대한 파라미터가 노드 밖으로 이동되기 때문에 파라미터를 노출할 수 없는 문제를 회피할 수 있게 한다. 이것이 그것을 &quot;역동적인&quot; 것으로 만드는 것이다.
 
 그레이디언트(동적) 자체는 사용하기 어려운 노드가 아니지만 사용 방법은 좀 더 고급입니다. 대부분의 표준 사용법은 일반 그레이디언트 노드에서 다룰 수 있습니다.
@@ -45,50 +45,7 @@ ht-degree: 9%
 
 또는 단일 경사 입력 내부에 저장된 여러 그레이디언트를 번갈아 사용하는 데 그레이디언트 입력 위치 슬라이더를 사용할 수 있습니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 입력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -105,11 +62,6 @@ ht-degree: 9%
 | <b>회색 음영 입력</b> *회색 음영* 기본 | 다시 매핑할 회색 음영 이미지입니다. |
 | <b>그레이디언트 입력</b> *색상/회색 음영* | 이 이미지에서 그레이디언트가 샘플링됩니다 |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *색상/회색 음영* |  |
 
 ## 예
 

@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 21%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -394,7 +392,7 @@ ht-degree: 21%
           + [FXAA](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/fxaa/fxaa.md)
           + [광선](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
           + [모자이크](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/mosaic/mosaic.md)
-          + [다중 방향 뒤틀기](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
+          + [다방향 뒤틀기](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md)
           + [균일하지 않은 방향 뒤틀기](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md)
           + [빠른 반응 확산](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/reaction-diffusion-fast/reaction-diffusion-fast.md)
           + [RT 조도](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/rt-irradiance/rt-irradiance.md)
@@ -518,7 +516,7 @@ ht-degree: 21%
           + [가죽 마모](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [조명](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [마스크 작성기](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [금속 가장자리 귀](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [금속 가장자리 마모](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [페인트 마모](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [선택 Dirt](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [선블리치](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)

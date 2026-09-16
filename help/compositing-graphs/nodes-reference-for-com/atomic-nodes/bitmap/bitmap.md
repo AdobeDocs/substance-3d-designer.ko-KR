@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+breadcrumb-title: ""
 description: 비트맵 노드를 사용하여 비트맵 이미지를 가져와 Substance 합성 그래프의 텍스처로 사용할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 비트맵
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
-
+source-wordcount: '453'
+ht-degree: 0%
 ---
-
 
 # 비트맵
 
@@ -24,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: 비트맵](bitmap.resources/comp_bitmap.png "Atomic node: 비트맵"){width="200px"}
+![Atomic node: 비트맵](bitmap.resources/comp_bitmap.png "Atomic node: 비트맵"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,27 +37,10 @@ ht-degree: 1%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="비트맵 도구 설명" /></div>
+
 노드를 처음부터 만들거나 지원되는 형식의 [비트맵](../../../../glossary/glossary.md)을 그래프 보기로 놓아 만들 수 있습니다.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -74,30 +55,6 @@ ht-degree: 1%
 > * 반면에 탐색기에서 [비트맵 리소스](../../../../resources/bitmap-resource/bitmap-resource.md)을 삭제할 때는 주의해야 합니다. 이 리소스는 캐시에 유지되므로 해당 세션의 그래프에서 계속 작동하지만 다음에 [패키지](../../../../glossary/glossary.md)를 로드할 때 리소스가 누락된 것으로 표시됩니다.
 > * Substance 그래프가 [조리](../../../../glossary/glossary.md)되면 비트맵 해상도는 원래 크기를 기반으로 하지 않고 그래프 내의 해상도로 고정됩니다. 비트맵 노드의 &#39;Output size&#39; [기본 매개 변수](../../../../glossary/glossary.md)이(가) &#39;Absolute&#39; [상속 메서드](../../../../glossary/glossary.md)을(를) 사용하고, 노드 뒤에 &#39;Relative to parent&#39;로 설정된 [Transform 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 노드(즉, 호스트 그래프의 해상도)를 사용하는 것이 좋습니다.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 매개변수
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 비트맵 페인팅 도구
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 출력 커넥터
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 예
-
-</td>
-</tr>
-</table>
 
 ## 매개변수
 
@@ -111,11 +68,6 @@ ht-degree: 1%
 
 Designer에서 비트맵을 편집할 수 있습니다. [이 섹션](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)의 편집 도구에 대해 자세히 알아보세요.
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영/색상* |  |
 
 ## 예
 

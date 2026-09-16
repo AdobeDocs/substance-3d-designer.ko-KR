@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
 description: 색상화 및 효과를 위해 그레이디언트 경사를 사용하여 회색 음영 값을 색상에 매핑하려면 [그레이디언트 맵] 노드를 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그레이디언트 맵
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1157'
 ht-degree: 2%
-
 ---
-
 
 # 그레이디언트 맵
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="200px"}
+![원자 노드: 그레이디언트 맵](gradient-map.resources/comp_gradient_1.png "원자 노드: 그레이디언트 맵"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,11 @@ ht-degree: 2%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map 도구 설명" /></div>
+
 이 노드에서는 여러 색상을 정밀하게 매핑할 수 있는 기능이 풍부한 고급 그레이디언트 편집기를 제공합니다. 자세히 알아보려면 이 페이지의 [그레이디언트 편집기](#gradient-editor) 섹션으로 이동하십시오.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 예
-
-## 매개변수
 
 |  |  |
 | --- | --- |
@@ -78,7 +56,7 @@ ht-degree: 2%
 * <b>그레이디언트 편집기</b> 단추에서 LMB를 클릭합니다.
 * 그레이디언트 막대의 핀에서 LMB 를 두 번 클릭합니다. 그러면 클릭한 핀의 값을 직접 편집할 수 있도록 그레이디언트 편집기에서 해당 핀이 자동으로 선택됩니다.
 
-![그레이디언트 편집기](gradient-map.resources/image2017-2-17-16-13-5.png "그레이디언트 편집기")
+![그레이디언트 편집기](gradient-map.resources/image2017-2-17-16-13-5.png "그레이디언트 편집기"){width="20%"}
 
 ### 그레이디언트 핀 편집
 
@@ -346,11 +324,6 @@ LMB를 누른 상태에서 선택한 핀을 그레이디언트 막대를 따라 
 | --- | --- |
 | <b>입력</b> *회색 음영* 기본 | 처리할 회색 음영 이미지. |
 
-## 출력 커넥터
-
-|  |  |
-| --- | --- |
-| <b>출력</b> *회색 음영* |  |
 
 ## 예
 
