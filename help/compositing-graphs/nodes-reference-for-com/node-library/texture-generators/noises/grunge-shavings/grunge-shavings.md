@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+breadcrumb-title: ""
 description: '[그런지 쉐이빙] 노드를 사용하여 나무 그레인 및 재질 텍스처 세부 사항을 만들기 위한 쉐이빙 패턴을 생성할 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그런지 쉐이빙스
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '160'
 ht-degree: 5%
-
 ---
-
 
 # 그런지 쉐이빙스
 
@@ -57,13 +55,14 @@ ht-degree: 5%
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" class="modal-image" alt="그런지 쉐이빙 - 예제 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" class="modal-image" alt="그런지 쉐이빙 - 예제 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

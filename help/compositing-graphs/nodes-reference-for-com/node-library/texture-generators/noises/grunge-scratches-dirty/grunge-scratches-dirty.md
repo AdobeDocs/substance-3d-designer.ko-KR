@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+breadcrumb-title: ""
 description: '[그런지 Scratches 더티] 노드를 사용하면 더티 스크래치 패턴을 추가하여 풍화 및 노후화된 재질 효과를 만들 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 그런지 Scratches 더티
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '130'
 ht-degree: 2%
-
 ---
-
 
 # 그런지 Scratches 더티
 
@@ -48,20 +46,21 @@ ht-degree: 2%
 | <b>균형</b> <i>부동</i> | 어두운 값과 밝은 값 간의 균형을 조정합니다. |
 | <b>대비</b> <i>부동</i> | 이미지의 대비를 조정합니다. |
 | <b>반전</b> <i>부울</i> | `1-x` 작업을 사용하여 이미지의 출력을 반전합니다. |
-| <b>비정사각형 확장</b> <i>부울</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>부울</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
 | <b>고급</b> |  |
 | <b>기본 그런지 강도</b> <i>부동</i> | 기본 표면에 적용된 그런지 맵의 강도를 조정합니다. |
 | <b>Scratches 강도</b> <i>부동</i> | 기본 표면의 스크래치 강도를 조정합니다. |
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant2.jpg" class="modal-image" alt="그런지 Scratches 더티 - 예제 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-dirty.resources/grungescratchesdirty-variant.jpg" class="modal-image" alt="그런지 Scratches 더티 - 예제 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

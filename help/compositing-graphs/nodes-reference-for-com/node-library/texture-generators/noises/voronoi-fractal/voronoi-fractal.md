@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+breadcrumb-title: ""
 description: Voronoi 프랙탈 노드를 사용하여 유기적인 세포 텍스처를 만들기 위한 프랙탈 Voronoi 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 보로노이 프랙탈
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 
 # 보로노이 프랙탈
 
@@ -76,31 +74,36 @@ ht-degree: 0%
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" class="modal-image" alt="보로노이 프랙탈 - 예제 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" class="modal-image" alt="보로노이 프랙탈 - 예제 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" class="modal-image" alt="보로노이 프랙탈 - 예제 3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" class="modal-image" alt="보로노이 프랙탈 - 예제 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" class="modal-image" alt="보로노이 프랙탈 - 예제 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" class="modal-image" alt="보로노이 프랙탈 - 예제 6" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" class="modal-image" alt="보로노이 프랙탈 - 예제 7" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" class="modal-image" alt="보로노이 프랙탈 - 예제 8" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

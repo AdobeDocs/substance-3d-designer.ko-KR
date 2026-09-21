@@ -1,8 +1,8 @@
 ---
-source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 11%
 ---
 # 도도
 
@@ -29,6 +29,9 @@ ht-degree: 13%
   * FX-Map
   * 픽셀 프로세서
   * 사전 설정
+* 관리할 AGENTS.md 및 스킬 업데이트:
+  * 이미지: 가운데 배치, 확대/축소
+  * 표: 자동/고정 레이아웃, 텍스트 정렬
 
 ## 수정 사항
 
