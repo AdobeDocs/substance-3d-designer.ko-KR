@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+breadcrumb-title: ""
 description: 3D Voronoi Fractal 노드를 사용하여 부피 텍스처에 대한 3D 위치를 기반으로 프랙탈 보로노이 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Voronoi Fractal
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 
 # 3D Voronoi Fractal
 
@@ -74,27 +72,27 @@ ht-degree: 0%
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" class="modal-image" alt="3D Voronoi Fractal - 예제 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" class="modal-image" alt="3D Voronoi Fractal - 예 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" class="modal-image" alt="3D Voronoi Fractal - 예 3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" class="modal-image" alt="3D Voronoi Fractal - 예 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" class="modal-image" alt="3D Voronoi Fractal - 예 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" class="modal-image" alt="3D Voronoi Fractal - 예 6" />
         </td>
     </tr>
 </table>

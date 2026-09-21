@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise-fractal.html"
+breadcrumb-title: ""
 description: 3D Perlin Noise Fractal node를 사용하여 3D 공간에 프랙탈 Perlin 노이즈 패턴을 생성하여 자세한 볼륨 텍스처를 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D Perlin 노이즈 프랙탈
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 
 # 3D Perlin 노이즈 프랙탈
 
@@ -69,16 +67,16 @@ ht-degree: 0%
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" class="modal-image" alt="3D Perlin 노이즈 프랙탈 - 예제 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" class="modal-image" alt="3D Perlin 노이즈 프랙탈 - 예제 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" class="modal-image" alt="3D Perlin 노이즈 프랙탈 - 예제 3" />
         </td>
     </tr>
 </table>

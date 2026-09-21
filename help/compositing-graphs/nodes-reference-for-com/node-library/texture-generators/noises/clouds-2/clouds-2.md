@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
-breadcrumb-title: ''
-description: Clouds 2 노드를 사용하여 대기 및 부피 텍스처 효과를 생성하기 위한 중간 구름 패턴을 생성합니다.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-2.html"
+breadcrumb-title: ""
+description: Clouds 2 노드를 사용하여 대기 및 부피 텍스처 효과를 만들기 위한 중간 구름 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 2
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 구름 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '240'
 ht-degree: 1%
-
 ---
-
 
 # 구름 2
 
@@ -26,7 +24,7 @@ ht-degree: 1%
 
 ![구름 2 - 아이콘](clouds-2.resources/clouds_2.png "구름 2 - 아이콘"){width="200px"}
 
-<b>내부:</b> 텍스처 생성기 > 잡음
+<b>내부:</b> 텍스처 생성기 > 노이즈
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -65,32 +63,23 @@ ht-degree: 1%
 
 ## 예
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![구름 2 - 예 1](clouds-2.resources/clouds_2_1.png "구름 2 - 예 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![구름 2 - 예 2](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif "구름 2 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![구름 2 - 예 3](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif "구름 2 - 예 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![구름 2 - 예 4](clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif "구름 2 - 예 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="clouds-2.resources/clouds_2_1.png" class="modal-image" alt="구름 2 - 예제 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="구름 2 - 예제 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="구름 2 - 예제 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="구름 2 - 예제 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

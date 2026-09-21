@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+breadcrumb-title: ""
 description: '[3D 보기 장면] 메뉴의 [장면 내보내기] 동작을 사용하여 Designer에서 편집한 모든 내용을 포함한 3D 장면을 내보냅니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 장면 내보내기
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
-
+source-wordcount: '366'
+ht-degree: 0%
 ---
-
 
 # 장면 내보내기
 
@@ -31,26 +29,6 @@ USD 형식으로 내보낼 경우 장면의 콘텐츠는 [장면 브라우저](.
 > Designer에서 장면에 추가한 모든 항목은 내보낸 장면에 포함됩니다(기본 카메라, 기본 환경, 모든 재질 복사).
 
 ![장면 내보내기 작업](exporting-scenes.resources/exportActions.png "장면 내보내기 작업"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 장면 내보내기
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 장면을 레이어로 내보내기
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 텍스처
-
-</td>
-</tr>
-</table>
 
 ## 장면 내보내기
 

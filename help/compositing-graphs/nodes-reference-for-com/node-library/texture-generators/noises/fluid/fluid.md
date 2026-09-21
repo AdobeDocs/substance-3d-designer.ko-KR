@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
-breadcrumb-title: ''
-description: 유체 노드를 사용하여 액체 및 물 표면 텍스처 효과를 만들기 위한 유체와 같은 노이즈 패턴을 생성합니다.
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fluid.html"
+breadcrumb-title: ""
+description: 유체 노드를 사용하여 액체 및 수면 텍스처 효과를 만들기 위한 유체와 같은 노이즈 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fluid
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 유체
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '121'
 ht-degree: 9%
-
 ---
-
 
 # 유체
 
@@ -51,14 +49,16 @@ ht-degree: 9%
 | <b>장애</b> <i>0.0 - 1.0</i> | 작은 변화를 가져오기 위해 노이즈를 위상 이동합니다. |
 | <b>뒤틀기 강도</b> <i>0.0 - 1.0</i> |  |
 | <b>패턴 크기</b> <i>0.0 - 1.0</i> |  |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fluid.resources/fluid-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fluid.resources/fluid-ex.gif" class="modal-image" alt="Fluid - 예 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

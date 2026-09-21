@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+breadcrumb-title: ""
 description: 3D 장면에서 기존 재질을 재정의하여 테스트 및 미리 보기를 위한 자체 Substance 재질로 대체합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 장면 재질 재정의
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
-
 
 # 장면 재질 재정의
 
@@ -25,26 +23,6 @@ ht-degree: 0%
 재질은 처음부터 만들거나 [Substance 그래프로 추출](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)된 조정된 버전의 장면 재질을 만들 수 있습니다.
 
 ![장면 재질을 재정의하고 수정하여 장면 상태로 재설정](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "장면 재질을 재정의하고 수정하여 장면 상태로 재설정"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 장면 재질 재정의
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 장면 상태로 재설정
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 연결된 재질
-
-</td>
-</tr>
-</table>
 
 ## 장면 재질 재정의
 
@@ -74,11 +52,11 @@ ht-degree: 0%
 </tr>
 </table>
 
-내부 장면 설명에 USD을 사용하는 Designer의 컨텍스트에서 오버라이드는 원본과 최대한 일치하는 재질의 *복사본을 만들고* 장면 메시의 *재질 바인딩*&#x200B;을 원본에서 복사본으로 변경하는 것을 의미합니다.
+내부 장면 설명에 USD를 사용하는 Designer의 컨텍스트에서 오버라이드는 가능한 한 원본과 일치하는 재질의 *복사본을 만들고* 장면 메시의 *재질 바인딩*&#x200B;을 원본에서 복사본으로 변경하는 것을 의미합니다.
 
 >[!NOTE]
 >
-> 사본은 루트 아래의 &#39;<b>material</b>&#39; 폴더(USD의 &#39;Scope&#39;)에 장면에 만들어지며 원본과 동일한 식별자에 숫자 접미사를 추가합니다(예: &#39;rustedMetal\_0&#39;)
+> 사본은 루트 아래의 &#39;<b>material</b>&#39; 폴더(USD의 &#39;Scope&#39;)에 장면에 만들어지고 원본과 동일한 식별자 및 숫자 접미사(예: &#39;rustedMetal\_0&#39;)를 사용합니다.
 
 이는 두 가지 중요한 의미를 갖습니다.
 

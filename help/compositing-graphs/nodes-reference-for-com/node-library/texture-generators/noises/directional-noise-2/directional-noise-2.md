@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
+breadcrumb-title: ""
 description: '[방향 노이즈 2] 노드를 사용하면 두 옥타브가 있는 방향 노이즈 패턴을 만들어 비등방성 효과를 낼 수 있습니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 방향 노이즈 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '293'
 ht-degree: 1%
-
 ---
-
 
 # 방향 노이즈 2
 
@@ -67,32 +65,23 @@ ht-degree: 1%
 
 ## 예
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![방향 노이즈 2 - 예 1](directional-noise-2.resources/directional_noise_2_1.png "방향 노이즈 2 - 예 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![방향 노이즈 2 - 예 2](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif "방향 노이즈 2 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![방향 노이즈 2 - 예 3](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif "방향 노이즈 2 - 예 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![방향 노이즈 2 - 예 4](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "방향 노이즈 2 - 예 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/directional_noise_2_1.png" class="modal-image" alt="방향 노이즈 2 - 예제 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="방향 노이즈 2 - 예제 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="방향 노이즈 2 - 예제 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="방향 노이즈 2 - 예제 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

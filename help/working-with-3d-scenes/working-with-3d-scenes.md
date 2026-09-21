@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
 description: Substance 3D Designer에서 3D 장면을 가져와 편집하고 사용하여 재질을 미리 보고 테스트하는 방법을 살펴보세요.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 장면 작업
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # 3D 장면 작업
 
@@ -32,26 +30,6 @@ Designer에서 사용할 수 있는 Substance 그래프 템플릿을 사용하�
 USD 형식으로 내보낼 때 이 워크플로우는 완전히 <b>비파괴</b>할 수 있습니다. 즉, 편집 및 추가 내용만 내보냅니다.
 
 먼저 작업할 3D 장면을 로드하고 세션 간에 Designer의 상태를 유지할 수 있어야 합니다.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 3D 장면의 내용
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 장면 불러오기
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 장면 상태 파일
-
-</td>
-</tr>
-</table>
 
 ## 3D 장면의 내용
 
