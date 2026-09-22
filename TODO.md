@@ -1,8 +1,8 @@
 ---
-source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
+source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 11%
+source-wordcount: '181'
+ht-degree: 6%
 ---
 # 도도
 
@@ -14,7 +14,6 @@ ht-degree: 11%
 ## 추가
 
 * AdobeDocs의 Python API 설명서 진입점
-* 3D 보기: 높은 폴리 메시에서 변위를 사용할 때 `refineLevel = 0`을(를) 사용하여 성능을 개선합니다.
 * &#39;설명서 팝업&#39; 페이지의 예
 * 용어집:
   * HDR
@@ -35,8 +34,23 @@ ht-degree: 11%
 
 ## 수정 사항
 
+* `BnW spots 2` 페이지에서 끊어진 이미지 수정
 * 노드 페이지의 첫 번째 예제 이미지에 대한 링크 수정(예: 새 소음)
 
 ## 인스펙트
 
 * 구성 요소 앞/뒤
+
+## 학습 허브
+
+- SBS 파일 다운로드 차단(질문 [여기](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)) 이해
+- 공개적으로 게시하거나 ToC에 포함하지 않고 페이지를 실시간 테스트하는 방법 이해
+- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/ko/tools/campaign-error-codes))
+- 빌드 샘플 항목 자동화
+  - 파일에서 메타데이터 인제스트 (JSON, YAML, ...)
+  - 인라인 썸네일(확대하려면 클릭)
+  - 샘플 항목의 복잡도 표시자
+- 샘플 작성자에게 SBS 유효성 검사 도구 제공
+- 3D 에셋(활성 구독 포함)에서 다운로드 가능한 SBS 파일 언급
+
+용어집 마이크로사이트?

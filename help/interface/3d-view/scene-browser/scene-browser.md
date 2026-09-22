@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: '[장면 브라우저]를 사용하여 뷰포트에서 3D 장면 요소, 재질 및 개체를 탐색하고 관리합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 장면 브라우저
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 1%
-
 ---
-
 
 # 장면 브라우저
 
@@ -24,31 +22,11 @@ ht-degree: 1%
 
 개체를 선택하고 가시성을 전환하며 [장면 재정의](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)할 재질을 선택할 수 있는 컨트롤을 제공합니다.
 
-Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openusd.org/release/index.html)을(를) 사용하므로 해당 용어와 개념이 장면 트리에서 찾을 수 있습니다.
+Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openusd.org/release/index.html)을(를) 사용하므로 해당 용어와 개념은 장면 트리에서 찾을 수 있습니다.
 
 [3D 보기 장면 도구 모음](../../../interface/3d-view/3d-view.md)에서 전용 토글 버튼 ![](scene-browser.resources/sceneBrowser-toggleButton.png)을(를) 클릭하여 표시합니다.
 
 ![장면 브라우저 - 3D 장면 로드됨](scene-browser.resources/loaded3DScene.png "장면 브라우저 - 3D 장면 로드됨"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 장면 트리
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 장면의 개체 전환
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 연결된 재질
-
-</td>
-</tr>
-</table>
 
 ## 장면 트리
 
@@ -59,6 +37,8 @@ Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openu
 장면 브라우저는 계층 구조 트리에 배열된 객체들의 목록을 표시한다.
 
 개체는 장면의 루트까지 다른 개체의 부모로 지정됩니다. 부모 개체에는 자식 목록을 확장하거나 축소하는 데 사용되는 화살표 단추가 있습니다.
+
+환경, 카메라, 조명, `Mesh` 개체 및 재질 [재정의](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)를 선택하면 [속성](../../../interface/properties/properties.md) 도크에서 표시하고 편집할 수 있는 속성이 일부 개체에 있습니다.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -73,7 +53,7 @@ Designer에서는 장면을 설명하고 관리하기 위해 [USD](https://openu
 
 * <b>경로:</b> 장면에 있는 개체의 전체 경로입니다.
 * <b>TypeName:</b> 개체의 USD 형식입니다.
-* <b>설명서:</b> USD 장면 요소인 개체에 대한 자세한 정보입니다.
+* <b>설명서:</b> USD 장면 요소로 개체에 대한 자세한 정보입니다.
 
 메시에는 꼭지점 수, 얼굴 수 및 UV 수와 같은 추가 정보가 있습니다.
 
@@ -100,7 +80,7 @@ Designer이 로드된 장면에 일부 개체를 추가합니다. Designer에서
 
 * <b>카메라:</b> 장면의 기본 카메라입니다. Designer에서 상호 작용할 수 있는 유일한 카메라입니다. 로드된 장면에 포함된 모든 카메라는 기본 카메라의 사전 설정으로 추가됩니다.
 * <b>환경:</b> 장면의 기본 환경입니다. 장면의 환경에 적용된 모든 텍스처는 해당 환경에만 적용됩니다. 마찬가지로 환경을 회전하면 해당 환경에만 영향을 줍니다.\
-  로드된 장면에 하나 이상의 환경 조명([DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html) USD)이 포함되어 있으면 기본 환경이 자동으로 비활성화되어 장면의 환경 조명을 방해하지 않습니다.
+  로드된 장면에 하나 이상의 환경 조명([USD의 DomeLight](https://openusd.org/release/user_guides/schemas/usdLux/DomeLight.html))가 포함되어 있으면 기본 환경이 자동으로 비활성화되어 장면의 환경 조명을 방해하지 않습니다.
 * <b>점 조명 #:</b> [조명] > [속성 편집]에서 Designer의 점 조명이 활성화된 경우 각 점 조명이 장면에 추가됩니다.
 
 ## 장면의 개체 전환
@@ -132,7 +112,7 @@ Designer이 로드된 장면에 일부 개체를 추가합니다. Designer에서
 
 ### 환경
 
-환경 조명(DomeLight)의 가시성은 다른 개체와 동일한 방식으로 활성화 및 비활성화할 수 있습니다.
+모든 환경 조명(DomeLight)의 가시성은 다른 개체와 동일한 방식으로 활성화 및 비활성화할 수 있습니다.
 
 환경 조명이 비활성화된 경우 장면에 대한 조명 기여도도 비활성화됩니다.
 

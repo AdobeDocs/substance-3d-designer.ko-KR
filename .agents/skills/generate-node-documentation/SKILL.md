@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  도움말/합성-그래프/노드-참조-for-com/노드-라이브러리/에서 사용되는 표준 레이아웃과 일치하도록 Substance 3D Designer 노드-참조 페이지를 작성하는 방법. 해당 노드 라이브러리 트리 또는 동등한 함수-노드/원자-노드 참조 페이지에서 노드 페이지(노드의 설명, 입력, 출력, 매개변수 또는 예제)를 만들거나 편집할 때마다 이 기술을 사용합니다. 폴더/TOC 규칙, 최소 앞면 문제, 아이콘/설명 테이블, 고정된 입력/출력/매개 변수 테이블 및 예제 갤러리에 대해 설명합니다. 일반적인 Adobe Experience League 마크다운 규칙(콜아웃, 링크, UICONTROL/DNL, 이미지)에는 write-experience-league-markdown 기술이 사용됩니다. 이 기술은 노드 페이지 구조만 다룹니다. 정식 예: help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # 노드 설명서 생성
 
@@ -32,13 +31,13 @@ ht-degree: 4%
   공유된 `help/assets/` 폴더 — 단계적으로 폐지되는 레거시 패턴이며, 새로운 및
   편집된 페이지는 고유한 `.resources` 폴더를 사용합니다.
 * 모든 페이지에는 `help/guide/TOC.md`에 해당 항목이 있습니다. 이미지를 추가하거나 이동할 때
-페이지, `TOC.md` 업데이트 및 폴더 레이아웃을 함께 표시(CLAUDE.md의 폴더/목차 참조)
+페이지, `TOC.md` 업데이트 및 폴더 레이아웃을 함께 표시(AGENTS.md의 폴더/목차 참조)
 규칙).
 
 ## 전문
 
 노드 페이지에서 **최소** 블록을 사용합니다. `title` 및 탐색 경로 스타일만 사용
-`description`. (이것은 다음에 대한 11개 필드 기존 블록 CLAUDE.md 문서와는 다릅니다.
+`description`. (이것은 다음에 대한 11개 필드 레거시 블록 AGENTS.md 문서와는 다릅니다.
 일반 콘텐츠 페이지
 
 ```yaml
@@ -88,6 +87,10 @@ Description-cell prose 규칙:
 * 앞줄 바꿈 부분은 문장 시작 부분에 `<i>Note:</i>`/`<i>Tip:</i>`을(를) 사용합니다.
 * `In:`행(HTML 안에 있음)의 `>`에 대해 `&gt;`을(를) 사용합니다. 범주 가져오기 /
 노드 자체의 하위 범주 이름이므로 작성하지 마십시오.
+* 여러 버전(예: 색상/회색 음영/값 또는 번호 매기기 변형)이 있는 노드의 경우
+셀 1/셀 2)와 마찬가지로 다른 하나를 참조하는 최종 설명 단락을 추가합니다
+한 줄 바꿈으로 구분된 상대 링크가 있는 버전. 예: &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;.
 
 ### &#x200B;3. 선택적 콜아웃
 
@@ -149,27 +152,35 @@ Description-cell prose 규칙:
 
 ### &#x200B;7. 예
 
-예제 이미지/GIF이 있는 경우에만 포함합니다. HTML 갤러리 테이블을 사용합니다. `<td>`
-선택적 캡션이 있는 이미지당: 3개 이미지 뒤에 새 `<tr>`로 줄 바꿈. 미디어 경로
-페이지의 `.resources` 폴더를 가리킵니다.
+예제 이미지/GIF이 있는 경우에만 포함합니다. 테두리 없는 고정 레이아웃 HTML 사용
+갤러리 테이블, 이미지당 `<td>`개, 3개 이미지 뒤에 새 `<tr>`개로 줄 바꿈. 미디어 경로
+페이지의 `.resources` 폴더를 가리킵니다. 다음에 대해 HTML `<img>` 요소 사용
+예를 들어, `class="modal-image"`을(를) 사용하면 게시된 이미지가 표준에서 열립니다
+이미지 뷰어. 노드 및 예제를 식별하는 의미 있는 `alt` 텍스트를 제공합니다.
+번호. 이 갤러리에서 마크다운 이미지 구문을 사용하지 마십시오.
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-부분적으로 채워진 최종 행의 후행 셀을 비어 있는 상태로 둡니다(`<td …></td>`).
-리플로우. 소스에 아무 것도 없는 경우에는 캡션을 생략합니다.
+테이블의 `style="table-layout:fixed"`과(와) `style="border: 0;"`
+표시된 것과 정확히 같은 특성을 사용할 수 있으며 테두리, 여백 또는 배경 스타일은 추가하지 않습니다.
+부분적으로 채워진 최종 행의 후행 셀을 비워 둡니다.
+리플로우하지 않고 (`<td style="border: 0;"></td>`). 기존 이미지 사용
+순서 및 파일 이름. 페이지에 캡션이 있는 경우 `alt` 텍스트로 유지하십시오.
+표시 가능한 캡션 마크업 추가와 동일합니다. 페이지에 가 없는 경우 전체 섹션 생략
+예제 미디어.
 
 ## 표준 유형 값
 
