@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+breadcrumb-title: ""
 description: 향상된 재질 미리 보기 및 시각화를 위해 3D 보기 카메라에 후처리 효과를 적용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 후처리 효과
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '726'
 ht-degree: 4%
-
 ---
-
 
 # 후처리 효과
 
@@ -27,31 +25,6 @@ ht-degree: 4%
 이러한 효과는 자체 개발되었으며 래스터라이저와 GPU 패스트레이서 [렌더러](../../../../interface/3d-view/3d-renderers/3d-renderers.md)에서만 사용할 수 있습니다.
 
 [3D 장면 리소스](../../../../resources/3d-scene-resource/3d-scene-resource.md) 또는 [장면 상태 파일](../../../../working-with-3d-scenes/working-with-3d-scenes.md)을 저장할 때 활성화된 모든 게시물 효과는 장면 상태의 일부로 저장됩니다.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 톤 매핑
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 빛　번짐효과
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 필드 심도
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## 톤 매핑
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 변위 팝업을 사용하여 3D 장면의 메시에 적용된 변위 및 테셀레이션을 빠르게 조정할 수 있습니다.
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 보기 - 변위 팝업
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 2%
-
 ---
-
 
 # 변위 팝업
 
@@ -74,6 +72,13 @@ Substance 그래프가 자료에 연결되어 있고 해당 그래프는 다음�
 
 하위 분할은 상황에 따라 다릅니다. *불균일한 Height 값*을 가진 서체만 표시되도록 최적화되었습니다.
 *평평하지 않은 높이 맵*&#x200B;은 매개 변수 값에 관계 없이 세분화됩니다.
+
+>[!TIP]
+>
+>테셀레이션 기법은 실제로 어떤 테셀레이션이 발생하든 상관없이 실행되는 준비 단계를 포함한다. (예: `Tessellation factor = 1`)
+>높은 폴리 메시의 경우, 이 단계는 시간 소모적일 수 있으며 변위 사용 시 성능에 상당한 영향을 줄 수 있다.
+>
+>쪽맞춤이 필요하지 않은 경우 [장면 브라우저](../scene-browser/scene-browser.md#scene-tree)에 나열된 `Mesh` 개체의 속성에서 **수준 다듬기** 매개 변수를 `0`(으)로 설정하여 기술을 완전히 비활성화할 수 있습니다.
 
 ### 재질당
 
