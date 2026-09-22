@@ -89,8 +89,8 @@ Description-cell prose 규칙:
 노드 자체의 하위 범주 이름이므로 작성하지 마십시오.
 * 여러 버전(예: 색상/회색 음영/값 또는 번호 매기기 변형)이 있는 노드의 경우
 셀 1/셀 2)와 마찬가지로 다른 하나를 참조하는 최종 설명 단락을 추가합니다
-한 줄 바꿈으로 구분된 상대 링크가 있는 버전. 예: `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`.
+한 줄 바꿈으로 구분된 상대 링크가 있는 버전. 예: &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;.
 
 ### &#x200B;3. 선택적 콜아웃
 
