@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
+source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 11%
 ---
 # 도도
@@ -21,7 +21,7 @@ ht-degree: 11%
   * 금속/금속
   * HDR
   * 반사
-  * Height 맵
+  * 높이 맵
   * 불투명도
   * 절두체
   * 접선 공간
@@ -35,6 +35,7 @@ ht-degree: 11%
 
 ## 수정 사항
 
+* `BnW spots 2` 페이지에서 끊어진 이미지 수정
 * 노드 페이지의 첫 번째 예제 이미지에 대한 링크 수정(예: 새 소음)
 
 ## 인스펙트
