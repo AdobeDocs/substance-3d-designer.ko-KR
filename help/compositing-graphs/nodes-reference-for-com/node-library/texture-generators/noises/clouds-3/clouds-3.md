@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Clouds 3 노드를 사용하여 대기 및 부피 텍스처 효과를 만들기 위한 고급 클라우드 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 3
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 구름 3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '240'
 ht-degree: 1%
-
 ---
-
 
 # 구름 3
 
@@ -60,37 +58,28 @@ ht-degree: 1%
 | <b>장애 속도</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
 | <b>장애 비등방성</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 방향 범위를 제어합니다. 값이 높을수록 방향이 더 좁고 정의됩니다.    방향은 <b>장애 비등방성 각도</b> 매개 변수에 의해 제어됩니다. |
 | <b>장애 비등방성 각도</b> <i>부동</i> | <b>장애 비등방성</b> 매개 변수가 0이 아닌 경우 <b>장애</b> 매개 변수에 의해 적용된 변위의 방향을 제어합니다. |
-| <b>타일 오프셋</b> <i>Float2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
+| <b>타일 오프셋</b> <i>부동2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
 | <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![구름 3 - 예 1](clouds-3.resources/clouds_3_1.png "구름 3 - 예 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![구름 3 - 예 2](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso0.gif "구름 3 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![구름 3 - 예 3](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso1.gif "구름 3 - 예 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![구름 3 - 예 4](clouds-3.resources/noise_clouds_3_v2_speed0.3_aniso0.6.gif "구름 3 - 예 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="clouds-3.resources/clouds_3_1.png" class="modal-image" alt="구름 3 - 예제 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso0.gif" class="modal-image" alt="구름 3 - 예제 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso1.gif" class="modal-image" alt="구름 3 - 예제 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="clouds-3.resources/noise_clouds_3_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="구름 3 - 예제 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

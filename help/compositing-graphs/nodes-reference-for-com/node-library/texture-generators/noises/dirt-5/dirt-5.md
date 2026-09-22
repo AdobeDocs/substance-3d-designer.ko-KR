@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-5.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Dirt 5 노드를 사용하여 풍화 및 오래된 표면 세부 사항을 만들기 위한 고급 Dirt 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 5
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: DIRT 5
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '246'
 ht-degree: 1%
-
 ---
-
 
 # DIRT 5
 
@@ -60,37 +58,28 @@ ht-degree: 1%
 | <b>장애 속도</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 거리를 조정합니다.    이 효과는 노이즈에 애니메이션을 적용할 때 변위 속도를 제어하는 데 사용할 수 있습니다. |
 | <b>장애 비등방성</b> <i>부동</i> | <b>Disorder</b> 매개 변수에 의해 적용된 변위의 방향 범위를 제어합니다. 값이 높을수록 방향이 더 좁고 정의됩니다.    방향은 <b>장애 비등방성 각도</b> 매개 변수에 의해 제어됩니다. |
 | <b>장애 비등방성 각도</b> <i>부동</i> | <b>장애 비등방성</b> 매개 변수가 0이 아닌 경우 <b>장애</b> 매개 변수에 의해 적용된 변위의 방향을 제어합니다. |
-| <b>타일 오프셋</b> <i>부동2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
+| <b>타일 오프셋</b> <i>Float2</i> | 노이즈를 렌더링하는 데 사용되는 무한 평면 부분의 위치를 제어합니다. |
 | <b>정사각형이 아닌 확장</b> <i>부울</i> | 정사각형이 아닌 이미지에서 생성된 타일 사각형을 유지하고 노이즈 생성을 이미지 경계까지 확장합니다. |
 
 ## 예
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - 예 1](dirt-5.resources/dirt_5_1.png "Dirt 5 - 예 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - 예 2](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso0.gif "Dirt 5 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - 예 3](dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso1.gif "Dirt 5 - 예 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 5 - 예 4](dirt-5.resources/noise_dirt_5_v2_speed0.3_aniso0.6.gif "Dirt 5 - 예 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-5.resources/dirt_5_1.png" class="modal-image" alt="Dirt 5 - 예제 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso0.gif" class="modal-image" alt="Dirt 5 - 예제 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-5.resources/noise_dirt_5_v2_speed0.6_aniso1.gif" class="modal-image" alt="Dirt 5 - 예제 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-5.resources/noise_dirt_5_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Dirt 5 - 예제 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

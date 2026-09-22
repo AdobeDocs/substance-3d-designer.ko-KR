@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 주름진 노드를 사용하여 접힌 원단과 주름진 표면 텍스처 효과를 만들기 위한 주름 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 주름진
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 8%
-
 ---
-
 
 # 주름진
 
@@ -54,10 +52,12 @@ ht-degree: 8%
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="creased.resources/creased-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="creased.resources/creased-ex.gif" class="modal-image" alt="주름진 - 예제 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

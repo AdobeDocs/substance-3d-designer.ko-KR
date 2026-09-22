@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Crystal 2 노드를 사용하여 결정성 및 기하학적 텍스처 효과를 내기 위한 고급 크리스탈 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 크리스탈
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '111'
 ht-degree: 6%
-
 ---
-
 
 # 크리스탈
 
@@ -49,14 +47,16 @@ angular, 천 주름 같은 패턴을 생성합니다. [주름 노이즈](../../.
 |:---|:---|
 | <b>크기 조절</b> <i>1 - 16</i> | 효과의 전체 배율을 설정합니다. |
 | <b>장애</b> <i>0.0 - 1.0</i> | 작은 변화를 가져오기 위해 노이즈를 위상 이동합니다. |
-| <b>비정사각형 확장</b> <i>거짓/참</i> | 제곱이 아닌 비율로 스쿼시와 스트레치를 보정할 수 있습니다. |
+| <b>비정사각형 확장</b> <i>거짓/참</i> | 사각형이 아닌 비율로 squash 및 squash를 보정할 수 있습니다. |
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="crystal-2.resources/crystal-2-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="crystal-2.resources/crystal-2-1.png" class="modal-image" alt="Crystal 2 - 예제 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

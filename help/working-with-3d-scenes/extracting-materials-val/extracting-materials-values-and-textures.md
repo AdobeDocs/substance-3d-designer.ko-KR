@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 3D 장면에서 재질 속성을 추출하여 재질 제작 워크플로를 위한 Substance 그래프에 사용합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,39 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 재질 값 및 텍스처 추출
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # 재질 값 및 텍스처 추출
 
 재료의 특성을 추출하여 Substance 그래프에 사용할 수 있습니다.
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 텍스처의 새 그래프
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 텍스처 추출
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 값 추출
-
-</td>
-</tr>
-</table>
 
 ## 텍스처의 새 그래프
 

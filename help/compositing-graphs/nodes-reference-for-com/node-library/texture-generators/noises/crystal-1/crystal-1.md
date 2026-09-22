@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Crystal 1 노드를 사용하여 결정성 및 면처리된 텍스처 효과를 생성하기 위한 결정 패턴을 생성합니다.
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 크리스탈
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 8%
-
+source-wordcount: '90'
+ht-degree: 7%
 ---
-
 
 # 크리스탈
 
@@ -51,10 +49,12 @@ angular 거리 메트릭이 조금 더 긴 Worlye Voronoi 유형의 노이즈를
 
 ## 예
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="crystal-1.resources/crystal-1-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="crystal-1.resources/crystal-1-ex.gif" class="modal-image" alt="Crystal 1 - 예제 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: '[BnW 스팟 1] 노드를 사용하여 텍스처 변형과 세부 마스크를 만들기 위한 흑백 스팟 패턴을 생성합니다.'
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 흑백 반점 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '277'
 ht-degree: 1%
-
 ---
-
 
 # 흑백 반점 1
 
@@ -66,32 +64,23 @@ ht-degree: 1%
 
 ## 예
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![BnW 스팟 1 - 예 1](bnw-spots-1.resources/bnw_spots_1_1.png "BnW 스팟 1 - 예 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![BnW 스팟 1 - 예 2](bnw-spots-1.resources/noise_bnw_spots_1_v2_speed0.6_aniso0.gif "BnW 스팟 1 - 예 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![BnW 스팟 1 - 예 3](bnw-spots-1.resources/noise_bnw_spots_1_v2_speed0.6_aniso1.gif "BnW 스팟 1 - 예 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![BnW 스팟 1 - 예 4](bnw-spots-1.resources/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "BnW 스팟 1 - 예 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-1.resources/bnw_spots_1_1.png" class="modal-image" alt="BnW 스팟 1 - 예제 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-1.resources/noise_bnw_spots_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="BnW 스팟 1 - 예제 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-1.resources/noise_bnw_spots_1_v2_speed0.6_aniso1.gif" class="modal-image" alt="BnW 스팟 1 - 예제 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-1.resources/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="BnW 스팟 1 - 예제 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
