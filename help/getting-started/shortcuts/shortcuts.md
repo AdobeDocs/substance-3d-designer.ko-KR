@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: Substance 3D Designer의 키보드 단축키를 사용하여 워크플로우 속도를 높이고 생산성을 향상할 수 있습니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 단축키
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 17%
@@ -43,6 +43,8 @@ ht-degree: 17%
 | 실행 취소 | Ctrl + Z | ⌘ + Z |
 | 다시 실행 | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### 그래프 보기
 
 **뷰포트**
@@ -60,6 +62,8 @@ ht-degree: 17%
 | 노드 메뉴 | 스페이스바 | 스페이스바 |
 | [탐색 핀](../../interface/the-graph-view/graph-items/graph-items.md) 순환 | F2 | F2 |
 
+{style="table-layout:fixed"}
+
 **링크 만들기 모드**
 
 >[!NOTE]
@@ -71,6 +75,8 @@ ht-degree: 17%
 | 표준 | 1 | 1 |
 | 재질 | 2 | 2 |
 | 컴팩트 재질 | 3 | 3 |
+
+{style="table-layout:fixed"}
 
 **그래프에서 개체를 선택한 경우**
 
@@ -84,6 +90,8 @@ ht-degree: 17%
 | 노드 고정/고정 해제 | D | D |
 | 노드 비활성화 | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### 2D 보기
 
 | 액션 | Windows | macOS |
@@ -94,6 +102,8 @@ ht-degree: 17%
 | 100% 배율로 재설정 | Z | Z |
 | 보기에 맞추기 | F | F |
 | 타일식 표시 전환 | 스페이스바 | 스페이스바 |
+
+{style="table-layout:fixed"}
 
 ### 3D 보기
 
@@ -106,3 +116,5 @@ ht-degree: 17%
 | 일시적으로 포인트 라이트 1 컨트롤로 전환 | ⇧(고정) | ⇧(고정) |
 | 궤도 지점 조명 1 | LMB + 드래그 | LMB + 드래그 |
 | 돌리 포인트 라이트 1 | RMB + 드래그 | RMB + 드래그 |
+
+{style="table-layout:fixed"}

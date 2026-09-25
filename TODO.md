@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 5%
 ---
 # 도도
@@ -20,7 +20,7 @@ ht-degree: 5%
   * 금속/금속
   * HDR
   * 반사
-  * Height 맵
+  * 높이 맵
   * 불투명도
   * 절두체
   * 접선 공간
@@ -39,6 +39,7 @@ ht-degree: 5%
 
 ## 수정 사항
 
+* [overview.md](help/getting-started/overview/overview.md)에서 아이콘 크기 수정
 * `BnW spots 2` 페이지에서 끊어진 이미지 수정
 * 노드 페이지의 첫 번째 예제 이미지에 대한 링크 수정(예: 새 소음)
 
@@ -50,7 +51,7 @@ ht-degree: 5%
 
 - SBS 파일 다운로드 차단(질문 [여기](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)) 이해
 - 공개적으로 게시하거나 ToC에 포함하지 않고 페이지를 실시간 테스트하는 방법 이해
-- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/ko/tools/campaign-error-codes))
+- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - 빌드 샘플 항목 자동화
   - 파일에서 메타데이터 인제스트 (JSON, YAML, ...)
   - 인라인 썸네일(확대하려면 클릭)

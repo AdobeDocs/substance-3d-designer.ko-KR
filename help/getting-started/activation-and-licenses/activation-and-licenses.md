@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ""
 description: 모든 기능에 액세스하기 위해 Substance 3D Designer을 활성화하고 라이선스를 관리하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 활성화 및 라이선스
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 | 에디션 | 활성화 프로세스 |
 |:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Creative Cloud 데스크탑(CCD) | CCD 앱에서 제품을 설치한 다음 실행합니다. 라이선스에 문제가 있는 경우 다음 페이지로 이동하십시오. [구독 오류로 인해 앱이 실행되지 않음](https://helpx.adobe.com/kr/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [계정, 플랜 및 결제 도움말](https://helpx.adobe.com/kr/account/individual.html) |
+| Creative Cloud 데스크탑(CCD) | CCD 앱에서 제품을 설치한 다음 실행합니다. 라이선스에 문제가 있는 경우 다음 페이지로 이동하십시오. [구독 오류로 인해 앱이 실행되지 않음](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [계정, 플랜 및 결제 도움말](https://helpx.adobe.com/account/individual.html) |
 | 증기 | Steam 라이브러리에서 직접 제품을 실행합니다. |
 | Substance(독립 실행형) | 아래에 설명된 활성화 프로세스를 참조하십시오. |
 
@@ -40,7 +40,7 @@ Designer을 처음 실행하면 활성화 마법사가 열리고 활성화 프�
 
 >[!IMPORTANT]
 >
-> 활성화 마법사를 사용하여 라이선스 파일을 설치하려면 관리자로 Designer을 실행하고 안티바이러스를 일시적으로 비활성화해야 합니다.
+> 활성화 마법사와 함께 라이선스 파일을 설치하려면 Designer을 관리자로 실행하고 안티바이러스를 일시적으로 비활성화해야 합니다.
 
 ![활성화 마법사](activation-and-licenses.resources/activation-wizard.png "활성화 마법사")
 
@@ -48,7 +48,7 @@ Designer을 처음 실행하면 활성화 마법사가 열리고 활성화 프�
 
 다음 폴더에 license.key 파일을 넣어 Designer을 수동으로 활성화할 수 있습니다.
 
-<table data-preserve-html="true">
+<table data-preserve-html="true" style="table-layout:auto">
     <tbody>
         <tr>
             <th style="text-align: left;">플랫폼</th>

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
-description: 처음부터 끝까지 Substance 3D Designer에서 절차 자료를 만드는 필수 작업 과정에 대해 알아봅니다.
+description: 처음부터 끝까지 Substance 3D Designer에서 프로시저 재질을 만드는 필수 작업 과정에 대해 알아봅니다.
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 워크플로우 개요
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Substance 3D Designer은 노드 기반의 편집기입니다. 즉, 거의 모든
 
 Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편집 소프트웨어와 다릅니다. 메뉴 옵션으로 이동하고 슬라이더를 변경하여 채도를 조정하는 등의 작업을 수동으로 수행하는 대신 이미지를 편집하거나 만드는 논리적 단계를 구성합니다. 이것은 &#39;노드&#39;라고 불리는 작은 빌딩 블록의 네트워크를 구축하는 것에 의해 발생한다. 이미지 데이터는 정보의 경로를 결정하는 링크로 연결된 빌딩 블록을 통해 <b>에서 왼쪽</b>으로 이동합니다. 모든 노드가 연결된 경우 최종 결과에 기여합니다.
 
-작업 과정이 **비선형**&#x200B;이 된다는 것이 가장 큰 장점입니다. 기록 스택으로 들어가는 수동으로 수행되는 작업과 달리, 언제든지 노드를 교체하거나 수정할 수 있습니다.
+작업 과정이 **비선형**이 된다는 것이 가장 큰 장점입니다. 기록 스택으로 들어가는 수동으로 수행되는 작업과 달리, 언제든지 노드를 교체하거나 수정할 수 있습니다.
 최종 결과에 영향을 주는 첫 번째 [대비] 조정이 너무 강렬하다고 판단되는 경우에도 다시 돌아가 조정을 하거나 나중에 수행한 모든 작업을 잃지 않고 완전히 잘라낼 수 있습니다.
 
 ![그래프 인스턴스 단순화](workflow-overview.resources/sub-graph.png "그래프 인스턴스 단순화")
@@ -54,24 +54,24 @@ Designer에서 작업하는 것은 Photoshop과 같은 다른 2D 이미지 편�
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance 그래프
-
-[Substance 그래프](https://substance3d.adobe.com/)는 Substance 3D Designer에서 만든 주요 그래프 유형입니다. 그 목적은 설정된 해상도, 색상 또는 모양에 제한되지 않는 <b>2D 이미지 데이터를 생성하고 처리하는 것</b>입니다. 이 제품은 정적인 사전 설정 결과뿐만 아니라 매우 다양한 이미지 처리 및 생성 도구입니다.
-
-단순한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 자체 생성하지 않는 필터 또는 여러 채널이 있는 완전한 절차 자료 형태로 결과를 얻을 수 있습니다.
-
-Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getting-started/overview/overview.md)이며 다양한 작업 과정에서 내보내고 사용할 수 있습니다.
 
 </td>
 </tr>
 </table>
+
+[Substance 그래프](https://substance3d.adobe.com/)는 Substance 3D Designer에서 만든 주요 그래프 유형입니다. 그 목적은 설정된 해상도, 색상 또는 모양에 제한되지 않는 <b>2D 이미지 데이터를 생성하고 처리하는 것</b>입니다. 이 제품은 정적인 사전 설정 결과뿐만 아니라 매우 다양한 이미지 처리 및 생성 도구입니다.
+
+간단한 흑백 패턴, 다른 이미지에서만 실행되며 콘텐츠를 직접 생성하지 않는 필터, 여러 채널이 있는 완전한 프로시저 자료 형태로 결과물이 나올 수 있다.
+
+Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getting-started/overview/overview.md)이며 다양한 작업 과정에서 내보내고 사용할 수 있습니다.
 
 #### 예
 
@@ -109,14 +109,18 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance 함수 그래프
+
+</td>
+</tr>
+</table>
 
 함수는 픽셀 세트(이미지)가 아닌 **단일 값**(정수, 부동 소수점, 벡터)을 처리합니다. 함수도 Substance 그래프이지만 [관련된 노드](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) 및 해당 인터페이스는 노드 그래프와 다릅니다.
 
@@ -126,10 +130,6 @@ Substance 그래프는 [가장 널리 지원되는 그래프 유형](../../getti
 * [노출된 매개 변수](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)의 동작을 수정하는 중
 * [픽셀 프로세서](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 또는 [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)의 동작 작성
 * 특정 목적을 위해 Substance 그래프에서 이미지 대신 [값](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)을 사용합니다
-
-</td>
-</tr>
-</table>
 
 #### 예
 
