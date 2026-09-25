@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ""
 description: Substance 3D 파일 포맷과 애플리케이션에서 사용할 수 있도록 절차 자료 및 텍스처를 저장하는 방법에 대해 알아봅니다.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Substance 그래프는 클래식 비트맵 파일과 달리 그래프에서 생�
 
 예를 들어, 물체에 Dust이 얼마나 있는지, 축구팀 져지의 색깔이나 잘린 돌바닥 패턴 등을 즉석에서 바꿀 수 있다. 당신의 상상력은 사실상 유일한 한계입니다.
 
-패키지는 컴파일되고 자체 포함된 **Substance 3D 보관 파일**(`*.sbsar`)에 *게시*&#x200B;될 수 있으므로 여기에 포함된 그래프를 [Substance 통합](https://www.adobe.com/products/substance3d/plugins.html)이 있는 외부 응용 프로그램에서 사용할 수 있습니다.
+패키지는 컴파일되고 자체 포함된 **Substance 3D 보관 파일**(`*.sbsar`)에 *게시*&#x200B;될 수 있으므로 여기에 포함된 그래프를 [Substance 통합](https://www.adobe.com/kr/products/substance3d/plugins.html)이 있는 외부 응용 프로그램에서 사용할 수 있습니다.
 
 Substance 그래프는 **100% 프로시저**&#x200B;의 텍스처를 만들어 매우 가벼운 패키지 파일 크기를 만들 수 있습니다.
 

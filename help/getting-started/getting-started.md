@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started.html"
+helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started.html"
 breadcrumb-title: ""
 description: Substance 3D Designer의 기본 사항을 알아보고 단계별 안내서로 프로시저 재질 제작을 시작하세요.
 helpx_creative_field: ""

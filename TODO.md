@@ -50,7 +50,7 @@ ht-degree: 5%
 
 - SBS 파일 다운로드 차단(질문 [여기](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)) 이해
 - 공개적으로 게시하거나 ToC에 포함하지 않고 페이지를 실시간 테스트하는 방법 이해
-- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/ko/tools/campaign-error-codes))
 - 빌드 샘플 항목 자동화
   - 파일에서 메타데이터 인제스트 (JSON, YAML, ...)
   - 인라인 썸네일(확대하려면 클릭)
