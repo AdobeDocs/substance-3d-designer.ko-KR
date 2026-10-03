@@ -61,7 +61,7 @@ user-guide-title: ""
 
 * 영어는 진리의 원천이다; 다른 모든 언어는 그것으로부터 번역된다.
 * 다른 문서 페이지에 대한 모든 링크는 **상대** 링크여야 하고 외부 리소스에 대한 모든 링크는 **절대** 링크여야 합니다.
-* 콘텐츠는 Experience League의 사용자 지정 확장/변경 사항이 있는 GitHub 풍의 마크다운에 기록되며 [여기](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)에 문서화되어 있습니다. 자세한 내용은 `write-experience-league-markdown` 스킬(있는 경우)을 사용하세요.
+* 콘텐츠는 Experience League의 사용자 지정 확장/변경 사항이 있는 GitHub 풍의 마크다운에 기록되며 [여기](https://experienceleague.adobe.com/ko/docs/contributor/contributor-guide/writing-essentials/markdown)에 문서화되어 있습니다. 자세한 내용은 `write-experience-league-markdown` 스킬(있는 경우)을 사용하세요.
 * 제출된 모든 변경 사항은 CI에서 자동화된 린트 검사 및 링크 유효성 검사를 거칩니다(아래 참조). 규칙이 적용되거나 링크가 수정되어야 한다고 가정하기 전에 `markdownlint_custom.json` 및 `linkcheckexclude.json`을(를) 확인하십시오.
 
 &#x200B;# 검증 / CI
