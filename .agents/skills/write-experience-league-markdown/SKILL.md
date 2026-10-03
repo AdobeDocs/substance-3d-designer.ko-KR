@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Adobe Experience League에 게시된 [마크다운] 콘텐츠를 작성하기 위한 구문 규칙, 사용자 정의 확장 및 개선 사항입니다. 이 레포(또는 다른 Experience League 콘텐츠 레포)에서 도움말/ 제목, 링크, 이미지, 표, 메모/경고 블록, UICONTROL/DNL 태그, 비디오 임베드, 앵커 및 알려진 렌더링 함수와 같은 페이지를 만들거나 편집할 때마다 이 기술을 사용합니다. 출처: https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Adobe Experience League에 게시된 [마크다운] 콘텐츠를 작성하기 위한 구문 규칙, 사용자 정의 확장 및 개선 사항입니다. 이 레포(또는 다른 Experience League 콘텐츠 레포)에서 도움말/ 제목, 링크, 이미지, 표, 메모/경고 블록, UICONTROL/DNL 태그, 비디오 임베드, 앵커 및 알려진 렌더링 함수와 같은 페이지를 만들거나 편집할 때마다 이 기술을 사용합니다. 출처: https://experienceleague.adobe.com/ko/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
