@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 시스템 요구 사항
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 0250b1ff7cba48ff8d2909e01ccc4618aa4708a3
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '873'
 ht-degree: 0%
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ### Windows
 
-|             | 최소 | 권장 | 최적 |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  | 최소 | 권장 | 최적 |
+| --- | --- | --- | --- |
 | **OS** | Windows 11 64비트 버전 23H2 | Windows 11 64비트 버전 24H1 | Windows 11 64비트 버전 24H2 |
 | **CPU** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
 | **GPU** | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Ada Generation<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
@@ -35,19 +35,23 @@ ht-degree: 0%
 
 ### macOS
 
-|             | 최소 | 권장 | 최적 |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **OS** | macOS 소노마 | macOS 타호 | macOS 타호 |
+|  | 최소 | 권장 | 최적 |
+| --- | --- | --- | --- |
+| **OS** | macOS 세쿼이아 | macOS 골든 게이트 | macOS 골든 게이트 |
 | **CPU** | Apple | Apple | Apple M4 Pro |
 | **GPU** | Apple | Apple | Apple M4 Pro |
 | **RAM** | 16GB | 32GB | 64GB |
 | **저장소** | 30GB의 사용 가능한 공간이 있는 SSD | 50GB의 사용 가능한 공간이 있는 SSD | 70GB의 사용 가능한 공간이 있는 SSD |
 
+>[!WARNING]
+>
+> [VFX 참조 플랫폼](https://vfxplatform.com/)을(를) 염두에 두고 빌드된 파이프라인의 경우 Substance 3D Designer을 macOS 14 Sonoma에 계속 설치할 수 있습니다. 그러나 Designer은 최소 시스템 요구 사항 미만의 OS 버전에서 더 이상 테스트되지 않으므로 안정성이 보장되지 않습니다. 최신 OS 버전으로 업데이트하는 것이 좋습니다.
+
 ### 리눅스
 
 | 기업 | 증기 |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## 일반 권장 사항
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 >[!TIP]
 >
 > **TDR(Windows만 해당)**
-> 
+>
 > 복잡한 그래프 렌더링, 3D 보기에서 렌더링, 3D 보기에서 장면 내보내기 등과 같이 GPU에서 많은 계산을 수행하는 동안 최상의 전반적인 안정성을 위해 **시간 초과 감지 및 복구(TDR)** 값이 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 사항과 일치하는지 확인하는 것이 좋습니다.
 
 ## 지원되지 않는 구성
@@ -103,7 +107,7 @@ ht-degree: 0%
 새 드라이버를 다운로드하려면 [GPU에 오래된 드라이버가 있음](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)을 참조하십시오.
 
 | OS | NVIDIA | AMD | Intel |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
+| --- | --- | --- | --- |
 | **Windows** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
 | **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | 지원되지 않음 |
 
