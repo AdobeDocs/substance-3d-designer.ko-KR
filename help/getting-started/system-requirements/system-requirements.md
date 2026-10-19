@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/kr/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ""
 description: Substance 3D Designer의 시스템 요구 사항을 검토하여 컴퓨터가 필요한 사양을 충족하는지 확인하십시오.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 시스템 요구 사항
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 0250b1ff7cba48ff8d2909e01ccc4618aa4708a3
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '873'
 ht-degree: 0%
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ### Windows
 
-|             | 최소 | 권장 | 최적 |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  | 최소 | 권장 | 최적 |
+| --- | --- | --- | --- |
 | **OS** | Windows 11 64비트 버전 23H2 | Windows 11 64비트 버전 24H1 | Windows 11 64비트 버전 24H2 |
 | **CPU** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
 | **GPU** | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Ada Generation<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
@@ -35,25 +35,29 @@ ht-degree: 0%
 
 ### macOS
 
-|             | 최소 | 권장 | 최적 |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **OS** | macOS 소노마 | macOS 타호 | macOS 타호 |
+|  | 최소 | 권장 | 최적 |
+| --- | --- | --- | --- |
+| **OS** | macOS 세쿼이아 | macOS 골든 게이트 | macOS 골든 게이트 |
 | **CPU** | Apple | Apple | Apple M4 Pro |
 | **GPU** | Apple | Apple | Apple M4 Pro |
 | **RAM** | 16GB | 32GB | 64GB |
 | **저장소** | 30GB의 사용 가능한 공간이 있는 SSD | 50GB의 사용 가능한 공간이 있는 SSD | 70GB의 사용 가능한 공간이 있는 SSD |
 
+>[!WARNING]
+>
+> [VFX 참조 플랫폼](https://vfxplatform.com/)을(를) 염두에 두고 빌드된 파이프라인의 경우 Substance 3D Designer을 macOS 14 Sonoma에 계속 설치할 수 있습니다. 그러나 Designer은 최소 시스템 요구 사항 미만의 OS 버전에서 더 이상 테스트되지 않으므로 안정성이 보장되지 않습니다. 최신 OS 버전으로 업데이트하는 것이 좋습니다.
+
 ### 리눅스
 
 | 기업 | 증기 |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## 일반 권장 사항
 
 * 편안한 환경에서 작업하려면 해상도가 1메가픽셀보다 크고 1280픽셀보다 넓은 모니터를 사용하는 것이 좋습니다.
 * 대부분의 Substance 앱은 RHEL8/9 호환을 위해 OpenSSL 1.1.1을 사용합니다. 최신 OpenSSL 버전을 사용하는 시스템의 경우 수동으로 제공해야 합니다.
-* ***macOS 10.15 Catalina**&#x200B;에서 실행하기 위해* 버전 **2019.x** 이상만 공증되었습니다.
+* ***macOS 10.15 Catalina**에서 실행하기 위해* 버전 **2019.x** 이상만 공증되었습니다.
 * OpenGL 3.3 컨텍스트를 사용할 수 있는 경우 **원격 데스크톱** 연결이 가능합니다. OpenGL 1.4 컨텍스트만 제공하므로 **Nvidia Quadro**&#x200B;에서는 작동하지만 Nvidia GeForce에서는 *작동 안 함*&#x200B;입니다. 문제가 있는 경우 **VNC/Teamviewer**&#x200B;와 같은 대체 솔루션을 사용하는 것이 좋습니다.
 * **Steam** 버전 사용자는 Designer의 **Steam 오버레이**&#x200B;를 *비활성화*&#x200B;해야 합니다. 활성 시 성능 문제가 발생할 수 있습니다.
 
@@ -69,8 +73,8 @@ ht-degree: 0%
 >[!TIP]
 >
 > **TDR(Windows만 해당)**
-> 
-> 복잡한 그래프 렌더링, 3D 보기에서 렌더링, 3D 보기에서 장면 내보내기 등과 같이 GPU에서 많은 계산을 수행하는 동안 최상의 전반적인 안정성을 위해 **시간 초과 감지 및 복구(TDR)** 값이 설명서의 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 사항과 일치하는지 확인하는 것이 좋습니다.
+>
+> 복잡한 그래프 렌더링, 3D 보기에서 렌더링, 3D 보기에서 장면 내보내기 등과 같이 GPU에서 많은 계산을 수행하는 동안 최상의 전반적인 안정성을 위해 **시간 초과 감지 및 복구(TDR)** 값이 설명서의 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)의 권장 사항과 일치하는지 확인하는 것이 좋습니다.
 
 ## 지원되지 않는 구성
 
@@ -100,10 +104,10 @@ ht-degree: 0%
 
 다음은 응용 프로그램을 문제 없이 실행하는 데 필요한 최소 GPU 드라이버 버전 목록입니다. 이 목록은 새 버전 릴리스부터 변경될 수 있습니다.
 
-새 드라이버를 다운로드하려면 [GPU에 오래된 드라이버가 있음](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)을 참조하십시오.
+새 드라이버를 다운로드하려면 [GPU에 오래된 드라이버가 있음](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)을 참조하십시오.
 
 | OS | NVIDIA | AMD | Intel |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
+| --- | --- | --- | --- |
 | **Windows** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
 | **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | 지원되지 않음 |
 
@@ -117,7 +121,7 @@ Optix 또는 DXR을 통해 GPU 광선 추적을 활성화하려면 위에서 권
 
 **DXR**&#x200B;에는 다음과 같은 최소 구성이 필요합니다.
 
-* **Windows 10** 버전 1809에서 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/substance-3d/bakers/features/gpu-raytracing)를 참조하세요.
+* **Windows 10** 버전 1809에서 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)를 참조하세요.
 * **Pascal 아키텍처의 GPU**(Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -126,7 +130,7 @@ Optix 또는 DXR을 통해 GPU 광선 추적을 활성화하려면 위에서 권
 
 ## 태블릿 사용
 
-**Windows**&#x200B;의 태블릿 사용자는 다음 페이지에 설명된 설정을 적용하여 가장 안정적인 경험을 얻어야 합니다. [펜 및 태블릿 구성](https://experienceleague.adobe.com/ko/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
+**Windows**&#x200B;의 태블릿 사용자는 다음 페이지에 설명된 설정을 적용하여 가장 안정적인 경험을 얻어야 합니다. [펜 및 태블릿 구성](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## 언어
 
