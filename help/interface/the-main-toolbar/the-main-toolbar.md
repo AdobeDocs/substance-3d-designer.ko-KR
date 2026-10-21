@@ -171,4 +171,4 @@ ht-degree: 2%
 
 <b>Substance 3D Designer 정보...:</b> 버전 번호와 같은 응용 프로그램 및 해당 구성 요소에 대한 정보를 표시합니다.
 
-\*: 이러한 옵션은 [Adobe Creative Cloud 데스크탑](https://creativecloud.adobe.com/en/apps/download/creative-cloud)을(를) 통해 설치된 Designer 버전에서만 사용할 수 있으며, 여기에는 [Substance 3D 구독](https://www.adobe.com/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar)이 필요합니다.
+\*: 이러한 옵션은 [Adobe Creative Cloud 데스크탑](https://creativecloud.adobe.com/en/apps/download/creative-cloud)을(를) 통해 설치된 Designer 버전에서만 사용할 수 있으며, 여기에는 [Substance 3D 구독](https://www.adobe.com/kr/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar)이 필요합니다.
