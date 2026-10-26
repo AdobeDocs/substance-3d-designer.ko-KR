@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # 도도
 
@@ -13,6 +13,7 @@ ht-degree: 5%
 
 ## 추가
 
+* 단축키: macOS용 터치패드 단축키 추가
 * AdobeDocs의 Python API 설명서 진입점
 * &#39;설명서 팝업&#39; 페이지의 예
 * 용어집:
@@ -36,6 +37,9 @@ ht-degree: 5%
 * DESIGNER-11866: 톤 매핑 함수
 * DESIGNER-10655: 픽셀 프로세서 및 FX-Maps용 샘플 프로젝트에 예제 + 참조 추가
 
+## 변경 사항
+
+* [WIP] &#39;키보드 단축키&#39; 페이지 업데이트 및 완료
 
 ## 수정 사항
 
@@ -51,7 +55,7 @@ ht-degree: 5%
 
 - SBS 파일 다운로드 차단(질문 [여기](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)) 이해
 - 공개적으로 게시하거나 ToC에 포함하지 않고 페이지를 실시간 테스트하는 방법 이해
-- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/ko/tools/campaign-error-codes))
+- 샘플 목록에 대한 탐색기 필터링 옵션: Microsite? ([예](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
 - 빌드 샘플 항목 자동화
   - 파일에서 메타데이터 인제스트 (JSON, YAML, ...)
   - 인라인 썸네일(확대하려면 클릭)
