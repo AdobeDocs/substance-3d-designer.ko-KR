@@ -1,8 +1,8 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '243'
+ht-degree: 4%
 ---
 # 도도
 
@@ -13,6 +13,7 @@ ht-degree: 5%
 
 ## 추가
 
+* 단축키: macOS용 터치패드 단축키 추가
 * AdobeDocs의 Python API 설명서 진입점
 * &#39;설명서 팝업&#39; 페이지의 예
 * 용어집:
@@ -36,6 +37,9 @@ ht-degree: 5%
 * DESIGNER-11866: 톤 매핑 함수
 * DESIGNER-10655: 픽셀 프로세서 및 FX-Maps용 샘플 프로젝트에 예제 + 참조 추가
 
+## 변경 사항
+
+* [WIP] &#39;키보드 단축키&#39; 페이지 업데이트 및 완료
 
 ## 수정 사항
 
